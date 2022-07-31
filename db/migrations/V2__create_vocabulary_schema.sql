@@ -1,86 +1,68 @@
 --
 -- VOCABULARY
 --
--- Vocabulary comes in various forms, such as nounds, verbs (with conjugation),
--- and phrases. Additionally, vocabulary can be used in any combination of
--- hirigana, katakana, and kanji (or for phrases, a mixture).
---
--- Thus we establish the following:
--- 1. For every vocabulary, we have a core record.
--- 2. We have multiple forms attached via auxiliary records.
--- 3. Each vocabulary word has a selected preferred form.
--- 
 
 create schema vocabulary;
 
 --noun, verb, adjective, adverb, interjection, phrase
 create table vocabulary.word_class (
-    code varchar not null primary key,
-    label varchar not null
+    code varchar primary key,
+    label text not null
 );
 
 --e.g. ru_verb, u_verb, i_adjective, irregular_verb
 create table vocabulary.conjugation_kind (
-    code varchar not null primary key,
-    label varchar not null,
+    code varchar primary key,
+    label text not null,
     word_class_code varchar not null references vocabulary.word_class(code)
 );
 
---en_EN or jn_JP
-create table vocabulary.language (
-    code varchar not null primary key,
-    label varchar not null
-);
-
 --hirigana, katakana, kanji, latin, mixed
-create table vocabulary.form_kind (
-    code varchar not null primary key,
-    label varchar not null
+create table vocabulary.spelling_kind (
+    code varchar primary key,
+    label text not null
 );
 
 create table vocabulary.vocabulary (
-    id uuid not null primary key,
+    id uuid primary key,
 
     word_class_code varchar not null references vocabulary.word_class(code),
-    conjugation_kind_code varchar not null references vocabulary.conjugation_kind(code),
+    conjugation_kind_code varchar references vocabulary.conjugation_kind(code),
 
     jlpt_level int,
     tags varchar[] not null default '{}'
 );
 create index on vocabulary.vocabulary using gin (tags);
 
-create table vocabulary.forms (
-    id uuid not null primary key,
+create table vocabulary.definition (
+    id uuid primary key,
     vocabulary_id uuid not null references vocabulary.vocabulary(id),
-
-    kind varchar not null references vocabulary.form_kind(code),
-    language_code varchar not null references vocabulary.language(code),
-
+    rank int not null default 0,
     value text not null
 );
-create unique index on vocabulary.forms(vocabulary_id);
-create index on vocabulary.forms(value);
-create index on vocabulary.forms (language_code, value);
+create index on vocabulary.definition(vocabulary_id);
+create index on vocabulary.definition(value);
 
--- TODO: Consider alternate:
--- 1. forms don't have a reference to vocabulary_id
--- 2. vocabulary has the preferred ID linkages on it.
--- 3. alternate forms use postgres array, which allows for ordering.
---
--- Downsides:
--- - Searching forms doesn't give me the related vocabulary without complex joins
--- - No foreign key constraints.
--- - Possible many-to-many form linkage.
--- Upsides:
--- - Less tables to do basic operations.
--- - Easier to quickly grab the right forms because less joining.
--- - Ensures key forms is defined.
-create table vocabulary.key_forms (
-    id uuid not null primary key,
-    vocabulary_id uuid not null unique references vocabulary.vocabulary(id),
-
-    english_form_id uuid not null references vocabulary.forms(id),
-    japanese_preferred_form_id uuid not null references vocabulary.forms(id),
-    japanese_phonetic_form_id uuid not null references vocabulary.forms(id)
+create table vocabulary.spelling (
+    id uuid primary key,
+    vocabulary_id uuid not null references vocabulary.vocabulary(id),
+    spelling_kind_code varchar not null references vocabulary.spelling_kind(code),
+    value text not null
 );
-create index on vocabulary.key_forms(vocabulary_id);
+create index on vocabulary.spelling(vocabulary_id);
+create index on vocabulary.spelling(value);
+create index on vocabulary.spelling(spelling_kind_code, value);
+
+create unique index on vocabulary.definition(vocabulary_id, id);
+create unique index on vocabulary.spelling(vocabulary_id, id);
+create table vocabulary.linkages (
+  vocabulary_id uuid not null unique references vocabulary.vocabulary(id),
+
+  preferred_definition uuid not null,
+  preferred_spelling uuid not null,
+  phonetic_spelling uuid not null,
+
+  foreign key (vocabulary_id, preferred_definition) references vocabulary.definition(vocabulary_id, id),
+  foreign key (vocabulary_id, preferred_spelling) references vocabulary.spelling(vocabulary_id, id),
+  foreign key (vocabulary_id, phonetic_spelling) references vocabulary.spelling(vocabulary_id, id)
+);
