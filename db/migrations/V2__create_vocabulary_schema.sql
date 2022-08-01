@@ -17,7 +17,7 @@ create table vocabulary.conjugation_kind (
     word_class_code varchar not null references vocabulary.word_class(code)
 );
 
---hirigana, katakana, kanji, latin, mixed
+--hirigana, katakana, kanji, latin
 create table vocabulary.spelling_kind (
     code varchar primary key,
     label text not null
@@ -29,8 +29,9 @@ create table vocabulary.vocabulary (
     word_class_code varchar not null references vocabulary.word_class(code),
     conjugation_kind_code varchar references vocabulary.conjugation_kind(code),
 
-    jlpt_level int,
-    tags varchar[] not null default '{}'
+    jlpt_level int default null,
+    tags varchar[] not null default '{}',
+    sort_rank int -- Used to give predictable, controllable ordering for spreadsheets and CSVs; can be changed!
 );
 create index on vocabulary.vocabulary using gin (tags);
 
