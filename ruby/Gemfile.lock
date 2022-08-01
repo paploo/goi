@@ -1,13 +1,19 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    moji (1.6)
+    mojinizer (0.2.2)
+      moji (~> 1.6)
     sequel (5.58.0)
+    uuidtools (2.1.5)
 
 PLATFORMS
   arm64-darwin-21
 
 DEPENDENCIES
+  mojinizer (~> 0.2.2)
   sequel (~> 5.58.0)
+  uuidtools (~> 2.1.5)
 
 BUNDLED WITH
    2.3.7
