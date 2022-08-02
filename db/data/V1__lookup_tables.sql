@@ -3,7 +3,7 @@
 ---
 INSERT INTO vocabulary.word_class (code, label) VALUES ('NOUN', 'Noun');
 INSERT INTO vocabulary.word_class (code, label) VALUES ('PROPER_NOUN', 'Proper Noun');
-INSERT INTO vocabulary.word_class (code, label) VALUES ('PRNOUN', 'Pronoun');
+INSERT INTO vocabulary.word_class (code, label) VALUES ('PRONOUN', 'Pronoun');
 INSERT INTO vocabulary.word_class (code, label) VALUES ('ADJECTIVE', 'Adjective');
 INSERT INTO vocabulary.word_class (code, label) VALUES ('VERB', 'Verb');
 INSERT INTO vocabulary.word_class (code, label) VALUES ('ADVERB', 'Adverb');

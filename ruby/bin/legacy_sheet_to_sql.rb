@@ -23,7 +23,7 @@ class Application
     def run
         puts file
         rows = CSV.read(file, headers: true)
-        rows = [0, 6, 9, 19, 31, 37, 38, 61, 211, 212].map { |i| rows[i] }
+        #rows = [0, 6, 9, 19, 31, 37, 38, 61,156, 211, 212].map { |i| rows[i] }
         data = CSVReadConverter.new().convert(rows)
         PP.pp(data)
     end
@@ -46,6 +46,7 @@ class CSVReadConverter
     WORD_CLASS_MAP = {
         'Noun' => 'NOUN',
         'Proper Noun' => 'PROPER_NOUN',
+        'Pronoun' => 'PRONOUN',
         'Adjective' => 'ADJECTIVE',
         'Verb' => 'VERB',
         'Adverb' => 'ADVERB',
@@ -79,7 +80,7 @@ class CSVReadConverter
             conjugation_kind_code = conjugation_code,
             sort_rank = row[SORT_RANK_KEY].clean.to_i,
             tags = parse_tags(row[TAGS_KEY].clean),
-            references = nil
+            references = classify_references(row[GENKI_LESSON_KEY].clean, row[DUO_LESSON_KEY].clean, row[LULILANGUAGE_LESSON_KEY].clean)
         )
     end
 
@@ -108,11 +109,21 @@ class CSVReadConverter
     # To have one be phonetic and the other an alternate
     def classify_spellings(japanese, phonetic, is_kana_preferred)
         raise RuntimeError.new("Expected Japanese value") if japanese.nil?
+
+        # A few phonetic entries used `／` to give multiple kana spellings
+        phonetic, *alternates = phonetic && split_multiple_spellings(phonetic)
+
+        alt_sp = alternates.map { |a| parse_spelling(a) }
+
         if (is_kana_preferred)
-            [parse_spelling(phonetic), parse_spelling(phonetic), [parse_spelling(japanese)]]
+            [parse_spelling(phonetic), parse_spelling(phonetic), [parse_spelling(japanese)].concat(alt_sp)]
         else
-            [parse_spelling(japanese), parse_spelling(phonetic), []]
+            [parse_spelling(japanese), parse_spelling(phonetic), alt_sp]
         end
+    end
+
+    def split_multiple_spellings(string)
+        string.split('／')
     end
 
     def classify_word(value)
@@ -142,6 +153,29 @@ class CSVReadConverter
         raw_tags && raw_tags.split(/,?\s+/).reject do |tag|
             CONJUGATION_TYPE_MAP.keys.include?(tag)
         end || []
+    end
+
+    def classify_references(genki_raw, duo_raw, luli_raw)
+        [
+            genki_raw && parse_genki_ref(genki_raw),
+            duo_raw && parse_duo_ref(duo_raw),
+            luli_raw && parse_luli_ref(luli_raw)
+        ].compact
+    end
+
+    def parse_genki_ref(genki_raw)
+        raise RuntimeError.new("Unknown genki ref: #{genki_raw}") unless genki_raw =~ /^L\d\d$/
+        'GENKI3_' + genki_raw
+    end
+
+    def parse_duo_ref(duo_raw)
+        lesson = duo_raw.split(/\s+/)[0].tr('-', '_')
+        raise RuntimeError.new("Unknown duo ref: #{lesson_ref}") unless lesson =~ /^\d\d_\d\d$/
+        'DUO_' + lesson
+    end
+
+    def parse_luli_ref(luli_raw)
+        raise RuntimeError.new("Unknown luli ref: #{luli_raw}")
     end
 
 end
@@ -192,7 +226,8 @@ class Spelling
     KIND_EXCEPTIONS = {
         'あまり + negative' => 'HIRIGANA',
         '全然 + negative' => 'KANJI',
-        'ぜんぜん + negative' => 'HIRIGANA'
+        'ぜんぜん + negative' => 'HIRIGANA',
+        'Ｔシャツ' => 'KATAKANA'
     }
 
     def self.determine_kind(string)
