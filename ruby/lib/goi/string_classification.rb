@@ -25,7 +25,7 @@ class String
 
   def hiragana?
     chars.all? do |c|
-      Goi::StringClassification.hirigana?(c) || Goi::StringClassification.jp_punct?(c)
+      Goi::StringClassification.hiragana?(c) || Goi::StringClassification.jp_punct?(c)
     end
   end
 

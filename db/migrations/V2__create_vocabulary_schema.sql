@@ -17,7 +17,7 @@ create table vocabulary.conjugation_kind (
     word_class_code varchar not null references vocabulary.word_class(code)
 );
 
---hirigana, katakana, kanji, latin
+--hiragana, katakana, kanji, latin
 create table vocabulary.spelling_kind (
     code varchar primary key,
     label text not null
