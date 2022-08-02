@@ -61,7 +61,7 @@ create table vocabulary.linkages (
 
   preferred_definition uuid not null,
   preferred_spelling uuid not null,
-  phonetic_spelling uuid not null,
+  phonetic_spelling uuid not null, --techhically this is the kana_spelling, but this name expresses intent over encoding.
 
   foreign key (vocabulary_id, preferred_definition) references vocabulary.definition(vocabulary_id, id),
   foreign key (vocabulary_id, preferred_spelling) references vocabulary.spelling(vocabulary_id, id),

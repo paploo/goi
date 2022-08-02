@@ -4,6 +4,14 @@ require 'pp'
 
 require File.expand_path( File.join( File.dirname(__FILE__), '..', 'lib', 'goi' ) )
 
+#
+# This application is a one-off for parsing my existing vocabulary spreadsheet
+# into INSERT statements for the standardized data store.
+#
+# The plan is to replace the spreadsheet with one whsoe schema more trivially
+# matches, allowing for a script that can easily read the file to idempotently
+# create or update the appropriate table rows.
+#
 class Application
 
     def initialize(file)
@@ -69,6 +77,7 @@ class CSVReadConverter
             auxiliary_spellings = aux,
             word_class_code = word_class,
             conjugation_kind_code = conjugation_code,
+            sort_rank = row[SORT_RANK_KEY].clean.to_i,
             tags = parse_tags(row[TAGS_KEY].clean),
             references = nil
         )
@@ -139,19 +148,20 @@ end
 
 class Vocabulary
 
-    def initialize(definition, preferred_spelling, phonetic_spelling, auxiliary_spellings, word_class_code, conjugation_kind_code, tags, references)
+    def initialize(definition, preferred_spelling, phonetic_spelling, auxiliary_spellings, word_class_code, conjugation_kind_code, sort_rank, tags, references)
         @definition = definition
         @preferred_spelling = preferred_spelling
         @phonetic_spelling = phonetic_spelling
         @auxiliary_spellings = auxiliary_spellings
         @word_class_code = word_class_code
-        @conjugation_kind_code = conjugation_kind_code
+        @conjugation_kind_code = conjugation_kind_code,
+        @sort_rank = sort_rank
         @tags = tags
         @references = references
     end
 
     attr_reader :definition, :preferred_spelling, :phonetic_spelling, :auxiliary_spellings
-    attr_reader :word_class_code, :conjugation_kind_code, :tags, :references
+    attr_reader :word_class_code, :conjugation_kind_code, :sort_rank, :tags, :references
 
     def id
         Goi::EntityIDTools.vocabulary_uuid(pre)
@@ -186,11 +196,11 @@ class Spelling
     }
 
     def self.determine_kind(string)
-        if(string.is_hirigana?)
+        if(string.hirigana?)
             'HIRIGANA'
-        elsif(string.is_katakana?)
+        elsif(string.katakana?)
             'KATAKANA'
-        elsif(string.chars.any?(&:is_kanji?) )
+        elsif(string.chars.any?(&:kanji?) )
             'KANJI'
         elsif(KIND_EXCEPTIONS.has_key?(string))
             KIND_EXCEPTIONS[string]
