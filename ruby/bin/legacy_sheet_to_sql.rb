@@ -3,6 +3,7 @@ require 'pathname'
 require 'pp'
 
 require_relative '../lib/goi'
+require_relative '../lib/goi/sqlize'
 
 #
 # This application is a one-off for parsing my existing vocabulary spreadsheet
@@ -15,17 +16,29 @@ require_relative '../lib/goi'
 class Application
 
   def initialize(file)
-    self.file = file
+    @file = file
+    @csv_converter = CSVReadConverter.new
+    @sql_converter = SQLWriteConverter.new
   end
 
-  attr_accessor :file
+  attr_reader :file, :csv_converter, :sql_converter
 
   def run
     puts file
     rows = CSV.read(file, headers: true)
-    # rows = [0, 6, 9, 19, 31, 37, 38, 61,156, 211, 212].map { |i| rows[i] }
-    data = CSVReadConverter.new.convert(rows)
-    PP.pp(data)
+    rows = [0, 6, 9, 19, 31, 37, 38, 61, 156, 211, 212, 224].map { |i| rows[i] }
+
+    data = csv_converter.convert(rows)
+    sql_groups = sql_converter.convert(data)
+
+    pairs = data.zip(sql_groups)
+    pairs.each do |v, group|
+      puts('')
+      puts("-- #{v.preferred_spelling.value} /  #{v.definition.value}")
+      group.each do |line|
+        puts(line)
+      end
+    end
   end
 
 end
@@ -180,20 +193,50 @@ class CSVReadConverter
 
 end
 
-class SQLWRiteConverter
+class SQLWriteConverter
 
   def convert(vocab)
-    vocab.map { |v| convert_row(v) }
+    vocab.map { |v| convert_vocab(v) }
   end
 
   def convert_vocab(vocab)
-    nil
+    [
+      vocab_sql(vocab),
+      definition_sql(vocab.definition)
+    ].concat(
+      all_spellings_sql(vocab.spellings)
+    ).concat(
+      [linkages_sql(vocab)]
+    ).concat(
+      references_sql(vocab.references)
+    )
   end
 
   private
 
-  def todo
-    nil
+  def vocab_sql(vocab)
+    id = vocab.id.sqlize
+    word_class_code = vocab.word_class_code.sqlize
+    conjugation_type_code = vocab.conjugation_kind_code.sqlize
+    rank = vocab.sort_rank.sqlize
+    tags = vocab.tags.sqlize  # TODO: Need a formatter for arrays of strings that has single quotes on it so can be used with nullable
+    "insert into vocabulary.vocabulary (id, word_class_code, conjugation_kind_code, jlpt_level, tags) values (#{id}, #{word_class_code}, #{conjugation_type_code}, #{rank}, #{tags});"
+  end
+
+  def definition_sql(definition)
+    definition && 'def'
+  end
+
+  def all_spellings_sql(spellings)
+    spellings.map { |sp| 'sp' }
+  end
+
+  def linkages_sql(link)
+    'links'
+  end
+
+  def references_sql(refs)
+    refs.map { |ref| 'ref' }
   end
 
 end
@@ -207,15 +250,15 @@ class Vocabulary
     @auxiliary_spellings = auxiliary_spellings
     @word_class_code = word_class_code
     @conjugation_kind_code = conjugation_kind_code
-    @sort_rank = sort_rank,
-    @tags = tags,
+    @sort_rank = sort_rank
+    @tags = tags
     @references = references
   end
 
   attr_reader :definition, :preferred_spelling, :phonetic_spelling, :auxiliary_spellings, :word_class_code, :conjugation_kind_code, :sort_rank, :tags, :references
 
   def id
-    Goi::EntityIDTools.vocabulary_uuid(pre)
+    @id ||= Goi::EntityIDTools.vocabulary_uuid(preferred_spelling.value)
   end
 
   def spellings
@@ -233,7 +276,7 @@ class Definition
   attr_reader :value
 
   def id
-    Goi::EntityIDTools.definition_uuid(value)
+    @id ||= Goi::EntityIDTools.definition_uuid(value)
   end
 
 end
@@ -269,7 +312,7 @@ class Spelling
   attr_reader :value, :kind
 
   def id
-    Goi::EntityIDTools.spelling_uuid(value)
+    @id ||= Goi::EntityIDTools.spelling_uuid(value)
   end
 
 end
