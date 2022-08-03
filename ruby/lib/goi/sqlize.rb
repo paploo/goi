@@ -13,6 +13,7 @@ class NilClass
 end
 
 class Array
+  #TODO: Don't put a cast here! Put it in the script!
   def sqlize(cast = 'varchar[]') = "ARRAY[#{map(&:sqlize).join(', ')}]::#{cast}"
 end
 
