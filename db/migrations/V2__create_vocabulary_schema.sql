@@ -59,11 +59,17 @@ create unique index on vocabulary.spelling(vocabulary_id, id);
 create table vocabulary.linkages (
   vocabulary_id uuid not null unique references vocabulary.vocabulary(id),
 
-  preferred_definition uuid not null,
-  preferred_spelling uuid not null,
-  phonetic_spelling uuid not null, --techhically this is the kana_spelling, but this name expresses intent over encoding.
+  preferred_definition_id uuid not null,
 
-  foreign key (vocabulary_id, preferred_definition) references vocabulary.definition(vocabulary_id, id),
-  foreign key (vocabulary_id, preferred_spelling) references vocabulary.spelling(vocabulary_id, id),
-  foreign key (vocabulary_id, phonetic_spelling) references vocabulary.spelling(vocabulary_id, id)
+  -- One spelling may be referenced in multiple links, wherever it is applicable.
+  preferred_spelling_id uuid not null,
+  phonetic_spelling_id uuid not null, --techhically this is the kana_spelling, but this name expresses intent over encoding.
+  alt_phonetic_spelling_id uuid default null, --This handles some cases like number kanji and 何.
+  kanji_spelling_id uuid default null,
+
+  foreign key (vocabulary_id, preferred_definition_id) references vocabulary.definition(vocabulary_id, id),
+  foreign key (vocabulary_id, preferred_spelling_id) references vocabulary.spelling(vocabulary_id, id),
+  foreign key (vocabulary_id, phonetic_spelling_id) references vocabulary.spelling(vocabulary_id, id),
+  foreign key (vocabulary_id, alt_phonetic_spelling_id) references vocabulary.spelling(vocabulary_id, id),
+  foreign key (vocabulary_id, kanji_spelling_id) references vocabulary.spelling(vocabulary_id, id)
 );

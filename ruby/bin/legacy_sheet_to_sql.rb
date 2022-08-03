@@ -268,7 +268,7 @@ class SQLWriteConverter
   def linkages_sql(vocab)
     insert_sql(
       'vocabulary.linkages',
-      [:vocabulary_id, :preferred_definition, :preferred_spelling, :phonetic_spelling],
+      [:vocabulary_id, :preferred_definition_id, :preferred_spelling_id, :phonetic_spelling_id],
       [vocab.id, vocab.definition.id, vocab.preferred_spelling.id, vocab.phonetic_spelling.id]
     )
   end
@@ -423,5 +423,5 @@ module EntityIDTools
 
 end
 
-file = File.expand_path(File.join(File.dirname(__FILE__), '..', '..', 'tmp', 'vocab.csv'))
+file = File.expand_path(File.join(File.dirname(__FILE__), '..', '..', 'files', 'legacy_vocab.csv'))
 Application.new(file).run
