@@ -13,8 +13,11 @@ class NilClass
 end
 
 class Array
-  #TODO: Don't put a cast here! Put it in the script!
-  def sqlize(cast = 'varchar[]') = "ARRAY[#{map(&:sqlize).join(', ')}]::#{cast}"
+  def sqlize(cast: nil)
+    sql = "ARRAY[#{map(&:sqlize).join(', ')}]"
+    puts cast
+    cast.nil? ? sql : "#{sql}::#{cast}"
+  end
 end
 
 module UUIDTools

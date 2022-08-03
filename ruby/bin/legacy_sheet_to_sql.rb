@@ -239,10 +239,10 @@ class SQLWriteConverter
   private
 
   def vocab_sql(vocab)
-    insert_sql(
+    insert_raw_values_sql(
       'vocabulary.vocabulary',
       [:id, :word_class_code, :conjugation_kind_code, :row_num, :tags],
-      [vocab.id, vocab.word_class_code, vocab.conjugation_kind_code, vocab.row_num, vocab.tags]
+      [vocab.id.sqlize, vocab.word_class_code.sqlize, vocab.conjugation_kind_code.sqlize, vocab.row_num.sqlize, vocab.tags.sqlize(cast = 'varchar[]')]
     )
   end
 
@@ -286,6 +286,12 @@ class SQLWriteConverter
   def insert_sql(table_name, columns, values)
     col_list = "(#{columns.map(&:to_s).join(', ')})"
     val_list = "(#{values.map(&:sqlize).join(', ')})"
+    "insert into #{table_name} #{col_list} values #{val_list};"
+  end
+
+  def insert_raw_values_sql(table_name, columns, raw_values)
+    col_list = "(#{columns.map(&:to_s).join(', ')})"
+    val_list = "(#{raw_values.map(&:to_s).join(', ')})"
     "insert into #{table_name} #{col_list} values #{val_list};"
   end
 
