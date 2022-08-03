@@ -15,18 +15,22 @@ require_relative '../lib/goi/sqlize'
 #
 class Application
 
-  def initialize(file)
+  def initialize(file, test: false)
     @file = file
     @csv_converter = CSVReadConverter.new
     @sql_converter = SQLWriteConverter.new
     @out = STDOUT
+    @is_test = test
   end
 
   attr_reader :file, :csv_converter, :sql_converter, :out
 
+  def test? = @is_test
+
   def run
     rows = CSV.read(file, headers: true)
-    rows = [0, 6, 9, 19, 31, 37, 38, 61, 156, 211, 212, 224].map { |i| rows[i] }
+
+    rows = TEST_VALUES.map { |i| rows[i] } if test?
 
     data = csv_converter.convert(rows)
     sql_groups = sql_converter.convert(data)
@@ -40,6 +44,10 @@ class Application
       end
     end
   end
+
+  private
+
+  TEST_VALUES = [0, 6, 9, 19, 31, 37, 38, 61, 156, 211, 212, 224, 182, 183]
 
 end
 
@@ -82,10 +90,14 @@ class CSVReadConverter
   end
 
   def convert_row(row)
-    pref, phon, aux = classify_spellings(row[JAPANESE_KEY].clean, row[PHONETIC_KEY].clean, kana_preferred?(row))
+    entity_namespace = [row[JAPANESE_KEY].clean, row[ENGLISH_KEY].clean].join('|')
+    pref, phon, aux = parse_classified_spellings(
+      classify_spellings(row[JAPANESE_KEY].clean, row[PHONETIC_KEY].clean, kana_preferred?(row)),
+      entity_namespace
+    )
     word_class, conjugation_code = classify_word(row[WORD_CLASS_KEY].clean)
     Vocabulary.new(
-      parse_definition(row[ENGLISH_KEY].clean),
+      parse_definition(row[ENGLISH_KEY].clean, entity_namespace),
       pref,
       phon,
       aux,
@@ -103,12 +115,12 @@ class CSVReadConverter
     row[KANA_PREFERRED_KEY].clean.then { |s| s && s[0].downcase == 'y' }
   end
 
-  def parse_definition(value)
-    value && Definition.new(value)
+  def parse_definition(value, namespace)
+    value && Definition.new(value, namespace)
   end
 
-  def parse_spelling(value)
-    value && Spelling.new(value)
+  def parse_spelling(value, namespace)
+    value && Spelling.new(value, namespace)
   end
 
   # Rules for returning (jp, phonetic, [aux1, aux2, ...]):
@@ -124,19 +136,26 @@ class CSVReadConverter
     raise RuntimeError, 'Expected Japanese value but none given' if japanese.nil?
 
     # A few phonetic entries used `／` to give multiple kana spellings
-    phonetic, *alternates = phonetic && split_multiple_spellings(phonetic)
-
-    alt_sp = alternates.map { |a| parse_spelling(a) }
+    phonetic, *auxiliary = phonetic && split_multiple_spellings(phonetic)
 
     if !phonetic.nil? && !is_kana_preferred
-      [parse_spelling(japanese), parse_spelling(phonetic), alt_sp]
+      [japanese, phonetic, auxiliary]
     elsif !phonetic.nil? && is_kana_preferred
-      [parse_spelling(phonetic), parse_spelling(phonetic), [parse_spelling(japanese)].concat(alt_sp)]
+      [phonetic, phonetic, [japanese].concat(auxiliary)]
     elsif phonetic.nil? && !is_kana_preferred
-      [parse_spelling(japanese), parse_spelling(japanese), alt_sp]
+      [japanese, japanese, auxiliary]
     else
       raise RuntimeError, "Unexpected: requested preference for phonetic spelling but none is given for: #{japanese}"
     end
+  end
+
+  def parse_classified_spellings(classified_spellings, namespace)
+    preferred, phonetic, auxiliary = classified_spellings
+    [
+      parse_spelling(preferred, namespace),
+      parse_spelling(phonetic, namespace),
+      auxiliary.map { |s| parse_spelling(s, namespace)}
+    ]
   end
 
   def split_multiple_spellings(string)
@@ -239,7 +258,7 @@ class SQLWriteConverter
       raise "Missing spelling for #{vocabulary_id}: #{spellings}" if sp.nil?
       insert_sql(
         'vocabulary.spelling',
-        [:id, :vocabulary_id, :spelling_kind_ocde, :value],
+        [:id, :vocabulary_id, :spelling_kind_code, :value],
         [sp.id, vocabulary_id, sp.kind, sp.value]
       )
     end
@@ -299,14 +318,16 @@ end
 
 class Definition
 
-  def initialize(value)
+  def initialize(value, namespace)
     @value = value
+    @namespace = namespace
   end
 
   attr_reader :value
+  attr_reader :namespace
 
   def id
-    @id ||= Goi::EntityIDTools.definition_uuid(value)
+    @id ||= Goi::EntityIDTools.definition_uuid(namespace, value)
   end
 
 end
@@ -334,15 +355,16 @@ class Spelling
     end
   end
 
-  def initialize(value, kind = nil)
+  def initialize(value, namespace, kind = nil)
     @value = value
+    @namespace = namespace
     @kind = kind.nil? ? self.class.determine_kind(value) : kind
   end
 
-  attr_reader :value, :kind
+  attr_reader :value, :namespace, :kind
 
   def id
-    @id ||= Goi::EntityIDTools.spelling_uuid(value)
+    @id ||= Goi::EntityIDTools.spelling_uuid(namespace, value)
   end
 
 end

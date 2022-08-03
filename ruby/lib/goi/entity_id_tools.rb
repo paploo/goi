@@ -16,12 +16,12 @@ module Goi
       uuid5(VOCABULARY_NAMESPACE, vocab_word)
     end
 
-    def self.definition_uuid(definition_value)
-      uuid5(DEFINITION_NAMESPACE, definition_value)
+    def self.definition_uuid(definition_value, namespace)
+      uuid5(DEFINITION_NAMESPACE, [namespace, definition_value].join('|'))
     end
 
-    def self.spelling_uuid(spelling_value)
-      uuid5(SPELLING_NAMESPACE, spelling_value)
+    def self.spelling_uuid(spelling_value, namespace)
+      uuid5(SPELLING_NAMESPACE, [namespace, spelling_value].join('|'))
     end
 
   end

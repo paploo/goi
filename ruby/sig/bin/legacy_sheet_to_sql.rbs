@@ -77,7 +77,9 @@ class CSVReadConverter
   #
   # Also, we have a phonetic spelling with two variations with a slash, where we need
   # To have one be phonetic and the other an alternate
-  def classify_spellings: (String japanese, String? phonetic, bool is_kana_preferred) -> [Spelling, Spelling, [Spelling]]
+  def classify_spellings: (String japanese, String? phonetic, bool is_kana_preferred) -> [String, String, [String]]
+
+  def parse_classified_spellings: ([String, String, [String]] classified_spellings, String namespace) -> [Spelling, Spelling, [Spelling]]
 
   def split_multiple_spellings: (String string) -> [String]
 
@@ -145,9 +147,11 @@ class Vocabulary
 end
 
 class Definition
-  def initialize: (String value) -> void
+  def initialize: (String value, String namespace) -> void
 
   attr_reader value: String
+
+  attr_reader namespace: String
 
   def id: () -> UUIDTools::UUID
 end
@@ -157,9 +161,11 @@ class Spelling
 
   def self.determine_kind: (String string) -> String
 
-  def initialize: (String value, String? kind) -> void
+  def initialize: (String value, String namespace, String? kind) -> void
 
   attr_reader value: String
+
+  attr_reader namespace: String
 
   attr_reader kind: String
 

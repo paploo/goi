@@ -30,8 +30,8 @@ create table vocabulary.vocabulary (
     conjugation_kind_code varchar references vocabulary.conjugation_kind(code),
 
     jlpt_level int default null,
-    tags varchar[] not null default '{}',
-    row_num int -- Used to give predictable, controllable ordering for spreadsheets and CSVs; can be changed!
+    row_num int, -- Used to give predictable, controllable ordering for spreadsheets and CSVs; can be changed!
+    tags varchar[] not null default '{}'
 );
 create index on vocabulary.vocabulary using gin (tags);
 

@@ -1,7 +1,7 @@
 require 'uuidtools'
 
 class String
-  def sqlize = "'#{self}'"
+  def sqlize = "'#{gsub("'", "''")}'"
 end
 
 class Integer
@@ -13,7 +13,7 @@ class NilClass
 end
 
 class Array
-  def sqlize = "{#{map(&:sqlize).join(', ')}}"
+  def sqlize(cast = 'varchar[]') = "ARRAY[#{map(&:sqlize).join(', ')}]::#{cast}"
 end
 
 module UUIDTools
