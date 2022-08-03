@@ -19,12 +19,12 @@ class Application
     @file = file
     @csv_converter = CSVReadConverter.new
     @sql_converter = SQLWriteConverter.new
+    @out = STDOUT
   end
 
-  attr_reader :file, :csv_converter, :sql_converter
+  attr_reader :file, :csv_converter, :sql_converter, :out
 
   def run
-    puts file
     rows = CSV.read(file, headers: true)
     rows = [0, 6, 9, 19, 31, 37, 38, 61, 156, 211, 212, 224].map { |i| rows[i] }
 
@@ -33,10 +33,10 @@ class Application
 
     pairs = data.zip(sql_groups)
     pairs.each do |v, group|
-      puts('')
-      puts("-- #{v.preferred_spelling.value} /  #{v.definition.value}")
+      out.puts('')
+      out.puts("-- #{v.preferred_spelling.value} /  #{v.definition.value}")
       group.each do |line|
-        puts(line)
+        out.puts(line)
       end
     end
   end
@@ -51,7 +51,7 @@ class CSVReadConverter
   KANA_PREFERRED_KEY = 'Kana Preferred?'.freeze
   WORD_CLASS_KEY = 'Type'.freeze
   TAGS_KEY = 'Tags'.freeze
-  SORT_RANK_KEY = 'Index'.freeze
+  ROW_NUM_KEY = 'Index'.freeze
   GENKI_LESSON_KEY = 'Genki'.freeze
   DUO_LESSON_KEY = 'Duolingo'.freeze
   LULILANGUAGE_LESSON_KEY = 'Lulilanguage'.freeze
@@ -91,7 +91,7 @@ class CSVReadConverter
       aux,
       word_class,
       conjugation_code,
-      row[SORT_RANK_KEY].clean.to_i,
+      row[ROW_NUM_KEY].clean.to_i,
       parse_tags(row[TAGS_KEY].clean),
       classify_references(row[GENKI_LESSON_KEY].clean, row[DUO_LESSON_KEY].clean, row[LULILANGUAGE_LESSON_KEY].clean)
     )
@@ -111,27 +111,31 @@ class CSVReadConverter
     value && Spelling.new(value)
   end
 
-  # Rules for returning (preferrred, phonetic, [aux1, aux2, ...]):
+  # Rules for returning (jp, phonetic, [aux1, aux2, ...]):
   # jp is never nil/empty!
-  # (jp, phon, true) => (phon, phon, [jp])
   # (jp, phon, false) => (jp, phon, [])
+  # (jp, phon, true) => (phon, phon, [jp])
+  # (jp, nil, false) =>  (jp, jp, [])
   # (jp, nil, true) => !!doesn't happen!!
-  # (jp, nil, false) =>  (jp, phon, [])
   #
   # Also, we have a phonetic spelling with two variations with a slash, where we need
   # To have one be phonetic and the other an alternate
   def classify_spellings(japanese, phonetic, is_kana_preferred)
-    raise RuntimeError, 'Expected Japanese value' if japanese.nil?
+    raise RuntimeError, 'Expected Japanese value but none given' if japanese.nil?
 
     # A few phonetic entries used `／` to give multiple kana spellings
     phonetic, *alternates = phonetic && split_multiple_spellings(phonetic)
 
     alt_sp = alternates.map { |a| parse_spelling(a) }
 
-    if is_kana_preferred
-      [parse_spelling(phonetic), parse_spelling(phonetic), [parse_spelling(japanese)].concat(alt_sp)]
-    else
+    if !phonetic.nil? && !is_kana_preferred
       [parse_spelling(japanese), parse_spelling(phonetic), alt_sp]
+    elsif !phonetic.nil? && is_kana_preferred
+      [parse_spelling(phonetic), parse_spelling(phonetic), [parse_spelling(japanese)].concat(alt_sp)]
+    elsif phonetic.nil? && !is_kana_preferred
+      [parse_spelling(japanese), parse_spelling(japanese), alt_sp]
+    else
+      raise RuntimeError, "Unexpected: requested preference for phonetic spelling but none is given for: #{japanese}"
     end
   end
 
@@ -202,67 +206,93 @@ class SQLWriteConverter
   def convert_vocab(vocab)
     [
       vocab_sql(vocab),
-      definition_sql(vocab.definition)
+      definition_sql(vocab.definition, vocab.id)
     ].concat(
-      all_spellings_sql(vocab.spellings)
+      all_spellings_sql(vocab.spellings, vocab.id)
     ).concat(
       [linkages_sql(vocab)]
     ).concat(
-      references_sql(vocab.references)
+      references_sql(vocab.reference_codes, vocab.id)
     )
   end
 
   private
 
   def vocab_sql(vocab)
-    id = vocab.id.sqlize
-    word_class_code = vocab.word_class_code.sqlize
-    conjugation_type_code = vocab.conjugation_kind_code.sqlize
-    rank = vocab.sort_rank.sqlize
-    tags = vocab.tags.sqlize  # TODO: Need a formatter for arrays of strings that has single quotes on it so can be used with nullable
-    "insert into vocabulary.vocabulary (id, word_class_code, conjugation_kind_code, jlpt_level, tags) values (#{id}, #{word_class_code}, #{conjugation_type_code}, #{rank}, #{tags});"
+    insert_sql(
+      'vocabulary.vocabulary',
+      [:id, :word_class_code, :conjugation_kind_code, :row_num, :tags],
+      [vocab.id, vocab.word_class_code, vocab.conjugation_kind_code, vocab.row_num, vocab.tags]
+    )
   end
 
-  def definition_sql(definition)
-    definition && 'def'
+  def definition_sql(definition, vocabulary_id)
+    definition && insert_sql(
+      'vocabulary.definition',
+      [:id, :vocabulary_id, :sort_rank, :value],
+      [definition.id, vocabulary_id, 0, definition.value]
+    )
   end
 
-  def all_spellings_sql(spellings)
-    spellings.map { |sp| 'sp' }
+  def all_spellings_sql(spellings, vocabulary_id)
+    spellings.map do |sp|
+      raise "Missing spelling for #{vocabulary_id}: #{spellings}" if sp.nil?
+      insert_sql(
+        'vocabulary.spelling',
+        [:id, :vocabulary_id, :spelling_kind_ocde, :value],
+        [sp.id, vocabulary_id, sp.kind, sp.value]
+      )
+    end
   end
 
-  def linkages_sql(link)
-    'links'
+  def linkages_sql(vocab)
+    insert_sql(
+      'vocabulary.linkages',
+      [:vocabulary_id, :preferred_definition, :preferred_spelling, :phonetic_spelling],
+      [vocab.id, vocab.definition.id, vocab.preferred_spelling.id, vocab.phonetic_spelling.id]
+    )
   end
 
-  def references_sql(refs)
-    refs.map { |ref| 'ref' }
+  def references_sql(refs, vocabulary_id)
+    refs.map do |ref|
+      insert_sql(
+        'vocabulary.reference',
+        [:vocabulary_id, :lesson_code],
+        [vocabulary_id, ref]
+      )
+    end
+  end
+
+  def insert_sql(table_name, columns, values)
+    col_list = "(#{columns.map(&:to_s).join(', ')})"
+    val_list = "(#{values.map(&:sqlize).join(', ')})"
+    "insert into #{table_name} #{col_list} values #{val_list};"
   end
 
 end
 
 class Vocabulary
 
-  def initialize(definition, preferred_spelling, phonetic_spelling, auxiliary_spellings, word_class_code, conjugation_kind_code, sort_rank, tags, references)
+  def initialize(definition, preferred_spelling, phonetic_spelling, auxiliary_spellings, word_class_code, conjugation_kind_code, row_num, tags, reference_codes)
     @definition = definition
     @preferred_spelling = preferred_spelling
     @phonetic_spelling = phonetic_spelling
     @auxiliary_spellings = auxiliary_spellings
     @word_class_code = word_class_code
     @conjugation_kind_code = conjugation_kind_code
-    @sort_rank = sort_rank
+    @row_num = row_num
     @tags = tags
-    @references = references
+    @reference_codes = reference_codes
   end
 
-  attr_reader :definition, :preferred_spelling, :phonetic_spelling, :auxiliary_spellings, :word_class_code, :conjugation_kind_code, :sort_rank, :tags, :references
+  attr_reader :definition, :preferred_spelling, :phonetic_spelling, :auxiliary_spellings, :word_class_code, :conjugation_kind_code, :row_num, :tags, :reference_codes
 
   def id
     @id ||= Goi::EntityIDTools.vocabulary_uuid(preferred_spelling.value)
   end
 
   def spellings
-    [preferred_spelling, phonetic_spelling].concat(auxiliary_spellings).uniq
+    [preferred_spelling, phonetic_spelling].concat(auxiliary_spellings).uniq(&:id)
   end
 
 end

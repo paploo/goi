@@ -1,0 +1,167 @@
+interface _Sqlizable
+  def sqlize: () -> String
+end
+
+# Stub for the real thing
+module UUIDTools
+  class UUID
+  end
+end
+
+
+#
+# This application is a one-off for parsing my existing vocabulary spreadsheet
+# into INSERT statements for the standardized data store.
+#
+# The plan is to replace the spreadsheet with one whsoe schema more trivially
+# matches, allowing for a script that can easily read the file to idempotently
+# create or update the appropriate table rows.
+#
+class Application
+  def initialize: (untyped file) -> void
+
+  attr_reader file: untyped
+
+  attr_reader out: untyped
+
+  attr_reader csv_converter: CSVReadConverter
+
+  attr_reader sql_converter: SQLWriteConverter
+
+  def run: () -> void
+end
+
+class CSVReadConverter
+  JAPANESE_KEY: String
+
+  PHONETIC_KEY: String
+
+  ENGLISH_KEY: String
+
+  KANA_PREFERRED_KEY: String
+
+  WORD_CLASS_KEY: String
+
+  TAGS_KEY: String
+
+  SORT_RANK_KEY: String
+
+  GENKI_LESSON_KEY: String
+
+  DUO_LESSON_KEY: String
+
+  LULILANGUAGE_LESSON_KEY: String
+
+  WORD_CLASS_MAP: Hash[String, String]
+
+  CONJUGATION_TYPE_MAP: Hash[String, String]
+
+  def convert: (untyped rows) -> untyped
+
+  def convert_row: (untyped row) -> untyped
+
+  private
+
+  def kana_preferred?: (untyped row) -> bool
+
+  def parse_definition: (untyped value) -> Definition
+
+  def parse_spelling: (untyped value) -> Spelling
+
+  # Rules for returning (preferrred, phonetic, [aux1, aux2, ...]):
+  # jp is never nil/empty!
+  # (jp, phon, true) => (phon, phon, [jp])
+  # (jp, phon, false) => (jp, phon, [])
+  # (jp, nil, true) => !!doesn't happen!!
+  # (jp, nil, false) =>  (jp, phon, [])
+  #
+  # Also, we have a phonetic spelling with two variations with a slash, where we need
+  # To have one be phonetic and the other an alternate
+  def classify_spellings: (String japanese, String? phonetic, bool is_kana_preferred) -> [Spelling, Spelling, [Spelling]]
+
+  def split_multiple_spellings: (String string) -> [String]
+
+  def classify_word: (String value) -> [String]
+
+  def parse_word_class: (String raw_type) -> String
+
+  def parse_conjugation_kind: (String raw_conj) -> String
+
+  def parse_tags: ([String]? raw_tags) -> [String]
+
+  def classify_references: (String? genki_raw, String? duo_raw, String? luli_raw) -> [String]
+
+  def parse_genki_ref: (String genki_raw) -> String
+
+  def parse_duo_ref: (String duo_raw) -> String
+
+  def parse_luli_ref: (String luli_raw) -> String
+end
+
+class SQLWriteConverter
+  def convert: ([Vocabulary] vocab) -> [[String]]
+
+  def convert_vocab: (Vocabulary) -> [String]
+
+  private
+
+  def vocab_sql: (Vocabulary vocab) -> String
+
+  def definition_sql: (Definition definition, UUIDTools::UUID vocabulary_id) -> String
+
+  def all_spellings_sql: ([Spelling] spellings, UUIDTools::UUID vocabulary_id) -> [String]
+
+  def linkages_sql: (Vocabulary vocab) -> String
+
+  def references_sql: ([String] refs, UUIDTools::UUID vocabulary_id) -> [String]
+
+  def insert_sql: (String table_name, [Symbol] columns, [_Sqlizable] values) -> String
+end
+
+class Vocabulary
+  def initialize: (Definition definition, Spelling preferred_spelling, Spelling phonetic_spelling, [Spelling] auxiliary_spellings, String word_class_code, String conjugation_kind_code, Integer row_num, [String] tags, [String] references) -> void
+
+  attr_reader definition: Definition
+
+  attr_reader preferred_spelling: Spelling
+
+  attr_reader phonetic_spelling: Spelling
+
+  attr_reader auxiliary_spellings: [Spelling]
+
+  attr_reader word_class_code: String
+
+  attr_reader conjugation_kind_code: String
+
+  attr_reader row_num: Integer
+
+  attr_reader tags: [String]
+
+  attr_reader reference_codes: [String]
+
+  def id: () -> UUIDTools::UUID
+
+  def spellings: () -> [Spelling]
+end
+
+class Definition
+  def initialize: (String value) -> void
+
+  attr_reader value: String
+
+  def id: () -> UUIDTools::UUID
+end
+
+class Spelling
+  KIND_EXCEPTIONS: Hash[String, String]
+
+  def self.determine_kind: (String string) -> String
+
+  def initialize: (String value, String? kind) -> void
+
+  attr_reader value: String
+
+  attr_reader kind: String
+
+  def id: () -> UUIDTools::UUID
+end

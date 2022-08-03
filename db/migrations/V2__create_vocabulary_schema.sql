@@ -31,14 +31,14 @@ create table vocabulary.vocabulary (
 
     jlpt_level int default null,
     tags varchar[] not null default '{}',
-    sort_rank int -- Used to give predictable, controllable ordering for spreadsheets and CSVs; can be changed!
+    row_num int -- Used to give predictable, controllable ordering for spreadsheets and CSVs; can be changed!
 );
 create index on vocabulary.vocabulary using gin (tags);
 
 create table vocabulary.definition (
     id uuid primary key,
     vocabulary_id uuid not null references vocabulary.vocabulary(id),
-    rank int not null default 0,
+    sort_rank int not null default 0,
     value text not null
 );
 create index on vocabulary.definition(vocabulary_id);
