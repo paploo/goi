@@ -10,6 +10,9 @@ Style/RedundantException:
 Style/SymbolArray:
   Enabled: false
 
+Style/KeywordParametersOrder:
+  Enabled: false
+
 Layout/EmptyLinesAroundClassBody:
   Enabled: false
 

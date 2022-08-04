@@ -1,2 +1,1 @@
-require_relative 'goi/string_classification'
-require_relative 'goi/extensions'
+require_relative 'goi/core'
