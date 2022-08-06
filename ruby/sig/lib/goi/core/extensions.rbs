@@ -1,0 +1,9 @@
+class String
+  def clean: () -> String?
+
+  def blank?: () -> bool
+end
+
+class Hash[unchecked out K, unchecked out V]
+  def fetch_required: (K key) -> String
+end

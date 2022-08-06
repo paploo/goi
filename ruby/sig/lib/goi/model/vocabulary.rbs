@@ -1,0 +1,99 @@
+module Goi
+  module Model
+    module Vocabulary
+      # Linkages
+      #
+      # This ties together the various stand-alone
+      class Linkages
+        def self.wrap: (Hash[Symbol, untyped] attributes) -> Linkages
+
+        def initialize: (vocabulary: Vocabulary vocabulary, preferred_definition: Definition preferred_definition, preferred_spelling: Spelling preferred_spelling, phonetic_spelling: Spelling phonetic_spelling, ?alt_phonetic_spelling: Spelling? alt_phonetic_spelling, ?kanji_spelling: Spelling? kanji_spelling) -> void
+
+        attr_reader vocabulary: Vocabulary
+
+        attr_reader preferred_definition: Definition
+
+        attr_reader preferred_spelling: Spelling
+
+        attr_reader phonetic_spelling: Spelling
+
+        attr_reader alt_phonetic_spelling: Spelling?
+
+        attr_reader kanji_spelling: Spelling?
+
+        private
+
+        def links_valid?: () -> bool
+      end
+
+      # Vocabulary
+      class Vocabulary
+        UUID5_NAMESPACE: String
+
+        def self.wrap: (Hash[Symbol, untyped] attributes) -> Vocabulary
+
+        def self.create_id: () -> String
+
+        def initialize: (?id: String?, word_class_code: String, ?conjugation_kind_code: String?, ?jlpt_level: Integer?, row_num: Integer, ?tags: [String], ?lesson_codes: [String]) -> void
+
+        attr_reader id: String
+
+        attr_reader word_class_code: String
+
+        attr_reader conjugation_kind_code: String?
+
+        attr_reader jlpt_level: Integer?
+
+        attr_reader row_num: Integer
+
+        attr_reader tags: [String]
+
+        attr_reader lesson_codes: [String]
+
+        def to_h: () -> { id: String, word_class_code: String, conjugation_kind_code: String?, jlpt_level: Integer?, row_num: Integer, tags: [String], lesson_codes: [String] }
+      end
+
+      # Definition
+      class Definition
+        UUID5_NAMESPACE: String
+
+        def self.create_id: (String vocabulary_id, String value) -> String
+
+        def self.wrap: (Hash[Symbol, untyped] attributes) -> Definition
+
+        def initialize: (vocabulary_id: String vocabulary_id, value: String value, ?sort_rank: Integer sort_rank) -> void
+
+        attr_reader id: String
+
+        attr_reader vocabulary_id: String
+
+        attr_reader value: String
+
+        attr_reader sort_rank: Integer
+
+        def to_h: () -> { id: String, vocabulary_id: String, value: String, sort_rank: Integer }
+      end
+
+      # Spelling
+      class Spelling
+        UUID5_NAMESPACE: String
+
+        def self.create_id: (String vocabulary_id, String spelling_kind_code, String value) -> String
+
+        def self.wrap: (Hash[Symbol, untyped] attributes) -> Spelling
+
+        def initialize: (vocabulary_id: String vocabulary_id, spelling_kind_code: String spelling_kind_code, value: String value) -> void
+
+        attr_reader id: String
+
+        attr_reader vocabulary_id: String
+
+        attr_reader spelling_kind_code: String
+
+        attr_reader value: String
+
+        def to_h: () -> { id: String, vocabulary_id: String, spelling_kind_code: String, value: String }
+      end
+    end
+  end
+end

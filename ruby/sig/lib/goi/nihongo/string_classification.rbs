@@ -1,0 +1,11 @@
+module Goi
+  module Nihongo
+    module StringClassification
+      def classify_char: (String char) -> Symbol
+
+      def classify_chars: (String string) -> [Symbol]
+
+      def classify_string: (String string) -> Symbol?
+    end
+  end
+end

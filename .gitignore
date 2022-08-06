@@ -330,4 +330,10 @@ dmypy.json
 cython_debug/
 
 ### Project
+
+# Make sure to get the ruby lib files which the Python ignores lock out.
 !ruby/lib
+!ruby/sig/lib
+
+# RubyMine likes to generate the sigs at top level, but that isn't where they go.
+/sig/
