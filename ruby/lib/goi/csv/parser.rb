@@ -32,10 +32,10 @@ module Goi
           Goi::Model::Vocabulary::Linkages.new(
             vocabulary:,
             preferred_definition: parse_definition(row:, vocabulary_id:),
-            preferred_spelling: parse_spelling(row:, vocabulary_id:, key: PREFERRED_SPELLING_KEY),
-            phonetic_spelling: parse_spelling(row:, vocabulary_id:, key: PHONETIC_SPELLING_KEY),
-            alt_phonetic_spelling: parse_spelling(row:, vocabulary_id:, key: ALT_PHONETIC_SPELLING_KEY),
-            kanji_spelling: parse_spelling(row:, vocabulary_id:, key: KANJI_SPELLING_KEY)
+            preferred_spelling: parse_spelling(row:, vocabulary_id:, key: PREFERRED_SPELLING_KEY, required: true),
+            phonetic_spelling: parse_spelling(row:, vocabulary_id:, key: PHONETIC_SPELLING_KEY, required: true),
+            alt_phonetic_spelling: parse_spelling(row:, vocabulary_id:, key: ALT_PHONETIC_SPELLING_KEY, required: false),
+            kanji_spelling: parse_spelling(row:, vocabulary_id:, key: KANJI_SPELLING_KEY, required: false)
           )
         end
 
@@ -47,23 +47,23 @@ module Goi
           definition_parser.parse_row(row:, vocabulary_id:)
         end
 
-        def parse_spelling(row:, key:, vocabulary_id:)
-          spelling_parser.parse_row(row:, key:, vocabulary_id:)
+        def parse_spelling(row:, key:, required:, vocabulary_id:)
+          spelling_parser.parse_row(row:, key:, required:, vocabulary_id:)
         end
 
       end
 
       class VocabularyParser
 
-        def parse(row:)
+        def parse_row(row:)
           Goi::Model::Vocabulary::Vocabulary.new(
             id: row[ID_KEY]&.clean,
             word_class_code: row.fetch_required(WORD_CLASS_CODE_KEY).clean,
-            conjugation_kind_code: row.fetch_required(CONJUGATION_KIND_CODE_KEY).clean,
+            conjugation_kind_code: row[CONJUGATION_KIND_CODE_KEY]&.clean,
             jlpt_level: row[JLPT_LEVEL_KEY]&.clean&.to_i,
             row_num: row.fetch_required(ROW_NUM_KEY).clean.to_i,
-            tags: arrray_parse(row[TAGS_KEY]),
-            lesson_codes: array_parse(row[LESSON_CODES_KEY])
+            tags: array_parse(row[TAGS_KEY]&.clean),
+            lesson_codes: array_parse(row[LESSON_CODES_KEY]&.clean)
           )
         end
 
@@ -78,8 +78,7 @@ module Goi
         LESSON_CODES_KEY = 'lesson_codes'.freeze
 
         def array_parse(value)
-          return nil if value.nil?
-          value.clean.delete('{}').upcase.split(/\s+|,?\s*/)
+          value&.clean&.delete('{}')&.upcase&.split(/\s+|,\s*/) || []
         end
 
       end
@@ -88,7 +87,7 @@ module Goi
 
         DEFINITION_KEY = 'definition'.freeze
 
-        def parse(row:, vocabulary_id:)
+        def parse_row(row:, vocabulary_id:)
           Goi::Model::Vocabulary::Definition.new(
             vocabulary_id:,
             value: row.fetch_required(DEFINITION_KEY).clean
@@ -105,10 +104,17 @@ module Goi
           katakana: 'KATAKANA'
         }.freeze
 
-        def parse(row:, key:, vocabulary_id:)
+        def parse_row(row:, key:, required: true, vocabulary_id:)
+          value = row[key]&.clean
+
+          if value.nil?
+            raise(ArgumentError, "Missing required spelling for key #{key.inspect} from row #{row.inspect}") if required
+            return nil
+          end
+
           Goi::Model::Vocabulary::Spelling.new(
             vocabulary_id:,
-            spelling_kind_code: infer_kind_code(row.fetch_required(key).clean),
+            spelling_kind_code: infer_kind_code(value),
             value:
           )
         end
@@ -116,7 +122,7 @@ module Goi
         private
 
         def infer_kind_code(value)
-          raw_class = Goi::Nihongo::StringClassification.classify(value)
+          raw_class = Goi::Nihongo::StringClassification.classify_string(value)
           CODE_MAP.fetch(raw_class) do |k|
             raise(ArgumentError, "Cannot code illegal classification '#{k.inspect}' for string #{value.inspect}")
           end

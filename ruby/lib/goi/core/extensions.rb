@@ -15,7 +15,7 @@ end
 class Hash
   def fetch_required(key)
     value = self[key]
-    raise RuntimeError, "Expected non-nil value for key #{key}" if value.nil?
+    raise ArgumentError, "Expected non-nil value for key #{key.inspect}" if value.nil?
     value
   end
 

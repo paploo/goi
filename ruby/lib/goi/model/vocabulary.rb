@@ -26,7 +26,7 @@ module Goi
           @alt_phonetic_spelling = alt_phonetic_spelling
           @kanji_spelling = kanji_spelling
 
-          raise ArgumentError("One or more links don't go with the given vocabulary") unless links_valid?
+          raise ArgumentError, "One or more links don't go with the given vocabulary" unless links_valid?
         end
 
         attr_reader :vocabulary, :preferred_definition, :preferred_spelling, :phonetic_spelling, :alt_phonetic_spelling, :kanji_spelling
@@ -34,13 +34,18 @@ module Goi
         private
 
         def links_valid?
-          [
-            preferred_definition.vocabulary_id,
-            preferred_spelling.vocabulary_id,
-            phonetic_spelling.vocabulary_id,
-            alt_phonetic_spelling.vocabulary_id,
-            kanji_spelling.vocabulary_id
-          ].all? { |id| id == vocabulary.id}
+          required_validity = [
+            preferred_definition&.vocabulary_id,
+            preferred_spelling&.vocabulary_id,
+            phonetic_spelling&.vocabulary_id
+          ].all? { |id| !id.nil? && id == vocabulary.id }
+
+          optional_validity = [
+            alt_phonetic_spelling&.vocabulary_id,
+            kanji_spelling&.vocabulary_id
+          ].all? {|id| id.nil? || id == vocabulary.id }
+
+          required_validity && optional_validity
         end
 
       end
@@ -63,7 +68,7 @@ module Goi
                        row_num:,
                        tags: [],
                        lesson_codes: [])
-          @id = id || create_id
+          @id = id || self.class.create_id
           @word_class_code = word_class_code
           @conjugation_kind_code = conjugation_kind_code
           @jlpt_level = jlpt_level
@@ -87,7 +92,8 @@ module Goi
 
         def self.create_id(vocabulary_id, value)
           name = [vocabulary_id, value].map(&:to_s).join('|')
-          UUIDTools::UUID.sha1_create(UUID5_NAMESPACE, name).to_s
+          ns = UUIDTools::UUID.parse(UUID5_NAMESPACE)
+          UUIDTools::UUID.sha1_create(ns, name).to_s
         end
 
         def self.wrap(attributes)
@@ -95,7 +101,7 @@ module Goi
         end
 
         def initialize(vocabulary_id:, value:, sort_rank: 1)
-          @id = create_id(vocabulary_id, value)
+          @id = self.class.create_id(vocabulary_id, value)
           @vocabulary_id = vocabulary_id
           @value = value
           @sort_rank = sort_rank
@@ -116,7 +122,8 @@ module Goi
 
         def self.create_id(vocabulary_id, spelling_kind_code, value)
           name = [vocabulary_id, spelling_kind_code, value].map(&:to_s).join('|')
-          UUIDTools::UUID.sha1_create(UUID5_NAMESPACE, name).to_s
+          ns = UUIDTools::UUID.parse(UUID5_NAMESPACE)
+          UUIDTools::UUID.sha1_create(ns, name).to_s
         end
 
         def self.wrap(attributes)
@@ -124,7 +131,7 @@ module Goi
         end
 
         def initialize(vocabulary_id:, spelling_kind_code:, value:)
-          @id = create_id(vocabulary_id, spelling_kind_code, value)
+          @id = self.class.create_id(vocabulary_id, spelling_kind_code, value)
           @vocabulary_id = vocabulary_id
           @spelling_kind_code = spelling_kind_code
           @value = value
