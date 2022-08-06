@@ -1,27 +1,34 @@
 require 'csv'
+require 'pathname'
 
 require_relative '../lib/goi'
 require_relative '../lib/goi/importer'
+require_relative '../lib/goi/exporter'
 
 module ImportGoogleSheet
   class Application
 
-    def initialize(file_path)
-      @file = file_path
-      @parser = Goi::Importer::GoogleSheetImporter.new
+    def initialize(file_path:, importer:, exporter:)
+      @file_path = Pathname(file_path)
+      @importer = importer
+      @exporter = exporter
     end
 
-    attr_reader :file, :parser
+    attr_reader :file_path, :importer, :exporter
 
-    def run()
-      rows = CSV.read(file, headers: true).map(&:to_h)
-      data = parser.parse(rows:)
-      data.each { |link| puts(link.inspect) }
+    def run
+      rows = CSV.read(file_path.to_s, headers: true).map(&:to_h)
+      linkages = importer.parse(rows)
+      exporter.export(linkages:)
     end
 
   end
 end
 
-file_path = File.expand_path(File.join(File.dirname(__FILE__), '..', '..', 'files', 'new_sheet.csv'))
-app = ImportGoogleSheet::Application.new(file_path)
+# TODO: Take these as command line arguments
+file_path = Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', 'new_sheet.csv')
+importer = Goi::Importer::GoogleSheetImporter.new
+exporter = Goi::Exporter::IOExporter.new
+
+app = ImportGoogleSheet::Application.new(file_path:, importer:, exporter:)
 app.run

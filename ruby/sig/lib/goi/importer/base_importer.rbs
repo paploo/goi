@@ -1,0 +1,9 @@
+module Goi
+  module Importer
+    class BaseImporter[T]
+
+      def parse: (T) -> [Model::Vocabulary::Linkages]
+
+    end
+  end
+end

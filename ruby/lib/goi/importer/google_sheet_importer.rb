@@ -1,10 +1,11 @@
 require_relative '../model/vocabulary'
 require_relative '../nihongo'
+require_relative 'base_importer'
 
 module Goi
-  module Parser
+  module Importer
 
-    class GoogleSheetImporter
+    class GoogleSheetImporter < BaseImporter
 
       PREFERRED_SPELLING_KEY = 'preferred_spelling'.freeze
       PHONETIC_SPELLING_KEY = 'phonetic_spelling'.freeze
@@ -12,6 +13,7 @@ module Goi
       KANJI_SPELLING_KEY = 'kanji_spelling'.freeze
 
       def initialize
+        super()
         @vocabulary_parser = VocabularyParser.new
         @definition_parser = DefinitionParser.new
         @spelling_parser = SpellingParser.new
@@ -19,11 +21,13 @@ module Goi
 
       attr_reader :vocabulary_parser, :definition_parser, :spelling_parser
 
-      def parse(rows:)
-        rows.map { |row| parse_row(row:) }
-      end
+      def parse(rows)= parse_rows(rows:)
 
       private
+
+      def parse_rows(rows:)
+        rows.map { |row| parse_row(row:) }
+      end
 
       def parse_row(row:)
         vocabulary = parse_vocabulary(row:)

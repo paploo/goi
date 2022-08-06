@@ -1,0 +1,7 @@
+module Goi
+  module Exporter
+    class BaseExporter[T]
+      def export: (linkages: [Model::Vocabulary::Linkages] linkages) -> T
+    end
+  end
+end

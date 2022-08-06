@@ -1,15 +1,17 @@
 module Goi
   module Importer
 
-    class GoogleSheetImporter
+    class GoogleSheetImporter < BaseImporter[ [Hash[String, String]] ]
 
       attr_reader vocabulary_parser: VocabularyParser
       attr_reader definition_parser: DefinitionParser
       attr_reader spelling_parser: SpellingParser
 
-      def parse: (rows: [Hash[String, String]] rows) -> [Model::Vocabulary::Linkages]
+      def parse: ([Hash[String, String]]) -> [Model::Vocabulary::Linkages]
 
       private
+
+      def parse_rows: (rows: [Hash[String, String]] rows) -> [Model::Vocabulary::Linkages]
 
       def parse_row: (row: Hash[String, String] row) -> Model::Vocabulary::Linkages
 
