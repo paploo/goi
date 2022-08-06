@@ -17,8 +17,8 @@ module Goi
                        preferred_definition:,
                        preferred_spelling:,
                        phonetic_spelling:,
-                       alt_phonetic_spelling:,
-                       kanji_spelling:)
+                       alt_phonetic_spelling: nil,
+                       kanji_spelling: nil)
           @vocabulary = vocabulary
           @preferred_definition = preferred_definition
           @preferred_spelling = preferred_spelling

@@ -2,45 +2,55 @@ module Goi
   module Nihongo
     module StringClassification
 
-      def self.hiragana?(char)
-        char.ord >= 0x3040 && char.ord <= 0x309f
+      def self.classify_char(char)
+        case char[0]&.ord
+        # Latin
+        when 0x0000..0x001f, 0x007f then :control
+        when 0x0020..0x002f then :latin_punctuation
+        when 0x0030..0x0039 then :latin_numeric
+        when 0x003a..0x0040 then :latin_punctuation
+        when 0x0041..0x005a then :latin_alpha
+        when 0x005b..0x0060 then :latin_punctuation
+        when 0x0061..0x007a then :latin_alpha
+        when 0x007b..0x007e then :latin_punctuation
+        # 日本語
+        when 0x3040..0x309f then :hiragana
+        when 0x30a0..0x30ff then :katakana
+        when 0x4e00..0x9faf then :kanji
+        when 0x3000..0x303f then :cjk_punctuation
+        when 0xff00..0xffef then :half_and_full_width
+        # Else/Other
+        else :other
+        end
       end
 
-      def self.katakana?(char)
-        char.ord >= 0x30a0 && char.ord <= 0x30ff
+      def self.classify_chars(string)
+        string.chars.map { |c| classify_char(c) }
       end
 
-      def self.kanji?(char)
-        # Technically this is CJK unified ideographs
-        char.ord >= 0x4e00 && char.ord <= 0x9faf
-      end
+      # A purpose built string classifier with the following rules:
+      # 1. It prefers 日本語 to Latin, choosing latin only if there are no japanese characters present.
+      # 2. If any character is kanji, we classify as kanji.
+      # 3. If it has a mix of kana, we choose the most frequently seen one.
+      # 4. Othewrise we just go with whatever (latin) classification we saw the most.
+      #
+      # These rules allow us to classify some weirder entries such as:
+      # - 'あまり + negative' => 'HIRAGANA',
+      # - '全然 + negative' => 'KANJI',
+      # - 'Ｔシャツ' => 'KATAKANA'
+      def self.classify_string(string)
+        char_classes = classify_chars(string)
+        class_freqs = char_classes.group_by { |c| c }.transform_values(&:length)
 
-      def self.jp_punct?(char)
-        char.ord >= 0x3000 && char.ord <= 0x303f
+        if class_freqs.keys.include?(:kanji)
+          :kanji
+        elsif class_freqs.keys.include?(:hiragana) || class_freqs.keys.include?(:katakana)
+          class_freqs.fetch(:hiragana, 0) >= class_freqs.fetch(:katakana, 0) ? :hiragana : :katakana
+        else
+          char_classes.max&.first
+        end
       end
 
     end
   end
-end
-
-class String
-
-  def hiragana?
-    chars.all? do |c|
-      Goi::Nihongo::StringClassification.hiragana?(c) || Goi::Nihongo::StringClassification.jp_punct?(c)
-    end
-  end
-
-  def katakana?
-    chars.all? do |c|
-      Goi::Nihongo::StringClassification.katakana?(c) || Goi::Nihongo::StringClassification.jp_punct?(c)
-    end
-  end
-
-  def kanji?
-    chars.all? do |c|
-      Goi::Nihongo::StringClassification.kanji?(c) || Goi::Nihongo::StringClassification.jp_punct?(c)
-    end
-  end
-
 end

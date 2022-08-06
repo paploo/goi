@@ -12,10 +12,11 @@ class String
 
 end
 
-class NilClass
-
-  def clean
-    nil
+class Hash
+  def fetch_required(key)
+    value = self[key]
+    raise RuntimeError, "Expected non-nil value for key #{key}" if value.nil?
+    value
   end
 
 end
