@@ -1,14 +1,14 @@
 require 'csv'
 
 require_relative '../lib/goi'
-require_relative '../lib/goi/csv'
+require_relative '../lib/goi/importer'
 
 module ImportGoogleSheet
   class Application
 
     def initialize(file_path)
       @file = file_path
-      @parser = Goi::CSV::Parser::GoogleSheetParser.new
+      @parser = Goi::Importer::GoogleSheetImporter.new
     end
 
     attr_reader :file, :parser

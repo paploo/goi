@@ -1,0 +1,55 @@
+module Goi
+  module Importer
+
+    class GoogleSheetImporter
+
+      attr_reader vocabulary_parser: VocabularyParser
+      attr_reader definition_parser: DefinitionParser
+      attr_reader spelling_parser: SpellingParser
+
+      def parse: (rows: [Hash[String, String]] rows) -> [Model::Vocabulary::Linkages]
+
+      private
+
+      def parse_row: (row: Hash[String, String] row) -> Model::Vocabulary::Linkages
+
+      def parse_vocabulary: (row: Hash[String, String] row, vocabulary_id: String vocabulary_id) -> Model::Vocabulary::Vocabulary
+
+      def parse_definition: (row: Hash[String, String] row, vocabulary_id: String vocabulary_id) -> Model::Vocabulary::Definition
+
+      def parse_spelling: (row: Hash[String, String] row, key: String key, required: bool required, vocabulary_id: String vocabulary_id) -> Model::Vocabulary::Spelling
+
+    end
+
+    class VocabularyParser
+
+      def parse_row: (row: Hash[String, String] row) -> Model::Vocabulary::Vocabulary
+
+      private
+
+      def array_parse: (String?) -> [String]
+
+    end
+
+    class DefinitionParser
+
+      def parse_row: (row: Hash[String, String] row, vocabulary_id: String vocabulary_id) -> Model::Vocabulary::Definition
+
+    end
+
+    class SpellingParser
+
+      CODE_MAP: Hash[Symbol, String]
+
+      def parse_row: (row: Hash[String, String] row, key: String key, ?required: bool required, vocabulary_id: String vocabulary_id) -> Model::Vocabulary::Spelling
+
+      private
+
+      def infer_kind_code: (String value) -> String
+
+    end
+
+  end
+end
+
+end
