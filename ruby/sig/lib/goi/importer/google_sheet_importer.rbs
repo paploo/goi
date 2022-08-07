@@ -28,33 +28,33 @@ module Goi
 
       def parse_spelling: (row: Hash[String, String] row, field_data: field_data field_data, required: bool required, vocabulary_id: String vocabulary_id) -> Model::Vocabulary::Spelling
 
-    end
+      class VocabularyParser
 
-    class VocabularyParser
+        def parse_row: (row: Hash[String, String] row) -> Model::Vocabulary::Vocabulary
 
-      def parse_row: (row: Hash[String, String] row) -> Model::Vocabulary::Vocabulary
+        private
 
-      private
+        def array_parse: (String?) -> [String]
 
-      def array_parse: (String?) -> [String]
+      end
 
-    end
+      class DefinitionParser
 
-    class DefinitionParser
+        def parse_row: (row: Hash[String, String] row, vocabulary_id: String vocabulary_id) -> Model::Vocabulary::Definition
 
-      def parse_row: (row: Hash[String, String] row, vocabulary_id: String vocabulary_id) -> Model::Vocabulary::Definition
+      end
 
-    end
+      class SpellingParser
 
-    class SpellingParser
+        CODE_MAP: Hash[Symbol, String]
 
-      CODE_MAP: Hash[Symbol, String]
+        def parse_row: (row: Hash[String, String] row, field_data: field_data field_data, ?required: bool required, vocabulary_id: String vocabulary_id) -> Model::Vocabulary::Spelling
 
-      def parse_row: (row: Hash[String, String] row, field_data: GoogleSheetImporter::field_data field_data, ?required: bool required, vocabulary_id: String vocabulary_id) -> Model::Vocabulary::Spelling
+        private
 
-      private
+        def infer_kind_code: (String value) -> String
 
-      def infer_kind_code: (String value) -> String
+      end
 
     end
 
