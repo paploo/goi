@@ -1,8 +1,8 @@
 module Goi
   module Importer
-    class BaseImporter[T]
+    class BaseImporter[A]
 
-      def parse: (T) -> [Model::Vocabulary::Linkages]
+      def parse: (A) -> [Model::Vocabulary::Linkages]
 
     end
   end

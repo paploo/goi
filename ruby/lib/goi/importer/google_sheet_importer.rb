@@ -23,7 +23,10 @@ module Goi
 
       attr_reader :vocabulary_parser, :definition_parser, :spelling_parser
 
-      def parse(rows)= parse_rows(rows:)
+      def import(file_path)
+        rows = CSV.read(file_path.to_s, headers: true).map(&:to_h)
+        parse_rows(rows:)
+      end
 
       private
 

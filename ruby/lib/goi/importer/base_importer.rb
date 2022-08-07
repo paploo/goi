@@ -2,7 +2,7 @@ module Goi
   module Importer
     class BaseImporter
 
-      def parse(obj)
+      def inport(params)
         # Do Nothing
       end
 

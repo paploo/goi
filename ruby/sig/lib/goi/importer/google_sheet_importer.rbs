@@ -1,13 +1,13 @@
 module Goi
   module Importer
 
-    class GoogleSheetImporter < BaseImporter[ [Hash[String, String]] ]
+    class GoogleSheetImporter < BaseImporter[ Pathname ]
 
       attr_reader vocabulary_parser: VocabularyParser
       attr_reader definition_parser: DefinitionParser
       attr_reader spelling_parser: SpellingParser
 
-      def parse: ([Hash[String, String]]) -> [Model::Vocabulary::Linkages]
+      def import: (Pathname file_path) -> [Model::Vocabulary::Linkages]
 
       private
 
