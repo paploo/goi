@@ -56,7 +56,7 @@ module Goi
           tags_field(linkage.vocabulary),
           linkage.vocabulary.id,
           linkage.vocabulary.row_num.to_s,
-          linkage.vocabulary.date_added.iso8601
+          linkage.vocabulary.date_added&.iso8601
         ]
       end
 

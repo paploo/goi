@@ -5,6 +5,7 @@ require_relative '../lib/goi'
 require_relative '../lib/goi/importer'
 require_relative '../lib/goi/exporter'
 
+# TODO: Rename since this is a general importer/exporter.
 module ImportGoogleSheet
   class Application
 
@@ -29,8 +30,8 @@ end
 # TODO: Take these as command line arguments
 file_path = Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', 'new_sheet.csv')
 
-importer = Goi::Importer::GoogleSheetImporter.new
-#importer = Goi::Importer::SequelImporter.new
+#importer = Goi::Importer::GoogleSheetImporter.new
+importer = Goi::Importer::SequelImporter.new
 
 #exporter = Goi::Exporter::AnkiExporter.new
 exporter = Goi::Exporter::GoogleSheetExporter.new

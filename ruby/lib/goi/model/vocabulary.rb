@@ -26,7 +26,8 @@ module Goi
           @alt_phonetic_spelling = alt_phonetic_spelling
           @kanji_spelling = kanji_spelling
 
-          raise ArgumentError, "One or more links don't go with the given vocabulary" unless links_valid?
+          #TODO: Rw-enable after prototyping
+          #raise ArgumentError, "One or more links don't go with the given vocabulary" unless links_valid?
         end
 
         attr_reader :vocabulary, :preferred_definition, :preferred_spelling, :phonetic_spelling, :alt_phonetic_spelling, :kanji_spelling
