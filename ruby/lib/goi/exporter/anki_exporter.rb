@@ -14,8 +14,9 @@ module Goi
         'word_class',
         'conjugation_kind',
         'jlpt_level',
+        'date_added',
+        'lessons',
         'tags',
-        'lessons'
       ].freeze
 
       def initialize(io: STDOUT)
@@ -51,6 +52,7 @@ module Goi
           linkage.vocabulary.word_class_code,
           linkage.vocabulary.conjugation_kind_code,
           linkage.vocabulary.jlpt_level&.to_s,
+          linkage.vocabulary.date_added.iso8601,
           to_array_field(linkage.vocabulary.lesson_codes),
           tags_field(linkage.vocabulary)
         ]

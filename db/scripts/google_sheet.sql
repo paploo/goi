@@ -10,7 +10,7 @@
 --
 
 -- Goodgle Sheets Export View
-select definition.value as definition, pref_spell.value as preferred_spelling, phon_spell.value as phonetic_spelling, alt_phon_spell.value as alt_phon_spell, case when (kanji_spell.value is not null) then kanji_spell.value when (pref_spell.spelling_kind_code = 'KANJI') then pref_spell.value end as kanji_spelling, vocab.word_class_code, vocab.conjugation_kind_code, vocab.jlpt_level, refs.lesson_codes, vocab.tags, vocab.id, vocab.row_num
+select definition.value as definition, pref_spell.value as preferred_spelling, phon_spell.value as phonetic_spelling, alt_phon_spell.value as alt_phon_spell, case when (kanji_spell.value is not null) then kanji_spell.value when (pref_spell.spelling_kind_code = 'KANJI') then pref_spell.value end as kanji_spelling, vocab.word_class_code, vocab.conjugation_kind_code, vocab.jlpt_level, refs.lesson_codes, vocab.tags, vocab.id, vocab.row_num, vocab.date_added
 from vocabulary.vocabulary as vocab
 left join vocabulary.linkages as link on vocab.id = link.vocabulary_id
 left join vocabulary.definition as definition on link.preferred_definition_id = definition.id

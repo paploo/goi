@@ -34,7 +34,7 @@ module Goi
 
         def self.create_id: () -> String
 
-        def initialize: (?id: String?, word_class_code: String, ?conjugation_kind_code: String?, ?jlpt_level: Integer?, row_num: Integer, ?tags: [String], ?lesson_codes: [String]) -> void
+        def initialize: (?id: String?, word_class_code: String, ?conjugation_kind_code: String?, ?jlpt_level: Integer?, row_num: Integer, date_added: Date, ?tags: [String], ?lesson_codes: [String]) -> void
 
         attr_reader id: String
 
@@ -45,6 +45,8 @@ module Goi
         attr_reader jlpt_level: Integer?
 
         attr_reader row_num: Integer
+
+        attr_reader date_added: Date
 
         attr_reader tags: [String]
 

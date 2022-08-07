@@ -66,6 +66,7 @@ module Goi
                        conjugation_kind_code: nil,
                        jlpt_level: nil,
                        row_num:,
+                       date_added:,
                        tags: [],
                        lesson_codes: [])
           @id = id || self.class.create_id
@@ -73,14 +74,15 @@ module Goi
           @conjugation_kind_code = conjugation_kind_code
           @jlpt_level = jlpt_level
           @row_num = row_num
+          @date_added = date_added
           @tags = tags || []
           @lesson_codes = lesson_codes || []
         end
 
-        attr_reader :id, :word_class_code, :conjugation_kind_code, :jlpt_level, :row_num, :tags, :lesson_codes
+        attr_reader :id, :word_class_code, :conjugation_kind_code, :jlpt_level, :row_num, :date_added, :tags, :lesson_codes
 
         def to_h
-          { id:, word_class_code:, conjugation_kind_code:, jlpt_level:, row_num:, tags:, lesson_codes: }
+          { id:, word_class_code:, conjugation_kind_code:, jlpt_level:, row_num:, date_added:, tags:, lesson_codes: }
         end
 
       end

@@ -31,6 +31,7 @@ create table vocabulary.vocabulary (
 
     jlpt_level int default null,
     row_num int, -- Used to give predictable, controllable ordering for spreadsheets and CSVs; can be changed!
+    date_added date,
     tags varchar[] not null default '{}'
 );
 create index on vocabulary.vocabulary using gin (tags);

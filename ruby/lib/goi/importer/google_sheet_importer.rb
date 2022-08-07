@@ -1,3 +1,5 @@
+require 'date'
+
 require_relative '../model/vocabulary'
 require_relative '../nihongo'
 require_relative 'base_importer'
@@ -65,6 +67,7 @@ module Goi
           conjugation_kind_code: row[CONJUGATION_KIND_CODE_KEY]&.clean,
           jlpt_level: row[JLPT_LEVEL_KEY]&.clean&.to_i,
           row_num: row.fetch_required(ROW_NUM_KEY).clean.to_i,
+          date_added: row.fetch(DATE_ADDED_KEY)&.clean&.then { |s| Date.parse(s) },
           tags: array_parse(row[TAGS_KEY]&.clean),
           lesson_codes: array_parse(row[LESSON_CODES_KEY]&.clean)
         )
@@ -77,6 +80,7 @@ module Goi
       CONJUGATION_KIND_CODE_KEY = 'conjugation_kind_code'.freeze
       JLPT_LEVEL_KEY = 'jlpt_level'.freeze
       ROW_NUM_KEY = 'row_num'.freeze
+      DATE_ADDED_KEY = 'date_added'.freeze
       TAGS_KEY = 'tags'.freeze
       LESSON_CODES_KEY = 'lesson_codes'.freeze
 
