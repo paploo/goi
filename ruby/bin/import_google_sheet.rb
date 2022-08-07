@@ -30,9 +30,10 @@ end
 file_path = Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', 'new_sheet.csv')
 
 importer = Goi::Importer::GoogleSheetImporter.new
-importer = Goi::Importer::SequelImporter.new
+#importer = Goi::Importer::SequelImporter.new
 
-exporter = Goi::Exporter::AnkiExporter.new
+#exporter = Goi::Exporter::AnkiExporter.new
+exporter = Goi::Exporter::GoogleSheetExporter.new
 
 app = ImportGoogleSheet::Application.new(file_path:, importer:, exporter:)
 app.run

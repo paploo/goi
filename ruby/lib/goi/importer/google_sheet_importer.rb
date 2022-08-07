@@ -88,7 +88,12 @@ module Goi
       LESSON_CODES_KEY = 'lesson_codes'.freeze
 
       def array_parse(value)
-        value&.clean&.delete('{}')&.upcase&.split(/\s+|,\s*/) || []
+        value&.clean&.delete('{}')&.split(/\s+|,\s*/) || []
+      end
+
+      def const_case(s)
+        # TODO: Make this also turn any non-alphanum char to an underscore.
+        s.upcase
       end
 
     end

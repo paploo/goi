@@ -1,13 +1,13 @@
 module Goi
   module Exporter
-    class AnkiExporter < BaseExporter[void]
+    class GoogleSheetExporter < BaseExporter[void]
       HEADERS: [String]
 
       def initialize: (?io: IO io) -> void
 
       attr_reader io: IO
 
-      def export: (linkages: [Model::Vocabulary::Linkages] linkages) -> void
+      def export: (linkages: [Model::Vocabulary::Linkages] linkages) -> untyped
 
       private
 
@@ -17,9 +17,9 @@ module Goi
 
       def linkage_row: (linkage: Model::Vocabulary::Linkages linkage) -> [String?]
 
-      def phonetic_spelling_field: (Model::Vocabulary::Linkages linkage) -> String
-
       def tags_field: (Model::Vocabulary::Vocabulary vocabulary) -> String?
+
+      def lessons_field: (Model::Vocabulary::Vocabulary vocabulary) -> String?
 
       def to_array_field: ([untyped] array) -> String?
     end
