@@ -1,7 +1,14 @@
 module Goi
   module Importer
 
-    class GoogleSheetImporter < BaseImporter[ Pathname ]
+    class GoogleSheetImporter < BaseImporter[Pathname]
+
+      type field_data = { linkage_field: Symbol, key: String }
+
+      PREFERRED_SPELLING_FIELD_DATA: field_data
+      PHONETIC_SPELLING_FIELD_DATA: field_data
+      ALT_PHONETIC_SPELLING_FIELD_DATA: field_data
+      KANJI_SPELLING_FIELD_DATA: field_data
 
       attr_reader vocabulary_parser: VocabularyParser
       attr_reader definition_parser: DefinitionParser
@@ -19,7 +26,7 @@ module Goi
 
       def parse_definition: (row: Hash[String, String] row, vocabulary_id: String vocabulary_id) -> Model::Vocabulary::Definition
 
-      def parse_spelling: (row: Hash[String, String] row, key: String key, required: bool required, vocabulary_id: String vocabulary_id) -> Model::Vocabulary::Spelling
+      def parse_spelling: (row: Hash[String, String] row, field_data: field_data field_data, required: bool required, vocabulary_id: String vocabulary_id) -> Model::Vocabulary::Spelling
 
     end
 
@@ -43,7 +50,7 @@ module Goi
 
       CODE_MAP: Hash[Symbol, String]
 
-      def parse_row: (row: Hash[String, String] row, key: String key, ?required: bool required, vocabulary_id: String vocabulary_id) -> Model::Vocabulary::Spelling
+      def parse_row: (row: Hash[String, String] row, field_data: GoogleSheetImporter::field_data field_data, ?required: bool required, vocabulary_id: String vocabulary_id) -> Model::Vocabulary::Spelling
 
       private
 
@@ -52,6 +59,4 @@ module Goi
     end
 
   end
-end
-
 end

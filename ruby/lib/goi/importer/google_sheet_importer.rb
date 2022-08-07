@@ -9,10 +9,10 @@ module Goi
 
     class GoogleSheetImporter < BaseImporter
 
-      PREFERRED_SPELLING_KEY = 'preferred_spelling'.freeze
-      PHONETIC_SPELLING_KEY = 'phonetic_spelling'.freeze
-      ALT_PHONETIC_SPELLING_KEY = 'alt_phon_spell'.freeze
-      KANJI_SPELLING_KEY = 'kanji_spelling'.freeze
+      PREFERRED_SPELLING_FIELD_DATA = {linkage_field: :preferred_spelling, key: 'preferred_spelling'}.freeze
+      PHONETIC_SPELLING_FIELD_DATA = {linkage_field: :phonetic_spelling, key: 'phonetic_spelling'}.freeze
+      ALT_PHONETIC_SPELLING_FIELD_DATA = {linkage_field: :alt_phonetic_spelling, key: 'alt_phon_spell'}.freeze
+      KANJI_SPELLING_FIELD_DATA = {linkage_field: :kanji_spelling, key: 'kanji_spelling'}.freeze
 
       def initialize
         super()
@@ -40,10 +40,10 @@ module Goi
         Goi::Model::Vocabulary::Linkages.new(
           vocabulary:,
           preferred_definition: parse_definition(row:, vocabulary_id:),
-          preferred_spelling: parse_spelling(row:, vocabulary_id:, key: PREFERRED_SPELLING_KEY, required: true),
-          phonetic_spelling: parse_spelling(row:, vocabulary_id:, key: PHONETIC_SPELLING_KEY, required: true),
-          alt_phonetic_spelling: parse_spelling(row:, vocabulary_id:, key: ALT_PHONETIC_SPELLING_KEY, required: false),
-          kanji_spelling: parse_spelling(row:, vocabulary_id:, key: KANJI_SPELLING_KEY, required: false)
+          preferred_spelling: parse_spelling(row:, vocabulary_id:, field_data: PREFERRED_SPELLING_FIELD_DATA, required: true),
+          phonetic_spelling: parse_spelling(row:, vocabulary_id:, field_data: PHONETIC_SPELLING_FIELD_DATA, required: true),
+          alt_phonetic_spelling: parse_spelling(row:, vocabulary_id:, field_data: ALT_PHONETIC_SPELLING_FIELD_DATA, required: false),
+          kanji_spelling: parse_spelling(row:, vocabulary_id:, field_data: KANJI_SPELLING_FIELD_DATA, required: false)
         )
       end
 
@@ -55,8 +55,8 @@ module Goi
         definition_parser.parse_row(row:, vocabulary_id:)
       end
 
-      def parse_spelling(row:, key:, required:, vocabulary_id:)
-        spelling_parser.parse_row(row:, key:, required:, vocabulary_id:)
+      def parse_spelling(row:, field_data:, required:, vocabulary_id:)
+        spelling_parser.parse_row(row:, field_data:, required:, vocabulary_id:)
       end
 
     end
@@ -104,6 +104,7 @@ module Goi
 
       def parse_row(row:, vocabulary_id:)
         Goi::Model::Vocabulary::Definition.new(
+          id: Goi::Model::Vocabulary::Definition.create_id(vocabulary_id:, linkage_field: :preferred_definition),
           vocabulary_id:,
           value: row.fetch_required(DEFINITION_KEY).clean
         )
@@ -119,7 +120,8 @@ module Goi
         katakana: 'KATAKANA'
       }.freeze
 
-      def parse_row(row:, key:, required: true, vocabulary_id:)
+      def parse_row(row:, field_data:, required: true, vocabulary_id:)
+        key = field_data.fetch(:key)
         value = row[key]&.clean
 
         if value.nil?
@@ -127,7 +129,11 @@ module Goi
           return nil
         end
 
+        linkage_field = field_data.fetch(:linkage_field)
+        id = Goi::Model::Vocabulary::Spelling.create_id(vocabulary_id:, linkage_field:)
+
         Goi::Model::Vocabulary::Spelling.new(
+          id:,
           vocabulary_id:,
           spelling_kind_code: infer_kind_code(value),
           value:

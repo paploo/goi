@@ -59,13 +59,11 @@ module Goi
       class Definition
         UUID5_NAMESPACE: String
 
-        def self.create_id_in_linkage(String vocabulary_id, String linkage_field) -> String
-
-        def self.create_id: (String vocabulary_id, String value) -> String
+        def self.create_id: (vocabulary_id: String, linkage_field: Symbol) -> String
 
         def self.wrap: (Hash[Symbol, untyped] attributes) -> Definition
 
-        def initialize: (?id: String? id, vocabulary_id: String vocabulary_id, value: String value, ?sort_rank: Integer sort_rank) -> void
+        def initialize: (id: String id, vocabulary_id: String vocabulary_id, value: String value, ?sort_rank: Integer sort_rank) -> void
 
         attr_reader id: String
 
@@ -82,13 +80,11 @@ module Goi
       class Spelling
         UUID5_NAMESPACE: String
 
-        def self.create_id_in_linkage(String vocabulary_id, String linkage_field) -> String
-
-        def self.create_id: (String vocabulary_id, String spelling_kind_code, String value) -> String
+        def self.create_id: (vocabulary_id: String, linkage_field: Symbol) -> String
 
         def self.wrap: (Hash[Symbol, untyped] attributes) -> Spelling
 
-        def initialize: (?id: String? id, vocabulary_id: String vocabulary_id, spelling_kind_code: String spelling_kind_code, value: String value) -> void
+        def initialize: (id: String id, vocabulary_id: String vocabulary_id, spelling_kind_code: String spelling_kind_code, value: String value) -> void
 
         attr_reader id: String
 
