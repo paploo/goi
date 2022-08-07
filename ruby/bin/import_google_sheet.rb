@@ -28,7 +28,7 @@ end
 # TODO: Take these as command line arguments
 file_path = Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', 'new_sheet.csv')
 importer = Goi::Importer::GoogleSheetImporter.new
-exporter = Goi::Exporter::IOExporter.new
+exporter = Goi::Exporter::AnkiExporter.new
 
 app = ImportGoogleSheet::Application.new(file_path:, importer:, exporter:)
 app.run

@@ -1,0 +1,27 @@
+module Goi
+  module Exporter
+    class AnkiExporter < BaseExporter[void]
+      HEADERS: untyped
+
+      def initialize: (?io: IO io) -> void
+
+      attr_reader io: IO
+
+      def export: (linkages: [Model::Vocabulary::Linkages] linkages) -> void
+
+      private
+
+      def header_row: () -> [String]
+
+      def linkage_rows: (linkages: [Model::Vocabulary::Linkages] linkages) -> [[String?]]
+
+      def linkage_row: (linkage: Model::Vocabulary::Linkages linkage) -> [String?]
+
+      def phonetic_spelling_field: (Model::Vocabulary::Linkages linkage) -> String
+
+      def tags_field: (Model::Vocabulary::Vocabulary vocabulary) -> String?
+
+      def to_array_field: ([untyped] array) -> String?
+    end
+  end
+end
