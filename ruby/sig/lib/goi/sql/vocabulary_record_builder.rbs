@@ -1,0 +1,21 @@
+module Goi
+  module SQL
+    class VocabularyRecordBuilder
+
+      type record = Hash[Symbol, untyped]
+
+      def build_record_group: (Model::Vocabulary::Linkages linkages) -> { vocabulary: record, preferred_definition: record, preferred_spelling: record, phonetic_spelling: record, alt_phonetic_spelling: record, kanji_spelling: record, references: [record], linkages: record }
+
+      def build_vocabulary_record: (Model::Vocabulary::Linkages linkages, Symbol key) -> record
+
+      def build_definition_record: (Model::Vocabulary::Linkages linkages, Symbol key) -> record
+
+      def build_spelling_record: (Model::Vocabulary::Linkages linkages, Symbol key) -> record
+
+      def build_reference_records: (Model::Vocabulary::Linkages linkages, Symbol vocabulary_key) -> [record]
+
+      def build_linkage_record: (Model::Vocabulary::Linkages linkages) -> record
+
+    end
+  end
+end

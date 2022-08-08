@@ -2,8 +2,6 @@ module Goi
   module Exporter
     class SqlFileExporter < BaseExporter[void]
 
-      type record = Hash[Symbol, untyped]
-
       def initialize: () -> void
 
       attr_reader db: untyped
@@ -14,55 +12,6 @@ module Goi
 
       def export: (linkages: [Model::Vocabulary::Linkages] linkages) -> untyped
 
-      private
-
-      class VocabularyRecordBuilder
-
-        def build_records: (Model::Vocabulary::Linkages linkages) -> { vocabulary: record, preferred_definition: record, preferred_spelling: record, phonetic_spelling: record, alt_phonetic_spelling: record, kanji_spelling: record, references: [record], linkages: record }
-
-        def build_vocabulary_record: (Model::Vocabulary::Linkages linkages, Symbol key) -> record
-
-        def build_definition_record: (Model::Vocabulary::Linkages linkages, Symbol key) -> record
-
-        def build_spelling_record: (Model::Vocabulary::Linkages linkages, Symbol key) -> record
-
-        def build_reference_records: (Model::Vocabulary::Linkages linkages, Symbol vocabulary_key) -> [record]
-
-        def build_linkage_record: (Model::Vocabulary::Linkages linkages) -> record
-
-      end
-
     end
   end
 end
-
-# module Goi
-#   module Exporter
-#     class SqlFileExporter < BaseExporter
-#       def initialize: (?mode: Symbol mode) -> void
-#
-#       attr_reader db: untyped
-#
-#       attr_reader io: IO
-#
-#       attr_reader modw: untyped
-#
-#       def export: (linkages: [Model::Vocabulary::Linkages] linkages) -> untyped
-#
-#       private
-#
-#       def build_records: (Model::Vocabulary::Linkages linkages) -> Hash[Symbol, Hash[Symbol, untyped]]
-#
-#       def build_vocabulary_record: (linkages, key)
-#
-#       def build_definition_record: (linkages, key)
-#
-#       def build_spelling_record: (linkages, key)
-#
-#       def build_reference_records(linkages, vocabulary_key)
-#
-# def build_linkage_record(linkages)
-#
-#     end
-#   end
-# end
