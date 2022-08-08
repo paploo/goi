@@ -137,7 +137,6 @@ module Goi
 
       end
 
-      # TODO: Place this in a reusable location since we'll want this in the exporter too.
       class Library
 
         def initialize(db:)
@@ -147,13 +146,13 @@ module Goi
         attr_reader :vocabulary, :definitions, :spellings, :linkages, :references
 
         def load_all
-          tap {
             @vocabulary = load_vocabulary
             @definitions = load_definitions.group_by { |d| d[:vocabulary_id] }
             @spellings = load_spellings.group_by { |d| d[:vocabulary_id] }
             @linkages = load_linkages.group_by { |d| d[:vocabulary_id] }.transform_values { |ls| ls.first }
             @references = load_references.group_by { |d| d[:vocabulary_id] }
-          }
+
+            self
         end
 
         private

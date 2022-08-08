@@ -34,7 +34,8 @@ file_path = Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', 'new_
 importer = Goi::Importer::SequelImporter.new
 
 #exporter = Goi::Exporter::AnkiExporter.new
-exporter = Goi::Exporter::GoogleSheetExporter.new
+#exporter = Goi::Exporter::GoogleSheetExporter.new
+exporter = Goi::Exporter::SqlFileExporter.new
 
 app = ImportGoogleSheet::Application.new(file_path:, importer:, exporter:)
 app.run

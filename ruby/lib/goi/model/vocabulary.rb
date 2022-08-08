@@ -76,8 +76,8 @@ module Goi
           @jlpt_level = jlpt_level
           @row_num = row_num
           @date_added = date_added
-          @tags = tags || []
-          @lesson_codes = lesson_codes || []
+          @tags = (tags || []).sort
+          @lesson_codes = (lesson_codes || []).sort
         end
 
         attr_reader :id, :word_class_code, :conjugation_kind_code, :jlpt_level, :row_num, :date_added, :tags, :lesson_codes
