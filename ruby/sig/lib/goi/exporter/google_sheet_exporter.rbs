@@ -1,9 +1,9 @@
 module Goi
   module Exporter
-    class GoogleSheetExporter < BaseExporter[void]
+    class GoogleSheetExporter < BaseExporter[Goi::Application::Config]
       HEADERS: [String]
 
-      def initialize: (?io: IO io) -> void
+      def initialize: (config: Goi::Application::Config) -> void
 
       attr_reader io: IO
 

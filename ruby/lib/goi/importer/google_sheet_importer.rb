@@ -14,17 +14,20 @@ module Goi
       ALT_PHONETIC_SPELLING_FIELD_DATA = {linkage_field: :alt_phonetic_spelling, key: 'alt_phon_spell'}.freeze
       KANJI_SPELLING_FIELD_DATA = {linkage_field: :kanji_spelling, key: 'kanji_spelling'}.freeze
 
-      def initialize
-        super()
+      def initialize(config:)
+        super(config:)
+        @infile_path = config.infile_path
+
         @vocabulary_parser = VocabularyParser.new
         @definition_parser = DefinitionParser.new
         @spelling_parser = SpellingParser.new
       end
 
+      attr_reader :infile_path
       attr_reader :vocabulary_parser, :definition_parser, :spelling_parser
 
-      def import(file_path)
-        rows = CSV.read(file_path.to_s, headers: true).map(&:to_h)
+      def import()
+        rows = CSV.read(infile_path.to_s, headers: true).map(&:to_h)
         parse_rows(rows:)
       end
 

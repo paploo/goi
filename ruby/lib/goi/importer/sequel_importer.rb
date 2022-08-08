@@ -18,9 +18,9 @@ module Goi
         :kanji_spelling => :kanji_spelling_id
       }
 
-      def initialize
-        super()
-        @db = Sequel.postgres('goi', user: 'postgres', password: 'postgres', host: 'localhost')
+      def initialize(config:)
+        super(config:)
+        @db = Sequel.postgres(config.db_config)
 
         @vocabulary_parser = VocabularyParser.new
         @definition_parser = DefinitionParser.new
@@ -31,7 +31,7 @@ module Goi
 
       attr_reader :vocabulary_parser, :definition_parser, :spelling_parser
 
-      def import(obj)
+      def import
         library = Library.new(db:).load_all
 
         library.vocabulary.map do |vocabulary_record|

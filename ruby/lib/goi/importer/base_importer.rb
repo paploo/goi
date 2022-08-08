@@ -2,7 +2,13 @@ module Goi
   module Importer
     class BaseImporter
 
-      def inport(params)
+      def initialize(config:)
+        @config = config
+      end
+
+      attr_reader :config
+
+      def inport
         # Do Nothing
       end
 

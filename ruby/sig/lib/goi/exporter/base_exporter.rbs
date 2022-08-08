@@ -1,7 +1,9 @@
 module Goi
   module Exporter
-    class BaseExporter[T]
-      def export: (linkages: [Model::Vocabulary::Linkages] linkages) -> T
+    class BaseExporter[Config]
+      def initialize: (config: Config) -> void
+      attr_reader config: Config
+      def export: (linkages: [Model::Vocabulary::Linkages] linkages) -> void
     end
   end
 end

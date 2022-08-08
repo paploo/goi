@@ -1,8 +1,8 @@
 module Goi
   module Exporter
-    class SqlFileExporter < BaseExporter[void]
+    class SqlFileExporter < BaseExporter[Goi::Application::Config]
 
-      def initialize: () -> void
+      def initialize: (config: Goi::Application::Config) -> void
 
       attr_reader db: untyped
 

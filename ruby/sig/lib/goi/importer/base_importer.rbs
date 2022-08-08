@@ -1,9 +1,9 @@
 module Goi
   module Importer
-    class BaseImporter[A]
-
-      def parse: (A) -> [Model::Vocabulary::Linkages]
-
+    class BaseImporter[Config]
+      def initialize: (config: Config) -> void
+      attr_reader config: Config
+      def parse: () -> [Model::Vocabulary::Linkages]
     end
   end
 end

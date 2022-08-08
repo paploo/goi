@@ -5,10 +5,10 @@ module Goi
   module Exporter
     class SqlFileExporter < BaseExporter
 
-      def initialize
-        super()
-        @db = Sequel.postgres('goi', user: 'postgres', password: 'postgres', host: 'localhost')
-        @io = STDOUT
+      def initialize(config:)
+        super(config:)
+        @db = Sequel.postgres(config.db_config)
+        @io = config.out_io
       end
 
       attr_reader :db

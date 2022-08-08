@@ -18,9 +18,9 @@ module Goi
         'date_added'
       ].freeze
 
-      def initialize(io: STDOUT)
-        super()
-        @io = io
+      def initialize(config:)
+        super(config:)
+        @io = config.out_io
       end
 
       attr_reader :io

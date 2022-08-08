@@ -1,7 +1,7 @@
 module Goi
   module Exporter
-    class IOExporter < BaseExporter[String]
-      def initialize: (?io: IO io) -> void
+    class IOExporter < BaseExporter[Goi::Application::Config]
+      def initialize: (config: Goi::Application::Config) -> void
 
       attr_reader io: IO
 
