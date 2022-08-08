@@ -1,10 +1,10 @@
 module Goi
   module Exporter
-    class SqlFileExporter < BaseExporter
+    class SqlFileExporter < BaseExporter[void]
 
       type record = Hash[Symbol, untyped]
 
-      def initialize: (?mode: Symbol mode) -> void
+      def initialize: () -> void
 
       attr_reader db: untyped
 
