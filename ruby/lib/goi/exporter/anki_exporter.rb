@@ -15,6 +15,7 @@ module Goi
         'conjugation_kind',
         'jlpt_level',
         'date_added',
+        'row_num',
         'lessons',
         'tags',
       ].freeze
@@ -54,6 +55,7 @@ module Goi
           linkage.vocabulary.conjugation_kind_code&.then { |c| humanize_const(c) },
           linkage.vocabulary.jlpt_level&.to_s,
           linkage.vocabulary.date_added&.iso8601,
+          linkage.vocabulary.row_num.to_s,
           to_array_field(linkage.vocabulary.lesson_codes),
           tags_field(linkage.vocabulary)
         ]

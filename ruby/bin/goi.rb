@@ -46,8 +46,8 @@ importer = Goi::Importer::GoogleSheetImporter.new(config:)
 #importer = Goi::Importer::SequelImporter.new(config:)
 
 #exporter = Goi::Exporter::GoogleSheetExporter.new(config:)
-#exporter = Goi::Exporter::AnkiExporter.new(config:)
-exporter = Goi::Exporter::SqlFileExporter.new(config:)
+exporter = Goi::Exporter::AnkiExporter.new(config:)
+#exporter = Goi::Exporter::SqlFileExporter.new(config:)
 
 app = Goi::Application.new(config:, importer:, exporter:)
 app.run
