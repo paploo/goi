@@ -27,7 +27,8 @@ module Goi
       attr_reader :io
 
       def export(linkages:)
-        rows = [header_row] + linkage_rows(linkages:)
+        io.puts("#columns: " + HEADERS.to_csv)
+        rows = linkage_rows(linkages:)
         rows.each do |row|
           io.puts(row.to_csv)
         end
@@ -49,10 +50,10 @@ module Goi
           linkage.preferred_definition.value,
           linkage.preferred_spelling.value,
           phonetic_spelling_field(linkage),
-          linkage.vocabulary.word_class_code,
-          linkage.vocabulary.conjugation_kind_code,
+          linkage.vocabulary.word_class_code.then { |c| humanize_const(c) },
+          linkage.vocabulary.conjugation_kind_code&.then { |c| humanize_const(c) },
           linkage.vocabulary.jlpt_level&.to_s,
-          linkage.vocabulary.date_added.iso8601,
+          linkage.vocabulary.date_added&.iso8601,
           to_array_field(linkage.vocabulary.lesson_codes),
           tags_field(linkage.vocabulary)
         ]
@@ -67,10 +68,15 @@ module Goi
 
       def tags_field(vocabulary)
         full_tags = (vocabulary.tags + [vocabulary.word_class_code, vocabulary.conjugation_kind_code] + vocabulary.lesson_codes).compact.uniq
-        to_array_field(full_tags)
+        tagized = full_tags.map { |s| tagize(s) }
+        to_array_field(tagized)
       end
 
       def to_array_field(array) = array.join(' ').clean
+
+      def humanize_const(s) = s.downcase.tr('_', ' ')
+
+      def tagize(s) = s.downcase.tr('_', '-')
 
     end
   end

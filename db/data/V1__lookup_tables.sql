@@ -13,6 +13,8 @@ INSERT INTO vocabulary.word_class (code, label) VALUES ('CONJUNCTION', 'Conjunct
 INSERT INTO vocabulary.word_class (code, label) VALUES ('PARTICLE', 'Particle');
 INSERT INTO vocabulary.word_class (code, label) VALUES ('EXPRESSION', 'Expression');
 INSERT INTO vocabulary.word_class (code, label) VALUES ('CONTRACTION', 'Contraction');
+INSERT INTO vocabulary.word_class (code, label) VALUES ('COUNTER', 'Counter');
+INSERT INTO vocabulary.word_class (code, label) VALUES ('SUFFIX', 'Suffix');
 
 ---
 --- CONJUGATION KIND
