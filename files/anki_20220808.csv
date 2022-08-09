@@ -93,11 +93,13 @@ c511ec54-4f00-5426-89ef-ee1558ccfb60,high school student,高校生,こうこう�
 98e48ea2-8566-55a1-bfb8-d5aaf1a060d0,graduate student,大学院生,だいがくいんせい,noun,,,2022-04-24,GENKI3_L01,occupation noun genki3-l01
 902b7ccb-091c-502b-a413-5a3a38c655a4,lawyer,弁護士,べんごし,noun,,,2022-04-24,GENKI3_L01,occupation noun genki3-l01
 f8d03abe-255a-5717-811a-91f511c39759,mother,お母さん,おかあさん,noun,,,2022-04-24,GENKI3_L01,family noun genki3-l01
-d7a063c8-998c-50a3-825c-86f896a5a0c7,father,お父さん,お父さん,noun,,,2022-04-24,GENKI3_L01,family noun genki3-l01
-e09e6607-0754-53e7-ac90-7d5eec6a3442,older sister,お姉さん,おねえさん,noun,,,2022-04-24,GENKI3_L01,family noun genki3-l01
-942ce296-4fdd-5a7d-9c2c-53d4c2ae2de7,older brother,お兄さん,おにいさん,noun,,,2022-04-24,GENKI3_L01,family noun genki3-l01
-d4387364-3f1c-51be-9762-ddf41f844fb7,younger sister,妹,いもうと,noun,,,2022-04-24,GENKI3_L01,family noun genki3-l01
-acc5e753-294b-571f-9ee7-a7cd6eeea235,younger brother,弟,おとうと,noun,,,2022-04-24,GENKI3_L01,family noun genki3-l01
+d7a063c8-998c-50a3-825c-86f896a5a0c7,father,お父さん,お父さん,noun,,,2022-04-24,DUO_02_07 GENKI3_L01,family noun duo-02-07 genki3-l01
+e09e6607-0754-53e7-ac90-7d5eec6a3442,older sister,お姉さん,おねえさん,noun,,,2022-04-24,DUO_02_07 GENKI3_L01,family noun duo-02-07 genki3-l01
+942ce296-4fdd-5a7d-9c2c-53d4c2ae2de7,older brother,お兄さん,おにいさん,noun,,,2022-04-24,DUO_02_07 GENKI3_L01,family noun duo-02-07 genki3-l01
+d4387364-3f1c-51be-9762-ddf41f844fb7,younger sister,妹,いもうと,noun,,,2022-04-24,DUO_02_07 GENKI3_L01,family noun duo-02-07 genki3-l01
+acc5e753-294b-571f-9ee7-a7cd6eeea235,younger brother,弟,おとうと,noun,,,2022-04-24,DUO_02_07 GENKI3_L01,family noun duo-02-07 genki3-l01
+dc17e988-29c0-4adf-8ae2-b9c763a53811,sisters,姉妹,しまい,noun,,,2022-08-08,DUO_02_07,family noun duo-02-07
+39d87517-fc60-4158-83ee-97a62168dfb3,brothers,兄弟,きょうだい,noun,,,2022-08-08,DUO_02_07,family noun duo-02-07
 58ecba76-692b-5baf-a096-62bf3e752da2,this one,これ,これ,pronoun,,,2022-05-30,DUO_02_01 GENKI3_L02,pointing-word pronoun duo-02-01 genki3-l02
 8373ee97-fb02-5fa4-9f3a-e6d0bfe42042,that one,それ,それ,pronoun,,,2022-05-30,DUO_02_01 GENKI3_L02,pointing-word pronoun duo-02-01 genki3-l02
 e3286acb-a31b-5fb6-9c16-28ac16fcc269,that one over there,あれ,あれ,pronoun,,,2022-05-30,DUO_02_01 GENKI3_L02,pointing-word pronoun duo-02-01 genki3-l02
@@ -110,7 +112,7 @@ a9b7cffc-2d14-58ae-818b-3ac3b6e6e4d0,which....,どの〜,どの〜,pronoun,,,202
 0279527b-c398-5856-aad3-11b834907f56,there,そこ,そこ,pronoun,,,2022-05-30,GENKI3_L02,pointing-word pronoun genki3-l02
 5587745e-e524-5159-8fe6-1e8637b90455,over there,あそこ,あそこ,pronoun,,,2022-05-30,GENKI3_L02,pointing-word pronoun genki3-l02
 1502a2cb-059c-5a9f-baab-af68a0d09ac8,where,どこ,どこ,pronoun,,,2022-05-30,GENKI3_L02,pointing-word pronoun genki3-l02
-93eaf294-a292-5980-b17e-de43755335c9,who,誰,だれ,pronoun,,,2022-05-30,GENKI3_L02,pointing-word pronoun genki3-l02
+93eaf294-a292-5980-b17e-de43755335c9,who,誰,だれ,pronoun,,,2022-05-30,DUO_02_07 GENKI3_L02,pointing-word pronoun duo-02-07 genki3-l02
 f5fce96d-2982-5d7a-b7ce-9dc8914c6ab3,delicious,おいし,おいし,adjective,i adjective,,2022-05-30,GENKI3_L02,food adjective i-adjective genki3-l02
 10a5183d-9b5d-58c7-885f-0210e56c1dca,delicious! (slang),うまい,うまい,adjective,i adjective,,2022-05-30,GENKI3_L02,food adjective i-adjective genki3-l02
 f7aa023d-a413-562b-bf45-75367462a4b2,fish,魚,魚,noun,,,2022-05-30,DUO_02_01,food noun duo-02-01
@@ -123,6 +125,8 @@ e2c0e2f3-891a-55e3-ad28-285669d27287,pork bone (e.g. ramen broth),豚骨,とん�
 b74ca7fa-4622-5a52-b9df-5260878e687b,bread,パン,ぱん,noun,,,2022-05-30,DUO_02_01 GENKI3_L04,food noun duo-02-01 genki3-l04
 5e2b2d0d-7461-56e2-a151-9a10375d5615,egg,卵,たまご,noun,,,2022-05-30,DUO_02_06,food noun duo-02-06
 12c11165-7996-5b13-bf19-c3afc419afb2,apple,りんご,りんご,noun,,,2022-05-30,DUO_02_06,food noun duo-02-06
+1cf2249c-7785-424d-9a67-1c3ff6253938,counter for hito-futa-mi system,〜つ,〜つ,counter,,,2022-05-30,DUO_02_06,counter duo-02-06
+cab23f18-7b88-4262-956c-d31a0e829cbf,counter for round and clustered items,〜個,〜こ,counter,,,2022-05-30,DUO_02_06,counter duo-02-06
 b1852be8-7a0e-5541-b94d-29be625cb423,umbrella,傘,かさ,noun,,,2022-05-30,GENKI3_L02,things noun genki3-l02
 b5d661b7-f275-5647-a86b-cf4bd963f512,bag,かばん,かばん,noun,,,2022-05-30,GENKI3_L02,things noun genki3-l02
 96fb26f0-20df-51e0-b1c4-793ab736c2d9,shoes,靴,くつ,noun,,,2022-05-30,GENKI3_L02,things noun genki3-l02
@@ -224,3 +228,27 @@ d7dc5e63-a1ca-58e6-9c31-047e23342953,often; much,よく,よく,adverb,,,2022-07-
 f5f775ad-523f-5888-b269-fcb13c1c1051,i'm okay; no problem,大丈夫,だいじょうぶ,expression,,,2022-07-24,,expression
 6ae314ed-22ae-5a5f-8e43-c5165e6eb3a1,I'm okay; no thank you; it's all right,大丈夫です,だいじょうぶです,expression,,,2022-07-24,,expression
 8640d0ab-1efc-5b18-a49c-564f8e53d65c,little quantity; few,少し,すこし,adverb,,,2022-07-24,,adverb
+ecb81156-ea05-44c8-bea0-9e5c199c1c4b,"again, once more; also, too, as well",また,また,adverb,,,2022-08-08,,adverb
+820e130a-a772-413e-a754-d1a0021bbcf5,bye; see you later,またね,またね,interjection,,,2022-08-08,,interjection
+82223749-3af6-4348-b0f0-a0addad0ddf2,bye; see you,じゃね,じゃあね／じゃね,interjection,,,2022-08-08,,interjection
+03137815-af09-4ff0-84a7-622d92cf600c,kitchen,台所,だいどころ,noun,,,2022-05-30,DUO_02_04,home noun duo-02-04
+f6d9d4a3-811d-4ab1-80e1-8f979c4b483c,room,部屋,へや,noun,,,2022-05-30,DUO_02_04,home noun duo-02-04
+f31e6384-d4e9-4a67-b12e-e08cddfdba29,bath(tub),風呂,ふろ,noun,,,2022-05-30,DUO_02_04,home noun duo-02-04
+0079d5eb-c8e1-4f3b-9105-51054a2c0b8a,bedroom,寝室,しんしつ,noun,,,2022-05-30,DUO_02_04,home noun duo-02-04
+b04ef471-2292-4ca7-a470-4829fb116b8a,window,窓,まど,noun,,,2022-05-30,DUO_02_04,home noun duo-02-04
+c08c0aff-7835-4c0a-a560-cd8e627c3a90,yard; garden,庭,にわ,noun,,,2022-05-30,DUO_02_04,home noun duo-02-04
+9e935991-a6f7-4383-b8a0-9376d7af8298,chair,椅子,いす,noun,,,2022-05-30,DUO_02_04,home noun duo-02-04
+2f7263b8-e1dd-4c09-94d0-7ad22fe82a5b,sofa,ソファー,ソファー,noun,,,2022-05-30,DUO_02_04,home noun duo-02-04
+068b1a67-d6a5-4790-a264-febfbccc06c2,desk,机,つくえ,noun,,,2022-05-30,DUO_02_04,home noun duo-02-04
+7361012a-f230-444c-babe-48449c5bc79d,pet,ペット,ペット,noun,,,2022-05-30,DUO_02_04,animal noun duo-02-04
+f9f3b546-f023-4b35-9db2-068f8143c41e,dog,犬,いぬ,noun,,,2022-05-30,DUO_02_04,animal noun duo-02-04
+5399ca2c-f192-40b6-9b69-28dc1de577c8,cat,猫,ねこ,noun,,,2022-05-30,DUO_02_04,animal noun duo-02-04
+f5b2d28f-d519-4138-a9d0-5c99b82d09af,bird,鳥,とり,noun,,,2022-05-30,DUO_02_04,animal noun duo-02-04
+9704386f-fba7-4008-b079-fc541fb9c0dc,puppy,子犬,こいぬ,noun,,,2022-05-30,DUO_02_04,animal noun duo-02-04
+63a5b1e8-d69e-4f78-9fa1-f6ed248b872b,kitten,子猫,こねこ,noun,,,2022-05-30,DUO_02_04,animal noun duo-02-04
+93849573-7b32-4df3-a3b9-a15fb7555627,"counter for birds, rabbits, etc",〜羽,〜わ,counter,,,2022-05-30,DUO_02_04,animal counter duo-02-04
+6432ab47-a4a0-487f-89ad-b37fce084c74,"she, her",彼女,かのじょ,pronoun,,,2022-08-08,DUO_02_07,pronoun duo-02-07
+794880bc-1fa2-4fb8-9fa0-bd04c175bbee,"him, he",彼,かれ,pronoun,,,2022-08-08,DUO_02_07,pronoun duo-02-07
+46260a68-5466-4f70-9b0b-968d8143848f,"they, them",彼ら,かれら,pronoun,,,2022-08-08,DUO_02_07,pronoun duo-02-07
+7592b181-b6f1-41f0-b618-4ae67ab38b21,"...plural (person, animal)",〜たち,〜たち,suffix,,,2022-08-08,DUO_02_07,suffix duo-02-07
+bd6d533d-c173-49c5-95c7-85fe90dd38a6,"I,me (male term)",僕,ぼく,pronoun,,,2022-08-08,DUO_02_07,pronoun duo-02-07
