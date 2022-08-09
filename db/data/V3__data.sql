@@ -65,12 +65,12 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('3ca5ac2a-6baf-5026-aed5-5abb065310b6', 'b626308d-6418-5a2c-9151-7a8a368f27a3', 'HIRAGANA', 'ありがとうございます');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('b626308d-6418-5a2c-9151-7a8a368f27a3', 'e5c38ea7-cfce-5a33-a4cc-6d4b4f3ce678', '20c1e5dc-9e9a-5da7-9f2a-c7d718b38445', '3ca5ac2a-6baf-5026-aed5-5abb065310b6', NULL, NULL);
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('b626308d-6418-5a2c-9151-7a8a368f27a3', 'GENKI3_L00');
--- 行って来ます | I'll go and come back --;
+-- 行ってきます | I'll go and come back --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('1913dbc6-4712-549a-9274-dc3511cecbfe', 'EXPRESSION', NULL, NULL, 10, '{greeting}', '2022-04-24');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('6648ace8-403c-5de2-b346-f65331b6fdde', '1913dbc6-4712-549a-9274-dc3511cecbfe', 1, 'I''ll go and come back');
-INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('91adfe87-343c-55f8-8bdd-0a16f7e7a6cb', '1913dbc6-4712-549a-9274-dc3511cecbfe', 'KANJI', '行って来ます');
+INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('91adfe87-343c-55f8-8bdd-0a16f7e7a6cb', '1913dbc6-4712-549a-9274-dc3511cecbfe', 'KANJI', '行ってきます');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('8ecb31aa-3650-5232-8c2b-a0f1ffa6c640', '1913dbc6-4712-549a-9274-dc3511cecbfe', 'HIRAGANA', 'いってきます');
-INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('cc8a33ef-577f-5dfa-b388-9aa936e42dc6', '1913dbc6-4712-549a-9274-dc3511cecbfe', 'KANJI', '行って来ます');
+INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('cc8a33ef-577f-5dfa-b388-9aa936e42dc6', '1913dbc6-4712-549a-9274-dc3511cecbfe', 'KANJI', '行ってきます');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('1913dbc6-4712-549a-9274-dc3511cecbfe', '6648ace8-403c-5de2-b346-f65331b6fdde', '91adfe87-343c-55f8-8bdd-0a16f7e7a6cb', '8ecb31aa-3650-5232-8c2b-a0f1ffa6c640', NULL, 'cc8a33ef-577f-5dfa-b388-9aa936e42dc6');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('1913dbc6-4712-549a-9274-dc3511cecbfe', 'GENKI3_L00');
 -- いってらっしゃい | Please go and come back --;
