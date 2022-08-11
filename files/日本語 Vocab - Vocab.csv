@@ -41,7 +41,7 @@ Kyoto,京都,きょうと,,京都,PROPER_NOUN,,,"{DUO_02_05,GENKI3_L03}","{city,
 Osaka,大阪,おおさか,,大阪,PROPER_NOUN,,,{DUO_02_05},"{city,place}",15c5fee6-dda7-5d40-b7fd-382d97a28b9c,40,2022-04-24
 Tokyo,東京,とおきょう,,東京,PROPER_NOUN,,,{DUO_02_05},"{city,place}",39458010-a5eb-5b13-b054-4cc458702c56,41,2022-04-24
 to say; to be called; name,申す,もうす,,申す,VERB,GODAN_VERB,4,{DUO_02_05},,091d6d9c-5d19-51f5-bc28-3b5281042464,42,2022-04-24
-"to differ, to disagree; to be wrong",違う,ちがう,,違う,VERB,GODAN_VERB,5,,,,43,
+"to differ, to disagree; to be wrong",違う,ちがう,,違う,VERB,GODAN_VERB,5,,,b7d078d1-235f-4462-b052-453aa5f6dfcf,43,
 That is not right (this is wrong),違います,ちがいます,,違います,EXPRESSION,,,{DUO_02_05},,6e44df4a-4366-5c1a-86af-87a4e5f61fc6,44,2022-04-24
 What is the difference?,違いは何ですか,ちがいはなんですか,,違いは何ですか,EXPRESSION,,,{DUO_02_05},,7748dd60-2126-5e30-a5b6-39596a0e25e4,45,2022-04-24
 Now,今,いま,,今,NOUN,,5,"{DUO_02_02,GENKI3_L01}",{time},dce3fe6a-497c-54b2-a121-df6767084258,46,2022-04-24
@@ -50,7 +50,7 @@ P.M.,午後,ごご,,午後,NOUN,,5,"{DUO_02_03,GENKI3_L01}",{time},94611381-0488
 ...o'clock,〜時,〜じ,,〜時,SUFFIX,,,"{DUO_02_02,GENKI3_L01}",{time},40502e18-b4ba-50b4-89b7-23fd3b4d4a21,49,2022-04-24
 half; half-past,半,はん,,半,NOUN,,5,"{DUO_02_02,GENKI3_L01}",{time},5372b023-b803-551c-9a7f-f404804f63f1,50,2022-04-24
 "minute, arcminutes",~分,~ふん,~ぷん,~分,NOUN,,1,{DUO_02_02},{time},2cf1d32f-b261-5ba6-829c-a9f1237a88d6,51,2022-04-24
-"part, portion, share",分,ぶん,ぶん,分,NOUN,,3,,,,52,2022-08-09
+"part, portion, share",分,ぶん,ぶん,分,NOUN,,3,,,db9793c1-8b7c-481c-bc77-6d36eb4afb30,52,2022-08-09
 approximately,〜ごろ,〜ごろ,,頃,NOUN,,3,{DUO_02_03},{time},a39e794c-9682-5cd5-9c5e-dd961aa92bc5,53,2022-04-24
 exactly,ちょうど,ちょうど,,丁度,NOUN,,5,{DUO_02_02},{time},9e67a677-9058-536e-85d6-389ea5138c86,54,2022-04-24
 zero,零,れい,,零,NOUN,,5,{DUO_02_03},"{number,time}",252852aa-aefd-504b-b671-668a33020492,55,2022-04-24
@@ -127,7 +127,7 @@ rice; meal,ご飯,ごはん,,ご飯,NOUN,,5,"{DUO_02_01,GENKI3_L04}",{food},4fbc
 bread,パン,ぱん,,,NOUN,,5,"{DUO_02_01,GENKI3_L04}",{food},b74ca7fa-4622-5a52-b9df-5260878e687b,126,2022-05-30
 egg,卵,たまご,,卵,NOUN,,5,{DUO_02_06},{food},5e2b2d0d-7461-56e2-a151-9a10375d5615,127,2022-05-30
 apple,りんご,りんご,,林檎,NOUN,,,{DUO_02_06},{food},12c11165-7996-5b13-bf19-c3afc419afb2,128,2022-05-30
-pear,なし,なし,,梨,NOUN,,,,{food},,129,2022-08-09
+pear,なし,なし,,梨,NOUN,,,,{food},7b7d934a-cfd6-4286-9175-dfe7676b4355,129,2022-08-09
 counter for hito-futa-mi system,〜つ,〜つ,,〜箇,COUNTER,,,{DUO_02_06},,1cf2249c-7785-424d-9a67-1c3ff6253938,130,2022-05-30
 counter for round and clustered items,〜個,〜こ,,〜個,COUNTER,,,{DUO_02_06},,cab23f18-7b88-4262-956c-d31a0e829cbf,131,2022-05-30
 umbrella,傘,かさ,,傘,NOUN,,5,{GENKI3_L02},{things},b1852be8-7a0e-5541-b94d-29be625cb423,132,2022-05-30
@@ -255,50 +255,50 @@ kitten,子猫,こねこ,,子猫,NOUN,,,{DUO_02_04},{animal},63a5b1e8-d69e-4f78-9
 "they, them",彼ら,かれら,,彼ら,PRONOUN,,3,{DUO_02_07},,46260a68-5466-4f70-9b0b-968d8143848f,254,2022-08-08
 "...plural (person, animal)",〜たち,〜たち,,〜達,SUFFIX,,,{DUO_02_07},,7592b181-b6f1-41f0-b618-4ae67ab38b21,255,2022-08-08
 "I,me (male term)",僕,ぼく,,僕,PRONOUN,,4,{DUO_02_07},,bd6d533d-c173-49c5-95c7-85fe90dd38a6,256,2022-08-08
-game,ゲーム,げえむ,,,NOUN,,3,{GENKI3_L04},{activity},,257,2022-08-10
-part-time job,アルバイト,あればいと,,,NOUN,,4,{GENKI3_L04},{activity},,258,2022-08-10
-part-time job (colloquial),バイト,ばいと,,,NOUN,,,{GENKI3_L04},{activity},,259,2022-08-10
-shopping,買い物,かいもの,,買い物,NOUN,,5,{GENKI3_L04},{activity},,260,2022-08-10
-class,クラス,くらす,,,NOUN,,5,{GENKI3_L04},{activity},,261,2022-08-10
-person,人,人,,,NOUN,,5,{GENKI3_L04},,,262,2022-08-10
-child,子供,こども,,子供,NOUN,,5,{GENKI3_L04},,,263,2022-08-10
-picture; photograph,写真,しゃしん,,写真,NOUN,,5,{GENKI3_L04},,,264,2022-08-10
-flower,花,はな,,はな,NOUN,,5,{GENKI3_L04},,,265,2022-08-10
-(term) paper,レポート,れぽおと,,,NOUN,,4,{GENKI3_L04},,,266,2022-08-10
-temple,お寺,おてら,,お寺,NOUN,,,{GENKI3_L04},{place},,267,2022-08-10
-park,公園,こうえん,,公園,NOUN,,5,{GENKI3_L04},{place},,268,2022-08-10
-supermarket,スーパー,すうぱあ,,,NOUN,,,{GENKI3_L04},{place},,269,2022-08-10
-bus stop,バス停,ばすてい,,バス停,NOUN,,,{GENKI3_L04},{place},,270,2022-08-10
-hospital,病院,びょういん,,病院,NOUN,,5,{GENKI3_L04},{place},,271,2022-08-10
-hotel,ホテル,ほてる,,,NOUN,,5,{GENKI3_L04},{place},,272,2022-08-10
-bokkstore,本屋,ほんや,,本屋,NOUN,,,{GENKI3_L04},{place},,273,2022-08-10
-town; city,町,まち,,町,NOUN,,5,{GENKI3_L04},{place},,274,2022-08-10
-restaurant,レストラン,れすとらん,,,NOUN,,5,{GENKI3_L04},{place},,275,2022-08-10
-yesterday,昨日,きのう,,昨日,NOUN,,5,{GENKI3_L04},{time},,276,2022-08-10
-...hours; time,〜時間,じかん,,時間,NOUN,,5,{GENKI3_L04},{time},,277,2022-08-10
-last week,先週,せんしゅう,,先週,NOUN,,5,{GENKI3_L04},{time},,278,2022-08-10
-when...; at the time of...,時,とき,,時,NOUN,,3,{GENKI3_L04},{time},,279,2022-08-10
-Monday,月曜日,げつようび,,月曜日,NOUN,,5,{GENKI3_L04},{time},,280,2022-08-10
-Tuesday,火曜日,かようび,,火曜日,NOUN,,5,{GENKI3_L04},{time},,281,2022-08-10
-Wednesday,水曜日,すいようび,,水曜日,NOUN,,5,{GENKI3_L04},{time},,282,2022-08-10
-Thursday,木曜日,もくようび,,木曜日,NOUN,,5,{GENKI3_L04},{time},,283,2022-08-10
-Friday,金曜日,金曜日,,金曜日,NOUN,,5,{GENKI3_L04},{time},,284,2022-08-10
-there exists...,いる,いる,,,VERB,ICHIDAN_VERB,5,{GENKI3_L04},{to_be_verb},,285,2022-08-10
-there is...,ある,ある,,,VERB,GODAN_VERB,5,{GENKI3_L04},{to_be_verb},,286,2022-08-10
-to meet; to see a person,会う,あう,,会う,VERB,GODAN_VERB,5,{GENKI3_L04},,,287,2022-08-10
-to buy; to purchase,買う,かう,,かう,VERB,GODAN_VERB,5,{GENKI3_L04},,,288,2022-08-10
-to write,書く,かく,,書く,VERB,GODAN_VERB,5,{GENKI3_L04},,,289,2022-08-10
-to take (a photograph),撮る,とる,,撮る,VERB,GODAN_VERB,5,{GENKI3_L04},,,290,2022-08-10
-to wait,待つ,まつ,,待つ,VERB,GODAN_VERB,5,{GENKI3_L04},,,291,2022-08-10
-to understand; to comprehend,わかる,わかる,,分かる,VERB,GODAN_VERB,5,{GENKI3_L04},,,292,2022-08-10
-about (approximate measurment),〜ぐらい,ぐらい,,,SUFFIX,,1,{GENKI3_L04},,,293,2022-08-10
-excuse me,すみません,すみません,,済みません,EXPRESSION,,3,,,,294,2022-08-10
-sorry,ごめん,ごめん,,,INTERJECTION,,2,,,,295,2022-08-10
-I'm deeply sorry sorry,ごめんなさい,ごめんなさい,,,EXPRESSION,,3,{GENKI3_L04},,,296,2022-08-10
-and then,それから,それから,,,EXPRESSION,,5,{GENKI3_L04},,,297,2022-08-10
-so; therefore,だかる,だから,,,CONJUNCTION,,4,{GENKI3_L04},,,298,2022-08-10
-many; a lot,たくさん,たくさん,,,NOUN,,5,{GENKI3_L04},,,299,2022-08-10
-together with (a person); and,〜と,と,,,CONJUNCTION,,3,{GENKI3_L04},,,300,2022-08-10
-why; how,どうして,どうして,,,ADVERB,,5,{GENKI3_L04},,,301,2022-08-10
-alone,一人で,一人で,,,EXPRESSION,,,{GENKI3_L04},,,302,2022-08-10
-hello? (phone),もしもし,もしもし,,,EXPRESSION,,,{GENKI3_L04},,,303,2022-08-10
+game,ゲーム,げえむ,,,NOUN,,3,{GENKI3_L04},{activity},038bec1a-765f-42b2-905d-28004fd829a3,257,2022-08-10
+part-time job,アルバイト,あればいと,,,NOUN,,4,{GENKI3_L04},{activity},303cf994-1062-45cd-9c22-738f09ffee51,258,2022-08-10
+part-time job (colloquial),バイト,ばいと,,,NOUN,,,{GENKI3_L04},{activity},8509b44f-d5d4-437f-a845-aae915c292dc,259,2022-08-10
+shopping,買い物,かいもの,,買い物,NOUN,,5,{GENKI3_L04},{activity},a024bfb6-a9ef-4690-904a-d8fa02367ed3,260,2022-08-10
+class,クラス,くらす,,,NOUN,,5,{GENKI3_L04},{activity},c52c9908-d959-404c-a8f8-161c2663e84e,261,2022-08-10
+person,人,人,,,NOUN,,5,{GENKI3_L04},,624914ad-ed17-40f2-9260-e70c69962692,262,2022-08-10
+child,子供,こども,,子供,NOUN,,5,{GENKI3_L04},,399bbf9b-f7e7-429c-8874-42e0bf5cae9e,263,2022-08-10
+picture; photograph,写真,しゃしん,,写真,NOUN,,5,{GENKI3_L04},,e63daade-a22a-4554-a061-4077691692ee,264,2022-08-10
+flower,花,はな,,はな,NOUN,,5,{GENKI3_L04},,8b29a67e-61cf-494a-972a-5d59944a53d6,265,2022-08-10
+(term) paper,レポート,れぽおと,,,NOUN,,4,{GENKI3_L04},,26eb1163-f6e3-43a8-b406-be60d5959e56,266,2022-08-10
+temple,お寺,おてら,,お寺,NOUN,,,{GENKI3_L04},{place},8ff036c4-9800-49d5-906b-514520c78880,267,2022-08-10
+park,公園,こうえん,,公園,NOUN,,5,{GENKI3_L04},{place},fe1b8cc3-30c4-49ce-90de-e60514fdf437,268,2022-08-10
+supermarket,スーパー,すうぱあ,,,NOUN,,,{GENKI3_L04},{place},1e29f308-89f0-4c1d-bef5-323b3fdb1ca7,269,2022-08-10
+bus stop,バス停,ばすてい,,バス停,NOUN,,,{GENKI3_L04},{place},c406dd1a-75be-4283-97ee-5c7c31f904ed,270,2022-08-10
+hospital,病院,びょういん,,病院,NOUN,,5,{GENKI3_L04},{place},850f7735-fa14-49d2-9879-20d8a47dc0e8,271,2022-08-10
+hotel,ホテル,ほてる,,,NOUN,,5,{GENKI3_L04},{place},19bda9d8-1bbf-4d7b-8388-8375d9480918,272,2022-08-10
+bokkstore,本屋,ほんや,,本屋,NOUN,,,{GENKI3_L04},{place},e0b533e8-f938-4c93-b5fc-cbf9a5efbc9c,273,2022-08-10
+town; city,町,まち,,町,NOUN,,5,{GENKI3_L04},{place},ddb16a7a-e9c0-4cce-ac65-ea78d074fce8,274,2022-08-10
+restaurant,レストラン,れすとらん,,,NOUN,,5,{GENKI3_L04},{place},470f29e2-10f1-4d28-9d80-d40f15fc171a,275,2022-08-10
+yesterday,昨日,きのう,,昨日,NOUN,,5,{GENKI3_L04},{time},d5575534-34bf-41fc-a7df-2ed647e61a05,276,2022-08-10
+...hours; time,〜時間,じかん,,時間,NOUN,,5,{GENKI3_L04},{time},819a835d-a6be-4c08-a364-8907b1226bbf,277,2022-08-10
+last week,先週,せんしゅう,,先週,NOUN,,5,{GENKI3_L04},{time},30e8ffe0-74a6-411b-957d-5ee3277bd853,278,2022-08-10
+when...; at the time of...,時,とき,,時,NOUN,,3,{GENKI3_L04},{time},585f82ea-6a6a-4005-b3a6-ed57442a6ed9,279,2022-08-10
+Monday,月曜日,げつようび,,月曜日,NOUN,,5,{GENKI3_L04},{time},7e9e71f3-ca82-40b2-9190-e8df09a60b70,280,2022-08-10
+Tuesday,火曜日,かようび,,火曜日,NOUN,,5,{GENKI3_L04},{time},a7f63c04-eeb1-4cc9-b9e7-93c5aef67195,281,2022-08-10
+Wednesday,水曜日,すいようび,,水曜日,NOUN,,5,{GENKI3_L04},{time},b7290a17-b80a-4663-84b4-fb97c53ac10e,282,2022-08-10
+Thursday,木曜日,もくようび,,木曜日,NOUN,,5,{GENKI3_L04},{time},29385baf-a573-49a4-b4b5-0119dae49df3,283,2022-08-10
+Friday,金曜日,金曜日,,金曜日,NOUN,,5,{GENKI3_L04},{time},1ecc5944-6007-4a9f-8153-41e50842b67a,284,2022-08-10
+there exists...,いる,いる,,,VERB,ICHIDAN_VERB,5,{GENKI3_L04},{to_be_verb},8728a06a-1e5b-436b-939a-b1d96a7d9f79,285,2022-08-10
+there is...,ある,ある,,,VERB,GODAN_VERB,5,{GENKI3_L04},{to_be_verb},a4025eed-7054-4b18-b8ce-c90bc7ed6b00,286,2022-08-10
+to meet; to see a person,会う,あう,,会う,VERB,GODAN_VERB,5,{GENKI3_L04},,a7c68ed2-5f08-4411-9030-42347f7d571f,287,2022-08-10
+to buy; to purchase,買う,かう,,かう,VERB,GODAN_VERB,5,{GENKI3_L04},,1e617d48-2df2-4c74-b732-89783d176db9,288,2022-08-10
+to write,書く,かく,,書く,VERB,GODAN_VERB,5,{GENKI3_L04},,1629794a-84d2-44f3-b05b-89bcb817152a,289,2022-08-10
+to take (a photograph),撮る,とる,,撮る,VERB,GODAN_VERB,5,{GENKI3_L04},,ab8ef931-7703-4d80-9272-bbc453f19b69,290,2022-08-10
+to wait,待つ,まつ,,待つ,VERB,GODAN_VERB,5,{GENKI3_L04},,7e09edbb-c75f-4ee4-8006-89ac3deea1d0,291,2022-08-10
+to understand; to comprehend,わかる,わかる,,分かる,VERB,GODAN_VERB,5,{GENKI3_L04},,749a9435-10dc-4b02-b1dc-778f08e86258,292,2022-08-10
+about (approximate measurment),〜ぐらい,ぐらい,,,SUFFIX,,1,{GENKI3_L04},,9fe24c28-0eae-4a2c-ad49-16f76680afec,293,2022-08-10
+excuse me,すみません,すみません,,済みません,EXPRESSION,,3,,,9ec6f020-0166-4d80-a938-070eeb78cc05,294,2022-08-10
+sorry,ごめん,ごめん,,,INTERJECTION,,2,,,7d011295-e767-462a-85a9-8f5fab4883b8,295,2022-08-10
+I'm deeply sorry sorry,ごめんなさい,ごめんなさい,,,EXPRESSION,,3,{GENKI3_L04},,46ba5ddd-9d1f-4bc0-982e-a67e7bb4b307,296,2022-08-10
+and then,それから,それから,,,EXPRESSION,,5,{GENKI3_L04},,7ded3290-23fd-4091-83c5-560563afeed3,297,2022-08-10
+so; therefore,だかる,だから,,,CONJUNCTION,,4,{GENKI3_L04},,3fd6bcdf-d9e5-4cc9-8aab-46e121e4c86a,298,2022-08-10
+many; a lot,たくさん,たくさん,,,NOUN,,5,{GENKI3_L04},,10eece8b-4102-41c5-9532-e62246da60e2,299,2022-08-10
+together with (a person); and,〜と,と,,,CONJUNCTION,,3,{GENKI3_L04},,d097a029-96a6-4cfe-936e-9f815b368de3,300,2022-08-10
+why; how,どうして,どうして,,,ADVERB,,5,{GENKI3_L04},,f439afe8-6382-4017-b594-de82a2d090e6,301,2022-08-10
+alone,一人で,一人で,,,EXPRESSION,,,{GENKI3_L04},,0839c0a5-e217-465a-9b68-64994b80b119,302,2022-08-10
+hello? (phone),もしもし,もしもし,,,EXPRESSION,,,{GENKI3_L04},,82698354-a810-410e-a0c2-e2e9e391e7bc,303,2022-08-10

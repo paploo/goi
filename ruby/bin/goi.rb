@@ -37,7 +37,8 @@ end
 
 # TODO: Take these as command line arguments
 config = Goi::Application::Config.new(
-  infile_path: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', '日本語 Vocab - Vocab.csv'),
+  #infile_path: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', '日本語 Vocab - Vocab.csv'),
+  infile_path: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', 'google_sheet.csv'),
   db_config: {database: 'goi', user: 'postgres', password: 'postgres', host: 'localhost'},
   out_io: STDOUT
 )
@@ -45,7 +46,7 @@ config = Goi::Application::Config.new(
 importer = Goi::Importer::GoogleSheetImporter.new(config:)
 #importer = Goi::Importer::SequelImporter.new(config:)
 
-xporter = Goi::Exporter::GoogleSheetExporter.new(config:)
+exporter = Goi::Exporter::GoogleSheetExporter.new(config:)
 #exporter = Goi::Exporter::AnkiExporter.new(config:)
 #exporter = Goi::Exporter::SqlFileExporter.new(config:)
 
