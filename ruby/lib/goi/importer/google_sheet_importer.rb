@@ -65,8 +65,12 @@ module Goi
       class VocabularyParser
 
         def parse_row(row:)
+          # Use the existing ID, or make one predictably if not present.
+          # This is so that if we load the same Google Sheet to make several exports, we don't get random UUIDs!
+          id = row[ID_KEY]&.clean || Goi::Model::Vocabulary::Vocabulary.create_id(*row.values)
+
           Goi::Model::Vocabulary::Vocabulary.new(
-            id: row[ID_KEY]&.clean,
+            id:,
             word_class_code: row.fetch_required(WORD_CLASS_CODE_KEY).clean,
             conjugation_kind_code: row[CONJUGATION_KIND_CODE_KEY]&.clean,
             jlpt_level: row[JLPT_LEVEL_KEY]&.clean&.to_i,

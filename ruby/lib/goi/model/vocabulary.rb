@@ -54,12 +54,22 @@ module Goi
       # Vocabulary
       class Vocabulary
 
+        UUID5_NAMESPACE = UUIDTools::UUID.parse('6228ddd3-7a0f-47e0-9bea-a15a0f491ca4').to_s
+
         def self.wrap(attributes)
           new(**attributes)
         end
 
-        def self.create_id
-          UUIDTools::UUID.random_create.to_s
+        # If no arguments are given, a Random UUID is assigned.
+        # If argumetns are given, they are combined to make a predictable ID.
+        def self.create_id(*data)
+          if data.nil? || data.empty?
+            UUIDTools::UUID.random_create.to_s
+          else
+            name = data.map(&:to_s).join('|')
+            ns = UUIDTools::UUID.parse(UUID5_NAMESPACE)
+            UUIDTools::UUID.sha1_create(ns, name).to_s
+          end
         end
 
         def initialize(id: nil,
