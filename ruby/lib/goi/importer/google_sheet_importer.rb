@@ -16,18 +16,15 @@ module Goi
 
       def initialize(config:)
         super(config:)
-        @infile_path = config.infile_path
-
         @vocabulary_parser = VocabularyParser.new
         @definition_parser = DefinitionParser.new
         @spelling_parser = SpellingParser.new
       end
 
-      attr_reader :infile_path
       attr_reader :vocabulary_parser, :definition_parser, :spelling_parser
 
-      def import()
-        rows = CSV.read(infile_path.to_s, headers: true).map(&:to_h)
+      def import
+        rows = CSV.read(config.file_pathname.to_s, headers: true).map(&:to_h)
         parse_rows(rows:)
       end
 

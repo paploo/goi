@@ -6,15 +6,10 @@ module Goi
   module Exporter
     class IOExporter < BaseExporter
 
-      def initialize(config:)
-        super(config:)
-        @io = config.out_io
-      end
-
-      attr_reader :io
-
       def export(linkages:)
-        linkages.each { |link| PP.pp(link, io) }
+        config_out_open do |io|
+          linkages.each { |link| PP.pp(link, io) }
+        end
       end
 
     end

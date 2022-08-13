@@ -1,7 +1,6 @@
 module Goi
   module Importer
-
-    class GoogleSheetImporter < BaseImporter[Goi::Application::Config]
+    class GoogleSheetImporter < BaseImporter
 
       type field_data = { linkage_field: Symbol, key: String }
 
@@ -10,7 +9,10 @@ module Goi
       ALT_PHONETIC_SPELLING_FIELD_DATA: field_data
       KANJI_SPELLING_FIELD_DATA: field_data
 
-      attr_reader infile_path: Pathname
+      def initialize: (config: Config) -> void
+
+      attr_reader config: Config
+
       attr_reader vocabulary_parser: VocabularyParser
       attr_reader definition_parser: DefinitionParser
       attr_reader spelling_parser: SpellingParser
@@ -58,6 +60,5 @@ module Goi
       end
 
     end
-
   end
 end

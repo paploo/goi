@@ -20,18 +20,13 @@ module Goi
         'tags',
       ].freeze
 
-      def initialize(config:)
-        super(config:)
-        @io = config.out_io
-      end
-
-      attr_reader :io
-
       def export(linkages:)
-        io.puts("#columns: " + HEADERS.to_csv)
-        rows = linkage_rows(linkages:)
-        rows.each do |row|
-          io.puts(row.to_csv)
+        config_out_open do |io|
+          io.puts("#columns: " + HEADERS.to_csv)
+          rows = linkage_rows(linkages:)
+          rows.each do |row|
+            io.puts(row.to_csv)
+          end
         end
       end
 

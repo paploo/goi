@@ -1,6 +1,6 @@
 module Goi
   module Importer
-    class SequelImporter < BaseImporter[Goi::Application::Config]
+    class SequelImporter < BaseImporter
 
       type record = Hash[Symbol, untyped]
 
@@ -8,7 +8,9 @@ module Goi
       attr_reader definition_parser: DefinitionParser
       attr_reader spelling_parser: SpellingParser
 
-      def initialize: (config: Goi::Application::Config) -> void
+      def initialize: (config: Config) -> void
+
+      attr_reader config: Config
 
       attr_reader db: untyped
 

@@ -8,12 +8,9 @@ module Goi
       def initialize(config:)
         super(config:)
         @db = Sequel.postgres(config.db_config)
-        @io = config.out_io
       end
 
       attr_reader :db
-      attr_reader :io
-      attr_reader :mode
 
       def export(linkages:)
         record_builder = Goi::SQL::VocabularyRecordBuilder.new
@@ -21,9 +18,11 @@ module Goi
           record_builder.build_record_group(ln)
         end
 
-        record_groups.each do |record_group|
-          sql_stmts = generate_insert_sql(record_group)
-          sql_stmts.each { |stmt| io.puts(stmt + ';') }
+        config_out_open do | io |
+          record_groups.each do |record_group|
+            sql_stmts = generate_insert_sql(record_group)
+            sql_stmts.each { |stmt| io.puts(stmt + ';') }
+          end
         end
       end
 

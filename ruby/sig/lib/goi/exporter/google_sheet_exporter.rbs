@@ -1,11 +1,11 @@
 module Goi
   module Exporter
-    class GoogleSheetExporter < BaseExporter[Goi::Application::Config]
+    class GoogleSheetExporter < BaseExporter
       HEADERS: [String]
 
-      def initialize: (config: Goi::Application::Config) -> void
+      def initialize: (config: Config) -> void
 
-      attr_reader io: IO
+      attr_reader config: Config
 
       def export: (linkages: [Model::Vocabulary::Linkages] linkages) -> untyped
 

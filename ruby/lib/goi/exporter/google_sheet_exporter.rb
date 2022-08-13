@@ -18,17 +18,12 @@ module Goi
         'date_added'
       ].freeze
 
-      def initialize(config:)
-        super(config:)
-        @io = config.out_io
-      end
-
-      attr_reader :io
-
       def export(linkages:)
-        rows = [header_row] + linkage_rows(linkages:)
-        rows.each do |row|
-          io.puts(row.to_csv)
+        config_out_open do |io|
+          rows = [header_row] + linkage_rows(linkages:)
+          rows.each do |row|
+            io.puts(row.to_csv)
+          end
         end
       end
 

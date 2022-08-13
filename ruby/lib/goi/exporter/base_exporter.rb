@@ -12,6 +12,18 @@ module Goi
         # Do nothing
       end
 
+      private
+
+      def config_out_open(&block)
+        if @config.file_pathname.nil?
+          block.call(STDOUT)
+        else
+          File.open(@config.file_pathname, 'w') do |file|
+            block.call(file)
+          end
+        end
+      end
+
     end
   end
 end

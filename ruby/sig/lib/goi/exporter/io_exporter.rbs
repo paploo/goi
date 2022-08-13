@@ -1,9 +1,9 @@
 module Goi
   module Exporter
-    class IOExporter < BaseExporter[Goi::Application::Config]
-      def initialize: (config: Goi::Application::Config) -> void
+    class IOExporter < BaseExporter
+      def initialize: (config: Config) -> void
 
-      attr_reader io: IO
+      attr_reader config: Config
 
       def export: (linkages: [Model::Vocabulary::Linkages] linkages) -> void
     end
