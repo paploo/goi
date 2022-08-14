@@ -358,20 +358,24 @@ between,間,あいだ,,間,NOUN,,5,{GENKI3_L04},{location},5d31fe9a-a3d5-548d-b9
 rice cracker,煎餅,せんべい,,煎餅,NOUN,,,,{food},c4fe5291-83a0-5e58-9791-744a785a3d9a,357,2022-08-12
 cake,ケーキ,ケえき,,,NOUN,,4,,{food},e182997f-4799-5c3c-a985-ed126db9687e,358,2022-08-12
 rice ball,お握り,おにぎり,,お握り,NOUN,,,,{food},676d3eb5-4992-5047-ad16-142df7b8ec38,359,2022-08-12
-salt,塩,しお,,塩,NOUN,,5,,{food},cd548aa6-54f8-5f0a-b55f-c0fcf26dbc2a,363,2022-08-12
-everyone; everybody,みんな,みんな,,皆,NOUN,,5,,,31fa0a64-ab3b-5139-8ebd-2115ed4fa020,364,2022-08-12
-(some) more; longer; further,もっと,もっと,,,ADVERB,,5,,,ca8b76ff-0345-5367-855a-fd69329898a6,365,2022-08-12
-geek; nerd,オタク,おたく,,,NOUN,,,,{slang},fa69ee4d-ab8a-5daf-8701-abab724eaade,366,2022-08-12
-hot water; hot bath; hot spring,湯,ゆ,,湯,NOUN,,4,,,3953151e-3280-5665-8c64-1bfabbedcdd2,367,2022-08-12
-hot spring,温泉,おんせん,,温泉,NOUN,,2,,,8c842dec-6e97-54b7-ad74-2408c4b88677,368,2022-08-12
-stop,止まれ,とまれ,,止まれ,EXPRESSION,,,,,461f8d91-ff08-5cf0-a0a9-891008b85589,369,2022-08-12
-division into equal parts,等分,とうぶん,,等分,NOUN,,2,,,7d911224-17ff-5957-a840-cf56e5907439,370,2022-08-12
-bride,花嫁,はなよめ,,花嫁,NOUN,,2,,,e396a0a2-95a9-52dc-bbde-5bbc8d28c073,371,2022-08-12
-master; teacher,師匠,ししょう,,師匠,NOUN,,,,,3f9be32c-56f7-5543-98b0-5f145ab43669,372,2022-08-12
-order; request,ご注文,ごちゅもん,,ご注文,NOUN,,,,,b0f23319-1e7e-5eee-aa4c-1181b78ebeec,373,2022-08-12
-witch,魔女,まじょ,,魔女,NOUN,,,,,c495dd60-9438-5d9f-892e-6b37d6d88c4a,374,2022-08-12
-demon; ogre,鬼,おに,,鬼,NOUN,,,,,52f192e3-6628-546b-80b5-f63547b440d5,375,2022-08-12
-devine spirit,神,かみ,,神,NOUN,,,,,63f02942-2ba9-5ff6-aa84-be6ecd6f209d,376,2022-08-12
-travel; trip; journey,旅,たび,,旅,NOUN,,3,,,abbcc24b-a635-5aeb-b6ef-387d88099538,377,2022-08-12
-club; department (of company),部,ぶ,,部,NOUN,,1,,,300bed58-ddab-5420-8396-3147573388c3,378,2022-08-12
-tidal wave,津波,つなみ,,津波,NOUN,,1,,,7735ac10-24a6-57a5-baf8-6eec8dc148ae,379,2022-08-12
+salt,塩,しお,,塩,NOUN,,5,,{food},cd548aa6-54f8-5f0a-b55f-c0fcf26dbc2a,360,2022-08-12
+everyone; everybody,みんな,みんな,,皆,NOUN,,5,,,31fa0a64-ab3b-5139-8ebd-2115ed4fa020,361,2022-08-12
+(some) more; longer; further,もっと,もっと,,,ADVERB,,5,,,ca8b76ff-0345-5367-855a-fd69329898a6,362,2022-08-12
+geek; nerd,オタク,おたく,,,NOUN,,,,{slang},fa69ee4d-ab8a-5daf-8701-abab724eaade,363,2022-08-12
+hot water; hot bath; hot spring,湯,ゆ,,湯,NOUN,,4,,,3953151e-3280-5665-8c64-1bfabbedcdd2,364,2022-08-12
+hot spring,温泉,おんせん,,温泉,NOUN,,2,,,8c842dec-6e97-54b7-ad74-2408c4b88677,365,2022-08-12
+stop,止まれ,とまれ,,止まれ,EXPRESSION,,,,,461f8d91-ff08-5cf0-a0a9-891008b85589,366,2022-08-12
+division into equal parts,等分,とうぶん,,等分,NOUN,,2,,,7d911224-17ff-5957-a840-cf56e5907439,367,2022-08-12
+bride,花嫁,はなよめ,,花嫁,NOUN,,2,,,e396a0a2-95a9-52dc-bbde-5bbc8d28c073,368,2022-08-12
+master; teacher,師匠,ししょう,,師匠,NOUN,,,,,3f9be32c-56f7-5543-98b0-5f145ab43669,369,2022-08-12
+order; request,ご注文,ごちゅもん,,ご注文,NOUN,,,,,b0f23319-1e7e-5eee-aa4c-1181b78ebeec,370,2022-08-12
+witch,魔女,まじょ,,魔女,NOUN,,,,,c495dd60-9438-5d9f-892e-6b37d6d88c4a,371,2022-08-12
+demon; ogre,鬼,おに,,鬼,NOUN,,,,,52f192e3-6628-546b-80b5-f63547b440d5,372,2022-08-12
+devine spirit,神,かみ,,神,NOUN,,,,,63f02942-2ba9-5ff6-aa84-be6ecd6f209d,373,2022-08-12
+travel; trip; journey,旅,たび,,旅,NOUN,,3,,,abbcc24b-a635-5aeb-b6ef-387d88099538,374,2022-08-12
+club; department (of company),部,ぶ,,部,NOUN,,1,,,300bed58-ddab-5420-8396-3147573388c3,375,2022-08-12
+tidal wave,津波,つなみ,,津波,NOUN,,1,,,7735ac10-24a6-57a5-baf8-6eec8dc148ae,376,2022-08-12
+small child; cute small version of someone,チビ,ちび,,,NOUN,,,,,,377,2022-08-13
+cute,カワイイ,かわいい,,,ADJECTIVE,I_ADJECTIVE,5,,,,378,2022-08-13
+heated table,こたつ,こたつ,,,NOUN,,1,,,,379,2022-08-13
+Japanese bedding,布団,ふとん,,布団,NOUN,,4,,,,380,2022-08-13
