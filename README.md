@@ -2,12 +2,20 @@
 **語彙**
 **Vocabulary**
 
-
 ## Overview
 
-Tooling around the 日本語 I have been learning, such as:
-- Database for holding all the vocabulary I know.
-- Tools for exporting to Anki flashcards.
+This is a **personal project** to build tooling around the 日本語 I've been learning,
+in particular, the first phase focuses on:
+- Creating tooling to manage the vocabulary in a Google Sheet, and
+- Process that for sync with an Anki deck.
+
+In later phases, I will want to keep more complex data relationships for additional
+Anki decks, such as verb conjugations, and kanji stroke diagrams. As such, I've
+done some initial setup of a postgres database to manage that complex data, but
+right now it's unecessary for the use cases and so stopped working on it.
+
+Additionally, I wanted to keep the pieces layered such that I could switch away from
+Anki to another quiz engine if the need/desire arises.
 
 # Usage
 
@@ -26,16 +34,18 @@ and export a variety of files that are each used for a different purpose:
 
 Note that I version control these to be able to diff them and catch errors.
 
-TODO: Eventually sync directly to a SQL database, however for now I don't need that.
+TODO: Eventually sync directly to a SQL database, however for my needs
 
 ## Technology
 
 Technology-wise:
 - I started  with Ruby/Postgres to spin things up quickly
+- I ended up not needing Postgres for MVP, which drove Anki best directly off a Google Spreadsheet.
 - however I might use this as a future vehicle for learning new things, so I've
   kept the layout open to the possibility of having a mixed technoloy set.
 
 *Specifically, I've sectioned off each tech into its own directory.*
+
 ### Setup
 
 ####
@@ -55,4 +65,16 @@ Where `{PORT}` should be the local port to connect to in the app.
 
 ## Build/Run
 
-TODO
+For playing around, I recommend using `ruby/bin/transcode`, however the
+best script to run is `transcode_bulk`, which loads a google sheets export
+and produces all the necessary output text files.
+
+Right now I have NOT wired up command line arguments (because that is a waste of
+time for my use case; I can always add `optparse` later if needed), so you need to:
+1. Export the google sheet in the required format and place it in `goi/files/日本語 Vocab - Vocab.csv`.
+2. `cd goi/ruby` to run the right ruby version from rbenv.
+3. run the script with `ruby bin/transcode_bulk`.
+4. Pick-up the updated files from the `goi/files` directory.
+
+Note that since this is all just for me, I've version controlled these files so that
+I can diff them to catch mistakes before importing into Anki.
