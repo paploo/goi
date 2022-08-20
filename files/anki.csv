@@ -147,7 +147,7 @@ e7323b54-9fa5-5cb7-8d68-d2ebe9b379ea,smart phone,スマホ,スマホ,noun,,,2022
 3a52dad1-de68-523b-b6ad-3148496bcf8e,bank,銀行,ぎんこう,noun,,5,2022-05-30,146,DUO_01_04 GENKI3_L02,place noun duo-01-04 genki3-l02
 6c108fe0-b52d-56de-96f2-f8e0bf450367,convenience store,コンビニ,こんびに,noun,,,2022-05-30,147,GENKI3_L02,place noun genki3-l02
 14edc8de-8ed3-58f5-a083-13a34db6f490,toilet; restroom,トイレ,トイレ,noun,,5,2022-05-30,148,GENKI3_L02,place noun genki3-l02
-dd52de46-6d78-5bc3-96ab-b25e9be9e291,libaary,図書館,としょかん,noun,,5,2022-05-30,149,GENKI3_L02,place noun genki3-l02
+dd52de46-6d78-5bc3-96ab-b25e9be9e291,library,図書館,としょかん,noun,,5,2022-05-30,149,GENKI3_L02,place noun genki3-l02
 89b553be-905d-57aa-946c-86dc9f366aa2,post office,郵便局,ゆうびんきょく,noun,,5,2022-05-30,150,GENKI3_L02,place noun genki3-l02
 f7d4fade-03e1-53e3-94c0-24034e6a9e08,how much,いくら,いくら,adverb,,5,2022-05-30,151,GENKI3_L02,money adverb genki3-l02
 fbae6594-96c7-53f0-a80b-bd325d5a22ff,...yen,〜円,〜えん,noun,,3,2022-05-30,152,GENKI3_L02,money noun genki3-l02
@@ -303,79 +303,79 @@ aea7b65d-8e51-5d8b-97f3-72b3c010afcb,wasabi,わさび,わさび,noun,,,2022-08-1
 70d02a0a-cd4d-5e2c-bb76-a042c9211b78,eel,うなぎ,うなぎ,noun,,,2022-08-12,302,,animal food noun
 fcb92bf6-7f59-59fd-863a-7aa2762f640d,ear,耳,みみ,noun,,5,2022-08-12,303,DUO_01_03 LULI_KANJI_L01,body noun duo-01-03 luli-kanji-l01
 08a92e33-466f-588d-b364-19981156b72f,eye,目,め,noun,,5,2022-08-12,304,DUO_01_03 LULI_KANJI_L01,body noun duo-01-03 luli-kanji-l01
-a3d9c5ec-a34a-5a91-b166-7291979bef67,hand; arm,手,て,noun,,5,2022-08-15,305,LULI_KANJI_L01,body noun luli-kanji-l01
-b5407428-ff7a-5715-8283-de41ff4e555c,foot,足,あし,noun,,5,2022-08-15,306,LULI_KANJI_L01,body noun luli-kanji-l01
-12773416-725b-57f8-b7cc-856c607390db,back,背中,せなか,noun,,4,2022-08-12,307,DUO_01_03,body noun duo-01-03
-83e6b487-2d55-5480-a55b-2a808a40a3f1,cloudy,曇り,くもり,noun,,5,2022-08-12,308,DUO_01_03,weather noun duo-01-03
-a2edc793-e468-5c89-8566-efd896ac302c,sunny,晴れ,はれ,noun,,5,2022-08-12,309,DUO_01_03,weather noun duo-01-03
-05f754d9-f497-54db-9340-cea898b0ff28,outside,外,そと,noun,,5,2022-08-12,310,DUO_01_03,noun duo-01-03
-3cae06c0-447c-5b59-b04b-4c5036c5ce20,fermented soybeans,納豆,なっとう,noun,,,2022-08-12,311,DUO_01_04,food noun duo-01-04
-1a0c8160-c588-508a-bcbc-c3bf3bdbb0fe,wind; breeze; draft,風,かぜ,noun,,5,2022-08-12,312,DUO_01_04,noun duo-01-04
-86e894b7-ebf2-5e8e-991e-54ebd19f764d,map,地図,ちず,noun,,5,2022-08-12,313,DUO_01_04,noun duo-01-04
-7f320ae8-3952-5727-a45e-4c5535a79533,fruit,果物,くだもの,noun,,5,2022-08-12,314,DUO_01_04,food noun duo-01-04
-efc7ae30-059c-5579-9e95-1e53594af9ed,ticket,切符,きっぷ,noun,,5,2022-08-12,315,DUO_01_04,noun duo-01-04
-038bec1a-765f-42b2-905d-28004fd829a3,game,ゲーム,げえむ,noun,,3,2022-08-10,316,GENKI3_L04,activity noun genki3-l04
-303cf994-1062-45cd-9c22-738f09ffee51,part-time job,アルバイト,あればいと,noun,,4,2022-08-10,317,GENKI3_L04,activity noun genki3-l04
-8509b44f-d5d4-437f-a845-aae915c292dc,part-time job (colloquial),バイト,ばいと,noun,,,2022-08-10,318,GENKI3_L04,activity noun genki3-l04
-a024bfb6-a9ef-4690-904a-d8fa02367ed3,shopping,買い物,かいもの,noun,,5,2022-08-10,319,GENKI3_L04,activity noun genki3-l04
-c52c9908-d959-404c-a8f8-161c2663e84e,class,クラス,くらす,noun,,5,2022-08-10,320,GENKI3_L04,activity noun genki3-l04
-624914ad-ed17-40f2-9260-e70c69962692,person,人,人,noun,,5,2022-08-10,321,GENKI3_L04,noun genki3-l04
-399bbf9b-f7e7-429c-8874-42e0bf5cae9e,child,子供,こども,noun,,5,2022-08-10,322,GENKI3_L04,noun genki3-l04
-e63daade-a22a-4554-a061-4077691692ee,picture; photograph,写真,しゃしん,noun,,5,2022-08-10,323,GENKI3_L04,noun genki3-l04
-8b29a67e-61cf-494a-972a-5d59944a53d6,flower,花,はな,noun,,5,2022-08-10,324,GENKI3_L04,noun genki3-l04
-26eb1163-f6e3-43a8-b406-be60d5959e56,(term) paper,レポート,れぽおと,noun,,4,2022-08-10,325,GENKI3_L04,noun genki3-l04
-8ff036c4-9800-49d5-906b-514520c78880,temple,お寺,おてら,noun,,,2022-08-10,326,GENKI3_L04,place noun genki3-l04
-fe1b8cc3-30c4-49ce-90de-e60514fdf437,park,公園,こうえん,noun,,5,2022-08-10,327,GENKI3_L04,place noun genki3-l04
-1e29f308-89f0-4c1d-bef5-323b3fdb1ca7,supermarket,スーパー,すうぱあ,noun,,,2022-08-10,328,GENKI3_L04,place noun genki3-l04
-c406dd1a-75be-4283-97ee-5c7c31f904ed,bus stop,バス停,ばすてい,noun,,,2022-08-10,329,GENKI3_L04,place noun genki3-l04
-850f7735-fa14-49d2-9879-20d8a47dc0e8,hospital,病院,びょういん,noun,,5,2022-08-10,330,GENKI3_L04,place noun genki3-l04
-19bda9d8-1bbf-4d7b-8388-8375d9480918,hotel,ホテル,ほてる,noun,,5,2022-08-10,331,GENKI3_L04,place noun genki3-l04
-e0b533e8-f938-4c93-b5fc-cbf9a5efbc9c,bokkstore,本屋,ほんや,noun,,,2022-08-10,332,GENKI3_L04,place noun genki3-l04
-ddb16a7a-e9c0-4cce-ac65-ea78d074fce8,town; city,町,まち,noun,,5,2022-08-10,333,GENKI3_L04,place noun genki3-l04
-470f29e2-10f1-4d28-9d80-d40f15fc171a,restaurant,レストラン,れすとらん,noun,,5,2022-08-10,334,GENKI3_L04,place noun genki3-l04
-d5575534-34bf-41fc-a7df-2ed647e61a05,yesterday,昨日,きのう,noun,,5,2022-08-10,335,GENKI3_L04,time noun genki3-l04
-819a835d-a6be-4c08-a364-8907b1226bbf,...hours; time,〜時間,じかん,noun,,5,2022-08-10,336,GENKI3_L04,time noun genki3-l04
-30e8ffe0-74a6-411b-957d-5ee3277bd853,last week,先週,せんしゅう,noun,,5,2022-08-10,337,GENKI3_L04,time noun genki3-l04
-585f82ea-6a6a-4005-b3a6-ed57442a6ed9,when...; at the time of...,時,とき,noun,,3,2022-08-10,338,GENKI3_L04,time noun genki3-l04
-7e9e71f3-ca82-40b2-9190-e8df09a60b70,Monday,月曜日,げつようび,noun,,5,2022-08-10,339,GENKI3_L04,time noun genki3-l04
-a7f63c04-eeb1-4cc9-b9e7-93c5aef67195,Tuesday,火曜日,かようび,noun,,5,2022-08-10,340,GENKI3_L04,time noun genki3-l04
-b7290a17-b80a-4663-84b4-fb97c53ac10e,Wednesday,水曜日,すいようび,noun,,5,2022-08-10,341,GENKI3_L04,time noun genki3-l04
-29385baf-a573-49a4-b4b5-0119dae49df3,Thursday,木曜日,もくようび,noun,,5,2022-08-10,342,GENKI3_L04,time noun genki3-l04
-1ecc5944-6007-4a9f-8153-41e50842b67a,Friday,金曜日,金曜日,noun,,5,2022-08-10,343,GENKI3_L04,time noun genki3-l04
-8728a06a-1e5b-436b-939a-b1d96a7d9f79,there exists...,いる,いる,verb,ichidan verb,5,2022-08-10,344,GENKI3_L04,to-be-verb verb ichidan-verb genki3-l04
-a4025eed-7054-4b18-b8ce-c90bc7ed6b00,there is...,ある,ある,verb,godan verb,5,2022-08-10,345,GENKI3_L04,to-be-verb verb godan-verb genki3-l04
-a7c68ed2-5f08-4411-9030-42347f7d571f,to meet; to see a person,会う,あう,verb,godan verb,5,2022-08-10,346,GENKI3_L04,verb godan-verb genki3-l04
-1e617d48-2df2-4c74-b732-89783d176db9,to buy; to purchase,買う,かう,verb,godan verb,5,2022-08-10,347,GENKI3_L04,verb godan-verb genki3-l04
-1629794a-84d2-44f3-b05b-89bcb817152a,to write,書く,かく,verb,godan verb,5,2022-08-10,348,GENKI3_L04,verb godan-verb genki3-l04
-ab8ef931-7703-4d80-9272-bbc453f19b69,to take (a photograph),撮る,とる,verb,godan verb,5,2022-08-10,349,GENKI3_L04,verb godan-verb genki3-l04
-7e09edbb-c75f-4ee4-8006-89ac3deea1d0,to wait,待つ,まつ,verb,godan verb,5,2022-08-10,350,GENKI3_L04,verb godan-verb genki3-l04
-749a9435-10dc-4b02-b1dc-778f08e86258,to understand; to comprehend,わかる,わかる,verb,godan verb,5,2022-08-10,351,GENKI3_L04,verb godan-verb genki3-l04
-9fe24c28-0eae-4a2c-ad49-16f76680afec,about (approximate measurment),〜ぐらい,ぐらい,suffix,,1,2022-08-10,352,GENKI3_L04,suffix genki3-l04
-9ec6f020-0166-4d80-a938-070eeb78cc05,excuse me,すみません,すみません,expression,,3,2022-08-10,353,,expression
-7d011295-e767-462a-85a9-8f5fab4883b8,sorry,ごめん,ごめん,interjection,,2,2022-08-10,354,,interjection
-46ba5ddd-9d1f-4bc0-982e-a67e7bb4b307,I'm deeply sorry sorry,ごめんなさい,ごめんなさい,expression,,3,2022-08-10,355,GENKI3_L04,expression genki3-l04
-7ded3290-23fd-4091-83c5-560563afeed3,and then,それから,それから,expression,,5,2022-08-10,356,GENKI3_L04,expression genki3-l04
-3fd6bcdf-d9e5-4cc9-8aab-46e121e4c86a,so; therefore,だかる,だから,conjunction,,4,2022-08-10,357,GENKI3_L04,conjunction genki3-l04
-10eece8b-4102-41c5-9532-e62246da60e2,many; a lot,たくさん,たくさん,noun,,5,2022-08-10,358,GENKI3_L04,noun genki3-l04
-d097a029-96a6-4cfe-936e-9f815b368de3,together with (a person); and,〜と,と,conjunction,,3,2022-08-10,359,GENKI3_L04,conjunction genki3-l04
-f439afe8-6382-4017-b594-de82a2d090e6,why; how,どうして,どうして,adverb,,5,2022-08-10,360,GENKI3_L04,adverb genki3-l04
-0839c0a5-e217-465a-9b68-64994b80b119,alone,一人で,一人で,expression,,,2022-08-10,361,GENKI3_L04,expression genki3-l04
-82698354-a810-410e-a0c2-e2e9e391e7bc,hello? (phone),もしもし,もしもし,expression,,,2022-08-10,362,GENKI3_L04,expression genki3-l04
-83d209ab-6760-5b3f-945c-f82a55d9bcc1,right,右,みぎ,noun,,5,2022-08-10,363,GENKI3_L04,location noun genki3-l04
-92a12133-28d1-5327-b9b9-db5c7d58fcdb,left,左,ひだり,noun,,5,2022-08-10,364,GENKI3_L04,location noun genki3-l04
-8c4152ae-6000-57f5-8244-ac48a99f7e20,front,前,まえ,noun,,5,2022-08-10,365,GENKI3_L04,location noun genki3-l04
-5abdcbf7-54bd-541a-be8b-e2aac1a36bf2,back,後ろ,うしろ,noun,,5,2022-08-10,366,GENKI3_L04,location noun genki3-l04
-e37a40e2-6a4c-5046-9054-71bd174159cf,inside,中,なか,noun,,5,2022-08-10,367,GENKI3_L04,location noun genki3-l04
-b7339af2-316c-551b-a5da-cb03d2ef2392,on,上,うえ,noun,,5,2022-08-10,368,GENKI3_L04,location noun genki3-l04
-658ee639-0bc6-5cd5-8342-15f7698bf75d,under,下,した,noun,,5,2022-08-10,369,GENKI3_L04,location noun genki3-l04
-f8bbf752-a05d-542c-99ad-1b59fec7e4a6,near; nearby,近く,しかく,noun,,5,2022-08-10,370,GENKI3_L04,location noun genki3-l04
-9c00bb62-e821-5702-ad5d-20d324fdb688,next,隣,となり,noun,,5,2022-08-10,371,GENKI3_L04,location noun genki3-l04
-5d31fe9a-a3d5-548d-b92c-323392afbb5f,between,間,あいだ,noun,,5,2022-08-10,372,GENKI3_L04,location noun genki3-l04
-c4fe5291-83a0-5e58-9791-744a785a3d9a,rice cracker,煎餅,せんべい,noun,,,2022-08-12,373,,food noun
-e182997f-4799-5c3c-a985-ed126db9687e,cake,ケーキ,ケえき,noun,,4,2022-08-12,374,,food noun
-676d3eb5-4992-5047-ad16-142df7b8ec38,rice ball,お握り,おにぎり,noun,,,2022-08-12,375,,food noun
-cd548aa6-54f8-5f0a-b55f-c0fcf26dbc2a,salt,塩,しお,noun,,5,2022-08-12,376,,food noun
-31fa0a64-ab3b-5139-8ebd-2115ed4fa020,everyone; everybody,みんな,みんな,noun,,5,2022-08-12,377,,noun
+78b70b1a-bd80-521c-94a9-0dec45988921,mouth,口,くち,noun,,5,2022-08-17,305,LULI_KANJI_L01,body noun luli-kanji-l01
+a3d9c5ec-a34a-5a91-b166-7291979bef67,hand; arm,手,て,noun,,5,2022-08-15,306,LULI_KANJI_L01,body noun luli-kanji-l01
+b5407428-ff7a-5715-8283-de41ff4e555c,foot,足,あし,noun,,5,2022-08-15,307,LULI_KANJI_L01,body noun luli-kanji-l01
+12773416-725b-57f8-b7cc-856c607390db,back,背中,せなか,noun,,4,2022-08-12,308,DUO_01_03,body noun duo-01-03
+83e6b487-2d55-5480-a55b-2a808a40a3f1,cloudy,曇り,くもり,noun,,5,2022-08-12,309,DUO_01_03,weather noun duo-01-03
+a2edc793-e468-5c89-8566-efd896ac302c,sunny,晴れ,はれ,noun,,5,2022-08-12,310,DUO_01_03,weather noun duo-01-03
+05f754d9-f497-54db-9340-cea898b0ff28,outside,外,そと,noun,,5,2022-08-12,311,DUO_01_03,noun duo-01-03
+3cae06c0-447c-5b59-b04b-4c5036c5ce20,fermented soybeans,納豆,なっとう,noun,,,2022-08-12,312,DUO_01_04,food noun duo-01-04
+1a0c8160-c588-508a-bcbc-c3bf3bdbb0fe,wind; breeze; draft,風,かぜ,noun,,5,2022-08-12,313,DUO_01_04,noun duo-01-04
+86e894b7-ebf2-5e8e-991e-54ebd19f764d,map,地図,ちず,noun,,5,2022-08-12,314,DUO_01_04,noun duo-01-04
+7f320ae8-3952-5727-a45e-4c5535a79533,fruit,果物,くだもの,noun,,5,2022-08-12,315,DUO_01_04,food noun duo-01-04
+efc7ae30-059c-5579-9e95-1e53594af9ed,ticket,切符,きっぷ,noun,,5,2022-08-12,316,DUO_01_04,noun duo-01-04
+038bec1a-765f-42b2-905d-28004fd829a3,game,ゲーム,げえむ,noun,,3,2022-08-10,317,GENKI3_L04,activity noun genki3-l04
+303cf994-1062-45cd-9c22-738f09ffee51,part-time job,アルバイト,あればいと,noun,,4,2022-08-10,318,GENKI3_L04,activity noun genki3-l04
+8509b44f-d5d4-437f-a845-aae915c292dc,part-time job (colloquial),バイト,ばいと,noun,,,2022-08-10,319,GENKI3_L04,activity noun genki3-l04
+a024bfb6-a9ef-4690-904a-d8fa02367ed3,shopping,買い物,かいもの,noun,,5,2022-08-10,320,GENKI3_L04,activity noun genki3-l04
+c52c9908-d959-404c-a8f8-161c2663e84e,class,クラス,くらす,noun,,5,2022-08-10,321,GENKI3_L04,activity noun genki3-l04
+624914ad-ed17-40f2-9260-e70c69962692,person,人,人,noun,,5,2022-08-10,322,GENKI3_L04,noun genki3-l04
+399bbf9b-f7e7-429c-8874-42e0bf5cae9e,child,子供,こども,noun,,5,2022-08-10,323,GENKI3_L04,noun genki3-l04
+e63daade-a22a-4554-a061-4077691692ee,picture; photograph,写真,しゃしん,noun,,5,2022-08-10,324,GENKI3_L04,noun genki3-l04
+8b29a67e-61cf-494a-972a-5d59944a53d6,flower,花,はな,noun,,5,2022-08-10,325,GENKI3_L04,noun genki3-l04
+26eb1163-f6e3-43a8-b406-be60d5959e56,(term) paper,レポート,れぽおと,noun,,4,2022-08-10,326,GENKI3_L04,noun genki3-l04
+8ff036c4-9800-49d5-906b-514520c78880,temple,お寺,おてら,noun,,,2022-08-10,327,GENKI3_L04,place noun genki3-l04
+fe1b8cc3-30c4-49ce-90de-e60514fdf437,park,公園,こうえん,noun,,5,2022-08-10,328,GENKI3_L04,place noun genki3-l04
+1e29f308-89f0-4c1d-bef5-323b3fdb1ca7,supermarket,スーパー,すうぱあ,noun,,,2022-08-10,329,GENKI3_L04,place noun genki3-l04
+c406dd1a-75be-4283-97ee-5c7c31f904ed,bus stop,バス停,ばすてい,noun,,,2022-08-10,330,GENKI3_L04,place noun genki3-l04
+850f7735-fa14-49d2-9879-20d8a47dc0e8,hospital,病院,びょういん,noun,,5,2022-08-10,331,GENKI3_L04,place noun genki3-l04
+19bda9d8-1bbf-4d7b-8388-8375d9480918,hotel,ホテル,ほてる,noun,,5,2022-08-10,332,GENKI3_L04,place noun genki3-l04
+e0b533e8-f938-4c93-b5fc-cbf9a5efbc9c,bokkstore,本屋,ほんや,noun,,,2022-08-10,333,GENKI3_L04,place noun genki3-l04
+ddb16a7a-e9c0-4cce-ac65-ea78d074fce8,town; city,町,まち,noun,,5,2022-08-10,334,GENKI3_L04,place noun genki3-l04
+470f29e2-10f1-4d28-9d80-d40f15fc171a,restaurant,レストラン,れすとらん,noun,,5,2022-08-10,335,GENKI3_L04,place noun genki3-l04
+d5575534-34bf-41fc-a7df-2ed647e61a05,yesterday,昨日,きのう,noun,,5,2022-08-10,336,GENKI3_L04,time noun genki3-l04
+819a835d-a6be-4c08-a364-8907b1226bbf,...hours; time,〜時間,じかん,noun,,5,2022-08-10,337,GENKI3_L04,time noun genki3-l04
+30e8ffe0-74a6-411b-957d-5ee3277bd853,last week,先週,せんしゅう,noun,,5,2022-08-10,338,GENKI3_L04,time noun genki3-l04
+585f82ea-6a6a-4005-b3a6-ed57442a6ed9,when...; at the time of...,時,とき,noun,,3,2022-08-10,339,GENKI3_L04,time noun genki3-l04
+7e9e71f3-ca82-40b2-9190-e8df09a60b70,Monday,月曜日,げつようび,noun,,5,2022-08-10,340,GENKI3_L04,time noun genki3-l04
+a7f63c04-eeb1-4cc9-b9e7-93c5aef67195,Tuesday,火曜日,かようび,noun,,5,2022-08-10,341,GENKI3_L04,time noun genki3-l04
+b7290a17-b80a-4663-84b4-fb97c53ac10e,Wednesday,水曜日,すいようび,noun,,5,2022-08-10,342,GENKI3_L04,time noun genki3-l04
+29385baf-a573-49a4-b4b5-0119dae49df3,Thursday,木曜日,もくようび,noun,,5,2022-08-10,343,GENKI3_L04,time noun genki3-l04
+1ecc5944-6007-4a9f-8153-41e50842b67a,Friday,金曜日,金曜日,noun,,5,2022-08-10,344,GENKI3_L04,time noun genki3-l04
+8728a06a-1e5b-436b-939a-b1d96a7d9f79,there exists...,いる,いる,verb,ichidan verb,5,2022-08-10,345,GENKI3_L04,to-be-verb verb ichidan-verb genki3-l04
+a4025eed-7054-4b18-b8ce-c90bc7ed6b00,there is...,ある,ある,verb,godan verb,5,2022-08-10,346,GENKI3_L04,to-be-verb verb godan-verb genki3-l04
+a7c68ed2-5f08-4411-9030-42347f7d571f,to meet; to see a person,会う,あう,verb,godan verb,5,2022-08-10,347,GENKI3_L04,verb godan-verb genki3-l04
+1e617d48-2df2-4c74-b732-89783d176db9,to buy; to purchase,買う,かう,verb,godan verb,5,2022-08-10,348,GENKI3_L04,verb godan-verb genki3-l04
+1629794a-84d2-44f3-b05b-89bcb817152a,to write,書く,かく,verb,godan verb,5,2022-08-10,349,GENKI3_L04,verb godan-verb genki3-l04
+ab8ef931-7703-4d80-9272-bbc453f19b69,to take (a photograph),撮る,とる,verb,godan verb,5,2022-08-10,350,GENKI3_L04,verb godan-verb genki3-l04
+7e09edbb-c75f-4ee4-8006-89ac3deea1d0,to wait,待つ,まつ,verb,godan verb,5,2022-08-10,351,GENKI3_L04,verb godan-verb genki3-l04
+749a9435-10dc-4b02-b1dc-778f08e86258,to understand; to comprehend,わかる,わかる,verb,godan verb,5,2022-08-10,352,GENKI3_L04,verb godan-verb genki3-l04
+9fe24c28-0eae-4a2c-ad49-16f76680afec,about (approximate measurment),〜ぐらい,ぐらい,suffix,,1,2022-08-10,353,GENKI3_L04,suffix genki3-l04
+9ec6f020-0166-4d80-a938-070eeb78cc05,excuse me,すみません,すみません,expression,,3,2022-08-10,354,,expression
+7d011295-e767-462a-85a9-8f5fab4883b8,sorry,ごめん,ごめん,interjection,,2,2022-08-10,355,,interjection
+46ba5ddd-9d1f-4bc0-982e-a67e7bb4b307,I'm deeply sorry sorry,ごめんなさい,ごめんなさい,expression,,3,2022-08-10,356,GENKI3_L04,expression genki3-l04
+7ded3290-23fd-4091-83c5-560563afeed3,and then,それから,それから,expression,,5,2022-08-10,357,GENKI3_L04,expression genki3-l04
+3fd6bcdf-d9e5-4cc9-8aab-46e121e4c86a,so; therefore,だかる,だから,conjunction,,4,2022-08-10,358,GENKI3_L04,conjunction genki3-l04
+10eece8b-4102-41c5-9532-e62246da60e2,many; a lot,たくさん,たくさん,noun,,5,2022-08-10,359,GENKI3_L04,noun genki3-l04
+d097a029-96a6-4cfe-936e-9f815b368de3,together with (a person); and,〜と,と,conjunction,,3,2022-08-10,360,GENKI3_L04,conjunction genki3-l04
+f439afe8-6382-4017-b594-de82a2d090e6,why; how,どうして,どうして,adverb,,5,2022-08-10,361,GENKI3_L04,adverb genki3-l04
+0839c0a5-e217-465a-9b68-64994b80b119,alone,一人で,一人で,expression,,,2022-08-10,362,GENKI3_L04,expression genki3-l04
+82698354-a810-410e-a0c2-e2e9e391e7bc,hello? (phone),もしもし,もしもし,expression,,,2022-08-10,363,GENKI3_L04,expression genki3-l04
+83d209ab-6760-5b3f-945c-f82a55d9bcc1,right,右,みぎ,noun,,5,2022-08-10,364,GENKI3_L04,location noun genki3-l04
+92a12133-28d1-5327-b9b9-db5c7d58fcdb,left,左,ひだり,noun,,5,2022-08-10,365,GENKI3_L04,location noun genki3-l04
+8c4152ae-6000-57f5-8244-ac48a99f7e20,front,前,まえ,noun,,5,2022-08-10,366,GENKI3_L04,location noun genki3-l04
+5abdcbf7-54bd-541a-be8b-e2aac1a36bf2,back,後ろ,うしろ,noun,,5,2022-08-10,367,GENKI3_L04,location noun genki3-l04
+e37a40e2-6a4c-5046-9054-71bd174159cf,inside,中,なか,noun,,5,2022-08-10,368,GENKI3_L04,location noun genki3-l04
+b7339af2-316c-551b-a5da-cb03d2ef2392,on,上,うえ,noun,,5,2022-08-10,369,GENKI3_L04,location noun genki3-l04
+658ee639-0bc6-5cd5-8342-15f7698bf75d,under,下,した,noun,,5,2022-08-10,370,GENKI3_L04,location noun genki3-l04
+f8bbf752-a05d-542c-99ad-1b59fec7e4a6,near; nearby,近く,しかく,noun,,5,2022-08-10,371,GENKI3_L04,location noun genki3-l04
+9c00bb62-e821-5702-ad5d-20d324fdb688,next,隣,となり,noun,,5,2022-08-10,372,GENKI3_L04,location noun genki3-l04
+5d31fe9a-a3d5-548d-b92c-323392afbb5f,between,間,あいだ,noun,,5,2022-08-10,373,GENKI3_L04,location noun genki3-l04
+c4fe5291-83a0-5e58-9791-744a785a3d9a,rice cracker,煎餅,せんべい,noun,,,2022-08-12,374,,food noun
+e182997f-4799-5c3c-a985-ed126db9687e,cake,ケーキ,ケえき,noun,,4,2022-08-12,375,,food noun
+676d3eb5-4992-5047-ad16-142df7b8ec38,rice ball,お握り,おにぎり,noun,,,2022-08-12,376,,food noun
+cd548aa6-54f8-5f0a-b55f-c0fcf26dbc2a,salt,塩,しお,noun,,5,2022-08-12,377,,food noun
 ca8b76ff-0345-5367-855a-fd69329898a6,(some) more; longer; further,もっと,もっと,adverb,,5,2022-08-12,378,,adverb
 fa69ee4d-ab8a-5daf-8701-abab724eaade,geek; nerd,オタク,おたく,noun,,,2022-08-12,379,,slang noun
 3953151e-3280-5665-8c64-1bfabbedcdd2,hot water; hot bath; hot spring,湯,ゆ,noun,,4,2022-08-12,380,,noun
@@ -389,9 +389,10 @@ c495dd60-9438-5d9f-892e-6b37d6d88c4a,witch,魔女,まじょ,noun,,,2022-08-12,38
 52f192e3-6628-546b-80b5-f63547b440d5,demon; ogre,鬼,おに,noun,,,2022-08-12,388,,noun
 63f02942-2ba9-5ff6-aa84-be6ecd6f209d,devine spirit,神,かみ,noun,,,2022-08-12,389,,noun
 abbcc24b-a635-5aeb-b6ef-387d88099538,travel; trip; journey,旅,たび,noun,,3,2022-08-12,390,,noun
-300bed58-ddab-5420-8396-3147573388c3,club; department (of company),部,ぶ,noun,,1,2022-08-12,391,,noun
-7735ac10-24a6-57a5-baf8-6eec8dc148ae,tidal wave,津波,つなみ,noun,,1,2022-08-12,392,,noun
-e2a1e5ef-c9d8-5554-a912-e6014d2c0f35,small child; cute small version of someone,チビ,ちび,noun,,,2022-08-13,393,,noun
-2c0b911e-ac72-5c04-bfd3-ebcd9e988dee,cute,カワイイ,かわいい,adjective,i adjective,5,2022-08-13,394,,adjective i-adjective
-281d7359-80a0-519d-9c57-504f35bfd5ee,heated table,こたつ,こたつ,noun,,1,2022-08-13,395,,noun
-c3f5ef65-8025-5f56-b5e1-efc61a1c81bc,Japanese bedding,布団,ふとん,noun,,4,2022-08-13,396,,noun
+aeac8e75-ade1-55a0-b4d0-4203dc90df45,light music,軽音楽,けいおんがく,noun,,,2022-08-19,391,,noun
+300bed58-ddab-5420-8396-3147573388c3,club; department (of company),部,ぶ,noun,,1,2022-08-12,392,,noun
+7735ac10-24a6-57a5-baf8-6eec8dc148ae,tidal wave,津波,つなみ,noun,,1,2022-08-12,393,,noun
+e2a1e5ef-c9d8-5554-a912-e6014d2c0f35,small child; cute small version of someone,チビ,ちび,noun,,,2022-08-13,394,,noun
+2c0b911e-ac72-5c04-bfd3-ebcd9e988dee,cute,カワイイ,かわいい,adjective,i adjective,5,2022-08-13,395,,adjective i-adjective
+281d7359-80a0-519d-9c57-504f35bfd5ee,heated table,こたつ,こたつ,noun,,1,2022-08-13,396,,noun
+c3f5ef65-8025-5f56-b5e1-efc61a1c81bc,Japanese bedding,布団,ふとん,noun,,4,2022-08-13,397,,noun

@@ -95,8 +95,10 @@ module Goi
             row[ALT_PHONETIC_SPELLING_FIELD_DATA[:key]],
             row[KANJI_SPELLING_FIELD_DATA[:key]]
           ]
-          puts keys.inspect
-          Goi::Model::Vocabulary::Vocabulary.create_id(*keys)
+
+          Goi::Model::Vocabulary::Vocabulary.create_id(*keys).tap { |id|
+            STDERR.puts "Created Missing Vocab ID #{id} with key array: #{keys.inspect}"
+          }
         end
 
         def array_parse(value)

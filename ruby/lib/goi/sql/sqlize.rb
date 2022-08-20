@@ -15,7 +15,6 @@ end
 class Array
   def sqlize(cast: nil)
     sql = "ARRAY[#{map(&:sqlize).join(', ')}]"
-    puts cast
     cast.nil? ? sql : "#{sql}::#{cast}"
   end
 end
