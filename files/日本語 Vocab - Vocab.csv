@@ -237,162 +237,164 @@ little quantity; few,少し,すこし,,少し,ADVERB,,5,,,8640d0ab-1efc-5b18-a49
 "again, once more; also, too, as well",また,また,,,ADVERB,,5,,,ecb81156-ea05-44c8-bea0-9e5c199c1c4b,236,2022-08-08
 bye; see you later,またね,またね,,,INTERJECTION,,,,,820e130a-a772-413e-a754-d1a0021bbcf5,237,2022-08-08
 bye; see you,じゃね,じゃあね,じゃね,,INTERJECTION,,,,,82223749-3af6-4348-b0f0-a0addad0ddf2,238,2022-08-08
-to persist; to do one's best; to keep at it,頑張る,ばんばる,,頑張る,VERB,GODAN_VERB,,,,a8f00f2e-c5dc-58d6-8225-376fbd35544f,239,2022-08-12
-like,好き,すき,,,ADJECTIVE,NA_ADJECTIVE,5,{DUO_01_02},,dbecb5a9-82dd-5c17-ba84-c7887cf58ce8,240,2022-08-12
-thump-thump; to beat fast,ドキドキ,どきどき,,,ADVERB,,2,,,9723a3d5-9c7a-5674-a377-5d5c1220438d,241,2022-08-12
-spring,春,はる,,春,NOUN,,5,,{season},114b67a6-53f1-58a1-bacd-29661af2a808,242,2022-08-12
-summer,夏,なつ,,夏,NOUN,,5,{DUO_01_02},{season},cd1adf28-7497-5c5f-ab0f-ecfaedc6e345,243,2022-08-12
-fall,秋,あき,,秋,NOUN,,5,,{season},580fd4b9-e1ae-5e7b-a257-25f2fa55a899,244,2022-08-12
-winter,冬,ふゆ,,冬,NOUN,,5,{DUO_01_02},{season},f9e87b50-2575-5141-98c9-1d6f96fa0ade,245,2022-08-12
-white,白,しろ,,白,NOUN,,5,{DUO_01_01},{color},300c2bc3-fa11-54b9-a12f-1f663986f8ce,246,2022-08-12
-black,黒,くろ,,くろ,NOUN,,5,,{color},48b7e73f-4a0c-56bb-8cd6-bf2ed57ed92c,247,2022-08-12
-red,赤,あか,,赤,NOUN,,5,{DUO_01_01},{color},e65aae18-dc90-5f41-aa96-e40680a12452,248,2022-08-12
-blue,青,あお,,青,NOUN,,5,{DUO_01_01},{color},12290cb0-5c39-5b53-8353-e0404724200b,249,2022-08-12
-yellow,黄色,きいろ,,黄色,NOUN,,5,,{color},b5431148-e71a-55b1-a42f-cbf2f029c146,250,2022-08-12
-orange,オレンジ,おれんじ,,,NOUN,,1,,{color},fd431252-3f59-5b66-b3b2-f078528bbf06,251,2022-08-12
-green,緑,みどり,,緑,NOUN,,5,,{color},dee5b761-7b7a-5723-8e66-8fe9e0b2c2ea,252,2022-08-12
-kitchen,台所,だいどころ,,台所,NOUN,,5,{DUO_02_04},{home},03137815-af09-4ff0-84a7-622d92cf600c,253,2022-05-30
-room,部屋,へや,,部屋,NOUN,,5,{DUO_02_04},{home},f6d9d4a3-811d-4ab1-80e1-8f979c4b483c,254,2022-05-30
-bath(tub),風呂,ふろ,,風呂,NOUN,,5,{DUO_02_04},{home},f31e6384-d4e9-4a67-b12e-e08cddfdba29,255,2022-05-30
-bedroom,寝室,しんしつ,,寝室,NOUN,,,{DUO_02_04},{home},0079d5eb-c8e1-4f3b-9105-51054a2c0b8a,256,2022-05-30
-window,窓,まど,,窓,NOUN,,5,{DUO_02_04},{home},b04ef471-2292-4ca7-a470-4829fb116b8a,257,2022-05-30
-yard; garden,庭,にわ,,庭,NOUN,,5,{DUO_02_04},{home},c08c0aff-7835-4c0a-a560-cd8e627c3a90,258,2022-05-30
-chair,椅子,いす,,椅子,NOUN,,5,"{DUO_02_04,GENKI3_L04}",{home},9e935991-a6f7-4383-b8a0-9376d7af8298,259,2022-05-30
-sofa,ソファー,そふぁあ,,,NOUN,,3,{DUO_02_04},{home},2f7263b8-e1dd-4c09-94d0-7ad22fe82a5b,260,2022-05-30
-desk,机,つくえ,,机,NOUN,,5,"{DUO_02_04,GENKI3_L04}",{home},068b1a67-d6a5-4790-a264-febfbccc06c2,261,2022-05-30
-pet,ペット,ペット,,,NOUN,,5,{DUO_02_04},{animal},7361012a-f230-444c-babe-48449c5bc79d,262,2022-05-30
-dog,犬,いぬ,,犬,NOUN,,5,"{DUO_02_04,GENKI3_L04}",{animal},f9f3b546-f023-4b35-9db2-068f8143c41e,263,2022-05-30
-cat,猫,ねこ,,猫,NOUN,,5,"{DUO_02_04,GENKI3_L04}",{animal},5399ca2c-f192-40b6-9b69-28dc1de577c8,264,2022-05-30
-bird,鳥,とり,,鳥,NOUN,,5,{DUO_02_04},{animal},f5b2d28f-d519-4138-a9d0-5c99b82d09af,265,2022-05-30
-puppy,子犬,こいぬ,,子犬,NOUN,,,{DUO_02_04},{animal},9704386f-fba7-4008-b079-fc541fb9c0dc,266,2022-05-30
-kitten,子猫,こねこ,,子猫,NOUN,,,{DUO_02_04},{animal},63a5b1e8-d69e-4f78-9fa1-f6ed248b872b,267,2022-05-30
-rabbit,うさぎ,うさぎ,,兎,NOUN,,3,,{animal},2541eb3b-87ad-5c3c-8450-a62f59071835,268,2022-08-12
-"counter for birds, rabbits, etc",〜羽,〜わ,,〜羽,COUNTER,,3,{DUO_02_04},{animal},93849573-7b32-4df3-a3b9-a15fb7555627,269,2022-05-30
-"she, her",彼女,かのじょ,,彼女,PRONOUN,,4,{DUO_02_07},,6432ab47-a4a0-487f-89ad-b37fce084c74,270,2022-08-08
-"him, he",彼,かれ,,彼,PRONOUN,,4,{DUO_02_07},,794880bc-1fa2-4fb8-9fa0-bd04c175bbee,271,2022-08-08
-"they, them",彼ら,かれら,,彼ら,PRONOUN,,3,{DUO_02_07},,46260a68-5466-4f70-9b0b-968d8143848f,272,2022-08-08
-"...plural (person, animal)",〜たち,〜たち,,〜達,SUFFIX,,,{DUO_02_07},,7592b181-b6f1-41f0-b618-4ae67ab38b21,273,2022-08-08
-"I,me (male term)",僕,ぼく,,僕,PRONOUN,,4,{DUO_02_07},,bd6d533d-c173-49c5-95c7-85fe90dd38a6,274,2022-08-08
-mountain,山,やま,,山,NOUN,,5,{LULI_KANJI_L01},,2037e05e-e3cc-56d5-b966-458046cfb035,275,2022-08-12
-river,川,かわ,,川,NOUN,,5,{LULI_KANJI_L01},,963e3282-5c51-588f-9dac-d5226e182f10,276,2022-08-12
-flame (blaze); flame (of passion),炎,ほのお,ほむら,炎,NOUN,,3,,,2e1d445c-bc7c-558d-9eb4-c97cdb6f5898,277,2022-08-12
-fire,火,ひ,,火,NOUN,,3,{LULI_KANJI_L01},,047bba20-3388-59ec-b67c-97aeb0d3c257,278,2022-08-12
-man; male,男,おとこ,,男,NOUN,,,{LULI_KANJI_L01},,9a991eae-f1be-5494-a018-23249ea18b15,279,2022-08-12
-woman; female,女,おんあ,,女,NOUN,,,{LULI_KANJI_L01},,d74412ce-8367-5c45-919d-4d992829de66,280,2022-08-12
-child; kid,~子,こ,,子,SUFFIX,,4,{LULI_KANJI_L01},,865bd41e-4912-5b3b-97e2-d7bb548ebc54,281,2022-08-15
-"confections, sweets, candy, cake",お菓子,おかし,,お菓子,NOUN,,5,,,6e4a003e-4cc6-5fb4-bd16-99b201631b2b,282,2022-08-15
-(hard) candy,飴,あめ,,飴,NOUN,,5,,,6437fff2-42a0-5909-9bf4-68dd05303d0f,283,2022-08-15
-rain,雨,あめ,,雨,NOUN,,5,{LULI_KANJI_L01},{weather},38a615c6-b9b1-5a56-8df9-f32d3423f0e2,284,2022-08-15
-sky (physical),空,そら,,空,NOUN,,5,{LULI_KANJI_L01},{weather},a29a3d3c-77a8-51db-98a4-020a58c0c9fa,285,2022-08-15
-heavans; sky (spiritual),天,てん,,天,NOUN,,5,{LULI_KANJI_L01},{weather},ccb7a98d-7140-5e41-ac65-a7116f9f96f3,286,2022-08-15
-soil; earth,土,つち,,土,NOUN,,3,{LULI_KANJI_L01},,356c71d3-c158-58cf-a42d-7efab762472b,287,2022-08-15
-ground; land; territory,地,ち,,地,NOUN,,3,{LULI_KANJI_L02},,b05a993b-f894-5720-a08d-031191ad57e5,288,2022-08-15
-north,北,きた,,北,NOUN,,5,{LULI_KANJI_L01},{compass_direction},11d88f21-b92c-524a-a750-e3b3eb5db233,289,2022-08-15
-south,南,みなみ,,南,NOUN,,5,{LULI_KANJI_L01},{compass_direction},787954e6-c587-5148-afa9-69de0df5a195,290,2022-08-15
-east,東,ひがし,,東,NOUN,,5,{LULI_KANJI_L01},{compass_direction},72e6a9e9-44f5-516c-9543-5c0754218c8e,291,2022-08-15
-west,西,にし,,西,NOUN,,5,{LULI_KANJI_L01},{compass_direction},f01992dc-39c8-5478-97f3-80052a1215f8,292,2022-08-15
-tree; shrub; bush,木,き,,木,NOUN,,5,{LULI_KANJI_L01},,fbd9dcaa-2454-526e-b8a1-4b4e68fed07a,293,2022-08-15
-rice field,田,た,,田,NOUN,,3,{LULI_KANJI_L01},,5fbad03e-b5f7-51ea-998a-d8e68b87a332,294,2022-08-15
-want,欲しい,ほしい,,欲しい,ADJECTIVE,I_ADJECTIVE,5,{DUO_01_02},,39007001-a5bd-5f32-b00a-41b88d6dcb04,295,2022-08-12
-sweet,甘い,あまい,,甘い,ADJECTIVE,I_ADJECTIVE,5,{DUO_01_02},{food},d296367e-4c7b-5675-9477-ef164a14186d,296,2022-08-12
-dirty,汚い,きたない,,汚い,ADJECTIVE,I_ADJECTIVE,5,{DUO_01_02},,a135ce08-66bb-5864-803a-134a43cd833b,297,2022-08-12
-sushi,寿司,すし,,寿司,NOUN,,,{DUO_01_02},{food},b0b557a1-615d-53a4-acdc-768151964aa5,298,2022-08-12
-sashimi,刺身,さしみ,,刺身,NOUN,,2,,{food},b39de966-5af7-5bec-a79b-2c72f8c7e4f9,299,2022-08-12
-wasabi,わさび,わさび,,山葵,NOUN,,,,{food},aea7b65d-8e51-5d8b-97f3-72b3c010afcb,300,2022-08-12
-tuna; bluefin,マグロ,まぐろ,,,NOUN,,,,{food},413b74af-f988-52c9-ad64-165507510443,301,2022-08-12
-eel,うなぎ,うなぎ,,鰻,NOUN,,,,"{animal,food}",70d02a0a-cd4d-5e2c-bb76-a042c9211b78,302,2022-08-12
-ear,耳,みみ,,耳,NOUN,,5,"{DUO_01_03,LULI_KANJI_L01}",{body},fcb92bf6-7f59-59fd-863a-7aa2762f640d,303,2022-08-12
-eye,目,め,,目,NOUN,,5,"{DUO_01_03,LULI_KANJI_L01}",{body},08a92e33-466f-588d-b364-19981156b72f,304,2022-08-12
-mouth,口,くち,,口,NOUN,,5,{LULI_KANJI_L01},{body},,305,2022-08-17
-hand; arm,手,て,,手,NOUN,,5,{LULI_KANJI_L01},{body},a3d9c5ec-a34a-5a91-b166-7291979bef67,306,2022-08-15
-foot,足,あし,,足,NOUN,,5,{LULI_KANJI_L01},{body},b5407428-ff7a-5715-8283-de41ff4e555c,307,2022-08-15
-back,背中,せなか,,背中,NOUN,,4,{DUO_01_03},{body},12773416-725b-57f8-b7cc-856c607390db,308,2022-08-12
-cloudy,曇り,くもり,,曇り,NOUN,,5,{DUO_01_03},{weather},83e6b487-2d55-5480-a55b-2a808a40a3f1,309,2022-08-12
-sunny,晴れ,はれ,,晴れ,NOUN,,5,{DUO_01_03},{weather},a2edc793-e468-5c89-8566-efd896ac302c,310,2022-08-12
-outside,外,そと,,外,NOUN,,5,{DUO_01_03},,05f754d9-f497-54db-9340-cea898b0ff28,311,2022-08-12
-fermented soybeans,納豆,なっとう,,納豆,NOUN,,,{DUO_01_04},{food},3cae06c0-447c-5b59-b04b-4c5036c5ce20,312,2022-08-12
-wind; breeze; draft,風,かぜ,,風,NOUN,,5,{DUO_01_04},,1a0c8160-c588-508a-bcbc-c3bf3bdbb0fe,313,2022-08-12
-map,地図,ちず,,地図,NOUN,,5,{DUO_01_04},,86e894b7-ebf2-5e8e-991e-54ebd19f764d,314,2022-08-12
-fruit,果物,くだもの,,果物,NOUN,,5,{DUO_01_04},{food},7f320ae8-3952-5727-a45e-4c5535a79533,315,2022-08-12
-ticket,切符,きっぷ,,切符,NOUN,,5,{DUO_01_04},,efc7ae30-059c-5579-9e95-1e53594af9ed,316,2022-08-12
-game,ゲーム,げえむ,,,NOUN,,3,{GENKI3_L04},{activity},038bec1a-765f-42b2-905d-28004fd829a3,317,2022-08-10
-part-time job,アルバイト,あればいと,,,NOUN,,4,{GENKI3_L04},{activity},303cf994-1062-45cd-9c22-738f09ffee51,318,2022-08-10
-part-time job (colloquial),バイト,ばいと,,,NOUN,,,{GENKI3_L04},{activity},8509b44f-d5d4-437f-a845-aae915c292dc,319,2022-08-10
-shopping,買い物,かいもの,,買い物,NOUN,,5,{GENKI3_L04},{activity},a024bfb6-a9ef-4690-904a-d8fa02367ed3,320,2022-08-10
-class,クラス,くらす,,,NOUN,,5,{GENKI3_L04},{activity},c52c9908-d959-404c-a8f8-161c2663e84e,321,2022-08-10
-person,人,人,,,NOUN,,5,{GENKI3_L04},,624914ad-ed17-40f2-9260-e70c69962692,322,2022-08-10
-child,子供,こども,,子供,NOUN,,5,{GENKI3_L04},,399bbf9b-f7e7-429c-8874-42e0bf5cae9e,323,2022-08-10
-picture; photograph,写真,しゃしん,,写真,NOUN,,5,{GENKI3_L04},,e63daade-a22a-4554-a061-4077691692ee,324,2022-08-10
-flower,花,はな,,はな,NOUN,,5,{GENKI3_L04},,8b29a67e-61cf-494a-972a-5d59944a53d6,325,2022-08-10
-(term) paper,レポート,れぽおと,,,NOUN,,4,{GENKI3_L04},,26eb1163-f6e3-43a8-b406-be60d5959e56,326,2022-08-10
-temple,お寺,おてら,,お寺,NOUN,,,{GENKI3_L04},{place},8ff036c4-9800-49d5-906b-514520c78880,327,2022-08-10
-park,公園,こうえん,,公園,NOUN,,5,{GENKI3_L04},{place},fe1b8cc3-30c4-49ce-90de-e60514fdf437,328,2022-08-10
-supermarket,スーパー,すうぱあ,,,NOUN,,,{GENKI3_L04},{place},1e29f308-89f0-4c1d-bef5-323b3fdb1ca7,329,2022-08-10
-bus stop,バス停,ばすてい,,バス停,NOUN,,,{GENKI3_L04},{place},c406dd1a-75be-4283-97ee-5c7c31f904ed,330,2022-08-10
-hospital,病院,びょういん,,病院,NOUN,,5,{GENKI3_L04},{place},850f7735-fa14-49d2-9879-20d8a47dc0e8,331,2022-08-10
-hotel,ホテル,ほてる,,,NOUN,,5,{GENKI3_L04},{place},19bda9d8-1bbf-4d7b-8388-8375d9480918,332,2022-08-10
-bokkstore,本屋,ほんや,,本屋,NOUN,,,{GENKI3_L04},{place},e0b533e8-f938-4c93-b5fc-cbf9a5efbc9c,333,2022-08-10
-town; city,町,まち,,町,NOUN,,5,{GENKI3_L04},{place},ddb16a7a-e9c0-4cce-ac65-ea78d074fce8,334,2022-08-10
-restaurant,レストラン,れすとらん,,,NOUN,,5,{GENKI3_L04},{place},470f29e2-10f1-4d28-9d80-d40f15fc171a,335,2022-08-10
-yesterday,昨日,きのう,,昨日,NOUN,,5,{GENKI3_L04},{time},d5575534-34bf-41fc-a7df-2ed647e61a05,336,2022-08-10
-...hours; time,〜時間,じかん,,時間,NOUN,,5,{GENKI3_L04},{time},819a835d-a6be-4c08-a364-8907b1226bbf,337,2022-08-10
-last week,先週,せんしゅう,,先週,NOUN,,5,{GENKI3_L04},{time},30e8ffe0-74a6-411b-957d-5ee3277bd853,338,2022-08-10
-when...; at the time of...,時,とき,,時,NOUN,,3,{GENKI3_L04},{time},585f82ea-6a6a-4005-b3a6-ed57442a6ed9,339,2022-08-10
-Monday,月曜日,げつようび,,月曜日,NOUN,,5,{GENKI3_L04},{time},7e9e71f3-ca82-40b2-9190-e8df09a60b70,340,2022-08-10
-Tuesday,火曜日,かようび,,火曜日,NOUN,,5,{GENKI3_L04},{time},a7f63c04-eeb1-4cc9-b9e7-93c5aef67195,341,2022-08-10
-Wednesday,水曜日,すいようび,,水曜日,NOUN,,5,{GENKI3_L04},{time},b7290a17-b80a-4663-84b4-fb97c53ac10e,342,2022-08-10
-Thursday,木曜日,もくようび,,木曜日,NOUN,,5,{GENKI3_L04},{time},29385baf-a573-49a4-b4b5-0119dae49df3,343,2022-08-10
-Friday,金曜日,金曜日,,金曜日,NOUN,,5,{GENKI3_L04},{time},1ecc5944-6007-4a9f-8153-41e50842b67a,344,2022-08-10
-there exists...,いる,いる,,,VERB,ICHIDAN_VERB,5,{GENKI3_L04},{to_be_verb},8728a06a-1e5b-436b-939a-b1d96a7d9f79,345,2022-08-10
-there is...,ある,ある,,,VERB,GODAN_VERB,5,{GENKI3_L04},{to_be_verb},a4025eed-7054-4b18-b8ce-c90bc7ed6b00,346,2022-08-10
-to meet; to see a person,会う,あう,,会う,VERB,GODAN_VERB,5,{GENKI3_L04},,a7c68ed2-5f08-4411-9030-42347f7d571f,347,2022-08-10
-to buy; to purchase,買う,かう,,かう,VERB,GODAN_VERB,5,{GENKI3_L04},,1e617d48-2df2-4c74-b732-89783d176db9,348,2022-08-10
-to write,書く,かく,,書く,VERB,GODAN_VERB,5,{GENKI3_L04},,1629794a-84d2-44f3-b05b-89bcb817152a,349,2022-08-10
-to take (a photograph),撮る,とる,,撮る,VERB,GODAN_VERB,5,{GENKI3_L04},,ab8ef931-7703-4d80-9272-bbc453f19b69,350,2022-08-10
-to wait,待つ,まつ,,待つ,VERB,GODAN_VERB,5,{GENKI3_L04},,7e09edbb-c75f-4ee4-8006-89ac3deea1d0,351,2022-08-10
-to understand; to comprehend,わかる,わかる,,分かる,VERB,GODAN_VERB,5,{GENKI3_L04},,749a9435-10dc-4b02-b1dc-778f08e86258,352,2022-08-10
-about (approximate measurment),〜ぐらい,ぐらい,,,SUFFIX,,1,{GENKI3_L04},,9fe24c28-0eae-4a2c-ad49-16f76680afec,353,2022-08-10
-excuse me,すみません,すみません,,済みません,EXPRESSION,,3,,,9ec6f020-0166-4d80-a938-070eeb78cc05,354,2022-08-10
-sorry,ごめん,ごめん,,,INTERJECTION,,2,,,7d011295-e767-462a-85a9-8f5fab4883b8,355,2022-08-10
-I'm deeply sorry sorry,ごめんなさい,ごめんなさい,,,EXPRESSION,,3,{GENKI3_L04},,46ba5ddd-9d1f-4bc0-982e-a67e7bb4b307,356,2022-08-10
-and then,それから,それから,,,EXPRESSION,,5,{GENKI3_L04},,7ded3290-23fd-4091-83c5-560563afeed3,357,2022-08-10
-so; therefore,だかる,だから,,,CONJUNCTION,,4,{GENKI3_L04},,3fd6bcdf-d9e5-4cc9-8aab-46e121e4c86a,358,2022-08-10
-many; a lot,たくさん,たくさん,,,NOUN,,5,{GENKI3_L04},,10eece8b-4102-41c5-9532-e62246da60e2,359,2022-08-10
-together with (a person); and,〜と,と,,,CONJUNCTION,,3,{GENKI3_L04},,d097a029-96a6-4cfe-936e-9f815b368de3,360,2022-08-10
-why; how,どうして,どうして,,,ADVERB,,5,{GENKI3_L04},,f439afe8-6382-4017-b594-de82a2d090e6,361,2022-08-10
-alone,一人で,一人で,,,EXPRESSION,,,{GENKI3_L04},,0839c0a5-e217-465a-9b68-64994b80b119,362,2022-08-10
-hello? (phone),もしもし,もしもし,,,EXPRESSION,,,{GENKI3_L04},,82698354-a810-410e-a0c2-e2e9e391e7bc,363,2022-08-10
-right,右,みぎ,,右,NOUN,,5,{GENKI3_L04},{location},83d209ab-6760-5b3f-945c-f82a55d9bcc1,364,2022-08-10
-left,左,ひだり,,左,NOUN,,5,{GENKI3_L04},{location},92a12133-28d1-5327-b9b9-db5c7d58fcdb,365,2022-08-10
-front,前,まえ,,まえ,NOUN,,5,{GENKI3_L04},{location},8c4152ae-6000-57f5-8244-ac48a99f7e20,366,2022-08-10
-back,後ろ,うしろ,,後ろ,NOUN,,5,{GENKI3_L04},{location},5abdcbf7-54bd-541a-be8b-e2aac1a36bf2,367,2022-08-10
-inside,中,なか,,中,NOUN,,5,{GENKI3_L04},{location},e37a40e2-6a4c-5046-9054-71bd174159cf,368,2022-08-10
-on,上,うえ,,上,NOUN,,5,{GENKI3_L04},{location},b7339af2-316c-551b-a5da-cb03d2ef2392,369,2022-08-10
-under,下,した,,下,NOUN,,5,{GENKI3_L04},{location},658ee639-0bc6-5cd5-8342-15f7698bf75d,370,2022-08-10
-near; nearby,近く,しかく,,近く,NOUN,,5,{GENKI3_L04},{location},f8bbf752-a05d-542c-99ad-1b59fec7e4a6,371,2022-08-10
-next,隣,となり,,隣,NOUN,,5,{GENKI3_L04},{location},9c00bb62-e821-5702-ad5d-20d324fdb688,372,2022-08-10
-between,間,あいだ,,間,NOUN,,5,{GENKI3_L04},{location},5d31fe9a-a3d5-548d-b92c-323392afbb5f,373,2022-08-10
-rice cracker,煎餅,せんべい,,煎餅,NOUN,,,,{food},c4fe5291-83a0-5e58-9791-744a785a3d9a,374,2022-08-12
-cake,ケーキ,ケえき,,,NOUN,,4,,{food},e182997f-4799-5c3c-a985-ed126db9687e,375,2022-08-12
-rice ball,お握り,おにぎり,,お握り,NOUN,,,,{food},676d3eb5-4992-5047-ad16-142df7b8ec38,376,2022-08-12
-salt,塩,しお,,塩,NOUN,,5,,{food},cd548aa6-54f8-5f0a-b55f-c0fcf26dbc2a,377,2022-08-12
-(some) more; longer; further,もっと,もっと,,,ADVERB,,5,,,ca8b76ff-0345-5367-855a-fd69329898a6,378,2022-08-12
-geek; nerd,オタク,おたく,,,NOUN,,,,{slang},fa69ee4d-ab8a-5daf-8701-abab724eaade,379,2022-08-12
-hot water; hot bath; hot spring,湯,ゆ,,湯,NOUN,,4,,,3953151e-3280-5665-8c64-1bfabbedcdd2,380,2022-08-12
-hot spring,温泉,おんせん,,温泉,NOUN,,2,,,8c842dec-6e97-54b7-ad74-2408c4b88677,381,2022-08-12
-stop,止まれ,とまれ,,止まれ,EXPRESSION,,,,,461f8d91-ff08-5cf0-a0a9-891008b85589,382,2022-08-12
-division into equal parts,等分,とうぶん,,等分,NOUN,,2,,,7d911224-17ff-5957-a840-cf56e5907439,383,2022-08-12
-bride,花嫁,はなよめ,,花嫁,NOUN,,2,,,e396a0a2-95a9-52dc-bbde-5bbc8d28c073,384,2022-08-12
-master; teacher,師匠,ししょう,,師匠,NOUN,,,,,3f9be32c-56f7-5543-98b0-5f145ab43669,385,2022-08-12
-order; request,ご注文,ごちゅもん,,ご注文,NOUN,,,,,b0f23319-1e7e-5eee-aa4c-1181b78ebeec,386,2022-08-12
-witch,魔女,まじょ,,魔女,NOUN,,,,,c495dd60-9438-5d9f-892e-6b37d6d88c4a,387,2022-08-12
-demon; ogre,鬼,おに,,鬼,NOUN,,,,,52f192e3-6628-546b-80b5-f63547b440d5,388,2022-08-12
-devine spirit,神,かみ,,神,NOUN,,,,,63f02942-2ba9-5ff6-aa84-be6ecd6f209d,389,2022-08-12
-travel; trip; journey,旅,たび,,旅,NOUN,,3,,,abbcc24b-a635-5aeb-b6ef-387d88099538,390,2022-08-12
-light music,軽音楽,けいおんがく,,軽音楽,NOUN,,,,,,391,2022-08-19
-club; department (of company),部,ぶ,,部,NOUN,,1,,,300bed58-ddab-5420-8396-3147573388c3,392,2022-08-12
-tidal wave,津波,つなみ,,津波,NOUN,,1,,,7735ac10-24a6-57a5-baf8-6eec8dc148ae,393,2022-08-12
-small child; cute small version of someone,チビ,ちび,,,NOUN,,,,,e2a1e5ef-c9d8-5554-a912-e6014d2c0f35,394,2022-08-13
-cute,カワイイ,かわいい,,,ADJECTIVE,I_ADJECTIVE,5,,,2c0b911e-ac72-5c04-bfd3-ebcd9e988dee,395,2022-08-13
-heated table,こたつ,こたつ,,,NOUN,,1,,,281d7359-80a0-519d-9c57-504f35bfd5ee,396,2022-08-13
-Japanese bedding,布団,ふとん,,布団,NOUN,,4,,,c3f5ef65-8025-5f56-b5e1-efc61a1c81bc,397,2022-08-13
+"congratulations, well done, best wishes",おめでとう,おめでとう,,,INTERJECTION,,3,,,,239,
+to persist; to do one's best; to keep at it,頑張る,ばんばる,,頑張る,VERB,GODAN_VERB,,,,a8f00f2e-c5dc-58d6-8225-376fbd35544f,240,2022-08-12
+like,好き,すき,,,ADJECTIVE,NA_ADJECTIVE,5,{DUO_01_02},,dbecb5a9-82dd-5c17-ba84-c7887cf58ce8,241,2022-08-12
+thump-thump; to beat fast,ドキドキ,どきどき,,,ADVERB,,2,,,9723a3d5-9c7a-5674-a377-5d5c1220438d,242,2022-08-12
+spring,春,はる,,春,NOUN,,5,,{season},114b67a6-53f1-58a1-bacd-29661af2a808,243,2022-08-12
+summer,夏,なつ,,夏,NOUN,,5,{DUO_01_02},{season},cd1adf28-7497-5c5f-ab0f-ecfaedc6e345,244,2022-08-12
+fall,秋,あき,,秋,NOUN,,5,,{season},580fd4b9-e1ae-5e7b-a257-25f2fa55a899,245,2022-08-12
+winter,冬,ふゆ,,冬,NOUN,,5,{DUO_01_02},{season},f9e87b50-2575-5141-98c9-1d6f96fa0ade,246,2022-08-12
+white,白,しろ,,白,NOUN,,5,{DUO_01_01},{color},300c2bc3-fa11-54b9-a12f-1f663986f8ce,247,2022-08-12
+black,黒,くろ,,くろ,NOUN,,5,,{color},48b7e73f-4a0c-56bb-8cd6-bf2ed57ed92c,248,2022-08-12
+red,赤,あか,,赤,NOUN,,5,{DUO_01_01},{color},e65aae18-dc90-5f41-aa96-e40680a12452,249,2022-08-12
+blue,青,あお,,青,NOUN,,5,{DUO_01_01},{color},12290cb0-5c39-5b53-8353-e0404724200b,250,2022-08-12
+yellow,黄色,きいろ,,黄色,NOUN,,5,,{color},b5431148-e71a-55b1-a42f-cbf2f029c146,251,2022-08-12
+orange,オレンジ,おれんじ,,,NOUN,,1,,{color},fd431252-3f59-5b66-b3b2-f078528bbf06,252,2022-08-12
+green,緑,みどり,,緑,NOUN,,5,,{color},dee5b761-7b7a-5723-8e66-8fe9e0b2c2ea,253,2022-08-12
+kitchen,台所,だいどころ,,台所,NOUN,,5,{DUO_02_04},{home},03137815-af09-4ff0-84a7-622d92cf600c,254,2022-05-30
+room,部屋,へや,,部屋,NOUN,,5,{DUO_02_04},{home},f6d9d4a3-811d-4ab1-80e1-8f979c4b483c,255,2022-05-30
+bath(tub),風呂,ふろ,,風呂,NOUN,,5,{DUO_02_04},{home},f31e6384-d4e9-4a67-b12e-e08cddfdba29,256,2022-05-30
+bedroom,寝室,しんしつ,,寝室,NOUN,,,{DUO_02_04},{home},0079d5eb-c8e1-4f3b-9105-51054a2c0b8a,257,2022-05-30
+window,窓,まど,,窓,NOUN,,5,{DUO_02_04},{home},b04ef471-2292-4ca7-a470-4829fb116b8a,258,2022-05-30
+yard; garden,庭,にわ,,庭,NOUN,,5,{DUO_02_04},{home},c08c0aff-7835-4c0a-a560-cd8e627c3a90,259,2022-05-30
+chair,椅子,いす,,椅子,NOUN,,5,"{DUO_02_04,GENKI3_L04}",{home},9e935991-a6f7-4383-b8a0-9376d7af8298,260,2022-05-30
+sofa,ソファー,そふぁあ,,,NOUN,,3,{DUO_02_04},{home},2f7263b8-e1dd-4c09-94d0-7ad22fe82a5b,261,2022-05-30
+desk,机,つくえ,,机,NOUN,,5,"{DUO_02_04,GENKI3_L04}",{home},068b1a67-d6a5-4790-a264-febfbccc06c2,262,2022-05-30
+pet,ペット,ペット,,,NOUN,,5,{DUO_02_04},{animal},7361012a-f230-444c-babe-48449c5bc79d,263,2022-05-30
+dog,犬,いぬ,,犬,NOUN,,5,"{DUO_02_04,GENKI3_L04}",{animal},f9f3b546-f023-4b35-9db2-068f8143c41e,264,2022-05-30
+cat,猫,ねこ,,猫,NOUN,,5,"{DUO_02_04,GENKI3_L04}",{animal},5399ca2c-f192-40b6-9b69-28dc1de577c8,265,2022-05-30
+bird,鳥,とり,,鳥,NOUN,,5,{DUO_02_04},{animal},f5b2d28f-d519-4138-a9d0-5c99b82d09af,266,2022-05-30
+puppy,子犬,こいぬ,,子犬,NOUN,,,{DUO_02_04},{animal},9704386f-fba7-4008-b079-fc541fb9c0dc,267,2022-05-30
+kitten,子猫,こねこ,,子猫,NOUN,,,{DUO_02_04},{animal},63a5b1e8-d69e-4f78-9fa1-f6ed248b872b,268,2022-05-30
+rabbit,うさぎ,うさぎ,,兎,NOUN,,3,,{animal},2541eb3b-87ad-5c3c-8450-a62f59071835,269,2022-08-12
+"counter for birds, rabbits, etc",〜羽,〜わ,,〜羽,COUNTER,,3,{DUO_02_04},{animal},93849573-7b32-4df3-a3b9-a15fb7555627,270,2022-05-30
+"she, her",彼女,かのじょ,,彼女,PRONOUN,,4,{DUO_02_07},,6432ab47-a4a0-487f-89ad-b37fce084c74,271,2022-08-08
+"him, he",彼,かれ,,彼,PRONOUN,,4,{DUO_02_07},,794880bc-1fa2-4fb8-9fa0-bd04c175bbee,272,2022-08-08
+"they, them",彼ら,かれら,,彼ら,PRONOUN,,3,{DUO_02_07},,46260a68-5466-4f70-9b0b-968d8143848f,273,2022-08-08
+"...plural (person, animal)",〜たち,〜たち,,〜達,SUFFIX,,,{DUO_02_07},,7592b181-b6f1-41f0-b618-4ae67ab38b21,274,2022-08-08
+"I,me (male term)",僕,ぼく,,僕,PRONOUN,,4,{DUO_02_07},,bd6d533d-c173-49c5-95c7-85fe90dd38a6,275,2022-08-08
+mountain,山,やま,,山,NOUN,,5,{LULI_KANJI_L01},,2037e05e-e3cc-56d5-b966-458046cfb035,276,2022-08-12
+river,川,かわ,,川,NOUN,,5,{LULI_KANJI_L01},,963e3282-5c51-588f-9dac-d5226e182f10,277,2022-08-12
+flame (blaze); flame (of passion),炎,ほのお,ほむら,炎,NOUN,,3,,,2e1d445c-bc7c-558d-9eb4-c97cdb6f5898,278,2022-08-12
+fire,火,ひ,,火,NOUN,,3,{LULI_KANJI_L01},,047bba20-3388-59ec-b67c-97aeb0d3c257,279,2022-08-12
+man; male,男,おとこ,,男,NOUN,,,{LULI_KANJI_L01},,9a991eae-f1be-5494-a018-23249ea18b15,280,2022-08-12
+woman; female,女,おんあ,,女,NOUN,,,{LULI_KANJI_L01},,d74412ce-8367-5c45-919d-4d992829de66,281,2022-08-12
+child; kid,~子,こ,,子,SUFFIX,,4,{LULI_KANJI_L01},,865bd41e-4912-5b3b-97e2-d7bb548ebc54,282,2022-08-15
+"confections, sweets, candy, cake",お菓子,おかし,,お菓子,NOUN,,5,,,6e4a003e-4cc6-5fb4-bd16-99b201631b2b,283,2022-08-15
+(hard) candy,飴,あめ,,飴,NOUN,,5,,,6437fff2-42a0-5909-9bf4-68dd05303d0f,284,2022-08-15
+rain,雨,あめ,,雨,NOUN,,5,{LULI_KANJI_L01},{weather},38a615c6-b9b1-5a56-8df9-f32d3423f0e2,285,2022-08-15
+sky (physical),空,そら,,空,NOUN,,5,{LULI_KANJI_L01},{weather},a29a3d3c-77a8-51db-98a4-020a58c0c9fa,286,2022-08-15
+heavans; sky (spiritual),天,てん,,天,NOUN,,5,{LULI_KANJI_L01},{weather},ccb7a98d-7140-5e41-ac65-a7116f9f96f3,287,2022-08-15
+soil; earth,土,つち,,土,NOUN,,3,{LULI_KANJI_L01},,356c71d3-c158-58cf-a42d-7efab762472b,288,2022-08-15
+ground; land; territory,地,ち,,地,NOUN,,3,{LULI_KANJI_L02},,b05a993b-f894-5720-a08d-031191ad57e5,289,2022-08-15
+north,北,きた,,北,NOUN,,5,{LULI_KANJI_L01},{compass_direction},11d88f21-b92c-524a-a750-e3b3eb5db233,290,2022-08-15
+south,南,みなみ,,南,NOUN,,5,{LULI_KANJI_L01},{compass_direction},787954e6-c587-5148-afa9-69de0df5a195,291,2022-08-15
+east,東,ひがし,,東,NOUN,,5,{LULI_KANJI_L01},{compass_direction},72e6a9e9-44f5-516c-9543-5c0754218c8e,292,2022-08-15
+west,西,にし,,西,NOUN,,5,{LULI_KANJI_L01},{compass_direction},f01992dc-39c8-5478-97f3-80052a1215f8,293,2022-08-15
+tree; shrub; bush,木,き,,木,NOUN,,5,{LULI_KANJI_L01},,fbd9dcaa-2454-526e-b8a1-4b4e68fed07a,294,2022-08-15
+rice field,田,た,,田,NOUN,,3,{LULI_KANJI_L01},,5fbad03e-b5f7-51ea-998a-d8e68b87a332,295,2022-08-15
+want,欲しい,ほしい,,欲しい,ADJECTIVE,I_ADJECTIVE,5,{DUO_01_02},,39007001-a5bd-5f32-b00a-41b88d6dcb04,296,2022-08-12
+sweet,甘い,あまい,,甘い,ADJECTIVE,I_ADJECTIVE,5,{DUO_01_02},{food},d296367e-4c7b-5675-9477-ef164a14186d,297,2022-08-12
+dirty,汚い,きたない,,汚い,ADJECTIVE,I_ADJECTIVE,5,{DUO_01_02},,a135ce08-66bb-5864-803a-134a43cd833b,298,2022-08-12
+sushi,寿司,すし,,寿司,NOUN,,,{DUO_01_02},{food},b0b557a1-615d-53a4-acdc-768151964aa5,299,2022-08-12
+sashimi,刺身,さしみ,,刺身,NOUN,,2,,{food},b39de966-5af7-5bec-a79b-2c72f8c7e4f9,300,2022-08-12
+wasabi,わさび,わさび,,山葵,NOUN,,,,{food},aea7b65d-8e51-5d8b-97f3-72b3c010afcb,301,2022-08-12
+tuna; bluefin,マグロ,まぐろ,,,NOUN,,,,{food},413b74af-f988-52c9-ad64-165507510443,302,2022-08-12
+eel,うなぎ,うなぎ,,鰻,NOUN,,,,"{animal,food}",70d02a0a-cd4d-5e2c-bb76-a042c9211b78,303,2022-08-12
+ear,耳,みみ,,耳,NOUN,,5,"{DUO_01_03,LULI_KANJI_L01}",{body},fcb92bf6-7f59-59fd-863a-7aa2762f640d,304,2022-08-12
+eye,目,め,,目,NOUN,,5,"{DUO_01_03,LULI_KANJI_L01}",{body},08a92e33-466f-588d-b364-19981156b72f,305,2022-08-12
+mouth,口,くち,,口,NOUN,,5,{LULI_KANJI_L01},{body},,306,2022-08-17
+hand; arm,手,て,,手,NOUN,,5,{LULI_KANJI_L01},{body},a3d9c5ec-a34a-5a91-b166-7291979bef67,307,2022-08-15
+foot,足,あし,,足,NOUN,,5,{LULI_KANJI_L01},{body},b5407428-ff7a-5715-8283-de41ff4e555c,308,2022-08-15
+back,背中,せなか,,背中,NOUN,,4,{DUO_01_03},{body},12773416-725b-57f8-b7cc-856c607390db,309,2022-08-12
+cloudy,曇り,くもり,,曇り,NOUN,,5,{DUO_01_03},{weather},83e6b487-2d55-5480-a55b-2a808a40a3f1,310,2022-08-12
+sunny,晴れ,はれ,,晴れ,NOUN,,5,{DUO_01_03},{weather},a2edc793-e468-5c89-8566-efd896ac302c,311,2022-08-12
+outside,外,そと,,外,NOUN,,5,{DUO_01_03},,05f754d9-f497-54db-9340-cea898b0ff28,312,2022-08-12
+fermented soybeans,納豆,なっとう,,納豆,NOUN,,,{DUO_01_04},{food},3cae06c0-447c-5b59-b04b-4c5036c5ce20,313,2022-08-12
+wind; breeze; draft,風,かぜ,,風,NOUN,,5,{DUO_01_04},,1a0c8160-c588-508a-bcbc-c3bf3bdbb0fe,314,2022-08-12
+map,地図,ちず,,地図,NOUN,,5,{DUO_01_04},,86e894b7-ebf2-5e8e-991e-54ebd19f764d,315,2022-08-12
+fruit,果物,くだもの,,果物,NOUN,,5,{DUO_01_04},{food},7f320ae8-3952-5727-a45e-4c5535a79533,316,2022-08-12
+ticket,切符,きっぷ,,切符,NOUN,,5,{DUO_01_04},,efc7ae30-059c-5579-9e95-1e53594af9ed,317,2022-08-12
+game,ゲーム,げえむ,,,NOUN,,3,{GENKI3_L04},{activity},038bec1a-765f-42b2-905d-28004fd829a3,318,2022-08-10
+part-time job,アルバイト,あればいと,,,NOUN,,4,{GENKI3_L04},{activity},303cf994-1062-45cd-9c22-738f09ffee51,319,2022-08-10
+part-time job (colloquial),バイト,ばいと,,,NOUN,,,{GENKI3_L04},{activity},8509b44f-d5d4-437f-a845-aae915c292dc,320,2022-08-10
+shopping,買い物,かいもの,,買い物,NOUN,,5,{GENKI3_L04},{activity},a024bfb6-a9ef-4690-904a-d8fa02367ed3,321,2022-08-10
+class,クラス,くらす,,,NOUN,,5,{GENKI3_L04},{activity},c52c9908-d959-404c-a8f8-161c2663e84e,322,2022-08-10
+person,人,人,,,NOUN,,5,{GENKI3_L04},,624914ad-ed17-40f2-9260-e70c69962692,323,2022-08-10
+child,子供,こども,,子供,NOUN,,5,{GENKI3_L04},,399bbf9b-f7e7-429c-8874-42e0bf5cae9e,324,2022-08-10
+picture; photograph,写真,しゃしん,,写真,NOUN,,5,{GENKI3_L04},,e63daade-a22a-4554-a061-4077691692ee,325,2022-08-10
+flower,花,はな,,はな,NOUN,,5,{GENKI3_L04},,8b29a67e-61cf-494a-972a-5d59944a53d6,326,2022-08-10
+(term) paper,レポート,れぽおと,,,NOUN,,4,{GENKI3_L04},,26eb1163-f6e3-43a8-b406-be60d5959e56,327,2022-08-10
+temple,お寺,おてら,,お寺,NOUN,,,{GENKI3_L04},{place},8ff036c4-9800-49d5-906b-514520c78880,328,2022-08-10
+park,公園,こうえん,,公園,NOUN,,5,{GENKI3_L04},{place},fe1b8cc3-30c4-49ce-90de-e60514fdf437,329,2022-08-10
+supermarket,スーパー,すうぱあ,,,NOUN,,,{GENKI3_L04},{place},1e29f308-89f0-4c1d-bef5-323b3fdb1ca7,330,2022-08-10
+bus stop,バス停,ばすてい,,バス停,NOUN,,,{GENKI3_L04},{place},c406dd1a-75be-4283-97ee-5c7c31f904ed,331,2022-08-10
+hospital,病院,びょういん,,病院,NOUN,,5,{GENKI3_L04},{place},850f7735-fa14-49d2-9879-20d8a47dc0e8,332,2022-08-10
+hotel,ホテル,ほてる,,,NOUN,,5,{GENKI3_L04},{place},19bda9d8-1bbf-4d7b-8388-8375d9480918,333,2022-08-10
+bokkstore,本屋,ほんや,,本屋,NOUN,,,{GENKI3_L04},{place},e0b533e8-f938-4c93-b5fc-cbf9a5efbc9c,334,2022-08-10
+town; city,町,まち,,町,NOUN,,5,{GENKI3_L04},{place},ddb16a7a-e9c0-4cce-ac65-ea78d074fce8,335,2022-08-10
+restaurant,レストラン,れすとらん,,,NOUN,,5,{GENKI3_L04},{place},470f29e2-10f1-4d28-9d80-d40f15fc171a,336,2022-08-10
+yesterday,昨日,きのう,,昨日,NOUN,,5,{GENKI3_L04},{time},d5575534-34bf-41fc-a7df-2ed647e61a05,337,2022-08-10
+...hours; time,〜時間,じかん,,時間,NOUN,,5,{GENKI3_L04},{time},819a835d-a6be-4c08-a364-8907b1226bbf,338,2022-08-10
+last week,先週,せんしゅう,,先週,NOUN,,5,{GENKI3_L04},{time},30e8ffe0-74a6-411b-957d-5ee3277bd853,339,2022-08-10
+when...; at the time of...,時,とき,,時,NOUN,,3,{GENKI3_L04},{time},585f82ea-6a6a-4005-b3a6-ed57442a6ed9,340,2022-08-10
+Monday,月曜日,げつようび,,月曜日,NOUN,,5,{GENKI3_L04},{time},7e9e71f3-ca82-40b2-9190-e8df09a60b70,341,2022-08-10
+Tuesday,火曜日,かようび,,火曜日,NOUN,,5,{GENKI3_L04},{time},a7f63c04-eeb1-4cc9-b9e7-93c5aef67195,342,2022-08-10
+Wednesday,水曜日,すいようび,,水曜日,NOUN,,5,{GENKI3_L04},{time},b7290a17-b80a-4663-84b4-fb97c53ac10e,343,2022-08-10
+Thursday,木曜日,もくようび,,木曜日,NOUN,,5,{GENKI3_L04},{time},29385baf-a573-49a4-b4b5-0119dae49df3,344,2022-08-10
+Friday,金曜日,金曜日,,金曜日,NOUN,,5,{GENKI3_L04},{time},1ecc5944-6007-4a9f-8153-41e50842b67a,345,2022-08-10
+there exists...,いる,いる,,,VERB,ICHIDAN_VERB,5,{GENKI3_L04},{to_be_verb},8728a06a-1e5b-436b-939a-b1d96a7d9f79,346,2022-08-10
+there is...,ある,ある,,,VERB,GODAN_VERB,5,{GENKI3_L04},{to_be_verb},a4025eed-7054-4b18-b8ce-c90bc7ed6b00,347,2022-08-10
+to meet; to see a person,会う,あう,,会う,VERB,GODAN_VERB,5,{GENKI3_L04},,a7c68ed2-5f08-4411-9030-42347f7d571f,348,2022-08-10
+to buy; to purchase,買う,かう,,かう,VERB,GODAN_VERB,5,{GENKI3_L04},,1e617d48-2df2-4c74-b732-89783d176db9,349,2022-08-10
+to write,書く,かく,,書く,VERB,GODAN_VERB,5,{GENKI3_L04},,1629794a-84d2-44f3-b05b-89bcb817152a,350,2022-08-10
+to take (a photograph),撮る,とる,,撮る,VERB,GODAN_VERB,5,{GENKI3_L04},,ab8ef931-7703-4d80-9272-bbc453f19b69,351,2022-08-10
+to wait,待つ,まつ,,待つ,VERB,GODAN_VERB,5,{GENKI3_L04},,7e09edbb-c75f-4ee4-8006-89ac3deea1d0,352,2022-08-10
+to understand; to comprehend,わかる,わかる,,分かる,VERB,GODAN_VERB,5,{GENKI3_L04},,749a9435-10dc-4b02-b1dc-778f08e86258,353,2022-08-10
+about (approximate measurment),〜ぐらい,ぐらい,,,SUFFIX,,1,{GENKI3_L04},,9fe24c28-0eae-4a2c-ad49-16f76680afec,354,2022-08-10
+excuse me,すみません,すみません,,済みません,EXPRESSION,,3,,,9ec6f020-0166-4d80-a938-070eeb78cc05,355,2022-08-10
+sorry,ごめん,ごめん,,,INTERJECTION,,2,,,7d011295-e767-462a-85a9-8f5fab4883b8,356,2022-08-10
+I'm deeply sorry sorry,ごめんなさい,ごめんなさい,,,EXPRESSION,,3,{GENKI3_L04},,46ba5ddd-9d1f-4bc0-982e-a67e7bb4b307,357,2022-08-10
+and then,それから,それから,,,EXPRESSION,,5,{GENKI3_L04},,7ded3290-23fd-4091-83c5-560563afeed3,358,2022-08-10
+so; therefore,だかる,だから,,,CONJUNCTION,,4,{GENKI3_L04},,3fd6bcdf-d9e5-4cc9-8aab-46e121e4c86a,359,2022-08-10
+many; a lot,たくさん,たくさん,,,NOUN,,5,{GENKI3_L04},,10eece8b-4102-41c5-9532-e62246da60e2,360,2022-08-10
+together with (a person); and,〜と,と,,,CONJUNCTION,,3,{GENKI3_L04},,d097a029-96a6-4cfe-936e-9f815b368de3,361,2022-08-10
+why; how,どうして,どうして,,,ADVERB,,5,{GENKI3_L04},,f439afe8-6382-4017-b594-de82a2d090e6,362,2022-08-10
+alone,一人で,一人で,,,EXPRESSION,,,{GENKI3_L04},,0839c0a5-e217-465a-9b68-64994b80b119,363,2022-08-10
+hello? (phone),もしもし,もしもし,,,EXPRESSION,,,{GENKI3_L04},,82698354-a810-410e-a0c2-e2e9e391e7bc,364,2022-08-10
+right,右,みぎ,,右,NOUN,,5,{GENKI3_L04},{location},83d209ab-6760-5b3f-945c-f82a55d9bcc1,365,2022-08-10
+left,左,ひだり,,左,NOUN,,5,{GENKI3_L04},{location},92a12133-28d1-5327-b9b9-db5c7d58fcdb,366,2022-08-10
+front,前,まえ,,まえ,NOUN,,5,{GENKI3_L04},{location},8c4152ae-6000-57f5-8244-ac48a99f7e20,367,2022-08-10
+back,後ろ,うしろ,,後ろ,NOUN,,5,{GENKI3_L04},{location},5abdcbf7-54bd-541a-be8b-e2aac1a36bf2,368,2022-08-10
+inside,中,なか,,中,NOUN,,5,{GENKI3_L04},{location},e37a40e2-6a4c-5046-9054-71bd174159cf,369,2022-08-10
+on,上,うえ,,上,NOUN,,5,{GENKI3_L04},{location},b7339af2-316c-551b-a5da-cb03d2ef2392,370,2022-08-10
+under,下,した,,下,NOUN,,5,{GENKI3_L04},{location},658ee639-0bc6-5cd5-8342-15f7698bf75d,371,2022-08-10
+near; nearby,近く,しかく,,近く,NOUN,,5,{GENKI3_L04},{location},f8bbf752-a05d-542c-99ad-1b59fec7e4a6,372,2022-08-10
+next,隣,となり,,隣,NOUN,,5,{GENKI3_L04},{location},9c00bb62-e821-5702-ad5d-20d324fdb688,373,2022-08-10
+between,間,あいだ,,間,NOUN,,5,{GENKI3_L04},{location},5d31fe9a-a3d5-548d-b92c-323392afbb5f,374,2022-08-10
+rice cracker,煎餅,せんべい,,煎餅,NOUN,,,,{food},c4fe5291-83a0-5e58-9791-744a785a3d9a,375,2022-08-12
+cake,ケーキ,ケえき,,,NOUN,,4,,{food},e182997f-4799-5c3c-a985-ed126db9687e,376,2022-08-12
+rice ball,お握り,おにぎり,,お握り,NOUN,,,,{food},676d3eb5-4992-5047-ad16-142df7b8ec38,377,2022-08-12
+salt,塩,しお,,塩,NOUN,,5,,{food},cd548aa6-54f8-5f0a-b55f-c0fcf26dbc2a,378,2022-08-12
+chopsticks,箸,はし,,箸,NOUN,,5,,"{food, kitchen}",,379,2022-08-20
+(some) more; longer; further,もっと,もっと,,,ADVERB,,5,,,ca8b76ff-0345-5367-855a-fd69329898a6,380,2022-08-12
+geek; nerd,オタク,おたく,,,NOUN,,,,{slang},fa69ee4d-ab8a-5daf-8701-abab724eaade,381,2022-08-12
+hot water; hot bath; hot spring,湯,ゆ,,湯,NOUN,,4,,,3953151e-3280-5665-8c64-1bfabbedcdd2,382,2022-08-12
+hot spring,温泉,おんせん,,温泉,NOUN,,2,,,8c842dec-6e97-54b7-ad74-2408c4b88677,383,2022-08-12
+stop,止まれ,とまれ,,止まれ,EXPRESSION,,,,,461f8d91-ff08-5cf0-a0a9-891008b85589,384,2022-08-12
+division into equal parts,等分,とうぶん,,等分,NOUN,,2,,,7d911224-17ff-5957-a840-cf56e5907439,385,2022-08-12
+bride,花嫁,はなよめ,,花嫁,NOUN,,2,,,e396a0a2-95a9-52dc-bbde-5bbc8d28c073,386,2022-08-12
+master; teacher,師匠,ししょう,,師匠,NOUN,,,,,3f9be32c-56f7-5543-98b0-5f145ab43669,387,2022-08-12
+order; request,ご注文,ごちゅもん,,ご注文,NOUN,,,,,b0f23319-1e7e-5eee-aa4c-1181b78ebeec,388,2022-08-12
+witch,魔女,まじょ,,魔女,NOUN,,,,,c495dd60-9438-5d9f-892e-6b37d6d88c4a,389,2022-08-12
+demon; ogre,鬼,おに,,鬼,NOUN,,,,,52f192e3-6628-546b-80b5-f63547b440d5,390,2022-08-12
+devine spirit,神,かみ,,神,NOUN,,,,,63f02942-2ba9-5ff6-aa84-be6ecd6f209d,391,2022-08-12
+travel; trip; journey,旅,たび,,旅,NOUN,,3,,,abbcc24b-a635-5aeb-b6ef-387d88099538,392,2022-08-12
+light music,軽音楽,けいおんがく,,軽音楽,NOUN,,,,,,393,2022-08-19
+club; department (of company),部,ぶ,,部,NOUN,,1,,,300bed58-ddab-5420-8396-3147573388c3,394,2022-08-12
+tidal wave,津波,つなみ,,津波,NOUN,,1,,,7735ac10-24a6-57a5-baf8-6eec8dc148ae,395,2022-08-12
+small child; cute small version of someone,チビ,ちび,,,NOUN,,,,,e2a1e5ef-c9d8-5554-a912-e6014d2c0f35,396,2022-08-13
+cute,カワイイ,かわいい,,,ADJECTIVE,I_ADJECTIVE,5,,,2c0b911e-ac72-5c04-bfd3-ebcd9e988dee,397,2022-08-13
+heated table,こたつ,こたつ,,,NOUN,,1,,,281d7359-80a0-519d-9c57-504f35bfd5ee,398,2022-08-13
+Japanese bedding,布団,ふとん,,布団,NOUN,,4,,,c3f5ef65-8025-5f56-b5e1-efc61a1c81bc,399,2022-08-13
