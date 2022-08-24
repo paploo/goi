@@ -139,7 +139,7 @@ bf5e0762-effe-5d38-8786-503cde98e504,jeans,ジーンズ,ジいんず,noun,,3,202
 f8a3e40d-f42e-5ba2-995d-3abc33e63a41,newspaper,新聞,しんぶん,noun,,5,2022-05-30,138,GENKI3_L02,things noun genki3-l02
 e7323b54-9fa5-5cb7-8d68-d2ebe9b379ea,smart phone,スマホ,スマホ,noun,,,2022-05-30,139,GENKI3_L02,things noun genki3-l02
 1a0585e5-3bd0-5903-90cc-d3381778da68,t-shirt,Ｔシャツ,ていいしゃつ,noun,,,2022-05-30,140,GENKI3_L02,things noun genki3-l02
-1c5e45ac-cc4a-5d53-b566-d6d832828ba0,clock,時計,時計,noun,,5,2022-05-30,141,GENKI3_L02,things noun genki3-l02
+1c5e45ac-cc4a-5d53-b566-d6d832828ba0,clock,時計,とけい,noun,,5,2022-05-30,141,GENKI3_L02,things noun genki3-l02
 612eac67-3ec3-535e-94a3-249d60f51046,notebook,ノート,のおと,noun,,5,2022-05-30,142,GENKI3_L02,things noun genki3-l02
 442d1c8e-a848-5fa4-8fc9-d398441b4b65,pen,ペン,ぺん,noun,,5,2022-05-30,143,GENKI3_L02,things noun genki3-l02
 5f6cc5c3-6625-5caa-9277-f43493360fc2,hat; cap,帽子,ぼうし,noun,,5,2022-05-30,144,GENKI3_L02,things noun genki3-l02
@@ -158,7 +158,7 @@ fc6be215-8cf3-55b8-8a6b-0dd345852963,please give me...,〜ください,〜くだ
 3bb29baa-6e40-5c58-93cd-2000ea1120eb,then...; if that is the case...,じゃあ,じゃあ,expression,,5,2022-05-30,157,GENKI3_L02,expression genki3-l02
 8dc54b41-91cb-5289-bb0b-5f4a5854fea7,here it is; please go ahead; i beg of you,どうぞ,どうぞ,expression,,5,2022-05-30,158,GENKI3_L02,expression genki3-l02
 5891a34d-ba0a-5458-b42e-f82c60d27f9f,thanks (casual),どうも,どうも,expression,,5,2022-05-30,159,GENKI3_L02,expression genki3-l02
-48b8587c-d363-5b54-94d9-c9e5dfff2412,zero,ゼロ,ゼロ,noun,,,2022-05-30,160,GENKI3_L02,number noun genki3-l02
+48b8587c-d363-5b54-94d9-c9e5dfff2412,zero; 0,ゼロ,ゼロ,noun,,,2022-05-30,160,GENKI3_L02,number noun genki3-l02
 c007b505-323f-5517-8353-ed093d1571de,one,一,いち,noun,,5,2022-05-30,161,GENKI3_L02,number noun genki3-l02
 8873834d-7358-505d-a93b-7782dbd00024,two,二,に,noun,,5,2022-05-30,162,GENKI3_L02,number noun genki3-l02
 0f9e7c25-4cfa-5186-a893-0f59b7e34745,three,三,さん,noun,,5,2022-05-30,163,GENKI3_L02,number noun genki3-l02
@@ -398,3 +398,4 @@ e2a1e5ef-c9d8-5554-a912-e6014d2c0f35,small child; cute small version of someone,
 2c0b911e-ac72-5c04-bfd3-ebcd9e988dee,cute,カワイイ,かわいい,adjective,i adjective,5,2022-08-13,397,,adjective i-adjective
 281d7359-80a0-519d-9c57-504f35bfd5ee,heated table,こたつ,こたつ,noun,,1,2022-08-13,398,,noun
 c3f5ef65-8025-5f56-b5e1-efc61a1c81bc,Japanese bedding,布団,ふとん,noun,,4,2022-08-13,399,,noun
+49dcb689-b576-56c7-b9f6-1da98acb2667,to collect; to assemble; to gather,集める,あつめる,verb,ichidan verb,4,2022-08-22,400,,verb ichidan-verb
