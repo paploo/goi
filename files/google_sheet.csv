@@ -117,7 +117,7 @@ where,どこ,どこ,,,PRONOUN,,5,{GENKI3_L02},{pointing_word},1502a2cb-059c-5a9f
 who,誰,だれ,,誰,PRONOUN,,5,"{DUO_02_07,GENKI3_L02}",{pointing_word},93eaf294-a292-5980-b17e-de43755335c9,116,2022-05-30
 delicious,おいし,おいし,,美味しい,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L02},{food},f5fce96d-2982-5d7a-b7ce-9dc8914c6ab3,117,2022-05-30
 delicious! (slang),うまい,うまい,,上手い,ADJECTIVE,I_ADJECTIVE,,{GENKI3_L02},"{food,slang}",10a5183d-9b5d-58c7-885f-0210e56c1dca,118,2022-05-30
-fish,魚,魚,,魚,NOUN,,5,{DUO_02_01},{food},f7aa023d-a413-562b-bf45-75367462a4b2,119,2022-05-30
+fish,魚,さかな,,魚,NOUN,,5,{DUO_02_01},{food},f7aa023d-a413-562b-bf45-75367462a4b2,119,2022-05-30
 pork cutlet,とんかつ,とんかつ,,豚カツ,NOUN,,,{GENKI3_L02},{food},81b8f353-cd1c-53e4-a0f4-1630c490c959,120,2022-05-30
 pork bone (e.g. ramen broth),豚骨,とんこつ,,豚骨,NOUN,,,{GENKI3_L02},{food},e2c0e2f3-891a-55e3-ad28-285669d27287,121,2022-05-30
 meat,肉,肉,,肉,NOUN,,5,"{DUO_02_01,GENKI3_L02}",{food},2dd4acb2-11ca-50c5-b365-c22616ea316d,122,2022-05-30
@@ -201,7 +201,7 @@ every day,毎日,まいにち,,毎日,NOUN,,5,{GENKI3_L03},{time},7ec8469c-ee0f-
 every morning,毎朝,まいあさ,,毎朝,NOUN,,5,{DUO_02_03},{time},1efcd811-18f8-5b64-be29-9f46fbef3286,200,2022-07-24
 every night,毎晩,まいばん,,毎晩,NOUN,,5,{GENKI3_L03},{time},9e1ccd85-e76b-559b-9c13-ac2202a04849,201,2022-07-24
 weekend,週末,しゅうまつ,,週末,NOUN,,,{GENKI3_L03},{time},788e64aa-46ee-574d-aad9-83c8b56bc40a,202,2022-07-24
-Saturday,土曜日,土曜日,,土曜日,NOUN,,5,{GENKI3_L03},{time},f7d20fe3-57b3-5e6d-85f6-5b54b0ba7088,203,2022-07-24
+Saturday,土曜日,どようび,,土曜日,NOUN,,5,{GENKI3_L03},{time},f7d20fe3-57b3-5e6d-85f6-5b54b0ba7088,203,2022-07-24
 Sunday,日曜日,にちようび,,日曜日,NOUN,,5,{GENKI3_L03},{time},61637bb4-cc4a-52be-86fa-7fb678ab6e62,204,2022-07-24
 when,いつ,いつ,,,NOUN,,5,{GENKI3_L03},{time},f05e2adf-83c4-5ccf-a74a-fbd5664dceb1,205,2022-07-24
 to go,行く,いく,,行く,VERB,GODAN_VERB,5,"{DUO_02_03,GENKI3_L03}",,50cbf96a-57d3-5f45-b5fc-e415ff57717a,206,2022-07-24
@@ -237,7 +237,7 @@ little quantity; few,少し,すこし,,少し,ADVERB,,5,,,8640d0ab-1efc-5b18-a49
 "again, once more; also, too, as well",また,また,,,ADVERB,,5,,,ecb81156-ea05-44c8-bea0-9e5c199c1c4b,236,2022-08-08
 bye; see you later,またね,またね,,,INTERJECTION,,,,,820e130a-a772-413e-a754-d1a0021bbcf5,237,2022-08-08
 bye; see you,じゃね,じゃあね,じゃね,,INTERJECTION,,,,,82223749-3af6-4348-b0f0-a0addad0ddf2,238,2022-08-08
-"congratulations, well done, best wishes",おめでとう,おめでとう,,,INTERJECTION,,3,,,f64a8d64-a48c-5f1e-b7f0-e9e805646472,239,
+"congratulations, well done, best wishes",おめでとう,おめでとう,,,INTERJECTION,,3,,,f64a8d64-a48c-5f1e-b7f0-e9e805646472,239,2022-08-08
 to persist; to do one's best; to keep at it,頑張る,ばんばる,,頑張る,VERB,GODAN_VERB,,,,a8f00f2e-c5dc-58d6-8225-376fbd35544f,240,2022-08-12
 like,好き,すき,,,ADJECTIVE,NA_ADJECTIVE,5,{DUO_01_02},,dbecb5a9-82dd-5c17-ba84-c7887cf58ce8,241,2022-08-12
 thump-thump; to beat fast,ドキドキ,どきどき,,,ADVERB,,2,,,9723a3d5-9c7a-5674-a377-5d5c1220438d,242,2022-08-12
@@ -343,7 +343,7 @@ Monday,月曜日,げつようび,,月曜日,NOUN,,5,{GENKI3_L04},{time},7e9e71f3
 Tuesday,火曜日,かようび,,火曜日,NOUN,,5,{GENKI3_L04},{time},a7f63c04-eeb1-4cc9-b9e7-93c5aef67195,342,2022-08-10
 Wednesday,水曜日,すいようび,,水曜日,NOUN,,5,{GENKI3_L04},{time},b7290a17-b80a-4663-84b4-fb97c53ac10e,343,2022-08-10
 Thursday,木曜日,もくようび,,木曜日,NOUN,,5,{GENKI3_L04},{time},29385baf-a573-49a4-b4b5-0119dae49df3,344,2022-08-10
-Friday,金曜日,金曜日,,金曜日,NOUN,,5,{GENKI3_L04},{time},1ecc5944-6007-4a9f-8153-41e50842b67a,345,2022-08-10
+Friday,金曜日,きんようび,,金曜日,NOUN,,5,{GENKI3_L04},{time},1ecc5944-6007-4a9f-8153-41e50842b67a,345,2022-08-10
 there exists...,いる,いる,,,VERB,ICHIDAN_VERB,5,{GENKI3_L04},{to_be_verb},8728a06a-1e5b-436b-939a-b1d96a7d9f79,346,2022-08-10
 there is...,ある,ある,,,VERB,GODAN_VERB,5,{GENKI3_L04},{to_be_verb},a4025eed-7054-4b18-b8ce-c90bc7ed6b00,347,2022-08-10
 to meet; to see a person,会う,あう,,会う,VERB,GODAN_VERB,5,{GENKI3_L04},,a7c68ed2-5f08-4411-9030-42347f7d571f,348,2022-08-10

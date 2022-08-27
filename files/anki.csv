@@ -117,7 +117,7 @@ a9b7cffc-2d14-58ae-818b-3ac3b6e6e4d0,which....,どの〜,どの,pronoun,,5,2022-
 93eaf294-a292-5980-b17e-de43755335c9,who,誰,だれ,pronoun,,5,2022-05-30,116,DUO_02_07 GENKI3_L02,pointing-word pronoun duo-02-07 genki3-l02
 f5fce96d-2982-5d7a-b7ce-9dc8914c6ab3,delicious,おいし,おいし,adjective,i adjective,5,2022-05-30,117,GENKI3_L02,food adjective i-adjective genki3-l02
 10a5183d-9b5d-58c7-885f-0210e56c1dca,delicious! (slang),うまい,うまい,adjective,i adjective,,2022-05-30,118,GENKI3_L02,food slang adjective i-adjective genki3-l02
-f7aa023d-a413-562b-bf45-75367462a4b2,fish,魚,魚,noun,,5,2022-05-30,119,DUO_02_01,food noun duo-02-01
+f7aa023d-a413-562b-bf45-75367462a4b2,fish,魚,さかな,noun,,5,2022-05-30,119,DUO_02_01,food noun duo-02-01
 81b8f353-cd1c-53e4-a0f4-1630c490c959,pork cutlet,とんかつ,とんかつ,noun,,,2022-05-30,120,GENKI3_L02,food noun genki3-l02
 e2c0e2f3-891a-55e3-ad28-285669d27287,pork bone (e.g. ramen broth),豚骨,とんこつ,noun,,,2022-05-30,121,GENKI3_L02,food noun genki3-l02
 2dd4acb2-11ca-50c5-b365-c22616ea316d,meat,肉,肉,noun,,5,2022-05-30,122,DUO_02_01 GENKI3_L02,food noun duo-02-01 genki3-l02
@@ -201,7 +201,7 @@ e872c853-3159-56b7-834e-066e364a5782,tonight,今晩,こんばん,noun,,5,2022-07
 1efcd811-18f8-5b64-be29-9f46fbef3286,every morning,毎朝,まいあさ,noun,,5,2022-07-24,200,DUO_02_03,time noun duo-02-03
 9e1ccd85-e76b-559b-9c13-ac2202a04849,every night,毎晩,まいばん,noun,,5,2022-07-24,201,GENKI3_L03,time noun genki3-l03
 788e64aa-46ee-574d-aad9-83c8b56bc40a,weekend,週末,しゅうまつ,noun,,,2022-07-24,202,GENKI3_L03,time noun genki3-l03
-f7d20fe3-57b3-5e6d-85f6-5b54b0ba7088,Saturday,土曜日,土曜日,noun,,5,2022-07-24,203,GENKI3_L03,time noun genki3-l03
+f7d20fe3-57b3-5e6d-85f6-5b54b0ba7088,Saturday,土曜日,どようび,noun,,5,2022-07-24,203,GENKI3_L03,time noun genki3-l03
 61637bb4-cc4a-52be-86fa-7fb678ab6e62,Sunday,日曜日,にちようび,noun,,5,2022-07-24,204,GENKI3_L03,time noun genki3-l03
 f05e2adf-83c4-5ccf-a74a-fbd5664dceb1,when,いつ,いつ,noun,,5,2022-07-24,205,GENKI3_L03,time noun genki3-l03
 50cbf96a-57d3-5f45-b5fc-e415ff57717a,to go,行く,いく,verb,godan verb,5,2022-07-24,206,DUO_02_03 GENKI3_L03,verb godan-verb duo-02-03 genki3-l03
@@ -237,7 +237,7 @@ f5f775ad-523f-5888-b269-fcb13c1c1051,i'm okay; no problem,大丈夫,だいじょ
 ecb81156-ea05-44c8-bea0-9e5c199c1c4b,"again, once more; also, too, as well",また,また,adverb,,5,2022-08-08,236,,adverb
 820e130a-a772-413e-a754-d1a0021bbcf5,bye; see you later,またね,またね,interjection,,,2022-08-08,237,,interjection
 82223749-3af6-4348-b0f0-a0addad0ddf2,bye; see you,じゃね,じゃあね／じゃね,interjection,,,2022-08-08,238,,interjection
-f64a8d64-a48c-5f1e-b7f0-e9e805646472,"congratulations, well done, best wishes",おめでとう,おめでとう,interjection,,3,,239,,interjection
+f64a8d64-a48c-5f1e-b7f0-e9e805646472,"congratulations, well done, best wishes",おめでとう,おめでとう,interjection,,3,2022-08-08,239,,interjection
 a8f00f2e-c5dc-58d6-8225-376fbd35544f,to persist; to do one's best; to keep at it,頑張る,ばんばる,verb,godan verb,,2022-08-12,240,,verb godan-verb
 dbecb5a9-82dd-5c17-ba84-c7887cf58ce8,like,好き,すき,adjective,na adjective,5,2022-08-12,241,DUO_01_02,adjective na-adjective duo-01-02
 9723a3d5-9c7a-5674-a377-5d5c1220438d,thump-thump; to beat fast,ドキドキ,どきどき,adverb,,2,2022-08-12,242,,adverb
@@ -343,7 +343,7 @@ d5575534-34bf-41fc-a7df-2ed647e61a05,yesterday,昨日,きのう,noun,,5,2022-08-
 a7f63c04-eeb1-4cc9-b9e7-93c5aef67195,Tuesday,火曜日,かようび,noun,,5,2022-08-10,342,GENKI3_L04,time noun genki3-l04
 b7290a17-b80a-4663-84b4-fb97c53ac10e,Wednesday,水曜日,すいようび,noun,,5,2022-08-10,343,GENKI3_L04,time noun genki3-l04
 29385baf-a573-49a4-b4b5-0119dae49df3,Thursday,木曜日,もくようび,noun,,5,2022-08-10,344,GENKI3_L04,time noun genki3-l04
-1ecc5944-6007-4a9f-8153-41e50842b67a,Friday,金曜日,金曜日,noun,,5,2022-08-10,345,GENKI3_L04,time noun genki3-l04
+1ecc5944-6007-4a9f-8153-41e50842b67a,Friday,金曜日,きんようび,noun,,5,2022-08-10,345,GENKI3_L04,time noun genki3-l04
 8728a06a-1e5b-436b-939a-b1d96a7d9f79,there exists...,いる,いる,verb,ichidan verb,5,2022-08-10,346,GENKI3_L04,to-be-verb verb ichidan-verb genki3-l04
 a4025eed-7054-4b18-b8ce-c90bc7ed6b00,there is...,ある,ある,verb,godan verb,5,2022-08-10,347,GENKI3_L04,to-be-verb verb godan-verb genki3-l04
 a7c68ed2-5f08-4411-9030-42347f7d571f,to meet; to see a person,会う,あう,verb,godan verb,5,2022-08-10,348,GENKI3_L04,verb godan-verb genki3-l04
