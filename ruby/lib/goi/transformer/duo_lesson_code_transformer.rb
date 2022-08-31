@@ -4,7 +4,7 @@ module Goi
   module Transformer
     class DuoLessonCodeTransformer < BaseTransformer
 
-      LEGACY_DUO_LESSON_CODE_REGEX = /^DUO_(\d+)_(\d+)/
+      LEGACY_DUO_LESSON_CODE_REGEX = /^DUO_(\d+)_(\d+)$/
 
       def transform(linkages:)
         linkages.map do |ln|
