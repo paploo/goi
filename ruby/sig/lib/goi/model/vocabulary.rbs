@@ -1,11 +1,13 @@
 module Goi
   module Model
     module Vocabulary
+
       # Linkages
       #
       # This ties together the various stand-alone
       class Linkages
-        def self.wrap: (Hash[Symbol, untyped] attributes) -> Linkages
+
+        def self.attributes: () -> [Symbol]
 
         def initialize: (vocabulary: Vocabulary vocabulary, preferred_definition: Definition preferred_definition, preferred_spelling: Spelling preferred_spelling, phonetic_spelling: Spelling phonetic_spelling, ?alt_phonetic_spelling: Spelling? alt_phonetic_spelling, ?kanji_spelling: Spelling? kanji_spelling) -> void
 
@@ -21,6 +23,8 @@ module Goi
 
         attr_reader kanji_spelling: Spelling?
 
+        def copy: (**untyped) -> Linkages
+
         private
 
         def links_valid?: () -> bool
@@ -30,9 +34,9 @@ module Goi
       class Vocabulary
         UUID5_NAMESPACE: String
 
-        def self.wrap: (Hash[Symbol, untyped] attributes) -> Vocabulary
-
         def self.create_id: () -> String
+
+        def self.attributes: () -> [Symbol]
 
         def initialize: (?id: String?, word_class_code: String, ?conjugation_kind_code: String?, ?jlpt_level: Integer?, row_num: Integer, date_added: Date?, ?tags: [String], ?lesson_codes: [String]) -> void
 
@@ -52,7 +56,8 @@ module Goi
 
         attr_reader lesson_codes: [String]
 
-        def to_h: () -> { id: String, word_class_code: String, conjugation_kind_code: String?, jlpt_level: Integer?, row_num: Integer, tags: [String], lesson_codes: [String] }
+        def copy: (**untyped) -> Vocabulary
+
       end
 
       # Definition
@@ -61,7 +66,7 @@ module Goi
 
         def self.create_id: (vocabulary_id: String, linkage_field: Symbol) -> String
 
-        def self.wrap: (Hash[Symbol, untyped] attributes) -> Definition
+        def self.attributes: () -> [Symbol]
 
         def initialize: (id: String id, vocabulary_id: String vocabulary_id, value: String value, ?sort_rank: Integer sort_rank) -> void
 
@@ -73,7 +78,8 @@ module Goi
 
         attr_reader sort_rank: Integer
 
-        def to_h: () -> { id: String, vocabulary_id: String, value: String, sort_rank: Integer }
+        def copy: (**untyped) -> Definition
+
       end
 
       # Spelling
@@ -82,7 +88,7 @@ module Goi
 
         def self.create_id: (vocabulary_id: String, linkage_field: Symbol) -> String
 
-        def self.wrap: (Hash[Symbol, untyped] attributes) -> Spelling
+        def self.attributes: () -> [Symbol]
 
         def initialize: (id: String id, vocabulary_id: String vocabulary_id, spelling_kind_code: String spelling_kind_code, value: String value) -> void
 
@@ -94,7 +100,8 @@ module Goi
 
         attr_reader value: String
 
-        def to_h: () -> { id: String, vocabulary_id: String, spelling_kind_code: String, value: String }
+        def copy: (**untyped) -> Spelling
+
       end
     end
   end

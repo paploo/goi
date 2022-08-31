@@ -19,6 +19,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('384f8a23-fb9e-577d-908b-765a83a5aab4', '4c55fd59-1160-52d2-8383-00f292668c1f', 'HIRAGANA', 'こんにちは');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('4c55fd59-1160-52d2-8383-00f292668c1f', '70ec6aaa-36a9-5e1b-9807-c3bdfe9f433f', '604ea9ca-2a13-5b91-a382-499b4ca0e032', '384f8a23-fb9e-577d-908b-765a83a5aab4', NULL, NULL);
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('4c55fd59-1160-52d2-8383-00f292668c1f', 'DUO_01_02');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('4c55fd59-1160-52d2-8383-00f292668c1f', 'DUO_U01');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('4c55fd59-1160-52d2-8383-00f292668c1f', 'GENKI3_L00');
 -- こんばんは | Good evening --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('8d46e404-38ff-518c-a25d-cb95d6f2c511', 'EXPRESSION', NULL, 2, 4, '{greeting}', '2022-04-24');
@@ -34,6 +35,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('119c5309-1e88-5096-a4c7-a9cfca2afc89', '1184380a-27db-5f8e-841d-7b105c2a7366', 'HIRAGANA', 'さようなら');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('1184380a-27db-5f8e-841d-7b105c2a7366', 'e9fad67a-69c8-56d7-acc9-a1452986fa56', '4c463b7b-b4c4-529c-9c6f-66be293f5072', '119c5309-1e88-5096-a4c7-a9cfca2afc89', NULL, NULL);
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('1184380a-27db-5f8e-841d-7b105c2a7366', 'DUO_01_02');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('1184380a-27db-5f8e-841d-7b105c2a7366', 'DUO_U01');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('1184380a-27db-5f8e-841d-7b105c2a7366', 'GENKI3_L00');
 -- おやすみ | Goodnight --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('3ecfb07b-0a66-555c-97c4-5af7cb806507', 'EXPRESSION', NULL, 2, 6, '{greeting}', '2022-04-24');
@@ -148,6 +150,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('24acf78c-13ad-514c-845f-44742996453b', 'd43cc787-37af-5dd1-92b5-fc756f18298a', 'KANJI', '大学');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('d43cc787-37af-5dd1-92b5-fc756f18298a', '675778cc-ee97-5655-a9f2-b59e573c7c80', '84318d00-af9c-5558-9f64-59264f347a24', 'dcbd9b62-71be-53e8-be5b-290789559267', NULL, '24acf78c-13ad-514c-845f-44742996453b');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('d43cc787-37af-5dd1-92b5-fc756f18298a', 'DUO_02_05');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('d43cc787-37af-5dd1-92b5-fc756f18298a', 'DUO_U08');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('d43cc787-37af-5dd1-92b5-fc756f18298a', 'GENKI3_L01');
 -- 高校 | high school --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('3c890a54-15f9-56e1-9bd5-3c91274b6246', 'NOUN', NULL, 4, 21, '{place,school}', '2022-04-24');
@@ -157,6 +160,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('a4483db0-e567-5cd1-88b0-f9a47d273aa5', '3c890a54-15f9-56e1-9bd5-3c91274b6246', 'KANJI', '高校');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('3c890a54-15f9-56e1-9bd5-3c91274b6246', '087dba10-cab8-5bac-8648-62625261a1a2', '12ab0194-8009-5072-a6f5-971bf3ada176', '3ad75bcc-08ea-5879-85e8-f37672bb1ecc', NULL, 'a4483db0-e567-5cd1-88b0-f9a47d273aa5');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('3c890a54-15f9-56e1-9bd5-3c91274b6246', 'DUO_02_05');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('3c890a54-15f9-56e1-9bd5-3c91274b6246', 'DUO_U08');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('3c890a54-15f9-56e1-9bd5-3c91274b6246', 'GENKI3_L01');
 -- 学生 | student --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('6de86986-05ed-58da-a055-9d49c89f7a06', 'NOUN', NULL, 5, 22, '{school}', '2022-04-24');
@@ -174,6 +178,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('199a5eb4-55ed-5805-97f8-5cee8f61e232', 'd1cb9e5b-6cc5-5339-b33d-4e948229156e', 'KANJI', '大学生');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('d1cb9e5b-6cc5-5339-b33d-4e948229156e', 'b56535be-d189-5dfa-b940-7e213aec4397', 'c9a38e56-4e89-5053-b874-b62c7f1bc4f3', '41767f12-968d-515d-8127-7afedd99e0fd', NULL, '199a5eb4-55ed-5805-97f8-5cee8f61e232');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('d1cb9e5b-6cc5-5339-b33d-4e948229156e', 'DUO_02_05');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('d1cb9e5b-6cc5-5339-b33d-4e948229156e', 'DUO_U08');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('d1cb9e5b-6cc5-5339-b33d-4e948229156e', 'GENKI3_L01');
 -- 留学生 | international student; foreign exchange student --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('efe5fea4-0476-5328-bd18-2a469a8b6c3e', 'NOUN', NULL, 5, 24, '{school}', '2022-04-24');
@@ -183,6 +188,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('3b66f913-98df-51f4-b2c2-46a4cb254725', 'efe5fea4-0476-5328-bd18-2a469a8b6c3e', 'KANJI', '留学生');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('efe5fea4-0476-5328-bd18-2a469a8b6c3e', 'a61a02da-0fac-5a7b-be79-fdc870361426', '43835f7a-0c7c-5451-a45a-976b27b0414d', '80335d91-b032-5a73-aabc-5932e1b1e8d5', NULL, '3b66f913-98df-51f4-b2c2-46a4cb254725');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('efe5fea4-0476-5328-bd18-2a469a8b6c3e', 'DUO_02_05');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('efe5fea4-0476-5328-bd18-2a469a8b6c3e', 'DUO_U08');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('efe5fea4-0476-5328-bd18-2a469a8b6c3e', 'GENKI3_L01');
 -- 先生 | teacher; professor --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('c21b42a5-1ef1-51cf-9402-199d2b562a47', 'NOUN', NULL, 5, 25, '{school}', '2022-04-24');
@@ -200,6 +206,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('dc42a680-aba7-5ae7-9e8f-88061ed4466f', '057a7cd1-f1a6-50e2-8449-3b6f04c67305', 'KANJI', '〜年生');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('057a7cd1-f1a6-50e2-8449-3b6f04c67305', 'af05748d-e186-5a5f-8dab-e2c217d7e6f5', 'd62c305c-34a9-5945-bf4d-cafae51a2dd6', 'f5335306-2599-5286-bf75-cd3c6d03262e', NULL, 'dc42a680-aba7-5ae7-9e8f-88061ed4466f');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('057a7cd1-f1a6-50e2-8449-3b6f04c67305', 'DUO_02_05');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('057a7cd1-f1a6-50e2-8449-3b6f04c67305', 'DUO_U08');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('057a7cd1-f1a6-50e2-8449-3b6f04c67305', 'GENKI3_L01');
 -- 専攻 | major --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('e71aac30-c949-5b47-b118-d02a5d703701', 'NOUN', NULL, 3, 27, '{school}', '2022-04-24');
@@ -217,6 +224,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('c9cab72b-2b19-5729-ace9-484ab1f4f7a1', '4b1d8b7f-6477-5881-9439-1a7f30b26c9d', 'KANJI', '私');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('4b1d8b7f-6477-5881-9439-1a7f30b26c9d', '7272203b-4682-5a21-a2ae-184df9aaf700', '7dfb31b4-ea80-5f87-927e-8c7f65b9fc4d', '71cb9bf5-8b66-5fe9-b0ed-046a6287a9dc', NULL, 'c9cab72b-2b19-5729-ace9-484ab1f4f7a1');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('4b1d8b7f-6477-5881-9439-1a7f30b26c9d', 'DUO_01_02');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('4b1d8b7f-6477-5881-9439-1a7f30b26c9d', 'DUO_U01');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('4b1d8b7f-6477-5881-9439-1a7f30b26c9d', 'GENKI3_L01');
 -- 友達 | friend --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('f65b93fb-1086-5405-8163-394db3e83014', 'NOUN', NULL, 5, 29, '{person}', '2022-04-24');
@@ -249,6 +257,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('fa499118-32ec-5452-848b-9407382b9d7b', '146b7705-d9cd-511f-988c-5b2cc7661b75', 'KANJI', '勿論');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('146b7705-d9cd-511f-988c-5b2cc7661b75', 'f38e45fd-deb3-58bb-98a7-ded4749a33af', 'bcf591d5-c9a8-5068-a41d-705df7f88ec8', '07e74719-21ed-5867-9be5-1035707cb0d3', NULL, 'fa499118-32ec-5452-848b-9407382b9d7b');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('146b7705-d9cd-511f-988c-5b2cc7661b75', 'DUO_02_03');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('146b7705-d9cd-511f-988c-5b2cc7661b75', 'DUO_U07');
 -- 会社 | office --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('8bedfb60-1599-58b0-9568-5e72b8cf6b7e', 'NOUN', NULL, 5, 33, '{place}', '2022-04-24');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('2f1c2bfe-00ae-5e85-8066-7594b35a3a3f', '8bedfb60-1599-58b0-9568-5e72b8cf6b7e', 1, 'office');
@@ -257,6 +266,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('6640bacc-739f-56db-b841-e774ee1112ea', '8bedfb60-1599-58b0-9568-5e72b8cf6b7e', 'KANJI', '会社');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('8bedfb60-1599-58b0-9568-5e72b8cf6b7e', '2f1c2bfe-00ae-5e85-8066-7594b35a3a3f', '0d59ad82-f6e4-58f1-9da1-e2413ad77adc', 'bf11daff-0feb-5439-ad72-fface8f07495', NULL, '6640bacc-739f-56db-b841-e774ee1112ea');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('8bedfb60-1599-58b0-9568-5e72b8cf6b7e', 'DUO_02_03');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('8bedfb60-1599-58b0-9568-5e72b8cf6b7e', 'DUO_U07');
 -- 学校 | school --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('25f93b07-dc04-553a-8794-329cc907dbe5', 'NOUN', NULL, 5, 34, '{place,school}', '2022-04-24');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('5ac409a2-6d7e-5427-9ce4-11e8b46e49cd', '25f93b07-dc04-553a-8794-329cc907dbe5', 1, 'school');
@@ -265,6 +275,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('a36b5da5-f21a-56ec-9fec-64a501ee212b', '25f93b07-dc04-553a-8794-329cc907dbe5', 'KANJI', '学校');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('25f93b07-dc04-553a-8794-329cc907dbe5', '5ac409a2-6d7e-5427-9ce4-11e8b46e49cd', 'e4928e97-24e2-59a3-877f-124e0f5debfd', 'e5fe8a48-9a94-5c5d-a7fb-3b907b0ba6df', NULL, 'a36b5da5-f21a-56ec-9fec-64a501ee212b');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('25f93b07-dc04-553a-8794-329cc907dbe5', 'DUO_02_03');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('25f93b07-dc04-553a-8794-329cc907dbe5', 'DUO_U07');
 -- 小学 | elementary school --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('37eba762-70cf-5c5c-b689-621f26c1ee5f', 'NOUN', NULL, NULL, 35, '{place,school}', '2022-04-24');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('e7af570c-e9da-5e71-992e-a47e2db24d85', '37eba762-70cf-5c5c-b689-621f26c1ee5f', 1, 'elementary school');
@@ -273,6 +284,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('dda927ba-87e1-51cf-a97c-c4ead82cfca2', '37eba762-70cf-5c5c-b689-621f26c1ee5f', 'KANJI', '小学');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('37eba762-70cf-5c5c-b689-621f26c1ee5f', 'e7af570c-e9da-5e71-992e-a47e2db24d85', '1345829c-c4d2-5252-9a6b-4e27da187408', 'a75963f9-58cb-56b4-bfee-a051eeeae612', NULL, 'dda927ba-87e1-51cf-a97c-c4ead82cfca2');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('37eba762-70cf-5c5c-b689-621f26c1ee5f', 'DUO_02_05');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('37eba762-70cf-5c5c-b689-621f26c1ee5f', 'DUO_U08');
 -- 中学 | middle school --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('99cdf9f9-df8c-5d7a-9ea1-a7c003c9f289', 'NOUN', NULL, 3, 36, '{place,school}', '2022-04-24');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('8bc5bca4-cc36-56a2-8682-ef6a791babff', '99cdf9f9-df8c-5d7a-9ea1-a7c003c9f289', 1, 'middle school');
@@ -281,6 +293,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('5f87a9f8-891e-5733-8066-e178d13d6662', '99cdf9f9-df8c-5d7a-9ea1-a7c003c9f289', 'KANJI', '中学');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('99cdf9f9-df8c-5d7a-9ea1-a7c003c9f289', '8bc5bca4-cc36-56a2-8682-ef6a791babff', '634704fb-2f52-5493-9b3a-3c1697818d5c', 'd403ffde-dcf5-5734-ac79-e8d4fe7bc330', NULL, '5f87a9f8-891e-5733-8066-e178d13d6662');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('99cdf9f9-df8c-5d7a-9ea1-a7c003c9f289', 'DUO_02_05');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('99cdf9f9-df8c-5d7a-9ea1-a7c003c9f289', 'DUO_U08');
 -- 外国人 | foreigner --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('947e6f87-e4fe-5b27-9bd3-215e8b1fc71a', 'NOUN', NULL, 5, 37, '{person}', '2022-04-24');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('179182a2-bb92-5adb-8d90-0c40ba2b7a0a', '947e6f87-e4fe-5b27-9bd3-215e8b1fc71a', 1, 'foreigner');
@@ -289,6 +302,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('e4e4037b-f5a8-53b6-8268-29aa31232769', '947e6f87-e4fe-5b27-9bd3-215e8b1fc71a', 'KANJI', '外国人');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('947e6f87-e4fe-5b27-9bd3-215e8b1fc71a', '179182a2-bb92-5adb-8d90-0c40ba2b7a0a', 'b08af4aa-bcb9-5aa5-ae08-3f09e1c0735c', 'fb37f79e-a0af-5650-ace6-c6be543b2235', NULL, 'e4e4037b-f5a8-53b6-8268-29aa31232769');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('947e6f87-e4fe-5b27-9bd3-215e8b1fc71a', 'DUO_02_05');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('947e6f87-e4fe-5b27-9bd3-215e8b1fc71a', 'DUO_U08');
 -- 住む | to live; to reside; to inhabit --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('dd191fac-e29b-5262-b2a6-f9f2875a4a3f', 'VERB', 'GODAN_VERB', 5, 38, '{}', '2022-04-24');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('d97da3d2-a109-55ce-93d6-9964bd269d86', 'dd191fac-e29b-5262-b2a6-f9f2875a4a3f', 1, 'to live; to reside; to inhabit');
@@ -297,6 +311,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('3a9827c6-6946-59d0-8907-9054f3ec9ac1', 'dd191fac-e29b-5262-b2a6-f9f2875a4a3f', 'KANJI', '住む');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('dd191fac-e29b-5262-b2a6-f9f2875a4a3f', 'd97da3d2-a109-55ce-93d6-9964bd269d86', 'cbab8b4b-1ea7-5b14-9a6a-2e36ba711d45', '29424b09-2905-5b05-bc36-27ac2e9a595e', NULL, '3a9827c6-6946-59d0-8907-9054f3ec9ac1');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('dd191fac-e29b-5262-b2a6-f9f2875a4a3f', 'DUO_02_05');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('dd191fac-e29b-5262-b2a6-f9f2875a4a3f', 'DUO_U08');
 -- 京都 | Kyoto --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('fc82f2ac-3b17-582f-9259-7200e1430824', 'PROPER_NOUN', NULL, NULL, 39, '{city,place}', '2022-04-24');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('22879ac5-9111-51a8-98d1-a9a1a6f7b1b6', 'fc82f2ac-3b17-582f-9259-7200e1430824', 1, 'Kyoto');
@@ -305,6 +320,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('f495b870-9f97-5dc4-806d-c39dae605e4b', 'fc82f2ac-3b17-582f-9259-7200e1430824', 'KANJI', '京都');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('fc82f2ac-3b17-582f-9259-7200e1430824', '22879ac5-9111-51a8-98d1-a9a1a6f7b1b6', '72bdb2c9-db1d-57b4-8f83-a493e12eff43', '58fb3871-e7d4-50f1-a9bb-706cdba7c0dc', NULL, 'f495b870-9f97-5dc4-806d-c39dae605e4b');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('fc82f2ac-3b17-582f-9259-7200e1430824', 'DUO_02_05');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('fc82f2ac-3b17-582f-9259-7200e1430824', 'DUO_U08');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('fc82f2ac-3b17-582f-9259-7200e1430824', 'GENKI3_L03');
 -- 大阪 | Osaka --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('15c5fee6-dda7-5d40-b7fd-382d97a28b9c', 'PROPER_NOUN', NULL, NULL, 40, '{city,place}', '2022-04-24');
@@ -314,6 +330,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('334db642-aafe-590d-af62-2c58e4d660a2', '15c5fee6-dda7-5d40-b7fd-382d97a28b9c', 'KANJI', '大阪');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('15c5fee6-dda7-5d40-b7fd-382d97a28b9c', '2b7975f2-316a-5940-b731-2ad6ef17d87b', '7a98604b-6149-5cc8-89cd-e160022182db', 'ea3f379f-285e-5755-a454-8dce105af33c', NULL, '334db642-aafe-590d-af62-2c58e4d660a2');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('15c5fee6-dda7-5d40-b7fd-382d97a28b9c', 'DUO_02_05');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('15c5fee6-dda7-5d40-b7fd-382d97a28b9c', 'DUO_U08');
 -- 東京 | Tokyo --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('39458010-a5eb-5b13-b054-4cc458702c56', 'PROPER_NOUN', NULL, NULL, 41, '{city,place}', '2022-04-24');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('9cb5a01e-e62c-547e-857a-3684e0dc1f9e', '39458010-a5eb-5b13-b054-4cc458702c56', 1, 'Tokyo');
@@ -322,6 +339,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('fda9564c-dc64-55d3-93d7-8c3116c6a4eb', '39458010-a5eb-5b13-b054-4cc458702c56', 'KANJI', '東京');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('39458010-a5eb-5b13-b054-4cc458702c56', '9cb5a01e-e62c-547e-857a-3684e0dc1f9e', '4218953c-665b-5614-a876-c5f58932d3fa', 'dbf2195a-113d-5ac9-9006-bd5246bc6e38', NULL, 'fda9564c-dc64-55d3-93d7-8c3116c6a4eb');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('39458010-a5eb-5b13-b054-4cc458702c56', 'DUO_02_05');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('39458010-a5eb-5b13-b054-4cc458702c56', 'DUO_U08');
 -- 申す | to say; to be called; name --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('091d6d9c-5d19-51f5-bc28-3b5281042464', 'VERB', 'GODAN_VERB', 4, 42, '{}', '2022-04-24');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('f450b73b-b1ea-5424-a37d-c31a7abd34f9', '091d6d9c-5d19-51f5-bc28-3b5281042464', 1, 'to say; to be called; name');
@@ -330,6 +348,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('23e16be7-3b0d-5bbf-aa2f-22ef37e23630', '091d6d9c-5d19-51f5-bc28-3b5281042464', 'KANJI', '申す');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('091d6d9c-5d19-51f5-bc28-3b5281042464', 'f450b73b-b1ea-5424-a37d-c31a7abd34f9', 'a1e63cf9-a452-5306-9351-c5a08786d525', '62be684a-2cf3-5ba6-8cc9-e8732d43a325', NULL, '23e16be7-3b0d-5bbf-aa2f-22ef37e23630');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('091d6d9c-5d19-51f5-bc28-3b5281042464', 'DUO_02_05');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('091d6d9c-5d19-51f5-bc28-3b5281042464', 'DUO_U08');
 -- 違う | to differ, to disagree; to be wrong --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('b7d078d1-235f-4462-b052-453aa5f6dfcf', 'VERB', 'GODAN_VERB', 5, 43, '{}', '2022-08-10');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('0abfb734-68cb-55cd-9e56-6e222bf9d4f7', 'b7d078d1-235f-4462-b052-453aa5f6dfcf', 1, 'to differ, to disagree; to be wrong');
@@ -345,6 +364,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('eac79d53-8e30-5d62-88f8-cbe7bcf955f9', '6e44df4a-4366-5c1a-86af-87a4e5f61fc6', 'KANJI', '違います');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('6e44df4a-4366-5c1a-86af-87a4e5f61fc6', 'bcbeadc9-18d4-5cc4-a6df-1f189e75077e', 'ee161c1e-ffc9-5ad7-8e11-d8992a2c37a9', 'ed8a8306-08d3-5dc1-8cdf-6d119bee1db6', NULL, 'eac79d53-8e30-5d62-88f8-cbe7bcf955f9');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('6e44df4a-4366-5c1a-86af-87a4e5f61fc6', 'DUO_02_05');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('6e44df4a-4366-5c1a-86af-87a4e5f61fc6', 'DUO_U08');
 -- 違いは何ですか | What is the difference? --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('7748dd60-2126-5e30-a5b6-39596a0e25e4', 'EXPRESSION', NULL, NULL, 45, '{}', '2022-04-24');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('224783bc-4284-5d6e-a5a4-64fc24780f77', '7748dd60-2126-5e30-a5b6-39596a0e25e4', 1, 'What is the difference?');
@@ -353,6 +373,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('751af121-5a1d-52e0-b68a-9f6decce21e8', '7748dd60-2126-5e30-a5b6-39596a0e25e4', 'KANJI', '違いは何ですか');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('7748dd60-2126-5e30-a5b6-39596a0e25e4', '224783bc-4284-5d6e-a5a4-64fc24780f77', 'ef3245e7-cb38-5010-8a7e-8abe854b55d2', '4c6029af-f588-5cce-b586-0f1545d5e63d', NULL, '751af121-5a1d-52e0-b68a-9f6decce21e8');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('7748dd60-2126-5e30-a5b6-39596a0e25e4', 'DUO_02_05');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('7748dd60-2126-5e30-a5b6-39596a0e25e4', 'DUO_U08');
 -- 今 | Now --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('dce3fe6a-497c-54b2-a121-df6767084258', 'NOUN', NULL, 5, 46, '{time}', '2022-04-24');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('e245f70f-ea23-59c5-9070-2419deec3104', 'dce3fe6a-497c-54b2-a121-df6767084258', 1, 'Now');
@@ -361,6 +382,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('d6a34dbd-5665-59d8-8a36-e54b02c994e7', 'dce3fe6a-497c-54b2-a121-df6767084258', 'KANJI', '今');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('dce3fe6a-497c-54b2-a121-df6767084258', 'e245f70f-ea23-59c5-9070-2419deec3104', 'd75ed4c1-f752-5bb1-9502-cd2247464bb9', 'b755f3aa-72e8-5cf1-bfb5-1be674ef6cb1', NULL, 'd6a34dbd-5665-59d8-8a36-e54b02c994e7');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('dce3fe6a-497c-54b2-a121-df6767084258', 'DUO_02_02');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('dce3fe6a-497c-54b2-a121-df6767084258', 'DUO_U06');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('dce3fe6a-497c-54b2-a121-df6767084258', 'GENKI3_L01');
 -- 午前 | A.M. --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('42ffdbae-c27d-53a4-b113-95583953e16c', 'NOUN', NULL, 5, 47, '{time}', '2022-04-24');
@@ -370,6 +392,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('70d9d1cc-4810-5fef-acfb-015b8ea06e1d', '42ffdbae-c27d-53a4-b113-95583953e16c', 'KANJI', '午前');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('42ffdbae-c27d-53a4-b113-95583953e16c', '34e25082-30e4-5bcc-b102-e06a55c72b2e', '0c620dfa-251d-5ca8-b702-c61cbae6ca2f', '7a7c00a4-e50d-5d0c-9ad2-7c92f85dc4c7', NULL, '70d9d1cc-4810-5fef-acfb-015b8ea06e1d');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('42ffdbae-c27d-53a4-b113-95583953e16c', 'DUO_02_03');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('42ffdbae-c27d-53a4-b113-95583953e16c', 'DUO_U07');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('42ffdbae-c27d-53a4-b113-95583953e16c', 'GENKI3_L01');
 -- 午後 | P.M. --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('94611381-0488-58aa-8cf2-12ad9ff4e2dd', 'NOUN', NULL, 5, 48, '{time}', '2022-04-24');
@@ -379,6 +402,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('7021f41f-4fda-5183-a7c1-d7135e7a7d90', '94611381-0488-58aa-8cf2-12ad9ff4e2dd', 'KANJI', '午後');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('94611381-0488-58aa-8cf2-12ad9ff4e2dd', '58ed18c5-e537-5ec8-a4f3-60e26c8f3ad2', '26e758fa-c6eb-5e1b-ae8d-08bf84503fbe', 'f11fd478-13c8-5a41-afad-849c63bf211d', NULL, '7021f41f-4fda-5183-a7c1-d7135e7a7d90');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('94611381-0488-58aa-8cf2-12ad9ff4e2dd', 'DUO_02_03');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('94611381-0488-58aa-8cf2-12ad9ff4e2dd', 'DUO_U07');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('94611381-0488-58aa-8cf2-12ad9ff4e2dd', 'GENKI3_L01');
 -- 〜時 | ...o'clock --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('40502e18-b4ba-50b4-89b7-23fd3b4d4a21', 'SUFFIX', NULL, NULL, 49, '{time}', '2022-04-24');
@@ -388,6 +412,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('fcefca7c-8ba0-562a-8670-40196c80c912', '40502e18-b4ba-50b4-89b7-23fd3b4d4a21', 'KANJI', '〜時');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('40502e18-b4ba-50b4-89b7-23fd3b4d4a21', '91620f9e-a77a-5b08-9178-3aefc9330c68', '102eaf6a-41aa-59bf-85b0-4fc96dfe7b02', '0b1250d9-3605-51a2-9b61-6a1b523956c9', NULL, 'fcefca7c-8ba0-562a-8670-40196c80c912');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('40502e18-b4ba-50b4-89b7-23fd3b4d4a21', 'DUO_02_02');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('40502e18-b4ba-50b4-89b7-23fd3b4d4a21', 'DUO_U06');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('40502e18-b4ba-50b4-89b7-23fd3b4d4a21', 'GENKI3_L01');
 -- 半 | half; half-past --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('5372b023-b803-551c-9a7f-f404804f63f1', 'NOUN', NULL, 5, 50, '{time}', '2022-04-24');
@@ -397,6 +422,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('a32348c2-e293-5005-8ab6-1fc41e744e6a', '5372b023-b803-551c-9a7f-f404804f63f1', 'KANJI', '半');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('5372b023-b803-551c-9a7f-f404804f63f1', '90481c8a-5b9b-5482-bca1-5c1ba6ade244', '37bd4f3b-5c55-5250-96a8-eadc56df5b93', '1a9ef59c-1876-53a3-a358-e038b47d3955', NULL, 'a32348c2-e293-5005-8ab6-1fc41e744e6a');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('5372b023-b803-551c-9a7f-f404804f63f1', 'DUO_02_02');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('5372b023-b803-551c-9a7f-f404804f63f1', 'DUO_U06');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('5372b023-b803-551c-9a7f-f404804f63f1', 'GENKI3_L01');
 -- ~分 | minute, arcminutes --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('2cf1d32f-b261-5ba6-829c-a9f1237a88d6', 'NOUN', NULL, 1, 51, '{time}', '2022-04-24');
@@ -407,6 +433,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('968b1468-e28a-5df4-8f6f-92f4908852e1', '2cf1d32f-b261-5ba6-829c-a9f1237a88d6', 'KANJI', '~分');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('2cf1d32f-b261-5ba6-829c-a9f1237a88d6', 'fc8e30ae-1ef2-5b2f-b799-b128aa9d6b8e', 'daa84374-4c99-53dd-bb22-2201b09b2529', 'decf2be8-640b-54aa-8b74-516a49e8e740', 'c6dd7210-a7bc-59cf-a570-55c191db5c83', '968b1468-e28a-5df4-8f6f-92f4908852e1');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('2cf1d32f-b261-5ba6-829c-a9f1237a88d6', 'DUO_02_02');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('2cf1d32f-b261-5ba6-829c-a9f1237a88d6', 'DUO_U06');
 -- 分 | part, portion, share --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('db9793c1-8b7c-481c-bc77-6d36eb4afb30', 'NOUN', NULL, 3, 52, '{}', '2022-08-09');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('0ead0488-83b8-571f-89e6-a64f932f845a', 'db9793c1-8b7c-481c-bc77-6d36eb4afb30', 1, 'part, portion, share');
@@ -422,6 +449,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('ead618a5-4a3c-5f13-be94-59a08fa65ab5', 'a39e794c-9682-5cd5-9c5e-dd961aa92bc5', 'KANJI', '頃');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('a39e794c-9682-5cd5-9c5e-dd961aa92bc5', '314a1e72-ae6b-51cf-b8cb-9ace3e575f02', 'a16048d0-d2e9-57aa-a3f0-b15adae3bd95', '73f2fd59-8226-52ef-9485-62cf1b84274f', NULL, 'ead618a5-4a3c-5f13-be94-59a08fa65ab5');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('a39e794c-9682-5cd5-9c5e-dd961aa92bc5', 'DUO_02_03');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('a39e794c-9682-5cd5-9c5e-dd961aa92bc5', 'DUO_U07');
 -- ちょうど | exactly --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('9e67a677-9058-536e-85d6-389ea5138c86', 'NOUN', NULL, 5, 54, '{time}', '2022-04-24');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('757b166c-0216-5b01-910c-b53632eb27c4', '9e67a677-9058-536e-85d6-389ea5138c86', 1, 'exactly');
@@ -430,6 +458,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('c56b4146-307d-591d-b061-2fd6c3870bfd', '9e67a677-9058-536e-85d6-389ea5138c86', 'KANJI', '丁度');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('9e67a677-9058-536e-85d6-389ea5138c86', '757b166c-0216-5b01-910c-b53632eb27c4', '012b4629-9da1-58d6-a554-39232e243ec3', 'c36c78cc-daf3-57f8-9e90-c5261fe34a5b', NULL, 'c56b4146-307d-591d-b061-2fd6c3870bfd');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('9e67a677-9058-536e-85d6-389ea5138c86', 'DUO_02_02');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('9e67a677-9058-536e-85d6-389ea5138c86', 'DUO_U06');
 -- 零 | zero --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('252852aa-aefd-504b-b671-668a33020492', 'NOUN', NULL, 5, 55, '{number,time}', '2022-04-24');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('c960851c-dc10-51ae-bd83-8f1578b39686', '252852aa-aefd-504b-b671-668a33020492', 1, 'zero');
@@ -438,6 +467,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('2c1e4740-dd0f-5628-aecd-a4b5224e5f11', '252852aa-aefd-504b-b671-668a33020492', 'KANJI', '零');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('252852aa-aefd-504b-b671-668a33020492', 'c960851c-dc10-51ae-bd83-8f1578b39686', 'a757666c-9857-5976-b5e4-cc900d9fe321', 'eb30e610-1f96-5454-8e6c-fe7d422f8a81', NULL, '2c1e4740-dd0f-5628-aecd-a4b5224e5f11');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('252852aa-aefd-504b-b671-668a33020492', 'DUO_02_03');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('252852aa-aefd-504b-b671-668a33020492', 'DUO_U07');
 -- 日本 | Japan --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('cc6a4913-6f39-521b-a0cf-9631f640800e', 'PROPER_NOUN', NULL, 3, 56, '{country,place}', '2022-04-24');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('c85faeda-d991-5afd-bf9c-d27c4a946dc3', 'cc6a4913-6f39-521b-a0cf-9631f640800e', 1, 'Japan');
@@ -477,6 +507,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('19861d2e-8761-53be-bb53-98a3e165a930', '1731f988-dcfb-5b31-bda9-c8988a5711bf', 'KANJI', '電話');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('1731f988-dcfb-5b31-bda9-c8988a5711bf', 'cd715817-45dc-5d6b-9f20-39f9fadb9e54', 'd6538c52-0d3a-5c30-a5b3-483040ecb63b', '31e67484-420b-518f-93b6-db4e772e079c', NULL, '19861d2e-8761-53be-bb53-98a3e165a930');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('1731f988-dcfb-5b31-bda9-c8988a5711bf', 'DUO_01_04');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('1731f988-dcfb-5b31-bda9-c8988a5711bf', 'DUO_U02');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('1731f988-dcfb-5b31-bda9-c8988a5711bf', 'GENKI3_L01');
 -- 〜番 | number (in a series) --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('f6524cfb-fa66-56ae-ae4c-0e38a8b6e54c', 'NOUN', NULL, 3, 61, '{}', '2022-04-24');
@@ -762,6 +793,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('8529ffb1-ff62-5937-815e-efcdc09a9697', 'd7a063c8-998c-50a3-825c-86f896a5a0c7', 'KANJI', 'お父さん');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('d7a063c8-998c-50a3-825c-86f896a5a0c7', 'a3c2375c-5fb8-5e78-865f-dda2e326489d', '67046ec7-b773-5b58-a65d-a23b65757262', 'a89f5c6d-b85e-5d7d-8703-bd8db3df145c', NULL, '8529ffb1-ff62-5937-815e-efcdc09a9697');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('d7a063c8-998c-50a3-825c-86f896a5a0c7', 'DUO_02_07');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('d7a063c8-998c-50a3-825c-86f896a5a0c7', 'DUO_U09');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('d7a063c8-998c-50a3-825c-86f896a5a0c7', 'GENKI3_L01');
 -- お姉さん | older sister --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('e09e6607-0754-53e7-ac90-7d5eec6a3442', 'NOUN', NULL, 5, 98, '{family}', '2022-04-24');
@@ -771,6 +803,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('7ffa880d-c36a-5695-8fe3-b02c35a718a0', 'e09e6607-0754-53e7-ac90-7d5eec6a3442', 'KANJI', 'お姉さん');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('e09e6607-0754-53e7-ac90-7d5eec6a3442', 'a56171a6-d08c-53b6-ab4d-6eff83c8640f', 'fc9e1f35-d910-5d4c-b19b-e6e54eff0075', 'a601f2e1-a32c-5bce-9c42-258f01403fcd', NULL, '7ffa880d-c36a-5695-8fe3-b02c35a718a0');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('e09e6607-0754-53e7-ac90-7d5eec6a3442', 'DUO_02_07');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('e09e6607-0754-53e7-ac90-7d5eec6a3442', 'DUO_U09');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('e09e6607-0754-53e7-ac90-7d5eec6a3442', 'GENKI3_L01');
 -- お兄さん | older brother --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('942ce296-4fdd-5a7d-9c2c-53d4c2ae2de7', 'NOUN', NULL, 5, 99, '{family}', '2022-04-24');
@@ -780,6 +813,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('271c83b2-fc7e-56c5-bc4b-bfb3090ad7ca', '942ce296-4fdd-5a7d-9c2c-53d4c2ae2de7', 'KANJI', 'お兄さん');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('942ce296-4fdd-5a7d-9c2c-53d4c2ae2de7', '8c80fdad-7f7e-580d-a9bf-0e21c8bc6532', 'eb6eb73a-df5a-5d45-9d15-f54d55acd205', '0805cc5b-ba34-5149-8399-2dfd0262e316', NULL, '271c83b2-fc7e-56c5-bc4b-bfb3090ad7ca');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('942ce296-4fdd-5a7d-9c2c-53d4c2ae2de7', 'DUO_02_07');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('942ce296-4fdd-5a7d-9c2c-53d4c2ae2de7', 'DUO_U09');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('942ce296-4fdd-5a7d-9c2c-53d4c2ae2de7', 'GENKI3_L01');
 -- 妹 | younger sister --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('d4387364-3f1c-51be-9762-ddf41f844fb7', 'NOUN', NULL, 5, 100, '{family}', '2022-04-24');
@@ -789,6 +823,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('9f947229-d878-5f11-a54a-4b4b6fe924ec', 'd4387364-3f1c-51be-9762-ddf41f844fb7', 'KANJI', '妹');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('d4387364-3f1c-51be-9762-ddf41f844fb7', '8d4312b2-9816-5e25-8a95-11328473c1c0', 'ae689b19-e482-5a39-98e9-f858d9bf1db7', '68c29c9b-ef7b-56f3-b567-83b17dad782b', NULL, '9f947229-d878-5f11-a54a-4b4b6fe924ec');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('d4387364-3f1c-51be-9762-ddf41f844fb7', 'DUO_02_07');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('d4387364-3f1c-51be-9762-ddf41f844fb7', 'DUO_U09');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('d4387364-3f1c-51be-9762-ddf41f844fb7', 'GENKI3_L01');
 -- 弟 | younger brother --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('acc5e753-294b-571f-9ee7-a7cd6eeea235', 'NOUN', NULL, 5, 101, '{family}', '2022-04-24');
@@ -798,6 +833,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('ec4e6541-bb87-509a-9fd4-8ac6def52823', 'acc5e753-294b-571f-9ee7-a7cd6eeea235', 'KANJI', '弟');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('acc5e753-294b-571f-9ee7-a7cd6eeea235', 'c5eaf449-845b-53cf-84b2-126091bbd86c', 'bdb99ac0-3de9-5dd2-90a2-a8b80d5bd723', '61044b2e-c8bf-577f-aad3-7b6a1de8a2e4', NULL, 'ec4e6541-bb87-509a-9fd4-8ac6def52823');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('acc5e753-294b-571f-9ee7-a7cd6eeea235', 'DUO_02_07');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('acc5e753-294b-571f-9ee7-a7cd6eeea235', 'DUO_U09');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('acc5e753-294b-571f-9ee7-a7cd6eeea235', 'GENKI3_L01');
 -- 姉妹 | sisters --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('dc17e988-29c0-4adf-8ae2-b9c763a53811', 'NOUN', NULL, 3, 102, '{family}', '2022-08-08');
@@ -807,6 +843,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('08d813fa-03c6-5441-8312-811231855b80', 'dc17e988-29c0-4adf-8ae2-b9c763a53811', 'KANJI', '姉妹');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('dc17e988-29c0-4adf-8ae2-b9c763a53811', '82d7d2ed-ae78-5034-b1b9-a4e4a4c1552a', '04f77857-1024-5757-a0f0-331bc385f649', '1ec544fa-2628-5210-983f-d704e68fe578', NULL, '08d813fa-03c6-5441-8312-811231855b80');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('dc17e988-29c0-4adf-8ae2-b9c763a53811', 'DUO_02_07');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('dc17e988-29c0-4adf-8ae2-b9c763a53811', 'DUO_U09');
 -- 兄弟 | brothers; siblings --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('39d87517-fc60-4158-83ee-97a62168dfb3', 'NOUN', NULL, 5, 103, '{family}', '2022-08-08');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('7d304270-9809-5ebb-9d88-ad90ef7a3810', '39d87517-fc60-4158-83ee-97a62168dfb3', 1, 'brothers; siblings');
@@ -815,6 +852,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('63e98539-9fc0-53d4-b9ac-deb41857d5f2', '39d87517-fc60-4158-83ee-97a62168dfb3', 'KANJI', '兄弟');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('39d87517-fc60-4158-83ee-97a62168dfb3', '7d304270-9809-5ebb-9d88-ad90ef7a3810', '62671bc2-ef7c-5272-9f48-37d8ded11433', '24278101-a5bd-5465-a080-5b0f0ab874aa', NULL, '63e98539-9fc0-53d4-b9ac-deb41857d5f2');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('39d87517-fc60-4158-83ee-97a62168dfb3', 'DUO_02_07');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('39d87517-fc60-4158-83ee-97a62168dfb3', 'DUO_U09');
 -- これ | this one --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('58ecba76-692b-5baf-a096-62bf3e752da2', 'PRONOUN', NULL, 5, 104, '{pointing_word}', '2022-05-30');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('ed424cc9-2370-5e7e-b861-5025b27f47ad', '58ecba76-692b-5baf-a096-62bf3e752da2', 1, 'this one');
@@ -822,6 +860,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('8f84c212-743d-548e-a6b8-1d3beef4c43f', '58ecba76-692b-5baf-a096-62bf3e752da2', 'HIRAGANA', 'これ');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('58ecba76-692b-5baf-a096-62bf3e752da2', 'ed424cc9-2370-5e7e-b861-5025b27f47ad', '9ce21ff0-13ef-5a8c-baf4-0bf7bd11cf18', '8f84c212-743d-548e-a6b8-1d3beef4c43f', NULL, NULL);
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('58ecba76-692b-5baf-a096-62bf3e752da2', 'DUO_02_01');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('58ecba76-692b-5baf-a096-62bf3e752da2', 'DUO_U06');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('58ecba76-692b-5baf-a096-62bf3e752da2', 'GENKI3_L02');
 -- それ | that one --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('8373ee97-fb02-5fa4-9f3a-e6d0bfe42042', 'PRONOUN', NULL, 5, 105, '{pointing_word}', '2022-05-30');
@@ -830,6 +869,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('b8ef949d-2436-5abd-9209-173ec7b10a08', '8373ee97-fb02-5fa4-9f3a-e6d0bfe42042', 'HIRAGANA', 'それ');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('8373ee97-fb02-5fa4-9f3a-e6d0bfe42042', '08ede234-fd48-50ba-b534-3eb549d4b0e2', 'bc99f576-61e4-5670-8092-01a956d90c1f', 'b8ef949d-2436-5abd-9209-173ec7b10a08', NULL, NULL);
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('8373ee97-fb02-5fa4-9f3a-e6d0bfe42042', 'DUO_02_01');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('8373ee97-fb02-5fa4-9f3a-e6d0bfe42042', 'DUO_U06');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('8373ee97-fb02-5fa4-9f3a-e6d0bfe42042', 'GENKI3_L02');
 -- あれ | that one over there --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('e3286acb-a31b-5fb6-9c16-28ac16fcc269', 'PRONOUN', NULL, 5, 106, '{pointing_word}', '2022-05-30');
@@ -838,6 +878,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('4b59bdd2-228d-5fad-b60e-0b352cc5c1d6', 'e3286acb-a31b-5fb6-9c16-28ac16fcc269', 'HIRAGANA', 'あれ');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('e3286acb-a31b-5fb6-9c16-28ac16fcc269', '0fd531aa-0133-5358-a50b-ec5c15fe0f67', '4c6e3cf6-649a-5445-b4d5-57f03477fbda', '4b59bdd2-228d-5fad-b60e-0b352cc5c1d6', NULL, NULL);
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('e3286acb-a31b-5fb6-9c16-28ac16fcc269', 'DUO_02_01');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('e3286acb-a31b-5fb6-9c16-28ac16fcc269', 'DUO_U06');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('e3286acb-a31b-5fb6-9c16-28ac16fcc269', 'GENKI3_L02');
 -- どれ | which one --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('9ef8e062-db86-5059-82be-ccc85580d5e7', 'PRONOUN', NULL, 5, 107, '{pointing_word}', '2022-05-30');
@@ -846,6 +887,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('506d6916-8213-5457-bb9e-7bda244e92dc', '9ef8e062-db86-5059-82be-ccc85580d5e7', 'HIRAGANA', 'どれ');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('9ef8e062-db86-5059-82be-ccc85580d5e7', '2809bb8c-a578-52c8-944f-e67dc2a71fa3', 'c6cb21f4-a3cc-5157-8741-b2f6d0e4a82b', '506d6916-8213-5457-bb9e-7bda244e92dc', NULL, NULL);
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('9ef8e062-db86-5059-82be-ccc85580d5e7', 'DUO_02_01');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('9ef8e062-db86-5059-82be-ccc85580d5e7', 'DUO_U06');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('9ef8e062-db86-5059-82be-ccc85580d5e7', 'GENKI3_L02');
 -- この〜 | this... --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('430b4ea9-6092-52c7-b2bf-4300de6196c7', 'PRONOUN', NULL, 5, 108, '{pointing_word}', '2022-05-30');
@@ -911,6 +953,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('c2628308-c4b2-5443-a778-b3f4c897d318', '93eaf294-a292-5980-b17e-de43755335c9', 'KANJI', '誰');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('93eaf294-a292-5980-b17e-de43755335c9', '9bf2efe4-328f-59c9-9d1f-c7c95d509246', '1d61c80a-9eed-5659-9a65-346d263ad0ea', '6c1bdfcc-b6fd-5443-8596-a4d7fa60bb3c', NULL, 'c2628308-c4b2-5443-a778-b3f4c897d318');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('93eaf294-a292-5980-b17e-de43755335c9', 'DUO_02_07');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('93eaf294-a292-5980-b17e-de43755335c9', 'DUO_U09');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('93eaf294-a292-5980-b17e-de43755335c9', 'GENKI3_L02');
 -- おいし | delicious --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('f5fce96d-2982-5d7a-b7ce-9dc8914c6ab3', 'ADJECTIVE', 'I_ADJECTIVE', 5, 117, '{food}', '2022-05-30');
@@ -936,6 +979,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('a00436b2-beb8-5337-908e-4bf5527e40ab', 'f7aa023d-a413-562b-bf45-75367462a4b2', 'KANJI', '魚');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('f7aa023d-a413-562b-bf45-75367462a4b2', '20f1e1c3-d081-5dd1-a77f-1a9c6f40c3c8', '7c5fbffb-f3c7-594e-b997-88a30dc59b79', '4ee001cb-adc6-5f42-bdd0-8391a17f215c', NULL, 'a00436b2-beb8-5337-908e-4bf5527e40ab');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('f7aa023d-a413-562b-bf45-75367462a4b2', 'DUO_02_01');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('f7aa023d-a413-562b-bf45-75367462a4b2', 'DUO_U06');
 -- とんかつ | pork cutlet --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('81b8f353-cd1c-53e4-a0f4-1630c490c959', 'NOUN', NULL, NULL, 120, '{food}', '2022-05-30');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('f591f588-6a7c-5348-82b5-e890ed787b54', '81b8f353-cd1c-53e4-a0f4-1630c490c959', 1, 'pork cutlet');
@@ -960,6 +1004,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('b6de8641-fa84-58a8-bfc6-bca971953992', '2dd4acb2-11ca-50c5-b365-c22616ea316d', 'KANJI', '肉');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('2dd4acb2-11ca-50c5-b365-c22616ea316d', '8d582b84-fdee-5200-a0ea-180645b087b6', 'd5975c6d-1f89-5681-ab27-3dcd7a7ffe8d', 'd63e6e35-c8dc-56b7-9aff-8de09c1cf006', NULL, 'b6de8641-fa84-58a8-bfc6-bca971953992');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('2dd4acb2-11ca-50c5-b365-c22616ea316d', 'DUO_02_01');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('2dd4acb2-11ca-50c5-b365-c22616ea316d', 'DUO_U06');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('2dd4acb2-11ca-50c5-b365-c22616ea316d', 'GENKI3_L02');
 -- メニュー | menu --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('3ab19c55-4c6a-53e0-afce-41968363d92a', 'NOUN', NULL, 2, 123, '{food}', '2022-05-30');
@@ -976,6 +1021,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('ab74af61-8699-576e-9874-a82defbc1779', '496222cc-1cb3-50c8-9e7e-bbc7d327b78c', 'KANJI', '野菜');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('496222cc-1cb3-50c8-9e7e-bbc7d327b78c', '58218644-0390-5bfa-8ff2-856ab924b51a', 'bd1904a5-6b5e-5500-9579-aaf74f159fdf', '47a1eb40-08c1-5f76-ab3d-03f6fc8ba2a3', NULL, 'ab74af61-8699-576e-9874-a82defbc1779');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('496222cc-1cb3-50c8-9e7e-bbc7d327b78c', 'DUO_02_01');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('496222cc-1cb3-50c8-9e7e-bbc7d327b78c', 'DUO_U06');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('496222cc-1cb3-50c8-9e7e-bbc7d327b78c', 'GENKI3_L02');
 -- ご飯 | rice; meal --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('4fbc0a01-e32a-5449-8efe-3ae37aee4f2f', 'NOUN', NULL, 5, 125, '{food}', '2022-05-30');
@@ -985,6 +1031,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('96145b64-f5fa-5abf-9118-9c3c66ac274e', '4fbc0a01-e32a-5449-8efe-3ae37aee4f2f', 'KANJI', 'ご飯');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('4fbc0a01-e32a-5449-8efe-3ae37aee4f2f', 'eb8d1ae1-c928-588b-a208-eb5938b5238b', '0375c370-6e31-53cf-867d-3d448a4d8afb', '6240e106-54ef-51b7-b53f-00e9e4da4922', NULL, '96145b64-f5fa-5abf-9118-9c3c66ac274e');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('4fbc0a01-e32a-5449-8efe-3ae37aee4f2f', 'DUO_02_01');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('4fbc0a01-e32a-5449-8efe-3ae37aee4f2f', 'DUO_U06');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('4fbc0a01-e32a-5449-8efe-3ae37aee4f2f', 'GENKI3_L04');
 -- パン | bread --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('b74ca7fa-4622-5a52-b9df-5260878e687b', 'NOUN', NULL, 5, 126, '{food}', '2022-05-30');
@@ -993,6 +1040,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('ca9a1be1-2474-588e-8a1d-fb44c2fbaab7', 'b74ca7fa-4622-5a52-b9df-5260878e687b', 'HIRAGANA', 'ぱん');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('b74ca7fa-4622-5a52-b9df-5260878e687b', '67e9ac43-a576-50dd-8d7a-033fe9e3a7ac', '6586f88c-12d0-5bac-a10e-92786e30ad01', 'ca9a1be1-2474-588e-8a1d-fb44c2fbaab7', NULL, NULL);
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('b74ca7fa-4622-5a52-b9df-5260878e687b', 'DUO_02_01');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('b74ca7fa-4622-5a52-b9df-5260878e687b', 'DUO_U06');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('b74ca7fa-4622-5a52-b9df-5260878e687b', 'GENKI3_L04');
 -- 卵 | egg --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('5e2b2d0d-7461-56e2-a151-9a10375d5615', 'NOUN', NULL, 5, 127, '{food}', '2022-05-30');
@@ -1002,6 +1050,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('3ac8ab8a-21a6-5d8d-95f8-6ac94bf81e92', '5e2b2d0d-7461-56e2-a151-9a10375d5615', 'KANJI', '卵');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('5e2b2d0d-7461-56e2-a151-9a10375d5615', '6f5da332-3084-511c-9668-055cf9daa7d8', 'd95b6d55-7045-5be2-a032-b3408c31e3a4', '2dc0cc5b-fcb5-515b-a568-68c1c0b1254d', NULL, '3ac8ab8a-21a6-5d8d-95f8-6ac94bf81e92');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('5e2b2d0d-7461-56e2-a151-9a10375d5615', 'DUO_02_06');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('5e2b2d0d-7461-56e2-a151-9a10375d5615', 'DUO_U08');
 -- りんご | apple --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('12c11165-7996-5b13-bf19-c3afc419afb2', 'NOUN', NULL, NULL, 128, '{food}', '2022-05-30');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('1e25848a-875b-5aad-88bb-9edbb686f297', '12c11165-7996-5b13-bf19-c3afc419afb2', 1, 'apple');
@@ -1010,6 +1059,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('adaa739c-ac69-59b7-98ca-4b4ca99e4d1b', '12c11165-7996-5b13-bf19-c3afc419afb2', 'KANJI', '林檎');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('12c11165-7996-5b13-bf19-c3afc419afb2', '1e25848a-875b-5aad-88bb-9edbb686f297', '111d0fd8-790b-569c-a95c-f443ca683eae', '5d553c7a-18f4-5e49-ada5-16ee5ee2b1ec', NULL, 'adaa739c-ac69-59b7-98ca-4b4ca99e4d1b');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('12c11165-7996-5b13-bf19-c3afc419afb2', 'DUO_02_06');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('12c11165-7996-5b13-bf19-c3afc419afb2', 'DUO_U08');
 -- なし | pear --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('7b7d934a-cfd6-4286-9175-dfe7676b4355', 'NOUN', NULL, NULL, 129, '{food}', '2022-08-09');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('e0473451-aca6-579d-9bec-703a4cfe009f', '7b7d934a-cfd6-4286-9175-dfe7676b4355', 1, 'pear');
@@ -1032,6 +1082,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('bf6579d1-04cd-58f6-b840-900465ec0a35', '1cf2249c-7785-424d-9a67-1c3ff6253938', 'KANJI', '〜箇');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('1cf2249c-7785-424d-9a67-1c3ff6253938', 'c1f29785-ec1f-5d7c-8798-7f99119ea65e', 'a0c42970-6729-5609-8bea-66b82519ef7b', 'dbb15792-4ec7-5622-8aa2-45b217ec0144', NULL, 'bf6579d1-04cd-58f6-b840-900465ec0a35');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('1cf2249c-7785-424d-9a67-1c3ff6253938', 'DUO_02_06');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('1cf2249c-7785-424d-9a67-1c3ff6253938', 'DUO_U08');
 -- 〜個 | counter for round and clustered items --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('cab23f18-7b88-4262-956c-d31a0e829cbf', 'COUNTER', NULL, NULL, 132, '{}', '2022-05-30');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('79b53f6e-b54e-516d-92fe-a39440fa598f', 'cab23f18-7b88-4262-956c-d31a0e829cbf', 1, 'counter for round and clustered items');
@@ -1040,6 +1091,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('ba02355f-af30-5f93-ab6e-6825d17fb5e6', 'cab23f18-7b88-4262-956c-d31a0e829cbf', 'KANJI', '〜個');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('cab23f18-7b88-4262-956c-d31a0e829cbf', '79b53f6e-b54e-516d-92fe-a39440fa598f', '101e2fff-6d85-5d27-a623-a59a41a4711c', 'a664556e-5667-52e3-8a4f-10aa066d8473', NULL, 'ba02355f-af30-5f93-ab6e-6825d17fb5e6');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('cab23f18-7b88-4262-956c-d31a0e829cbf', 'DUO_02_06');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('cab23f18-7b88-4262-956c-d31a0e829cbf', 'DUO_U08');
 -- 傘 | umbrella --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('b1852be8-7a0e-5541-b94d-29be625cb423', 'NOUN', NULL, 5, 133, '{things}', '2022-05-30');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('066e8d90-e273-5cd5-82f7-598909c9ddc4', 'b1852be8-7a0e-5541-b94d-29be625cb423', 1, 'umbrella');
@@ -1155,6 +1207,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('c4cceedd-6a68-598d-af9d-13eba1823635', '3a52dad1-de68-523b-b6ad-3148496bcf8e', 'KANJI', '銀行');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('3a52dad1-de68-523b-b6ad-3148496bcf8e', '08f85415-eb18-52c0-aa78-285419232907', '6c2ab6fa-5130-5d89-bc99-09c2a7d3102a', 'c6012a3e-2d80-544d-bf9e-3a7e746a515b', NULL, 'c4cceedd-6a68-598d-af9d-13eba1823635');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('3a52dad1-de68-523b-b6ad-3148496bcf8e', 'DUO_01_04');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('3a52dad1-de68-523b-b6ad-3148496bcf8e', 'DUO_U02');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('3a52dad1-de68-523b-b6ad-3148496bcf8e', 'GENKI3_L02');
 -- コンビニ | convenience store --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('6c108fe0-b52d-56de-96f2-f8e0bf450367', 'NOUN', NULL, NULL, 148, '{place}', '2022-05-30');
@@ -1232,6 +1285,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('3447ab7a-ceef-59b7-afac-487fec8d5a13', 'fc6be215-8cf3-55b8-8a6b-0dd345852963', 'HIRAGANA', '〜ください');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('fc6be215-8cf3-55b8-8a6b-0dd345852963', 'ff88c278-bf8a-587c-97a1-070b6b246101', '3e84fd00-e1db-5505-acb3-9f82496bfe29', '3447ab7a-ceef-59b7-afac-487fec8d5a13', NULL, NULL);
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('fc6be215-8cf3-55b8-8a6b-0dd345852963', 'DUO_02_01');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('fc6be215-8cf3-55b8-8a6b-0dd345852963', 'DUO_U06');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('fc6be215-8cf3-55b8-8a6b-0dd345852963', 'GENKI3_L02');
 -- じゃあ | then...; if that is the case... --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('3bb29baa-6e40-5c58-93cd-2000ea1120eb', 'EXPRESSION', NULL, 5, 158, '{}', '2022-05-30');
@@ -1440,6 +1494,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('8fe9d338-8197-595e-92f4-b67fa0e8b231', 'dbf81e7a-c846-5129-b017-a31ad90eb752', 'KANJI', 'お酒');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('dbf81e7a-c846-5129-b017-a31ad90eb752', '213da779-7424-5804-829b-2e835e85c3df', '45624a06-035a-51e5-b9f3-28e5f26618e1', 'bc0acedf-2c8f-548b-93aa-0b8cb3ccda34', NULL, '8fe9d338-8197-595e-92f4-b67fa0e8b231');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('dbf81e7a-c846-5129-b017-a31ad90eb752', 'DUO_01_02');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('dbf81e7a-c846-5129-b017-a31ad90eb752', 'DUO_U01');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('dbf81e7a-c846-5129-b017-a31ad90eb752', 'GENKI3_L03');
 -- お茶 | green tea --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('4b6153f0-1c2e-5330-94dc-e71afa17d386', 'NOUN', NULL, 5, 185, '{food}', '2022-07-24');
@@ -1449,6 +1504,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('f5bd1c7c-149e-526f-8316-1e4243d1566f', '4b6153f0-1c2e-5330-94dc-e71afa17d386', 'KANJI', 'お茶');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('4b6153f0-1c2e-5330-94dc-e71afa17d386', '056c6a79-6f65-57a5-8481-694d4cd88f1b', '46844d8e-e657-5663-8e28-9b048a3d8d8e', '6e95db7c-175e-5a7f-bac9-b2fc24025c15', NULL, 'f5bd1c7c-149e-526f-8316-1e4243d1566f');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('4b6153f0-1c2e-5330-94dc-e71afa17d386', 'DUO_01_04');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('4b6153f0-1c2e-5330-94dc-e71afa17d386', 'DUO_U02');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('4b6153f0-1c2e-5330-94dc-e71afa17d386', 'GENKI3_L03');
 -- コーヒー | coffee --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('c675acf7-4ab1-5a0a-beb3-e65aff83932a', 'NOUN', NULL, 5, 186, '{food}', '2022-07-24');
@@ -1497,6 +1553,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('3f6b6010-e217-5fbb-92fd-c7f4fed4c848', 'e6aa13b6-6f6a-57db-8433-701ba55fa918', 'KANJI', '家');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('e6aa13b6-6f6a-57db-8433-701ba55fa918', '8fb320c1-499d-5e35-a637-cfca897c648c', 'ec6813d2-a7d2-5c3c-8180-f9c4491b3168', 'af93520a-a3ee-5652-9998-7db2633da2c7', NULL, '3f6b6010-e217-5fbb-92fd-c7f4fed4c848');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('e6aa13b6-6f6a-57db-8433-701ba55fa918', 'DUO_02_04');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('e6aa13b6-6f6a-57db-8433-701ba55fa918', 'DUO_U07');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('e6aa13b6-6f6a-57db-8433-701ba55fa918', 'GENKI3_L03');
 -- うち | my place --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('522046f3-2cfa-565e-a8d5-15f048b49776', 'NOUN', NULL, NULL, 192, '{place}', '2022-07-24');
@@ -1521,6 +1578,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('437835c4-2c7c-5bde-bfde-7895d133c69b', '31496757-bfb5-571a-af27-27f055912c92', 'KANJI', '昼');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('31496757-bfb5-571a-af27-27f055912c92', 'e7e8559c-999f-504e-afb5-84c134ff3127', '86fa0cd9-795d-5ea5-bfdd-21854a064b4f', '95c10024-3244-5177-87df-861b682642b4', NULL, '437835c4-2c7c-5bde-bfde-7895d133c69b');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('31496757-bfb5-571a-af27-27f055912c92', 'DUO_01_03');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('31496757-bfb5-571a-af27-27f055912c92', 'DUO_U02');
 -- 晩 | evening --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('fa96658e-3cc1-5c40-8c89-f68088f73e5d', 'NOUN', NULL, 5, 195, '{time}', '2022-08-28');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('39a536c2-25a1-5f26-975e-3fdf34d67838', 'fa96658e-3cc1-5c40-8c89-f68088f73e5d', 1, 'evening');
@@ -1536,6 +1594,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('30af6538-623a-5ab8-b020-5cabe4d12d07', 'c0e2e0ee-6d57-53c2-a654-7d23db9d1709', 'KANJI', '夜');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('c0e2e0ee-6d57-53c2-a654-7d23db9d1709', 'c89af05c-7cbc-5a88-a4c8-9ccb54a97b30', '4197c31f-ee8a-57c9-a17a-a497b40f0862', '8e1150e6-05e9-5d35-9922-3938757eb80f', NULL, '30af6538-623a-5ab8-b020-5cabe4d12d07');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('c0e2e0ee-6d57-53c2-a654-7d23db9d1709', 'DUO_01_02');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('c0e2e0ee-6d57-53c2-a654-7d23db9d1709', 'DUO_U01');
 -- 明日 | tomorrow --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('3972d239-6e9a-5163-bf43-c4a2b81783db', 'NOUN', NULL, 5, 197, '{time}', '2022-07-24');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('4186453a-c983-5c81-8826-27634ff91069', '3972d239-6e9a-5163-bf43-c4a2b81783db', 1, 'tomorrow');
@@ -1584,6 +1643,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('85c67379-1253-528b-bd81-3cf46c2c8694', '1efcd811-18f8-5b64-be29-9f46fbef3286', 'KANJI', '毎朝');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('1efcd811-18f8-5b64-be29-9f46fbef3286', 'a7b02077-66a0-54f0-8b5e-fdd06eef7ffe', 'c89fd5d4-dee1-5803-b7b9-f3c6cd35a67b', 'd2136e1a-3b49-528d-802f-fc2b2e9d65e0', NULL, '85c67379-1253-528b-bd81-3cf46c2c8694');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('1efcd811-18f8-5b64-be29-9f46fbef3286', 'DUO_02_03');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('1efcd811-18f8-5b64-be29-9f46fbef3286', 'DUO_U07');
 -- 毎晩 | every night --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('9e1ccd85-e76b-559b-9c13-ac2202a04849', 'NOUN', NULL, 5, 203, '{time}', '2022-07-24');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('99c7c96a-a0e6-5377-9875-d7cfed64d4f1', '9e1ccd85-e76b-559b-9c13-ac2202a04849', 1, 'every night');
@@ -1631,6 +1691,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('02aec5dc-1774-5ab5-865f-795548cf9836', '50cbf96a-57d3-5f45-b5fc-e415ff57717a', 'KANJI', '行く');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('50cbf96a-57d3-5f45-b5fc-e415ff57717a', '55cbb623-1dde-57fc-9ed7-18d541e69a24', '3882f3fd-ec0b-513e-b731-00e6bf2864cf', '04845431-fcd0-5bbb-9518-f1b95b4b2f6f', NULL, '02aec5dc-1774-5ab5-865f-795548cf9836');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('50cbf96a-57d3-5f45-b5fc-e415ff57717a', 'DUO_02_03');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('50cbf96a-57d3-5f45-b5fc-e415ff57717a', 'DUO_U07');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('50cbf96a-57d3-5f45-b5fc-e415ff57717a', 'GENKI3_L03');
 -- 帰る | to go back; to return --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('243bdf44-b101-5d5d-bc51-a4f5c1c03bc3', 'VERB', 'GODAN_VERB', 5, 209, '{}', '2022-07-24');
@@ -1656,6 +1717,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('082f9ce2-0dbe-5f30-8632-b6a278f5af6b', 'b8a9c502-6f50-5d50-96f1-417feef69161', 'KANJI', '飲む');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('b8a9c502-6f50-5d50-96f1-417feef69161', '22f90169-82f9-50de-862b-3f5e29a7e24c', '3cb821d2-fbaf-5b85-ac36-fcd90b1c8d21', 'c1edbcc5-68e3-59fa-91c6-2b2539c293f1', NULL, '082f9ce2-0dbe-5f30-8632-b6a278f5af6b');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('b8a9c502-6f50-5d50-96f1-417feef69161', 'DUO_02_03');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('b8a9c502-6f50-5d50-96f1-417feef69161', 'DUO_U07');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('b8a9c502-6f50-5d50-96f1-417feef69161', 'GENKI3_L03');
 -- 話す | to speak; to talk --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('87e72b5b-0332-5b61-b21c-ea8cc6a05c1f', 'VERB', 'GODAN_VERB', 5, 212, '{}', '2022-07-24');
@@ -1673,6 +1735,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('0f2b3ee0-1f70-5912-942a-4c95bdc02791', '615aadf7-6900-5c48-814a-d6cc0884ae86', 'KANJI', '読む');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('615aadf7-6900-5c48-814a-d6cc0884ae86', 'b04f08cb-c386-52ff-9087-fbd63dab8e93', 'ab38e31a-b4c5-50f7-b66e-94e921cf3829', '52eabef3-0283-5615-ade4-0a1a453b72e7', NULL, '0f2b3ee0-1f70-5912-942a-4c95bdc02791');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('615aadf7-6900-5c48-814a-d6cc0884ae86', 'DUO_01_02');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('615aadf7-6900-5c48-814a-d6cc0884ae86', 'DUO_U01');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('615aadf7-6900-5c48-814a-d6cc0884ae86', 'GENKI3_L03');
 -- 着る | to wear --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('184de362-74cc-5125-a9b9-8658bb577f7d', 'VERB', 'ICHIDAN_VERB', 5, 214, '{}', '2022-08-12');
@@ -1682,6 +1745,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('efea8a95-dc57-56d3-a607-b2eba1c6c6a3', '184de362-74cc-5125-a9b9-8658bb577f7d', 'KANJI', '着る');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('184de362-74cc-5125-a9b9-8658bb577f7d', '25965431-c5a3-586d-b404-8a318501bebf', '0b77a691-eae4-5200-977d-6f247eb91b6d', '59c0e114-153c-58c1-9490-8f47879b7c6d', NULL, 'efea8a95-dc57-56d3-a607-b2eba1c6c6a3');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('184de362-74cc-5125-a9b9-8658bb577f7d', 'DUO_01_02');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('184de362-74cc-5125-a9b9-8658bb577f7d', 'DUO_U01');
 -- 起きる | to get up --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('bd0e8ffa-f7cd-5b27-8481-6ecb87512f6c', 'VERB', 'ICHIDAN_VERB', 5, 215, '{}', '2022-07-24');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('d03d7a0d-4b7c-56b3-a63d-d2cc70f21aa8', 'bd0e8ffa-f7cd-5b27-8481-6ecb87512f6c', 1, 'to get up');
@@ -1690,6 +1754,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('2856f7e2-561c-5a7f-a6f2-b402ffb7c0c5', 'bd0e8ffa-f7cd-5b27-8481-6ecb87512f6c', 'KANJI', '起きる');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('bd0e8ffa-f7cd-5b27-8481-6ecb87512f6c', 'd03d7a0d-4b7c-56b3-a63d-d2cc70f21aa8', '092d8faa-ac13-579d-9a42-96afe4d720a2', '9ead58db-63d9-571a-935e-25e8466fc9c2', NULL, '2856f7e2-561c-5a7f-a6f2-b402ffb7c0c5');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('bd0e8ffa-f7cd-5b27-8481-6ecb87512f6c', 'DUO_02_03');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('bd0e8ffa-f7cd-5b27-8481-6ecb87512f6c', 'DUO_U07');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('bd0e8ffa-f7cd-5b27-8481-6ecb87512f6c', 'GENKI3_L03');
 -- 食べる | to eat --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('28166f6b-3aba-5230-9bd4-18e1a467bc3f', 'VERB', 'ICHIDAN_VERB', 5, 216, '{}', '2022-07-24');
@@ -1699,6 +1764,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('d4eca37a-8680-584c-b6d3-bc2a101e03e4', '28166f6b-3aba-5230-9bd4-18e1a467bc3f', 'KANJI', '食べる');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('28166f6b-3aba-5230-9bd4-18e1a467bc3f', 'e9e36461-91cf-5d0c-9e10-ef26e36ba7ba', '31a08c23-49ad-5975-ab55-4b41e159466f', 'dc3b1021-6c5c-57cd-9c18-9e59e3486fbb', NULL, 'd4eca37a-8680-584c-b6d3-bc2a101e03e4');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('28166f6b-3aba-5230-9bd4-18e1a467bc3f', 'DUO_02_03');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('28166f6b-3aba-5230-9bd4-18e1a467bc3f', 'DUO_U07');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('28166f6b-3aba-5230-9bd4-18e1a467bc3f', 'GENKI3_L03');
 -- 寝る | to sleep; to go to sleep --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('45b4593b-f7a0-516e-84c4-68c7a7099243', 'VERB', 'ICHIDAN_VERB', 5, 217, '{}', '2022-07-24');
@@ -1708,6 +1774,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('fa6b8b18-cb5f-5771-b480-b6233905a801', '45b4593b-f7a0-516e-84c4-68c7a7099243', 'KANJI', '寝る');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('45b4593b-f7a0-516e-84c4-68c7a7099243', 'b549283c-e6b6-5fed-8cd1-5e9f4cc2eb40', 'e33889a1-c45a-5d71-ad39-e97f60b2f711', '42f3a150-be9b-5159-bb66-6cbc8b2a38ab', NULL, 'fa6b8b18-cb5f-5771-b480-b6233905a801');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('45b4593b-f7a0-516e-84c4-68c7a7099243', 'DUO_02_03');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('45b4593b-f7a0-516e-84c4-68c7a7099243', 'DUO_U07');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('45b4593b-f7a0-516e-84c4-68c7a7099243', 'GENKI3_L03');
 -- 見る | to see; to look at; to watch --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('66e4cf05-72cd-512b-a462-05f4e69906b5', 'VERB', 'ICHIDAN_VERB', 5, 218, '{}', '2022-07-24');
@@ -1894,6 +1961,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('ea9f7eb8-b088-57ad-a7db-22fddb7b31d2', 'dbecb5a9-82dd-5c17-ba84-c7887cf58ce8', 'HIRAGANA', 'すき');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('dbecb5a9-82dd-5c17-ba84-c7887cf58ce8', 'd21d22d8-d38d-5967-bfcd-d1792bfa2037', '663ab235-b8ac-5194-a73e-0d0234f5f3e0', 'ea9f7eb8-b088-57ad-a7db-22fddb7b31d2', NULL, NULL);
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('dbecb5a9-82dd-5c17-ba84-c7887cf58ce8', 'DUO_01_02');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('dbecb5a9-82dd-5c17-ba84-c7887cf58ce8', 'DUO_U01');
 -- ドキドキ | thump-thump; to beat fast --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('9723a3d5-9c7a-5674-a377-5d5c1220438d', 'ADVERB', NULL, 2, 244, '{}', '2022-08-12');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('4c7acea0-cac9-5961-96d5-1b1514e68127', '9723a3d5-9c7a-5674-a377-5d5c1220438d', 1, 'thump-thump; to beat fast');
@@ -1915,6 +1983,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('6a140b03-bdad-522a-a05d-c7001d481a5a', 'cd1adf28-7497-5c5f-ab0f-ecfaedc6e345', 'KANJI', '夏');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('cd1adf28-7497-5c5f-ab0f-ecfaedc6e345', '023560a0-f136-5b33-8e58-9f7359a1bbf2', '0a130ca5-0a38-5d5f-9f04-ba6f4f415197', 'e64f44eb-411b-5021-8fa2-e3c6035f5965', NULL, '6a140b03-bdad-522a-a05d-c7001d481a5a');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('cd1adf28-7497-5c5f-ab0f-ecfaedc6e345', 'DUO_01_02');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('cd1adf28-7497-5c5f-ab0f-ecfaedc6e345', 'DUO_U01');
 -- 秋 | fall --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('580fd4b9-e1ae-5e7b-a257-25f2fa55a899', 'NOUN', NULL, 5, 247, '{season}', '2022-08-12');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('3303107e-fd66-56df-a53a-617207d64918', '580fd4b9-e1ae-5e7b-a257-25f2fa55a899', 1, 'fall');
@@ -1930,6 +1999,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('77da31c6-4134-5e7a-a305-e6bd02146131', 'f9e87b50-2575-5141-98c9-1d6f96fa0ade', 'KANJI', '冬');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('f9e87b50-2575-5141-98c9-1d6f96fa0ade', 'b284a0d3-1b32-5daf-8daf-6ee0142f3f47', '2c1d1a6f-b4de-5239-af7d-ec70bf1db958', 'e08ec4fb-e071-5305-8487-fb6dbeac8a53', NULL, '77da31c6-4134-5e7a-a305-e6bd02146131');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('f9e87b50-2575-5141-98c9-1d6f96fa0ade', 'DUO_01_02');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('f9e87b50-2575-5141-98c9-1d6f96fa0ade', 'DUO_U01');
 -- 白 | white --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('300c2bc3-fa11-54b9-a12f-1f663986f8ce', 'NOUN', NULL, 5, 249, '{color}', '2022-08-12');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('7c88f42c-a1a0-5da0-9e43-ee210f0aca05', '300c2bc3-fa11-54b9-a12f-1f663986f8ce', 1, 'white');
@@ -1938,6 +2008,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('1f194326-59ad-54d2-a10d-d84a1e6d1a53', '300c2bc3-fa11-54b9-a12f-1f663986f8ce', 'KANJI', '白');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('300c2bc3-fa11-54b9-a12f-1f663986f8ce', '7c88f42c-a1a0-5da0-9e43-ee210f0aca05', 'c318bcf2-80d2-50d9-8101-9e9dd5ca46be', 'e84c217e-5d1f-5b68-9cae-6b3a2e36dbfa', NULL, '1f194326-59ad-54d2-a10d-d84a1e6d1a53');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('300c2bc3-fa11-54b9-a12f-1f663986f8ce', 'DUO_01_01');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('300c2bc3-fa11-54b9-a12f-1f663986f8ce', 'DUO_U01');
 -- 黒 | black --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('48b7e73f-4a0c-56bb-8cd6-bf2ed57ed92c', 'NOUN', NULL, 5, 250, '{color}', '2022-08-12');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('369fdeed-8a0d-515d-bfa8-d0bee5469dcd', '48b7e73f-4a0c-56bb-8cd6-bf2ed57ed92c', 1, 'black');
@@ -1953,6 +2024,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('7df992f9-b58a-5e69-9a15-f23c42bdef17', 'e65aae18-dc90-5f41-aa96-e40680a12452', 'KANJI', '赤');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('e65aae18-dc90-5f41-aa96-e40680a12452', '77bef9fa-aa81-5bdb-98ab-350674d2eb0a', 'b453f3f2-5495-5569-b25e-a1cabd111ebe', '643edf95-6083-56f2-9946-7112a78928d6', NULL, '7df992f9-b58a-5e69-9a15-f23c42bdef17');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('e65aae18-dc90-5f41-aa96-e40680a12452', 'DUO_01_01');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('e65aae18-dc90-5f41-aa96-e40680a12452', 'DUO_U01');
 -- 青 | blue --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('12290cb0-5c39-5b53-8353-e0404724200b', 'NOUN', NULL, 5, 252, '{color}', '2022-08-12');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('e9fd3a9f-7fc1-5bd4-b055-6cd7cb3336c0', '12290cb0-5c39-5b53-8353-e0404724200b', 1, 'blue');
@@ -1961,6 +2033,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('1fd91256-0890-5479-9c19-85dbb3cb798b', '12290cb0-5c39-5b53-8353-e0404724200b', 'KANJI', '青');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('12290cb0-5c39-5b53-8353-e0404724200b', 'e9fd3a9f-7fc1-5bd4-b055-6cd7cb3336c0', '34d57885-4e87-5162-86f1-14572e844813', '906243fe-35ee-5d07-8d28-da3db9940744', NULL, '1fd91256-0890-5479-9c19-85dbb3cb798b');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('12290cb0-5c39-5b53-8353-e0404724200b', 'DUO_01_01');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('12290cb0-5c39-5b53-8353-e0404724200b', 'DUO_U01');
 -- 黄色 | yellow --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('b5431148-e71a-55b1-a42f-cbf2f029c146', 'NOUN', NULL, 5, 253, '{color}', '2022-08-12');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('2ad29431-c332-539e-bf69-ef7995f98e9c', 'b5431148-e71a-55b1-a42f-cbf2f029c146', 1, 'yellow');
@@ -1989,6 +2062,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('c3ce9426-44d6-5d31-bfb3-c6e0f01d7131', '03137815-af09-4ff0-84a7-622d92cf600c', 'KANJI', '台所');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('03137815-af09-4ff0-84a7-622d92cf600c', 'bf638b01-e7f1-5aac-9901-52b09c401c8f', 'f09476a3-b75a-592b-9896-9df3f4a7c419', 'bc030d42-0a02-5483-8bd0-175b82e4bd96', NULL, 'c3ce9426-44d6-5d31-bfb3-c6e0f01d7131');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('03137815-af09-4ff0-84a7-622d92cf600c', 'DUO_02_04');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('03137815-af09-4ff0-84a7-622d92cf600c', 'DUO_U07');
 -- 部屋 | room --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('f6d9d4a3-811d-4ab1-80e1-8f979c4b483c', 'NOUN', NULL, 5, 257, '{home}', '2022-05-30');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('e7dbf849-f80d-56fe-affc-ddcca926e2b1', 'f6d9d4a3-811d-4ab1-80e1-8f979c4b483c', 1, 'room');
@@ -1997,6 +2071,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('3ee937e6-40f4-51f2-b425-384b9e2315a2', 'f6d9d4a3-811d-4ab1-80e1-8f979c4b483c', 'KANJI', '部屋');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('f6d9d4a3-811d-4ab1-80e1-8f979c4b483c', 'e7dbf849-f80d-56fe-affc-ddcca926e2b1', 'd35cd043-c5e0-544c-aed2-a5e1fe9a550c', 'd0f18f1d-34ed-5808-99e7-23ac14396eac', NULL, '3ee937e6-40f4-51f2-b425-384b9e2315a2');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('f6d9d4a3-811d-4ab1-80e1-8f979c4b483c', 'DUO_02_04');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('f6d9d4a3-811d-4ab1-80e1-8f979c4b483c', 'DUO_U07');
 -- 風呂 | bath(tub) --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('f31e6384-d4e9-4a67-b12e-e08cddfdba29', 'NOUN', NULL, 5, 258, '{home}', '2022-05-30');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('2c1acf61-4446-5ab4-b578-bede2a428928', 'f31e6384-d4e9-4a67-b12e-e08cddfdba29', 1, 'bath(tub)');
@@ -2005,6 +2080,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('f6ae32c8-3cee-5415-8fcb-d3696a6af708', 'f31e6384-d4e9-4a67-b12e-e08cddfdba29', 'KANJI', '風呂');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('f31e6384-d4e9-4a67-b12e-e08cddfdba29', '2c1acf61-4446-5ab4-b578-bede2a428928', 'c2104184-e923-5e12-9b25-0a1a01fcbae9', '74d732d0-0e89-56a7-a0fc-fae80b35aa99', NULL, 'f6ae32c8-3cee-5415-8fcb-d3696a6af708');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('f31e6384-d4e9-4a67-b12e-e08cddfdba29', 'DUO_02_04');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('f31e6384-d4e9-4a67-b12e-e08cddfdba29', 'DUO_U07');
 -- 寝室 | bedroom --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('0079d5eb-c8e1-4f3b-9105-51054a2c0b8a', 'NOUN', NULL, NULL, 259, '{home}', '2022-05-30');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('617a4779-435c-55d1-b352-38cf190de5f3', '0079d5eb-c8e1-4f3b-9105-51054a2c0b8a', 1, 'bedroom');
@@ -2013,6 +2089,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('69f7dc08-6cb8-5a55-9834-a616119242a9', '0079d5eb-c8e1-4f3b-9105-51054a2c0b8a', 'KANJI', '寝室');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('0079d5eb-c8e1-4f3b-9105-51054a2c0b8a', '617a4779-435c-55d1-b352-38cf190de5f3', '67ace14d-c6d6-5586-bd4d-299d449834c1', 'd4346c2d-ff6d-5364-b462-df34bdd62592', NULL, '69f7dc08-6cb8-5a55-9834-a616119242a9');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('0079d5eb-c8e1-4f3b-9105-51054a2c0b8a', 'DUO_02_04');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('0079d5eb-c8e1-4f3b-9105-51054a2c0b8a', 'DUO_U07');
 -- 窓 | window --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('b04ef471-2292-4ca7-a470-4829fb116b8a', 'NOUN', NULL, 5, 260, '{home}', '2022-05-30');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('f02a3619-0a47-58c2-baf3-334fb39c79a6', 'b04ef471-2292-4ca7-a470-4829fb116b8a', 1, 'window');
@@ -2021,6 +2098,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('4b9706bd-05ba-52ce-8547-f01255595d0d', 'b04ef471-2292-4ca7-a470-4829fb116b8a', 'KANJI', '窓');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('b04ef471-2292-4ca7-a470-4829fb116b8a', 'f02a3619-0a47-58c2-baf3-334fb39c79a6', '6cebf2c0-d0fb-580a-935b-92d2730a8041', 'b35c1668-d85b-5a7a-9db3-11bd8b46c5fb', NULL, '4b9706bd-05ba-52ce-8547-f01255595d0d');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('b04ef471-2292-4ca7-a470-4829fb116b8a', 'DUO_02_04');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('b04ef471-2292-4ca7-a470-4829fb116b8a', 'DUO_U07');
 -- 庭 | yard; garden --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('c08c0aff-7835-4c0a-a560-cd8e627c3a90', 'NOUN', NULL, 5, 261, '{home}', '2022-05-30');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('2cb6e481-8932-59c7-a2b0-3e142f92df38', 'c08c0aff-7835-4c0a-a560-cd8e627c3a90', 1, 'yard; garden');
@@ -2029,6 +2107,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('9bce0d93-2302-56c3-abea-7acae030d975', 'c08c0aff-7835-4c0a-a560-cd8e627c3a90', 'KANJI', '庭');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('c08c0aff-7835-4c0a-a560-cd8e627c3a90', '2cb6e481-8932-59c7-a2b0-3e142f92df38', 'a8e43718-6913-5bc1-b150-defa6ddb65d4', '7fe67c1b-9b68-57b7-ba02-15d72723f0e8', NULL, '9bce0d93-2302-56c3-abea-7acae030d975');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('c08c0aff-7835-4c0a-a560-cd8e627c3a90', 'DUO_02_04');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('c08c0aff-7835-4c0a-a560-cd8e627c3a90', 'DUO_U07');
 -- 椅子 | chair --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('9e935991-a6f7-4383-b8a0-9376d7af8298', 'NOUN', NULL, 5, 262, '{home}', '2022-05-30');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('b3a95227-9e70-5b07-8d35-40eb8d596459', '9e935991-a6f7-4383-b8a0-9376d7af8298', 1, 'chair');
@@ -2037,6 +2116,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('44ac13b5-9b3a-560f-93c5-a572fa8cc2ff', '9e935991-a6f7-4383-b8a0-9376d7af8298', 'KANJI', '椅子');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('9e935991-a6f7-4383-b8a0-9376d7af8298', 'b3a95227-9e70-5b07-8d35-40eb8d596459', '7b55165b-7185-5fb3-b8df-05fc0878f518', '84cb80ce-f7bc-56bf-bded-2436aff4d7dd', NULL, '44ac13b5-9b3a-560f-93c5-a572fa8cc2ff');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('9e935991-a6f7-4383-b8a0-9376d7af8298', 'DUO_02_04');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('9e935991-a6f7-4383-b8a0-9376d7af8298', 'DUO_U07');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('9e935991-a6f7-4383-b8a0-9376d7af8298', 'GENKI3_L04');
 -- ソファー | sofa --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('2f7263b8-e1dd-4c09-94d0-7ad22fe82a5b', 'NOUN', NULL, 3, 263, '{home}', '2022-05-30');
@@ -2045,6 +2125,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('9d8b6358-2d37-5e35-90b4-a4d528bb1bb4', '2f7263b8-e1dd-4c09-94d0-7ad22fe82a5b', 'HIRAGANA', 'そふぁあ');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('2f7263b8-e1dd-4c09-94d0-7ad22fe82a5b', '1ce4db48-0936-56b1-9079-35d831dc4875', '39a4f2b0-9035-51a6-82b8-13f0436cef93', '9d8b6358-2d37-5e35-90b4-a4d528bb1bb4', NULL, NULL);
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('2f7263b8-e1dd-4c09-94d0-7ad22fe82a5b', 'DUO_02_04');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('2f7263b8-e1dd-4c09-94d0-7ad22fe82a5b', 'DUO_U07');
 -- 机 | desk --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('068b1a67-d6a5-4790-a264-febfbccc06c2', 'NOUN', NULL, 5, 264, '{home}', '2022-05-30');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('65a30373-a409-513e-92bd-1e407dabacee', '068b1a67-d6a5-4790-a264-febfbccc06c2', 1, 'desk');
@@ -2053,6 +2134,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('66621945-b971-596e-bb75-5435fda873ec', '068b1a67-d6a5-4790-a264-febfbccc06c2', 'KANJI', '机');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('068b1a67-d6a5-4790-a264-febfbccc06c2', '65a30373-a409-513e-92bd-1e407dabacee', 'fea29bb7-4b4b-5b66-bcf0-7ee90c2c178b', '9d1711f2-f4de-591a-9416-2a1b8e4caf44', NULL, '66621945-b971-596e-bb75-5435fda873ec');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('068b1a67-d6a5-4790-a264-febfbccc06c2', 'DUO_02_04');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('068b1a67-d6a5-4790-a264-febfbccc06c2', 'DUO_U07');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('068b1a67-d6a5-4790-a264-febfbccc06c2', 'GENKI3_L04');
 -- ペット | pet --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('7361012a-f230-444c-babe-48449c5bc79d', 'NOUN', NULL, 5, 265, '{animal}', '2022-05-30');
@@ -2061,6 +2143,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('af6e5b6e-7974-5ac9-9591-edbc8c48f21f', '7361012a-f230-444c-babe-48449c5bc79d', 'KATAKANA', 'ペット');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('7361012a-f230-444c-babe-48449c5bc79d', 'e5b09917-903e-5594-a0a0-6b241fa117b8', 'bbf9cb8f-bfc9-5bc4-8926-c3844d9b6f11', 'af6e5b6e-7974-5ac9-9591-edbc8c48f21f', NULL, NULL);
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('7361012a-f230-444c-babe-48449c5bc79d', 'DUO_02_04');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('7361012a-f230-444c-babe-48449c5bc79d', 'DUO_U07');
 -- 犬 | dog --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('f9f3b546-f023-4b35-9db2-068f8143c41e', 'NOUN', NULL, 5, 266, '{animal}', '2022-05-30');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('508d3ab2-1fb2-53ff-b880-48364e7206fc', 'f9f3b546-f023-4b35-9db2-068f8143c41e', 1, 'dog');
@@ -2069,6 +2152,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('d95288a5-a9a6-502b-b225-18d3bab8472b', 'f9f3b546-f023-4b35-9db2-068f8143c41e', 'KANJI', '犬');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('f9f3b546-f023-4b35-9db2-068f8143c41e', '508d3ab2-1fb2-53ff-b880-48364e7206fc', '98da10e5-f050-577e-8973-01972b025066', '3ba8ec03-1534-5ea3-b08f-28104a89343f', NULL, 'd95288a5-a9a6-502b-b225-18d3bab8472b');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('f9f3b546-f023-4b35-9db2-068f8143c41e', 'DUO_02_04');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('f9f3b546-f023-4b35-9db2-068f8143c41e', 'DUO_U07');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('f9f3b546-f023-4b35-9db2-068f8143c41e', 'GENKI3_L04');
 -- 猫 | cat --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('5399ca2c-f192-40b6-9b69-28dc1de577c8', 'NOUN', NULL, 5, 267, '{animal}', '2022-05-30');
@@ -2078,6 +2162,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('37c9022a-062d-5a08-9874-1ab98cd6573e', '5399ca2c-f192-40b6-9b69-28dc1de577c8', 'KANJI', '猫');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('5399ca2c-f192-40b6-9b69-28dc1de577c8', 'b7771a77-ef06-54c1-9cc6-0a0d7b0daa2a', 'ba7dd05d-8f99-5420-acbf-3048b9eac7c3', '05ca9c6e-5ae0-5546-8665-36a8dc255150', NULL, '37c9022a-062d-5a08-9874-1ab98cd6573e');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('5399ca2c-f192-40b6-9b69-28dc1de577c8', 'DUO_02_04');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('5399ca2c-f192-40b6-9b69-28dc1de577c8', 'DUO_U07');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('5399ca2c-f192-40b6-9b69-28dc1de577c8', 'GENKI3_L04');
 -- 鳥 | bird --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('f5b2d28f-d519-4138-a9d0-5c99b82d09af', 'NOUN', NULL, 5, 268, '{animal}', '2022-05-30');
@@ -2087,6 +2172,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('2a908bcb-e2df-5663-be70-018d795a1686', 'f5b2d28f-d519-4138-a9d0-5c99b82d09af', 'KANJI', '鳥');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('f5b2d28f-d519-4138-a9d0-5c99b82d09af', '4b2743e9-3668-50f8-900f-76c8ed9233bd', '486a9544-51ee-56c4-af41-4ffa6100bc98', '52dd4cdb-fe3e-5197-beb0-ab7b87da23b6', NULL, '2a908bcb-e2df-5663-be70-018d795a1686');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('f5b2d28f-d519-4138-a9d0-5c99b82d09af', 'DUO_02_04');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('f5b2d28f-d519-4138-a9d0-5c99b82d09af', 'DUO_U07');
 -- 子犬 | puppy --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('9704386f-fba7-4008-b079-fc541fb9c0dc', 'NOUN', NULL, NULL, 269, '{animal}', '2022-05-30');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('9782e2f3-4a79-583d-91db-4b36b38e6ec2', '9704386f-fba7-4008-b079-fc541fb9c0dc', 1, 'puppy');
@@ -2095,6 +2181,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('b5277249-3278-5bbd-ab4a-19f555658d96', '9704386f-fba7-4008-b079-fc541fb9c0dc', 'KANJI', '子犬');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('9704386f-fba7-4008-b079-fc541fb9c0dc', '9782e2f3-4a79-583d-91db-4b36b38e6ec2', '29b6768b-32bf-5d27-9cab-428c1a887d8b', 'bdb53816-7c28-5bca-b75d-541f3e8fbcb7', NULL, 'b5277249-3278-5bbd-ab4a-19f555658d96');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('9704386f-fba7-4008-b079-fc541fb9c0dc', 'DUO_02_04');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('9704386f-fba7-4008-b079-fc541fb9c0dc', 'DUO_U07');
 -- 子猫 | kitten --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('63a5b1e8-d69e-4f78-9fa1-f6ed248b872b', 'NOUN', NULL, NULL, 270, '{animal}', '2022-05-30');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('9f3d973f-2700-524f-965e-fa0b4c49dc7c', '63a5b1e8-d69e-4f78-9fa1-f6ed248b872b', 1, 'kitten');
@@ -2103,6 +2190,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('eaa1d746-cffe-5569-b690-16122f1eab3b', '63a5b1e8-d69e-4f78-9fa1-f6ed248b872b', 'KANJI', '子猫');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('63a5b1e8-d69e-4f78-9fa1-f6ed248b872b', '9f3d973f-2700-524f-965e-fa0b4c49dc7c', 'cfe9025d-c4ff-503f-8857-4087fd6b36a4', '38f21740-3c48-5202-8dae-31bc6b32d036', NULL, 'eaa1d746-cffe-5569-b690-16122f1eab3b');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('63a5b1e8-d69e-4f78-9fa1-f6ed248b872b', 'DUO_02_04');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('63a5b1e8-d69e-4f78-9fa1-f6ed248b872b', 'DUO_U07');
 -- うさぎ | rabbit --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('2541eb3b-87ad-5c3c-8450-a62f59071835', 'NOUN', NULL, 3, 271, '{animal}', '2022-08-12');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('b5419881-3716-5e97-80d0-70ed692a23e0', '2541eb3b-87ad-5c3c-8450-a62f59071835', 1, 'rabbit');
@@ -2118,6 +2206,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('c00a25ea-c30e-59f9-93d1-75579dbd09e8', '93849573-7b32-4df3-a3b9-a15fb7555627', 'KANJI', '〜羽');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('93849573-7b32-4df3-a3b9-a15fb7555627', '0da89d6a-1c45-512b-8d53-a3b5fa032c36', '5d233acc-8e96-5776-a6d3-df0e3c26e4a2', '28c4df74-bc0f-598a-8303-aac0cb210aa3', NULL, 'c00a25ea-c30e-59f9-93d1-75579dbd09e8');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('93849573-7b32-4df3-a3b9-a15fb7555627', 'DUO_02_04');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('93849573-7b32-4df3-a3b9-a15fb7555627', 'DUO_U07');
 -- 彼女 | she, her --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('6432ab47-a4a0-487f-89ad-b37fce084c74', 'PRONOUN', NULL, 4, 273, '{}', '2022-08-08');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('81caa6e2-0815-51de-bafb-7267e2178e18', '6432ab47-a4a0-487f-89ad-b37fce084c74', 1, 'she, her');
@@ -2126,6 +2215,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('e3783e07-fdf6-564d-abb1-a8c7d68e97ba', '6432ab47-a4a0-487f-89ad-b37fce084c74', 'KANJI', '彼女');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('6432ab47-a4a0-487f-89ad-b37fce084c74', '81caa6e2-0815-51de-bafb-7267e2178e18', '78d12928-2d08-5dc1-b294-1ad0aca743e9', 'ddf03e43-4afd-5826-b904-4c50a79327de', NULL, 'e3783e07-fdf6-564d-abb1-a8c7d68e97ba');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('6432ab47-a4a0-487f-89ad-b37fce084c74', 'DUO_02_07');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('6432ab47-a4a0-487f-89ad-b37fce084c74', 'DUO_U09');
 -- 彼 | him, he --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('794880bc-1fa2-4fb8-9fa0-bd04c175bbee', 'PRONOUN', NULL, 4, 274, '{}', '2022-08-08');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('11fc46b9-8b57-5e79-affd-a533289a917d', '794880bc-1fa2-4fb8-9fa0-bd04c175bbee', 1, 'him, he');
@@ -2134,6 +2224,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('43f9efa8-abb9-5f89-852f-7963fa3f787d', '794880bc-1fa2-4fb8-9fa0-bd04c175bbee', 'KANJI', '彼');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('794880bc-1fa2-4fb8-9fa0-bd04c175bbee', '11fc46b9-8b57-5e79-affd-a533289a917d', '8a42ed46-f00d-57ec-9944-981cdefdf68d', '764410e1-9f1e-56f9-9fe3-468f017df434', NULL, '43f9efa8-abb9-5f89-852f-7963fa3f787d');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('794880bc-1fa2-4fb8-9fa0-bd04c175bbee', 'DUO_02_07');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('794880bc-1fa2-4fb8-9fa0-bd04c175bbee', 'DUO_U09');
 -- 彼ら | they, them --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('46260a68-5466-4f70-9b0b-968d8143848f', 'PRONOUN', NULL, 3, 275, '{}', '2022-08-08');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('bb8f55c7-665f-5705-9459-a95dd490f761', '46260a68-5466-4f70-9b0b-968d8143848f', 1, 'they, them');
@@ -2142,6 +2233,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('21764a3d-ae1c-5537-952f-8cf85fa20ffc', '46260a68-5466-4f70-9b0b-968d8143848f', 'KANJI', '彼ら');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('46260a68-5466-4f70-9b0b-968d8143848f', 'bb8f55c7-665f-5705-9459-a95dd490f761', '9f35e15f-084a-5efa-8cc2-8f74f7fcf58a', 'e8501e6f-03af-5beb-b6d9-fe932d87c854', NULL, '21764a3d-ae1c-5537-952f-8cf85fa20ffc');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('46260a68-5466-4f70-9b0b-968d8143848f', 'DUO_02_07');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('46260a68-5466-4f70-9b0b-968d8143848f', 'DUO_U09');
 -- 〜たち | ...plural (person, animal) --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('7592b181-b6f1-41f0-b618-4ae67ab38b21', 'SUFFIX', NULL, NULL, 276, '{}', '2022-08-08');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('5e326524-9469-5fd9-be06-6ae861aeddf2', '7592b181-b6f1-41f0-b618-4ae67ab38b21', 1, '...plural (person, animal)');
@@ -2150,6 +2242,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('05027372-13d7-5090-adf5-3154b223037a', '7592b181-b6f1-41f0-b618-4ae67ab38b21', 'KANJI', '〜達');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('7592b181-b6f1-41f0-b618-4ae67ab38b21', '5e326524-9469-5fd9-be06-6ae861aeddf2', '240b986e-2b73-5396-85c7-1ceb062d80d9', '715c2830-2f77-57b8-a95f-9cc568ac5c5a', NULL, '05027372-13d7-5090-adf5-3154b223037a');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('7592b181-b6f1-41f0-b618-4ae67ab38b21', 'DUO_02_07');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('7592b181-b6f1-41f0-b618-4ae67ab38b21', 'DUO_U09');
 -- 僕 | I,me (male term) --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('bd6d533d-c173-49c5-95c7-85fe90dd38a6', 'PRONOUN', NULL, 4, 277, '{}', '2022-08-08');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('f444c3bc-2788-5429-a6be-5cce3d13028d', 'bd6d533d-c173-49c5-95c7-85fe90dd38a6', 1, 'I,me (male term)');
@@ -2158,6 +2251,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('8a41a05c-760a-527c-96f2-992682ef8ded', 'bd6d533d-c173-49c5-95c7-85fe90dd38a6', 'KANJI', '僕');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('bd6d533d-c173-49c5-95c7-85fe90dd38a6', 'f444c3bc-2788-5429-a6be-5cce3d13028d', '28b908cb-640e-54fb-b149-d6d7ed31f61e', '544f8e18-b31f-5476-91e1-e34eb1762e0a', NULL, '8a41a05c-760a-527c-96f2-992682ef8ded');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('bd6d533d-c173-49c5-95c7-85fe90dd38a6', 'DUO_02_07');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('bd6d533d-c173-49c5-95c7-85fe90dd38a6', 'DUO_U09');
 -- 山 | mountain --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('2037e05e-e3cc-56d5-b966-458046cfb035', 'NOUN', NULL, 5, 278, '{}', '2022-08-12');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('a058b68d-e81f-580e-9c5e-8c4e139ce8b7', '2037e05e-e3cc-56d5-b966-458046cfb035', 1, 'mountain');
@@ -2324,6 +2418,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('38be16e6-13ce-57dd-95d8-f75a0a0d4319', '39007001-a5bd-5f32-b00a-41b88d6dcb04', 'KANJI', '欲しい');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('39007001-a5bd-5f32-b00a-41b88d6dcb04', 'f94effac-36db-572f-829b-2e365544a257', '03029f6b-a8cd-5061-b100-1b51381400ed', '690ece58-6a86-5776-b979-1265b467c8d7', NULL, '38be16e6-13ce-57dd-95d8-f75a0a0d4319');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('39007001-a5bd-5f32-b00a-41b88d6dcb04', 'DUO_01_02');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('39007001-a5bd-5f32-b00a-41b88d6dcb04', 'DUO_U01');
 -- 甘い | sweet --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('d296367e-4c7b-5675-9477-ef164a14186d', 'ADJECTIVE', 'I_ADJECTIVE', 5, 299, '{food}', '2022-08-12');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('35946033-e15b-575a-a2a9-a5cf1dab12f7', 'd296367e-4c7b-5675-9477-ef164a14186d', 1, 'sweet');
@@ -2332,6 +2427,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('96a2e6db-e38c-56e6-b119-296fa6dae4d0', 'd296367e-4c7b-5675-9477-ef164a14186d', 'KANJI', '甘い');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('d296367e-4c7b-5675-9477-ef164a14186d', '35946033-e15b-575a-a2a9-a5cf1dab12f7', '5873a428-1050-52a4-b0a8-85591c952d8e', '4590dbae-cb34-541b-ba71-57cf32c2839b', NULL, '96a2e6db-e38c-56e6-b119-296fa6dae4d0');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('d296367e-4c7b-5675-9477-ef164a14186d', 'DUO_01_02');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('d296367e-4c7b-5675-9477-ef164a14186d', 'DUO_U01');
 -- 汚い | dirty --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('a135ce08-66bb-5864-803a-134a43cd833b', 'ADJECTIVE', 'I_ADJECTIVE', 5, 300, '{}', '2022-08-12');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('f353a481-dbca-5ba4-a417-babf4292b6ec', 'a135ce08-66bb-5864-803a-134a43cd833b', 1, 'dirty');
@@ -2340,6 +2436,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('8dcce11f-d52e-555b-b21f-a0415746c01e', 'a135ce08-66bb-5864-803a-134a43cd833b', 'KANJI', '汚い');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('a135ce08-66bb-5864-803a-134a43cd833b', 'f353a481-dbca-5ba4-a417-babf4292b6ec', 'b3e91900-e87c-5e5c-9d1a-41c9289f3cd0', 'f034994b-919f-5667-a3f8-24a23cbc8cda', NULL, '8dcce11f-d52e-555b-b21f-a0415746c01e');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('a135ce08-66bb-5864-803a-134a43cd833b', 'DUO_01_02');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('a135ce08-66bb-5864-803a-134a43cd833b', 'DUO_U01');
 -- 寿司 | sushi --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('b0b557a1-615d-53a4-acdc-768151964aa5', 'NOUN', NULL, NULL, 301, '{food}', '2022-08-12');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('9fa2942c-25fe-5f69-bf99-dc27a93f46fc', 'b0b557a1-615d-53a4-acdc-768151964aa5', 1, 'sushi');
@@ -2348,6 +2445,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('4a2bde67-3f48-5030-8625-f37e12dc35e6', 'b0b557a1-615d-53a4-acdc-768151964aa5', 'KANJI', '寿司');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('b0b557a1-615d-53a4-acdc-768151964aa5', '9fa2942c-25fe-5f69-bf99-dc27a93f46fc', '58403d9a-604e-57d2-8d10-13f1846c3b35', '993ae97e-6a24-51f9-b0f6-d1a038e200b1', NULL, '4a2bde67-3f48-5030-8625-f37e12dc35e6');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('b0b557a1-615d-53a4-acdc-768151964aa5', 'DUO_01_02');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('b0b557a1-615d-53a4-acdc-768151964aa5', 'DUO_U01');
 -- 刺身 | sashimi --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('b39de966-5af7-5bec-a79b-2c72f8c7e4f9', 'NOUN', NULL, 2, 302, '{food}', '2022-08-12');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('c44b3e98-58a0-5db8-89f1-72ea99af41d9', 'b39de966-5af7-5bec-a79b-2c72f8c7e4f9', 1, 'sashimi');
@@ -2383,6 +2481,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('28a5df0f-43a3-503e-8102-839a343959e1', 'fcb92bf6-7f59-59fd-863a-7aa2762f640d', 'KANJI', '耳');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('fcb92bf6-7f59-59fd-863a-7aa2762f640d', '568d1f34-88d3-5e0c-9b88-a3049174d016', '68bcb5c9-d790-52ba-bd35-bc0ad90a66c3', '99367cce-6faa-582c-a8d7-d9955aede73e', NULL, '28a5df0f-43a3-503e-8102-839a343959e1');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('fcb92bf6-7f59-59fd-863a-7aa2762f640d', 'DUO_01_03');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('fcb92bf6-7f59-59fd-863a-7aa2762f640d', 'DUO_U02');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('fcb92bf6-7f59-59fd-863a-7aa2762f640d', 'LULI_KANJI_L01');
 -- 目 | eye --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('08a92e33-466f-588d-b364-19981156b72f', 'NOUN', NULL, 5, 307, '{body}', '2022-08-12');
@@ -2392,6 +2491,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('108f46bd-7b3e-5282-9887-3ddace05ca66', '08a92e33-466f-588d-b364-19981156b72f', 'KANJI', '目');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('08a92e33-466f-588d-b364-19981156b72f', '4b1740c4-35ec-551f-9ffc-4d3d44422307', '2926da02-9a89-5c68-a096-f3bccf4e4245', 'cd50a893-754d-5774-8a5c-d46c97031749', NULL, '108f46bd-7b3e-5282-9887-3ddace05ca66');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('08a92e33-466f-588d-b364-19981156b72f', 'DUO_01_03');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('08a92e33-466f-588d-b364-19981156b72f', 'DUO_U02');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('08a92e33-466f-588d-b364-19981156b72f', 'LULI_KANJI_L01');
 -- 口 | mouth --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('78b70b1a-bd80-521c-94a9-0dec45988921', 'NOUN', NULL, 5, 308, '{body}', '2022-08-17');
@@ -2425,6 +2525,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('82d3506c-8ed9-5081-9518-c9778fe41de8', '12773416-725b-57f8-b7cc-856c607390db', 'KANJI', '背中');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('12773416-725b-57f8-b7cc-856c607390db', 'c5f6c565-1519-5ec8-bc5a-b40ea06ac8a8', '817ec610-1738-58e5-9fc8-38a8f59bf25e', '24b74f51-b5e8-5591-8fd1-9d720fdb645d', NULL, '82d3506c-8ed9-5081-9518-c9778fe41de8');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('12773416-725b-57f8-b7cc-856c607390db', 'DUO_01_03');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('12773416-725b-57f8-b7cc-856c607390db', 'DUO_U02');
 -- 曇り | cloudy --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('83e6b487-2d55-5480-a55b-2a808a40a3f1', 'NOUN', NULL, 5, 312, '{weather}', '2022-08-12');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('482b8302-c985-51a3-a5b9-fd8df9828d14', '83e6b487-2d55-5480-a55b-2a808a40a3f1', 1, 'cloudy');
@@ -2433,6 +2534,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('82cbdb7d-6558-5323-a165-207a2583dca4', '83e6b487-2d55-5480-a55b-2a808a40a3f1', 'KANJI', '曇り');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('83e6b487-2d55-5480-a55b-2a808a40a3f1', '482b8302-c985-51a3-a5b9-fd8df9828d14', '4cb22c86-c607-51c0-8f86-3c088036281c', '4520d8c7-cb93-56eb-9d96-999f9889caea', NULL, '82cbdb7d-6558-5323-a165-207a2583dca4');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('83e6b487-2d55-5480-a55b-2a808a40a3f1', 'DUO_01_03');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('83e6b487-2d55-5480-a55b-2a808a40a3f1', 'DUO_U02');
 -- 晴れ | sunny --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('a2edc793-e468-5c89-8566-efd896ac302c', 'NOUN', NULL, 5, 313, '{weather}', '2022-08-12');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('b5267850-ecb2-509d-a0ca-ff648e207a27', 'a2edc793-e468-5c89-8566-efd896ac302c', 1, 'sunny');
@@ -2441,6 +2543,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('357074c2-e8f0-5920-b732-3d7e080d0b10', 'a2edc793-e468-5c89-8566-efd896ac302c', 'KANJI', '晴れ');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('a2edc793-e468-5c89-8566-efd896ac302c', 'b5267850-ecb2-509d-a0ca-ff648e207a27', 'd1dadf53-6037-5057-94c3-4307ffdaec20', '69795551-8591-5922-86b8-60cf835585c1', NULL, '357074c2-e8f0-5920-b732-3d7e080d0b10');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('a2edc793-e468-5c89-8566-efd896ac302c', 'DUO_01_03');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('a2edc793-e468-5c89-8566-efd896ac302c', 'DUO_U02');
 -- 外 | outside --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('05f754d9-f497-54db-9340-cea898b0ff28', 'NOUN', NULL, 5, 314, '{}', '2022-08-12');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('4d8c0d7e-0108-520d-80c3-f6622ea22a80', '05f754d9-f497-54db-9340-cea898b0ff28', 1, 'outside');
@@ -2449,6 +2552,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('3fe8d892-1720-5949-a8f6-8b52bf404a98', '05f754d9-f497-54db-9340-cea898b0ff28', 'KANJI', '外');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('05f754d9-f497-54db-9340-cea898b0ff28', '4d8c0d7e-0108-520d-80c3-f6622ea22a80', '21aef3e7-4a03-51e6-b1b1-ee60aef5a188', '36138a4d-90bf-547d-b61b-aa8bf6b7d808', NULL, '3fe8d892-1720-5949-a8f6-8b52bf404a98');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('05f754d9-f497-54db-9340-cea898b0ff28', 'DUO_01_03');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('05f754d9-f497-54db-9340-cea898b0ff28', 'DUO_U02');
 -- 納豆 | fermented soybeans --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('3cae06c0-447c-5b59-b04b-4c5036c5ce20', 'NOUN', NULL, NULL, 315, '{food}', '2022-08-12');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('7772ec31-d7a4-550a-9a37-44ad689ec2c7', '3cae06c0-447c-5b59-b04b-4c5036c5ce20', 1, 'fermented soybeans');
@@ -2457,6 +2561,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('05590d02-c7dc-5fb3-a55f-c4359b260195', '3cae06c0-447c-5b59-b04b-4c5036c5ce20', 'KANJI', '納豆');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('3cae06c0-447c-5b59-b04b-4c5036c5ce20', '7772ec31-d7a4-550a-9a37-44ad689ec2c7', '44fc2cd3-dbc5-582b-8a6c-3f0eb0fe359d', 'd65fc2f7-98af-5204-82f9-24f6265a8184', NULL, '05590d02-c7dc-5fb3-a55f-c4359b260195');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('3cae06c0-447c-5b59-b04b-4c5036c5ce20', 'DUO_01_04');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('3cae06c0-447c-5b59-b04b-4c5036c5ce20', 'DUO_U02');
 -- 風 | wind; breeze; draft --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('1a0c8160-c588-508a-bcbc-c3bf3bdbb0fe', 'NOUN', NULL, 5, 316, '{}', '2022-08-12');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('3e214373-265b-5d86-8594-2ba44f9c72ce', '1a0c8160-c588-508a-bcbc-c3bf3bdbb0fe', 1, 'wind; breeze; draft');
@@ -2465,6 +2570,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('c27257b5-7cfe-5678-9655-0f6cc3ada227', '1a0c8160-c588-508a-bcbc-c3bf3bdbb0fe', 'KANJI', '風');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('1a0c8160-c588-508a-bcbc-c3bf3bdbb0fe', '3e214373-265b-5d86-8594-2ba44f9c72ce', '5c67e81b-5f50-5b24-a5d9-527ae1d6e88d', 'f5849a92-f845-53a3-a85d-dd52a2ff518b', NULL, 'c27257b5-7cfe-5678-9655-0f6cc3ada227');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('1a0c8160-c588-508a-bcbc-c3bf3bdbb0fe', 'DUO_01_04');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('1a0c8160-c588-508a-bcbc-c3bf3bdbb0fe', 'DUO_U02');
 -- 地図 | map --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('86e894b7-ebf2-5e8e-991e-54ebd19f764d', 'NOUN', NULL, 5, 317, '{}', '2022-08-12');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('bcdffa0f-e9dc-5c56-adb6-7bf6b2a2e639', '86e894b7-ebf2-5e8e-991e-54ebd19f764d', 1, 'map');
@@ -2473,6 +2579,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('a35748f4-6346-5400-a2eb-7f1a0013bfe2', '86e894b7-ebf2-5e8e-991e-54ebd19f764d', 'KANJI', '地図');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('86e894b7-ebf2-5e8e-991e-54ebd19f764d', 'bcdffa0f-e9dc-5c56-adb6-7bf6b2a2e639', '41cf25cc-76db-5ada-9a09-f46aebb944c4', '1f2a5438-7f15-5c4a-ad0a-b0e35519d0a3', NULL, 'a35748f4-6346-5400-a2eb-7f1a0013bfe2');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('86e894b7-ebf2-5e8e-991e-54ebd19f764d', 'DUO_01_04');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('86e894b7-ebf2-5e8e-991e-54ebd19f764d', 'DUO_U02');
 -- 果物 | fruit --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('7f320ae8-3952-5727-a45e-4c5535a79533', 'NOUN', NULL, 5, 318, '{food}', '2022-08-12');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('4ef329ba-28eb-50ca-bf23-38cf046e44db', '7f320ae8-3952-5727-a45e-4c5535a79533', 1, 'fruit');
@@ -2481,6 +2588,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('296dd3b0-a94a-5d10-b306-2851bc54c319', '7f320ae8-3952-5727-a45e-4c5535a79533', 'KANJI', '果物');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('7f320ae8-3952-5727-a45e-4c5535a79533', '4ef329ba-28eb-50ca-bf23-38cf046e44db', '4cbf8dac-8dce-531c-aaf3-443cbb8856ed', '282c1ecc-0730-5795-b35c-da3768caaa19', NULL, '296dd3b0-a94a-5d10-b306-2851bc54c319');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('7f320ae8-3952-5727-a45e-4c5535a79533', 'DUO_01_04');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('7f320ae8-3952-5727-a45e-4c5535a79533', 'DUO_U02');
 -- 切符 | ticket --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('efc7ae30-059c-5579-9e95-1e53594af9ed', 'NOUN', NULL, 5, 319, '{}', '2022-08-12');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('32752108-5557-5fcd-b8f6-5da6d5883146', 'efc7ae30-059c-5579-9e95-1e53594af9ed', 1, 'ticket');
@@ -2489,6 +2597,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('edfd808f-3f55-550c-911e-1b64c14ef75d', 'efc7ae30-059c-5579-9e95-1e53594af9ed', 'KANJI', '切符');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('efc7ae30-059c-5579-9e95-1e53594af9ed', '32752108-5557-5fcd-b8f6-5da6d5883146', '34c4ad9a-5f13-576a-8719-d371f670b2da', '0f152cc9-d83e-5936-a447-68d8da71f652', NULL, 'edfd808f-3f55-550c-911e-1b64c14ef75d');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('efc7ae30-059c-5579-9e95-1e53594af9ed', 'DUO_01_04');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('efc7ae30-059c-5579-9e95-1e53594af9ed', 'DUO_U02');
 -- ゲーム | game --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('038bec1a-765f-42b2-905d-28004fd829a3', 'NOUN', NULL, 3, 320, '{activity}', '2022-08-10');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('cc89a910-26af-581e-8289-34fb385a5d7c', '038bec1a-765f-42b2-905d-28004fd829a3', 1, 'game');
