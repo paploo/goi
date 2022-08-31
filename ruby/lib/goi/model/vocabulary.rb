@@ -9,9 +9,16 @@ module Goi
       # This ties together the various stand-alone
       class Linkages
 
-        def self.wrap(attributes)
-          new(**attributes)
-        end
+        ATTRIBUTES = [
+          :vocabulary,
+          :preferred_definition,
+          :preferred_spelling,
+          :phonetic_spelling,
+          :alt_phonetic_spelling,
+          :kanji_spelling
+        ].freeze
+
+        def self.attributes = ATTRIBUTES
 
         def initialize(vocabulary:,
                        preferred_definition:,
@@ -26,11 +33,15 @@ module Goi
           @alt_phonetic_spelling = alt_phonetic_spelling
           @kanji_spelling = kanji_spelling
 
-          #TODO: Rw-enable after prototyping
-          #raise ArgumentError, "One or more links don't go with the given vocabulary" unless links_valid?
+          raise ArgumentError, "One or more links don't go with the given vocabulary" unless links_valid?
         end
 
         attr_reader :vocabulary, :preferred_definition, :preferred_spelling, :phonetic_spelling, :alt_phonetic_spelling, :kanji_spelling
+
+        def copy(**props)
+          args = self.class.attributes.map { |p| [p, props.fetch(p, send(p))] }.to_h
+          self.class.new(**args)
+        end
 
         private
 
@@ -44,7 +55,7 @@ module Goi
           optional_validity = [
             alt_phonetic_spelling&.vocabulary_id,
             kanji_spelling&.vocabulary_id
-          ].all? {|id| id.nil? || id == vocabulary.id }
+          ].all? { |id| id.nil? || id == vocabulary.id }
 
           required_validity && optional_validity
         end
@@ -56,9 +67,16 @@ module Goi
 
         UUID5_NAMESPACE = UUIDTools::UUID.parse('6228ddd3-7a0f-47e0-9bea-a15a0f491ca4').to_s
 
-        def self.wrap(attributes)
-          new(**attributes)
-        end
+        ATTRIBUTES = [
+          :id,
+          :word_class_code,
+          :conjugation_kind_code,
+          :jlpt_level,
+          :row_num,
+          :date_added,
+          :tags,
+          :lesson_codes
+        ].freeze
 
         # If no arguments are given, a Random UUID is assigned.
         # If argumetns are given, they are combined to make a predictable ID.
@@ -71,6 +89,8 @@ module Goi
             UUIDTools::UUID.sha1_create(ns, name).to_s
           end
         end
+
+        def self.attributes = ATTRIBUTES
 
         def initialize(id: nil,
                        word_class_code:,
@@ -92,8 +112,9 @@ module Goi
 
         attr_reader :id, :word_class_code, :conjugation_kind_code, :jlpt_level, :row_num, :date_added, :tags, :lesson_codes
 
-        def to_h
-          { id:, word_class_code:, conjugation_kind_code:, jlpt_level:, row_num:, date_added:, tags:, lesson_codes: }
+        def copy(**props)
+          args = self.class.attributes.map { |p| [p, props.fetch(p, send(p))] }.to_h
+          self.class.new(**args)
         end
 
       end
@@ -103,17 +124,22 @@ module Goi
 
         UUID5_NAMESPACE = UUIDTools::UUID.parse('c7812647-678a-4bf5-bed3-b33fe499469c').to_s
 
+        ATTRIBUTES = [
+          :id,
+          :vocabulary_id,
+          :value,
+          :sort_rank
+        ].freeze
+
         def self.create_id(vocabulary_id:, linkage_field:)
           name = [vocabulary_id, linkage_field].map(&:to_s).join('|')
           ns = UUIDTools::UUID.parse(UUID5_NAMESPACE)
           UUIDTools::UUID.sha1_create(ns, name).to_s
         end
 
-        def self.wrap(attributes)
-          new(**attributes)
-        end
+        def self.attributes = ATTRIBUTES
 
-        def initialize(id:,vocabulary_id:, value:, sort_rank: 1)
+        def initialize(id:, vocabulary_id:, value:, sort_rank: 1)
           @id = id || raise(ArgumentError, "ID required")
           @vocabulary_id = vocabulary_id
           @value = value
@@ -122,8 +148,9 @@ module Goi
 
         attr_reader :id, :vocabulary_id, :value, :sort_rank
 
-        def to_h
-          { id:, vocabulary_id:, value:, sort_rank: }
+        def copy(**props)
+          args = self.class.attributes.map { |p| [p, props.fetch(p, send(p))] }.to_h
+          self.class.new(**args)
         end
 
       end
@@ -133,6 +160,13 @@ module Goi
 
         UUID5_NAMESPACE = UUIDTools::UUID.parse('546a4b2c-6b83-4fe9-902e-7c7ade990930').to_s
 
+        ATTRIBUTES = [
+          :id,
+          :vocabulary_id,
+          :spelling_kind_code,
+          :value
+        ].freeze
+
         # Create an ID that is consistent for the linkage position.
         # This makes database syncing scripts a LOT easier to manage.
         def self.create_id(vocabulary_id:, linkage_field:)
@@ -141,11 +175,9 @@ module Goi
           UUIDTools::UUID.sha1_create(ns, name).to_s
         end
 
-        def self.wrap(attributes)
-          new(**attributes)
-        end
+        def self.attributes = ATTRIBUTES
 
-        def initialize(id:,vocabulary_id:, spelling_kind_code:, value:)
+        def initialize(id:, vocabulary_id:, spelling_kind_code:, value:)
           @id = id || raise(ArgumentError, "ID required")
           @vocabulary_id = vocabulary_id
           @spelling_kind_code = spelling_kind_code
@@ -154,8 +186,9 @@ module Goi
 
         attr_reader :id, :vocabulary_id, :spelling_kind_code, :value
 
-        def to_h
-          { id:, vocabulary_id:, spelling_kind_code:, value: }
+        def copy(**props)
+          args = self.class.attributes.map { |p| [p, props.fetch(p, send(p))] }.to_h
+          self.class.new(**args)
         end
 
       end

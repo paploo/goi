@@ -1,0 +1,13 @@
+module Goi
+  module Transformer
+    class BaseTransformer
+
+      def initialize: (config: Config) -> void
+
+      attr_reader config: Config
+
+      def transform: (linkages: [Model::Vocabulary::Linkages]) -> [Model::Vocabulary::Linkages]
+
+    end
+  end
+end
