@@ -19,7 +19,7 @@ module Goi
       def flat_map_lesson_codes(lesson_codes)
         lesson_codes.flat_map do |lesson_code|
           duo_lesson_code?(lesson_code) ? [map_legacy_code(lesson_code), lesson_code] : [lesson_code]
-        end
+        end.uniq
       end
 
       def duo_lesson_code?(lesson_code) = lesson_code =~ LEGACY_DUO_LESSON_CODE_REGEX
