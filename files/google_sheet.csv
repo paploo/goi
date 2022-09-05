@@ -164,7 +164,7 @@ one,一,いち,,一,NOUN,,5,{GENKI3_L02},{number},c007b505-323f-5517-8353-ed093d
 two,二,に,,二,NOUN,,5,{GENKI3_L02},{number},8873834d-7358-505d-a93b-7782dbd00024,163,2022-05-30
 three,三,さん,,三,NOUN,,5,{GENKI3_L02},{number},0f9e7c25-4cfa-5186-a893-0f59b7e34745,164,2022-05-30
 four,四,よん,し,四,NOUN,,5,{GENKI3_L02},{number},59d58d35-f0f2-5535-8404-8cb786e2c830,165,2022-05-30
-five,ご,ご,,,NOUN,,5,{GENKI3_L02},{number},82339058-2123-58a8-93dc-b1c0b05cdae8,166,2022-05-30
+five,五,ご,,五,NOUN,,5,{GENKI3_L02},{number},82339058-2123-58a8-93dc-b1c0b05cdae8,166,2022-05-30
 six,六,六,,六,NOUN,,5,{GENKI3_L02},{number},e469a7d8-cfad-5a85-ba5c-cb1d0c8ca1b0,167,2022-05-30
 seven,七,なな,しち,七,NOUN,,5,{GENKI3_L02},{number},49ab0509-4a86-552d-975b-fc49e74790d4,168,2022-05-30
 eight,八,はち,,八,NOUN,,5,{GENKI3_L02},{number},6d9b3812-644e-5890-94cc-09a2fd01a30a,169,2022-05-30
@@ -223,25 +223,25 @@ to study,勉強する,べんきょうする,,勉強する,VERB,IRREGULAR_VERB,5,
 yes,ええ,ええ,,,EXPRESSION,,5,{GENKI3_L03},,6e231f76-5724-5b3c-acfc-cdee6e2eb3a6,222,2022-07-24
 good,いい,いい,,,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L03},,349836a3-2523-5f85-a7c1-f85e49c73f27,223,2022-07-24
 early,早い,はやい,,早い,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L03},,fc5427a3-a54b-5c04-8b36-a570b8e7a72b,224,2022-07-24
-not much,あまり + negative,あまり,,,ADVERB,,5,{GENKI3_L03},,311f8bec-e54c-5317-8880-dfd3e39d23a7,225,2022-07-24
-not at all,全然 + negative,ぜんぜん,,全然 + negative,ADVERB,,3,{GENKI3_L03},,1e68ea18-9d69-5761-a463-510eab20d1d3,226,2022-07-24
+not much,あまり,あまり,,,ADVERB,,5,{GENKI3_L03},,311f8bec-e54c-5317-8880-dfd3e39d23a7,225,2022-07-24
+not at all,全然,ぜんぜん,,全然,ADVERB,,3,{GENKI3_L03},,1e68ea18-9d69-5761-a463-510eab20d1d3,226,2022-07-24
 usually,たいてい,たいてい,,大抵,ADVERB,,4,{GENKI3_L03},,818210e0-641a-56f3-9241-7d24504480e2,227,2022-07-24
-a little,ちょっと,ちょっと,,,ADVERB,,5,{GENKI3_L03},,b8b492d0-5612-5ac1-bb4d-15f03e959c89,228,2022-07-24
+a little,ちょっと,ちょっと,,一寸,ADVERB,,5,{GENKI3_L03},,b8b492d0-5612-5ac1-bb4d-15f03e959c89,228,2022-07-24
 sometimes,時々,ときどき,,時々,ADVERB,,5,{GENKI3_L03},,02115b33-cd19-587a-a3f2-446dea254e33,229,2022-07-24
-often; much,よく,よく,,,ADVERB,,,{GENKI3_L03},,d7dc5e63-a1ca-58e6-9c31-047e23342953,230,2022-07-24
+often; much,よく,よく,,良く,ADVERB,,,{GENKI3_L03},,d7dc5e63-a1ca-58e6-9c31-047e23342953,230,2022-07-24
 that's so; isn't it?,そうですね,そうですね,,,EXPRESSION,,,{GENKI3_L03},,31df08c1-4538-5a5f-aa61-af9e88805bd5,231,2022-07-24
 but,でも,でも,,,CONJUNCTION,,5,{GENKI3_L03},,7d85fe8c-2226-573f-a219-0f2def303b50,232,2022-07-24
 "How about...?, How is...?",どうてすか,どうてすか,,,EXPRESSION,,,{GENKI3_L03},,4fe504e0-3bf5-5480-98e6-5e626dddc417,233,2022-07-24
-everyone; everybody,みんな,みんな,,,NOUN,,5,,,50ec881b-73e0-502b-8316-3d67e8dababb,234,2022-07-24
+everyone; everybody,みんな,みんな,,皆,NOUN,,5,,,50ec881b-73e0-502b-8316-3d67e8dababb,234,2022-07-24
 i'm okay; no problem,大丈夫,だいじょうぶ,,大丈夫,EXPRESSION,,5,,,f5f775ad-523f-5888-b269-fcb13c1c1051,235,2022-07-24
 I'm okay; no thank you; it's all right,大丈夫です,だいじょうぶです,,大丈夫です,EXPRESSION,,,,,6ae314ed-22ae-5a5f-8e43-c5165e6eb3a1,236,2022-07-24
 little quantity; few,少し,すこし,,少し,ADVERB,,5,,,8640d0ab-1efc-5b18-a49c-564f8e53d65c,237,2022-07-24
-"again, once more; also, too, as well",また,また,,,ADVERB,,5,,,ecb81156-ea05-44c8-bea0-9e5c199c1c4b,238,2022-08-08
+"again, once more; also, too, as well",また,また,,又,ADVERB,,5,,,ecb81156-ea05-44c8-bea0-9e5c199c1c4b,238,2022-08-08
 bye; see you later,またね,またね,,,INTERJECTION,,,,,820e130a-a772-413e-a754-d1a0021bbcf5,239,2022-08-08
 bye; see you,じゃね,じゃあね,じゃね,,INTERJECTION,,,,,82223749-3af6-4348-b0f0-a0addad0ddf2,240,2022-08-08
 "congratulations, well done, best wishes",おめでとう,おめでとう,,,INTERJECTION,,3,,,f64a8d64-a48c-5f1e-b7f0-e9e805646472,241,2022-08-08
 to persist; to do one's best; to keep at it,頑張る,がんばる,,頑張る,VERB,GODAN_VERB,,,,a8f00f2e-c5dc-58d6-8225-376fbd35544f,242,2022-08-12
-like,好き,すき,,,ADJECTIVE,NA_ADJECTIVE,5,"{DUO_01_02,DUO_U01}",,dbecb5a9-82dd-5c17-ba84-c7887cf58ce8,243,2022-08-12
+like,好き,すき,,好き,ADJECTIVE,NA_ADJECTIVE,5,"{DUO_01_02,DUO_U01}",,dbecb5a9-82dd-5c17-ba84-c7887cf58ce8,243,2022-08-12
 thump-thump; to beat fast,ドキドキ,どきどき,,,ADVERB,,2,,,9723a3d5-9c7a-5674-a377-5d5c1220438d,244,2022-08-12
 spring,春,はる,,春,NOUN,,5,,{season},114b67a6-53f1-58a1-bacd-29661af2a808,245,2022-08-12
 summer,夏,なつ,,夏,NOUN,,5,"{DUO_01_02,DUO_U01}",{season},cd1adf28-7497-5c5f-ab0f-ecfaedc6e345,246,2022-08-12
@@ -326,7 +326,7 @@ part-time job,アルバイト,あればいと,,,NOUN,,4,{GENKI3_L04},{activity},
 part-time job (colloquial),バイト,ばいと,,,NOUN,,,{GENKI3_L04},{activity},8509b44f-d5d4-437f-a845-aae915c292dc,325,2022-08-10
 shopping,買い物,かいもの,,買い物,NOUN,,5,{GENKI3_L04},{activity},a024bfb6-a9ef-4690-904a-d8fa02367ed3,326,2022-08-10
 class,クラス,くらす,,,NOUN,,5,{GENKI3_L04},{activity},c52c9908-d959-404c-a8f8-161c2663e84e,327,2022-08-10
-person,人,人,,,NOUN,,5,{GENKI3_L04},,624914ad-ed17-40f2-9260-e70c69962692,328,2022-08-10
+person,人,ひと,,人,NOUN,,5,{GENKI3_L04},,624914ad-ed17-40f2-9260-e70c69962692,328,2022-08-10
 child,子供,こども,,子供,NOUN,,5,{GENKI3_L04},,399bbf9b-f7e7-429c-8874-42e0bf5cae9e,329,2022-08-10
 picture; photograph,写真,しゃしん,,写真,NOUN,,5,{GENKI3_L04},,e63daade-a22a-4554-a061-4077691692ee,330,2022-08-10
 flower,花,はな,,はな,NOUN,,5,{GENKI3_L04},,8b29a67e-61cf-494a-972a-5d59944a53d6,331,2022-08-10
@@ -352,7 +352,7 @@ Friday,金曜日,きんようび,,金曜日,NOUN,,5,{GENKI3_L04},{time},1ecc5944
 there exists...,いる,いる,,,VERB,ICHIDAN_VERB,5,{GENKI3_L04},{to_be_verb},8728a06a-1e5b-436b-939a-b1d96a7d9f79,351,2022-08-10
 there is...,ある,ある,,,VERB,GODAN_VERB,5,{GENKI3_L04},{to_be_verb},a4025eed-7054-4b18-b8ce-c90bc7ed6b00,352,2022-08-10
 to meet; to see a person,会う,あう,,会う,VERB,GODAN_VERB,5,{GENKI3_L04},,a7c68ed2-5f08-4411-9030-42347f7d571f,353,2022-08-10
-to buy; to purchase,買う,かう,,かう,VERB,GODAN_VERB,5,{GENKI3_L04},,1e617d48-2df2-4c74-b732-89783d176db9,354,2022-08-10
+to buy; to purchase,買う,かう,,買う,VERB,GODAN_VERB,5,{GENKI3_L04},,1e617d48-2df2-4c74-b732-89783d176db9,354,2022-08-10
 to write,書く,かく,,書く,VERB,GODAN_VERB,5,{GENKI3_L04},,1629794a-84d2-44f3-b05b-89bcb817152a,355,2022-08-10
 to take (a photograph),撮る,とる,,撮る,VERB,GODAN_VERB,5,{GENKI3_L04},,ab8ef931-7703-4d80-9272-bbc453f19b69,356,2022-08-10
 to wait,待つ,まつ,,待つ,VERB,GODAN_VERB,5,{GENKI3_L04},,7e09edbb-c75f-4ee4-8006-89ac3deea1d0,357,2022-08-10
@@ -362,15 +362,15 @@ excuse me,すみません,すみません,,済みません,EXPRESSION,,3,,,9ec6f
 sorry,ごめん,ごめん,,,INTERJECTION,,2,,,7d011295-e767-462a-85a9-8f5fab4883b8,361,2022-08-10
 I'm deeply sorry sorry,ごめんなさい,ごめんなさい,,,EXPRESSION,,3,{GENKI3_L04},,46ba5ddd-9d1f-4bc0-982e-a67e7bb4b307,362,2022-08-10
 and then,それから,それから,,,EXPRESSION,,5,{GENKI3_L04},,7ded3290-23fd-4091-83c5-560563afeed3,363,2022-08-10
-so; therefore,だかる,だから,,,CONJUNCTION,,4,{GENKI3_L04},,3fd6bcdf-d9e5-4cc9-8aab-46e121e4c86a,364,2022-08-10
-many; a lot,たくさん,たくさん,,,NOUN,,5,{GENKI3_L04},,10eece8b-4102-41c5-9532-e62246da60e2,365,2022-08-10
+so; therefore,だから,だから,,,CONJUNCTION,,4,{GENKI3_L04},,3fd6bcdf-d9e5-4cc9-8aab-46e121e4c86a,364,2022-08-10
+many; a lot,たくさん,たくさん,,沢山,NOUN,,5,{GENKI3_L04},,10eece8b-4102-41c5-9532-e62246da60e2,365,2022-08-10
 together with (a person); and,〜と,と,,,CONJUNCTION,,3,{GENKI3_L04},,d097a029-96a6-4cfe-936e-9f815b368de3,366,2022-08-10
 why; how,どうして,どうして,,,ADVERB,,5,{GENKI3_L04},,f439afe8-6382-4017-b594-de82a2d090e6,367,2022-08-10
-alone,一人で,一人で,,,EXPRESSION,,,{GENKI3_L04},,0839c0a5-e217-465a-9b68-64994b80b119,368,2022-08-10
+alone,一人で,ひとりで,,一人で,EXPRESSION,,,{GENKI3_L04},,0839c0a5-e217-465a-9b68-64994b80b119,368,2022-08-10
 hello? (phone),もしもし,もしもし,,,EXPRESSION,,,{GENKI3_L04},,82698354-a810-410e-a0c2-e2e9e391e7bc,369,2022-08-10
 right,右,みぎ,,右,NOUN,,5,{GENKI3_L04},{location},83d209ab-6760-5b3f-945c-f82a55d9bcc1,370,2022-08-10
 left,左,ひだり,,左,NOUN,,5,{GENKI3_L04},{location},92a12133-28d1-5327-b9b9-db5c7d58fcdb,371,2022-08-10
-front,前,まえ,,まえ,NOUN,,5,{GENKI3_L04},{location},8c4152ae-6000-57f5-8244-ac48a99f7e20,372,2022-08-10
+front,前,まえ,,前,NOUN,,5,{GENKI3_L04},{location},8c4152ae-6000-57f5-8244-ac48a99f7e20,372,2022-08-10
 back,後ろ,うしろ,,後ろ,NOUN,,5,{GENKI3_L04},{location},5abdcbf7-54bd-541a-be8b-e2aac1a36bf2,373,2022-08-10
 inside,中,なか,,中,NOUN,,5,{GENKI3_L04},{location},e37a40e2-6a4c-5046-9054-71bd174159cf,374,2022-08-10
 on,上,うえ,,上,NOUN,,5,{GENKI3_L04},{location},b7339af2-316c-551b-a5da-cb03d2ef2392,375,2022-08-10

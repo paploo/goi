@@ -164,7 +164,7 @@ c007b505-323f-5517-8353-ed093d1571de,one,一,いち,noun,,5,2022-05-30,162,GENKI
 8873834d-7358-505d-a93b-7782dbd00024,two,二,に,noun,,5,2022-05-30,163,GENKI3_L02,number noun genki3-l02
 0f9e7c25-4cfa-5186-a893-0f59b7e34745,three,三,さん,noun,,5,2022-05-30,164,GENKI3_L02,number noun genki3-l02
 59d58d35-f0f2-5535-8404-8cb786e2c830,four,四,よん／し,noun,,5,2022-05-30,165,GENKI3_L02,number noun genki3-l02
-82339058-2123-58a8-93dc-b1c0b05cdae8,five,ご,ご,noun,,5,2022-05-30,166,GENKI3_L02,number noun genki3-l02
+82339058-2123-58a8-93dc-b1c0b05cdae8,five,五,ご,noun,,5,2022-05-30,166,GENKI3_L02,number noun genki3-l02
 e469a7d8-cfad-5a85-ba5c-cb1d0c8ca1b0,six,六,六,noun,,5,2022-05-30,167,GENKI3_L02,number noun genki3-l02
 49ab0509-4a86-552d-975b-fc49e74790d4,seven,七,なな／しち,noun,,5,2022-05-30,168,GENKI3_L02,number noun genki3-l02
 6d9b3812-644e-5890-94cc-09a2fd01a30a,eight,八,はち,noun,,5,2022-05-30,169,GENKI3_L02,number noun genki3-l02
@@ -223,8 +223,8 @@ bd0e8ffa-f7cd-5b27-8481-6ecb87512f6c,to get up,起きる,おきる,verb,ichidan 
 6e231f76-5724-5b3c-acfc-cdee6e2eb3a6,yes,ええ,ええ,expression,,5,2022-07-24,222,GENKI3_L03,expression genki3-l03
 349836a3-2523-5f85-a7c1-f85e49c73f27,good,いい,いい,adjective,i adjective,5,2022-07-24,223,GENKI3_L03,adjective i-adjective genki3-l03
 fc5427a3-a54b-5c04-8b36-a570b8e7a72b,early,早い,はやい,adjective,i adjective,5,2022-07-24,224,GENKI3_L03,adjective i-adjective genki3-l03
-311f8bec-e54c-5317-8880-dfd3e39d23a7,not much,あまり + negative,あまり,adverb,,5,2022-07-24,225,GENKI3_L03,adverb genki3-l03
-1e68ea18-9d69-5761-a463-510eab20d1d3,not at all,全然 + negative,ぜんぜん,adverb,,3,2022-07-24,226,GENKI3_L03,adverb genki3-l03
+311f8bec-e54c-5317-8880-dfd3e39d23a7,not much,あまり,あまり,adverb,,5,2022-07-24,225,GENKI3_L03,adverb genki3-l03
+1e68ea18-9d69-5761-a463-510eab20d1d3,not at all,全然,ぜんぜん,adverb,,3,2022-07-24,226,GENKI3_L03,adverb genki3-l03
 818210e0-641a-56f3-9241-7d24504480e2,usually,たいてい,たいてい,adverb,,4,2022-07-24,227,GENKI3_L03,adverb genki3-l03
 b8b492d0-5612-5ac1-bb4d-15f03e959c89,a little,ちょっと,ちょっと,adverb,,5,2022-07-24,228,GENKI3_L03,adverb genki3-l03
 02115b33-cd19-587a-a3f2-446dea254e33,sometimes,時々,ときどき,adverb,,5,2022-07-24,229,GENKI3_L03,adverb genki3-l03
@@ -326,7 +326,7 @@ efc7ae30-059c-5579-9e95-1e53594af9ed,ticket,切符,きっぷ,noun,,5,2022-08-12,
 8509b44f-d5d4-437f-a845-aae915c292dc,part-time job (colloquial),バイト,ばいと,noun,,,2022-08-10,325,GENKI3_L04,activity noun genki3-l04
 a024bfb6-a9ef-4690-904a-d8fa02367ed3,shopping,買い物,かいもの,noun,,5,2022-08-10,326,GENKI3_L04,activity noun genki3-l04
 c52c9908-d959-404c-a8f8-161c2663e84e,class,クラス,くらす,noun,,5,2022-08-10,327,GENKI3_L04,activity noun genki3-l04
-624914ad-ed17-40f2-9260-e70c69962692,person,人,人,noun,,5,2022-08-10,328,GENKI3_L04,noun genki3-l04
+624914ad-ed17-40f2-9260-e70c69962692,person,人,ひと,noun,,5,2022-08-10,328,GENKI3_L04,noun genki3-l04
 399bbf9b-f7e7-429c-8874-42e0bf5cae9e,child,子供,こども,noun,,5,2022-08-10,329,GENKI3_L04,noun genki3-l04
 e63daade-a22a-4554-a061-4077691692ee,picture; photograph,写真,しゃしん,noun,,5,2022-08-10,330,GENKI3_L04,noun genki3-l04
 8b29a67e-61cf-494a-972a-5d59944a53d6,flower,花,はな,noun,,5,2022-08-10,331,GENKI3_L04,noun genki3-l04
@@ -362,11 +362,11 @@ ab8ef931-7703-4d80-9272-bbc453f19b69,to take (a photograph),撮る,とる,verb,g
 7d011295-e767-462a-85a9-8f5fab4883b8,sorry,ごめん,ごめん,interjection,,2,2022-08-10,361,,interjection
 46ba5ddd-9d1f-4bc0-982e-a67e7bb4b307,I'm deeply sorry sorry,ごめんなさい,ごめんなさい,expression,,3,2022-08-10,362,GENKI3_L04,expression genki3-l04
 7ded3290-23fd-4091-83c5-560563afeed3,and then,それから,それから,expression,,5,2022-08-10,363,GENKI3_L04,expression genki3-l04
-3fd6bcdf-d9e5-4cc9-8aab-46e121e4c86a,so; therefore,だかる,だから,conjunction,,4,2022-08-10,364,GENKI3_L04,conjunction genki3-l04
+3fd6bcdf-d9e5-4cc9-8aab-46e121e4c86a,so; therefore,だから,だから,conjunction,,4,2022-08-10,364,GENKI3_L04,conjunction genki3-l04
 10eece8b-4102-41c5-9532-e62246da60e2,many; a lot,たくさん,たくさん,noun,,5,2022-08-10,365,GENKI3_L04,noun genki3-l04
 d097a029-96a6-4cfe-936e-9f815b368de3,together with (a person); and,〜と,と,conjunction,,3,2022-08-10,366,GENKI3_L04,conjunction genki3-l04
 f439afe8-6382-4017-b594-de82a2d090e6,why; how,どうして,どうして,adverb,,5,2022-08-10,367,GENKI3_L04,adverb genki3-l04
-0839c0a5-e217-465a-9b68-64994b80b119,alone,一人で,一人で,expression,,,2022-08-10,368,GENKI3_L04,expression genki3-l04
+0839c0a5-e217-465a-9b68-64994b80b119,alone,一人で,ひとりで,expression,,,2022-08-10,368,GENKI3_L04,expression genki3-l04
 82698354-a810-410e-a0c2-e2e9e391e7bc,hello? (phone),もしもし,もしもし,expression,,,2022-08-10,369,GENKI3_L04,expression genki3-l04
 83d209ab-6760-5b3f-945c-f82a55d9bcc1,right,右,みぎ,noun,,5,2022-08-10,370,GENKI3_L04,location noun genki3-l04
 92a12133-28d1-5327-b9b9-db5c7d58fcdb,left,左,ひだり,noun,,5,2022-08-10,371,GENKI3_L04,location noun genki3-l04
