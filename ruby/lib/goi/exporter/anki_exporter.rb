@@ -11,6 +11,7 @@ module Goi
         'definition',
         'preferred_spelling',
         'phonetic_spelling',
+        'alt_spelling',
         'word_class',
         'conjugation_kind',
         'jlpt_level',
@@ -46,6 +47,7 @@ module Goi
           linkage.preferred_definition.value,
           linkage.preferred_spelling.value,
           phonetic_spelling_field(linkage),
+          alt_spelling_field(linkage),
           linkage.vocabulary.word_class_code.then { |c| humanize_const(c) },
           linkage.vocabulary.conjugation_kind_code&.then { |c| humanize_const(c) },
           linkage.vocabulary.jlpt_level&.to_s,
@@ -61,6 +63,13 @@ module Goi
           linkage.phonetic_spelling.value,
           linkage.alt_phonetic_spelling&.value
         ].compact.uniq.join('／')
+      end
+
+      def alt_spelling_field(linkage)
+        kanji_sp = linkage.kanji_spelling&.value
+        pref_sp = linkage.preferred_spelling.value
+        # Make Anki card only if it differs from the preferred spelling.
+        kanji_sp != pref_sp ? kanji_sp : nil
       end
 
       def tags_field(vocabulary)

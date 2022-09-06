@@ -19,6 +19,8 @@ module Goi
 
       def phonetic_spelling_field: (Model::Vocabulary::Linkages linkage) -> String
 
+      def alt_spelling_field: (Model::Vocabulary::Linkages linkage) -> String?
+
       def tags_field: (Model::Vocabulary::Vocabulary vocabulary) -> String?
 
       def to_array_field: ([untyped] array) -> String?
