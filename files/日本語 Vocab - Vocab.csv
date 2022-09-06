@@ -13,7 +13,7 @@ Please go and come back,いってらっしゃい,いってらっしゃい,,,EXPR
 I'm home,ただいま,ただいま,,,EXPRESSION,,,{GENKI3_L00},{greeting},c2a4dbcf-dba1-5e27-964f-5e2f7b358725,12,2022-04-24
 Welcome home,お帰り,おかえり,,お帰り,EXPRESSION,,2,{GENKI3_L00},{greeting},b06abb09-c9bd-5beb-a7b7-d184bedf72ca,13,2022-04-24
 Welcome home (polite),お帰りなさい,おかえりなさい,,お帰りなさい,EXPRESSION,,,{GENKI3_L00},{greeting},47b08527-885b-50bb-b538-180dc308199a,14,2022-04-24
-Thank you for the meal (before),頂きます,いただきます,,頂きます,EXPRESSION,,3,{GENKI3_L00},{greeting},797b03e3-1495-52c0-baf4-ffb9cb324089,15,2022-04-24
+Thank you for the meal (before),いただきます,いただきます,,頂きます,EXPRESSION,,3,{GENKI3_L00},{greeting},797b03e3-1495-52c0-baf4-ffb9cb324089,15,2022-04-24
 Thank you for the meal (after),ごちそうさま,ごちそうさま,,,EXPRESSION,,2,{GENKI3_L00},{greeting},59bad243-8b31-54f3-9d7b-6de0961bc059,16,2022-04-24
 "Thank you for the meal (after, polite)",ごちそうさまでした,ごちそうさまでした,,,EXPRESSION,,,{GENKI3_L00},{greeting},05436324-1858-5a2f-a2a1-a41d00f862cc,17,2022-04-24
 How do you do?; I am glad to meet you,はじめまして,はじめまして,,,EXPRESSION,,2,{GENKI3_L00},{greeting},136d6d6d-0487-5709-ac27-2c376bfebd43,18,2022-04-24
@@ -49,9 +49,9 @@ A.M.,午前,ごぜん,,午前,NOUN,,5,"{DUO_02_03,DUO_U07,GENKI3_L01}",{time},42
 P.M.,午後,ごご,,午後,NOUN,,5,"{DUO_02_03,DUO_U07,GENKI3_L01}",{time},94611381-0488-58aa-8cf2-12ad9ff4e2dd,48,2022-04-24
 ...o'clock,〜時,〜じ,,〜時,SUFFIX,,,"{DUO_02_02,DUO_U06,GENKI3_L01}",{time},40502e18-b4ba-50b4-89b7-23fd3b4d4a21,49,2022-04-24
 half; half-past,半,はん,,半,NOUN,,5,"{DUO_02_02,DUO_U06,GENKI3_L01}",{time},5372b023-b803-551c-9a7f-f404804f63f1,50,2022-04-24
-"minute, arcminutes",~分,~ふん,~ぷん,~分,NOUN,,1,"{DUO_02_02,DUO_U06}",{time},2cf1d32f-b261-5ba6-829c-a9f1237a88d6,51,2022-04-24
+"minute, arcminutes",〜分,〜ふん,〜ぷん,〜分,NOUN,,1,"{DUO_02_02,DUO_U06}",{time},2cf1d32f-b261-5ba6-829c-a9f1237a88d6,51,2022-04-24
 "part, portion, share",分,ぶん,,分,NOUN,,3,,,db9793c1-8b7c-481c-bc77-6d36eb4afb30,52,2022-08-09
-approximately,〜ごろ,〜ごろ,,頃,NOUN,,3,"{DUO_02_03,DUO_U07}",{time},a39e794c-9682-5cd5-9c5e-dd961aa92bc5,53,2022-04-24
+approximately,〜ごろ,〜ごろ,,〜頃,NOUN,,3,"{DUO_02_03,DUO_U07}",{time},a39e794c-9682-5cd5-9c5e-dd961aa92bc5,53,2022-04-24
 exactly,ちょうど,ちょうど,,丁度,NOUN,,5,"{DUO_02_02,DUO_U06}",{time},9e67a677-9058-536e-85d6-389ea5138c86,54,2022-04-24
 zero,零,れい,,零,NOUN,,5,"{DUO_02_03,DUO_U07}","{number,time}",252852aa-aefd-504b-b671-668a33020492,55,2022-04-24
 Japan,日本,にほん,,日本,PROPER_NOUN,,3,{GENKI3_L01},"{country,place}",cc6a4913-6f39-521b-a0cf-9631f640800e,56,2022-04-24
@@ -155,7 +155,7 @@ how much,いくら,いくら,,幾ら,ADVERB,,5,{GENKI3_L02},{money},f7d4fade-03e
 expensive; high,高い,たかい,,高い,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L02},{money},dcb08e4f-eb7c-5536-bd57-ee51127a14be,154,2022-05-30
 welcome,いらっしゃいませ,いらっしゃいませ,,,EXPRESSION,,,{GENKI3_L02},,1cee44df-fc33-5279-8d09-5051e714782f,155,2022-05-30
 ...please,〜お願いします,〜おねがいします,,〜お願いします,EXPRESSION,,2,{GENKI3_L02},,845d24c6-6c7c-50f4-8dd7-450485839fa5,156,2022-05-30
-please give me...,〜ください,〜ください,,下さい,EXPRESSION,,5,"{DUO_02_01,DUO_U06,GENKI3_L02}",,fc6be215-8cf3-55b8-8a6b-0dd345852963,157,2022-05-30
+please give me...,〜ください,〜ください,,〜下さい,EXPRESSION,,5,"{DUO_02_01,DUO_U06,GENKI3_L02}",,fc6be215-8cf3-55b8-8a6b-0dd345852963,157,2022-05-30
 then...; if that is the case...,じゃあ,じゃあ,,,EXPRESSION,,5,{GENKI3_L02},,3bb29baa-6e40-5c58-93cd-2000ea1120eb,158,2022-05-30
 here it is; please go ahead; i beg of you,どうぞ,どうぞ,,,EXPRESSION,,5,{GENKI3_L02},,8dc54b41-91cb-5289-bb0b-5f4a5854fea7,159,2022-05-30
 thanks (casual),どうも,どうも,,,EXPRESSION,,5,{GENKI3_L02},,5891a34d-ba0a-5458-b42e-f82c60d27f9f,160,2022-05-30
@@ -209,7 +209,7 @@ when,いつ,いつ,,,NOUN,,5,{GENKI3_L03},{time},f05e2adf-83c4-5ccf-a74a-fbd5664
 to go,行く,いく,,行く,VERB,GODAN_VERB,5,"{DUO_02_03,DUO_U07,GENKI3_L03}",,50cbf96a-57d3-5f45-b5fc-e415ff57717a,208,2022-07-24
 to go back; to return,帰る,かえる,,帰る,VERB,GODAN_VERB,5,{GENKI3_L03},,243bdf44-b101-5d5d-bc51-a4f5c1c03bc3,209,2022-07-24
 to listen; to hear,聞く,きく,,聞く,VERB,GODAN_VERB,5,{GENKI3_L03},,27c14160-d0d6-51f8-b7b1-9172cf8b84d2,210,2022-07-24
-to drink;,飲む,のむ,,飲む,VERB,GODAN_VERB,5,"{DUO_02_03,DUO_U07,GENKI3_L03}",,b8a9c502-6f50-5d50-96f1-417feef69161,211,2022-07-24
+to drink; to swallow,飲む,のむ,,飲む,VERB,GODAN_VERB,5,"{DUO_02_03,DUO_U07,GENKI3_L03}",,b8a9c502-6f50-5d50-96f1-417feef69161,211,2022-07-24
 to speak; to talk,話す,はなす,,話す,VERB,GODAN_VERB,5,{GENKI3_L03},,87e72b5b-0332-5b61-b21c-ea8cc6a05c1f,212,2022-07-24
 to read,読む,よむ,,読む,VERB,GODAN_VERB,5,"{DUO_01_02,DUO_U01,GENKI3_L03}",,615aadf7-6900-5c48-814a-d6cc0884ae86,213,2022-07-24
 to wear,着る,きる,,着る,VERB,ICHIDAN_VERB,5,"{DUO_01_02,DUO_U01}",,184de362-74cc-5125-a9b9-8658bb577f7d,214,2022-08-12
@@ -248,7 +248,7 @@ summer,夏,なつ,,夏,NOUN,,5,"{DUO_01_02,DUO_U01}",{season},cd1adf28-7497-5c5f
 fall,秋,あき,,秋,NOUN,,5,,{season},580fd4b9-e1ae-5e7b-a257-25f2fa55a899,247,2022-08-12
 winter,冬,ふゆ,,冬,NOUN,,5,"{DUO_01_02,DUO_U01}",{season},f9e87b50-2575-5141-98c9-1d6f96fa0ade,248,2022-08-12
 white,白,しろ,,白,NOUN,,5,"{DUO_01_01,DUO_U01}",{color},300c2bc3-fa11-54b9-a12f-1f663986f8ce,249,2022-08-12
-black,黒,くろ,,くろ,NOUN,,5,,{color},48b7e73f-4a0c-56bb-8cd6-bf2ed57ed92c,250,2022-08-12
+black,黒,くろ,,黒,NOUN,,5,,{color},48b7e73f-4a0c-56bb-8cd6-bf2ed57ed92c,250,2022-08-12
 red,赤,あか,,赤,NOUN,,5,"{DUO_01_01,DUO_U01}",{color},e65aae18-dc90-5f41-aa96-e40680a12452,251,2022-08-12
 blue,青,あお,,青,NOUN,,5,"{DUO_01_01,DUO_U01}",{color},12290cb0-5c39-5b53-8353-e0404724200b,252,2022-08-12
 yellow,黄色,きいろ,,黄色,NOUN,,5,,{color},b5431148-e71a-55b1-a42f-cbf2f029c146,253,2022-08-12
@@ -284,7 +284,7 @@ flame (blaze); flame (of passion),炎,ほのお,ほむら,炎,NOUN,,3,,,2e1d445c
 fire,火,ひ,,火,NOUN,,3,{LULI_KANJI_L01},,047bba20-3388-59ec-b67c-97aeb0d3c257,283,2022-08-12
 man; male,男,おとこ,,男,NOUN,,,{LULI_KANJI_L01},,9a991eae-f1be-5494-a018-23249ea18b15,284,2022-08-12
 woman; female,女,おんあ,,女,NOUN,,,{LULI_KANJI_L01},,d74412ce-8367-5c45-919d-4d992829de66,285,2022-08-12
-child; kid,~子,こ,,子,SUFFIX,,4,{LULI_KANJI_L01},,865bd41e-4912-5b3b-97e2-d7bb548ebc54,286,2022-08-15
+child; kid,〜子,こ,,〜子,SUFFIX,,4,{LULI_KANJI_L01},,865bd41e-4912-5b3b-97e2-d7bb548ebc54,286,2022-08-15
 "confections, sweets, candy, cake",お菓子,おかし,,お菓子,NOUN,,5,,,6e4a003e-4cc6-5fb4-bd16-99b201631b2b,287,2022-08-15
 (hard) candy,飴,あめ,,飴,NOUN,,5,,,6437fff2-42a0-5909-9bf4-68dd05303d0f,288,2022-08-15
 rain,雨,あめ,,雨,NOUN,,5,{LULI_KANJI_L01},{weather},38a615c6-b9b1-5a56-8df9-f32d3423f0e2,289,2022-08-15
@@ -341,7 +341,7 @@ bokkstore,本屋,ほんや,,本屋,NOUN,,,{GENKI3_L04},{place},e0b533e8-f938-4c9
 town; city,町,まち,,町,NOUN,,5,{GENKI3_L04},{place},ddb16a7a-e9c0-4cce-ac65-ea78d074fce8,340,2022-08-10
 restaurant,レストラン,れすとらん,,,NOUN,,5,{GENKI3_L04},{place},470f29e2-10f1-4d28-9d80-d40f15fc171a,341,2022-08-10
 yesterday,昨日,きのう,,昨日,NOUN,,5,{GENKI3_L04},{time},d5575534-34bf-41fc-a7df-2ed647e61a05,342,2022-08-10
-...hours; time,〜時間,じかん,,時間,NOUN,,5,{GENKI3_L04},{time},819a835d-a6be-4c08-a364-8907b1226bbf,343,2022-08-10
+...hours; time,〜時間,じかん,,〜時間,NOUN,,5,{GENKI3_L04},{time},819a835d-a6be-4c08-a364-8907b1226bbf,343,2022-08-10
 last week,先週,せんしゅう,,先週,NOUN,,5,{GENKI3_L04},{time},30e8ffe0-74a6-411b-957d-5ee3277bd853,344,2022-08-10
 when...; at the time of...,時,とき,,時,NOUN,,3,{GENKI3_L04},{time},585f82ea-6a6a-4005-b3a6-ed57442a6ed9,345,2022-08-10
 Monday,月曜日,げつようび,,月曜日,NOUN,,5,{GENKI3_L04},{time},7e9e71f3-ca82-40b2-9190-e8df09a60b70,346,2022-08-10

@@ -13,7 +13,7 @@ e7161fcf-fbaf-5971-8adb-70745ae24103,Please go and come back,いってらっし�
 c2a4dbcf-dba1-5e27-964f-5e2f7b358725,I'm home,ただいま,ただいま,,expression,,,2022-04-24,12,GENKI3_L00,greeting expression genki3-l00
 b06abb09-c9bd-5beb-a7b7-d184bedf72ca,Welcome home,お帰り,おかえり,,expression,,2,2022-04-24,13,GENKI3_L00,greeting expression genki3-l00
 47b08527-885b-50bb-b538-180dc308199a,Welcome home (polite),お帰りなさい,おかえりなさい,,expression,,,2022-04-24,14,GENKI3_L00,greeting expression genki3-l00
-797b03e3-1495-52c0-baf4-ffb9cb324089,Thank you for the meal (before),頂きます,いただきます,,expression,,3,2022-04-24,15,GENKI3_L00,greeting expression genki3-l00
+797b03e3-1495-52c0-baf4-ffb9cb324089,Thank you for the meal (before),いただきます,いただきます,頂きます,expression,,3,2022-04-24,15,GENKI3_L00,greeting expression genki3-l00
 59bad243-8b31-54f3-9d7b-6de0961bc059,Thank you for the meal (after),ごちそうさま,ごちそうさま,,expression,,2,2022-04-24,16,GENKI3_L00,greeting expression genki3-l00
 05436324-1858-5a2f-a2a1-a41d00f862cc,"Thank you for the meal (after, polite)",ごちそうさまでした,ごちそうさまでした,,expression,,,2022-04-24,17,GENKI3_L00,greeting expression genki3-l00
 136d6d6d-0487-5709-ac27-2c376bfebd43,How do you do?; I am glad to meet you,はじめまして,はじめまして,,expression,,2,2022-04-24,18,GENKI3_L00,greeting expression genki3-l00
@@ -49,9 +49,9 @@ dce3fe6a-497c-54b2-a121-df6767084258,Now,今,いま,,noun,,5,2022-04-24,46,DUO_0
 94611381-0488-58aa-8cf2-12ad9ff4e2dd,P.M.,午後,ごご,,noun,,5,2022-04-24,48,DUO_02_03 DUO_U07 GENKI3_L01,time noun duo-02-03 duo-u07 genki3-l01
 40502e18-b4ba-50b4-89b7-23fd3b4d4a21,...o'clock,〜時,〜じ,,suffix,,,2022-04-24,49,DUO_02_02 DUO_U06 GENKI3_L01,time suffix duo-02-02 duo-u06 genki3-l01
 5372b023-b803-551c-9a7f-f404804f63f1,half; half-past,半,はん,,noun,,5,2022-04-24,50,DUO_02_02 DUO_U06 GENKI3_L01,time noun duo-02-02 duo-u06 genki3-l01
-2cf1d32f-b261-5ba6-829c-a9f1237a88d6,"minute, arcminutes",~分,~ふん／~ぷん,,noun,,1,2022-04-24,51,DUO_02_02 DUO_U06,time noun duo-02-02 duo-u06
+2cf1d32f-b261-5ba6-829c-a9f1237a88d6,"minute, arcminutes",〜分,〜ふん／〜ぷん,,noun,,1,2022-04-24,51,DUO_02_02 DUO_U06,time noun duo-02-02 duo-u06
 db9793c1-8b7c-481c-bc77-6d36eb4afb30,"part, portion, share",分,ぶん,,noun,,3,2022-08-09,52,,noun
-a39e794c-9682-5cd5-9c5e-dd961aa92bc5,approximately,〜ごろ,〜ごろ,頃,noun,,3,2022-04-24,53,DUO_02_03 DUO_U07,time noun duo-02-03 duo-u07
+a39e794c-9682-5cd5-9c5e-dd961aa92bc5,approximately,〜ごろ,〜ごろ,〜頃,noun,,3,2022-04-24,53,DUO_02_03 DUO_U07,time noun duo-02-03 duo-u07
 9e67a677-9058-536e-85d6-389ea5138c86,exactly,ちょうど,ちょうど,丁度,noun,,5,2022-04-24,54,DUO_02_02 DUO_U06,time noun duo-02-02 duo-u06
 252852aa-aefd-504b-b671-668a33020492,zero,零,れい,,noun,,5,2022-04-24,55,DUO_02_03 DUO_U07,number time noun duo-02-03 duo-u07
 cc6a4913-6f39-521b-a0cf-9631f640800e,Japan,日本,にほん,,proper noun,,3,2022-04-24,56,GENKI3_L01,country place proper-noun genki3-l01
@@ -155,7 +155,7 @@ fbae6594-96c7-53f0-a80b-bd325d5a22ff,...yen,〜円,〜えん,,noun,,3,2022-05-30
 dcb08e4f-eb7c-5536-bd57-ee51127a14be,expensive; high,高い,たかい,,adjective,i adjective,5,2022-05-30,154,GENKI3_L02,money adjective i-adjective genki3-l02
 1cee44df-fc33-5279-8d09-5051e714782f,welcome,いらっしゃいませ,いらっしゃいませ,,expression,,,2022-05-30,155,GENKI3_L02,expression genki3-l02
 845d24c6-6c7c-50f4-8dd7-450485839fa5,...please,〜お願いします,〜おねがいします,,expression,,2,2022-05-30,156,GENKI3_L02,expression genki3-l02
-fc6be215-8cf3-55b8-8a6b-0dd345852963,please give me...,〜ください,〜ください,下さい,expression,,5,2022-05-30,157,DUO_02_01 DUO_U06 GENKI3_L02,expression duo-02-01 duo-u06 genki3-l02
+fc6be215-8cf3-55b8-8a6b-0dd345852963,please give me...,〜ください,〜ください,〜下さい,expression,,5,2022-05-30,157,DUO_02_01 DUO_U06 GENKI3_L02,expression duo-02-01 duo-u06 genki3-l02
 3bb29baa-6e40-5c58-93cd-2000ea1120eb,then...; if that is the case...,じゃあ,じゃあ,,expression,,5,2022-05-30,158,GENKI3_L02,expression genki3-l02
 8dc54b41-91cb-5289-bb0b-5f4a5854fea7,here it is; please go ahead; i beg of you,どうぞ,どうぞ,,expression,,5,2022-05-30,159,GENKI3_L02,expression genki3-l02
 5891a34d-ba0a-5458-b42e-f82c60d27f9f,thanks (casual),どうも,どうも,,expression,,5,2022-05-30,160,GENKI3_L02,expression genki3-l02
@@ -209,7 +209,7 @@ f05e2adf-83c4-5ccf-a74a-fbd5664dceb1,when,いつ,いつ,,noun,,5,2022-07-24,207,
 50cbf96a-57d3-5f45-b5fc-e415ff57717a,to go,行く,いく,,verb,godan verb,5,2022-07-24,208,DUO_02_03 DUO_U07 GENKI3_L03,verb godan-verb duo-02-03 duo-u07 genki3-l03
 243bdf44-b101-5d5d-bc51-a4f5c1c03bc3,to go back; to return,帰る,かえる,,verb,godan verb,5,2022-07-24,209,GENKI3_L03,verb godan-verb genki3-l03
 27c14160-d0d6-51f8-b7b1-9172cf8b84d2,to listen; to hear,聞く,きく,,verb,godan verb,5,2022-07-24,210,GENKI3_L03,verb godan-verb genki3-l03
-b8a9c502-6f50-5d50-96f1-417feef69161,to drink;,飲む,のむ,,verb,godan verb,5,2022-07-24,211,DUO_02_03 DUO_U07 GENKI3_L03,verb godan-verb duo-02-03 duo-u07 genki3-l03
+b8a9c502-6f50-5d50-96f1-417feef69161,to drink; to swallow,飲む,のむ,,verb,godan verb,5,2022-07-24,211,DUO_02_03 DUO_U07 GENKI3_L03,verb godan-verb duo-02-03 duo-u07 genki3-l03
 87e72b5b-0332-5b61-b21c-ea8cc6a05c1f,to speak; to talk,話す,はなす,,verb,godan verb,5,2022-07-24,212,GENKI3_L03,verb godan-verb genki3-l03
 615aadf7-6900-5c48-814a-d6cc0884ae86,to read,読む,よむ,,verb,godan verb,5,2022-07-24,213,DUO_01_02 DUO_U01 GENKI3_L03,verb godan-verb duo-01-02 duo-u01 genki3-l03
 184de362-74cc-5125-a9b9-8658bb577f7d,to wear,着る,きる,,verb,ichidan verb,5,2022-08-12,214,DUO_01_02 DUO_U01,verb ichidan-verb duo-01-02 duo-u01
@@ -248,7 +248,7 @@ cd1adf28-7497-5c5f-ab0f-ecfaedc6e345,summer,夏,なつ,,noun,,5,2022-08-12,246,D
 580fd4b9-e1ae-5e7b-a257-25f2fa55a899,fall,秋,あき,,noun,,5,2022-08-12,247,,season noun
 f9e87b50-2575-5141-98c9-1d6f96fa0ade,winter,冬,ふゆ,,noun,,5,2022-08-12,248,DUO_01_02 DUO_U01,season noun duo-01-02 duo-u01
 300c2bc3-fa11-54b9-a12f-1f663986f8ce,white,白,しろ,,noun,,5,2022-08-12,249,DUO_01_01 DUO_U01,color noun duo-01-01 duo-u01
-48b7e73f-4a0c-56bb-8cd6-bf2ed57ed92c,black,黒,くろ,くろ,noun,,5,2022-08-12,250,,color noun
+48b7e73f-4a0c-56bb-8cd6-bf2ed57ed92c,black,黒,くろ,,noun,,5,2022-08-12,250,,color noun
 e65aae18-dc90-5f41-aa96-e40680a12452,red,赤,あか,,noun,,5,2022-08-12,251,DUO_01_01 DUO_U01,color noun duo-01-01 duo-u01
 12290cb0-5c39-5b53-8353-e0404724200b,blue,青,あお,,noun,,5,2022-08-12,252,DUO_01_01 DUO_U01,color noun duo-01-01 duo-u01
 b5431148-e71a-55b1-a42f-cbf2f029c146,yellow,黄色,きいろ,,noun,,5,2022-08-12,253,,color noun
@@ -284,7 +284,7 @@ bd6d533d-c173-49c5-95c7-85fe90dd38a6,"I,me (male term)",僕,ぼく,,pronoun,,4,2
 047bba20-3388-59ec-b67c-97aeb0d3c257,fire,火,ひ,,noun,,3,2022-08-12,283,LULI_KANJI_L01,noun luli-kanji-l01
 9a991eae-f1be-5494-a018-23249ea18b15,man; male,男,おとこ,,noun,,,2022-08-12,284,LULI_KANJI_L01,noun luli-kanji-l01
 d74412ce-8367-5c45-919d-4d992829de66,woman; female,女,おんあ,,noun,,,2022-08-12,285,LULI_KANJI_L01,noun luli-kanji-l01
-865bd41e-4912-5b3b-97e2-d7bb548ebc54,child; kid,~子,こ,子,suffix,,4,2022-08-15,286,LULI_KANJI_L01,suffix luli-kanji-l01
+865bd41e-4912-5b3b-97e2-d7bb548ebc54,child; kid,〜子,こ,,suffix,,4,2022-08-15,286,LULI_KANJI_L01,suffix luli-kanji-l01
 6e4a003e-4cc6-5fb4-bd16-99b201631b2b,"confections, sweets, candy, cake",お菓子,おかし,,noun,,5,2022-08-15,287,,noun
 6437fff2-42a0-5909-9bf4-68dd05303d0f,(hard) candy,飴,あめ,,noun,,5,2022-08-15,288,,noun
 38a615c6-b9b1-5a56-8df9-f32d3423f0e2,rain,雨,あめ,,noun,,5,2022-08-15,289,LULI_KANJI_L01,weather noun luli-kanji-l01
@@ -341,7 +341,7 @@ e0b533e8-f938-4c93-b5fc-cbf9a5efbc9c,bokkstore,本屋,ほんや,,noun,,,2022-08-
 ddb16a7a-e9c0-4cce-ac65-ea78d074fce8,town; city,町,まち,,noun,,5,2022-08-10,340,GENKI3_L04,place noun genki3-l04
 470f29e2-10f1-4d28-9d80-d40f15fc171a,restaurant,レストラン,れすとらん,,noun,,5,2022-08-10,341,GENKI3_L04,place noun genki3-l04
 d5575534-34bf-41fc-a7df-2ed647e61a05,yesterday,昨日,きのう,,noun,,5,2022-08-10,342,GENKI3_L04,time noun genki3-l04
-819a835d-a6be-4c08-a364-8907b1226bbf,...hours; time,〜時間,じかん,時間,noun,,5,2022-08-10,343,GENKI3_L04,time noun genki3-l04
+819a835d-a6be-4c08-a364-8907b1226bbf,...hours; time,〜時間,じかん,,noun,,5,2022-08-10,343,GENKI3_L04,time noun genki3-l04
 30e8ffe0-74a6-411b-957d-5ee3277bd853,last week,先週,せんしゅう,,noun,,5,2022-08-10,344,GENKI3_L04,time noun genki3-l04
 585f82ea-6a6a-4005-b3a6-ed57442a6ed9,when...; at the time of...,時,とき,,noun,,3,2022-08-10,345,GENKI3_L04,time noun genki3-l04
 7e9e71f3-ca82-40b2-9190-e8df09a60b70,Monday,月曜日,げつようび,,noun,,5,2022-08-10,346,GENKI3_L04,time noun genki3-l04
