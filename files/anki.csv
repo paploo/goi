@@ -2,18 +2,18 @@
 f552ea3a-8b7f-5433-aa20-4c93a6868fb3,Good morning,おはよう,おはよう,,expression,,2,2022-04-24,1,GENKI3_L00,greeting expression genki3-l00
 8359d7d1-d6d6-5995-962e-3f6566232911,Good morning (polite),おはようございます,おはようございます,,expression,,,2022-04-24,2,GENKI3_L00,greeting expression genki3-l00
 4c55fd59-1160-52d2-8383-00f292668c1f,Good afternoon,こんにちは,こんにちは,,expression,,3,2022-04-24,3,DUO_01_02 DUO_U01 GENKI3_L00,greeting expression duo-01-02 duo-u01 genki3-l00
-8d46e404-38ff-518c-a25d-cb95d6f2c511,Good evening,こんばんは,こんばんは,今晩は,expression,,2,2022-04-24,4,GENKI3_L00,greeting expression genki3-l00
+8d46e404-38ff-518c-a25d-cb95d6f2c511,Good evening,こんばんは,こんばんは,,expression,,2,2022-04-24,4,GENKI3_L00,greeting expression genki3-l00
 1184380a-27db-5f8e-841d-7b105c2a7366,Goodbye,さようなら,さようなら,,expression,,2,2022-04-24,5,DUO_01_02 DUO_U01 GENKI3_L00,greeting expression duo-01-02 duo-u01 genki3-l00
-3ecfb07b-0a66-555c-97c4-5af7cb806507,Goodnight,おやすみ,おやすみ,お休み,expression,,2,2022-04-24,6,GENKI3_L00,greeting expression genki3-l00
-a419bb62-f061-5ac6-856b-6f85002642c6,Goodnight (polite),おやすみなさい,おやすみなさい,お休みなさい,expression,,,2022-04-24,7,GENKI3_L00,greeting expression genki3-l00
-c7a645f7-256a-536a-a5ee-5f85e8ce1137,Thank you,ありがとう,ありがとう,,expression,,3,2022-04-24,8,GENKI3_L00,greeting expression genki3-l00
-b626308d-6418-5a2c-9151-7a8a368f27a3,Thank you (polite),ありがとうございます,ありがとうございます,,expression,,,2022-04-24,9,GENKI3_L00,greeting expression genki3-l00
+3ecfb07b-0a66-555c-97c4-5af7cb806507,Goodnight,おやすみ,おやすみ,,expression,,2,2022-04-24,6,GENKI3_L00,greeting expression genki3-l00
+a419bb62-f061-5ac6-856b-6f85002642c6,Goodnight (polite),おやすみなさい,おやすみなさい,,expression,,,2022-04-24,7,GENKI3_L00,greeting expression genki3-l00
+c7a645f7-256a-536a-a5ee-5f85e8ce1137,Thank you,ありがとう,ありがとう,有り難う,expression,,3,2022-04-24,8,GENKI3_L00,greeting expression genki3-l00
+b626308d-6418-5a2c-9151-7a8a368f27a3,Thank you (polite),ありがとうございます,ありがとうございます,有難うございます,expression,,,2022-04-24,9,GENKI3_L00,greeting expression genki3-l00
 1913dbc6-4712-549a-9274-dc3511cecbfe,I'll go and come back,行ってきます,いってきます,,expression,,,2022-04-24,10,GENKI3_L00,greeting expression genki3-l00
 e7161fcf-fbaf-5971-8adb-70745ae24103,Please go and come back,いってらっしゃい,いってらっしゃい,,expression,,2,2022-04-24,11,GENKI3_L00,greeting expression genki3-l00
 c2a4dbcf-dba1-5e27-964f-5e2f7b358725,I'm home,ただいま,ただいま,,expression,,,2022-04-24,12,GENKI3_L00,greeting expression genki3-l00
 b06abb09-c9bd-5beb-a7b7-d184bedf72ca,Welcome home,お帰り,おかえり,,expression,,2,2022-04-24,13,GENKI3_L00,greeting expression genki3-l00
 47b08527-885b-50bb-b538-180dc308199a,Welcome home (polite),お帰りなさい,おかえりなさい,,expression,,,2022-04-24,14,GENKI3_L00,greeting expression genki3-l00
-797b03e3-1495-52c0-baf4-ffb9cb324089,Thank you for the meal (before),いただきます,いただきます,頂きます,expression,,3,2022-04-24,15,GENKI3_L00,greeting expression genki3-l00
+797b03e3-1495-52c0-baf4-ffb9cb324089,Thank you for the meal (before),いただきます,いただきます,,expression,,3,2022-04-24,15,GENKI3_L00,greeting expression genki3-l00
 59bad243-8b31-54f3-9d7b-6de0961bc059,Thank you for the meal (after),ごちそうさま,ごちそうさま,,expression,,2,2022-04-24,16,GENKI3_L00,greeting expression genki3-l00
 05436324-1858-5a2f-a2a1-a41d00f862cc,"Thank you for the meal (after, polite)",ごちそうさまでした,ごちそうさまでした,,expression,,,2022-04-24,17,GENKI3_L00,greeting expression genki3-l00
 136d6d6d-0487-5709-ac27-2c376bfebd43,How do you do?; I am glad to meet you,はじめまして,はじめまして,,expression,,2,2022-04-24,18,GENKI3_L00,greeting expression genki3-l00
@@ -190,7 +190,7 @@ ff69f94e-49fa-5015-a8e8-6bdab429f087,water,水,みず,,noun,,5,2022-07-24,187,GE
 43903683-a322-530c-88e1-a1c406296be6,lunch,昼ご飯,ひるごはん,,noun,,5,2022-07-24,189,GENKI3_L03,food noun genki3-l03
 4e1fc6f4-772d-5a1f-8391-5453bcbf4817,dinner,晩御飯,ばんごはん,,noun,,5,2022-07-24,190,GENKI3_L03,food noun genki3-l03
 e6aa13b6-6f6a-57db-8433-701ba55fa918,home; house,家,いえ,,noun,,5,2022-07-24,191,DUO_02_04 DUO_U07 GENKI3_L03,place noun duo-02-04 duo-u07 genki3-l03
-522046f3-2cfa-565e-a8d5-15f048b49776,my place,うち,うち,家,noun,,,2022-07-24,192,GENKI3_L03,place noun genki3-l03
+522046f3-2cfa-565e-a8d5-15f048b49776,my place,うち,うち,,noun,,,2022-07-24,192,GENKI3_L03,place noun genki3-l03
 c5ebd7d9-06b2-596e-96f5-7366810ea78c,cafe,カフェ,かふぇ,,noun,,,2022-07-24,193,GENKI3_L03,place noun genki3-l03
 31496757-bfb5-571a-af27-27f055912c92,"datyime; noon, middday",昼,ひる,,noun,,5,2022-08-12,194,DUO_01_03 DUO_U02,time noun duo-01-03 duo-u02
 fa96658e-3cc1-5c40-8c89-f68088f73e5d,evening,晩,ばん,,noun,,5,2022-08-28,195,,time noun
@@ -329,7 +329,7 @@ c52c9908-d959-404c-a8f8-161c2663e84e,class,クラス,くらす,,noun,,5,2022-08-
 624914ad-ed17-40f2-9260-e70c69962692,person,人,ひと,,noun,,5,2022-08-10,328,GENKI3_L04,noun genki3-l04
 399bbf9b-f7e7-429c-8874-42e0bf5cae9e,child,子供,こども,,noun,,5,2022-08-10,329,GENKI3_L04,noun genki3-l04
 e63daade-a22a-4554-a061-4077691692ee,picture; photograph,写真,しゃしん,,noun,,5,2022-08-10,330,GENKI3_L04,noun genki3-l04
-8b29a67e-61cf-494a-972a-5d59944a53d6,flower,花,はな,はな,noun,,5,2022-08-10,331,GENKI3_L04,noun genki3-l04
+8b29a67e-61cf-494a-972a-5d59944a53d6,flower,花,はな,,noun,,5,2022-08-10,331,GENKI3_L04,noun genki3-l04
 26eb1163-f6e3-43a8-b406-be60d5959e56,(term) paper,レポート,れぽおと,,noun,,4,2022-08-10,332,GENKI3_L04,noun genki3-l04
 8ff036c4-9800-49d5-906b-514520c78880,temple,お寺,おてら,,noun,,4,2022-08-10,333,GENKI3_L04,place noun genki3-l04
 fe1b8cc3-30c4-49ce-90de-e60514fdf437,park,公園,こうえん,,noun,,5,2022-08-10,334,GENKI3_L04,place noun genki3-l04
@@ -358,7 +358,7 @@ ab8ef931-7703-4d80-9272-bbc453f19b69,to take (a photograph),撮る,とる,,verb,
 7e09edbb-c75f-4ee4-8006-89ac3deea1d0,to wait,待つ,まつ,,verb,godan verb,5,2022-08-10,357,GENKI3_L04,verb godan-verb genki3-l04
 749a9435-10dc-4b02-b1dc-778f08e86258,to understand; to comprehend,わかる,わかる,分かる,verb,godan verb,5,2022-08-10,358,GENKI3_L04,verb godan-verb genki3-l04
 9fe24c28-0eae-4a2c-ad49-16f76680afec,about (approximate measurment),〜ぐらい,ぐらい,,suffix,,1,2022-08-10,359,GENKI3_L04,suffix genki3-l04
-9ec6f020-0166-4d80-a938-070eeb78cc05,excuse me,すみません,すみません,済みません,expression,,3,2022-08-10,360,,expression
+9ec6f020-0166-4d80-a938-070eeb78cc05,excuse me,すみません,すみません,,expression,,3,2022-08-10,360,,expression
 7d011295-e767-462a-85a9-8f5fab4883b8,sorry,ごめん,ごめん,,interjection,,2,2022-08-10,361,,interjection
 46ba5ddd-9d1f-4bc0-982e-a67e7bb4b307,I'm deeply sorry sorry,ごめんなさい,ごめんなさい,,expression,,3,2022-08-10,362,GENKI3_L04,expression genki3-l04
 7ded3290-23fd-4091-83c5-560563afeed3,and then,それから,それから,,expression,,5,2022-08-10,363,GENKI3_L04,expression genki3-l04

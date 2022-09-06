@@ -2,18 +2,18 @@ definition,preferred_spelling,phonetic_spelling,alt_phon_spell,kanji_spelling,wo
 Good morning,おはよう,おはよう,,,EXPRESSION,,2,{GENKI3_L00},{greeting},f552ea3a-8b7f-5433-aa20-4c93a6868fb3,1,2022-04-24
 Good morning (polite),おはようございます,おはようございます,,,EXPRESSION,,,{GENKI3_L00},{greeting},8359d7d1-d6d6-5995-962e-3f6566232911,2,2022-04-24
 Good afternoon,こんにちは,こんにちは,,,EXPRESSION,,3,"{DUO_01_02,DUO_U01,GENKI3_L00}",{greeting},4c55fd59-1160-52d2-8383-00f292668c1f,3,2022-04-24
-Good evening,こんばんは,こんばんは,,今晩は,EXPRESSION,,2,{GENKI3_L00},{greeting},8d46e404-38ff-518c-a25d-cb95d6f2c511,4,2022-04-24
+Good evening,こんばんは,こんばんは,,,EXPRESSION,,2,{GENKI3_L00},{greeting},8d46e404-38ff-518c-a25d-cb95d6f2c511,4,2022-04-24
 Goodbye,さようなら,さようなら,,,EXPRESSION,,2,"{DUO_01_02,DUO_U01,GENKI3_L00}",{greeting},1184380a-27db-5f8e-841d-7b105c2a7366,5,2022-04-24
-Goodnight,おやすみ,おやすみ,,お休み,EXPRESSION,,2,{GENKI3_L00},{greeting},3ecfb07b-0a66-555c-97c4-5af7cb806507,6,2022-04-24
-Goodnight (polite),おやすみなさい,おやすみなさい,,お休みなさい,EXPRESSION,,,{GENKI3_L00},{greeting},a419bb62-f061-5ac6-856b-6f85002642c6,7,2022-04-24
-Thank you,ありがとう,ありがとう,,,EXPRESSION,,3,{GENKI3_L00},{greeting},c7a645f7-256a-536a-a5ee-5f85e8ce1137,8,2022-04-24
-Thank you (polite),ありがとうございます,ありがとうございます,,,EXPRESSION,,,{GENKI3_L00},{greeting},b626308d-6418-5a2c-9151-7a8a368f27a3,9,2022-04-24
-I'll go and come back,行ってきます,いってきます,,行ってきます,EXPRESSION,,,{GENKI3_L00},{greeting},1913dbc6-4712-549a-9274-dc3511cecbfe,10,2022-04-24
+Goodnight,おやすみ,おやすみ,,,EXPRESSION,,2,{GENKI3_L00},{greeting},3ecfb07b-0a66-555c-97c4-5af7cb806507,6,2022-04-24
+Goodnight (polite),おやすみなさい,おやすみなさい,,,EXPRESSION,,,{GENKI3_L00},{greeting},a419bb62-f061-5ac6-856b-6f85002642c6,7,2022-04-24
+Thank you,ありがとう,ありがとう,,有り難う,EXPRESSION,,3,{GENKI3_L00},{greeting},c7a645f7-256a-536a-a5ee-5f85e8ce1137,8,2022-04-24
+Thank you (polite),ありがとうございます,ありがとうございます,,有難うございます,EXPRESSION,,,{GENKI3_L00},{greeting},b626308d-6418-5a2c-9151-7a8a368f27a3,9,2022-04-24
+I'll go and come back,行ってきます,いってきます,,,EXPRESSION,,,{GENKI3_L00},{greeting},1913dbc6-4712-549a-9274-dc3511cecbfe,10,2022-04-24
 Please go and come back,いってらっしゃい,いってらっしゃい,,,EXPRESSION,,2,{GENKI3_L00},{greeting},e7161fcf-fbaf-5971-8adb-70745ae24103,11,2022-04-24
 I'm home,ただいま,ただいま,,,EXPRESSION,,,{GENKI3_L00},{greeting},c2a4dbcf-dba1-5e27-964f-5e2f7b358725,12,2022-04-24
 Welcome home,お帰り,おかえり,,お帰り,EXPRESSION,,2,{GENKI3_L00},{greeting},b06abb09-c9bd-5beb-a7b7-d184bedf72ca,13,2022-04-24
 Welcome home (polite),お帰りなさい,おかえりなさい,,お帰りなさい,EXPRESSION,,,{GENKI3_L00},{greeting},47b08527-885b-50bb-b538-180dc308199a,14,2022-04-24
-Thank you for the meal (before),いただきます,いただきます,,頂きます,EXPRESSION,,3,{GENKI3_L00},{greeting},797b03e3-1495-52c0-baf4-ffb9cb324089,15,2022-04-24
+Thank you for the meal (before),いただきます,いただきます,,,EXPRESSION,,3,{GENKI3_L00},{greeting},797b03e3-1495-52c0-baf4-ffb9cb324089,15,2022-04-24
 Thank you for the meal (after),ごちそうさま,ごちそうさま,,,EXPRESSION,,2,{GENKI3_L00},{greeting},59bad243-8b31-54f3-9d7b-6de0961bc059,16,2022-04-24
 "Thank you for the meal (after, polite)",ごちそうさまでした,ごちそうさまでした,,,EXPRESSION,,,{GENKI3_L00},{greeting},05436324-1858-5a2f-a2a1-a41d00f862cc,17,2022-04-24
 How do you do?; I am glad to meet you,はじめまして,はじめまして,,,EXPRESSION,,2,{GENKI3_L00},{greeting},136d6d6d-0487-5709-ac27-2c376bfebd43,18,2022-04-24
@@ -190,7 +190,7 @@ breakfast,朝ご飯,あさごはん,,朝ご飯,NOUN,,5,{GENKI3_L03},{food},455c3
 lunch,昼ご飯,ひるごはん,,昼ご飯,NOUN,,5,{GENKI3_L03},{food},43903683-a322-530c-88e1-a1c406296be6,189,2022-07-24
 dinner,晩御飯,ばんごはん,,晩御飯,NOUN,,5,{GENKI3_L03},{food},4e1fc6f4-772d-5a1f-8391-5453bcbf4817,190,2022-07-24
 home; house,家,いえ,,家,NOUN,,5,"{DUO_02_04,DUO_U07,GENKI3_L03}",{place},e6aa13b6-6f6a-57db-8433-701ba55fa918,191,2022-07-24
-my place,うち,うち,,家,NOUN,,,{GENKI3_L03},{place},522046f3-2cfa-565e-a8d5-15f048b49776,192,2022-07-24
+my place,うち,うち,,,NOUN,,,{GENKI3_L03},{place},522046f3-2cfa-565e-a8d5-15f048b49776,192,2022-07-24
 cafe,カフェ,かふぇ,,,NOUN,,,{GENKI3_L03},{place},c5ebd7d9-06b2-596e-96f5-7366810ea78c,193,2022-07-24
 "datyime; noon, middday",昼,ひる,,昼,NOUN,,5,"{DUO_01_03,DUO_U02}",{time},31496757-bfb5-571a-af27-27f055912c92,194,2022-08-12
 evening,晩,ばん,,晩,NOUN,,5,,{time},fa96658e-3cc1-5c40-8c89-f68088f73e5d,195,2022-08-28
@@ -329,7 +329,7 @@ class,クラス,くらす,,,NOUN,,5,{GENKI3_L04},{activity},c52c9908-d959-404c-a
 person,人,ひと,,人,NOUN,,5,{GENKI3_L04},,624914ad-ed17-40f2-9260-e70c69962692,328,2022-08-10
 child,子供,こども,,子供,NOUN,,5,{GENKI3_L04},,399bbf9b-f7e7-429c-8874-42e0bf5cae9e,329,2022-08-10
 picture; photograph,写真,しゃしん,,写真,NOUN,,5,{GENKI3_L04},,e63daade-a22a-4554-a061-4077691692ee,330,2022-08-10
-flower,花,はな,,はな,NOUN,,5,{GENKI3_L04},,8b29a67e-61cf-494a-972a-5d59944a53d6,331,2022-08-10
+flower,花,はな,,花,NOUN,,5,{GENKI3_L04},,8b29a67e-61cf-494a-972a-5d59944a53d6,331,2022-08-10
 (term) paper,レポート,れぽおと,,,NOUN,,4,{GENKI3_L04},,26eb1163-f6e3-43a8-b406-be60d5959e56,332,2022-08-10
 temple,お寺,おてら,,お寺,NOUN,,4,{GENKI3_L04},{place},8ff036c4-9800-49d5-906b-514520c78880,333,2022-08-10
 park,公園,こうえん,,公園,NOUN,,5,{GENKI3_L04},{place},fe1b8cc3-30c4-49ce-90de-e60514fdf437,334,2022-08-10
@@ -358,7 +358,7 @@ to take (a photograph),撮る,とる,,撮る,VERB,GODAN_VERB,5,{GENKI3_L04},,ab8
 to wait,待つ,まつ,,待つ,VERB,GODAN_VERB,5,{GENKI3_L04},,7e09edbb-c75f-4ee4-8006-89ac3deea1d0,357,2022-08-10
 to understand; to comprehend,わかる,わかる,,分かる,VERB,GODAN_VERB,5,{GENKI3_L04},,749a9435-10dc-4b02-b1dc-778f08e86258,358,2022-08-10
 about (approximate measurment),〜ぐらい,ぐらい,,,SUFFIX,,1,{GENKI3_L04},,9fe24c28-0eae-4a2c-ad49-16f76680afec,359,2022-08-10
-excuse me,すみません,すみません,,済みません,EXPRESSION,,3,,,9ec6f020-0166-4d80-a938-070eeb78cc05,360,2022-08-10
+excuse me,すみません,すみません,,,EXPRESSION,,3,,,9ec6f020-0166-4d80-a938-070eeb78cc05,360,2022-08-10
 sorry,ごめん,ごめん,,,INTERJECTION,,2,,,7d011295-e767-462a-85a9-8f5fab4883b8,361,2022-08-10
 I'm deeply sorry sorry,ごめんなさい,ごめんなさい,,,EXPRESSION,,3,{GENKI3_L04},,46ba5ddd-9d1f-4bc0-982e-a67e7bb4b307,362,2022-08-10
 and then,それから,それから,,,EXPRESSION,,5,{GENKI3_L04},,7ded3290-23fd-4091-83c5-560563afeed3,363,2022-08-10
