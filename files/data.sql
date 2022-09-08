@@ -3679,18 +3679,21 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('4c90dd73-56cf-5ac3-a35a-83c7e0e512a0', '0dbac8fa-7de5-557b-a950-da804909a322', 'HIRAGANA', 'すごく');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('1923c175-246d-5ad1-ab86-7fdbae313fc9', '0dbac8fa-7de5-557b-a950-da804909a322', 'KANJI', '凄く');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('0dbac8fa-7de5-557b-a950-da804909a322', 'cb904913-8ef4-5e8c-8e69-73ae56616598', 'e963d13f-e05c-505c-a902-30597735945a', '4c90dd73-56cf-5ac3-a35a-83c7e0e512a0', NULL, '1923c175-246d-5ad1-ab86-7fdbae313fc9');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('0dbac8fa-7de5-557b-a950-da804909a322', 'GENKI3_L05');
 -- とても | very --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('49100de9-fba3-596c-a2d2-d7d268716d82', 'ADVERB', NULL, 5, 464, '{}', '2022-09-07');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('5fb63bbe-2469-5e57-b355-e6c7ba41abf3', '49100de9-fba3-596c-a2d2-d7d268716d82', 1, 'very');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('915c50b3-bc63-59e5-a356-bb5cc6d8985a', '49100de9-fba3-596c-a2d2-d7d268716d82', 'HIRAGANA', 'とても');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('6ed866b2-63fe-5dc8-b1c5-31512d3bde1f', '49100de9-fba3-596c-a2d2-d7d268716d82', 'HIRAGANA', 'とても');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('49100de9-fba3-596c-a2d2-d7d268716d82', '5fb63bbe-2469-5e57-b355-e6c7ba41abf3', '915c50b3-bc63-59e5-a356-bb5cc6d8985a', '6ed866b2-63fe-5dc8-b1c5-31512d3bde1f', NULL, NULL);
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('49100de9-fba3-596c-a2d2-d7d268716d82', 'GENKI3_L05');
 -- どんな | what kind of... --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('a7e30acf-baa9-5c69-b41d-b344f631a8a6', 'PRE_NOUN_ADJECTIVAL', NULL, 3, 465, '{}', '2022-09-07');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('eafb8739-ebdb-5b75-9c0f-3e9b8b079b89', 'a7e30acf-baa9-5c69-b41d-b344f631a8a6', 1, 'what kind of...');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('aedba3d9-af62-5d1f-9f29-654ac6eccb1f', 'a7e30acf-baa9-5c69-b41d-b344f631a8a6', 'HIRAGANA', 'どんな');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('ee1862f6-0d95-53bc-874c-76a2255d64c5', 'a7e30acf-baa9-5c69-b41d-b344f631a8a6', 'HIRAGANA', 'どんな');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('a7e30acf-baa9-5c69-b41d-b344f631a8a6', 'eafb8739-ebdb-5b75-9c0f-3e9b8b079b89', 'aedba3d9-af62-5d1f-9f29-654ac6eccb1f', 'ee1862f6-0d95-53bc-874c-76a2255d64c5', NULL, NULL);
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('a7e30acf-baa9-5c69-b41d-b344f631a8a6', 'GENKI3_L05');
 -- 〜枚 | counter for flat objects --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('acbf41df-4c3c-58fe-b99e-30d088bafb4f', 'COUNTER', NULL, 1, 466, '{}', '2022-09-07');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('5550fdeb-389a-5846-b7c8-7781c957d310', 'acbf41df-4c3c-58fe-b99e-30d088bafb4f', 1, 'counter for flat objects');
@@ -3698,3 +3701,4 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('826c9fa3-f3fc-5c2e-8e0c-0bf2bf3d6305', 'acbf41df-4c3c-58fe-b99e-30d088bafb4f', 'HIRAGANA', '〜まい');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('006dc476-b220-55a8-a5df-32edc889ae26', 'acbf41df-4c3c-58fe-b99e-30d088bafb4f', 'KANJI', '〜枚');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id") VALUES ('acbf41df-4c3c-58fe-b99e-30d088bafb4f', '5550fdeb-389a-5846-b7c8-7781c957d310', 'a6406f01-9f3c-546f-be52-9ed5592016b7', '826c9fa3-f3fc-5c2e-8e0c-0bf2bf3d6305', NULL, '006dc476-b220-55a8-a5df-32edc889ae26');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('acbf41df-4c3c-58fe-b99e-30d088bafb4f', 'GENKI3_L05');
