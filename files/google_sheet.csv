@@ -360,108 +360,109 @@ to write,書く,かく,,書く,VERB,GODAN_VERB,5,{GENKI3_L04},,1629794a-84d2-44f
 to take (a photograph),撮る,とる,,撮る,VERB,GODAN_VERB,5,{GENKI3_L04},,ab8ef931-7703-4d80-9272-bbc453f19b69,359,2022-08-10
 to wait,待つ,まつ,,待つ,VERB,GODAN_VERB,5,{GENKI3_L04},,7e09edbb-c75f-4ee4-8006-89ac3deea1d0,360,2022-08-10
 to understand; to comprehend,わかる,わかる,,分かる,VERB,GODAN_VERB,5,{GENKI3_L04},,749a9435-10dc-4b02-b1dc-778f08e86258,361,2022-08-10
-about (approximate measurment),〜ぐらい,ぐらい,,,SUFFIX,,1,{GENKI3_L04},,9fe24c28-0eae-4a2c-ad49-16f76680afec,362,2022-08-10
-excuse me,すみません,すみません,,,EXPRESSION,,3,,,9ec6f020-0166-4d80-a938-070eeb78cc05,363,2022-08-10
-sorry,ごめん,ごめん,,,INTERJECTION,,2,,,7d011295-e767-462a-85a9-8f5fab4883b8,364,2022-08-10
-I'm deeply sorry sorry,ごめんなさい,ごめんなさい,,,EXPRESSION,,3,{GENKI3_L04},,46ba5ddd-9d1f-4bc0-982e-a67e7bb4b307,365,2022-08-10
-and then,それから,それから,,,EXPRESSION,,5,{GENKI3_L04},,7ded3290-23fd-4091-83c5-560563afeed3,366,2022-08-10
-so; therefore,だから,だから,,,CONJUNCTION,,4,{GENKI3_L04},,3fd6bcdf-d9e5-4cc9-8aab-46e121e4c86a,367,2022-08-10
-many; a lot,たくさん,たくさん,,沢山,NOUN,,5,{GENKI3_L04},,10eece8b-4102-41c5-9532-e62246da60e2,368,2022-08-10
-together with (a person); and,〜と,と,,,CONJUNCTION,,3,{GENKI3_L04},,d097a029-96a6-4cfe-936e-9f815b368de3,369,2022-08-10
-why; how,どうして,どうして,,,ADVERB,,5,{GENKI3_L04},,f439afe8-6382-4017-b594-de82a2d090e6,370,2022-08-10
-alone,一人で,ひとりで,,一人で,EXPRESSION,,,{GENKI3_L04},,0839c0a5-e217-465a-9b68-64994b80b119,371,2022-08-10
-hello? (phone),もしもし,もしもし,,,EXPRESSION,,,{GENKI3_L04},,82698354-a810-410e-a0c2-e2e9e391e7bc,372,2022-08-10
-right,右,みぎ,,右,NOUN,,5,{GENKI3_L04},{location},83d209ab-6760-5b3f-945c-f82a55d9bcc1,373,2022-08-10
-left,左,ひだり,,左,NOUN,,5,{GENKI3_L04},{location},92a12133-28d1-5327-b9b9-db5c7d58fcdb,374,2022-08-10
-front,前,まえ,,前,NOUN,,5,{GENKI3_L04},{location},8c4152ae-6000-57f5-8244-ac48a99f7e20,375,2022-08-10
-back,後ろ,うしろ,,後ろ,NOUN,,5,{GENKI3_L04},{location},5abdcbf7-54bd-541a-be8b-e2aac1a36bf2,376,2022-08-10
-inside,中,なか,,中,NOUN,,5,{GENKI3_L04},{location},e37a40e2-6a4c-5046-9054-71bd174159cf,377,2022-08-10
-on,上,うえ,,上,NOUN,,5,{GENKI3_L04},{location},b7339af2-316c-551b-a5da-cb03d2ef2392,378,2022-08-10
-under,下,した,,下,NOUN,,5,{GENKI3_L04},{location},658ee639-0bc6-5cd5-8342-15f7698bf75d,379,2022-08-10
-near; nearby,近く,しかく,,近く,NOUN,,5,{GENKI3_L04},{location},f8bbf752-a05d-542c-99ad-1b59fec7e4a6,380,2022-08-10
-next,隣,となり,,隣,NOUN,,5,{GENKI3_L04},{location},9c00bb62-e821-5702-ad5d-20d324fdb688,381,2022-08-10
-between,間,あいだ,,間,NOUN,,5,{GENKI3_L04},{location},5d31fe9a-a3d5-548d-b92c-323392afbb5f,382,2022-08-10
-rice cracker,煎餅,せんべい,,煎餅,NOUN,,,,{food},c4fe5291-83a0-5e58-9791-744a785a3d9a,383,2022-08-12
-cake,ケーキ,ケえき,,,NOUN,,4,,{food},e182997f-4799-5c3c-a985-ed126db9687e,384,2022-08-12
-rice ball,お握り,おにぎり,,お握り,NOUN,,,,{food},676d3eb5-4992-5047-ad16-142df7b8ec38,385,2022-08-12
-salt,塩,しお,,塩,NOUN,,5,,{food},cd548aa6-54f8-5f0a-b55f-c0fcf26dbc2a,386,2022-08-12
-chopsticks,箸,はし,,箸,NOUN,,5,,"{food,kitchen}",f9253f00-8203-5dc9-89f5-a39b4d3d9d55,387,2022-08-20
-(some) more; longer; further,もっと,もっと,,,ADVERB,,5,,,ca8b76ff-0345-5367-855a-fd69329898a6,388,2022-08-12
-geek; nerd,オタク,おたく,,,NOUN,,,,{slang},fa69ee4d-ab8a-5daf-8701-abab724eaade,389,2022-08-12
-hot water; hot bath; hot spring,湯,ゆ,,湯,NOUN,,4,,,3953151e-3280-5665-8c64-1bfabbedcdd2,390,2022-08-12
-hot spring,温泉,おんせん,,温泉,NOUN,,2,,,8c842dec-6e97-54b7-ad74-2408c4b88677,391,2022-08-12
-to stop moving; to come to a stop,止まる,とまる,,止まる,VERB,,,,,c30f6fb9-5695-5c83-80b8-6ff6fa07ce2e,392,2022-09-02
-stop (on road signage),止まれ,とまれ,,止まれ,EXPRESSION,,,,,461f8d91-ff08-5cf0-a0a9-891008b85589,393,2022-08-12
-division into equal parts,等分,とうぶん,,等分,NOUN,,2,,,7d911224-17ff-5957-a840-cf56e5907439,394,2022-08-12
-bride,花嫁,はなよめ,,花嫁,NOUN,,2,,,e396a0a2-95a9-52dc-bbde-5bbc8d28c073,395,2022-08-12
-master; teacher,師匠,ししょう,,師匠,NOUN,,,,,3f9be32c-56f7-5543-98b0-5f145ab43669,396,2022-08-12
-order; request,ご注文,ごちゅもん,,ご注文,NOUN,,,,,b0f23319-1e7e-5eee-aa4c-1181b78ebeec,397,2022-08-12
-witch,魔女,まじょ,,魔女,NOUN,,,,,c495dd60-9438-5d9f-892e-6b37d6d88c4a,398,2022-08-12
-demon; ogre,鬼,おに,,鬼,NOUN,,3,,,52f192e3-6628-546b-80b5-f63547b440d5,399,2022-08-12
-devine spirit,神,かみ,,神,NOUN,,3,,,63f02942-2ba9-5ff6-aa84-be6ecd6f209d,400,2022-08-12
-travel; trip; journey,旅,たび,,旅,NOUN,,3,,,abbcc24b-a635-5aeb-b6ef-387d88099538,401,2022-08-12
-light music,軽音楽,けいおんがく,,軽音楽,NOUN,,1,,,aeac8e75-ade1-55a0-b4d0-4203dc90df45,402,2022-08-19
-club; department (of company),部,ぶ,,部,NOUN,,1,,,300bed58-ddab-5420-8396-3147573388c3,403,2022-08-12
-tidal wave,津波,つなみ,,津波,NOUN,,1,,,7735ac10-24a6-57a5-baf8-6eec8dc148ae,404,2022-08-12
-small child; cute small version of someone,チビ,ちび,,,NOUN,,,,,e2a1e5ef-c9d8-5554-a912-e6014d2c0f35,405,2022-08-13
-cute,カワイイ,かわいい,,,ADJECTIVE,I_ADJECTIVE,5,,,2c0b911e-ac72-5c04-bfd3-ebcd9e988dee,406,2022-08-13
-heated table,こたつ,こたつ,,,NOUN,,1,,,281d7359-80a0-519d-9c57-504f35bfd5ee,407,2022-08-13
-Japanese bedding,布団,ふとん,,布団,NOUN,,4,,,c3f5ef65-8025-5f56-b5e1-efc61a1c81bc,408,2022-08-13
-to collect; to assemble; to gather,集める,あつめる,,集める,VERB,ICHIDAN_VERB,4,,,49dcb689-b576-56c7-b9f6-1da98acb2667,409,2022-08-22
-cheers,乾杯,かんぱい,,乾杯,NOUN,,2,,,4f3a6c3d-94a5-54c7-bd5c-c16d008d8cf7,410,2022-08-27
-laundry,洗濯,せんたく,,洗濯,NOUN,,5,,,4a03f495-c343-5e8f-a1fe-fd1b6624f63a,411,2022-08-29
-starry sky,星空,ほしぞら,,星空,NOUN,,,,,4126b8e5-2e98-52ad-b637-7bd8ed566781,412,2022-08-29
-"lively, energetic; well, healthy",元気,げんき,,元気,ADJECTIVE,NA_ADJECTIVE,5,{GENKI3_L05},,ee877e49-b3e4-5e51-a969-c620c8407809,413,2022-09-02
-"desire, wish; request",願い,ねがい,,願い,NOUN,,3,{DUO_U03},,4b7cb2ac-7b91-54eb-86e3-2366f5e802bb,414,2022-09-02
-request; favor to ask,お願い,おねがい,,お願い,NOUN,GODAN_VERB,5,,,1d9fa8be-94a8-565a-93a3-973da9e759fa,415,2022-09-02
-mochi,もち,もち,,餅,NOUN,,2,,,59f26319-a287-5600-95b4-714e7fe21547,416,2022-09-07
-autum colors; leaves turning,紅葉,もみじ,,紅葉,NOUN,,2,,,43dce298-e577-5174-8f14-ecb525e67d38,417,2022-09-07
-excited; trembling; getting nervous,わくわく,わくわく,,,ADVERB,,,,,25032880-e2a8-54f3-8681-22172c54b84a,418,2022-09-07
-food,食べ物,たべもの,,食べ物,NOUN,,5,{GENKI3_L05},,cdb482ec-df51-5e19-8c72-08a8cb1c0a3e,419,2022-09-07
-drink,飲み物,のみもの,,飲み物,NOUN,,5,{GENKI3_L05},,cf8e1efb-b036-56e8-ad12-5e06f9b26bde,420,2022-09-07
-holiday; day off; absence,休み,やすみ,,休み,NOUN,,5,{GENKI3_L05},,5d5eb0f1-6cb0-5383-8797-49330b70b84c,421,2022-09-07
-travel; trip; journey,旅行,りょこう,,旅行,NOUN,,5,{GENKI3_L05},,885a798b-20d9-5279-ba34-8324db75f028,422,2022-09-07
-sea,海,うみ,,海,NOUN,,5,{GENKI3_L05},,b569a875-d88f-5e2a-b063-0f3f29f06094,423,2022-09-07
-waterway; channel,澪,みお,,澪,NOUN,,,,,b0188056-54cc-55e1-8cbd-418370ed533d,424,2022-09-07
-surfing,サーフィン,すうふぃん,,,NOUN,,,{GENKI3_L05},,ed499008-cde3-543e-a0d9-693e001b321c,425,2022-09-07
-souvenir,お土産,おみやげ,,お土産,NOUN,,4,{GENKI3_L05},,fa1bca4b-31a8-5488-a6d9-5b5a3fe927b8,426,2022-09-07
-bus,バス,ばす,,,NOUN,,5,{GENKI3_L05},,2d402f9c-7727-5394-b6d5-8767371af073,427,2022-09-07
-weather,天気,てんき,,天気,NOUN,,5,{GENKI3_L05},,4c1ba9fa-920a-5646-8869-d84d39e842a3,428,2022-09-07
-homework,宿題,しゅくだい,,宿題,NOUN,,5,{GENKI3_L05},,a1bfcd70-a853-50b0-955b-32fe355c2700,429,2022-09-07
-test,テスト,てすと,,,NOUN,,5,{GENKI3_L05},,dee18a86-fd39-54bc-9a77-ee24ba39c17c,430,2022-09-07
-birthday,誕生日,たんじょうび,,誕生日,NOUN,,5,{GENKI3_L05},,6d4b95c5-1f5a-50e0-aa8b-5558e8211486,431,2022-09-07
-size L,Ｌサイズ,えるさいず,,,NOUN,,1,{GENKI3_L05},,deb66e89-8251-5b46-9bb1-b1338aaa4e62,432,2022-09-07
-new,新しい,あたらしい,,新しい,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L05},,3ea98874-cf05-5e92-b8f2-45751b667e83,433,2022-09-07
-old (thing); ancient,古い,ふるい,,古い,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L05},,9ab38a71-325c-5f1b-b0aa-d9c5ce43b888,434,2022-09-07
-hot weather,暑い,あつい,,暑い,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L05},,21d6fb85-2f85-5a8c-a29b-375f90b9803e,435,2022-09-07
-cold weather,寒い,さむい,,寒い,ADJECTIVE,I_ADJECTIVE,,{GENKI3_L05},,dbeefce5-aaa6-5694-985d-6771413fa0fd,436,2022-09-07
-hot thing,熱い,あつい,,熱い,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L05},,9a7ac507-ea08-5187-ad27-04615036db05,437,2022-09-07
-busy people/days,忙しい,いそがしい,,忙しい,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L05},,36bbdf48-c6cf-502b-85a2-26bec94171c5,438,2022-09-07
-large,大きい,おおさい,,大きい,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L05},,9c26c29d-c047-519d-bd01-6eb035e74752,439,2022-09-07
-small,小さい,ちいさい,,小さい,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L05},,bbdc1a0a-1d15-5484-89ac-e3594f2d0e70,440,2022-09-07
-interesting; funny,面白い,おもしろい,,面白い,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L05},,14eb54bb-8d5f-50c2-b2e7-9b89a32a18f6,441,2022-09-07
-boring,つまらない,つまらない,,,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L05},,2e46c8d1-bb5e-5c96-9e63-b1d4fc035da1,442,2022-09-07
-easy (problem),やさしい,やさしい,,易しい,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L05},,ce5f2a5f-821f-5a5f-b5e5-6b59658ee781,443,2022-09-07
-kind (person),優しい,やさしい,,優しい,ADJECTIVE,I_ADJECTIVE,4,,,f0506ed6-e8ae-5d80-90bc-d527638693f8,444,2022-09-07
-difficult,難しい,むずかしい,,難しい,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L05},,835597f8-7be1-561d-8ef8-9c73316e9b49,445,2022-09-07
-good-looking,かっこいい,かっこいい,,格好いい,ADJECTIVE,I_ADJECTIVE,,{GENKI3_L05},,46305ec7-a809-547e-bb67-8533f9059b26,446,2022-09-07
-frightening,怖い,こわい,,怖い,ADJECTIVE,I_ADJECTIVE,4,{GENKI3_L05},,b28e9f01-a176-5cfa-b00b-e1fd1552f02d,447,2022-09-07
-fun,楽しい,たのしい,,楽しい,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L05},,03824733-2e97-5d1e-8705-2520abf86985,448,2022-09-07
-inexpensive; cheap (thing),安い,やすい,,安い,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L05},,a1c2f5e9-df18-5d9f-83db-7d30491b502d,449,2022-09-07
-disgusted with; to dislike,嫌い,きらい,,嫌い,ADJECTIVE,NA_ADJECTIVE,5,{GENKI3_L05},,cad48907-4908-5de4-8ee7-0c78c98ab755,450,2022-09-07
-very fond of; to love,大好き,だいすき,,大好き,ADJECTIVE,NA_ADJECTIVE,5,{GENKI3_L05},,f12880cb-86c7-5720-8773-a1cdfbe838f7,451,2022-09-07
-to hate,大嫌い,だいきらい,,大嫌い,ADJECTIVE,NA_ADJECTIVE,,{GENKI3_L05},,f610a74c-6229-5d19-b214-c183c4a1d92b,452,2022-09-07
-beautiful; clean,きれい,きれい,,,ADJECTIVE,NA_ADJECTIVE,5,{GENKI3_L05},,8218a74b-27ab-5310-80f8-8cca81609f73,453,2022-09-07
-quiet,静か,しずか,,静か,ADJECTIVE,NA_ADJECTIVE,5,{GENKI3_L05},,489610bc-c907-5de6-a0e7-acbeba740f3d,454,2022-09-07
-lively,にぎやか,にぎやか,,,ADJECTIVE,NA_ADJECTIVE,5,{GENKI3_L05},,96e3bcd4-e542-5d84-8576-c33f94149bc8,455,2022-09-07
-not busy; free (time),暇,ひま,,暇,ADJECTIVE,NA_ADJECTIVE,5,{GENKI3_L05},,585dccbc-01ad-5691-95c0-a5d402db619d,456,2022-09-07
-to swim,泳ぐ,およぐ,,泳ぐ,VERB,GODAN_VERB,5,{GENKI3_L05},,4ae77db0-2b66-543a-8d78-8e51c4cb0676,457,2022-09-07
-to ride; to board,乗る,のる,,乗る,VERB,GODAN_VERB,5,{GENKI3_L05},,2bcd828d-02d9-5834-8e4e-2a9fdecb800f,458,2022-09-07
-to do; to perform; to play (a game),やる,やる,,,VERB,GODAN_VERB,1,{GENKI3_L05},,43056e9d-b789-5d3b-ae22-ccd5feca4e1a,459,2022-09-07
-to go out,出かける,でかける,,出かける,VERB,ICHIDAN_VERB,5,{GENKI3_L05},,87f65ff6-cc11-5ed3-ae0f-91cd20cf2c32,460,2022-09-07
-exit,出口,でくち,,出口,NOUN,,5,,,6debd947-e8ba-512e-8457-8bf0e7ea9e5b,461,2022-09-07
-together (with); at the same time;,一緒に,いっしょに,,一緒に,ADVERB,,,{GENKI3_L05},,3121a086-d388-5e2d-87ea-42928a70bdb2,462,2022-09-07
-extremely,すごく,すごく,,凄く,ADVERB,,,{GENKI3_L05},,0dbac8fa-7de5-557b-a950-da804909a322,463,2022-09-07
-very,とても,とても,,,ADVERB,,5,{GENKI3_L05},,49100de9-fba3-596c-a2d2-d7d268716d82,464,2022-09-07
-what kind of...,どんな,どんな,,,PRE_NOUN_ADJECTIVAL,,3,{GENKI3_L05},,a7e30acf-baa9-5c69-b41d-b344f631a8a6,465,2022-09-07
-counter for flat objects,〜枚,〜まい,,〜枚,COUNTER,,1,{GENKI3_L05},,acbf41df-4c3c-58fe-b99e-30d088bafb4f,466,2022-09-07
+to know; to be aware of,知る,しる,,知る,VERB,GODAN_VERB,5,{GENKI3_L07},,b32131c2-4721-5e1c-ba58-e06896a83cf1,362,2022-09-08
+about (approximate measurment),〜ぐらい,ぐらい,,,SUFFIX,,1,{GENKI3_L04},,9fe24c28-0eae-4a2c-ad49-16f76680afec,363,2022-08-10
+excuse me,すみません,すみません,,,EXPRESSION,,3,,,9ec6f020-0166-4d80-a938-070eeb78cc05,364,2022-08-10
+sorry,ごめん,ごめん,,,INTERJECTION,,2,,,7d011295-e767-462a-85a9-8f5fab4883b8,365,2022-08-10
+I'm deeply sorry sorry,ごめんなさい,ごめんなさい,,,EXPRESSION,,3,{GENKI3_L04},,46ba5ddd-9d1f-4bc0-982e-a67e7bb4b307,366,2022-08-10
+and then,それから,それから,,,EXPRESSION,,5,{GENKI3_L04},,7ded3290-23fd-4091-83c5-560563afeed3,367,2022-08-10
+so; therefore,だから,だから,,,CONJUNCTION,,4,{GENKI3_L04},,3fd6bcdf-d9e5-4cc9-8aab-46e121e4c86a,368,2022-08-10
+many; a lot,たくさん,たくさん,,沢山,NOUN,,5,{GENKI3_L04},,10eece8b-4102-41c5-9532-e62246da60e2,369,2022-08-10
+together with (a person); and,〜と,と,,,CONJUNCTION,,3,{GENKI3_L04},,d097a029-96a6-4cfe-936e-9f815b368de3,370,2022-08-10
+why; how,どうして,どうして,,,ADVERB,,5,{GENKI3_L04},,f439afe8-6382-4017-b594-de82a2d090e6,371,2022-08-10
+alone,一人で,ひとりで,,一人で,EXPRESSION,,,{GENKI3_L04},,0839c0a5-e217-465a-9b68-64994b80b119,372,2022-08-10
+hello? (phone),もしもし,もしもし,,,EXPRESSION,,,{GENKI3_L04},,82698354-a810-410e-a0c2-e2e9e391e7bc,373,2022-08-10
+right,右,みぎ,,右,NOUN,,5,{GENKI3_L04},{location},83d209ab-6760-5b3f-945c-f82a55d9bcc1,374,2022-08-10
+left,左,ひだり,,左,NOUN,,5,{GENKI3_L04},{location},92a12133-28d1-5327-b9b9-db5c7d58fcdb,375,2022-08-10
+front,前,まえ,,前,NOUN,,5,{GENKI3_L04},{location},8c4152ae-6000-57f5-8244-ac48a99f7e20,376,2022-08-10
+back,後ろ,うしろ,,後ろ,NOUN,,5,{GENKI3_L04},{location},5abdcbf7-54bd-541a-be8b-e2aac1a36bf2,377,2022-08-10
+inside,中,なか,,中,NOUN,,5,{GENKI3_L04},{location},e37a40e2-6a4c-5046-9054-71bd174159cf,378,2022-08-10
+on,上,うえ,,上,NOUN,,5,{GENKI3_L04},{location},b7339af2-316c-551b-a5da-cb03d2ef2392,379,2022-08-10
+under,下,した,,下,NOUN,,5,{GENKI3_L04},{location},658ee639-0bc6-5cd5-8342-15f7698bf75d,380,2022-08-10
+near; nearby,近く,しかく,,近く,NOUN,,5,{GENKI3_L04},{location},f8bbf752-a05d-542c-99ad-1b59fec7e4a6,381,2022-08-10
+next,隣,となり,,隣,NOUN,,5,{GENKI3_L04},{location},9c00bb62-e821-5702-ad5d-20d324fdb688,382,2022-08-10
+between,間,あいだ,,間,NOUN,,5,{GENKI3_L04},{location},5d31fe9a-a3d5-548d-b92c-323392afbb5f,383,2022-08-10
+rice cracker,煎餅,せんべい,,煎餅,NOUN,,,,{food},c4fe5291-83a0-5e58-9791-744a785a3d9a,384,2022-08-12
+cake,ケーキ,ケえき,,,NOUN,,4,,{food},e182997f-4799-5c3c-a985-ed126db9687e,385,2022-08-12
+rice ball,お握り,おにぎり,,お握り,NOUN,,,,{food},676d3eb5-4992-5047-ad16-142df7b8ec38,386,2022-08-12
+salt,塩,しお,,塩,NOUN,,5,,{food},cd548aa6-54f8-5f0a-b55f-c0fcf26dbc2a,387,2022-08-12
+chopsticks,箸,はし,,箸,NOUN,,5,,"{food,kitchen}",f9253f00-8203-5dc9-89f5-a39b4d3d9d55,388,2022-08-20
+(some) more; longer; further,もっと,もっと,,,ADVERB,,5,,,ca8b76ff-0345-5367-855a-fd69329898a6,389,2022-08-12
+geek; nerd,オタク,おたく,,,NOUN,,,,{slang},fa69ee4d-ab8a-5daf-8701-abab724eaade,390,2022-08-12
+hot water; hot bath; hot spring,湯,ゆ,,湯,NOUN,,4,,,3953151e-3280-5665-8c64-1bfabbedcdd2,391,2022-08-12
+hot spring,温泉,おんせん,,温泉,NOUN,,2,,,8c842dec-6e97-54b7-ad74-2408c4b88677,392,2022-08-12
+to stop moving; to come to a stop,止まる,とまる,,止まる,VERB,,,,,c30f6fb9-5695-5c83-80b8-6ff6fa07ce2e,393,2022-09-02
+stop (on road signage),止まれ,とまれ,,止まれ,EXPRESSION,,,,,461f8d91-ff08-5cf0-a0a9-891008b85589,394,2022-08-12
+division into equal parts,等分,とうぶん,,等分,NOUN,,2,,,7d911224-17ff-5957-a840-cf56e5907439,395,2022-08-12
+bride,花嫁,はなよめ,,花嫁,NOUN,,2,,,e396a0a2-95a9-52dc-bbde-5bbc8d28c073,396,2022-08-12
+master; teacher,師匠,ししょう,,師匠,NOUN,,,,,3f9be32c-56f7-5543-98b0-5f145ab43669,397,2022-08-12
+order; request,ご注文,ごちゅもん,,ご注文,NOUN,,,,,b0f23319-1e7e-5eee-aa4c-1181b78ebeec,398,2022-08-12
+witch,魔女,まじょ,,魔女,NOUN,,,,,c495dd60-9438-5d9f-892e-6b37d6d88c4a,399,2022-08-12
+demon; ogre,鬼,おに,,鬼,NOUN,,3,,,52f192e3-6628-546b-80b5-f63547b440d5,400,2022-08-12
+devine spirit,神,かみ,,神,NOUN,,3,,,63f02942-2ba9-5ff6-aa84-be6ecd6f209d,401,2022-08-12
+travel; trip; journey,旅,たび,,旅,NOUN,,3,,,abbcc24b-a635-5aeb-b6ef-387d88099538,402,2022-08-12
+light music,軽音楽,けいおんがく,,軽音楽,NOUN,,1,,,aeac8e75-ade1-55a0-b4d0-4203dc90df45,403,2022-08-19
+club; department (of company),部,ぶ,,部,NOUN,,1,,,300bed58-ddab-5420-8396-3147573388c3,404,2022-08-12
+tidal wave,津波,つなみ,,津波,NOUN,,1,,,7735ac10-24a6-57a5-baf8-6eec8dc148ae,405,2022-08-12
+small child; cute small version of someone,チビ,ちび,,,NOUN,,,,,e2a1e5ef-c9d8-5554-a912-e6014d2c0f35,406,2022-08-13
+cute,カワイイ,かわいい,,,ADJECTIVE,I_ADJECTIVE,5,,,2c0b911e-ac72-5c04-bfd3-ebcd9e988dee,407,2022-08-13
+heated table,こたつ,こたつ,,,NOUN,,1,,,281d7359-80a0-519d-9c57-504f35bfd5ee,408,2022-08-13
+Japanese bedding,布団,ふとん,,布団,NOUN,,4,,,c3f5ef65-8025-5f56-b5e1-efc61a1c81bc,409,2022-08-13
+to collect; to assemble; to gather,集める,あつめる,,集める,VERB,ICHIDAN_VERB,4,,,49dcb689-b576-56c7-b9f6-1da98acb2667,410,2022-08-22
+cheers,乾杯,かんぱい,,乾杯,NOUN,,2,,,4f3a6c3d-94a5-54c7-bd5c-c16d008d8cf7,411,2022-08-27
+laundry,洗濯,せんたく,,洗濯,NOUN,,5,,,4a03f495-c343-5e8f-a1fe-fd1b6624f63a,412,2022-08-29
+starry sky,星空,ほしぞら,,星空,NOUN,,,,,4126b8e5-2e98-52ad-b637-7bd8ed566781,413,2022-08-29
+"lively, energetic; well, healthy",元気,げんき,,元気,ADJECTIVE,NA_ADJECTIVE,5,{GENKI3_L05},,ee877e49-b3e4-5e51-a969-c620c8407809,414,2022-09-02
+"desire, wish; request",願い,ねがい,,願い,NOUN,,3,{DUO_U03},,4b7cb2ac-7b91-54eb-86e3-2366f5e802bb,415,2022-09-02
+request; favor to ask,お願い,おねがい,,お願い,NOUN,GODAN_VERB,5,,,1d9fa8be-94a8-565a-93a3-973da9e759fa,416,2022-09-02
+mochi,もち,もち,,餅,NOUN,,2,,,59f26319-a287-5600-95b4-714e7fe21547,417,2022-09-07
+autum colors; leaves turning,紅葉,もみじ,,紅葉,NOUN,,2,,,43dce298-e577-5174-8f14-ecb525e67d38,418,2022-09-07
+excited; trembling; getting nervous,わくわく,わくわく,,,ADVERB,,,,,25032880-e2a8-54f3-8681-22172c54b84a,419,2022-09-07
+food,食べ物,たべもの,,食べ物,NOUN,,5,{GENKI3_L05},,cdb482ec-df51-5e19-8c72-08a8cb1c0a3e,420,2022-09-07
+drink,飲み物,のみもの,,飲み物,NOUN,,5,{GENKI3_L05},,cf8e1efb-b036-56e8-ad12-5e06f9b26bde,421,2022-09-07
+holiday; day off; absence,休み,やすみ,,休み,NOUN,,5,{GENKI3_L05},,5d5eb0f1-6cb0-5383-8797-49330b70b84c,422,2022-09-07
+travel; trip; journey,旅行,りょこう,,旅行,NOUN,,5,{GENKI3_L05},,885a798b-20d9-5279-ba34-8324db75f028,423,2022-09-07
+sea,海,うみ,,海,NOUN,,5,{GENKI3_L05},,b569a875-d88f-5e2a-b063-0f3f29f06094,424,2022-09-07
+waterway; channel,澪,みお,,澪,NOUN,,,,,b0188056-54cc-55e1-8cbd-418370ed533d,425,2022-09-07
+surfing,サーフィン,すうふぃん,,,NOUN,,,{GENKI3_L05},,ed499008-cde3-543e-a0d9-693e001b321c,426,2022-09-07
+souvenir,お土産,おみやげ,,お土産,NOUN,,4,{GENKI3_L05},,fa1bca4b-31a8-5488-a6d9-5b5a3fe927b8,427,2022-09-07
+bus,バス,ばす,,,NOUN,,5,{GENKI3_L05},,2d402f9c-7727-5394-b6d5-8767371af073,428,2022-09-07
+weather,天気,てんき,,天気,NOUN,,5,{GENKI3_L05},,4c1ba9fa-920a-5646-8869-d84d39e842a3,429,2022-09-07
+homework,宿題,しゅくだい,,宿題,NOUN,,5,{GENKI3_L05},,a1bfcd70-a853-50b0-955b-32fe355c2700,430,2022-09-07
+test,テスト,てすと,,,NOUN,,5,{GENKI3_L05},,dee18a86-fd39-54bc-9a77-ee24ba39c17c,431,2022-09-07
+birthday,誕生日,たんじょうび,,誕生日,NOUN,,5,{GENKI3_L05},,6d4b95c5-1f5a-50e0-aa8b-5558e8211486,432,2022-09-07
+size L,Ｌサイズ,えるさいず,,,NOUN,,1,{GENKI3_L05},,deb66e89-8251-5b46-9bb1-b1338aaa4e62,433,2022-09-07
+new,新しい,あたらしい,,新しい,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L05},,3ea98874-cf05-5e92-b8f2-45751b667e83,434,2022-09-07
+old (thing); ancient,古い,ふるい,,古い,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L05},,9ab38a71-325c-5f1b-b0aa-d9c5ce43b888,435,2022-09-07
+hot weather,暑い,あつい,,暑い,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L05},,21d6fb85-2f85-5a8c-a29b-375f90b9803e,436,2022-09-07
+cold weather,寒い,さむい,,寒い,ADJECTIVE,I_ADJECTIVE,,{GENKI3_L05},,dbeefce5-aaa6-5694-985d-6771413fa0fd,437,2022-09-07
+hot thing,熱い,あつい,,熱い,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L05},,9a7ac507-ea08-5187-ad27-04615036db05,438,2022-09-07
+busy people/days,忙しい,いそがしい,,忙しい,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L05},,36bbdf48-c6cf-502b-85a2-26bec94171c5,439,2022-09-07
+large,大きい,おおさい,,大きい,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L05},,9c26c29d-c047-519d-bd01-6eb035e74752,440,2022-09-07
+small,小さい,ちいさい,,小さい,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L05},,bbdc1a0a-1d15-5484-89ac-e3594f2d0e70,441,2022-09-07
+interesting; funny,面白い,おもしろい,,面白い,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L05},,14eb54bb-8d5f-50c2-b2e7-9b89a32a18f6,442,2022-09-07
+boring,つまらない,つまらない,,,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L05},,2e46c8d1-bb5e-5c96-9e63-b1d4fc035da1,443,2022-09-07
+easy (problem),やさしい,やさしい,,易しい,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L05},,ce5f2a5f-821f-5a5f-b5e5-6b59658ee781,444,2022-09-07
+kind (person),優しい,やさしい,,優しい,ADJECTIVE,I_ADJECTIVE,4,,,f0506ed6-e8ae-5d80-90bc-d527638693f8,445,2022-09-07
+difficult,難しい,むずかしい,,難しい,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L05},,835597f8-7be1-561d-8ef8-9c73316e9b49,446,2022-09-07
+good-looking,かっこいい,かっこいい,,格好いい,ADJECTIVE,I_ADJECTIVE,,{GENKI3_L05},,46305ec7-a809-547e-bb67-8533f9059b26,447,2022-09-07
+frightening,怖い,こわい,,怖い,ADJECTIVE,I_ADJECTIVE,4,{GENKI3_L05},,b28e9f01-a176-5cfa-b00b-e1fd1552f02d,448,2022-09-07
+fun,楽しい,たのしい,,楽しい,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L05},,03824733-2e97-5d1e-8705-2520abf86985,449,2022-09-07
+inexpensive; cheap (thing),安い,やすい,,安い,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L05},,a1c2f5e9-df18-5d9f-83db-7d30491b502d,450,2022-09-07
+disgusted with; to dislike,嫌い,きらい,,嫌い,ADJECTIVE,NA_ADJECTIVE,5,{GENKI3_L05},,cad48907-4908-5de4-8ee7-0c78c98ab755,451,2022-09-07
+very fond of; to love,大好き,だいすき,,大好き,ADJECTIVE,NA_ADJECTIVE,5,{GENKI3_L05},,f12880cb-86c7-5720-8773-a1cdfbe838f7,452,2022-09-07
+to hate,大嫌い,だいきらい,,大嫌い,ADJECTIVE,NA_ADJECTIVE,,{GENKI3_L05},,f610a74c-6229-5d19-b214-c183c4a1d92b,453,2022-09-07
+beautiful; clean,きれい,きれい,,,ADJECTIVE,NA_ADJECTIVE,5,{GENKI3_L05},,8218a74b-27ab-5310-80f8-8cca81609f73,454,2022-09-07
+quiet,静か,しずか,,静か,ADJECTIVE,NA_ADJECTIVE,5,{GENKI3_L05},,489610bc-c907-5de6-a0e7-acbeba740f3d,455,2022-09-07
+lively,にぎやか,にぎやか,,,ADJECTIVE,NA_ADJECTIVE,5,{GENKI3_L05},,96e3bcd4-e542-5d84-8576-c33f94149bc8,456,2022-09-07
+not busy; free (time),暇,ひま,,暇,ADJECTIVE,NA_ADJECTIVE,5,{GENKI3_L05},,585dccbc-01ad-5691-95c0-a5d402db619d,457,2022-09-07
+to swim,泳ぐ,およぐ,,泳ぐ,VERB,GODAN_VERB,5,{GENKI3_L05},,4ae77db0-2b66-543a-8d78-8e51c4cb0676,458,2022-09-07
+to ride; to board,乗る,のる,,乗る,VERB,GODAN_VERB,5,{GENKI3_L05},,2bcd828d-02d9-5834-8e4e-2a9fdecb800f,459,2022-09-07
+to do; to perform; to play (a game),やる,やる,,,VERB,GODAN_VERB,1,{GENKI3_L05},,43056e9d-b789-5d3b-ae22-ccd5feca4e1a,460,2022-09-07
+to go out,出かける,でかける,,出かける,VERB,ICHIDAN_VERB,5,{GENKI3_L05},,87f65ff6-cc11-5ed3-ae0f-91cd20cf2c32,461,2022-09-07
+exit,出口,でくち,,出口,NOUN,,5,,,6debd947-e8ba-512e-8457-8bf0e7ea9e5b,462,2022-09-07
+together (with); at the same time;,一緒に,いっしょに,,一緒に,ADVERB,,,{GENKI3_L05},,3121a086-d388-5e2d-87ea-42928a70bdb2,463,2022-09-07
+extremely,すごく,すごく,,凄く,ADVERB,,,{GENKI3_L05},,0dbac8fa-7de5-557b-a950-da804909a322,464,2022-09-07
+very,とても,とても,,,ADVERB,,5,{GENKI3_L05},,49100de9-fba3-596c-a2d2-d7d268716d82,465,2022-09-07
+what kind of...,どんな,どんな,,,PRE_NOUN_ADJECTIVAL,,3,{GENKI3_L05},,a7e30acf-baa9-5c69-b41d-b344f631a8a6,466,2022-09-07
+counter for flat objects,〜枚,〜まい,,〜枚,COUNTER,,1,{GENKI3_L05},,acbf41df-4c3c-58fe-b99e-30d088bafb4f,467,2022-09-07
