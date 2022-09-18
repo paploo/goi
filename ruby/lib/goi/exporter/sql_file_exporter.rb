@@ -7,10 +7,13 @@ module Goi
 
       def initialize(config:)
         super(config:)
-        @db = Sequel.postgres(config.db_config)
+        @config = config
+        @db = nil
       end
 
-      attr_reader :db
+      def db
+        @db ||= Sequel.postgres(config.db_config)
+      end
 
       def export(linkages:)
         record_builder = Goi::SQL::VocabularyRecordBuilder.new
