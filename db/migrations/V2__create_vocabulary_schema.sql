@@ -57,6 +57,7 @@ create index on vocabulary.spelling(spelling_kind_code, value);
 
 create unique index on vocabulary.definition(vocabulary_id, id);
 create unique index on vocabulary.spelling(vocabulary_id, id);
+
 create table vocabulary.linkages (
   vocabulary_id uuid not null unique references vocabulary.vocabulary(id),
 
