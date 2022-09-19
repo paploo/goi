@@ -9,7 +9,7 @@ module Goi
 
         def self.attributes: () -> [Symbol]
 
-        def initialize: (vocabulary: Vocabulary vocabulary, preferred_definition: Definition preferred_definition, preferred_spelling: Spelling preferred_spelling, phonetic_spelling: Spelling phonetic_spelling, ?alt_phonetic_spelling: Spelling? alt_phonetic_spelling, ?kanji_spelling: Spelling? kanji_spelling) -> void
+        def initialize: (vocabulary: Vocabulary vocabulary, preferred_definition: Definition preferred_definition, preferred_spelling: Spelling preferred_spelling, phonetic_spelling: Spelling phonetic_spelling, ?alt_phonetic_spelling: Spelling? alt_phonetic_spelling, ?kanji_spelling: Spelling? kanji_spelling, ?conjugation_set: ConjugationSet? conjugation_set) -> void
 
         attr_reader vocabulary: Vocabulary
 
@@ -22,6 +22,8 @@ module Goi
         attr_reader alt_phonetic_spelling: Spelling?
 
         attr_reader kanji_spelling: Spelling?
+
+        attr_reader conjugation_set: ConjugationSet?
 
         def copy: (**untyped) -> Linkages
 
@@ -103,6 +105,55 @@ module Goi
         def copy: (**untyped) -> Spelling
 
       end
+
+      class ConjugationSet
+
+        UUID5_NAMESPACE: String
+
+        def self.create_id: (vocabulary_id: String) -> String
+
+        def self.attributes: () -> [Symbol]
+
+        def initialize: (id: String id, vocabulary_id: String vocabulary_id, conjugations: [Conjugation]) -> void
+
+        attr_reader id: String
+
+        attr_reader vocabulary_id: String
+
+        attr_reader conjugations: [Conjugation]
+
+        def copy: (**untyped) -> ConjugationSet
+
+      end
+
+      class Conjugation
+
+        UUID5_NAMESPACE: String
+
+        def self.create_id: (conjugation_set_id: String, politeness_code: String, disposition_code: String, form_code: String, sort_rank: Integer) -> String
+
+        def self.attributes: () -> [Symbol]
+
+        def initialize: (id: String id, conjugation_set_id: String, politeness_code: String, disposition_code: String, form_code: String, sort_rank: Integer, value: String) -> void
+
+        attr_reader id: String
+
+        attr_reader conjugation_set_id: String
+
+        attr_reader politeness_code: String
+
+        attr_reader disposition_code: String
+
+        attr_reader form_code: String
+
+        attr_reader sort_rank: Integer
+
+        attr_reader value: String
+
+        def copy: (**untyped) -> Conjugation
+
+      end
+
     end
   end
 end
