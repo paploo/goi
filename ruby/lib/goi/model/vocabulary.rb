@@ -15,7 +15,8 @@ module Goi
           :preferred_spelling,
           :phonetic_spelling,
           :alt_phonetic_spelling,
-          :kanji_spelling
+          :kanji_spelling,
+          :conjugation_set
         ].freeze
 
         def self.attributes = ATTRIBUTES

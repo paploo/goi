@@ -42,7 +42,7 @@ create table vocabulary.conjugation (
     disposition varchar not null references vocabulary.conjugation_disposition(code),
     form varchar not null references  vocabulary.conjugation_form(code),
     sort_rank int not null default 0,
-    value text not null,
+    value text not null, --This is the standard spelling of the value; might add hiragana, kanji, phonetic versions later if need be
 
     unique (conjugation_set_id, politeness, disposition, form, sort_rank)
 );

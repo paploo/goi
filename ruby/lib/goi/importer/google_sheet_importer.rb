@@ -19,9 +19,10 @@ module Goi
         @vocabulary_parser = VocabularyParser.new
         @definition_parser = DefinitionParser.new
         @spelling_parser = SpellingParser.new
+        @conjugation_parser = ConjugationParser.new
       end
 
-      attr_reader :vocabulary_parser, :definition_parser, :spelling_parser
+      attr_reader :vocabulary_parser, :definition_parser, :spelling_parser, :conjugation_parser
 
       def import
         rows = CSV.read(config.file_pathname.to_s, headers: true).map(&:to_h)
@@ -43,7 +44,8 @@ module Goi
           preferred_spelling: parse_spelling(row:, vocabulary_id:, field_data: PREFERRED_SPELLING_FIELD_DATA, required: true),
           phonetic_spelling: parse_spelling(row:, vocabulary_id:, field_data: PHONETIC_SPELLING_FIELD_DATA, required: true),
           alt_phonetic_spelling: parse_spelling(row:, vocabulary_id:, field_data: ALT_PHONETIC_SPELLING_FIELD_DATA, required: false),
-          kanji_spelling: parse_spelling(row:, vocabulary_id:, field_data: KANJI_SPELLING_FIELD_DATA, required: false)
+          kanji_spelling: parse_spelling(row:, vocabulary_id:, field_data: KANJI_SPELLING_FIELD_DATA, required: false),
+          conjugation_set: parse_conjugation(row:, vocabulary_id:)
         )
       end
 
@@ -57,6 +59,10 @@ module Goi
 
       def parse_spelling(row:, field_data:, required:, vocabulary_id:)
         spelling_parser.parse_row(row:, field_data:, required:, vocabulary_id:)
+      end
+
+      def parse_conjugation(row:, vocabulary_id:)
+        conjugation_parser.parse_row(row, vocabulary_id)
       end
 
       class VocabularyParser
@@ -165,7 +171,40 @@ module Goi
 
       end
 
-    end
+      class ConjugationParser
 
+        def parse_row(row:, vocabulary_id:)
+          # TODO Implement
+          return nil
+        end
+
+        private
+
+        COLUMN_MAP = {
+          'dictionary_form' => ['PLAIN', 'POSITIVE', 'PRESENT'],
+          'past_form' => ['PLAIN', 'POSITIVE', 'PAST'],
+          'te_form' => ['PLAIN', 'POSITIVE', 'TE'],
+
+          'negative_form' => ['PLAIN', 'NEGATIVE', 'PRESENT'],
+          'negative_past_form' => ['PLAIN', 'NEGATIVE', 'PAST'],
+          'negative_te_form' => ['PLAIN', 'NEGATIVE', 'TE'],
+
+          'polite_form' => ['POLITE', 'POSITIVE', 'DICTIONARY'],
+          'polite_past_form' => ['POLITE', 'POSITIVE', 'PAST'],
+          'polite_te_form' => ['POLITE', 'POSITIVE', 'TE'],
+
+          'polite_negative_form' => ['POLITE', 'NEGATIVE', 'DICTIONARY'],
+          'polite_negative_past_form' => ['POLITE', 'NEGATIVE', 'PAST'],
+          'polite_negative_te_form' => ['POLITE', 'NEGATIVE', 'TE'],
+        }.freeze
+
+        def parse_conjugation(row:, key:, conjugation_set_id:)
+          # TODO: Return nil if key not present, otherwise return the row.
+          return nil
+        end
+
+      end
+
+    end
   end
 end
