@@ -235,29 +235,29 @@ module Goi
           :id,
           :conjugation_set_id,
           :politeness_code,
-          :disposition_code,
+          :charge_code,
           :form_code,
           :sort_rank,
           :value
         ].freeze
 
-        def self.create_id(conjugation_set_id:, politeness_code:, disposition_code:, form_code:, sort_rank:)
-          name = [conjugation_set_id, politeness_code, disposition_code, form_code, sort_rank].map(&:to_s).join('|')
+        def self.create_id(conjugation_set_id:, politeness_code:, charge_code:, form_code:, sort_rank:)
+          name = [conjugation_set_id, politeness_code, charge_code, form_code, sort_rank].map(&:to_s).join('|')
           ns = UUIDTools::UUID.parse(UUID5_NAMESPACE)
           UUIDTools::UUID.sha1_create(ns, name).to_s
         end
 
-        def initialize(id:, conjugation_set_id:, politeness_code:, disposition_code:, form_code:, sort_rank:, value:)
+        def initialize(id:, conjugation_set_id:, politeness_code:, charge_code:, form_code:, sort_rank:, value:)
           @id = id || raise(ArgumentError, "ID required")
           @conjugation_set_id = conjugation_set_id
           @politeness_code = politeness_code
-          @disposition_code = disposition_code
+          @charge_code = charge_code
           @form_code = form_code
           @sort_rank = sort_rank
           @value = value
         end
 
-        attr_reader :id, :conjugation_set_id, :politeness_code, :disposition_code, :form_code, :sort_rank,:value
+        attr_reader :id, :conjugation_set_id, :politeness_code, :charge_code, :form_code, :sort_rank,:value
 
         def copy(**props)
           args = self.class.attributes.map { |p| [p, props.fetch(p, send(p))] }.to_h

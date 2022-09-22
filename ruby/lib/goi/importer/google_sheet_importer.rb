@@ -62,7 +62,7 @@ module Goi
       end
 
       def parse_conjugation(row:, vocabulary_id:)
-        conjugation_parser.parse_row(row, vocabulary_id)
+        conjugation_parser.parse_row(row:, vocabulary_id:)
       end
 
       class VocabularyParser
@@ -171,36 +171,71 @@ module Goi
 
       end
 
+
       class ConjugationParser
 
         def parse_row(row:, vocabulary_id:)
-          # TODO Implement
-          return nil
+          set = parse_conjugation_set(row:, vocabulary_id:)
+          set.conjugations.empty? ? nil : set
         end
 
         private
 
-        COLUMN_MAP = {
-          'dictionary_form' => ['PLAIN', 'POSITIVE', 'PRESENT'],
-          'past_form' => ['PLAIN', 'POSITIVE', 'PAST'],
-          'te_form' => ['PLAIN', 'POSITIVE', 'TE'],
+        KEY_MAP = {
+          'dictionary_form' => { politeness: 'PLAIN', charge: 'POSITIVE', form: 'PRESENT', sort_rank: 1 },
+          'past_form' => { politeness: 'PLAIN', charge: 'POSITIVE', form: 'PAST', sort_rank: 1 },
+          'te_form' => { politeness: 'PLAIN', charge: 'POSITIVE', form: 'TE', sort_rank: 1 },
 
-          'negative_form' => ['PLAIN', 'NEGATIVE', 'PRESENT'],
-          'negative_past_form' => ['PLAIN', 'NEGATIVE', 'PAST'],
-          'negative_te_form' => ['PLAIN', 'NEGATIVE', 'TE'],
+          'negative_form' => { politeness: 'PLAIN', charge: 'NEGATIVE', form: 'PRESENT', sort_rank: 1 },
+          'negative_past_form' => { politeness: 'PLAIN', charge: 'NEGATIVE', form: 'PAST', sort_rank: 1 },
+          'negative_te_form' => { politeness: 'PLAIN', charge: 'NEGATIVE', form: 'TE', sort_rank: 1 },
 
-          'polite_form' => ['POLITE', 'POSITIVE', 'DICTIONARY'],
-          'polite_past_form' => ['POLITE', 'POSITIVE', 'PAST'],
-          'polite_te_form' => ['POLITE', 'POSITIVE', 'TE'],
+          'polite_form' => { politeness: 'POLITE', charge: 'POSITIVE', form: 'DICTIONARY', sort_rank: 1 },
+          'polite_past_form' => { politeness: 'POLITE', charge: 'POSITIVE', form: 'PAST', sort_rank: 1 },
+          'polite_te_form' => { politeness: 'POLITE', charge: 'POSITIVE', form: 'TE', sort_rank: 1 },
 
-          'polite_negative_form' => ['POLITE', 'NEGATIVE', 'DICTIONARY'],
-          'polite_negative_past_form' => ['POLITE', 'NEGATIVE', 'PAST'],
-          'polite_negative_te_form' => ['POLITE', 'NEGATIVE', 'TE'],
+          'polite_negative_form' => { politeness: 'POLITE', charge: 'NEGATIVE', form: 'DICTIONARY', sort_rank: 1 },
+          'polite_negative_past_form' => { politeness: 'POLITE', charge: 'NEGATIVE', form: 'PAST', sort_rank: 1 },
+          'polite_negative_te_form' => { politeness: 'POLITE', charge: 'NEGATIVE', form: 'TE', sort_rank: 1 },
         }.freeze
 
+        def parse_conjugation_set(row:, vocabulary_id:)
+          id = Goi::Model::Vocabulary::ConjugationSet.create_id(vocabulary_id:)
+          conjugations = parse_conjugations(row:, conjugation_set_id: id)
+
+          Goi::Model::Vocabulary::ConjugationSet.new(
+            id:,
+            vocabulary_id:,
+            conjugations:
+          )
+        end
+
+        def parse_conjugations(row:, conjugation_set_id:)
+          KEY_MAP.keys.map { |key| parse_conjugation(row:, key:, conjugation_set_id:) }
+        end
+
         def parse_conjugation(row:, key:, conjugation_set_id:)
-          # TODO: Return nil if key not present, otherwise return the row.
-          return nil
+          value = row[key]&.clean
+          return nil if value.nil?
+
+          politeness_code, charge_code, form_code, sort_rank = KEY_MAP[key].values
+          id = Goi::Model::Vocabulary::Conjugation.create_id(
+            conjugation_set_id:,
+            politeness_code:,
+            charge_code:,
+            form_code:,
+            sort_rank:
+          )
+
+          Goi::Model::Vocabulary::Conjugation.new(
+            id:,
+            conjugation_set_id:,
+            politeness_code:,
+            charge_code:,
+            form_code:,
+            sort_rank:,
+            value:
+          )
         end
 
       end

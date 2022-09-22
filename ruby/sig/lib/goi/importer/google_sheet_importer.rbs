@@ -32,7 +32,7 @@ module Goi
 
       def parse_spelling: (row: Hash[String, String] row, field_data: field_data field_data, required: bool required, vocabulary_id: String vocabulary_id) -> Model::Vocabulary::Spelling
 
-      def parse_conjugation: (row: Hash[String, String] row, vocabulary_id: String vocabulary_id) -> Model::Vocabulary::ConjugationSet
+      def parse_conjugation: (row: Hash[String, String] row, vocabulary_id: String vocabulary_id) -> Model::Vocabulary::ConjugationSet?
 
       class VocabularyParser
 
@@ -64,17 +64,24 @@ module Goi
 
       class ConjugationParser
 
-        def parse_row: (row: Hash[String, String] row, vocabulary_id: String vocabulary_id) -> Model::Vocabulary::ConjugationSet
+        def parse_row: (row: Hash[String, String] row, vocabulary_id: String vocabulary_id) -> Model::Vocabulary::ConjugationSet?
 
         private
 
         type politeness = 'PLAIN'|'POLITE'
         type charge = 'POSITIVE'|'NEGATIVE'
         type form = 'PRESENT'|'PAST'|'TE'
+        type sort_rank = Integer
 
-        COLUMN_MAP: Hash[String, [politeness, charge, form]]
+        FOO: [form, sort_rank]
 
-        def parse_conjugation: (row: Hash[String, String] row, key: String, conjugation_set_id: String) -> Model::Vocabulary::Conjugation
+        KEY_MAP: Hash[String, {politeness: politeness, charge: charge, form: form, sort_rank: sort_rank}]
+
+        def parse_set: (row: Hash[String, String] row, vocabulary_id: String vocabulary_id) -> Model::Vocabulary::ConjugationSet
+
+        def parse_conjugations: (row: Hash[String, String] row, key: String, conjugation_set_id: String) -> [Model::Vocabulary::Conjugation]
+
+        def parse_conjugation: (row: Hash[String, String] row, key: String, conjugation_set_id: String) -> Model::Vocabulary::Conjugation?
 
       end
 

@@ -38,13 +38,13 @@ create table vocabulary.conjugation_form (
 create table vocabulary.conjugation (
     id uuid primary key,
     conjugation_set_id uuid not null references vocabulary.conjugation_set(id),
-    politeness varchar not null references vocabulary.conjugation_politeness(code),
-    charge varchar not null references vocabulary.conjugation_charge(code),
-    form varchar not null references  vocabulary.conjugation_form(code),
+    politeness_code varchar not null references vocabulary.conjugation_politeness(code),
+    charge_code varchar not null references vocabulary.conjugation_charge(code),
+    form_code varchar not null references  vocabulary.conjugation_form(code),
     sort_rank int not null default 0,
     value text not null, --This is the standard spelling of the value; might add hiragana, kanji, phonetic versions later if need be
 
-    unique (conjugation_set_id, politeness, charge, form, sort_rank)
+    unique (conjugation_set_id, politeness_code, charge_code, form_code, sort_rank)
 );
 create index on vocabulary.conjugation(conjugation_set_id);
 create index on vocabulary.conjugation(value);
