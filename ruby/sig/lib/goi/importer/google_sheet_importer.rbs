@@ -73,7 +73,7 @@ module Goi
         type form = 'PRESENT'|'PAST'|'TE'
         type sort_rank = Integer
 
-        FOO: [form, sort_rank]
+        KEY_LIST: [String]
 
         KEY_MAP: Hash[String, {politeness: politeness, charge: charge, form: form, sort_rank: sort_rank}]
 

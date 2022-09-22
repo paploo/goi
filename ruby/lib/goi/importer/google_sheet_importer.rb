@@ -176,11 +176,35 @@ module Goi
 
         def parse_row(row:, vocabulary_id:)
           set = parse_conjugation_set(row:, vocabulary_id:)
+          if !set.conjugations.empty?
+            puts set.inspect
+            set.conjugations.each {|cons| puts(cons.inspect) }
+          end
           set.conjugations.empty? ? nil : set
         end
 
         private
 
+        # The ordered key list
+        KEY_LIST = [
+          'dictionary_form',
+          'past_form',
+          'te_form',
+
+          'negative_form',
+          'negative_past_form',
+          'negative_te_form',
+
+          'polite_form',
+          'polite_past_form',
+          'polite_te_form',
+
+          'polite_negative_form',
+          'polite_negative_past_form',
+          'polite_negative_te_form',
+        ].freeze
+
+        # The map of data by key
         KEY_MAP = {
           'dictionary_form' => { politeness: 'PLAIN', charge: 'POSITIVE', form: 'PRESENT', sort_rank: 1 },
           'past_form' => { politeness: 'PLAIN', charge: 'POSITIVE', form: 'PAST', sort_rank: 1 },
@@ -199,6 +223,9 @@ module Goi
           'polite_negative_te_form' => { politeness: 'POLITE', charge: 'NEGATIVE', form: 'TE', sort_rank: 1 },
         }.freeze
 
+        # Validate all keys in list are in map
+        raise "Some keys in KEY_LIST are not in KEY_MAP: #{KEY_LIST - KEY_MAP.keys}" unless (KEY_LIST - KEY_MAP.keys).empty?
+
         def parse_conjugation_set(row:, vocabulary_id:)
           id = Goi::Model::Vocabulary::ConjugationSet.create_id(vocabulary_id:)
           conjugations = parse_conjugations(row:, conjugation_set_id: id)
@@ -211,7 +238,7 @@ module Goi
         end
 
         def parse_conjugations(row:, conjugation_set_id:)
-          KEY_MAP.keys.map { |key| parse_conjugation(row:, key:, conjugation_set_id:) }
+          KEY_MAP.keys.map { |key| parse_conjugation(row:, key:, conjugation_set_id:) }.compact
         end
 
         def parse_conjugation(row:, key:, conjugation_set_id:)
