@@ -41,10 +41,10 @@ INSERT INTO vocabulary.conjugation_politeness (code, label, sort_rank) VALUES ('
 INSERT INTO vocabulary.conjugation_politeness (code, label, sort_rank) VALUES ('NEGATIVE', 'Negative', 2);
 
 ---
---- CONJUGATION DISPOSITION
+--- CONJUGATION CHARGE
 ---
-INSERT INTO vocabulary.conjugation_disposition (code, label, sort_rank) VALUES ('PLAIN', 'Plain/Dictionary', 1);
-INSERT INTO vocabulary.conjugation_disposition (code, label, sort_rank) VALUES ('POLITE', 'Ploite/Masu', 2);
+INSERT INTO vocabulary.conjugation_charge (code, label, sort_rank) VALUES ('PLAIN', 'Plain/Dictionary', 1);
+INSERT INTO vocabulary.conjugation_charge (code, label, sort_rank) VALUES ('POLITE', 'Ploite/Masu', 2);
 
 ---
 --- CONJUGATION FORM

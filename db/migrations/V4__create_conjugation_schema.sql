@@ -21,7 +21,7 @@ create table vocabulary.conjugation_politeness (
 );
 
 -- e.g.: POSITIVE, NEGATIVE
-create table vocabulary.conjugation_disposition (
+create table vocabulary.conjugation_charge (
     code  varchar primary key,
     label text not null,
     sort_rank int not null
@@ -39,12 +39,12 @@ create table vocabulary.conjugation (
     id uuid primary key,
     conjugation_set_id uuid not null references vocabulary.conjugation_set(id),
     politeness varchar not null references vocabulary.conjugation_politeness(code),
-    disposition varchar not null references vocabulary.conjugation_disposition(code),
+    charge varchar not null references vocabulary.conjugation_charge(code),
     form varchar not null references  vocabulary.conjugation_form(code),
     sort_rank int not null default 0,
     value text not null, --This is the standard spelling of the value; might add hiragana, kanji, phonetic versions later if need be
 
-    unique (conjugation_set_id, politeness, disposition, form, sort_rank)
+    unique (conjugation_set_id, politeness, charge, form, sort_rank)
 );
 create index on vocabulary.conjugation(conjugation_set_id);
 create index on vocabulary.conjugation(value);

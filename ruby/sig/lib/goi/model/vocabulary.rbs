@@ -130,11 +130,11 @@ module Goi
 
         UUID5_NAMESPACE: String
 
-        def self.create_id: (conjugation_set_id: String, politeness_code: String, disposition_code: String, form_code: String, sort_rank: Integer) -> String
+        def self.create_id: (conjugation_set_id: String, politeness_code: String, charge_code: String, form_code: String, sort_rank: Integer) -> String
 
         def self.attributes: () -> [Symbol]
 
-        def initialize: (id: String id, conjugation_set_id: String, politeness_code: String, disposition_code: String, form_code: String, sort_rank: Integer, value: String) -> void
+        def initialize: (id: String id, conjugation_set_id: String, politeness_code: String, charge_code: String, form_code: String, sort_rank: Integer, value: String) -> void
 
         attr_reader id: String
 
@@ -142,7 +142,7 @@ module Goi
 
         attr_reader politeness_code: String
 
-        attr_reader disposition_code: String
+        attr_reader charge_code: String
 
         attr_reader form_code: String
 

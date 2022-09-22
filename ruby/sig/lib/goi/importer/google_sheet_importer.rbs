@@ -69,10 +69,10 @@ module Goi
         private
 
         type politeness = 'PLAIN'|'POLITE'
-        type positivity = 'POSITIVE'|'NEGATIVE'
+        type charge = 'POSITIVE'|'NEGATIVE'
         type form = 'PRESENT'|'PAST'|'TE'
 
-        COLUMN_MAP: Hash[String, [politeness, positivity, form]]
+        COLUMN_MAP: Hash[String, [politeness, charge, form]]
 
         def parse_conjugation: (row: Hash[String, String] row, key: String, conjugation_set_id: String) -> Model::Vocabulary::Conjugation
 
