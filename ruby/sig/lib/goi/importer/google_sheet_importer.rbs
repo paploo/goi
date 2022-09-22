@@ -73,8 +73,8 @@ module Goi
         type form = 'PRESENT'|'PAST'|'TE'
         type sort_rank = Integer
 
+        KEY_DEFINITIONS: {String, politeness: politeness, charge: charge, form: form, sort_rank: sort_rank}]
         KEY_LIST: [String]
-
         KEY_MAP: Hash[String, {politeness: politeness, charge: charge, form: form, sort_rank: sort_rank}]
 
         def parse_set: (row: Hash[String, String] row, vocabulary_id: String vocabulary_id) -> Model::Vocabulary::ConjugationSet
