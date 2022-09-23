@@ -1,5 +1,6 @@
 require 'date'
 
+require_relative '../model/google_sheet'
 require_relative '../model/vocabulary'
 require_relative '../nihongo'
 require_relative 'base_importer'
@@ -187,24 +188,9 @@ module Goi
 
         private
 
-        KEY_DATA = [
-          { key: 'dictionary_form', politeness: 'PLAIN', charge: 'POSITIVE', form: 'PRESENT', sort_rank: 1 },
-          { key: 'past_form', politeness: 'PLAIN', charge: 'POSITIVE', form: 'PAST', sort_rank: 1 },
-          { key: 'te_form', politeness: 'PLAIN', charge: 'POSITIVE', form: 'TE', sort_rank: 1 },
-          { key: 'negative_form', politeness: 'PLAIN', charge: 'NEGATIVE', form: 'PRESENT', sort_rank: 1 },
-          { key: 'negative_past_form', politeness: 'PLAIN', charge: 'NEGATIVE', form: 'PAST', sort_rank: 1 },
-          { key: 'negative_te_form', politeness: 'PLAIN', charge: 'NEGATIVE', form: 'TE', sort_rank: 1 },
-          { key: 'polite_form', politeness: 'POLITE', charge: 'POSITIVE', form: 'DICTIONARY', sort_rank: 1 },
-          { key: 'polite_past_form', politeness: 'POLITE', charge: 'POSITIVE', form: 'PAST', sort_rank: 1 },
-          { key: 'polite_te_form', politeness: 'POLITE', charge: 'POSITIVE', form: 'TE', sort_rank: 1 },
-          { key: 'polite_negative_form', politeness: 'POLITE', charge: 'NEGATIVE', form: 'DICTIONARY', sort_rank: 1 },
-          { key: 'polite_negative_past_form', politeness: 'POLITE', charge: 'NEGATIVE', form: 'PAST', sort_rank: 1 },
-          { key: 'polite_negative_te_form', politeness: 'POLITE', charge: 'NEGATIVE', form: 'TE', sort_rank: 1 },
-        ].freeze
-
-        KEY_LIST = KEY_DATA.map { |kd| kd[:key] }.freeze
-
-        KEY_MAP = KEY_DATA.map { |kd| [kd[:key], kd] }.to_h.freeze
+        KEY_DATA = Goi::Model::GoogleSheet::CONJUGATION_KEY_DATA
+        KEY_LIST = Goi::Model::GoogleSheet::CONJUGATION_KEYS
+        KEY_MAP = Goi::Model::GoogleSheet::CONJUGATION_KEY_DATA_MAP
 
         def parse_conjugation_set(row:, vocabulary_id:)
           id = Goi::Model::Vocabulary::ConjugationSet.create_id(vocabulary_id:)
@@ -225,7 +211,11 @@ module Goi
           value = row[key]&.clean
           return nil if value.nil?
 
-          politeness_code, charge_code, form_code, sort_rank = KEY_MAP[key].values
+          politeness_code = KEY_MAP[key][:politeness]
+          charge_code = KEY_MAP[key][:charge]
+          form_code = KEY_MAP[key][:form]
+          sort_rank = KEY_MAP[key][:sort_rank]
+
           id = Goi::Model::Vocabulary::Conjugation.create_id(
             conjugation_set_id:,
             politeness_code:,

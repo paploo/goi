@@ -1,6 +1,11 @@
+require_relative '../model/google_sheet'
+
 module Goi
   module Exporter
     class GoogleSheetExporter < BaseExporter
+
+      CONJUGATION_COLUMN_DATA = Goi::Model::GoogleSheet::CONJUGATION_KEY_DATA
+      CONJUGATION_COLUMN_KEYS = Goi::Model::GoogleSheet::CONJUGATION_KEYS
 
       HEADERS = [
         'definition',
@@ -16,7 +21,7 @@ module Goi
         'id',
         'row_num',
         'date_added'
-      ].freeze
+      ].freeze + [nil] + CONJUGATION_COLUMN_KEYS
 
       def export(linkages:)
         config_out_open do |io|
@@ -38,6 +43,10 @@ module Goi
       end
 
       def linkage_row(linkage:)
+        core_columns(linkage:) + empty_column + conjugation_columns(linkage:)
+      end
+
+      def core_columns(linkage:)
         [
           linkage.preferred_definition.value,
           linkage.preferred_spelling.value,
@@ -53,6 +62,29 @@ module Goi
           linkage.vocabulary.row_num.to_s,
           linkage.vocabulary.date_added&.iso8601
         ]
+      end
+
+      def conjugation_columns(linkage:)
+        conjugation_set = linkage.conjugation_set
+        CONJUGATION_COLUMN_DATA.map do |col_data|
+          find_conjugation(
+            conjugation_set:,
+            politeness_code: col_data[:politeness],
+            charge_code: col_data[:charge],
+            form_code: col_data[:form]
+          )&.value
+        end
+      end
+
+      # Returns a single empty column, used to buffer sections in the sheet.
+      def empty_column
+        [nil]
+      end
+
+      def find_conjugation(conjugation_set:, politeness_code:, charge_code:, form_code:)
+        conjugation_set&.conjugations&.find_all do |c|
+          c.politeness_code == politeness_code && c.charge_code == charge_code && c.form_code == form_code
+        end&.min_by(&:sort_rank)
       end
 
       def tags_field(vocabulary)
