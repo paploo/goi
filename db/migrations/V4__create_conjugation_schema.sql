@@ -27,7 +27,7 @@ create table vocabulary.conjugation_charge (
     sort_rank int not null
 );
 
--- e.g.: DICTIONARY, PAST, TE, CONDITIONAL_EBA, CONDITIONAL_TARA, POTENTIAL, PASSIVE, CAUSATIVE, IMPERATIVE
+-- e.g.: PRESENT, PAST, TE, CONDITIONAL_EBA, CONDITIONAL_TARA, POTENTIAL, PASSIVE, CAUSATIVE, IMPERATIVE
 create table vocabulary.conjugation_form (
     code varchar primary key,
     label text not null,

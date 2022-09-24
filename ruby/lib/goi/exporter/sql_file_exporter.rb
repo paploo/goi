@@ -40,6 +40,7 @@ module Goi
           db[Sequel[:vocabulary][:spelling]].insert_sql(record_group[:phonetic_spelling]),
           record_group[:alt_phonetic_spelling] && db[Sequel[:vocabulary][:spelling]].insert_sql(record_group[:alt_phonetic_spelling]),
           record_group[:kanji_spelling] && db[Sequel[:vocabulary][:spelling]].insert_sql(record_group[:kanji_spelling]),
+          record_group[:conjugation_set] && db[Sequel[:vocabulary][:conjugation_set]].insert_sql(record_group[:conjugation_set]),
           db[Sequel[:vocabulary][:linkages]].insert_sql(record_group[:linkages]),
         ].compact
 
@@ -47,7 +48,11 @@ module Goi
           db[Sequel[:vocabulary][:reference]].insert_sql(ref)
         end
 
-        main_entities_sql + ref_group_sql
+        conjugation_sql = record_group[:conjugations].map do |conj|
+          db[Sequel[:vocabulary][:conjugation]].insert_sql(conj)
+        end
+
+        main_entities_sql + ref_group_sql + conjugation_sql
       end
 
     end

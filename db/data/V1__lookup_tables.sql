@@ -35,16 +35,16 @@ INSERT INTO vocabulary.spelling_kind (code, label) VALUES ('KATAKANA', 'Katakana
 INSERT INTO vocabulary.spelling_kind (code, label) VALUES ('KANJI', 'Kanji');
 
 ---
---- CONJUGATION POLITENESS
----
-INSERT INTO vocabulary.conjugation_politeness (code, label, sort_rank) VALUES ('POSITIVE', 'Positive', 1);
-INSERT INTO vocabulary.conjugation_politeness (code, label, sort_rank) VALUES ('NEGATIVE', 'Negative', 2);
-
----
 --- CONJUGATION CHARGE
 ---
-INSERT INTO vocabulary.conjugation_charge (code, label, sort_rank) VALUES ('PLAIN', 'Plain/Dictionary', 1);
-INSERT INTO vocabulary.conjugation_charge (code, label, sort_rank) VALUES ('POLITE', 'Ploite/Masu', 2);
+INSERT INTO vocabulary.conjugation_charge (code, label, sort_rank) VALUES ('POSITIVE', 'Positive', 1);
+INSERT INTO vocabulary.conjugation_charge (code, label, sort_rank) VALUES ('NEGATIVE', 'Negative', 2);
+
+---
+--- CONJUGATION POLITENESS
+---
+INSERT INTO vocabulary.conjugation_politeness (code, label, sort_rank) VALUES ('PLAIN', 'Plain/Dictionary', 1);
+INSERT INTO vocabulary.conjugation_politeness (code, label, sort_rank) VALUES ('POLITE', 'Ploite/Masu', 2);
 
 ---
 --- CONJUGATION FORM
