@@ -356,8 +356,8 @@ a7f63c04-eeb1-4cc9-b9e7-93c5aef67195,Tuesday,火曜日,かようび,,noun,,5,202
 b7290a17-b80a-4663-84b4-fb97c53ac10e,Wednesday,水曜日,すいようび,,noun,,5,2022-08-10,355,GENKI3_L04,time noun genki3-l04
 29385baf-a573-49a4-b4b5-0119dae49df3,Thursday,木曜日,もくようび,,noun,,5,2022-08-10,356,GENKI3_L04,time noun genki3-l04
 1ecc5944-6007-4a9f-8153-41e50842b67a,Friday,金曜日,きんようび,,noun,,5,2022-08-10,357,GENKI3_L04,time noun genki3-l04
-8728a06a-1e5b-436b-939a-b1d96a7d9f79,there exists...,いる,いる,,verb,ichidan verb,5,2022-08-10,358,GENKI3_L04,to-be-verb verb ichidan-verb genki3-l04
-a4025eed-7054-4b18-b8ce-c90bc7ed6b00,there is...,ある,ある,,verb,godan verb,5,2022-08-10,359,GENKI3_L04,to-be-verb verb godan-verb genki3-l04
+8728a06a-1e5b-436b-939a-b1d96a7d9f79,there exists... (animate),いる,いる,,verb,ichidan verb,5,2022-08-10,358,GENKI3_L04,to-be-verb verb ichidan-verb genki3-l04
+a4025eed-7054-4b18-b8ce-c90bc7ed6b00,there is... (inanimate),ある,ある,,verb,godan verb,5,2022-08-10,359,GENKI3_L04,to-be-verb verb godan-verb genki3-l04
 a7c68ed2-5f08-4411-9030-42347f7d571f,to meet; to see a person,会う,あう,,verb,godan verb,5,2022-08-10,360,GENKI3_L04,verb godan-verb genki3-l04
 1e617d48-2df2-4c74-b732-89783d176db9,to buy; to purchase,買う,かう,,verb,godan verb,5,2022-08-10,361,GENKI3_L04,verb godan-verb genki3-l04
 1629794a-84d2-44f3-b05b-89bcb817152a,to write,書く,かく,,verb,godan verb,5,2022-08-10,362,GENKI3_L04,verb godan-verb genki3-l04
@@ -412,68 +412,71 @@ aeac8e75-ade1-55a0-b4d0-4203dc90df45,light music,軽音楽,けいおんがく,,n
 300bed58-ddab-5420-8396-3147573388c3,club; department (of company),部,ぶ,,noun,,1,2022-08-12,411,,noun
 e2a1e5ef-c9d8-5554-a912-e6014d2c0f35,small child; cute small version of someone,チビ,ちび,,noun,,,2022-08-13,412,,noun
 2c0b911e-ac72-5c04-bfd3-ebcd9e988dee,cute,カワイイ,かわいい,可愛い,adjective,i adjective,5,2022-08-13,413,,adjective i-adjective
-281d7359-80a0-519d-9c57-504f35bfd5ee,heated table,こたつ,こたつ,,noun,,1,2022-08-13,414,,noun
-c3f5ef65-8025-5f56-b5e1-efc61a1c81bc,Japanese bedding,布団,ふとん,,noun,,4,2022-08-13,415,,noun
-49dcb689-b576-56c7-b9f6-1da98acb2667,to collect; to assemble; to gather,集める,あつめる,,verb,ichidan verb,4,2022-08-22,416,,verb ichidan-verb
-4f3a6c3d-94a5-54c7-bd5c-c16d008d8cf7,cheers,乾杯,かんぱい,,noun,,2,2022-08-27,417,,noun
-4a03f495-c343-5e8f-a1fe-fd1b6624f63a,laundry,洗濯,せんたく,,noun,,5,2022-08-29,418,,noun
-4126b8e5-2e98-52ad-b637-7bd8ed566781,starry sky,星空,ほしぞら,,noun,,,2022-08-29,419,,noun
-ee877e49-b3e4-5e51-a969-c620c8407809,"lively, energetic; well, healthy",元気,げんき,,adjective,na adjective,5,2022-09-02,420,GENKI3_L05,adjective na-adjective genki3-l05
-4b7cb2ac-7b91-54eb-86e3-2366f5e802bb,"desire, wish; request",願い,ねがい,,noun,,3,2022-09-02,421,DUO_U03,noun duo-u03
-1d9fa8be-94a8-565a-93a3-973da9e759fa,request; favor to ask,お願い,おねがい,,noun,godan verb,5,2022-09-02,422,,noun godan-verb
-59f26319-a287-5600-95b4-714e7fe21547,mochi,もち,もち,餅,noun,,2,2022-09-07,423,,noun
-43dce298-e577-5174-8f14-ecb525e67d38,autum colors; leaves turning,紅葉,もみじ,,noun,,2,2022-09-07,424,,noun
-25032880-e2a8-54f3-8681-22172c54b84a,excited; trembling; getting nervous,わくわく,わくわく,,adverb,,,2022-09-07,425,,adverb
-94bb3768-7278-5e58-80cb-f5c809726ef1,being too late; losing one's final chance​,手遅れ,ておくれ,,noun,,1,2022-09-10,426,,noun
-cdb482ec-df51-5e19-8c72-08a8cb1c0a3e,food,食べ物,たべもの,,noun,,5,2022-09-07,427,GENKI3_L05,noun genki3-l05
-cf8e1efb-b036-56e8-ad12-5e06f9b26bde,drink,飲み物,のみもの,,noun,,5,2022-09-07,428,GENKI3_L05,noun genki3-l05
-5d5eb0f1-6cb0-5383-8797-49330b70b84c,holiday; day off; absence,休み,やすみ,,noun,,5,2022-09-07,429,GENKI3_L05,noun genki3-l05
-885a798b-20d9-5279-ba34-8324db75f028,travel; trip; journey,旅行,りょこう,,noun,,5,2022-09-07,430,GENKI3_L05,noun genki3-l05
-b569a875-d88f-5e2a-b063-0f3f29f06094,sea,海,うみ,,noun,,5,2022-09-07,431,GENKI3_L05,noun genki3-l05
-b0188056-54cc-55e1-8cbd-418370ed533d,waterway; channel,澪,みお,,noun,,,2022-09-07,432,,noun
-ed499008-cde3-543e-a0d9-693e001b321c,surfing,サーフィン,すうふぃん,,noun,,,2022-09-07,433,GENKI3_L05,noun genki3-l05
-fa1bca4b-31a8-5488-a6d9-5b5a3fe927b8,souvenir,お土産,おみやげ,,noun,,4,2022-09-07,434,GENKI3_L05,noun genki3-l05
-2d402f9c-7727-5394-b6d5-8767371af073,bus,バス,ばす,,noun,,5,2022-09-07,435,GENKI3_L05,noun genki3-l05
-4c1ba9fa-920a-5646-8869-d84d39e842a3,weather,天気,てんき,,noun,,5,2022-09-07,436,GENKI3_L05,noun genki3-l05
-a1bfcd70-a853-50b0-955b-32fe355c2700,homework,宿題,しゅくだい,,noun,,5,2022-09-07,437,GENKI3_L05,noun genki3-l05
-dee18a86-fd39-54bc-9a77-ee24ba39c17c,test,テスト,てすと,,noun,,5,2022-09-07,438,GENKI3_L05,noun genki3-l05
-6d4b95c5-1f5a-50e0-aa8b-5558e8211486,birthday,誕生日,たんじょうび,,noun,,5,2022-09-07,439,GENKI3_L05,noun genki3-l05
-deb66e89-8251-5b46-9bb1-b1338aaa4e62,size L,Ｌサイズ,えるさいず,,noun,,1,2022-09-07,440,GENKI3_L05,noun genki3-l05
-3ea98874-cf05-5e92-b8f2-45751b667e83,new,新しい,あたらしい,,adjective,i adjective,5,2022-09-07,441,GENKI3_L05,adjective i-adjective genki3-l05
-9ab38a71-325c-5f1b-b0aa-d9c5ce43b888,old (thing); ancient,古い,ふるい,,adjective,i adjective,5,2022-09-07,442,GENKI3_L05,adjective i-adjective genki3-l05
-21d6fb85-2f85-5a8c-a29b-375f90b9803e,hot weather,暑い,あつい,,adjective,i adjective,5,2022-09-07,443,GENKI3_L05,adjective i-adjective genki3-l05
-dbeefce5-aaa6-5694-985d-6771413fa0fd,cold weather,寒い,さむい,,adjective,i adjective,,2022-09-07,444,GENKI3_L05,adjective i-adjective genki3-l05
-9a7ac507-ea08-5187-ad27-04615036db05,hot thing,熱い,あつい,,adjective,i adjective,5,2022-09-07,445,GENKI3_L05,adjective i-adjective genki3-l05
-36bbdf48-c6cf-502b-85a2-26bec94171c5,busy people/days,忙しい,いそがしい,,adjective,i adjective,5,2022-09-07,446,GENKI3_L05,adjective i-adjective genki3-l05
-9c26c29d-c047-519d-bd01-6eb035e74752,large,大きい,おおさい,,adjective,i adjective,5,2022-09-07,447,GENKI3_L05,adjective i-adjective genki3-l05
-bbdc1a0a-1d15-5484-89ac-e3594f2d0e70,small,小さい,ちいさい,,adjective,i adjective,5,2022-09-07,448,GENKI3_L05,adjective i-adjective genki3-l05
-14eb54bb-8d5f-50c2-b2e7-9b89a32a18f6,interesting; funny,面白い,おもしろい,,adjective,i adjective,5,2022-09-07,449,GENKI3_L05,adjective i-adjective genki3-l05
-2e46c8d1-bb5e-5c96-9e63-b1d4fc035da1,boring,つまらない,つまらない,,adjective,i adjective,5,2022-09-07,450,GENKI3_L05,adjective i-adjective genki3-l05
-ce5f2a5f-821f-5a5f-b5e5-6b59658ee781,easy (problem),やさしい,やさしい,易しい,adjective,i adjective,5,2022-09-07,451,GENKI3_L05,adjective i-adjective genki3-l05
-f0506ed6-e8ae-5d80-90bc-d527638693f8,kind (person),優しい,やさしい,,adjective,i adjective,4,2022-09-07,452,,adjective i-adjective
-835597f8-7be1-561d-8ef8-9c73316e9b49,difficult,難しい,むずかしい,,adjective,i adjective,5,2022-09-07,453,GENKI3_L05,adjective i-adjective genki3-l05
-46305ec7-a809-547e-bb67-8533f9059b26,good-looking,かっこいい,かっこいい,格好いい,adjective,i adjective,,2022-09-07,454,GENKI3_L05,adjective i-adjective genki3-l05
-b28e9f01-a176-5cfa-b00b-e1fd1552f02d,frightening,怖い,こわい,,adjective,i adjective,4,2022-09-07,455,GENKI3_L05,adjective i-adjective genki3-l05
-03824733-2e97-5d1e-8705-2520abf86985,fun,楽しい,たのしい,,adjective,i adjective,5,2022-09-07,456,GENKI3_L05,adjective i-adjective genki3-l05
-a1c2f5e9-df18-5d9f-83db-7d30491b502d,inexpensive; cheap (thing),安い,やすい,,adjective,i adjective,5,2022-09-07,457,GENKI3_L05,adjective i-adjective genki3-l05
-cad48907-4908-5de4-8ee7-0c78c98ab755,disgusted with; to dislike,嫌い,きらい,,adjective,na adjective,5,2022-09-07,458,GENKI3_L05,adjective na-adjective genki3-l05
-f12880cb-86c7-5720-8773-a1cdfbe838f7,very fond of; to love,大好き,だいすき,,adjective,na adjective,5,2022-09-07,459,GENKI3_L05,adjective na-adjective genki3-l05
-f610a74c-6229-5d19-b214-c183c4a1d92b,to hate,大嫌い,だいきらい,,adjective,na adjective,,2022-09-07,460,GENKI3_L05,adjective na-adjective genki3-l05
-8218a74b-27ab-5310-80f8-8cca81609f73,beautiful; clean,きれい,きれい,,adjective,na adjective,5,2022-09-07,461,GENKI3_L05,adjective na-adjective genki3-l05
-489610bc-c907-5de6-a0e7-acbeba740f3d,quiet,静か,しずか,,adjective,na adjective,5,2022-09-07,462,GENKI3_L05,adjective na-adjective genki3-l05
-96e3bcd4-e542-5d84-8576-c33f94149bc8,lively,にぎやか,にぎやか,,adjective,na adjective,5,2022-09-07,463,GENKI3_L05,adjective na-adjective genki3-l05
-585dccbc-01ad-5691-95c0-a5d402db619d,not busy; free (time),暇,ひま,,adjective,na adjective,5,2022-09-07,464,GENKI3_L05,adjective na-adjective genki3-l05
-4ae77db0-2b66-543a-8d78-8e51c4cb0676,to swim,泳ぐ,およぐ,,verb,godan verb,5,2022-09-07,465,GENKI3_L05,verb godan-verb genki3-l05
-2bcd828d-02d9-5834-8e4e-2a9fdecb800f,to ride; to board,乗る,のる,,verb,godan verb,5,2022-09-07,466,GENKI3_L05,verb godan-verb genki3-l05
-43056e9d-b789-5d3b-ae22-ccd5feca4e1a,to do; to perform; to play (a game),やる,やる,,verb,godan verb,1,2022-09-07,467,GENKI3_L05,verb godan-verb genki3-l05
-87f65ff6-cc11-5ed3-ae0f-91cd20cf2c32,to go out,出かける,でかける,,verb,ichidan verb,5,2022-09-07,468,GENKI3_L05,verb ichidan-verb genki3-l05
-6debd947-e8ba-512e-8457-8bf0e7ea9e5b,exit,出口,でくち,,noun,,5,2022-09-07,469,,noun
-3121a086-d388-5e2d-87ea-42928a70bdb2,together (with); at the same time;,一緒に,いっしょに,,adverb,,,2022-09-07,470,GENKI3_L05,adverb genki3-l05
-0dbac8fa-7de5-557b-a950-da804909a322,extremely,すごく,すごく,凄く,adverb,,,2022-09-07,471,GENKI3_L05,adverb genki3-l05
-49100de9-fba3-596c-a2d2-d7d268716d82,very,とても,とても,,adverb,,5,2022-09-07,472,GENKI3_L05,adverb genki3-l05
-a7e30acf-baa9-5c69-b41d-b344f631a8a6,what kind of...,どんな,どんな,,pre noun adjectival,,3,2022-09-07,473,GENKI3_L05,pre-noun-adjectival genki3-l05
-acbf41df-4c3c-58fe-b99e-30d088bafb4f,counter for flat objects,〜枚,〜まい,,counter,,1,2022-09-07,474,GENKI3_L05,counter genki3-l05
-dd54072a-e05a-4b60-a493-578ef2cb015f,lonely; solitary,寂しい,さびしい,,adjective,i adjective,4,2022-09-07,475,,adjective i-adjective
-9602b36a-fef2-58f6-a53a-84283766c73d,tidal wave,津波,つなみ,,noun,,1,2022-09-17,476,,noun
-18483a29-02d3-5d72-be2f-2e865c5689a1,typhoon,台風,たいふう,,noun,,4,2022-09-17,477,,noun
-932265f2-4f7c-5f7d-b31d-cb211276ae8d,earthquake,地震,じしん,,noun,,4,2022-09-17,478,,noun
+356f27dd-22ca-4e95-b637-6ee6c52855f2,counter for people,〜人,にん,,counter,,,2022-09-26,414,,counter
+63328d5a-cff9-459a-bc29-b0ce33776a95,1 person; alone; single,一人,ひとり,,noun,,5,2022-09-26,415,,noun
+2ef7fa68-00e9-438c-8a78-e8e1b10cd274,two people,二人,ふたり,,noun,,5,2022-09-26,416,,noun
+281d7359-80a0-519d-9c57-504f35bfd5ee,heated table,こたつ,こたつ,,noun,,1,2022-08-13,417,,noun
+c3f5ef65-8025-5f56-b5e1-efc61a1c81bc,Japanese bedding,布団,ふとん,,noun,,4,2022-08-13,418,,noun
+49dcb689-b576-56c7-b9f6-1da98acb2667,to collect; to assemble; to gather,集める,あつめる,,verb,ichidan verb,4,2022-08-22,419,,verb ichidan-verb
+4f3a6c3d-94a5-54c7-bd5c-c16d008d8cf7,cheers,乾杯,かんぱい,,noun,,2,2022-08-27,420,,noun
+4a03f495-c343-5e8f-a1fe-fd1b6624f63a,laundry,洗濯,せんたく,,noun,,5,2022-08-29,421,,noun
+4126b8e5-2e98-52ad-b637-7bd8ed566781,starry sky,星空,ほしぞら,,noun,,,2022-08-29,422,,noun
+ee877e49-b3e4-5e51-a969-c620c8407809,"lively, energetic; well, healthy",元気,げんき,,adjective,na adjective,5,2022-09-02,423,GENKI3_L05,adjective na-adjective genki3-l05
+4b7cb2ac-7b91-54eb-86e3-2366f5e802bb,"desire, wish; request",願い,ねがい,,noun,,3,2022-09-02,424,DUO_U03,noun duo-u03
+1d9fa8be-94a8-565a-93a3-973da9e759fa,request; favor to ask,お願い,おねがい,,noun,godan verb,5,2022-09-02,425,,noun godan-verb
+59f26319-a287-5600-95b4-714e7fe21547,mochi,もち,もち,餅,noun,,2,2022-09-07,426,,noun
+43dce298-e577-5174-8f14-ecb525e67d38,autum colors; leaves turning,紅葉,もみじ,,noun,,2,2022-09-07,427,,noun
+25032880-e2a8-54f3-8681-22172c54b84a,excited; trembling; getting nervous,わくわく,わくわく,,adverb,,,2022-09-07,428,,adverb
+94bb3768-7278-5e58-80cb-f5c809726ef1,being too late; losing one's final chance​,手遅れ,ておくれ,,noun,,1,2022-09-10,429,,noun
+cdb482ec-df51-5e19-8c72-08a8cb1c0a3e,food,食べ物,たべもの,,noun,,5,2022-09-07,430,GENKI3_L05,noun genki3-l05
+cf8e1efb-b036-56e8-ad12-5e06f9b26bde,drink,飲み物,のみもの,,noun,,5,2022-09-07,431,GENKI3_L05,noun genki3-l05
+5d5eb0f1-6cb0-5383-8797-49330b70b84c,holiday; day off; absence,休み,やすみ,,noun,,5,2022-09-07,432,GENKI3_L05,noun genki3-l05
+885a798b-20d9-5279-ba34-8324db75f028,travel; trip; journey,旅行,りょこう,,noun,,5,2022-09-07,433,GENKI3_L05,noun genki3-l05
+b569a875-d88f-5e2a-b063-0f3f29f06094,sea,海,うみ,,noun,,5,2022-09-07,434,GENKI3_L05,noun genki3-l05
+b0188056-54cc-55e1-8cbd-418370ed533d,waterway; channel,澪,みお,,noun,,,2022-09-07,435,,noun
+ed499008-cde3-543e-a0d9-693e001b321c,surfing,サーフィン,すうふぃん,,noun,,,2022-09-07,436,GENKI3_L05,noun genki3-l05
+fa1bca4b-31a8-5488-a6d9-5b5a3fe927b8,souvenir,お土産,おみやげ,,noun,,4,2022-09-07,437,GENKI3_L05,noun genki3-l05
+2d402f9c-7727-5394-b6d5-8767371af073,bus,バス,ばす,,noun,,5,2022-09-07,438,GENKI3_L05,noun genki3-l05
+4c1ba9fa-920a-5646-8869-d84d39e842a3,weather,天気,てんき,,noun,,5,2022-09-07,439,GENKI3_L05,noun genki3-l05
+a1bfcd70-a853-50b0-955b-32fe355c2700,homework,宿題,しゅくだい,,noun,,5,2022-09-07,440,GENKI3_L05,noun genki3-l05
+dee18a86-fd39-54bc-9a77-ee24ba39c17c,test,テスト,てすと,,noun,,5,2022-09-07,441,GENKI3_L05,noun genki3-l05
+6d4b95c5-1f5a-50e0-aa8b-5558e8211486,birthday,誕生日,たんじょうび,,noun,,5,2022-09-07,442,GENKI3_L05,noun genki3-l05
+deb66e89-8251-5b46-9bb1-b1338aaa4e62,size L,Ｌサイズ,えるさいず,,noun,,1,2022-09-07,443,GENKI3_L05,noun genki3-l05
+3ea98874-cf05-5e92-b8f2-45751b667e83,new,新しい,あたらしい,,adjective,i adjective,5,2022-09-07,444,GENKI3_L05,adjective i-adjective genki3-l05
+9ab38a71-325c-5f1b-b0aa-d9c5ce43b888,old (thing); ancient,古い,ふるい,,adjective,i adjective,5,2022-09-07,445,GENKI3_L05,adjective i-adjective genki3-l05
+21d6fb85-2f85-5a8c-a29b-375f90b9803e,hot weather,暑い,あつい,,adjective,i adjective,5,2022-09-07,446,GENKI3_L05,adjective i-adjective genki3-l05
+dbeefce5-aaa6-5694-985d-6771413fa0fd,cold weather,寒い,さむい,,adjective,i adjective,,2022-09-07,447,GENKI3_L05,adjective i-adjective genki3-l05
+9a7ac507-ea08-5187-ad27-04615036db05,hot thing,熱い,あつい,,adjective,i adjective,5,2022-09-07,448,GENKI3_L05,adjective i-adjective genki3-l05
+36bbdf48-c6cf-502b-85a2-26bec94171c5,busy people/days,忙しい,いそがしい,,adjective,i adjective,5,2022-09-07,449,GENKI3_L05,adjective i-adjective genki3-l05
+9c26c29d-c047-519d-bd01-6eb035e74752,large,大きい,おおさい,,adjective,i adjective,5,2022-09-07,450,GENKI3_L05,adjective i-adjective genki3-l05
+bbdc1a0a-1d15-5484-89ac-e3594f2d0e70,small,小さい,ちいさい,,adjective,i adjective,5,2022-09-07,451,GENKI3_L05,adjective i-adjective genki3-l05
+14eb54bb-8d5f-50c2-b2e7-9b89a32a18f6,interesting; funny,面白い,おもしろい,,adjective,i adjective,5,2022-09-07,452,GENKI3_L05,adjective i-adjective genki3-l05
+2e46c8d1-bb5e-5c96-9e63-b1d4fc035da1,boring,つまらない,つまらない,,adjective,i adjective,5,2022-09-07,453,GENKI3_L05,adjective i-adjective genki3-l05
+ce5f2a5f-821f-5a5f-b5e5-6b59658ee781,easy (problem),やさしい,やさしい,易しい,adjective,i adjective,5,2022-09-07,454,GENKI3_L05,adjective i-adjective genki3-l05
+f0506ed6-e8ae-5d80-90bc-d527638693f8,kind (person),優しい,やさしい,,adjective,i adjective,4,2022-09-07,455,,adjective i-adjective
+835597f8-7be1-561d-8ef8-9c73316e9b49,difficult,難しい,むずかしい,,adjective,i adjective,5,2022-09-07,456,GENKI3_L05,adjective i-adjective genki3-l05
+46305ec7-a809-547e-bb67-8533f9059b26,good-looking,かっこいい,かっこいい,格好いい,adjective,i adjective,,2022-09-07,457,GENKI3_L05,adjective i-adjective genki3-l05
+b28e9f01-a176-5cfa-b00b-e1fd1552f02d,frightening,怖い,こわい,,adjective,i adjective,4,2022-09-07,458,GENKI3_L05,adjective i-adjective genki3-l05
+03824733-2e97-5d1e-8705-2520abf86985,fun,楽しい,たのしい,,adjective,i adjective,5,2022-09-07,459,GENKI3_L05,adjective i-adjective genki3-l05
+a1c2f5e9-df18-5d9f-83db-7d30491b502d,inexpensive; cheap (thing),安い,やすい,,adjective,i adjective,5,2022-09-07,460,GENKI3_L05,adjective i-adjective genki3-l05
+cad48907-4908-5de4-8ee7-0c78c98ab755,disgusted with; to dislike,嫌い,きらい,,adjective,na adjective,5,2022-09-07,461,GENKI3_L05,adjective na-adjective genki3-l05
+f12880cb-86c7-5720-8773-a1cdfbe838f7,very fond of; to love,大好き,だいすき,,adjective,na adjective,5,2022-09-07,462,GENKI3_L05,adjective na-adjective genki3-l05
+f610a74c-6229-5d19-b214-c183c4a1d92b,to hate,大嫌い,だいきらい,,adjective,na adjective,,2022-09-07,463,GENKI3_L05,adjective na-adjective genki3-l05
+8218a74b-27ab-5310-80f8-8cca81609f73,beautiful; clean,きれい,きれい,,adjective,na adjective,5,2022-09-07,464,GENKI3_L05,adjective na-adjective genki3-l05
+489610bc-c907-5de6-a0e7-acbeba740f3d,quiet,静か,しずか,,adjective,na adjective,5,2022-09-07,465,GENKI3_L05,adjective na-adjective genki3-l05
+96e3bcd4-e542-5d84-8576-c33f94149bc8,lively,にぎやか,にぎやか,,adjective,na adjective,5,2022-09-07,466,GENKI3_L05,adjective na-adjective genki3-l05
+585dccbc-01ad-5691-95c0-a5d402db619d,not busy; free (time),暇,ひま,,adjective,na adjective,5,2022-09-07,467,GENKI3_L05,adjective na-adjective genki3-l05
+4ae77db0-2b66-543a-8d78-8e51c4cb0676,to swim,泳ぐ,およぐ,,verb,godan verb,5,2022-09-07,468,GENKI3_L05,verb godan-verb genki3-l05
+2bcd828d-02d9-5834-8e4e-2a9fdecb800f,to ride; to board,乗る,のる,,verb,godan verb,5,2022-09-07,469,GENKI3_L05,verb godan-verb genki3-l05
+43056e9d-b789-5d3b-ae22-ccd5feca4e1a,to do; to perform; to play (a game),やる,やる,,verb,godan verb,1,2022-09-07,470,GENKI3_L05,verb godan-verb genki3-l05
+87f65ff6-cc11-5ed3-ae0f-91cd20cf2c32,to go out,出かける,でかける,,verb,ichidan verb,5,2022-09-07,471,GENKI3_L05,verb ichidan-verb genki3-l05
+6debd947-e8ba-512e-8457-8bf0e7ea9e5b,exit,出口,でくち,,noun,,5,2022-09-07,472,,noun
+3121a086-d388-5e2d-87ea-42928a70bdb2,together (with); at the same time;,一緒に,いっしょに,,adverb,,,2022-09-07,473,GENKI3_L05,adverb genki3-l05
+0dbac8fa-7de5-557b-a950-da804909a322,extremely,すごく,すごく,凄く,adverb,,,2022-09-07,474,GENKI3_L05,adverb genki3-l05
+49100de9-fba3-596c-a2d2-d7d268716d82,very,とても,とても,,adverb,,5,2022-09-07,475,GENKI3_L05,adverb genki3-l05
+a7e30acf-baa9-5c69-b41d-b344f631a8a6,what kind of...,どんな,どんな,,pre noun adjectival,,3,2022-09-07,476,GENKI3_L05,pre-noun-adjectival genki3-l05
+acbf41df-4c3c-58fe-b99e-30d088bafb4f,counter for flat objects,〜枚,〜まい,,counter,,1,2022-09-07,477,GENKI3_L05,counter genki3-l05
+dd54072a-e05a-4b60-a493-578ef2cb015f,lonely; solitary,寂しい,さびしい,,adjective,i adjective,4,2022-09-07,478,,adjective i-adjective
+9602b36a-fef2-58f6-a53a-84283766c73d,tidal wave,津波,つなみ,,noun,,1,2022-09-17,479,,noun
+18483a29-02d3-5d72-be2f-2e865c5689a1,typhoon,台風,たいふう,,noun,,4,2022-09-17,480,,noun
+932265f2-4f7c-5f7d-b31d-cb211276ae8d,earthquake,地震,じしん,,noun,,4,2022-09-17,481,,noun
