@@ -176,13 +176,6 @@ module Goi
 
         def parse_row(row:, vocabulary_id:)
           set = parse_conjugation_set(row:, vocabulary_id:)
-          # TEST CODE
-          # TODO: Remove test code
-          unless set.conjugations.empty?
-            STDERR.puts set.inspect
-            set.conjugations.each {|cons| STDERR.puts(cons.inspect) }
-          end
-          # END TEST CODE
           set.conjugations.empty? ? nil : set
         end
 
