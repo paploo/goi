@@ -124,6 +124,31 @@ module Goi
 
     end
 
+    # Combined exporter that puts out all the data in one row, including all conjugations, for a single deck.
+    class AnkiExporter < BaseAnkiVocabExporter
+
+      private
+
+      def header_row = NOTE_ID_HEADERS + VOCABULARY_HEADERS + CONJUGATION_HEADERS
+
+      def note_id(linkage:) = linkage.vocabulary.id
+
+      def linkage_row(linkage:)
+        note_id_fields(linkage:) + vocabulary_fields(linkage:) + conjugation_fields_or_empty(linkage:)
+      end
+
+      def conjugation_fields_or_empty(linkage:)
+        conjugation_set = linkage.conjugation_set
+        if conjugation_set.nil?
+          Array.new(CONJUGATION_HEADERS.length)
+        else
+          conjugation_fields(conjugation_set:)
+        end
+      end
+
+    end
+
+    # Outputs only vocabulary, not the conjugations, so that we can have conjugations managed in a separate deck
     class AnkiVocabExporter < BaseAnkiVocabExporter
 
       DECK = "日本語 Vocab".freeze
@@ -147,19 +172,15 @@ module Goi
       end
 
     end
+
+    # Outputs only vocab with conjugations, along with their conjugations so that we can have a separate deck.
     class AnkiConjugationExporter < BaseAnkiVocabExporter
 
-      DECK = "日本語 Conj".freeze
-
-      NOTE_TYPE = "日本語 Conj".freeze
-
-      private
+      # TODO: Switch to config
+      def deck = "日本語 Conj".freeze
 
       # TODO: Switch to config
-      def deck = DECK
-
-      # TODO: Switch to config
-      def note_type = NOTE_TYPE
+      def note_type = "日本語 Conj".freeze
 
       def header_row = NOTE_ID_HEADERS + ['vocabulary_id'] + VOCABULARY_HEADERS + CONJUGATION_HEADERS
 

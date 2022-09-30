@@ -47,6 +47,7 @@ IMPORTERS = {
 
 EXPORTERS = {
   google: Goi::Exporter::GoogleSheetExporter,
+  anki: Goi::Exporter::AnkiExporter,
   anki_vocab: Goi::Exporter::AnkiVocabExporter,
   anki_conj: Goi::Exporter::AnkiConjugationExporter,
   sql: Goi::Exporter::SqlFileExporter
