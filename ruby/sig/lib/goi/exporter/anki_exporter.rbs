@@ -17,9 +17,11 @@ module Goi
 
       def header_row: () -> [String]
 
+      def note_id: (linkage: Model::Vocabulary::Linkages) -> String
+
       def linkage_rows: (linkages: [Model::Vocabulary::Linkages] linkages) -> [[String?]]
 
-      def linkage_row: (linkage: Model::Vocabulary::Linkages linkage) -> [String?]
+      def linkage_row: (linkage: Model::Vocabulary::Linkages linkage) -> [String?]?
 
       def to_array_field: ([untyped] array) -> String?
 
@@ -45,6 +47,13 @@ module Goi
     end
 
     class AnkiConjugationExporter < BaseAnkiVocabExporter
+
+      private
+
+      def vocabulary_row: (linkage: Model::Vocabulary::Linkages linkage) -> [String]
+
+      def conjugation_row: (conjugation_set: Model::Vocabulary::ConjugationSet conjugation_set) -> [String]
+
     end
 
   end

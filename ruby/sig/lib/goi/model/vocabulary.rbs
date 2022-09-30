@@ -128,7 +128,15 @@ module Goi
 
       class Conjugation
 
+        CHARGE_CODES: [String]
+
+        POLITENESS_CODES: [String]
+
+        FORM_CODES: [String]
+
         UUID5_NAMESPACE: String
+
+        def self.map_dims: [T] () { (charge_code: String, politeness_code: String, form_code: String) -> T } -> [T]
 
         def self.create_id: (conjugation_set_id: String, politeness_code: String, charge_code: String, form_code: String, sort_rank: Integer) -> String
 

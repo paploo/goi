@@ -69,6 +69,7 @@ IMPORTERS = {
 EXPORTERS = {
   google: Goi::Exporter::GoogleSheetExporter,
   anki_vocab: Goi::Exporter::AnkiVocabExporter,
+  anki_conj: Goi::Exporter::AnkiConjugationExporter,
   sql: Goi::Exporter::SqlFileExporter
 }.freeze
 
@@ -82,6 +83,7 @@ args = {
   export_phases: [
     { klass: EXPORTERS[:google], path: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', 'google_sheet_vocab.csv') },
     { klass: EXPORTERS[:anki_vocab], path: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', 'anki_vocab.csv') },
+    { klass: EXPORTERS[:anki_conj], path: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', 'anki_conj.csv') },
     { klass: EXPORTERS[:sql], path: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', 'data_vocab.sql') }
   ],
   transform_phases: [

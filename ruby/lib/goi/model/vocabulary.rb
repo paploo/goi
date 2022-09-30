@@ -229,6 +229,30 @@ module Goi
 
       class Conjugation
 
+        CHARGE_CODES = ['POSITIVE', 'NEGATIVE'].freeze
+
+        POLITENESS_CODES = ['PLAIN', 'POLITE'].freeze
+
+        FORM_CODES = ['PRESENT',
+                 'PAST',
+                 'TE',
+                 'CONDITIONAL_EBA',
+                 'CONDITIONAL_TARA',
+                 'POTENTIAL',
+                 'PASSIVE',
+                 'CAUSATIVE',
+                 'IMPERATIVE'].freeze
+
+        def self.map_dims(&block)
+          CHARGE_CODES.flat_map do |charge_code|
+            POLITENESS_CODES.flat_map do |politeness_code|
+              FORM_CODES.map do |form_code|
+                block.call(charge_code, politeness_code, form_code)
+              end
+            end
+          end
+        end
+
         UUID5_NAMESPACE = UUIDTools::UUID.parse('a55893fe-f4fd-4e84-a9f0-6a6d6495b53b').to_s
 
         ATTRIBUTES = [
@@ -267,5 +291,6 @@ module Goi
       end
 
     end
+
   end
 end
