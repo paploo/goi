@@ -33,7 +33,19 @@ module Goi
 
     class BaseAnkiVocabExporter < BaseAnkiExporter
 
+      NOTE_ID_HEADERS: [String]
+
+      VOCABULARY_HEADERS: [String]
+
+      CONJUGATION_HEADERS: [String]
+
       private
+
+      def note_id_fields: (Model::Vocabulary::Linkages linkage) -> [String]
+
+      def vocabulary_fields: (Model::Vocabulary::Linkages linkage) -> [String?]
+
+      def conjugation_fields: (Model::Vocabulary::ConjugationSet conjugation_set) -> [String?]
 
       def phonetic_spelling_field: (Model::Vocabulary::Linkages linkage) -> String
 

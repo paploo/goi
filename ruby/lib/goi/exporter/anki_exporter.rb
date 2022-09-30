@@ -53,6 +53,55 @@ module Goi
 
     class BaseAnkiVocabExporter < BaseAnkiExporter
 
+      NOTE_ID_HEADERS = ['id']
+
+      VOCABULARY_HEADERS = [
+        'definition',
+        'preferred_spelling',
+        'phonetic_spelling',
+        'alt_spelling',
+        'word_class',
+        'conjugation_kind',
+        'jlpt_level',
+        'date_added',
+        'row_num',
+        'lessons',
+        'tags',
+      ].freeze
+
+      CONJUGATION_HEADERS = Goi::Model::Vocabulary::Conjugation.map_dims do |charge_code, politeness_code, form_code|
+        [charge_code, politeness_code, form_code].join('_').downcase
+      end.freeze
+
+      private
+
+      def note_id_fields(linkage:) = [note_id(linkage:)]
+
+      def vocabulary_fields(linkage:) = [
+        linkage.preferred_definition.value,
+        linkage.preferred_spelling.value,
+        phonetic_spelling_field(linkage),
+        alt_spelling_field(linkage),
+        linkage.vocabulary.word_class_code.then { |c| humanize_const(c) },
+        linkage.vocabulary.conjugation_kind_code&.then { |c| humanize_const(c) },
+        linkage.vocabulary.jlpt_level&.to_s,
+        linkage.vocabulary.date_added&.iso8601,
+        linkage.vocabulary.row_num.to_s,
+        to_array_field(linkage.vocabulary.lesson_codes),
+        tags_field(linkage.vocabulary)
+      ]
+
+      def conjugation_fields(conjugation_set:)
+        conj_map = conjugation_set.conjugations.group_by do |conj|
+          [conj.charge_code, conj.politeness_code, conj.form_code]
+        end
+
+        Goi::Model::Vocabulary::Conjugation.map_dims do |charge_code, politeness_code, form_code|
+          key = [charge_code, politeness_code, form_code]
+          conj_map[key]&.sort_by(&:sort_rank)&.first&.value
+        end
+      end
+
       def phonetic_spelling_field(linkage)
         [
           linkage.phonetic_spelling.value,
@@ -81,21 +130,6 @@ module Goi
 
       NOTE_TYPE = "日本語 Vocab".freeze
 
-      HEADERS = [
-        'id',
-        'definition',
-        'preferred_spelling',
-        'phonetic_spelling',
-        'alt_spelling',
-        'word_class',
-        'conjugation_kind',
-        'jlpt_level',
-        'date_added',
-        'row_num',
-        'lessons',
-        'tags',
-      ].freeze
-
       private
 
       # TODO: Switch to config
@@ -104,53 +138,21 @@ module Goi
       # TODO: Switch to config
       def note_type = NOTE_TYPE
 
-      def header_row = HEADERS
+      def header_row = NOTE_ID_HEADERS + VOCABULARY_HEADERS
 
       def note_id(linkage:) = linkage.vocabulary.id
 
-      def linkage_row(linkage:) = [
-        note_id(linkage:),
-        linkage.preferred_definition.value,
-        linkage.preferred_spelling.value,
-        phonetic_spelling_field(linkage),
-        alt_spelling_field(linkage),
-        linkage.vocabulary.word_class_code.then { |c| humanize_const(c) },
-        linkage.vocabulary.conjugation_kind_code&.then { |c| humanize_const(c) },
-        linkage.vocabulary.jlpt_level&.to_s,
-        linkage.vocabulary.date_added&.iso8601,
-        linkage.vocabulary.row_num.to_s,
-        to_array_field(linkage.vocabulary.lesson_codes),
-        tags_field(linkage.vocabulary)
-      ]
+      def linkage_row(linkage:)
+        note_id_fields(linkage:) + vocabulary_fields(linkage:)
+      end
 
     end
-
     class AnkiConjugationExporter < BaseAnkiVocabExporter
 
       DECK = "日本語 Conj".freeze
 
       NOTE_TYPE = "日本語 Conj".freeze
 
-      CONJUGATION_HEADERS = Goi::Model::Vocabulary::Conjugation.map_dims do |charge_code, politeness_code, form_code|
-        [charge_code, politeness_code, form_code].join('_').downcase
-      end.freeze
-
-      HEADERS = [
-        'id',
-        'vocabulary_id',
-        'definition',
-        'preferred_spelling',
-        'phonetic_spelling',
-        'alt_spelling',
-        'word_class',
-        'conjugation_kind',
-        'jlpt_level',
-        'date_added',
-        'row_num',
-        'lessons',
-        'tags'
-      ].freeze + CONJUGATION_HEADERS
-
       private
 
       # TODO: Switch to config
@@ -159,7 +161,7 @@ module Goi
       # TODO: Switch to config
       def note_type = NOTE_TYPE
 
-      def header_row = HEADERS
+      def header_row = NOTE_ID_HEADERS + ['vocabulary_id'] + VOCABULARY_HEADERS + CONJUGATION_HEADERS
 
       # We could use the conjugation set ID, but if we ever do advanced management in the DB, the ID could be transitory,
       # so we use the vocab id itself. Note that the same PK is fine by anki if the note type is different.
@@ -169,34 +171,7 @@ module Goi
         conjugation_set = linkage.conjugation_set
         return nil if conjugation_set.nil?
 
-        vocabulary_row(linkage:) + conjugation_row(conjugation_set:)
-      end
-
-      def vocabulary_row(linkage:) = [
-        note_id(linkage:),
-        linkage.vocabulary.id,
-        linkage.preferred_definition.value,
-        linkage.preferred_spelling.value,
-        phonetic_spelling_field(linkage),
-        alt_spelling_field(linkage),
-        linkage.vocabulary.word_class_code.then { |c| humanize_const(c) },
-        linkage.vocabulary.conjugation_kind_code&.then { |c| humanize_const(c) },
-        linkage.vocabulary.jlpt_level&.to_s,
-        linkage.vocabulary.date_added&.iso8601,
-        linkage.vocabulary.row_num.to_s,
-        to_array_field(linkage.vocabulary.lesson_codes),
-        tags_field(linkage.vocabulary)
-      ]
-
-      def conjugation_row(conjugation_set:)
-        conj_map = conjugation_set.conjugations.group_by do |conj|
-          [conj.charge_code, conj.politeness_code, conj.form_code]
-        end
-
-        Goi::Model::Vocabulary::Conjugation.map_dims do |charge_code, politeness_code, form_code|
-          key = [charge_code, politeness_code, form_code]
-          conj_map[key]&.sort_by(&:sort_rank)&.first&.value
-        end
+        note_id_fields(linkage:) + [linkage.vocabulary.id] + vocabulary_fields(linkage:) + conjugation_fields(conjugation_set:)
       end
 
     end
