@@ -1,7 +1,7 @@
 module Goi
   module Exporter
-    class AnkiExporter < BaseExporter
-      HEADERS: [String]
+
+    class BaseAnkiExporter < BaseExporter
 
       def initialize: (config: Config) -> void
 
@@ -11,11 +11,27 @@ module Goi
 
       private
 
+      def deck: () -> String
+
+      def note_type: () -> String
+
       def header_row: () -> [String]
 
       def linkage_rows: (linkages: [Model::Vocabulary::Linkages] linkages) -> [[String?]]
 
       def linkage_row: (linkage: Model::Vocabulary::Linkages linkage) -> [String?]
+
+      def to_array_field: ([untyped] array) -> String?
+
+      def humanize_const: (String s) -> String
+
+      def tagize: (String s) -> String
+
+    end
+
+    class BaseAnkiVocabExporter < BaseAnkiExporter
+
+      private
 
       def phonetic_spelling_field: (Model::Vocabulary::Linkages linkage) -> String
 
@@ -23,7 +39,13 @@ module Goi
 
       def tags_field: (Model::Vocabulary::Vocabulary vocabulary) -> String?
 
-      def to_array_field: ([untyped] array) -> String?
     end
+
+    class AnkiVocabExporter < BaseAnkiVocabExporter
+    end
+
+    class AnkiConjugationExporter < BaseAnkiVocabExporter
+    end
+
   end
 end

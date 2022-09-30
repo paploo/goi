@@ -68,7 +68,7 @@ IMPORTERS = {
 
 EXPORTERS = {
   google: Goi::Exporter::GoogleSheetExporter,
-  anki: Goi::Exporter::AnkiExporter,
+  anki_vocab: Goi::Exporter::AnkiVocabExporter,
   sql: Goi::Exporter::SqlFileExporter
 }.freeze
 
@@ -81,7 +81,7 @@ args = {
   db_config: { database: 'goi', user: 'postgres', password: 'postgres', host: 'localhost' },
   export_phases: [
     { klass: EXPORTERS[:google], path: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', 'google_sheet_vocab.csv') },
-    { klass: EXPORTERS[:anki], path: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', 'anki_vocab.csv') },
+    { klass: EXPORTERS[:anki_vocab], path: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', 'anki_vocab.csv') },
     { klass: EXPORTERS[:sql], path: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', 'data_vocab.sql') }
   ],
   transform_phases: [
