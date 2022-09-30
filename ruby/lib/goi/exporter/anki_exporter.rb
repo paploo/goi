@@ -23,6 +23,8 @@ module Goi
 
       def export(linkages:)
         config_out_open do |io|
+          io.puts("#deck: 日本語 Vocab")
+          io.puts("#notetype: 日本語 Vocab")
           io.puts("#columns: " + HEADERS.to_csv)
           rows = linkage_rows(linkages:)
           rows.each do |row|

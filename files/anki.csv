@@ -1,3 +1,5 @@
+#deck: 日本語 Vocab
+#notetype: 日本語 Vocab
 #columns: id,definition,preferred_spelling,phonetic_spelling,alt_spelling,word_class,conjugation_kind,jlpt_level,date_added,row_num,lessons,tags
 f552ea3a-8b7f-5433-aa20-4c93a6868fb3,Good morning,おはよう,おはよう,,expression,,2,2022-04-24,1,GENKI3_L00,greeting expression genki3-l00
 8359d7d1-d6d6-5995-962e-3f6566232911,Good morning (polite),おはようございます,おはようございます,,expression,,,2022-04-24,2,GENKI3_L00,greeting expression genki3-l00
