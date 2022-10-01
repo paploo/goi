@@ -33,3 +33,28 @@ INSERT INTO vocabulary.conjugation_kind (code, label, word_class_code) VALUES ('
 INSERT INTO vocabulary.spelling_kind (code, label) VALUES ('HIRAGANA', 'Hiragana');
 INSERT INTO vocabulary.spelling_kind (code, label) VALUES ('KATAKANA', 'Katakana');
 INSERT INTO vocabulary.spelling_kind (code, label) VALUES ('KANJI', 'Kanji');
+
+---
+--- CONJUGATION CHARGE
+---
+INSERT INTO vocabulary.conjugation_charge (code, label, sort_rank) VALUES ('POSITIVE', 'Positive', 1);
+INSERT INTO vocabulary.conjugation_charge (code, label, sort_rank) VALUES ('NEGATIVE', 'Negative', 2);
+
+---
+--- CONJUGATION POLITENESS
+---
+INSERT INTO vocabulary.conjugation_politeness (code, label, sort_rank) VALUES ('PLAIN', 'Plain/Dictionary', 1);
+INSERT INTO vocabulary.conjugation_politeness (code, label, sort_rank) VALUES ('POLITE', 'Ploite/Masu', 2);
+
+---
+--- CONJUGATION FORM
+---
+INSERT INTO vocabulary.conjugation_form (code, label, sort_rank) VALUES ('PRESENT', 'Present', 1);
+INSERT INTO vocabulary.conjugation_form (code, label, sort_rank) VALUES ('PAST', 'Past', 2);
+INSERT INTO vocabulary.conjugation_form (code, label, sort_rank) VALUES ('TE', '-te', 3);
+INSERT INTO vocabulary.conjugation_form (code, label, sort_rank) VALUES ('CONDITIONAL_EBA', '-eba Conditional', 4);
+INSERT INTO vocabulary.conjugation_form (code, label, sort_rank) VALUES ('CONDITIONAL_TARA', '-tara Conditional', 5);
+INSERT INTO vocabulary.conjugation_form (code, label, sort_rank) VALUES ('POTENTIAL', 'Potential', 6);
+INSERT INTO vocabulary.conjugation_form (code, label, sort_rank) VALUES ('PASSIVE', 'Passive', 7);
+INSERT INTO vocabulary.conjugation_form (code, label, sort_rank) VALUES ('CAUSATIVE', 'Causative', 8);
+INSERT INTO vocabulary.conjugation_form (code, label, sort_rank) VALUES ('IMPERATIVE', 'Imperative', 9);

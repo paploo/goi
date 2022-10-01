@@ -16,6 +16,7 @@ module Goi
       attr_reader vocabulary_parser: VocabularyParser
       attr_reader definition_parser: DefinitionParser
       attr_reader spelling_parser: SpellingParser
+      attr_reader conjugation_parser: ConjugationParser
 
       def import: () -> [Model::Vocabulary::Linkages]
 
@@ -30,6 +31,8 @@ module Goi
       def parse_definition: (row: Hash[String, String] row, vocabulary_id: String vocabulary_id) -> Model::Vocabulary::Definition
 
       def parse_spelling: (row: Hash[String, String] row, field_data: field_data field_data, required: bool required, vocabulary_id: String vocabulary_id) -> Model::Vocabulary::Spelling
+
+      def parse_conjugation: (row: Hash[String, String] row, vocabulary_id: String vocabulary_id) -> Model::Vocabulary::ConjugationSet?
 
       class VocabularyParser
 
@@ -56,6 +59,30 @@ module Goi
         private
 
         def infer_kind_code: (String value) -> String
+
+      end
+
+      class ConjugationParser
+
+        def parse_row: (row: Hash[String, String] row, vocabulary_id: String vocabulary_id) -> Model::Vocabulary::ConjugationSet?
+
+        private
+
+        type politeness = 'PLAIN'|'POLITE'
+        type charge = 'POSITIVE'|'NEGATIVE'
+        type form = 'PRESENT'|'PAST'|'TE'
+        type sort_rank = Integer
+        type key_data = {key: String, politeness: politeness, charge: charge, form: form, sort_rank: sort_rank}
+
+        KEY_DEFINITIONS: key_data
+        KEY_LIST: [String]
+        KEY_MAP: Hash[String, key_data]
+
+        def parse_set: (row: Hash[String, String] row, vocabulary_id: String vocabulary_id) -> Model::Vocabulary::ConjugationSet
+
+        def parse_conjugations: (row: Hash[String, String] row, key: String, conjugation_set_id: String) -> [Model::Vocabulary::Conjugation]
+
+        def parse_conjugation: (row: Hash[String, String] row, key: String, conjugation_set_id: String) -> Model::Vocabulary::Conjugation?
 
       end
 

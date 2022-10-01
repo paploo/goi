@@ -69,6 +69,8 @@ IMPORTERS = {
 EXPORTERS = {
   google: Goi::Exporter::GoogleSheetExporter,
   anki: Goi::Exporter::AnkiExporter,
+  anki_vocab: Goi::Exporter::AnkiVocabExporter,
+  anki_conj: Goi::Exporter::AnkiConjugationExporter,
   sql: Goi::Exporter::SqlFileExporter
 }.freeze
 
@@ -76,13 +78,21 @@ TRANSFORMERS = {
   duo_tag: Goi::Transformer::DuoLessonCodeTransformer
 }.freeze
 
+PHASES = {
+  google: { klass: EXPORTERS[:google], path: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', 'google_sheet_vocab.csv') },
+  anki: { klass: EXPORTERS[:anki], path: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', 'anki.csv') },
+  anki_vocab: { klass: EXPORTERS[:anki_vocab], path: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', 'anki_vocab.csv') },
+  anki_conj: { klass: EXPORTERS[:anki_conj], path: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', 'anki_conj.csv') },
+  sql: { klass: EXPORTERS[:sql], path: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', 'data_vocab.sql') }
+}
+
 args = {
   infile_path: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', '日本語 Vocab - Vocab.csv'),
   db_config: { database: 'goi', user: 'postgres', password: 'postgres', host: 'localhost' },
   export_phases: [
-    { klass: EXPORTERS[:google], path: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', 'google_sheet.csv') },
-    { klass: EXPORTERS[:anki], path: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', 'anki.csv') },
-    { klass: EXPORTERS[:sql], path: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', 'data.sql') }
+    PHASES[:google],
+    PHASES[:anki],
+    PHASES[:sql]
   ],
   transform_phases: [
     TRANSFORMERS[:duo_tag]

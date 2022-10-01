@@ -4,19 +4,20 @@ module Goi
 
       def build_record_group(linkages)
         {
-          vocabulary: build_vocabulary_record(linkages, :vocabulary),
-          preferred_definition: build_definition_record(linkages, :preferred_definition),
-          preferred_spelling: build_spelling_record(linkages, :preferred_spelling),
-          phonetic_spelling: build_spelling_record(linkages, :phonetic_spelling),
-          alt_phonetic_spelling: build_spelling_record(linkages, :alt_phonetic_spelling),
-          kanji_spelling: build_spelling_record(linkages, :kanji_spelling),
-          references: build_reference_records(linkages, :vocabulary),
+          vocabulary: build_vocabulary_record(linkages.vocabulary),
+          preferred_definition: build_definition_record(linkages.preferred_definition),
+          preferred_spelling: build_spelling_record(linkages.preferred_spelling),
+          phonetic_spelling: build_spelling_record(linkages.phonetic_spelling),
+          alt_phonetic_spelling: build_spelling_record(linkages.alt_phonetic_spelling),
+          kanji_spelling: build_spelling_record(linkages.kanji_spelling),
+          conjugation_set: build_conjugation_set_record(linkages.conjugation_set),
+          conjugations: build_conjugation_records(linkages.conjugation_set),
+          references: build_reference_records(linkages.vocabulary),
           linkages: build_linkage_record(linkages)
         }
       end
 
-      def build_vocabulary_record(linkages, key)
-        vocabulary = linkages.send(key)
+      def build_vocabulary_record(vocabulary)
         {
           id: vocabulary.id,
           word_class_code: vocabulary.word_class_code,
@@ -28,8 +29,7 @@ module Goi
         }
       end
 
-      def build_definition_record(linkages, key)
-        definition = linkages.send(key)
+      def build_definition_record(definition)
         {
           id: definition.id,
           vocabulary_id: definition.vocabulary_id,
@@ -38,8 +38,7 @@ module Goi
         }
       end
 
-      def build_spelling_record(linkages, key)
-        spelling = linkages.send(key)
+      def build_spelling_record(spelling)
         return nil if spelling.nil? #In some cases can be null
 
         {
@@ -50,11 +49,33 @@ module Goi
         }
       end
 
-      def build_reference_records(linkages, vocabulary_key)
-        vocabulary = linkages.send(vocabulary_key)
-        lesson_codes = linkages.vocabulary.lesson_codes
+      def build_conjugation_set_record(conjugation_set)
+        return nil if conjugation_set.nil?
 
-        lesson_codes.map do |lesson_code|
+        {
+          id: conjugation_set.id,
+          vocabulary_id: conjugation_set.vocabulary_id
+        }
+      end
+
+      def build_conjugation_records(conjugation_set)
+        return [] if conjugation_set.nil?
+
+        conjugation_set.conjugations.map do |conjugation|
+          {
+            id: conjugation.id,
+            conjugation_set_id: conjugation_set.id,
+            politeness_code: conjugation.politeness_code,
+            charge_code: conjugation.charge_code,
+            form_code: conjugation.form_code,
+            sort_rank: conjugation.sort_rank,
+            value: conjugation.value
+          }
+        end
+      end
+
+      def build_reference_records(vocabulary)
+        vocabulary.lesson_codes.map do |lesson_code|
           {
             vocabulary_id: vocabulary.id,
             lesson_code: lesson_code
@@ -69,7 +90,8 @@ module Goi
           preferred_spelling_id: linkages.preferred_spelling.id,
           phonetic_spelling_id: linkages.phonetic_spelling.id,
           alt_phonetic_spelling_id: linkages.alt_phonetic_spelling&.id,
-          kanji_spelling_id: linkages.kanji_spelling&.id
+          kanji_spelling_id: linkages.kanji_spelling&.id,
+          conjugation_set_id: linkages.conjugation_set&.id
         }
       end
 

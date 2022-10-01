@@ -1,5 +1,6 @@
 require 'date'
 
+require_relative '../model/google_sheet'
 require_relative '../model/vocabulary'
 require_relative '../nihongo'
 require_relative 'base_importer'
@@ -19,9 +20,10 @@ module Goi
         @vocabulary_parser = VocabularyParser.new
         @definition_parser = DefinitionParser.new
         @spelling_parser = SpellingParser.new
+        @conjugation_parser = ConjugationParser.new
       end
 
-      attr_reader :vocabulary_parser, :definition_parser, :spelling_parser
+      attr_reader :vocabulary_parser, :definition_parser, :spelling_parser, :conjugation_parser
 
       def import
         rows = CSV.read(config.file_pathname.to_s, headers: true).map(&:to_h)
@@ -43,7 +45,8 @@ module Goi
           preferred_spelling: parse_spelling(row:, vocabulary_id:, field_data: PREFERRED_SPELLING_FIELD_DATA, required: true),
           phonetic_spelling: parse_spelling(row:, vocabulary_id:, field_data: PHONETIC_SPELLING_FIELD_DATA, required: true),
           alt_phonetic_spelling: parse_spelling(row:, vocabulary_id:, field_data: ALT_PHONETIC_SPELLING_FIELD_DATA, required: false),
-          kanji_spelling: parse_spelling(row:, vocabulary_id:, field_data: KANJI_SPELLING_FIELD_DATA, required: false)
+          kanji_spelling: parse_spelling(row:, vocabulary_id:, field_data: KANJI_SPELLING_FIELD_DATA, required: false),
+          conjugation_set: parse_conjugation(row:, vocabulary_id:)
         )
       end
 
@@ -57,6 +60,10 @@ module Goi
 
       def parse_spelling(row:, field_data:, required:, vocabulary_id:)
         spelling_parser.parse_row(row:, field_data:, required:, vocabulary_id:)
+      end
+
+      def parse_conjugation(row:, vocabulary_id:)
+        conjugation_parser.parse_row(row:, vocabulary_id:)
       end
 
       class VocabularyParser
@@ -165,7 +172,64 @@ module Goi
 
       end
 
-    end
+      class ConjugationParser
 
+        def parse_row(row:, vocabulary_id:)
+          set = parse_conjugation_set(row:, vocabulary_id:)
+          set.conjugations.empty? ? nil : set
+        end
+
+        private
+
+        KEY_DATA = Goi::Model::GoogleSheet::CONJUGATION_KEY_DATA
+        KEY_LIST = Goi::Model::GoogleSheet::CONJUGATION_KEYS
+        KEY_MAP = Goi::Model::GoogleSheet::CONJUGATION_KEY_DATA_MAP
+
+        def parse_conjugation_set(row:, vocabulary_id:)
+          id = Goi::Model::Vocabulary::ConjugationSet.create_id(vocabulary_id:)
+          conjugations = parse_conjugations(row:, conjugation_set_id: id)
+
+          Goi::Model::Vocabulary::ConjugationSet.new(
+            id:,
+            vocabulary_id:,
+            conjugations:
+          )
+        end
+
+        def parse_conjugations(row:, conjugation_set_id:)
+          KEY_MAP.keys.map { |key| parse_conjugation(row:, key:, conjugation_set_id:) }.compact
+        end
+
+        def parse_conjugation(row:, key:, conjugation_set_id:)
+          value = row[key]&.clean
+          return nil if value.nil?
+
+          politeness_code = KEY_MAP[key][:politeness]
+          charge_code = KEY_MAP[key][:charge]
+          form_code = KEY_MAP[key][:form]
+          sort_rank = KEY_MAP[key][:sort_rank]
+
+          id = Goi::Model::Vocabulary::Conjugation.create_id(
+            conjugation_set_id:,
+            politeness_code:,
+            charge_code:,
+            form_code:,
+            sort_rank:
+          )
+
+          Goi::Model::Vocabulary::Conjugation.new(
+            id:,
+            conjugation_set_id:,
+            politeness_code:,
+            charge_code:,
+            form_code:,
+            sort_rank:,
+            value:
+          )
+        end
+
+      end
+
+    end
   end
 end
