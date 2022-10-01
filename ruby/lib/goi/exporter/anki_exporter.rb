@@ -10,9 +10,8 @@ module Goi
 
       def export(linkages:)
         config_out_open do |io|
-          io.puts("#deck: #{deck}") unless deck.nil?
-          io.puts("#notetype: #{note_type}") unless note_type.nil?
-          io.puts("#columns: " + header_row.to_csv) unless header_row.nil?
+          # NOTE: To use the headers, you have to turn on the "New Import/export handling" in Anki settings.
+          write_file_headers(io)
 
           rows = linkage_rows(linkages:)
           rows.each do |row|
@@ -22,6 +21,13 @@ module Goi
       end
 
       private
+
+      def write_file_headers(io)
+        io.puts("#separator: Comma") # Required to make columns map.
+        io.puts("#deck: #{deck}") unless deck.nil?
+        io.puts("#notetype: #{note_type}") unless note_type.nil?
+        io.puts("#columns: " + header_row.to_csv) unless header_row.nil?
+      end
 
       def deck
         nil
@@ -53,7 +59,9 @@ module Goi
 
     class BaseAnkiVocabExporter < BaseAnkiExporter
 
-      NOTE_ID_HEADERS = ['id']
+      NOTE_ID_HEADERS = ['id'].freeze
+
+      TAGS_HEADERS = ['tags'].freeze
 
       VOCABULARY_HEADERS = [
         'definition',
@@ -65,8 +73,7 @@ module Goi
         'jlpt_level',
         'date_added',
         'row_num',
-        'lessons',
-        'tags',
+        'lessons'
       ].freeze
 
       CONJUGATION_HEADERS = Goi::Model::Vocabulary::Conjugation.map_dims do |charge_code, politeness_code, form_code|
@@ -76,6 +83,8 @@ module Goi
       private
 
       def note_id_fields(linkage:) = [note_id(linkage:)]
+
+      def tags_fields(linkage:) = [tags_field(linkage.vocabulary)]
 
       def vocabulary_fields(linkage:) = [
         linkage.preferred_definition.value,
@@ -87,8 +96,7 @@ module Goi
         linkage.vocabulary.jlpt_level&.to_s,
         linkage.vocabulary.date_added&.iso8601,
         linkage.vocabulary.row_num.to_s,
-        to_array_field(linkage.vocabulary.lesson_codes),
-        tags_field(linkage.vocabulary)
+        to_array_field(linkage.vocabulary.lesson_codes)
       ]
 
       def conjugation_fields(conjugation_set:)
@@ -129,12 +137,12 @@ module Goi
 
       private
 
-      def header_row = NOTE_ID_HEADERS + VOCABULARY_HEADERS + CONJUGATION_HEADERS
+      def header_row = NOTE_ID_HEADERS + VOCABULARY_HEADERS + CONJUGATION_HEADERS + TAGS_HEADERS
 
       def note_id(linkage:) = linkage.vocabulary.id
 
       def linkage_row(linkage:)
-        note_id_fields(linkage:) + vocabulary_fields(linkage:) + conjugation_fields_or_empty(linkage:)
+        note_id_fields(linkage:) + vocabulary_fields(linkage:) + conjugation_fields_or_empty(linkage:) + tags_fields(linkage:)
       end
 
       def conjugation_fields_or_empty(linkage:)
@@ -163,12 +171,12 @@ module Goi
       # TODO: Switch to config
       def note_type = NOTE_TYPE
 
-      def header_row = NOTE_ID_HEADERS + VOCABULARY_HEADERS
+      def header_row = NOTE_ID_HEADERS + VOCABULARY_HEADERS + TAGS_HEADERS
 
       def note_id(linkage:) = linkage.vocabulary.id
 
       def linkage_row(linkage:)
-        note_id_fields(linkage:) + vocabulary_fields(linkage:)
+        note_id_fields(linkage:) + vocabulary_fields(linkage:) + tags_fields(linkage:)
       end
 
     end
@@ -182,7 +190,7 @@ module Goi
       # TODO: Switch to config
       def note_type = "日本語 Conj".freeze
 
-      def header_row = NOTE_ID_HEADERS + ['vocabulary_id'] + VOCABULARY_HEADERS + CONJUGATION_HEADERS
+      def header_row = NOTE_ID_HEADERS + ['vocabulary_id'] + VOCABULARY_HEADERS + CONJUGATION_HEADERS + TAGS_HEADERS
 
       # We could use the conjugation set ID, but if we ever do advanced management in the DB, the ID could be transitory,
       # so we use the vocab id itself. Note that the same PK is fine by anki if the note type is different.
@@ -192,7 +200,7 @@ module Goi
         conjugation_set = linkage.conjugation_set
         return nil if conjugation_set.nil?
 
-        note_id_fields(linkage:) + [linkage.vocabulary.id] + vocabulary_fields(linkage:) + conjugation_fields(conjugation_set:)
+        note_id_fields(linkage:) + [linkage.vocabulary.id] + vocabulary_fields(linkage:) + conjugation_fields(conjugation_set:) + tags_fields(linkage:)
       end
 
     end

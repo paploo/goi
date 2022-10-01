@@ -1,3 +1,4 @@
+#separator: Comma
 #deck: 日本語 Vocab
 #notetype: 日本語 Vocab
 #columns: id,definition,preferred_spelling,phonetic_spelling,alt_spelling,word_class,conjugation_kind,jlpt_level,date_added,row_num,lessons,tags

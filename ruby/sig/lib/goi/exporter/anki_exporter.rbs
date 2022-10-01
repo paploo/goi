@@ -35,6 +35,8 @@ module Goi
 
       NOTE_ID_HEADERS: [String]
 
+      TAGS_HEADERS: [String]
+
       VOCABULARY_HEADERS: [String]
 
       CONJUGATION_HEADERS: [String]
@@ -42,6 +44,8 @@ module Goi
       private
 
       def note_id_fields: (Model::Vocabulary::Linkages linkage) -> [String]
+
+      def tags_fields: (Model::Vocabulary::Linkages linkage) -> [String]
 
       def vocabulary_fields: (Model::Vocabulary::Linkages linkage) -> [String?]
 
