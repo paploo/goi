@@ -69,6 +69,7 @@ module Goi
         super
         @paths = Set.new
         @stack = []
+        @characters_stack = []
         @kanjis = []
       end
 
@@ -84,8 +85,12 @@ module Goi
       end
 
       def start_element(name, attributes = [])
+        # Setup the stack frame
         @stack.push(name)
         @paths << @stack.dup
+
+        # Stack for accumulating string values
+        @characters_stack.push(nil)
 
         # Stores the current stack frame attributes where we can get at them.
         @attributes = attributes.to_h
@@ -107,6 +112,9 @@ module Goi
       end
 
       def end_element(name)
+        full_characters(@characters_stack[-1])
+
+        # Clean-up the stack frame
         if @stack == ['kanjidic2', 'character']
           @kanjis << @kanji
           @kanji = nil
@@ -117,6 +125,10 @@ module Goi
       end
 
       def characters(string)
+        @characters_stack[-1] = @characters_stack[-1].to_s + string
+      end
+
+      def full_characters(string)
         @characters_value = string
 
         # Don't cache rules if using local variables!
