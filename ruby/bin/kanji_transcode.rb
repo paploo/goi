@@ -22,7 +22,7 @@ module Goi
         attr_reader :config
 
         def db
-          @db ||= Sequel.postres(config.db_config)
+          @db ||= Sequel.postgres(config.db_config)
         end
 
         def run
@@ -60,10 +60,36 @@ module Goi
         def export_to_sql(kanji)
           File.open(config.kanji_sql_file, 'w') do |io|
             kanji.each do |k|
+              sql = db[Sequel[:kanji][:kanji_character]].insert_sql(to_record(k))
+              raise if sql.nil? || sql.empty?
               io.puts("-- #{k.character} (U+#{k.unicode_code_point_hex}) jlpt: #{k.jlpt_level}, grade_level: #{k.grade_level}, freq: #{k.frequency_ranking}")
-              io.puts('')
+              io.puts("#{sql};")
             end
           end
+        end
+
+        def to_record(kanji)
+          {
+            id: kanji.id,
+            character: kanji.character,
+            unicode_code_point: kanji.unicode_code_point_int,
+            meanings: sql_str_array(kanji.meanings),
+            on_readings: sql_str_array(kanji.on_readings),
+            kun_readings: sql_str_array(kanji.kun_readings),
+            nanori_readings: sql_str_array(kanji.nanori_readings),
+            stroke_count: kanji.stroke_count,
+            jlpt_level: kanji.jlpt_level,
+            grade_level: kanji.grade_level,
+            frequency_ranking: kanji.frequency_ranking
+          }
+        end
+
+        def sql_str_array(string_array)
+          string_array.map { |elem|
+            # Sequel took care of the single quotes, but it doesn't know about arrays and doesn't process the double quotes properly.
+            # (In Postgres they are used as escapes for a whole entry)
+            elem.gsub('"', '\"')
+          }.join(',').then { |s| "{#{s}}" }
         end
 
         class Config

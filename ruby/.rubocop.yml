@@ -16,6 +16,10 @@ Style/WordArray:
 Style/AccessorGrouping:
   Enabled: false
 
+# This one is extra lame, because it prevents good functional chaining 🤦
+Style/MultilineBlockChain:
+  Enabled: false
+
 Style/KeywordParametersOrder:
   Enabled: false
 
