@@ -1,0 +1,13 @@
+module Goi
+  module Core
+    module Resources
+
+      GOI_DIR: Pathname
+      RESOURCES_DIR: Pathname
+      FILES_DIR: Pathname
+
+      def self.at_path: (*String path) -> Pathname
+
+    end
+  end
+end

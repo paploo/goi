@@ -6,6 +6,7 @@ gem 'rubocop', require: false, group: 'development'
 
 gem 'uuidtools', '~>2.1.5'
 gem 'mojinizer', '~>0.2.2'
+gem 'nokogiri', '~>1.13.8'
 
 gem 'sequel', '~>5.58.0'
 gem 'pg', '~>1.4.2'

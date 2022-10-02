@@ -1,0 +1,17 @@
+module Goi
+  module Kanji
+    class KanjiSHDictionary
+
+      def load_data!: () -> KanjiSHDictionary
+
+      attr_reader jlpt_kanji_index: Hash[String, Integer]
+
+      attr_reader jlpt_kanji_lists: Hash[Integer, [String]]
+
+      private
+
+      def load_jlpt!: () -> KanjiSHDictionary
+
+    end
+  end
+end

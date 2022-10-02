@@ -1,0 +1,47 @@
+module Nokogiri
+  module XML
+    module SAX
+      class Document
+        # This is a placeholder since Nokogiri doesn't publish rbs.
+      end
+    end
+  end
+end
+
+module Goi
+  module Kanji
+    # Class to laod files from http://www.edrdg.org/wiki/index.php/KANJIDIC_Project
+    class KanjiDICImporter
+
+      type raw_kanji = Hash[Symbol, untyped]
+
+      INPUT_FILE_PATH: Pathname
+
+      def import: () -> [Goi::Model::Kanji]
+
+      private
+
+      def import_xml: () -> [raw_kanji]
+
+      def overlay_jlpt!: ([raw_kanji] raw_kanjis) -> void
+
+      def convert: (raw_kanji raw_kanji) -> Goi::Model::Kanji
+    end
+
+    # See http://www.edrdg.org/kanjidic/kanjidic2_dtdh.html
+    class KanjiDICImporterSAXParser < Nokogiri::XML::SAX::Document
+
+      attr_reader kanjis: [KanjiDICImporter::raw_kanji]
+
+      class FrameRule
+        def self.evaluate: ([String] stack_path, [FrameRule]) -> FrameRule?
+
+        def initialize: ([String] stack_path) { () -> void } -> void
+
+        def match?: ([String] stack_path) -> bool
+
+        def call: () -> void
+      end
+    end
+  end
+end
