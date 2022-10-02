@@ -41,12 +41,12 @@ module Goi
       end
 
       def convert(raw_kanji)
-        kanji = raw_kanji.fetch(:kanji)
+        character = raw_kanji.fetch(:kanji)
         rmgroup = raw_kanji[:rmgroup].first
 
         Goi::Model::Kanji.new(
-          id: Goi::Model::Kanji.create_id(kanji:),
-          kanji: kanji,
+          id: Goi::Model::Kanji.create_id(character:),
+          character:,
           unicode_code_point: raw_kanji.fetch(:ucs_codepoint),
           meanings: (rmgroup && rmgroup[:meanings]) || [],
           on_readings: (rmgroup && rmgroup[:ja_on_readings]) || [],

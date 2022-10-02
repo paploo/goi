@@ -27,19 +27,21 @@ module Goi
 
         def run
           kanji = @importer.import
-          ordered_kanji = kanji.sort_by { |k| [-k.jlpt_level.to_i, k.frequency_ranking || 99_999, k.grade || 99, k.kanji] }
+          ordered_kanji = kanji.sort_by { |k| [-k.jlpt_level.to_i, k.frequency_ranking || 99_999, k.grade || 99, k.character] }
           export_to_kanji_gen(ordered_kanji)
           export_to_sql(ordered_kanji)
         end
 
         private
 
+        # Outputs to a format that works with https://github.com/jensechu/kanji
+        # Specifically used in my fork at https://github.com/paploo/kanji-gen
         def export_to_kanji_gen(kanji)
           json_data = {
             "kanji" => kanji.map do |k|
               {
                 "category": "jlptn#{k.jlpt_level.to_i}",
-                "character": k.kanji,
+                "character": k.character,
                 "onyomi": k.on_readings&.join(', ') || '',
                 "kunyomi": k.kun_readings&.join(', ') || '',
                 "meaning": k.meanings.join(', ')
@@ -58,7 +60,7 @@ module Goi
         def export_to_sql(kanji)
           File.open(config.kanji_sql_file, 'w') do |io|
             kanji.each do |k|
-              io.puts("-- #{k.kanji} jlpt: #{k.jlpt_level}, grade: #{k.grade}, freq: #{k.frequency_ranking}")
+              io.puts("-- #{k.character} jlpt: #{k.jlpt_level}, grade: #{k.grade}, freq: #{k.frequency_ranking}")
               io.puts('')
             end
           end
@@ -73,7 +75,7 @@ module Goi
 
           attr_reader :db_config
 
-          def kanji_gen_file = @output_dir + 'kanji.json'
+          def kanji_gen_file = @output_dir + 'kanji_gen.json'
 
           def kanji_sql_file = @output_dir + 'kanji.sql'
 

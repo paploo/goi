@@ -3,11 +3,11 @@ module Goi
     class Kanji
       UUID5_NAMESPACE: String
 
-      def self.create_id: (kanji: String kanji) -> String
+      def self.create_id: (character: String character) -> String
 
       def initialize: (
           id: String id,
-          kanji: String kanji,
+          character: String character,
           jis_code_point: String jis_code_point,
           unicode_code_point: String unicode_code_point,
           meanings: [String] meanings,
@@ -22,7 +22,7 @@ module Goi
 
       attr_reader id: String
 
-      attr_reader kanji: String
+      attr_reader character: String
 
       attr_reader jis_code_point: String
 

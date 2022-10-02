@@ -6,14 +6,14 @@ module Goi
 
       UUID5_NAMESPACE = UUIDTools::UUID.parse('6228ddd3-7a0f-47e0-9bea-a15a0f491ca4').to_s
 
-      def self.create_id(kanji:)
-        name = [kanji].map(&:to_s).join('|')
+      def self.create_id(character:)
+        name = [character].map(&:to_s).join('|')
         ns = UUIDTools::UUID.parse(UUID5_NAMESPACE)
         UUIDTools::UUID.sha1_create(ns, name).to_s
       end
 
       def initialize(id:,
-                     kanji:,
+                     character:,
                      unicode_code_point:,
                      meanings:,
                      on_readings:,
@@ -24,7 +24,7 @@ module Goi
                      grade:,
                      frequency_ranking:)
         @id = id || raise(ArgumentError, 'ID required')
-        @kanji = kanji
+        @character = character
         @unicode_code_point = unicode_code_point
         @meanings = meanings
         @on_readings = on_readings
@@ -37,7 +37,7 @@ module Goi
       end
 
       attr_reader :id
-      attr_reader :kanji
+      attr_reader :character
       attr_reader :unicode_code_point
       attr_reader :meanings
       attr_reader :on_readings
