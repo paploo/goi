@@ -8,25 +8,20 @@ module Goi
       def initialize: (
           id: String id,
           character: String character,
-          jis_code_point: String jis_code_point,
-          unicode_code_point: String unicode_code_point,
+          unicode_code_point: (Integer|String) unicode_code_point,
           meanings: [String] meanings,
           on_readings: [String] on_readings,
           kun_readings: [String] kun_readings,
           nanori_readings: [String] nanori_readings,
           stroke_count: Integer stroke_count,
           jlpt_level: Integer? jlpt_level,
-          grade: Integer? grade,
+          grade_level: Integer? grade,
           frequency_ranking: Integer? frequency_ranking
         ) -> void
 
       attr_reader id: String
 
       attr_reader character: String
-
-      attr_reader jis_code_point: String
-
-      attr_reader unicode_code_point: String
 
       attr_reader meanings: [String]
 
@@ -40,9 +35,13 @@ module Goi
 
       attr_reader jlpt_level: Integer?
 
-      attr_reader grade: Integer?
+      attr_reader grade_level: Integer?
 
       attr_reader frequency_ranking: Integer?
+
+      def unicode_code_point_hex: () -> String
+
+      def unicode_code_point_int: () -> Integer
     end
   end
 end

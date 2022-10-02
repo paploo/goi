@@ -47,14 +47,14 @@ module Goi
         Goi::Model::Kanji.new(
           id: Goi::Model::Kanji.create_id(character:),
           character:,
-          unicode_code_point: raw_kanji.fetch(:ucs_codepoint),
+          unicode_code_point: raw_kanji.fetch(:ucs_codepoint).to_i(16),
           meanings: (rmgroup && rmgroup[:meanings]) || [],
           on_readings: (rmgroup && rmgroup[:ja_on_readings]) || [],
           kun_readings: (rmgroup && rmgroup[:ja_kun_readings]) || [],
           nanori_readings: raw_kanji.fetch(:nanori_readings, []),
           stroke_count: raw_kanji[:stroke_count],
           jlpt_level: raw_kanji[:jlpt_level],
-          grade: raw_kanji[:grade],
+          grade_level: raw_kanji[:grade],
           frequency_ranking: raw_kanji[:frequency]
         )
       end

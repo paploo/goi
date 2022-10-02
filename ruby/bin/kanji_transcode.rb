@@ -27,7 +27,7 @@ module Goi
 
         def run
           kanji = @importer.import
-          ordered_kanji = kanji.sort_by { |k| [-k.jlpt_level.to_i, k.frequency_ranking || 99_999, k.grade || 99, k.character] }
+          ordered_kanji = kanji.sort_by { |k| [-k.jlpt_level.to_i, k.frequency_ranking || 99_999, k.grade_level || 99, k.character] }
           export_to_kanji_gen(ordered_kanji)
           export_to_sql(ordered_kanji)
         end
@@ -60,7 +60,7 @@ module Goi
         def export_to_sql(kanji)
           File.open(config.kanji_sql_file, 'w') do |io|
             kanji.each do |k|
-              io.puts("-- #{k.character} jlpt: #{k.jlpt_level}, grade: #{k.grade}, freq: #{k.frequency_ranking}")
+              io.puts("-- #{k.character} (U+#{k.unicode_code_point_hex}) jlpt: #{k.jlpt_level}, grade_level: #{k.grade_level}, freq: #{k.frequency_ranking}")
               io.puts('')
             end
           end
