@@ -14,7 +14,6 @@ module Goi
 
       def initialize(id:,
                      kanji:,
-                     jis_code_point:,
                      unicode_code_point:,
                      meanings:,
                      on_readings:,
@@ -24,9 +23,8 @@ module Goi
                      jlpt_level:,
                      grade:,
                      frequency_ranking:)
-        @id = id
+        @id = id || raise(ArgumentError, 'ID required')
         @kanji = kanji
-        @jis_code_point = jis_code_point
         @unicode_code_point = unicode_code_point
         @meanings = meanings
         @on_readings = on_readings
@@ -40,7 +38,6 @@ module Goi
 
       attr_reader :id
       attr_reader :kanji
-      attr_reader :jis_code_point
       attr_reader :unicode_code_point
       attr_reader :meanings
       attr_reader :on_readings

@@ -23,9 +23,9 @@ module Goi
 
       def import_xml: () -> [raw_kanji]
 
-      def overlay_jlpt!: ([raw_kanji] kanjis) -> void
+      def overlay_jlpt!: ([raw_kanji] raw_kanjis) -> void
 
-      def convert: ([raw_kanji] kanjis) -> [Goi::Model::Kanji]
+      def convert: (raw_kanji raw_kanji) -> Goi::Model::Kanji
     end
 
     # See http://www.edrdg.org/kanjidic/kanjidic2_dtdh.html

@@ -15,9 +15,9 @@ module Goi
       INPUT_FILE_PATH = Goi::Core::Resources.at_path('kanjidic2.xml')
 
       def import
-        kanjis = import_xml
-        overlay_jlpt!(kanjis)
-        convert(kanjis)
+        raw_kanjis = import_xml
+        overlay_jlpt!(raw_kanjis)
+        raw_kanjis.map { |kanji| convert(kanji) }
       end
 
       private
@@ -32,17 +32,31 @@ module Goi
         parser.document.kanjis
       end
 
-      def overlay_jlpt!(kanjis)
+      def overlay_jlpt!(raw_kanjis)
         kanji_dict = KanjiSHDictionary.new.load_data!
-        kanjis.map do |kanji|
+        raw_kanjis.map do |kanji|
           jlpt_level = kanji_dict.jlpt_kanji_index[kanji[:kanji]]
           kanji[:jlpt_level] = jlpt_level unless jlpt_level.nil?
         end
       end
 
-      def convert(kanjis)
-        #TODO: Convert to kanji model
-        kanjis
+      def convert(raw_kanji)
+        kanji = raw_kanji.fetch(:kanji)
+        rmgroup = raw_kanji[:rmgroup].first
+
+        Goi::Model::Kanji.new(
+          id: Goi::Model::Kanji.create_id(kanji:),
+          kanji: kanji,
+          unicode_code_point: raw_kanji.fetch(:ucs_codepoint),
+          meanings: (rmgroup && rmgroup[:meanings]) || [],
+          on_readings: (rmgroup && rmgroup[:ja_on_readings]) || [],
+          kun_readings: (rmgroup && rmgroup[:ja_kun_readings]) || [],
+          nanori_readings: raw_kanji.fetch(:nanori_readings, []),
+          stroke_count: raw_kanji[:stroke_count],
+          jlpt_level: raw_kanji[:jlpt_level],
+          grade: raw_kanji[:grade],
+          frequency_ranking: raw_kanji[:frequency]
+        )
       end
 
 
@@ -138,13 +152,13 @@ module Goi
             @kanji[key] << @characters_value
           end,
           FrameRule.new(['kanjidic2', 'character', 'reading_meaning', 'rmgroup', 'meaning']) do
-            @target[:meaning] ||= []
-            @target[:meaning] << @characters_value if @attributes["m_lang"].nil? # Select English defs
+            @target[:meanings] ||= []
+            @target[:meanings] << @characters_value if @attributes["m_lang"].nil? # Select English defs
           end,
           FrameRule.new(['kanjidic2', 'character', 'reading_meaning', 'rmgroup', 'reading']) do
             reading_type = @attributes['r_type']
             if ['ja_on', 'ja_kun'].include?(reading_type)
-              key = "#{reading_type}_readings}".to_sym
+              key = "#{reading_type}_readings".to_sym
               @target[key] ||= []
               @target[key] << @characters_value
             end

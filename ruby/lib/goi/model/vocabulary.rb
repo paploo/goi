@@ -156,7 +156,7 @@ module Goi
         def self.attributes = ATTRIBUTES
 
         def initialize(id:, vocabulary_id:, value:, sort_rank: 1)
-          @id = id || raise(ArgumentError, "ID required")
+          @id = id || raise(ArgumentError, 'ID required')
           @vocabulary_id = vocabulary_id
           @value = value
           @sort_rank = sort_rank
@@ -194,7 +194,7 @@ module Goi
         def self.attributes = ATTRIBUTES
 
         def initialize(id:, vocabulary_id:, spelling_kind_code:, value:)
-          @id = id || raise(ArgumentError, "ID required")
+          @id = id || raise(ArgumentError, 'ID required')
           @vocabulary_id = vocabulary_id
           @spelling_kind_code = spelling_kind_code
           @value = value
@@ -229,7 +229,7 @@ module Goi
         end
 
         def initialize(id:, vocabulary_id:, conjugations: [])
-          @id = id || raise(ArgumentError, "ID required")
+          @id = id || raise(ArgumentError, 'ID required')
           @vocabulary_id = vocabulary_id
           @conjugations = conjugations
         end
@@ -290,7 +290,7 @@ module Goi
         end
 
         def initialize(id:, conjugation_set_id:, politeness_code:, charge_code:, form_code:, sort_rank:, value:)
-          @id = id || raise(ArgumentError, "ID required")
+          @id = id || raise(ArgumentError, 'ID required')
           @conjugation_set_id = conjugation_set_id
           @politeness_code = politeness_code
           @charge_code = charge_code
