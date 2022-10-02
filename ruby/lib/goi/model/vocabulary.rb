@@ -39,7 +39,13 @@ module Goi
           raise ArgumentError, "One or more links don't go with the given vocabulary" unless links_valid?
         end
 
-        attr_reader :vocabulary, :preferred_definition, :preferred_spelling, :phonetic_spelling, :alt_phonetic_spelling, :kanji_spelling, :conjugation_set
+        attr_reader :vocabulary
+        attr_reader :preferred_definition
+        attr_reader :preferred_spelling
+        attr_reader :phonetic_spelling
+        attr_reader :alt_phonetic_spelling
+        attr_reader :kanji_spelling
+        attr_reader :conjugation_set
 
         def copy(**props)
           args = self.class.attributes.map { |p| [p, props.fetch(p, send(p))] }.to_h
@@ -113,7 +119,14 @@ module Goi
           @lesson_codes = (lesson_codes || []).sort
         end
 
-        attr_reader :id, :word_class_code, :conjugation_kind_code, :jlpt_level, :row_num, :date_added, :tags, :lesson_codes
+        attr_reader :id
+        attr_reader :word_class_code
+        attr_reader :conjugation_kind_code
+        attr_reader :jlpt_level
+        attr_reader :row_num
+        attr_reader :date_added
+        attr_reader :tags
+        attr_reader :lesson_codes
 
         def copy(**props)
           args = self.class.attributes.map { |p| [p, props.fetch(p, send(p))] }.to_h
@@ -187,7 +200,10 @@ module Goi
           @value = value
         end
 
-        attr_reader :id, :vocabulary_id, :spelling_kind_code, :value
+        attr_reader :id
+        attr_reader :vocabulary_id
+        attr_reader :spelling_kind_code
+        attr_reader :value
 
         def copy(**props)
           args = self.class.attributes.map { |p| [p, props.fetch(p, send(p))] }.to_h
@@ -218,7 +234,9 @@ module Goi
           @conjugations = conjugations
         end
 
-        attr_reader :id, :vocabulary_id, :conjugations
+        attr_reader :id
+        attr_reader :vocabulary_id
+        attr_reader :conjugations
 
         def copy(**props)
           args = self.class.attributes.map { |p| [p, props.fetch(p, send(p))] }.to_h
@@ -281,7 +299,13 @@ module Goi
           @value = value
         end
 
-        attr_reader :id, :conjugation_set_id, :politeness_code, :charge_code, :form_code, :sort_rank,:value
+        attr_reader :id
+        attr_reader :conjugation_set_id
+        attr_reader :politeness_code
+        attr_reader :charge_code
+        attr_reader :form_code
+        attr_reader :sort_rank
+        attr_reader :value
 
         def copy(**props)
           args = self.class.attributes.map { |p| [p, props.fetch(p, send(p))] }.to_h

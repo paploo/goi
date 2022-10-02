@@ -1,0 +1,48 @@
+module Goi
+  module Model
+    class Kanji
+      UUID5_NAMESPACE: String
+
+      def self.create_id: (kanji: String kanji) -> String
+
+      def initialize: (
+          id: String id,
+          kanji: String kanji,
+          jis_code_point: String jis_code_point,
+          unicode_code_point: String unicode_code_point,
+          meanings: [String] meanings,
+          on_readings: [String] on_readings,
+          kun_readings: [String] kun_readings,
+          nanori_readings: [String] nanori_readings,
+          stroke_count: Integer stroke_count,
+          jlpt_level: Integer? jlpt_level,
+          grade: Integer? grade,
+          frequency_ranking: Integer? frequency_ranking
+        ) -> void
+
+      attr_reader id: String
+
+      attr_reader kanji: String
+
+      attr_reader jis_code_point: String
+
+      attr_reader unicode_code_point: String
+
+      attr_reader meanings: [String]
+
+      attr_reader on_readings: [String]
+
+      attr_reader kun_readings: [String]
+
+      attr_reader nanori_readings: [String]
+
+      attr_reader stroke_count: Integer
+
+      attr_reader jlpt_level: Integer?
+
+      attr_reader grade: Integer?
+
+      attr_reader frequency_ranking: Integer?
+    end
+  end
+end

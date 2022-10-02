@@ -13,6 +13,9 @@ Style/SymbolArray:
 Style/WordArray:
   Enabled: false
 
+Style/AccessorGrouping:
+  Enabled: false
+
 Style/KeywordParametersOrder:
   Enabled: false
 

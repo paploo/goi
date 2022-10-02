@@ -3,6 +3,8 @@ require 'uuidtools'
 require 'time'
 
 require_relative '../model/kanji'
+require_relative '../core'
+require_relative 'kanji_sh_dictionary'
 
 module Goi
   module Kanji
@@ -10,15 +12,37 @@ module Goi
     # Class to laod files from http://www.edrdg.org/wiki/index.php/KANJIDIC_Project
     class KanjiDICImporter
 
-      # TODO: THis should be config!
-      INPUT_FILE_PATH = Pathname(__FILE__).expand_path.join('..', '..', '..', '..', '..', 'files', 'kanjidic2.xml')
+      INPUT_FILE_PATH = Goi::Core::Resources.at_path('kanjidic2.xml')
 
       def import
+        kanjis = import_xml
+        overlay_jlpt!(kanjis)
+        convert(kanjis)
+      end
+
+      private
+
+      def import_xml
         parser = Nokogiri::XML::SAX::Parser.new(KanjiDICImporterSAXParser.new)
 
         File.open(INPUT_FILE_PATH) do |file|
           parser.parse(file)
         end
+
+        parser.document.kanjis
+      end
+
+      def overlay_jlpt!(kanjis)
+        kanji_dict = KanjiSHDictionary.new.load_data!
+        kanjis.map do |kanji|
+          jlpt_level = kanji_dict.jlpt_kanji_index[kanji[:kanji]]
+          kanji[:jlpt_level] = jlpt_level unless jlpt_level.nil?
+        end
+      end
+
+      def convert(kanjis)
+        #TODO: Convert to kanji model
+        kanjis
       end
 
 
@@ -27,20 +51,14 @@ module Goi
     # See http://www.edrdg.org/kanjidic/kanjidic2_dtdh.html
     class KanjiDICImporterSAXParser < Nokogiri::XML::SAX::Document
 
-      PATH_HANDLERS = {
-        ['kanjidlc2', 'character'] => :kanjidlc2_character_handler
-      }
-
-      # TODO:
-      #  - How best to handle filtering a value based on attr, not just tag?
-      #    - Maybe store in stack frame (which would be a formalized structure)?
-      #  - Instead of a bunch of inline if statements, use dispatching and/or rules lists?
       def initialize
         super
         @paths = Set.new
         @stack = []
         @kanjis = []
       end
+
+      attr_reader :kanjis
 
       def start_document
         @start_at = Time.now
@@ -49,13 +67,11 @@ module Goi
       def end_document
         delta_t = Time.now - @start_at
         STDERR.puts "PARSED FILE IN #{delta_t} seconds"
-        puts @paths.inspect
       end
 
       def start_element(name, attributes = [])
         @stack.push(name)
         @paths << @stack.dup
-        #puts @stack.inspect
 
         # Stores the current stack frame attributes where we can get at them.
         @attributes = attributes.to_h
@@ -79,7 +95,6 @@ module Goi
       def end_element(name)
         if @stack == ['kanjidic2', 'character']
           @kanjis << @kanji
-          puts @kanji.inspect if @kanji[:kanji] == '亜'
           @kanji = nil
         end
 
@@ -110,17 +125,33 @@ module Goi
             @kanji[:frequency] = @characters_value.to_i
           end,
           FrameRule.new(['kanjidic2', 'character', 'misc', 'jlpt']) do
-            @kanji[:old_jlpt] = @characters_value.to_i
+            # The pre-2010 level of the Japanese Language Proficiency Test (JLPT) in which the kanji occurs (1-4). Note
+            # that the JLPT test levels changed in 2010, with a new 5-level system (N1 to N5) being introduced. No
+            # official kanji lists are available for the new levels. The new levels are regarded as being similar to the
+            # old levels except that the old level 2 is now divided between N2 and N3, and the old levels 3 and 4 are
+            # now N4 and N5.
+            @kanji[:old_jlpt_level] = @characters_value.to_i
           end,
           FrameRule.new(['kanjidic2', 'character', 'misc', 'variant']) do
             key = "variant_#{@attributes['var_type']}".to_sym
             @kanji[key] ||= []
             @kanji[key] << @characters_value
           end,
+          FrameRule.new(['kanjidic2', 'character', 'reading_meaning', 'rmgroup', 'meaning']) do
+            @target[:meaning] ||= []
+            @target[:meaning] << @characters_value if @attributes["m_lang"].nil? # Select English defs
+          end,
           FrameRule.new(['kanjidic2', 'character', 'reading_meaning', 'rmgroup', 'reading']) do
-            key = "reading_#{@attributes['r_type']}".to_sym
-            @target[key] ||= []
-            @target[key] << @characters_value
+            reading_type = @attributes['r_type']
+            if ['ja_on', 'ja_kun'].include?(reading_type)
+              key = "#{reading_type}_readings}".to_sym
+              @target[key] ||= []
+              @target[key] << @characters_value
+            end
+          end,
+          FrameRule.new(['kanjidic2', 'character', 'reading_meaning', 'nanori']) do
+            @kanji[:nanori_readings] ||= []
+            @kanji[:nanori_readings] << @characters_value
           end
         ]
 
@@ -135,12 +166,12 @@ module Goi
           match
         end
 
-        def initialize(path, &block)
-          @path = path
+        def initialize(stack_path, &block)
+          @stack_path = stack_path
           @block = block
         end
 
-        def match?(stack_path) = @path == stack_path
+        def match?(stack_path) = @stack_path == stack_path
 
         def call = @block.call
 
@@ -150,7 +181,3 @@ module Goi
 
   end
 end
-
-
-# TODO: FOR BOOTSTRAPPING; REMOVE THIS!!!
-Goi::Kanji::KanjiDICImporter.new.import

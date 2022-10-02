@@ -12,7 +12,44 @@ module Goi
         UUIDTools::UUID.sha1_create(ns, name).to_s
       end
 
-      attr_reader :id, :kanji, :jis_code_point, :unicode_code_point, :meanings, :on_readings, :kun_readings, :nanori_readings, :jlpt_level, :grade, :stroke_count, :frequency_ranking, :related_
+      def initialize(id:,
+                     kanji:,
+                     jis_code_point:,
+                     unicode_code_point:,
+                     meanings:,
+                     on_readings:,
+                     kun_readings:,
+                     nanori_readings:,
+                     stroke_count:,
+                     jlpt_level:,
+                     grade:,
+                     frequency_ranking:)
+        @id = id
+        @kanji = kanji
+        @jis_code_point = jis_code_point
+        @unicode_code_point = unicode_code_point
+        @meanings = meanings
+        @on_readings = on_readings
+        @kun_readings = kun_readings
+        @nanori_readings = nanori_readings
+        @stroke_count = stroke_count
+        @jlpt_level = jlpt_level
+        @grade = grade
+        @frequency_ranking = frequency_ranking
+      end
+
+      attr_reader :id
+      attr_reader :kanji
+      attr_reader :jis_code_point
+      attr_reader :unicode_code_point
+      attr_reader :meanings
+      attr_reader :on_readings
+      attr_reader :kun_readings
+      attr_reader :nanori_readings
+      attr_reader :stroke_count
+      attr_reader :jlpt_level
+      attr_reader :grade
+      attr_reader :frequency_ranking
 
     end
   end
