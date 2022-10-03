@@ -9,14 +9,11 @@ module Goi
         super(config:)
         @config = config
         @db = nil
-      end
-
-      def db
-        @db ||= Sequel.postgres(config.db_config)
+        @record_builder = Goi::SQL::VocabularyRecordBuilder.new
       end
 
       def export(linkages:)
-        record_builder = Goi::SQL::VocabularyRecordBuilder.new
+
         record_groups = linkages.map do |ln|
           record_builder.build_record_group(ln)
         end
@@ -30,6 +27,12 @@ module Goi
       end
 
       private
+
+      def db
+        @db ||= Sequel.postgres(config.db_config)
+      end
+
+      attr_reader :record_builder
 
       def generate_insert_sql(record_group)
         main_entities_sql = [

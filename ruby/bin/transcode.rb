@@ -50,7 +50,8 @@ EXPORTERS = {
   anki: Goi::Exporter::AnkiExporter,
   anki_vocab: Goi::Exporter::AnkiVocabExporter,
   anki_conj: Goi::Exporter::AnkiConjugationExporter,
-  sql: Goi::Exporter::SqlFileExporter
+  sql: Goi::Exporter::SqlFileExporter,
+  sequel: Goi::Exporter::SequelExporter
 }.freeze
 
 TRANSFORMERS = {

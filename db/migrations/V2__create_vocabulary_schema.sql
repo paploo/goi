@@ -38,7 +38,7 @@ create index on vocabulary.vocabulary using gin (tags);
 
 create table vocabulary.definition (
     id uuid primary key,
-    vocabulary_id uuid not null references vocabulary.vocabulary(id),
+    vocabulary_id uuid not null references vocabulary.vocabulary(id) on delete cascade,
     sort_rank int not null default 0,
     value text not null
 );
@@ -47,7 +47,7 @@ create index on vocabulary.definition(value);
 
 create table vocabulary.spelling (
     id uuid primary key,
-    vocabulary_id uuid not null references vocabulary.vocabulary(id),
+    vocabulary_id uuid not null references vocabulary.vocabulary(id) on delete cascade,
     spelling_kind_code varchar not null references vocabulary.spelling_kind(code),
     value text not null
 );
@@ -59,7 +59,7 @@ create unique index on vocabulary.definition(vocabulary_id, id);
 create unique index on vocabulary.spelling(vocabulary_id, id);
 
 create table vocabulary.linkages (
-  vocabulary_id uuid not null unique references vocabulary.vocabulary(id),
+  vocabulary_id uuid not null unique references vocabulary.vocabulary(id) on delete cascade,
 
   preferred_definition_id uuid not null,
 

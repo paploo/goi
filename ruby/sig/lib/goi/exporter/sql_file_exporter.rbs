@@ -8,7 +8,9 @@ module Goi
 
       attr_reader db: untyped
 
-      attr_reader mode: Symbol
+      private
+
+      attr_reader record_builder: Goi::SQL::VocabularyRecordBuilder
 
       def export: (linkages: [Model::Vocabulary::Linkages] linkages) -> untyped
 

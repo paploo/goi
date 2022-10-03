@@ -71,7 +71,8 @@ EXPORTERS = {
   anki: Goi::Exporter::AnkiExporter,
   anki_vocab: Goi::Exporter::AnkiVocabExporter,
   anki_conj: Goi::Exporter::AnkiConjugationExporter,
-  sql: Goi::Exporter::SqlFileExporter
+  sql: Goi::Exporter::SqlFileExporter,
+  sequel: Goi::Exporter::SequelExporter
 }.freeze
 
 TRANSFORMERS = {
@@ -83,7 +84,8 @@ PHASES = {
   anki: { klass: EXPORTERS[:anki], path: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', 'anki.csv') },
   anki_vocab: { klass: EXPORTERS[:anki_vocab], path: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', 'anki_vocab.csv') },
   anki_conj: { klass: EXPORTERS[:anki_conj], path: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', 'anki_conj.csv') },
-  sql: { klass: EXPORTERS[:sql], path: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', 'data_vocab.sql') }
+  sql: { klass: EXPORTERS[:sql], path: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', 'data_vocab.sql') },
+  sequel: { klass: EXPORTERS[:sequel], path: nil }
 }
 
 args = {
@@ -91,8 +93,9 @@ args = {
   db_config: { database: 'goi', user: 'postgres', password: 'postgres', host: 'localhost' },
   export_phases: [
     PHASES[:google],
+    PHASES[:sql],
+    PHASES[:sequel],
     PHASES[:anki],
-    PHASES[:sql]
   ],
   transform_phases: [
     TRANSFORMERS[:duo_tag]

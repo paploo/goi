@@ -5,7 +5,7 @@
 -- Making a set allows adding extra properties later, and using the ID as a sync for Anki cards.
 create table vocabulary.conjugation_set (
     id uuid primary key,
-    vocabulary_id uuid not null references vocabulary.vocabulary(id)
+    vocabulary_id uuid not null references vocabulary.vocabulary(id) on delete cascade
 );
 create index on vocabulary.conjugation_set(vocabulary_id);
 create unique index on vocabulary.conjugation_set(vocabulary_id, id);
@@ -37,7 +37,7 @@ create table vocabulary.conjugation_form (
 -- Uniqueness is complex; can have multiple ordered entries (e.g. 食べられる and 食べれる are both positive casual potential)
 create table vocabulary.conjugation (
     id uuid primary key,
-    conjugation_set_id uuid not null references vocabulary.conjugation_set(id),
+    conjugation_set_id uuid not null references vocabulary.conjugation_set(id) on delete cascade,
     politeness_code varchar not null references vocabulary.conjugation_politeness(code),
     charge_code varchar not null references vocabulary.conjugation_charge(code),
     form_code varchar not null references  vocabulary.conjugation_form(code),
