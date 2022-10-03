@@ -44,6 +44,7 @@ module Goi
             phonetic_spelling: spelling_parser.parse(vocabulary_id:, library:, linkage_field: :phonetic_spelling, required: true),
             alt_phonetic_spelling: spelling_parser.parse(vocabulary_id:, library:, linkage_field: :alt_phonetic_spelling, required: false),
             kanji_spelling: spelling_parser.parse(vocabulary_id:, library:, linkage_field: :kanji_spelling, required: false),
+            #TODO [5]: Add conjugation set
           )
         end
       end

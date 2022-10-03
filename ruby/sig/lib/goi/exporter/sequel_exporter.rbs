@@ -1,0 +1,23 @@
+module Goi
+  module Exporter
+
+    class SequelExporter < BaseExporter
+
+      private
+
+      attr_reader record_builder: Goi::SQL::VocabularyRecordBuilder
+
+      def db: () -> untyped
+
+      def naive_export: (linkages: [Model::Vocabulary::Linkages]) -> void
+
+      def delete_all: () -> void
+
+      def write_linkages: (linkages: [Model::Vocabulary::Linkages]) -> void
+
+      def write_record_group: (record_group: SQL::VocabularyRecordBuilder::record_group) -> void
+
+    end
+
+  end
+end
