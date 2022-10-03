@@ -88,7 +88,7 @@ module Goi
           string_array.map { |elem|
             # Sequel took care of the single quotes, but it doesn't know about arrays and doesn't process the double quotes properly.
             # (In Postgres they are used as escapes for a whole entry)
-            elem.gsub('"', '\"')
+            elem.gsub('"', '\"').gsub(',', '\,')
           }.join(',').then { |s| "{#{s}}" }
         end
 
