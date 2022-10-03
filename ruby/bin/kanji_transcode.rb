@@ -3,6 +3,7 @@ require 'json'
 
 require 'pg'
 require 'sequel'
+require 'sequel/extensions/pg_array'
 
 require_relative '../lib/goi'
 require_relative '../lib/goi/kanji'
@@ -22,7 +23,11 @@ module Goi
         attr_reader :config
 
         def db
-          @db ||= Sequel.postgres(config.db_config)
+          Sequel.extension :pg_array
+          @db ||= Sequel.postgres(config.db_config).tap do |db|
+            # Not needed for export, but part of proper setup for pg_array support.
+            db.extension(:pg_array)
+          end
         end
 
         def run
@@ -85,11 +90,7 @@ module Goi
         end
 
         def sql_str_array(string_array)
-          string_array.map { |elem|
-            # Sequel took care of the single quotes, but it doesn't know about arrays and doesn't process the double quotes properly.
-            # (In Postgres they are used as escapes for a whole entry)
-            elem.gsub('"', '\"')
-          }.join(',').then { |s| "{#{s}}" }
+          Sequel.pg_array(string_array, :text)
         end
 
         class Config
