@@ -23,7 +23,7 @@ create index on source.lesson(source_code);
 create index on source.lesson(section_number, subsection_number);
 
 create table vocabulary.reference (
-    vocabulary_id uuid not null references vocabulary.vocabulary(id),
+    vocabulary_id uuid not null references vocabulary.vocabulary(id) on delete cascade,
     lesson_code varchar not null references source.lesson(code)
 );
 create unique index on vocabulary.reference(vocabulary_id, lesson_code);
