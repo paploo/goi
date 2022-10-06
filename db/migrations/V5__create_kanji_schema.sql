@@ -27,8 +27,17 @@ create index on kanji.kanji_character using gin(meanings);
 create index on kanji.kanji_character using gin(on_readings);
 create index on kanji.kanji_character using gin(kun_readings);
 
--- Create the character cross-ref tables
+-- Create convenience views
 
+-- These allow using like/ilike to substring search.
+
+create view kanji.meaning as select id as kanji_character_id, character, unnest(meanings) as meaning from kanji.kanji_character;
+create view kanji.kun_reading as select id as kanji_character_id, character, unnest(kun_readings) as reading from kanji.kanji_character;
+create view kanji.on_reading as select id as kanji_character_id, character, unnest(on_readings) as reading from kanji.kanji_character;
+
+--
+-- Create the character cross-ref tables
+--
 
 -- It turns out that it's so cheap to run the query on the size of data we have, that building a view works fine for now.
 -- If this ever becomes a perf burden, then we can maintain a materialized view with indices, which will be simpler than coding a table.
