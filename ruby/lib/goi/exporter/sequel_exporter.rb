@@ -38,14 +38,20 @@ module Goi
         end
       end
 
-      def delete_all
-        db[Sequel[:vocabulary][:vocabulary]].delete
-        db["VACUUM"] # Clean-up.
-      end
-
       def naive_export(linkages:)
         delete_all
         write_linkages(linkages:)
+        refresh_materialized_views
+      end
+
+      def delete_all
+        db[Sequel[:vocabulary][:vocabulary]].delete
+        db["VACUUM"] # Clean-up the table.
+      end
+
+      def refresh_materialized_views
+        # When/if we have materialized views, this is the place to do the refresh.
+        # db["REFRESH MATERIALIZED VIEW CONCURRENTLY some_schema.some_view"]
       end
 
       def write_linkages(linkages:)
