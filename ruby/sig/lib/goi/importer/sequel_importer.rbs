@@ -7,6 +7,8 @@ module Goi
       attr_reader vocabulary_parser: VocabularyParser
       attr_reader definition_parser: DefinitionParser
       attr_reader spelling_parser: SpellingParser
+      attr_reader conjugation_set_parser: ConjugationSetParser
+      attr_reader conjugation_parser: ConjugationParser
 
       def initialize: (config: Config) -> void
 
@@ -28,6 +30,20 @@ module Goi
         def parse: (vocabulary_id: String, library: Library, linkage_field: Symbol, required: bool) -> Model::Vocabulary::Spelling
       end
 
+      class ConjugationSetParser
+        def initialize: (conjugation_parser: ConjugationParser) -> void
+
+        def parse: (vocabulary_id: String, library: Library) -> Model::Vocabulary::ConjugationSet
+
+        private
+
+        attr_reader conjugation_parser: ConjugationParser
+      end
+
+      class ConjugationParser
+        def parse: (conjugation_set_id: String, library: Library) -> [Model::Vocabulary::Conjugation]
+      end
+
 
       class Library
         def initialize: (db: untyped db) -> void
@@ -41,6 +57,10 @@ module Goi
         attr_reader linkages: Hash[String, record]
 
         attr_reader references: Hash[String, [record]]
+
+        attr_reader conjugation_sets: Hash[String, [record]]
+
+        attr_reader conjugations: Hash[String, [record]]
 
         def load_all: () -> Library
       end
