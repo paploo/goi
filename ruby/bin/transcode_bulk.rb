@@ -76,7 +76,8 @@ EXPORTERS = {
 }.freeze
 
 TRANSFORMERS = {
-  duo_tag: Goi::Transformer::DuoLessonCodeTransformer
+  duo_tag: Goi::Transformer::DuoLessonCodeTransformer,
+  validation: Goi::Transformer::ValidationTransformer
 }.freeze
 
 PHASES = {
@@ -98,7 +99,8 @@ args = {
     PHASES[:anki],
   ],
   transform_phases: [
-    TRANSFORMERS[:duo_tag]
+    TRANSFORMERS[:duo_tag],
+    TRANSFORMERS[:validation]
   ]
 }
 
