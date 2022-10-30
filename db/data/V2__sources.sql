@@ -124,3 +124,11 @@ insert into source.lesson (code, lesson_code, source_code, label, section_number
 insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('LULI_KANJI_L03', 'L03', 'LULI_KANJI', 'JLPT N3', 3, null);
 insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('LULI_KANJI_L04', 'L04', 'LULI_KANJI', 'JLPT N2', 4, null);
 insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('LULI_KANJI_L05', 'L05', 'LULI_KANJI', 'JLPT N1', 5, null);
+
+--
+-- Satori Reader
+--
+
+insert into source.source (code, label) values ('SATORI', 'Satori Reader');
+
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('SATORI_AKIKO', 'AKIKO', 'SATORI', 'Akiko''s American Foreign Exchange', null, null);
