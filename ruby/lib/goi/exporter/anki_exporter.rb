@@ -121,6 +121,7 @@ module Goi
         kanji_sp = linkage.kanji_spelling&.value
         pref_sp = linkage.preferred_spelling.value
         # Make Anki card only if it differs from the preferred spelling.
+        #STDERR.puts("ALT SPELLING FOR #{pref_sp}: #{kanji_sp}") if (kanji_sp != pref_sp) && !kanji_sp.nil?
         kanji_sp != pref_sp ? kanji_sp : nil
       end
 

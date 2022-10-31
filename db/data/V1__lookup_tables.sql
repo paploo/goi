@@ -26,6 +26,7 @@ INSERT INTO vocabulary.conjugation_kind (code, label, word_class_code) VALUES ('
 INSERT INTO vocabulary.conjugation_kind (code, label, word_class_code) VALUES ('SURU_VERB', 'Suru Verb', 'VERB');
 INSERT INTO vocabulary.conjugation_kind (code, label, word_class_code) VALUES ('IRREGULAR_ADJECTIVE', 'Irregular Adjective', 'ADJECTIVE');
 INSERT INTO vocabulary.conjugation_kind (code, label, word_class_code) VALUES ('I_ADJECTIVE', 'I-Adjective', 'ADJECTIVE');
+INSERT INTO vocabulary.conjugation_kind (code, label, word_class_code) VALUES ('YOI_ADJECTIVE', 'I-Adjective, yoi/ii Class', 'ADJECTIVE');
 INSERT INTO vocabulary.conjugation_kind (code, label, word_class_code) VALUES ('NA_ADJECTIVE', 'Na-Adjective', 'ADJECTIVE');
 
 ---
