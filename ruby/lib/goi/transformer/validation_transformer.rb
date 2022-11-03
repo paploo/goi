@@ -6,7 +6,9 @@ module Goi
         # Validation rules
         messages = [
           duplicate_ids(linkages:),
-          duplicate_preferred_spellings(linkages:)
+          duplicate_preferred_spellings(linkages:),
+          verbs_missing_conjugations(linkages:),
+          adjectives_missing_conjugations(linkages:)
         ].flatten
 
         # Report results
@@ -37,6 +39,27 @@ module Goi
         duplicates = find_duplicates(linkages.map { |ln| ln.preferred_spelling.value })
         message = "There are #{duplicates.length} duplicated preferred spellings: #{duplicates}"
         [message]
+      end
+
+      def verbs_missing_conjugations(linkages:)
+        empty_conjugations(linkages:, word_class_code: "VERB", label: "verbs")
+      end
+
+      def adjectives_missing_conjugations(linkages:)
+        empty_conjugations(linkages:, word_class_code: "ADJECTIVE", label: "adjectives")
+      end
+
+      def empty_conjugations(linkages:, word_class_code:, label:)
+        targets = linkages.filter { |ln| ln.vocabulary.word_class_code == word_class_code }
+        empty_targets = targets.filter { |ln| ln.conjugation_set.nil? }
+        empty_target_spellings =  empty_targets.map { |ln| ln.preferred_spelling.value }
+
+        if empty_targets.empty?
+          []
+        else
+          message = "#{empty_targets.length} of #{targets.length} #{label} have no conjugations: #{empty_target_spellings.inspect}"
+          [message]
+        end
       end
 
       def find_duplicates(array)
