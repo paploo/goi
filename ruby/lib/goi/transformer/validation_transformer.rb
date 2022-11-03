@@ -1,3 +1,5 @@
+require_relative '../core/validation_messages'
+
 module Goi
   module Transformer
     class ValidationTransformer < BaseTransformer
@@ -26,6 +28,18 @@ module Goi
         io.puts ">> VALIDATION REPORT"
         messages.each { |msg| io.puts(msg) }
         io.puts "<< END REPORT"
+
+        report = Goi::Core::ValidationReport.new(
+          title: "Foo",
+          messages: [
+            Goi::Core::ValidationMessage.warn("Warning!"),
+            Goi::Core::ValidationMessage.info("info"),
+            Goi::Core::ValidationReport.new(title: "Bar", messages: [Goi::Core::ValidationMessage.info("info 2")])
+          ]
+        )
+        STDERR.puts(report.formatted)
+
+        raise RuntimeError, "STOP!"
       end
 
       def duplicate_ids(linkages:)
