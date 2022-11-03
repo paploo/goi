@@ -226,7 +226,7 @@ bd0e8ffa-f7cd-5b27-8481-6ecb87512f6c,to get up,起きる,おきる,,verb,ichidan
 5800b221-4eb5-5331-8c6c-413e2d08c007,to do,する,する,,verb,suru verb,5,2022-07-24,224,GENKI3_L03,する,した,して,,,,,,,します,しました,,,,,,,,しない,しなかった,しなくて,,,,,,,しません,しませんでした,,,,,,,,verb suru-verb genki3-l03
 9e9dc42e-df1e-5ace-948a-9dce72caaceb,to study,勉強する,べんきょうする,,verb,suru verb,5,2022-07-24,225,GENKI3_L03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,verb suru-verb genki3-l03
 6e231f76-5724-5b3c-acfc-cdee6e2eb3a6,yes; umm,ええ,ええ,,expression,,5,2022-07-24,226,GENKI3_L03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l03
-349836a3-2523-5f85-a7c1-f85e49c73f27,good,いい,いい,,adjective,i adjective,5,2022-07-24,227,GENKI3_L03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l03
+349836a3-2523-5f85-a7c1-f85e49c73f27,good,いい,いい,,adjective,yoi adjective,5,2022-07-24,227,GENKI3_L03,いい,よかった,,,,,,,,,,,,,,,,,よくない,よくなかった,,,,,,,,,,,,,,,,,adjective yoi-adjective genki3-l03
 fc5427a3-a54b-5c04-8b36-a570b8e7a72b,early,早い,はやい,,adjective,i adjective,5,2022-07-24,228,GENKI3_L03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l03
 311f8bec-e54c-5317-8880-dfd3e39d23a7,not much,あまり,あまり,,adverb,,5,2022-07-24,229,GENKI3_L03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adverb genki3-l03
 1e68ea18-9d69-5761-a463-510eab20d1d3,not at all,全然,ぜんぜん,,adverb,,3,2022-07-24,230,GENKI3_L03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adverb genki3-l03
@@ -246,7 +246,7 @@ ecb81156-ea05-44c8-bea0-9e5c199c1c4b,"again, once more; also, too, as well",ま�
 82223749-3af6-4348-b0f0-a0addad0ddf2,bye; see you,じゃね,じゃあね／じゃね,,interjection,,,2022-08-08,244,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,interjection
 f64a8d64-a48c-5f1e-b7f0-e9e805646472,"congratulations, well done, best wishes",おめでとう,おめでとう,,interjection,,3,2022-08-08,245,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,interjection
 a8f00f2e-c5dc-58d6-8225-376fbd35544f,to persist; to do one's best; to keep at it,頑張る,がんばる,,verb,godan verb,,2022-08-12,246,,頑張る,頑張った,頑張って,,,,,,,頑張ります,頑張りました,,,,,,,,頑張らない,頑張らなかった,頑張らなくて,,,,,,,頑張りません,頑張りませんでした,,,,,,,,verb godan-verb
-dbecb5a9-82dd-5c17-ba84-c7887cf58ce8,like,好き,すき,,adjective,na adjective,5,2022-08-12,247,DUO_01_02 DUO_U01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective na-adjective duo-01-02 duo-u01
+dbecb5a9-82dd-5c17-ba84-c7887cf58ce8,like,好き,すき,,adjective,na adjective,5,2022-08-12,247,DUO_01_02 DUO_U01,好きな,好きだった,,,,,,,,,,,,,,,,,好きじゃない,好きじゃなかった,,,,,,,,,,,,,,,,,adjective na-adjective duo-01-02 duo-u01
 9723a3d5-9c7a-5674-a377-5d5c1220438d,thump-thump; to beat fast,ドキドキ,どきどき,,adverb,,2,2022-08-12,248,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adverb
 114b67a6-53f1-58a1-bacd-29661af2a808,spring,春,はる,,noun,,5,2022-08-12,249,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,season noun
 cd1adf28-7497-5c5f-ab0f-ecfaedc6e345,summer,夏,なつ,,noun,,5,2022-08-12,250,DUO_01_02 DUO_U01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,season noun duo-01-02 duo-u01
@@ -420,7 +420,7 @@ aeac8e75-ade1-55a0-b4d0-4203dc90df45,light music,軽音楽,けいおんがく,,n
 300bed58-ddab-5420-8396-3147573388c3,club; department (of company),部,ぶ,,noun,,1,2022-08-12,418,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 3e15a011-580f-46c7-a59c-b17b6cb530a4,stroll,散歩,さんぽ,,noun,,5,2022-10-06,419,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 e2a1e5ef-c9d8-5554-a912-e6014d2c0f35,small child; cute small version of someone,チビ,ちび,,noun,,,2022-08-13,420,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-2c0b911e-ac72-5c04-bfd3-ebcd9e988dee,cute,カワイイ,かわいい,可愛い,adjective,i adjective,5,2022-08-13,421,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective i-adjective
+2c0b911e-ac72-5c04-bfd3-ebcd9e988dee,cute,カワイイ,かわいい,可愛い,adjective,i adjective,5,2022-08-13,421,,かわいい,かわいかった,,,,,,,,,,,,,,,,,かわいくない,かわいくなかった,,,,,,,,,,,,,,,,,adjective i-adjective
 356f27dd-22ca-4e95-b637-6ee6c52855f2,counter for people,〜人,にん,,counter,,,2022-09-26,422,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter
 63328d5a-cff9-459a-bc29-b0ce33776a95,1 person; alone; single,一人,ひとり,,noun,,5,2022-09-26,423,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 2ef7fa68-00e9-438c-8a78-e8e1b10cd274,two people,二人,ふたり,,noun,,5,2022-09-26,424,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
@@ -452,30 +452,30 @@ a1bfcd70-a853-50b0-955b-32fe355c2700,homework,宿題,しゅくだい,,noun,,5,20
 dee18a86-fd39-54bc-9a77-ee24ba39c17c,test,テスト,てすと,,noun,,5,2022-09-07,450,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l05
 6d4b95c5-1f5a-50e0-aa8b-5558e8211486,birthday,誕生日,たんじょうび,,noun,,5,2022-09-07,451,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l05
 deb66e89-8251-5b46-9bb1-b1338aaa4e62,size L,Ｌサイズ,えるさいず,,noun,,1,2022-09-07,452,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l05
-3ea98874-cf05-5e92-b8f2-45751b667e83,new,新しい,あたらしい,,adjective,i adjective,5,2022-09-07,453,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
-9ab38a71-325c-5f1b-b0aa-d9c5ce43b888,old (thing); ancient,古い,ふるい,,adjective,i adjective,5,2022-09-07,454,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
-21d6fb85-2f85-5a8c-a29b-375f90b9803e,hot weather,暑い,あつい,,adjective,i adjective,5,2022-09-07,455,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
-dbeefce5-aaa6-5694-985d-6771413fa0fd,cold weather,寒い,さむい,,adjective,i adjective,,2022-09-07,456,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
-9a7ac507-ea08-5187-ad27-04615036db05,hot thing,熱い,あつい,,adjective,i adjective,5,2022-09-07,457,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
-36bbdf48-c6cf-502b-85a2-26bec94171c5,busy people/days,忙しい,いそがしい,,adjective,i adjective,5,2022-09-07,458,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
-9c26c29d-c047-519d-bd01-6eb035e74752,large,大きい,おおきい,,adjective,i adjective,5,2022-09-07,459,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
-bbdc1a0a-1d15-5484-89ac-e3594f2d0e70,small,小さい,ちいさい,,adjective,i adjective,5,2022-09-07,460,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
-14eb54bb-8d5f-50c2-b2e7-9b89a32a18f6,interesting; funny,面白い,おもしろい,,adjective,i adjective,5,2022-09-07,461,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
-2e46c8d1-bb5e-5c96-9e63-b1d4fc035da1,boring,つまらない,つまらない,,adjective,i adjective,5,2022-09-07,462,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
-ce5f2a5f-821f-5a5f-b5e5-6b59658ee781,easy (problem),やさしい,やさしい,易しい,adjective,i adjective,5,2022-09-07,463,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
-f0506ed6-e8ae-5d80-90bc-d527638693f8,kind (person),優しい,やさしい,,adjective,i adjective,4,2022-09-07,464,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective i-adjective
-835597f8-7be1-561d-8ef8-9c73316e9b49,difficult,難しい,むずかしい,,adjective,i adjective,5,2022-09-07,465,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
-46305ec7-a809-547e-bb67-8533f9059b26,good-looking,かっこいい,かっこいい,格好いい,adjective,i adjective,,2022-09-07,466,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
-b28e9f01-a176-5cfa-b00b-e1fd1552f02d,frightening,怖い,こわい,,adjective,i adjective,4,2022-09-07,467,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
-03824733-2e97-5d1e-8705-2520abf86985,fun,楽しい,たのしい,,adjective,i adjective,5,2022-09-07,468,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
-a1c2f5e9-df18-5d9f-83db-7d30491b502d,inexpensive; cheap (thing),安い,やすい,,adjective,i adjective,5,2022-09-07,469,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
-cad48907-4908-5de4-8ee7-0c78c98ab755,disgusted with; to dislike,嫌い,きらい,,adjective,na adjective,5,2022-09-07,470,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective na-adjective genki3-l05
+3ea98874-cf05-5e92-b8f2-45751b667e83,new,新しい,あたらしい,,adjective,i adjective,5,2022-09-07,453,GENKI3_L05,新しい,新しかった,,,,,,,,,,,,,,,,,新しくない,新しくなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
+9ab38a71-325c-5f1b-b0aa-d9c5ce43b888,old (thing); ancient,古い,ふるい,,adjective,i adjective,5,2022-09-07,454,GENKI3_L05,古い,古かった,,,,,,,,,,,,,,,,,古くない,古くなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
+21d6fb85-2f85-5a8c-a29b-375f90b9803e,hot weather,暑い,あつい,,adjective,i adjective,5,2022-09-07,455,GENKI3_L05,暑い,暑かった,,,,,,,,,,,,,,,,,暑くない,暑くなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
+dbeefce5-aaa6-5694-985d-6771413fa0fd,cold weather,寒い,さむい,,adjective,i adjective,5,2022-09-07,456,GENKI3_L05,寒い,寒かった,,,,,,,,,,,,,,,,,寒くない,寒くなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
+9a7ac507-ea08-5187-ad27-04615036db05,hot thing,熱い,あつい,,adjective,i adjective,5,2022-09-07,457,GENKI3_L05,熱い,熱かった,,,,,,,,,,,,,,,,,熱くない,熱くなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
+36bbdf48-c6cf-502b-85a2-26bec94171c5,busy people/days,忙しい,いそがしい,,adjective,i adjective,5,2022-09-07,458,GENKI3_L05,忙しい,忙しかった,,,,,,,,,,,,,,,,,忙しくない,忙しくなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
+9c26c29d-c047-519d-bd01-6eb035e74752,large,大きい,おおきい,,adjective,i adjective,5,2022-09-07,459,GENKI3_L05,大きい,大きかった,,,,,,,,,,,,,,,,,大きくない,大きくなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
+bbdc1a0a-1d15-5484-89ac-e3594f2d0e70,small,小さい,ちいさい,,adjective,i adjective,5,2022-09-07,460,GENKI3_L05,小さい,小さかった,,,,,,,,,,,,,,,,,小さくない,小さくなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
+14eb54bb-8d5f-50c2-b2e7-9b89a32a18f6,interesting; funny,面白い,おもしろい,,adjective,i adjective,5,2022-09-07,461,GENKI3_L05,面白い,面白かった,,,,,,,,,,,,,,,,,面白くない,面白くなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
+2e46c8d1-bb5e-5c96-9e63-b1d4fc035da1,boring,つまらない,つまらない,,adjective,i adjective,5,2022-09-07,462,GENKI3_L05,つまらない,つまらなかった,,,,,,,,,,,,,,,,,つまらなくない,つまらなくなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
+ce5f2a5f-821f-5a5f-b5e5-6b59658ee781,easy (problem),やさしい,やさしい,易しい,adjective,i adjective,5,2022-09-07,463,GENKI3_L05,やさしい,やさしかった,,,,,,,,,,,,,,,,,やさしくない,やさしくなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
+f0506ed6-e8ae-5d80-90bc-d527638693f8,kind (person),優しい,やさしい,,adjective,i adjective,4,2022-09-07,464,,優しい,優しかった,,,,,,,,,,,,,,,,,優しくない,優しくなかった,,,,,,,,,,,,,,,,,adjective i-adjective
+835597f8-7be1-561d-8ef8-9c73316e9b49,difficult,難しい,むずかしい,,adjective,i adjective,5,2022-09-07,465,GENKI3_L05,難しい,難しかった,,,,,,,,,,,,,,,,,難しくない,難しくなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
+46305ec7-a809-547e-bb67-8533f9059b26,good-looking,かっこいい,かっこいい,格好いい,adjective,yoi adjective,,2022-09-07,466,GENKI3_L05,かっこいい,かっこよかった,,,,,,,,,,,,,,,,,かっこよくない,かっこよくなかった,,,,,,,,,,,,,,,,,adjective yoi-adjective genki3-l05
+b28e9f01-a176-5cfa-b00b-e1fd1552f02d,frightening,怖い,こわい,,adjective,i adjective,4,2022-09-07,467,GENKI3_L05,怖い,怖かった,,,,,,,,,,,,,,,,,怖くない,怖くなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
+03824733-2e97-5d1e-8705-2520abf86985,fun,楽しい,たのしい,,adjective,i adjective,5,2022-09-07,468,GENKI3_L05,楽しい,楽しかった,,,,,,,,,,,,,,,,,楽しくない,楽しくなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
+a1c2f5e9-df18-5d9f-83db-7d30491b502d,inexpensive; cheap (thing),安い,やすい,,adjective,i adjective,5,2022-09-07,469,GENKI3_L05,安い,安かった,,,,,,,,,,,,,,,,,安くない,安くなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
+cad48907-4908-5de4-8ee7-0c78c98ab755,disgusted with; to dislike,嫌い,きらい,,adjective,na adjective,5,2022-09-07,470,GENKI3_L05,嫌いな,嫌いだった,,,,,,,,,,,,,,,,,嫌いじゃない,嫌いじゃなかった,,,,,,,,,,,,,,,,,adjective na-adjective genki3-l05
 f12880cb-86c7-5720-8773-a1cdfbe838f7,very fond of; to love,大好き,だいすき,,adjective,na adjective,5,2022-09-07,471,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective na-adjective genki3-l05
 f610a74c-6229-5d19-b214-c183c4a1d92b,to hate,大嫌い,だいきらい,,adjective,na adjective,,2022-09-07,472,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective na-adjective genki3-l05
-8218a74b-27ab-5310-80f8-8cca81609f73,beautiful; clean,きれい,きれい,,adjective,na adjective,5,2022-09-07,473,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective na-adjective genki3-l05
-489610bc-c907-5de6-a0e7-acbeba740f3d,quiet,静か,しずか,,adjective,na adjective,5,2022-09-07,474,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective na-adjective genki3-l05
-96e3bcd4-e542-5d84-8576-c33f94149bc8,lively,にぎやか,にぎやか,,adjective,na adjective,5,2022-09-07,475,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective na-adjective genki3-l05
-585dccbc-01ad-5691-95c0-a5d402db619d,not busy; free (time),暇,ひま,,adjective,na adjective,5,2022-09-07,476,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective na-adjective genki3-l05
+8218a74b-27ab-5310-80f8-8cca81609f73,beautiful; clean,きれい,きれい,,adjective,na adjective,5,2022-09-07,473,GENKI3_L05,きれいな,きれいだった,,,,,,,,,,,,,,,,,きれいじゃない,きれいじゃなかった,,,,,,,,,,,,,,,,,adjective na-adjective genki3-l05
+489610bc-c907-5de6-a0e7-acbeba740f3d,quiet,静か,しずか,,adjective,na adjective,5,2022-09-07,474,GENKI3_L05,静かな,静かだった,,,,,,,,,,,,,,,,,静かじゃない,静かじゃなかった,,,,,,,,,,,,,,,,,adjective na-adjective genki3-l05
+96e3bcd4-e542-5d84-8576-c33f94149bc8,lively,賑やか,にぎやか,,adjective,na adjective,5,2022-09-07,475,GENKI3_L05,賑やかな,賑やかだった,,,,,,,,,,,,,,,,,賑やかじゃない,賑やかじゃなかった,,,,,,,,,,,,,,,,,adjective na-adjective genki3-l05
+585dccbc-01ad-5691-95c0-a5d402db619d,not busy; free (time),暇,ひま,,adjective,na adjective,5,2022-09-07,476,GENKI3_L05,暇な,暇だった,,,,,,,,,,,,,,,,,暇じゃない,暇じゃなかった,,,,,,,,,,,,,,,,,adjective na-adjective genki3-l05
 4ae77db0-2b66-543a-8d78-8e51c4cb0676,to swim,泳ぐ,およぐ,,verb,godan verb,5,2022-09-07,477,GENKI3_L05,泳ぐ,泳いだ,泳いで,,,,,,,泳ぎます,泳ぎました,,,,,,,,泳がない,泳がなかった,泳がなくて,,,,,,,泳ぎません,泳ぎませんでした,,,,,,,,verb godan-verb genki3-l05
 2bcd828d-02d9-5834-8e4e-2a9fdecb800f,to ride; to board,乗る,のる,,verb,godan verb,5,2022-09-07,478,GENKI3_L05,乗る,乗った,乗って,,,,,,,乗ります,乗りました,,,,,,,,乗らない,乗らなくった,乗らなくて,,,,,,,乗りません,乗りませんでした,,,,,,,,verb godan-verb genki3-l05
 43056e9d-b789-5d3b-ae22-ccd5feca4e1a,to do; to perform; to play (a game),やる,やる,,verb,godan verb,1,2022-09-07,479,GENKI3_L05,やる,やった,やって,,,,,,,やります,やりました,,,,,,,,やらない,やらなかった,やらなくて,,,,,,,やりません,やりませんでした,,,,,,,,verb godan-verb genki3-l05
@@ -525,8 +525,11 @@ cef0ee5e-ff0d-41de-a8e1-795266b6e565,together,一緒,いっしょ,,adverb,,5,202
 40181bee-9f80-4458-b950-5a03ad5c696b,common carp,鯉,こい,,noun,,,2022-10-30,523,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,animal noun
 c45eae5d-011d-4200-9dd7-be3ec1c2bf51,romantic love,恋,こい,,noun,,3,2022-10-30,524,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 640bcc29-e162-4c4d-ad37-fb7e38525f00,boyfriend/girlfriend; lover,恋人,こいびと,,noun,,3,2022-10-30,525,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-5fa42b1b-fb16-434f-8764-b1106aacfe13,love,愛,あい,,noun,,3,2022-10-30,526,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-72a0ccac-caea-43df-9099-076bae09c6e4,to love,愛する,あいする,,verb,suru verb,3,2022-10-30,527,,愛する,愛した,愛して,,,,,,,愛します,愛しました,,,,,,,,愛さない,愛しなかった,愛しなくて,,,,,,,愛しません,愛しませんでした,,,,,,,,verb suru-verb
-9654de24-9624-4834-aec3-4d26a88c3c79,thorn,刺,とげ,,noun,,1,2022-10-30,528,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-c108107d-4842-4ff4-ac72-a221ce7c2f91,thorny shrub; wild rose,茨,いばら,,noun,,,2022-10-30,529,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-b08173f1-4500-4da6-81ee-cd7421bb3686,princess,姫,ひめ,,noun,,,2022-10-30,530,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+37b16f64-6ecc-4167-a55d-eab2255d1235,first love; puppy love,初恋,はつこい,,noun,,,2022-11-02,526,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+5fa42b1b-fb16-434f-8764-b1106aacfe13,love,愛,あい,,noun,,3,2022-10-30,527,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+72a0ccac-caea-43df-9099-076bae09c6e4,to love,愛する,あいする,,verb,suru verb,3,2022-10-30,528,,愛する,愛した,愛して,,,,,,,愛します,愛しました,,,,,,,,愛さない,愛しなかった,愛しなくて,,,,,,,愛しません,愛しませんでした,,,,,,,,verb suru-verb
+9654de24-9624-4834-aec3-4d26a88c3c79,thorn,刺,とげ,,noun,,1,2022-10-30,529,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+c108107d-4842-4ff4-ac72-a221ce7c2f91,thorny shrub; wild rose,茨,いばら,,noun,,,2022-10-30,530,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+b08173f1-4500-4da6-81ee-cd7421bb3686,princess,姫,ひめ,,noun,,,2022-10-30,531,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+bd75e0c9-27e6-4f6f-803f-bb0ee9236290,good; excellent; fine; agreeable,良い,よい,,adjective,i adjective,5,2022-10-30,532,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective i-adjective
+e00b722d-5ec2-43b3-b972-157994823148,want to do; would like to...,〜たい,たい,,suffix,,,2022-10-31,533,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,suffix
