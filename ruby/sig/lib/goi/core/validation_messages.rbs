@@ -1,0 +1,61 @@
+module Goi
+  module Core
+    module ValidationReportable
+      type level = Symbol
+
+      LEVELS: [level]
+
+      LEVEL_ICONS: Hash[level, String]
+
+      def count: (level: level level) -> 0
+
+      def summary: () -> Hash[level, Integer]
+
+      def formatted_summary: () -> String
+
+      def formatted: (?::Integer indent_level) -> String
+
+      def to_s: () -> String
+
+      private
+
+      def indent: (String string, indent_level: Integer indent_level) -> String
+    end
+
+    class ValidationMessage
+      include ValidationReportable
+
+      def self.error: (String message) -> ValidationMessage
+
+      def self.warn: (String message) -> ValidationMessage
+
+      def self.info: (String message) -> ValidationMessage
+
+      def self.debug: (String message) -> ValidationMessage
+
+      def initialize: (level: ValidationReportable::level level, message: String message) -> void
+
+      attr_reader level: ValidationReportable::level
+
+      attr_reader message: String
+
+      def count: (level: ValidationReportable::level level) -> Integer
+
+      def formatted: (?::Integer indent_level) -> String
+    end
+
+    class ValidationReport
+      include ValidationReportable
+
+      def initialize: (title: String title, messages: [ValidationReportable] messages) -> void
+
+      attr_reader title: String
+
+      attr_reader messages: [ValidationReportable]
+
+      def count: (level: ValidationReportable::level level) -> Integer
+
+      def formatted: (?::Integer indent_level) -> String
+    end
+  end
+end
