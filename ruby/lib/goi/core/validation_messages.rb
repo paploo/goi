@@ -8,7 +8,15 @@ module Goi
 
       def count(level:) = 0
 
-      def summary = LEVELS.map { |lvl| [lvl, count(level: lvl)] }.to_h
+      def empty? = LEVELS.map { |level| count(level:) }.sum.zero?
+
+      def summary = LEVELS.map { |level| [level, count(level:)] }.to_h
+
+      def formatted_summary
+        ValidationMessage::LEVELS.map do |level|
+          "#{count(level:)} #{ValidationMessage::LEVEL_ICONS[level]}"
+        end.join("  ")
+      end
 
       def formatted(indent_level = 0) = indent(formatted_summary, indent_level:)
 
@@ -17,13 +25,7 @@ module Goi
       private
 
       def indent(string, indent_level:)
-        "\t" * indent_level + string
-      end
-
-      def formatted_summary
-        ValidationMessage::LEVELS.map do |level|
-          "#{count(level:)} #{ValidationMessage::LEVEL_ICONS[level]}"
-        end.join("\t")
+        '    ' * indent_level + string
       end
 
     end
@@ -74,7 +76,7 @@ module Goi
       end
 
       def formatted(indent_level = 0)
-        header = indent("#{title}\t(#{formatted_summary})", indent_level:)
+        header = indent(title, indent_level:)
         lines = [header] + messages.map { |m| m.formatted(indent_level+1) }
         lines.join("\n")
       end

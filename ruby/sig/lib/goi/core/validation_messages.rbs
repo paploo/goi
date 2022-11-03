@@ -11,6 +11,8 @@ module Goi
 
       def summary: () -> Hash[level, Integer]
 
+      def formatted_summary: () -> String
+
       def formatted: (?::Integer indent_level) -> String
 
       def to_s: () -> String
@@ -18,8 +20,6 @@ module Goi
       private
 
       def indent: (String string, indent_level: Integer indent_level) -> String
-
-      def formatted_summary: () -> String
     end
 
     class ValidationMessage

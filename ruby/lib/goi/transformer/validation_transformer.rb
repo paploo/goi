@@ -6,15 +6,22 @@ module Goi
 
       def transform(linkages:)
         # Validation rules
-        messages = [
-          duplicate_ids(linkages:),
-          duplicate_preferred_spellings(linkages:),
-          verbs_missing_conjugations(linkages:),
-          adjectives_missing_conjugations(linkages:)
-        ].flatten
+        report = Goi::Core::ValidationReport.new(
+          title: 'Validation Report',
+          messages: [
+            duplicate_ids(linkages:),
+            duplicate_preferred_spellings(linkages:),
+            missing_conjugations(linkages:)
+          ].compact
+        )
 
         # Report results
-        report_results(messages:) unless messages.empty?
+        io.puts(report.formatted)
+        io.puts("(#{report.formatted_summary})")
+
+        # Halt if we have an error!
+        error_count = report.count(level: :error)
+        raise RuntimeError, "Validation step failed with #{error_count} errors" if error_count.positive?
 
         # Return linkages unchanged
         linkages
@@ -24,55 +31,48 @@ module Goi
 
       def io = STDERR
 
-      def report_results(messages:)
-        io.puts ">> VALIDATION REPORT"
-        messages.each { |msg| io.puts(msg) }
-        io.puts "<< END REPORT"
-
-        report = Goi::Core::ValidationReport.new(
-          title: "Foo",
-          messages: [
-            Goi::Core::ValidationMessage.warn("Warning!"),
-            Goi::Core::ValidationMessage.info("info"),
-            Goi::Core::ValidationReport.new(title: "Bar", messages: [Goi::Core::ValidationMessage.info("info 2")])
-          ]
-        )
-        STDERR.puts(report.formatted)
-
-        raise RuntimeError, "STOP!"
-      end
-
       def duplicate_ids(linkages:)
         conflicts = find_duplicates(linkages.map { |ln| ln.vocabulary.id })
         message = "There are #{conflicts.length} conflicting IDs: #{conflicts}"
-        raise RuntimeError, message unless conflicts.empty?
-        [message]
+        level = conflicts.empty? ? :info : :error
+
+        Goi::Core::ValidationReport.new(
+          title: "Duplicate IDs",
+          messages: [Goi::Core::ValidationMessage.new(level:, message:)]
+        )
       end
 
       def duplicate_preferred_spellings(linkages:)
         duplicates = find_duplicates(linkages.map { |ln| ln.preferred_spelling.value })
         message = "There are #{duplicates.length} duplicated preferred spellings: #{duplicates}"
-        [message]
+        level = duplicates.empty? ? :info : :warn
+
+        Goi::Core::ValidationReport.new(
+          title: 'Duplicate Spellings',
+          messages: [Goi::Core::ValidationMessage.new(level:, message:)]
+        )
       end
 
-      def verbs_missing_conjugations(linkages:)
-        empty_conjugations(linkages:, word_class_code: "VERB", label: "verbs")
+      def missing_conjugations(linkages:)
+        Goi::Core::ValidationReport.new(
+          title: 'Missing Conjugations',
+          messages: [
+            empty_conjugation_message(linkages:, word_class_code: 'VERB', label: 'verbs'),
+            empty_conjugation_message(linkages:, word_class_code: 'ADJECTIVE', label: 'adjectives')
+          ]
+        )
       end
 
-      def adjectives_missing_conjugations(linkages:)
-        empty_conjugations(linkages:, word_class_code: "ADJECTIVE", label: "adjectives")
-      end
-
-      def empty_conjugations(linkages:, word_class_code:, label:)
+      def empty_conjugation_message(linkages:, word_class_code:, label:)
         targets = linkages.filter { |ln| ln.vocabulary.word_class_code == word_class_code }
         empty_targets = targets.filter { |ln| ln.conjugation_set.nil? }
         empty_target_spellings =  empty_targets.map { |ln| ln.preferred_spelling.value }
 
+        message = "#{empty_targets.length} of #{targets.length} #{label} have no conjugations: #{empty_target_spellings.inspect}"
         if empty_targets.empty?
-          []
+          Goi::Core::ValidationMessage.info(message)
         else
-          message = "#{empty_targets.length} of #{targets.length} #{label} have no conjugations: #{empty_target_spellings.inspect}"
-          [message]
+          Goi::Core::ValidationMessage.warn(message)
         end
       end
 
