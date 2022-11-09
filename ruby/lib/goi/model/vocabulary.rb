@@ -247,28 +247,50 @@ module Goi
 
       class Conjugation
 
-        CHARGE_CODES = ['POSITIVE', 'NEGATIVE'].freeze
+        class Inflection
 
-        POLITENESS_CODES = ['PLAIN', 'POLITE'].freeze
+          CHARGE_CODES = ['POSITIVE', 'NEGATIVE'].freeze
 
-        FORM_CODES = ['PRESENT',
-                 'PAST',
-                 'TE',
-                 'CONDITIONAL_EBA',
-                 'CONDITIONAL_TARA',
-                 'POTENTIAL',
-                 'PASSIVE',
-                 'CAUSATIVE',
-                 'IMPERATIVE'].freeze
+          POLITENESS_CODES = ['PLAIN', 'POLITE'].freeze
 
-        def self.map_dims(&block)
-          CHARGE_CODES.flat_map do |charge_code|
-            POLITENESS_CODES.flat_map do |politeness_code|
-              FORM_CODES.map do |form_code|
-                block.call(charge_code, politeness_code, form_code)
+          FORM_CODES = [
+            'PRESENT',
+            'PAST',
+            'TE',
+            'CONDITIONAL_EBA',
+            'CONDITIONAL_TARA',
+            'POTENTIAL',
+            'PASSIVE',
+            'CAUSATIVE',
+            'IMPERATIVE'
+          ].freeze
+
+          def self.all
+            CHARGE_CODES.flat_map do |charge_code|
+              POLITENESS_CODES.flat_map do |politeness_code|
+                FORM_CODES.map do |form_code|
+                  new(charge_code:, politeness_code:, form_code:)
+                end
               end
             end
           end
+
+          def initialize(charge_code:, politeness_code:, form_code:)
+            @charge_code = charge_code
+            @politeness_code = politeness_code
+            @form_code = form_code
+          end
+
+          attr_reader :charge_code
+          attr_reader :politeness_code
+          attr_reader :form_code
+
+          def to_a = [charge_code, politeness_code, form_code]
+
+          def to_h = {charge_code: charge_code, politeness_code: politeness_code, form_code: form_code}
+
+          def code = to_a.join('_').downcase
+
         end
 
         UUID5_NAMESPACE = UUIDTools::UUID.parse('a55893fe-f4fd-4e84-a9f0-6a6d6495b53b').to_s

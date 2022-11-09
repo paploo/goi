@@ -38,7 +38,7 @@ class ConjugationJoinGenApplication
 
     def write(io)
       io.write(with)
-      io.write(select)
+      io.write(project)
       io.write(joins)
       io.write(';')
     end
@@ -47,9 +47,9 @@ class ConjugationJoinGenApplication
 
     attr_reader :with
 
-    def select
-      projections = ConjugationType.all.map do |tpe|
-        "#{tpe.type_name}.value as #{tpe.type_name}"
+    def project
+      projections = Goi::Model::Vocabulary::Conjugation::Inflection.all.map do |infl|
+        "#{infl.code}.value as #{infl.code}"
       end
 
       separator = ",\n       "
@@ -59,52 +59,33 @@ class ConjugationJoinGenApplication
     end
 
     def joins
-      table_types, join_types = ConjugationType.all.partition { |tpe| tpe.type_name == base_table }
+      table_types, join_types = Goi::Model::Vocabulary::Conjugation::Inflection.all.partition { |infl| infl.code == base_table }
 
       separator = "\n    "
 
       "from conjugations as #{base_table}#{separator}" +
-        join_types.map { |tpe| join_clause(tpe) }.join(separator) + "\n" +
+        join_types.map { |infl| join_clause(infl) }.join(separator) + "\n" +
         "where #{table_types.first.sql_filter}"
     end
 
     def base_table = "positive_plain_present"
 
-    def join_clause(tpe)
-      "left join conjugations as #{tpe.type_name} on #{tpe.type_name}.conjugation_set_id = #{base_table}.conjugation_set_id and #{tpe.sql_filter}"
+    def join_clause(infl)
+      "left join conjugations as #{infl.code} on #{infl.code}.conjugation_set_id = #{base_table}.conjugation_set_id and #{infl.sql_filter}"
     end
 
   end
 
-  class ConjugationType
+end
 
-    def self.all
-      Goi::Model::Vocabulary::Conjugation.map_dims do |charge_code, politeness_code, form_code|
-        self.new(charge_code:, politeness_code:, form_code:)
-      end
+# Extension to add sql_filter
+class Goi::Model::Vocabulary::Conjugation::Inflection
+
+  def sql_filter(table_name = type_name)
+    filters = to_h.map do |col, code|
+      "#{table_name}.#{col} = '#{code}'"
     end
-
-    def initialize(charge_code:, politeness_code:, form_code:)
-      @charge_code = charge_code
-      @politeness_code = politeness_code
-      @form_code = form_code
-    end
-
-    attr_reader :charge_code, :politeness_code, :form_code
-
-    def to_a = [charge_code, politeness_code, form_code]
-
-    def to_h = {charge_code: charge_code, politeness_code: politeness_code, form_code: form_code}
-
-    def type_name = to_a.join('_').downcase
-
-    def sql_filter(table_name = type_name)
-      filters = to_h.map do |col, code|
-        "#{table_name}.#{col} = '#{code}'"
-      end
-      filters.join(' and ')
-    end
-
+    filters.join(' and ')
   end
 
 end

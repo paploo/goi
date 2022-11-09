@@ -6,14 +6,7 @@ module Goi
 
       def transform(linkages:)
         # Validation rules
-        report = Goi::Core::ValidationReport.new(
-          title: 'Validation Report',
-          messages: [
-            duplicate_ids(linkages:),
-            duplicate_preferred_spellings(linkages:),
-            missing_conjugations(linkages:)
-          ].compact
-        )
+        report = report(linkages:)
 
         # Report results
         io.puts(report.formatted)
@@ -23,6 +16,8 @@ module Goi
         error_count = report.count(level: :error)
         raise RuntimeError, "Validation step failed with #{error_count} errors" if error_count.positive?
 
+        #raise RuntimeError, "DRY RUN HALT"
+
         # Return linkages unchanged
         linkages
       end
@@ -30,6 +25,18 @@ module Goi
       private
 
       def io = STDERR
+
+      def report(linkages:)
+        Goi::Core::ValidationReport.new(
+          title: 'Validation Report',
+          messages: [
+            duplicate_ids(linkages:),
+            duplicate_preferred_spellings(linkages:),
+            missing_conjugations(linkages:),
+            incorrect_conjugations(linkages:)
+          ].compact.filter {|r| !r.empty? }
+        )
+      end
 
       def duplicate_ids(linkages:)
         conflicts = find_duplicates(linkages.map { |ln| ln.vocabulary.id })
@@ -63,6 +70,15 @@ module Goi
         )
       end
 
+      def incorrect_conjugations(linkages:)
+        Goi::Core::ValidationReport.new(
+          title: 'Incorrect Conjugations',
+          messages: [
+            # TODO
+          ]
+        )
+      end
+
       def empty_conjugation_message(linkages:, word_class_code:, label:)
         targets = linkages.filter { |ln| ln.vocabulary.word_class_code == word_class_code }
         empty_targets = targets.filter { |ln| ln.conjugation_set.nil? }
@@ -86,5 +102,6 @@ module Goi
       end
 
     end
+
   end
 end
