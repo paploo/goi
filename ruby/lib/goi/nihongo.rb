@@ -1,2 +1,2 @@
 require_relative 'nihongo/string_classification'
-require_relative 'nihongo/verb_conjugator'
+require_relative 'nihongo/conjugator'

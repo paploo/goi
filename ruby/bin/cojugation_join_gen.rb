@@ -49,7 +49,7 @@ class ConjugationJoinGenApplication
 
     def project
       projections = Goi::Model::Vocabulary::Conjugation::Inflection.all.map do |infl|
-        "#{infl.code}.value as #{infl.code}"
+        "#{infl.code.downcase}.value as #{infl.code.downcase}"
       end
 
       separator = ",\n       "
@@ -59,7 +59,7 @@ class ConjugationJoinGenApplication
     end
 
     def joins
-      table_types, join_types = Goi::Model::Vocabulary::Conjugation::Inflection.all.partition { |infl| infl.code == base_table }
+      table_types, join_types = Goi::Model::Vocabulary::Conjugation::Inflection.all.partition { |infl| infl.code.downcase == base_table }
 
       separator = "\n    "
 
@@ -71,7 +71,7 @@ class ConjugationJoinGenApplication
     def base_table = "positive_plain_present"
 
     def join_clause(infl)
-      "left join conjugations as #{infl.code} on #{infl.code}.conjugation_set_id = #{base_table}.conjugation_set_id and #{infl.sql_filter}"
+      "left join conjugations as #{infl.code.downcase} on #{infl.code.downcase}.conjugation_set_id = #{base_table}.conjugation_set_id and #{infl.sql_filter}"
     end
 
   end

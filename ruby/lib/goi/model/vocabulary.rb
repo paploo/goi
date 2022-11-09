@@ -289,7 +289,20 @@ module Goi
 
           def to_h = {charge_code: charge_code, politeness_code: politeness_code, form_code: form_code}
 
-          def code = to_a.join('_').downcase
+          def code = to_a.join('_')
+
+          def to_s = to_a.join('-')
+
+          def ==(other)
+            if other.is_a?(self.class)
+              other.to_a == to_a
+            else
+              false
+            end
+          end
+
+          def eql?(other) = self == other
+          def hash = to_a.hash
 
         end
 
@@ -328,6 +341,8 @@ module Goi
         attr_reader :form_code
         attr_reader :sort_rank
         attr_reader :value
+
+        def inflection = Inflection.new(charge_code:, politeness_code:, form_code:)
 
         def copy(**props)
           args = self.class.attributes.map { |p| [p, props.fetch(p, send(p))] }.to_h

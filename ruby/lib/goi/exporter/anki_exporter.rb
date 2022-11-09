@@ -76,7 +76,9 @@ module Goi
         'lessons'
       ].freeze
 
-      CONJUGATION_HEADERS = Goi::Model::Vocabulary::Conjugation::Inflection.all.map(&:code)
+      CONJUGATION_HEADERS = Goi::Model::Vocabulary::Conjugation::Inflection.all.map do |infl|
+        infl.code.downcase
+      end
 
       private
 

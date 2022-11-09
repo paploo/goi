@@ -16,7 +16,7 @@ module Goi
         error_count = report.count(level: :error)
         raise RuntimeError, "Validation step failed with #{error_count} errors" if error_count.positive?
 
-        #raise RuntimeError, "DRY RUN HALT"
+        raise RuntimeError, "DRY RUN HALT"
 
         # Return linkages unchanged
         linkages
@@ -33,7 +33,7 @@ module Goi
             duplicate_ids(linkages:),
             duplicate_preferred_spellings(linkages:),
             missing_conjugations(linkages:),
-            incorrect_conjugations(linkages:)
+            incorrect_conjugation_report(linkages:)
           ].compact.filter {|r| !r.empty? }
         )
       end
@@ -70,12 +70,41 @@ module Goi
         )
       end
 
-      def incorrect_conjugations(linkages:)
+      def incorrect_conjugation_report(linkages:)
+        reports = linkages.map do |linkage|
+          incorrect_conjugation_word_report(linkage:)
+        end.compact
+
         Goi::Core::ValidationReport.new(
           title: 'Incorrect Conjugations',
-          messages: [
-            # TODO
-          ]
+          messages: reports
+        )
+      end
+
+      def incorrect_conjugation_word_report(linkage:)
+        conjugations = linkage.conjugation_set&.conjugations || []
+
+        messages = conjugations.flat_map do |conjugation|
+          expected = Goi::Nihongo::Conjugator.conjugate(
+            dictionary_spelling: linkage.preferred_spelling.value,
+            conjugation_kind_code: linkage.vocabulary.conjugation_kind_code,
+            inflection: conjugation.inflection
+          )
+
+          actual = conjugation.value
+
+          if !expected.nil? && actual != expected
+            [Goi::Core::ValidationMessage.warn("Expected #{expected} but got #{actual} for #{linkage.vocabulary.conjugation_kind_code} inflection #{conjugation.inflection}")]
+          else
+            []
+          end
+        end
+
+        return nil if messages.empty?
+
+        Goi::Core::ValidationReport.new(
+          title: "#{linkage.preferred_spelling.value} Conjugations",
+          messages:
         )
       end
 

@@ -172,6 +172,8 @@ module Goi
 
         attr_reader value: String
 
+        def inflection: () -> Inflection
+
         def copy: (**untyped) -> Conjugation
 
       end
