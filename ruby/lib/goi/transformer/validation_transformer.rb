@@ -85,16 +85,24 @@ module Goi
         conjugations = linkage.conjugation_set&.conjugations || []
 
         messages = conjugations.flat_map do |conjugation|
-          expected = Goi::Nihongo::Conjugator.conjugate(
-            dictionary_spelling: linkage.preferred_spelling.value,
-            conjugation_kind_code: linkage.vocabulary.conjugation_kind_code,
-            inflection: conjugation.inflection
-          )
 
           actual = conjugation.value
 
+          expected, pattern_error = nil
+          begin
+            expected = Goi::Nihongo::Conjugator.conjugate(
+              dictionary_spelling: linkage.preferred_spelling.value,
+              conjugation_kind_code: linkage.vocabulary.conjugation_kind_code,
+              inflection: conjugation.inflection
+            )
+          rescue Goi::Nihongo::Conjugator::ConjugationPatternError => cpe
+            pattern_error = cpe
+          end
+
           if !expected.nil? && actual != expected
             [Goi::Core::ValidationMessage.warn("Expected #{expected} but got #{actual} for #{linkage.vocabulary.conjugation_kind_code} inflection #{conjugation.inflection}")]
+          elsif !pattern_error.nil?
+            [Goi::Core::ValidationMessage.error("Expected #{linkage.preferred_spelling.value} to match a conjugation pattern for #{linkage.vocabulary.conjugation_kind_code} inflection #{conjugation.inflection}, producing #{actual}")]
           else
             []
           end
