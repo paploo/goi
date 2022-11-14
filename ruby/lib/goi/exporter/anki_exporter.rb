@@ -76,9 +76,9 @@ module Goi
         'lessons'
       ].freeze
 
-      CONJUGATION_HEADERS = Goi::Model::Vocabulary::Conjugation.map_dims do |charge_code, politeness_code, form_code|
-        [charge_code, politeness_code, form_code].join('_').downcase
-      end.freeze
+      CONJUGATION_HEADERS = Goi::Model::Vocabulary::Conjugation::Inflection.all.map do |infl|
+        infl.code.downcase
+      end
 
       private
 
@@ -104,8 +104,8 @@ module Goi
           [conj.charge_code, conj.politeness_code, conj.form_code]
         end
 
-        Goi::Model::Vocabulary::Conjugation.map_dims do |charge_code, politeness_code, form_code|
-          key = [charge_code, politeness_code, form_code]
+        Goi::Model::Vocabulary::Conjugation::Inflection.all.map do |infl|
+          key = infl.to_a
           conj_map[key]&.sort_by(&:sort_rank)&.first&.value
         end
       end

@@ -15,7 +15,7 @@ INSERT INTO vocabulary.word_class (code, label) VALUES ('EXPRESSION', 'Expressio
 INSERT INTO vocabulary.word_class (code, label) VALUES ('CONTRACTION', 'Contraction');
 INSERT INTO vocabulary.word_class (code, label) VALUES ('COUNTER', 'Counter');
 INSERT INTO vocabulary.word_class (code, label) VALUES ('SUFFIX', 'Suffix');
-INSERT INTO vocabulary.word_class (code, label) VALUES ('PRE_NOUN_ADJECTIVAL', 'Pre-Noun Adjectival')
+INSERT INTO vocabulary.word_class (code, label) VALUES ('PRE_NOUN_ADJECTIVAL', 'Pre-Noun Adjectival');
 
 ---
 --- CONJUGATION KIND
@@ -24,6 +24,7 @@ INSERT INTO vocabulary.conjugation_kind (code, label, word_class_code) VALUES ('
 INSERT INTO vocabulary.conjugation_kind (code, label, word_class_code) VALUES ('GODAN_VERB', 'Godan Verb / U-Verb', 'VERB');
 INSERT INTO vocabulary.conjugation_kind (code, label, word_class_code) VALUES ('ICHIDAN_VERB', 'Ichidan Verb / Ru-Verb', 'VERB');
 INSERT INTO vocabulary.conjugation_kind (code, label, word_class_code) VALUES ('SURU_VERB', 'Suru Verb', 'VERB');
+INSERT INTO vocabulary.conjugation_kind (code, label, word_class_code) VALUES ('KURU_VERB', 'Kuru Verb', 'VERB');
 INSERT INTO vocabulary.conjugation_kind (code, label, word_class_code) VALUES ('IRREGULAR_ADJECTIVE', 'Irregular Adjective', 'ADJECTIVE');
 INSERT INTO vocabulary.conjugation_kind (code, label, word_class_code) VALUES ('I_ADJECTIVE', 'I-Adjective', 'ADJECTIVE');
 INSERT INTO vocabulary.conjugation_kind (code, label, word_class_code) VALUES ('YOI_ADJECTIVE', 'I-Adjective, yoi/ii Class', 'ADJECTIVE');

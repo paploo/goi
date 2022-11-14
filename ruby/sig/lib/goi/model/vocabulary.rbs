@@ -128,15 +128,29 @@ module Goi
 
       class Conjugation
 
-        CHARGE_CODES: [String]
-
-        POLITENESS_CODES: [String]
-
-        FORM_CODES: [String]
-
         UUID5_NAMESPACE: String
 
-        def self.map_dims: [T] () { (charge_code: String, politeness_code: String, form_code: String) -> T } -> [T]
+        class Inflection
+
+          CHARGE_CODES: [String]
+
+          POLITENESS_CODES: [String]
+
+          FORM_CODES: [String]
+
+          def self.all: () -> [Inflection]
+
+          def initialize: (charge_code: String, politeness_code: String, form_code: String) -> void
+
+          attr_reader charge_code: String
+          attr_reader politeness_code: String
+          attr_reader form_code: String
+
+          def to_a: () -> [String]
+          def to_h: () -> Hash[Symbol, String]
+          def code: () -> String
+
+        end
 
         def self.create_id: (conjugation_set_id: String, politeness_code: String, charge_code: String, form_code: String, sort_rank: Integer) -> String
 
@@ -157,6 +171,8 @@ module Goi
         attr_reader sort_rank: Integer
 
         attr_reader value: String
+
+        def inflection: () -> Inflection
 
         def copy: (**untyped) -> Conjugation
 
