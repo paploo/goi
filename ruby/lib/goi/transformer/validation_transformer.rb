@@ -16,8 +16,6 @@ module Goi
         error_count = report.count(level: :error)
         raise RuntimeError, "Validation step failed with #{error_count} errors" if error_count.positive?
 
-        raise RuntimeError, "DRY RUN HALT"
-
         # Return linkages unchanged
         linkages
       end
@@ -102,7 +100,7 @@ module Goi
           if !expected.nil? && actual != expected
             [Goi::Core::ValidationMessage.warn("Expected #{expected} but got #{actual} for #{linkage.vocabulary.conjugation_kind_code} inflection #{conjugation.inflection}")]
           elsif !pattern_error.nil?
-            [Goi::Core::ValidationMessage.error("Expected #{linkage.preferred_spelling.value} to match a conjugation pattern for #{linkage.vocabulary.conjugation_kind_code} inflection #{conjugation.inflection}, producing #{actual}")]
+            [Goi::Core::ValidationMessage.warn("Expected #{linkage.preferred_spelling.value} to match a conjugation pattern for #{linkage.vocabulary.conjugation_kind_code} inflection #{conjugation.inflection}, producing #{actual}")]
           else
             []
           end

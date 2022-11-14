@@ -131,10 +131,148 @@ module Goi
         }.compact
       end
 
+      def self.godan_rule_set(
+        う: nil,
+        く: nil,
+        ぐ: nil,
+        す: nil,
+        ず: nil,
+        つ: nil,
+        づ: nil,
+        ぬ: nil,
+        ふ: nil,
+        ぶ: nil,
+        ぷ: nil,
+        む: nil,
+        る: nil
+      )
+        rules = [
+          PatternRule.new(/う$/, う),
+          PatternRule.new(/く$/, く),
+          PatternRule.new(/ぐ$/, ぐ),
+          PatternRule.new(/す$/, す),
+          PatternRule.new(/ず$/, ず),
+          PatternRule.new(/つ$/, つ),
+          PatternRule.new(/づ$/, づ),
+          PatternRule.new(/ぬ$/, ぬ),
+          PatternRule.new(/ふ$/, ふ),
+          PatternRule.new(/ぶ$/, ぶ),
+          PatternRule.new(/ぷ$/, ぷ),
+          PatternRule.new(/む$/, む),
+          PatternRule.new(/る$/, る)
+        ].reject { |r| r.replacement.nil? }
+
+        SetRule.new(*rules)
+      end
+
+      def self.godan_suffix_rule_set(suffix)
+        godan_rule_set(
+          う: "い#{suffix}",
+          く: "き#{suffix}",
+          ぐ: "ぎ#{suffix}",
+          す: "し#{suffix}",
+          ず: "じ#{suffix}",
+          つ: "ち#{suffix}",
+          づ: "ぢ#{suffix}",
+          ぬ: "に#{suffix}",
+          ふ: "ひ#{suffix}",
+          ぶ: "び#{suffix}",
+          ぷ: "ぴ#{suffix}",
+          む: "み#{suffix}",
+          る: "り#{suffix}"
+        )
+      end
+
+      U_ENDING_REGEX = /([うくぐすずつづぬふぶぷむる])$/
+
       RULES = {
         'IRREGULAR_VERB': nil,
 
-        'GODAN_VERB': nil,
+        'GODAN_VERB': verb_set(
+          # https://blog.lingodeer.com/japanese-verb-conjugation-guide/
+          positive_plain_present: PatternRule.new(U_ENDING_REGEX, '\1'),
+          positive_plain_past: godan_rule_set(
+            う: 'った',
+            く: 'いた',
+            ぐ: 'いだ',
+            す: 'した',
+            ず: nil,
+            つ: 'った',
+            づ: nil,
+            ぬ: 'んだ',
+            ふ: nil,
+            ぶ: 'んだ',
+            ぷ: nil,
+            む: 'んだ',
+            る: 'った'
+          ),
+          positive_plain_te: godan_rule_set(
+            う: 'って',
+            く: 'いて',
+            ぐ: 'いで',
+            す: 'して',
+            ず: nil,
+            つ: 'って',
+            づ: nil,
+            ぬ: 'んで',
+            ふ: nil,
+            ぶ: 'んで',
+            ぷ: nil,
+            む: 'んで',
+            る: 'って'
+            ),
+
+          negative_plain_present: godan_rule_set(
+            う: 'わない',
+            く: 'かない',
+            ぐ: 'がない',
+            す: 'さない',
+            ず: nil,
+            つ: 'たない',
+            づ: nil,
+            ぬ: 'なない',
+            ふ: nil,
+            ぶ: 'ばない',
+            ぷ: nil,
+            む: 'まない',
+            る: 'らない'
+          ),
+          negative_plain_past: godan_rule_set(
+            う: 'わなかった',
+            く: 'かなかった',
+            ぐ: 'がなかった',
+            す: 'さなかった',
+            ず: nil,
+            つ: 'たなかった',
+            づ: nil,
+            ぬ: 'ななかった',
+            ふ: nil,
+            ぶ: 'ばなかった',
+            ぷ: nil,
+            む: 'まなかった',
+            る: 'らなかった'
+          ),
+          negative_plain_te: godan_rule_set(
+            う: 'わなくて',
+            く: 'かなくて',
+            ぐ: 'がなくて',
+            す: 'さなくて',
+            ず: nil,
+            つ: 'たなくて',
+            づ: nil,
+            ぬ: 'ななくて',
+            ふ: nil,
+            ぶ: 'ばなくて',
+            ぷ: nil,
+            む: 'まなくて',
+            る: 'らなくて'
+          ),
+
+          positive_polite_present: godan_suffix_rule_set('ます'),
+          positive_polite_past: godan_suffix_rule_set('ました'),
+          negative_polite_present: godan_suffix_rule_set('ません'),
+          negative_polite_past: godan_suffix_rule_set('ませんでした')
+        ),
 
         'ICHIDAN_VERB': verb_set(
           positive_plain_present: PatternRule.new(/る$/, 'る'),
