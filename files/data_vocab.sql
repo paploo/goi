@@ -2052,9 +2052,9 @@ INSERT INTO "vocabulary"."conjugation" ("id", "conjugation_set_id", "politeness_
 INSERT INTO "vocabulary"."conjugation" ("id", "conjugation_set_id", "politeness_code", "charge_code", "form_code", "sort_rank", "value") VALUES ('584da2e8-38ff-51a7-a005-b16f2adc4d6b', '38b4aa26-934d-5632-8bb0-f9cf138b0c8d', 'PLAIN', 'POSITIVE', 'PAST', 1, 'よかった');
 INSERT INTO "vocabulary"."conjugation" ("id", "conjugation_set_id", "politeness_code", "charge_code", "form_code", "sort_rank", "value") VALUES ('dee1421c-f81f-5557-92fa-38d5643e6831', '38b4aa26-934d-5632-8bb0-f9cf138b0c8d', 'PLAIN', 'NEGATIVE', 'PRESENT', 1, 'よくない');
 INSERT INTO "vocabulary"."conjugation" ("id", "conjugation_set_id", "politeness_code", "charge_code", "form_code", "sort_rank", "value") VALUES ('1c9a06be-ad14-5ecd-b419-06e3035ce02f', '38b4aa26-934d-5632-8bb0-f9cf138b0c8d', 'PLAIN', 'NEGATIVE', 'PAST', 1, 'よくなかった');
--- 早い | early --;
+-- 早い | fast; early --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('fc5427a3-a54b-5c04-8b36-a570b8e7a72b', 'ADJECTIVE', 'I_ADJECTIVE', 5, 228, '{}', '2022-07-24');
-INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('8ea06d2f-8e2b-59e6-914a-ce22e2bc70c9', 'fc5427a3-a54b-5c04-8b36-a570b8e7a72b', 1, 'early');
+INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('8ea06d2f-8e2b-59e6-914a-ce22e2bc70c9', 'fc5427a3-a54b-5c04-8b36-a570b8e7a72b', 1, 'fast; early');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('0941cd05-d8fa-5ad2-946e-7ad78a608370', 'fc5427a3-a54b-5c04-8b36-a570b8e7a72b', 'KANJI', '早い');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('ab30470d-1d15-5cbe-b0fd-66c6a0fe650b', 'fc5427a3-a54b-5c04-8b36-a570b8e7a72b', 'HIRAGANA', 'はやい');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('2eeb84b5-4480-51e1-a6d6-c4f6beddd056', 'fc5427a3-a54b-5c04-8b36-a570b8e7a72b', 'KANJI', '早い');
@@ -3452,7 +3452,7 @@ INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('6
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('f8bbf752-a05d-542c-99ad-1b59fec7e4a6', 'NOUN', NULL, 5, 387, '{location}', '2022-08-10');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('2fdc01ed-2575-5bd1-a032-819dc435ba62', 'f8bbf752-a05d-542c-99ad-1b59fec7e4a6', 1, 'near; nearby');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('912290d5-cfe8-572f-adf2-aea5405ed3b7', 'f8bbf752-a05d-542c-99ad-1b59fec7e4a6', 'KANJI', '近く');
-INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('b9dfb101-c1d6-5684-a7c2-8a93115bb5c0', 'f8bbf752-a05d-542c-99ad-1b59fec7e4a6', 'HIRAGANA', 'しかく');
+INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('b9dfb101-c1d6-5684-a7c2-8a93115bb5c0', 'f8bbf752-a05d-542c-99ad-1b59fec7e4a6', 'HIRAGANA', 'ちかく');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('88b3e5ae-ee9c-5953-a373-e126686eb850', 'f8bbf752-a05d-542c-99ad-1b59fec7e4a6', 'KANJI', '近く');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id", "conjugation_set_id") VALUES ('f8bbf752-a05d-542c-99ad-1b59fec7e4a6', '2fdc01ed-2575-5bd1-a032-819dc435ba62', '912290d5-cfe8-572f-adf2-aea5405ed3b7', 'b9dfb101-c1d6-5684-a7c2-8a93115bb5c0', NULL, '88b3e5ae-ee9c-5953-a373-e126686eb850', NULL);
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('f8bbf752-a05d-542c-99ad-1b59fec7e4a6', 'GENKI3_L04');
@@ -3684,10 +3684,10 @@ INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "valu
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('658a6adb-4d26-5e54-b36e-645378f238f0', 'e2a1e5ef-c9d8-5554-a912-e6014d2c0f35', 'KATAKANA', 'チビ');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('571dc8cf-4afa-54dd-871c-ba761cf83fa7', 'e2a1e5ef-c9d8-5554-a912-e6014d2c0f35', 'HIRAGANA', 'ちび');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id", "conjugation_set_id") VALUES ('e2a1e5ef-c9d8-5554-a912-e6014d2c0f35', '9bc85ce2-6e6e-527c-b174-a237458752e3', '658a6adb-4d26-5e54-b36e-645378f238f0', '571dc8cf-4afa-54dd-871c-ba761cf83fa7', NULL, NULL, NULL);
--- カワイイ | cute --;
+-- かわいい | cute --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('2c0b911e-ac72-5c04-bfd3-ebcd9e988dee', 'ADJECTIVE', 'I_ADJECTIVE', 5, 421, '{}', '2022-08-13');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('177d6461-4a87-5587-9302-c04b12b616b1', '2c0b911e-ac72-5c04-bfd3-ebcd9e988dee', 1, 'cute');
-INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('8b8ac693-7d52-50ad-a309-27ffb29b396f', '2c0b911e-ac72-5c04-bfd3-ebcd9e988dee', 'KATAKANA', 'カワイイ');
+INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('8b8ac693-7d52-50ad-a309-27ffb29b396f', '2c0b911e-ac72-5c04-bfd3-ebcd9e988dee', 'HIRAGANA', 'かわいい');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('e7461cf9-7cf6-593c-9db9-a275dc53f1b9', '2c0b911e-ac72-5c04-bfd3-ebcd9e988dee', 'HIRAGANA', 'かわいい');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('7a38ab56-6e0a-5bb3-b036-afdce3bfb6d3', '2c0b911e-ac72-5c04-bfd3-ebcd9e988dee', 'KANJI', '可愛い');
 INSERT INTO "vocabulary"."conjugation_set" ("id", "vocabulary_id") VALUES ('06b2cf39-4535-5af0-8dcc-4e3a164fa394', '2c0b911e-ac72-5c04-bfd3-ebcd9e988dee');
@@ -3790,7 +3790,7 @@ INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id",
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('1d9fa8be-94a8-565a-93a3-973da9e759fa', 'VERB', 'SURU_VERB', 5, 434, '{}', '2022-09-02');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('d102d983-0711-5558-a6f3-1195412330bf', '1d9fa8be-94a8-565a-93a3-973da9e759fa', 1, 'to request; to ask a favor');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('c4f73768-2015-5617-83c0-53569e5e3e14', '1d9fa8be-94a8-565a-93a3-973da9e759fa', 'KANJI', 'お願いする');
-INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('47125dd8-acc2-52ee-9a26-6a8aab495634', '1d9fa8be-94a8-565a-93a3-973da9e759fa', 'HIRAGANA', 'おねがい');
+INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('47125dd8-acc2-52ee-9a26-6a8aab495634', '1d9fa8be-94a8-565a-93a3-973da9e759fa', 'HIRAGANA', 'おねがいする');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('367a12ad-ba3a-515e-ae43-248bd5db88f0', '1d9fa8be-94a8-565a-93a3-973da9e759fa', 'KANJI', 'お願いする');
 INSERT INTO "vocabulary"."conjugation_set" ("id", "vocabulary_id") VALUES ('583a2148-1383-55cb-8258-83876466cbed', '1d9fa8be-94a8-565a-93a3-973da9e759fa');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id", "conjugation_set_id") VALUES ('1d9fa8be-94a8-565a-93a3-973da9e759fa', 'd102d983-0711-5558-a6f3-1195412330bf', 'c4f73768-2015-5617-83c0-53569e5e3e14', '47125dd8-acc2-52ee-9a26-6a8aab495634', NULL, '367a12ad-ba3a-515e-ae43-248bd5db88f0', '583a2148-1383-55cb-8258-83876466cbed');
@@ -4112,9 +4112,9 @@ INSERT INTO "vocabulary"."conjugation" ("id", "conjugation_set_id", "politeness_
 INSERT INTO "vocabulary"."conjugation" ("id", "conjugation_set_id", "politeness_code", "charge_code", "form_code", "sort_rank", "value") VALUES ('35120b18-ecc8-55f3-ab05-ad007f0cc54e', '5e7cab50-c495-551f-8ec1-4300bd3f0a19', 'PLAIN', 'POSITIVE', 'PAST', 1, '難しかった');
 INSERT INTO "vocabulary"."conjugation" ("id", "conjugation_set_id", "politeness_code", "charge_code", "form_code", "sort_rank", "value") VALUES ('639a8bbd-389f-59bf-94ad-ae0a91ad3a9e', '5e7cab50-c495-551f-8ec1-4300bd3f0a19', 'PLAIN', 'NEGATIVE', 'PRESENT', 1, '難しくない');
 INSERT INTO "vocabulary"."conjugation" ("id", "conjugation_set_id", "politeness_code", "charge_code", "form_code", "sort_rank", "value") VALUES ('6909d3ff-3043-5126-a82e-112e0118eafa', '5e7cab50-c495-551f-8ec1-4300bd3f0a19', 'PLAIN', 'NEGATIVE', 'PAST', 1, '難しくなかった');
--- かっこいい | good-looking --;
+-- かっこいい | good-looking; cool --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('46305ec7-a809-547e-bb67-8533f9059b26', 'ADJECTIVE', 'YOI_ADJECTIVE', NULL, 467, '{}', '2022-09-07');
-INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('6d1ce708-d688-52a8-af24-eb21a33a6de7', '46305ec7-a809-547e-bb67-8533f9059b26', 1, 'good-looking');
+INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('6d1ce708-d688-52a8-af24-eb21a33a6de7', '46305ec7-a809-547e-bb67-8533f9059b26', 1, 'good-looking; cool');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('a93b22a4-cbb8-5c80-a678-f8a2cdce2543', '46305ec7-a809-547e-bb67-8533f9059b26', 'HIRAGANA', 'かっこいい');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('edae6b1d-84fb-5f84-a6fa-d40ed100805e', '46305ec7-a809-547e-bb67-8533f9059b26', 'HIRAGANA', 'かっこいい');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('5fc66d81-0836-5c69-83b6-408edda38ae8', '46305ec7-a809-547e-bb67-8533f9059b26', 'KANJI', '格好いい');
@@ -4821,7 +4821,7 @@ INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('8
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('62d782c4-f391-4e33-a434-0915798f606d', 'NOUN', NULL, 5, 546, '{}', '2022-11-06');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('768041fc-a1e9-5a8f-9699-35d46ecafd4e', '62d782c4-f391-4e33-a434-0915798f606d', 1, 'next');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('dca571d6-2131-572e-9d91-27c9b023cfa5', '62d782c4-f391-4e33-a434-0915798f606d', 'KANJI', '次');
-INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('931d7b97-75a3-5963-b18b-cbdfd913cb3e', '62d782c4-f391-4e33-a434-0915798f606d', 'KANJI', '次');
+INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('931d7b97-75a3-5963-b18b-cbdfd913cb3e', '62d782c4-f391-4e33-a434-0915798f606d', 'HIRAGANA', 'つぎ');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('cd04bb53-9f73-55c9-b946-f4f8cb33a42c', '62d782c4-f391-4e33-a434-0915798f606d', 'KANJI', '次');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id", "conjugation_set_id") VALUES ('62d782c4-f391-4e33-a434-0915798f606d', '768041fc-a1e9-5a8f-9699-35d46ecafd4e', 'dca571d6-2131-572e-9d91-27c9b023cfa5', '931d7b97-75a3-5963-b18b-cbdfd913cb3e', NULL, 'cd04bb53-9f73-55c9-b946-f4f8cb33a42c', NULL);
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('62d782c4-f391-4e33-a434-0915798f606d', 'GENKI3_L06');

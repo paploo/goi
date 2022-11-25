@@ -227,7 +227,7 @@ bd0e8ffa-f7cd-5b27-8481-6ecb87512f6c,to get up,起きる,おきる,,verb,ichidan
 9e9dc42e-df1e-5ace-948a-9dce72caaceb,to study,勉強する,べんきょうする,,verb,suru verb,5,2022-07-24,225,GENKI3_L03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,verb suru-verb genki3-l03
 6e231f76-5724-5b3c-acfc-cdee6e2eb3a6,yes; umm,ええ,ええ,,expression,,5,2022-07-24,226,GENKI3_L03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l03
 349836a3-2523-5f85-a7c1-f85e49c73f27,good,いい,いい,,adjective,yoi adjective,5,2022-07-24,227,GENKI3_L03,いい,よかった,,,,,,,,,,,,,,,,,よくない,よくなかった,,,,,,,,,,,,,,,,,adjective yoi-adjective genki3-l03
-fc5427a3-a54b-5c04-8b36-a570b8e7a72b,early,早い,はやい,,adjective,i adjective,5,2022-07-24,228,GENKI3_L03,早い,早かった,,,,,,,,,,,,,,,,,早くない,早くなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l03
+fc5427a3-a54b-5c04-8b36-a570b8e7a72b,fast; early,早い,はやい,,adjective,i adjective,5,2022-07-24,228,GENKI3_L03,早い,早かった,,,,,,,,,,,,,,,,,早くない,早くなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l03
 311f8bec-e54c-5317-8880-dfd3e39d23a7,not much,あまり,あまり,,adverb,,5,2022-07-24,229,GENKI3_L03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adverb genki3-l03
 1e68ea18-9d69-5761-a463-510eab20d1d3,not at all,全然,ぜんぜん,,adverb,,3,2022-07-24,230,GENKI3_L03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adverb genki3-l03
 818210e0-641a-56f3-9241-7d24504480e2,usually,たいてい,たいてい,大抵,adverb,,4,2022-07-24,231,GENKI3_L03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adverb genki3-l03
@@ -386,7 +386,7 @@ f439afe8-6382-4017-b594-de82a2d090e6,why; how,どうして,どうして,,adverb,
 e37a40e2-6a4c-5046-9054-71bd174159cf,inside,中,なか,,noun,,5,2022-08-10,384,GENKI3_L04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,location noun genki3-l04
 b7339af2-316c-551b-a5da-cb03d2ef2392,on,上,うえ,,noun,,5,2022-08-10,385,GENKI3_L04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,location noun genki3-l04
 658ee639-0bc6-5cd5-8342-15f7698bf75d,under,下,した,,noun,,5,2022-08-10,386,GENKI3_L04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,location noun genki3-l04
-f8bbf752-a05d-542c-99ad-1b59fec7e4a6,near; nearby,近く,しかく,,noun,,5,2022-08-10,387,GENKI3_L04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,location noun genki3-l04
+f8bbf752-a05d-542c-99ad-1b59fec7e4a6,near; nearby,近く,ちかく,,noun,,5,2022-08-10,387,GENKI3_L04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,location noun genki3-l04
 9c00bb62-e821-5702-ad5d-20d324fdb688,next (to); adjacent,隣,となり,,noun,,5,2022-08-10,388,GENKI3_L04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,location noun genki3-l04
 5d31fe9a-a3d5-548d-b92c-323392afbb5f,between,間,あいだ,,noun,,5,2022-08-10,389,GENKI3_L04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,location noun genki3-l04
 4f2e177f-cee0-4330-ac19-9c6506a76c9b,amazing,すごい,すごい,凄い,adjective,i adjective,4,2022-10-06,390,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective i-adjective
@@ -420,7 +420,7 @@ aeac8e75-ade1-55a0-b4d0-4203dc90df45,light music,軽音楽,けいおんがく,,n
 300bed58-ddab-5420-8396-3147573388c3,club; department (of company),部,ぶ,,noun,,1,2022-08-12,418,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 3e15a011-580f-46c7-a59c-b17b6cb530a4,stroll,散歩,さんぽ,,noun,,5,2022-10-06,419,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 e2a1e5ef-c9d8-5554-a912-e6014d2c0f35,small child; cute small version of someone,チビ,ちび,,noun,,,2022-08-13,420,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-2c0b911e-ac72-5c04-bfd3-ebcd9e988dee,cute,カワイイ,かわいい,可愛い,adjective,i adjective,5,2022-08-13,421,,かわいい,かわいかった,,,,,,,,,,,,,,,,,かわいくない,かわいくなかった,,,,,,,,,,,,,,,,,adjective i-adjective
+2c0b911e-ac72-5c04-bfd3-ebcd9e988dee,cute,かわいい,かわいい,可愛い,adjective,i adjective,5,2022-08-13,421,,かわいい,かわいかった,,,,,,,,,,,,,,,,,かわいくない,かわいくなかった,,,,,,,,,,,,,,,,,adjective i-adjective
 356f27dd-22ca-4e95-b637-6ee6c52855f2,counter for people,〜人,にん,,counter,,,2022-09-26,422,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter
 63328d5a-cff9-459a-bc29-b0ce33776a95,1 person; alone; single,一人,ひとり,,noun,,5,2022-09-26,423,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 2ef7fa68-00e9-438c-8a78-e8e1b10cd274,two people,二人,ふたり,,noun,,5,2022-09-26,424,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
@@ -433,7 +433,7 @@ c3f5ef65-8025-5f56-b5e1-efc61a1c81bc,Japanese bedding,布団,ふとん,,noun,,4,
 ee877e49-b3e4-5e51-a969-c620c8407809,"lively, energetic; well, healthy",元気,げんき,,adjective,na adjective,5,2022-09-02,431,GENKI3_L05,元気だ,元気だった,,,,,,,,,,,,,,,,,元気じゃない,元気じゃなかった,,,,,,,,,,,,,,,,,adjective na-adjective genki3-l05
 4b7cb2ac-7b91-54eb-86e3-2366f5e802bb,"desire, wish; request",願い,ねがい,,noun,,3,2022-09-02,432,DUO_U03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun duo-u03
 689e561f-b2a7-44ca-bac7-0a7dbcf68d0a,request; favor to ask,お願い,おねがい,,noun,,5,2022-11-09,433,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-1d9fa8be-94a8-565a-93a3-973da9e759fa,to request; to ask a favor,お願いする,おねがい,,verb,suru verb,5,2022-09-02,434,,お願いする,お願いした,お願いして,,,,,,,お願いします,お願いしました,,,,,,,,お願いしない,お願いしなかった,お願いしなくて,,,,,,,お願いしません,お願いしませんでした,,,,,,,,verb suru-verb
+1d9fa8be-94a8-565a-93a3-973da9e759fa,to request; to ask a favor,お願いする,おねがいする,,verb,suru verb,5,2022-09-02,434,,お願いする,お願いした,お願いして,,,,,,,お願いします,お願いしました,,,,,,,,お願いしない,お願いしなかった,お願いしなくて,,,,,,,お願いしません,お願いしませんでした,,,,,,,,verb suru-verb
 59f26319-a287-5600-95b4-714e7fe21547,mochi,もち,もち,餅,noun,,2,2022-09-07,435,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 43dce298-e577-5174-8f14-ecb525e67d38,autum colors; red leaves,紅葉,こうよう,,noun,,2,2022-09-07,436,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 2100c24a-9ffb-436a-ab74-8f56ef0e338a,Japanese maple,紅葉,もみじ,,noun,,2,2022-09-07,437,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
@@ -466,7 +466,7 @@ bbdc1a0a-1d15-5484-89ac-e3594f2d0e70,small,小さい,ちいさい,,adjective,i a
 ce5f2a5f-821f-5a5f-b5e5-6b59658ee781,easy (problem),やさしい,やさしい,易しい,adjective,i adjective,5,2022-09-07,464,GENKI3_L05,やさしい,やさしかった,,,,,,,,,,,,,,,,,やさしくない,やさしくなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
 f0506ed6-e8ae-5d80-90bc-d527638693f8,kind (person),優しい,やさしい,,adjective,i adjective,4,2022-09-07,465,,優しい,優しかった,,,,,,,,,,,,,,,,,優しくない,優しくなかった,,,,,,,,,,,,,,,,,adjective i-adjective
 835597f8-7be1-561d-8ef8-9c73316e9b49,difficult,難しい,むずかしい,,adjective,i adjective,5,2022-09-07,466,GENKI3_L05,難しい,難しかった,,,,,,,,,,,,,,,,,難しくない,難しくなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
-46305ec7-a809-547e-bb67-8533f9059b26,good-looking,かっこいい,かっこいい,格好いい,adjective,yoi adjective,,2022-09-07,467,GENKI3_L05,かっこいい,かっこよかった,,,,,,,,,,,,,,,,,かっこよくない,かっこよくなかった,,,,,,,,,,,,,,,,,adjective yoi-adjective genki3-l05
+46305ec7-a809-547e-bb67-8533f9059b26,good-looking; cool,かっこいい,かっこいい,格好いい,adjective,yoi adjective,,2022-09-07,467,GENKI3_L05,かっこいい,かっこよかった,,,,,,,,,,,,,,,,,かっこよくない,かっこよくなかった,,,,,,,,,,,,,,,,,adjective yoi-adjective genki3-l05
 b28e9f01-a176-5cfa-b00b-e1fd1552f02d,frightening,怖い,こわい,,adjective,i adjective,4,2022-09-07,468,GENKI3_L05,怖い,怖かった,,,,,,,,,,,,,,,,,怖くない,怖くなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
 03824733-2e97-5d1e-8705-2520abf86985,fun,楽しい,たのしい,,adjective,i adjective,5,2022-09-07,469,GENKI3_L05,楽しい,楽しかった,,,,,,,,,,,,,,,,,楽しくない,楽しくなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
 a1c2f5e9-df18-5d9f-83db-7d30491b502d,inexpensive; cheap (thing),安い,やすい,,adjective,i adjective,5,2022-09-07,470,GENKI3_L05,安い,安かった,,,,,,,,,,,,,,,,,安くない,安くなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
@@ -545,7 +545,7 @@ cb2ffba7-427d-4fcd-a2d1-156d649a4343,vocabulary; lexicon,語彙,ごい,,noun,,1,
 5963b6a2-d88d-4d1f-9ccd-97fb5a3c6991,kanji,漢字,かんじ,,noun,,5,2022-11-06,543,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l06
 02ed6978-40d0-4d0a-bf11-02cd6c60ebe0,textbook,教科書,きょうかしょ,,noun,,3,2022-11-06,544,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l06
 8b3e9b6b-e747-431c-949e-01553221da94,page,ページ,ページ,,noun,,5,2022-11-06,545,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l06
-62d782c4-f391-4e33-a434-0915798f606d,next,次,次,,noun,,5,2022-11-06,546,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l06
+62d782c4-f391-4e33-a434-0915798f606d,next,次,つぎ,,noun,,5,2022-11-06,546,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l06
 31eeca8f-9a62-45a4-a759-50b1acb95035,money,お金,おかね,,noun,,5,2022-11-06,547,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l06
 c0495dfb-a31f-47d9-8491-0e3d4b7784e0,baggage,荷物,にもつ,,noun,,5,2022-11-06,548,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l06
 fc3da5a7-9659-4c32-b8e2-63b97e9dfc1a,personal computer,パソコン,ぱそこん,,noun,,4,2022-11-06,549,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l06
