@@ -81,7 +81,7 @@ end
 # Extension to add sql_filter
 class Goi::Model::Vocabulary::Conjugation::Inflection
 
-  def sql_filter(table_name = type_name)
+  def sql_filter(table_name = code)
     filters = to_h.map do |col, code|
       "#{table_name}.#{col} = '#{code}'"
     end
