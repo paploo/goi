@@ -17,7 +17,7 @@ b06abb09-c9bd-5beb-a7b7-d184bedf72ca,Welcome home,お帰り,おかえり,,expres
 797b03e3-1495-52c0-baf4-ffb9cb324089,Thank you for the meal (before),いただきます,いただきます,,expression,,3,2022-04-24,15,GENKI3_L00,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,greeting expression genki3-l00
 59bad243-8b31-54f3-9d7b-6de0961bc059,Thank you for the meal (after),ごちそうさま,ごちそうさま,,expression,,2,2022-04-24,16,GENKI3_L00,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,greeting expression genki3-l00
 05436324-1858-5a2f-a2a1-a41d00f862cc,"Thank you for the meal (after, polite)",ごちそうさまでした,ごちそうさまでした,,expression,,,2022-04-24,17,GENKI3_L00,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,greeting expression genki3-l00
-136d6d6d-0487-5709-ac27-2c376bfebd43,How do you do?; I am glad to meet you,はじめまして,はじめまして,,expression,,2,2022-04-24,18,GENKI3_L00,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,greeting expression genki3-l00
+136d6d6d-0487-5709-ac27-2c376bfebd43,How do you do?; I am glad to meet you,はじめまして,はじめまして,初めまして,expression,,2,2022-04-24,18,GENKI3_L00,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,greeting expression genki3-l00
 ddd5fd1f-f041-576c-a479-d8d9a3221370,Nice to meet you; i'm counting on you,よろしくお願いします,よろしくおねがいします,,expression,,,2022-04-24,19,GENKI3_L00,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,greeting expression genki3-l00
 0d8e1494-cfe2-43ab-b06e-31ad060eec1a,be; is (coupala),だ,だ,,verb,irregular verb,,2022-10-09,20,,だ,だった,で,,,,,,,です,でした,でありまして,,,,,,,じゃない,じゃなかった,,,,,,,,じゃないです,じゃないかったです,,,,,,,,verb irregular-verb
 d43cc787-37af-5dd1-92b5-fc756f18298a,college; university,大学,だいがく,,noun,,5,2022-04-24,21,DUO_02_05 DUO_U08 GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,place school noun duo-02-05 duo-u08 genki3-l01
@@ -54,7 +54,7 @@ dce3fe6a-497c-54b2-a121-df6767084258,Now,今,いま,,noun,,5,2022-04-24,48,DUO_0
 5372b023-b803-551c-9a7f-f404804f63f1,half; half-past,半,はん,,noun,,5,2022-04-24,52,DUO_02_02 DUO_U06 GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,time noun duo-02-02 duo-u06 genki3-l01
 2cf1d32f-b261-5ba6-829c-a9f1237a88d6,"minute, arcminutes",〜分,〜ふん／〜ぷん,,noun,,1,2022-04-24,53,DUO_02_02 DUO_U06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,time noun duo-02-02 duo-u06
 db9793c1-8b7c-481c-bc77-6d36eb4afb30,"part, portion, share",分,ぶん,,noun,,3,2022-08-09,54,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-a39e794c-9682-5cd5-9c5e-dd961aa92bc5,approximately,〜ごろ,〜ごろ,〜頃,noun,,3,2022-04-24,55,DUO_02_03 DUO_U07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,time noun duo-02-03 duo-u07
+a39e794c-9682-5cd5-9c5e-dd961aa92bc5,approximately at time,〜ごろ,〜ごろ,〜頃,noun,,3,2022-04-24,55,DUO_02_03 DUO_U07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,time noun duo-02-03 duo-u07
 9e67a677-9058-536e-85d6-389ea5138c86,exactly,ちょうど,ちょうど,丁度,noun,,5,2022-04-24,56,DUO_02_02 DUO_U06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,time noun duo-02-02 duo-u06
 252852aa-aefd-504b-b671-668a33020492,zero,零,れい,,noun,,5,2022-04-24,57,DUO_02_03 DUO_U07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,number time noun duo-02-03 duo-u07
 cc6a4913-6f39-521b-a0cf-9631f640800e,Japan,日本,にほん,,proper noun,,3,2022-04-24,58,GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,country place proper-noun genki3-l01
@@ -462,7 +462,7 @@ dbeefce5-aaa6-5694-985d-6771413fa0fd,cold weather,寒い,さむい,,adjective,i 
 9c26c29d-c047-519d-bd01-6eb035e74752,large,大きい,おおきい,,adjective,i adjective,5,2022-09-07,460,GENKI3_L05,大きい,大きかった,,,,,,,,,,,,,,,,,大きくない,大きくなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
 bbdc1a0a-1d15-5484-89ac-e3594f2d0e70,small,小さい,ちいさい,,adjective,i adjective,5,2022-09-07,461,GENKI3_L05,小さい,小さかった,,,,,,,,,,,,,,,,,小さくない,小さくなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
 14eb54bb-8d5f-50c2-b2e7-9b89a32a18f6,interesting; funny,面白い,おもしろい,,adjective,i adjective,5,2022-09-07,462,GENKI3_L05,面白い,面白かった,,,,,,,,,,,,,,,,,面白くない,面白くなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
-2e46c8d1-bb5e-5c96-9e63-b1d4fc035da1,boring,つまらない,つまらない,,adjective,i adjective,5,2022-09-07,463,GENKI3_L05,つまらない,つまらなかった,,,,,,,,,,,,,,,,,つまらなくない,つまらなくなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
+2e46c8d1-bb5e-5c96-9e63-b1d4fc035da1,boring,つまらない,つまらない,詰まらない,adjective,i adjective,5,2022-09-07,463,GENKI3_L05,つまらない,つまらなかった,,,,,,,,,,,,,,,,,つまらなくない,つまらなくなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
 ce5f2a5f-821f-5a5f-b5e5-6b59658ee781,easy (problem),やさしい,やさしい,易しい,adjective,i adjective,5,2022-09-07,464,GENKI3_L05,やさしい,やさしかった,,,,,,,,,,,,,,,,,やさしくない,やさしくなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
 f0506ed6-e8ae-5d80-90bc-d527638693f8,kind (person),優しい,やさしい,,adjective,i adjective,4,2022-09-07,465,,優しい,優しかった,,,,,,,,,,,,,,,,,優しくない,優しくなかった,,,,,,,,,,,,,,,,,adjective i-adjective
 835597f8-7be1-561d-8ef8-9c73316e9b49,difficult,難しい,むずかしい,,adjective,i adjective,5,2022-09-07,466,GENKI3_L05,難しい,難しかった,,,,,,,,,,,,,,,,,難しくない,難しくなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
@@ -556,7 +556,7 @@ fc3da5a7-9659-4c32-b8e2-63b97e9dfc1a,personal computer,パソコン,ぱそこん
 e3f4222a-3bf1-4cbe-8962-a83b64779f7e,country; place of origin,国,くに,,noun,,5,2022-11-06,554,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l06
 768309d9-5536-443a-8989-78d36314563c,this week,今週,こんしゅう,,noun,,5,2022-11-06,555,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l06
 04b28ec0-446d-435f-accd-03cb50aa2816,next week,来週,らいしゅう,,noun,,5,2022-11-06,556,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l06
-ce174904-5cdd-4329-9d57-d9543413c0b8,next year,来年,れいねん,例年,noun,,,2022-11-06,557,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l06
+ce174904-5cdd-4329-9d57-d9543413c0b8,next year,来年,らいねん,,noun,,,2022-11-06,557,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l06
 81f07e4d-909b-420a-b852-d6b68564cfcc,today; this day,本日,ほんじつ,,noun,,,2022-11-06,558,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 aa0dbae3-a335-41ea-b0a7-2b2a7940bcdb,tough (situation); dreadful,大変,たいへん,,adjective,na adjective,5,2022-11-06,559,GENKI3_L06,大変だ,大変だった,,,,,,,,,,,,,,,,,大変じゃない,大変じゃなかった,,,,,,,,,,,,,,,,,adjective na-adjective genki3-l06
 d5eb1db2-38cb-4cd8-98da-f4fab0ff12ef,you may do + -te,〜もいいです,〜もいいです,,suffix,,,2022-11-27,560,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,suffix genki3-l06
@@ -571,7 +571,7 @@ b398c1c2-e5e8-4d6d-ac7e-7c19c3348496,to die,死ぬ,しぬ,,verb,godan verb,5,202
 302a20f2-ce11-496b-8f9f-57f6eb69fedf,to sit down,座る,すわる,,verb,godan verb,5,2022-11-06,569,GENKI3_L06,座る,座った,座って,,,,,,,座ります,座りました,,,,,,,,座らない,座らなかった,座らなくて,,,,,,,座りません,座りませんでした,,,,,,,,verb godan-verb genki3-l06
 32a15edf-8576-4e81-8a17-4fa4de5e1a83,to stand up,立つ,たつ,,verb,godan verb,5,2022-11-06,570,GENKI3_L06,立つ,立った,立って,,,,,,,立ちます,立ちました,,,,,,,,立たない,立たなかった,立たなくて,,,,,,,立ちません,立ちませんでした,,,,,,,,verb godan-verb genki3-l06
 689665c5-083d-43d5-8f42-bdde636364be,to smoke; to breathe in; to sip; to absorb,吸う,すう,,verb,godan verb,5,2022-11-07,571,,吸う,吸った,吸って,,,,,,,吸います,吸いました,,,,,,,,吸わない,吸わなかった,吸わなくて,,,,,,,吸いません,吸いませんでした,,,,,,,,verb godan-verb
-aff392d9-b36e-4db0-b277-220588c4164d,to smoke,タバコを吸う,たばこをすう,,verb,godan verb,,2022-11-06,572,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,verb godan-verb genki3-l06
+aff392d9-b36e-4db0-b277-220588c4164d,to smoke tobacco,タバコを吸う,たばこをすう,,verb,godan verb,,2022-11-06,572,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,verb godan-verb genki3-l06
 0b86b8fd-2de0-461b-aea3-c2407a45cfa5,to use,使う,つかう,,verb,godan verb,5,2022-11-06,573,GENKI3_L06,使う,使った,使って,,,,,,,使います,使いました,,,,,,,,使わない,使わなかった,使わなくて,,,,,,,使いません,使いませんでした,,,,,,,,verb godan-verb genki3-l06
 260b582d-9cfa-41ad-8a5c-f6d476b15cca,to enter,入る,はいる,,verb,godan verb,5,2022-11-06,574,GENKI3_L06,入る,入った,入って,,,,,,,入ります,入りました,,,,,,,,入らない,入らなかった,入らなくて,,,,,,,入りません,入りませんでした,,,,,,,,verb godan-verb genki3-l06
 30391416-f09e-42d7-8fad-3da2072345ac,to carry; to hold,持つ,もつ,,verb,godan verb,5,2022-11-06,575,GENKI3_L06,持つ,持った,持って,,,,,,,持ちます,持ちました,,,,,,,,持たない,持たなかった,持たなくて,,,,,,,持ちません,持ちませんでした,,,,,,,,verb godan-verb genki3-l06
@@ -609,3 +609,11 @@ d54c3104-3c82-4445-b71f-14598f3d2e8b,boiling water,熱湯,ねっとう,,noun,,1,
 2e969dcf-cabb-4cee-b446-2990e2dc1f79,sweet soy sauce,砂糖醤油,さとうじょうゆ,,noun,,,2022-11-27,607,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
 507be1d7-9684-4c55-a7b0-c7747cfad3c2,rice cracker w/ sweet soy glaze,ぽたぽた焼,ぽたぽたやき,,noun,,,2022-11-27,608,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
 c7af2e91-5b5c-478e-b95c-c4167249c7ff,it is assuredly that...; can say with confidence that...,〜なんです,なんです,,auxiliary,,,2022-11-27,609,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,auxiliary
+6a75dd67-15fc-4ae5-8742-5ab9f037aa1a,you (male lang; derogatory),お前,おまえ,,noun,,3,2022-11-27,610,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+778ba9bb-ce07-4049-98ed-9fa73a5c4ae8,"the following, next",翌,よく,,prefix,,,2022-12-24,611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,prefix
+e0221c1c-46d8-41a2-84ad-cfae044d6c0a,the following day,翌日,よくじつ,,noun,,,2022-12-24,612,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+2149878c-3d6e-4063-821d-7eba07487046,two days later; day after next,翌々日,よくよくじつ,,noun,,,2022-12-24,613,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+7915563f-ead7-42da-b0cb-143692e31c74,"origin place (country, city)",出身,しゅっしん,,noun,,3,2022-12-24,614,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+168c01b9-0da1-457d-9106-23c7522b704a,"people counter (e.g. seating, reservations), formal",名,めい,めい,counter,,,2022-12-24,615,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter
+4819b7d2-e342-4f75-a37c-f310a8897f6c,...room,室,しつ,,suffix,,1,2022-12-24,616,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,suffix
+723f71ed-a490-4215-a2d2-383cb457a9d0,...shop,屋,や,,suffix,,,2022-12-24,617,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,suffix
