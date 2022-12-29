@@ -1776,7 +1776,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id", "conjugation_set_id") VALUES ('f05e2adf-83c4-5ccf-a74a-fbd5664dceb1', '5e6ba7a6-d089-5325-b413-338e9081d658', 'e124d8c7-641c-5c11-831b-0e400ecdaaf3', '8e0f8d2f-5b43-5efa-a6c7-d42f391dbdd0', NULL, NULL, NULL);
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('f05e2adf-83c4-5ccf-a74a-fbd5664dceb1', 'GENKI3_L03');
 -- 行く | to go --;
-INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('50cbf96a-57d3-5f45-b5fc-e415ff57717a', 'VERB', 'GODAN_VERB', 5, 212, '{}', '2022-07-24');
+INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('50cbf96a-57d3-5f45-b5fc-e415ff57717a', 'VERB', 'IKU_VERB', 5, 212, '{}', '2022-07-24');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('55cbb623-1dde-57fc-9ed7-18d541e69a24', '50cbf96a-57d3-5f45-b5fc-e415ff57717a', 1, 'to go');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('3882f3fd-ec0b-513e-b731-00e6bf2864cf', '50cbf96a-57d3-5f45-b5fc-e415ff57717a', 'KANJI', '行く');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('04845431-fcd0-5bbb-9518-f1b95b4b2f6f', '50cbf96a-57d3-5f45-b5fc-e415ff57717a', 'HIRAGANA', 'いく');

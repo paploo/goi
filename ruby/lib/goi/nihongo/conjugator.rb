@@ -316,6 +316,20 @@ module Goi
           negative_polite_past: PatternRule.new(/くる$/, 'きませんでした')
         ),
 
+        'IKU_VERB': verb_set(
+          positive_plain_present: PatternRule.new(/([行い])く$/, '\1く'),
+          positive_plain_past: PatternRule.new(/([行い])く$/, '\1った'),
+          positive_plain_te: PatternRule.new(/([行い])く$/, '\1って'),
+          negative_plain_present: PatternRule.new(/([行い])く$/, '\1かない'),
+          negative_plain_past: PatternRule.new(/([行い])く$/, '\1かなかった'),
+          negative_plain_te: PatternRule.new(/([行い])く$/, '\1かなくて'),
+
+          positive_polite_present: PatternRule.new(/([行い])く$/, '\1きます'),
+          positive_polite_past: PatternRule.new(/([行い])く$/, '\1きました'),
+          negative_polite_present: PatternRule.new(/([行い])く$/, '\1きません'),
+          negative_polite_past: PatternRule.new(/([行い])く$/, '\1きませんでした')
+        ),
+
         'IRREGULAR_ADJECTIVE': nil,
 
         'I_ADJECTIVE': adjective_set(
