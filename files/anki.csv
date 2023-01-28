@@ -651,43 +651,44 @@ cb27ecc4-69df-4a8f-8d7c-617a5feb4963,long,長い,ながい,,adjective,i adjectiv
 511cc6ef-573e-4351-9e0b-ac5d1abaab97,short (length),短い,みじかい,,adjective,i adjective,5,2022-12-26,649,GENKI3_L07,短い,短かった,,,,,,,,,,,,,,,,,短くない,短くなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l07
 37c41873-49cd-4de1-9f7c-95c626427047,tall (stature),背が高い,せがたかい,,adjective,i adjective,,2022-12-26,650,GENKI3_L07,背が高い,背が高かった,,,,,,,,,,,,,,,,,背が高くない,背が高くなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l07
 b921252b-8f5f-424b-8efa-e87d9728e04c,short (stature),背が低い,せがひくい,,adjective,i adjective,,2022-12-26,651,GENKI3_L07,背が低い,背が低かった,,,,,,,,,,,,,,,,,背が低くない,背が低くなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l07
-d77dfdc7-5046-4e92-85de-c42eb6e54473,"bright, smart, clever",頭がいい,あたまがいい,,adjective,yoi adjective,,2022-12-26,652,GENKI3_L07,頭がいい,頭がよかった,,,,,,,,,,,,,,,,,頭がよくない,頭がよくなかった,,,,,,,,,,,,,,,,,adjective yoi-adjective genki3-l07
-b2a15708-d53d-4a6c-86b0-471bd76d6779,"kind, gentle, friendly, nice",親切,しんせつ,,adjective,na adjective,4,2022-12-26,653,GENKI3_L07,親切だ,親切だった,,,,,,,,,,,,,,,,,親切じゃない,親切じゃなかった,,,,,,,,,,,,,,,,,adjective na-adjective genki3-l07
-1cdf6da4-2dab-494f-af52-eb0dd3cd624f,convenient,便利,べんり,,adjective,na adjective,5,2022-12-26,654,GENKI3_L07,便利だ,便利だった,,,,,,,,,,,,,,,,,便利じゃない,便利じゃなかった,,,,,,,,,,,,,,,,,adjective na-adjective genki3-l07
-5420fa69-15ad-4fcc-8064-9fbbe42fdda0,to sing,歌う,うたう,,verb,godan verb,5,2022-12-28,655,GENKI3_L07,歌う,歌った,歌って,,,,,,,歌います,歌いました,,,,,,,,歌わない,歌わなかった,歌わなくて,,,,,,,歌いません,歌いませんでした,,,,,,,,verb godan-verb genki3-l07
-222790be-3f11-476e-80b0-3381f588a560,to put on (one's head),かぶる,かぶる,被る,verb,godan verb,3,2022-12-28,656,GENKI3_L07,かぶる,かぶった,かぶって,,,,,,,かぶります,かぶりました,,,,,,,,かぶらない,かぶらなかった,かぶらなくて,,,,,,,かぶりません,かぶりませんでした,,,,,,,,verb godan-verb genki3-l07
-a7925f9c-1028-42b1-891f-b2b04a34758a,to put on (items below waist),履く,はく,,verb,godan verb,3,2022-12-28,657,GENKI3_L07,履く,履いた,履いて,,,,,,,履きます,履きました,,,,,,,,履かない,履かなかった,履かなくて,,,,,,,履きません,履きませんでした,,,,,,,,verb godan-verb genki3-l07
-a2957ec5-7725-4d5d-803b-9ad297aef01b,i know,知っています,しっています,,expression,,,2022-12-28,658,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l07
-0ebb5aeb-3c54-443d-896e-88705810cd12,I do not know,知りません,しりません,,expression,,,2022-12-28,659,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l07
-28009363-b4e5-41da-bbb2-7ab5ebeb0bf6,to live in/at,〜にすんでいます,にすんでいます,,suffix,,,2022-12-28,660,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,suffix genki3-l07
-0f66ccc8-823e-4fe9-afb3-109c8aa212e1,to work,働く,はたらく,,verb,godan verb,5,2022-12-28,661,GENKI3_L07,働く,働いた,働いて,,,,,,,働きます,働きました,,,,,,,,働かない,働かなかった,働かなくて,,,,,,,働きません,働きませんでした,,,,,,,,verb godan-verb genki3-l07
-0ef4603a-e224-4fd9-9993-7f1430bf1b27,to gain weight,太る,ふとる,,verb,godan verb,5,2022-12-28,662,GENKI3_L07,太る,太った,太って,,,,,,,太ります,太りました,,,,,,,,太らない,太らなかった,太らなくて,,,,,,,太りません,太りませんでした,,,,,,,,verb godan-verb genki3-l07
-1965b2ae-4c4e-4cce-8f27-e323e4f2d5fe,overweight,太っています,ふとっています,,expression,,,2022-12-28,663,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l07
-44794c0c-bc96-4815-b8d1-2bcf7ccb4106,to lose weight,痩せる,やせる,,verb,ichidan verb,4,2022-12-28,664,GENKI3_L07,痩せる,痩せた,痩せて,,,,,,,痩せます,痩せました,,,,,,,,痩せない,痩せなかった,痩せなくて,,,,,,,痩せません,痩せませんでした,,,,,,,,verb ichidan-verb genki3-l07
-2912e4e8-bfc0-4028-aa24-90d1fe929e2b,thin,痩せています,やせています,,expression,,,2022-12-28,665,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l07
-08cb3130-9ccd-48cc-ae70-d4cf06813d70,...but,〜が,が,,conjunction,,,2023-01-16,666,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,conjunction genki3-l07
-471243c4-6f8b-4475-931f-7e5920c2c681,not ... anything,何も,なにも,,expression,,3,2023-01-16,667,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l07
-fe322488-4642-45ac-acfa-cbe0563d3f08,not particularly; nothing in particular,別に,べつに,,adverb,,3,2023-01-16,668,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adverb genki3-l07
-41e2eb76-ea86-488c-97fd-9d8fef5b82ad,if you like,よかったら,よかったら,良かったら,expression,,,2023-01-16,669,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l07
-42154f3f-434e-4655-8aac-184d8144e666,japanese cherry birch,梓,あずさ,,noun,,,2023-01-19,670,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-edfe69b6-7431-4fc2-8a9f-9c44e0debd05,as expected; sure enough,やっぱり,やっぱり,矢っ張り,adverb,,2,2023-01-19,671,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adverb
-a236594c-f447-4dc4-9aa4-782b76c2e325,bullet train,新幹線,しんかんせん,,noun,,2,2023-01-24,672,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,transportation noun
-eac4900c-87dd-47d2-b598-42fff868832f,"clump, cluster, lump",塊,かたまり,,noun,,2,2023-01-24,673,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-3b615b81-5f7d-4672-8756-51bdfddc95a5,"soul, spirit",魂,だましい,,noun,,,2023-01-24,674,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-d0623e4f-7754-47c6-aa7b-af71cf2dedc4,chrysanthemum,菊,きく,,noun,,,2023-01-28,675,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-d37d3ead-b4d2-4e17-ab5c-37aac9a0d99b,chrysanthemum flower,菊花,きっか,,noun,,,2023-01-28,676,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-dce83318-5555-4ea3-b358-04c1081206f9,weather forecast,天気予報,てんきよほう,,noun,,4,2023-01-28,677,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
-5da770a7-203d-433f-ad98-977cf6ed691e,temperature (weather),気温,きおん,,noun,,3,2023-01-28,678,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
-ba1341eb-aaf5-4174-b971-67eb85a9150d,day after tomorrow,明後日,あさって,,noun,,5,2023-01-28,679,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
-cb740381-d3bf-4965-b1f7-b669c6e2c640,every week,毎週,まいしゅう,,noun,,5,2023-01-28,680,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
-0d0e341b-086a-46bc-aae1-430f620e3529,this month,今月,こんげつ,,noun,,5,2023-01-28,681,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
-282d2013-738f-4203-8978-a94672f013fd,next month,来月,らいげつ,,noun,,5,2023-01-28,682,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
-37e210d1-608e-48ca-9224-3aa3bd222557,job; work; occupation,仕事,しごと,,noun,,5,2023-01-28,683,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
-6c8b18b7-9f25-42ff-9688-355ca9cf148f,camera,カメラ,かめら,,noun,,5,2023-01-28,684,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
-a8444c30-e2ab-4cd6-8060-30a8b40b9c16,karaoke,カラオケ,からおけ,,noun,,,2023-01-28,685,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
-2933c37f-6c77-4586-a17e-f0d0960b1082,place,所,どころ,,noun,,5,2023-01-28,686,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
-95b69cbf-4c84-48cc-b954-2e46541f390a,tomato,トマト,とまと,,noun,,5,2023-01-28,687,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
-d801eaaf-ad48-4869-98cf-036ff6586b09,barbecue,バーベキュー,ばあべきゅう,,noun,,,2023-01-28,688,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
-eb11e32d-299a-414d-907e-bc427df1485f,homestay; living with local family,ホームステイ,ほおむすてい,,noun,,,2023-01-28,689,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
-8b86041d-869a-45d2-9b57-b9932b33ab51,Spain,スペイン,すぺいん,西班牙,noun,,,2023-01-28,690,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
-e22a35df-233d-4fac-95b4-bc365e227126,something,何か,なにか,,noun,,3,2023-01-28,691,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
+64aafc63-0368-4042-ba5b-17bdc79dc01a,head,頭,あたま,,noun,,,2023-01-28,652,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+d77dfdc7-5046-4e92-85de-c42eb6e54473,"bright, smart, clever",頭がいい,あたまがいい,,adjective,yoi adjective,,2022-12-26,653,GENKI3_L07,頭がいい,頭がよかった,,,,,,,,,,,,,,,,,頭がよくない,頭がよくなかった,,,,,,,,,,,,,,,,,adjective yoi-adjective genki3-l07
+b2a15708-d53d-4a6c-86b0-471bd76d6779,"kind, gentle, friendly, nice",親切,しんせつ,,adjective,na adjective,4,2022-12-26,654,GENKI3_L07,親切だ,親切だった,,,,,,,,,,,,,,,,,親切じゃない,親切じゃなかった,,,,,,,,,,,,,,,,,adjective na-adjective genki3-l07
+1cdf6da4-2dab-494f-af52-eb0dd3cd624f,convenient,便利,べんり,,adjective,na adjective,5,2022-12-26,655,GENKI3_L07,便利だ,便利だった,,,,,,,,,,,,,,,,,便利じゃない,便利じゃなかった,,,,,,,,,,,,,,,,,adjective na-adjective genki3-l07
+5420fa69-15ad-4fcc-8064-9fbbe42fdda0,to sing,歌う,うたう,,verb,godan verb,5,2022-12-28,656,GENKI3_L07,歌う,歌った,歌って,,,,,,,歌います,歌いました,,,,,,,,歌わない,歌わなかった,歌わなくて,,,,,,,歌いません,歌いませんでした,,,,,,,,verb godan-verb genki3-l07
+222790be-3f11-476e-80b0-3381f588a560,to put on (one's head),かぶる,かぶる,被る,verb,godan verb,3,2022-12-28,657,GENKI3_L07,かぶる,かぶった,かぶって,,,,,,,かぶります,かぶりました,,,,,,,,かぶらない,かぶらなかった,かぶらなくて,,,,,,,かぶりません,かぶりませんでした,,,,,,,,verb godan-verb genki3-l07
+a7925f9c-1028-42b1-891f-b2b04a34758a,to put on (items below waist),履く,はく,,verb,godan verb,3,2022-12-28,658,GENKI3_L07,履く,履いた,履いて,,,,,,,履きます,履きました,,,,,,,,履かない,履かなかった,履かなくて,,,,,,,履きません,履きませんでした,,,,,,,,verb godan-verb genki3-l07
+a2957ec5-7725-4d5d-803b-9ad297aef01b,i know,知っています,しっています,,expression,,,2022-12-28,659,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l07
+0ebb5aeb-3c54-443d-896e-88705810cd12,I do not know,知りません,しりません,,expression,,,2022-12-28,660,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l07
+28009363-b4e5-41da-bbb2-7ab5ebeb0bf6,to live in/at,〜にすんでいます,にすんでいます,,suffix,,,2022-12-28,661,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,suffix genki3-l07
+0f66ccc8-823e-4fe9-afb3-109c8aa212e1,to work,働く,はたらく,,verb,godan verb,5,2022-12-28,662,GENKI3_L07,働く,働いた,働いて,,,,,,,働きます,働きました,,,,,,,,働かない,働かなかった,働かなくて,,,,,,,働きません,働きませんでした,,,,,,,,verb godan-verb genki3-l07
+0ef4603a-e224-4fd9-9993-7f1430bf1b27,to gain weight,太る,ふとる,,verb,godan verb,5,2022-12-28,663,GENKI3_L07,太る,太った,太って,,,,,,,太ります,太りました,,,,,,,,太らない,太らなかった,太らなくて,,,,,,,太りません,太りませんでした,,,,,,,,verb godan-verb genki3-l07
+1965b2ae-4c4e-4cce-8f27-e323e4f2d5fe,overweight,太っています,ふとっています,,expression,,,2022-12-28,664,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l07
+44794c0c-bc96-4815-b8d1-2bcf7ccb4106,to lose weight,痩せる,やせる,,verb,ichidan verb,4,2022-12-28,665,GENKI3_L07,痩せる,痩せた,痩せて,,,,,,,痩せます,痩せました,,,,,,,,痩せない,痩せなかった,痩せなくて,,,,,,,痩せません,痩せませんでした,,,,,,,,verb ichidan-verb genki3-l07
+2912e4e8-bfc0-4028-aa24-90d1fe929e2b,thin,痩せています,やせています,,expression,,,2022-12-28,666,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l07
+08cb3130-9ccd-48cc-ae70-d4cf06813d70,...but,〜が,が,,conjunction,,,2023-01-16,667,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,conjunction genki3-l07
+471243c4-6f8b-4475-931f-7e5920c2c681,not ... anything,何も,なにも,,expression,,3,2023-01-16,668,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l07
+fe322488-4642-45ac-acfa-cbe0563d3f08,not particularly; nothing in particular,別に,べつに,,adverb,,3,2023-01-16,669,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adverb genki3-l07
+41e2eb76-ea86-488c-97fd-9d8fef5b82ad,if you like,よかったら,よかったら,良かったら,expression,,,2023-01-16,670,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l07
+42154f3f-434e-4655-8aac-184d8144e666,japanese cherry birch,梓,あずさ,,noun,,,2023-01-19,671,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+edfe69b6-7431-4fc2-8a9f-9c44e0debd05,as expected; sure enough,やっぱり,やっぱり,矢っ張り,adverb,,2,2023-01-19,672,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adverb
+a236594c-f447-4dc4-9aa4-782b76c2e325,bullet train,新幹線,しんかんせん,,noun,,2,2023-01-24,673,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,transportation noun
+eac4900c-87dd-47d2-b598-42fff868832f,"clump, cluster, lump",塊,かたまり,,noun,,2,2023-01-24,674,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+3b615b81-5f7d-4672-8756-51bdfddc95a5,"soul, spirit",魂,だましい,,noun,,,2023-01-24,675,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+d0623e4f-7754-47c6-aa7b-af71cf2dedc4,chrysanthemum,菊,きく,,noun,,,2023-01-28,676,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+d37d3ead-b4d2-4e17-ab5c-37aac9a0d99b,chrysanthemum flower,菊花,きっか,,noun,,,2023-01-28,677,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+dce83318-5555-4ea3-b358-04c1081206f9,weather forecast,天気予報,てんきよほう,,noun,,4,2023-01-28,678,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
+5da770a7-203d-433f-ad98-977cf6ed691e,temperature (weather),気温,きおん,,noun,,3,2023-01-28,679,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
+ba1341eb-aaf5-4174-b971-67eb85a9150d,day after tomorrow,明後日,あさって,,noun,,5,2023-01-28,680,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
+cb740381-d3bf-4965-b1f7-b669c6e2c640,every week,毎週,まいしゅう,,noun,,5,2023-01-28,681,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
+0d0e341b-086a-46bc-aae1-430f620e3529,this month,今月,こんげつ,,noun,,5,2023-01-28,682,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
+282d2013-738f-4203-8978-a94672f013fd,next month,来月,らいげつ,,noun,,5,2023-01-28,683,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
+37e210d1-608e-48ca-9224-3aa3bd222557,job; work; occupation,仕事,しごと,,noun,,5,2023-01-28,684,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
+6c8b18b7-9f25-42ff-9688-355ca9cf148f,camera,カメラ,かめら,,noun,,5,2023-01-28,685,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
+a8444c30-e2ab-4cd6-8060-30a8b40b9c16,karaoke,カラオケ,からおけ,,noun,,,2023-01-28,686,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
+2933c37f-6c77-4586-a17e-f0d0960b1082,place,所,どころ,,noun,,5,2023-01-28,687,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
+95b69cbf-4c84-48cc-b954-2e46541f390a,tomato,トマト,とまと,,noun,,5,2023-01-28,688,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
+d801eaaf-ad48-4869-98cf-036ff6586b09,barbecue,バーベキュー,ばあべきゅう,,noun,,,2023-01-28,689,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
+eb11e32d-299a-414d-907e-bc427df1485f,homestay; living with local family,ホームステイ,ほおむすてい,,noun,,,2023-01-28,690,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
+8b86041d-869a-45d2-9b57-b9932b33ab51,Spain,スペイン,すぺいん,西班牙,noun,,,2023-01-28,691,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
+e22a35df-233d-4fac-95b4-bc365e227126,something,何か,なにか,,noun,,3,2023-01-28,692,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
