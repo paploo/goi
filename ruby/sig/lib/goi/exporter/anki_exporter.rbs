@@ -11,13 +11,15 @@ module Goi
 
       private
 
-      def deck: () -> String
+      def deck: () -> String?
 
-      def note_type: () -> String
+      def note_type: () -> String?
 
-      def header_row: () -> [String]
+      def header_row: () -> [String]?
 
-      def note_id: (linkage: Model::Vocabulary::Linkages) -> String
+      def tags_column_index: () -> Integer?
+
+      def note_id: (linkage: Model::Vocabulary::Linkages) -> String?
 
       def linkage_rows: (linkages: [Model::Vocabulary::Linkages] linkages) -> [[String?]]
 
@@ -33,9 +35,9 @@ module Goi
 
     class BaseAnkiVocabExporter < BaseAnkiExporter
 
-      NOTE_ID_HEADERS: [String]
+      NOTE_ID_HEADER: String
 
-      TAGS_HEADERS: [String]
+      TAGS_HEADER: String
 
       VOCABULARY_HEADERS: [String]
 

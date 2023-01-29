@@ -26,6 +26,7 @@ module Goi
         io.puts("#separator: Comma") # Required to make columns map.
         io.puts("#deck: #{deck}") unless deck.nil?
         io.puts("#notetype: #{note_type}") unless note_type.nil?
+        io.puts("#tags column: #{tags_column_index + 1}") unless tags_column_index.nil?
         io.puts("#columns: " + header_row.to_csv) unless header_row.nil?
       end
 
@@ -34,6 +35,10 @@ module Goi
       end
 
       def note_type
+        nil
+      end
+
+      def tags_column_index
         nil
       end
 
@@ -59,9 +64,9 @@ module Goi
 
     class BaseAnkiVocabExporter < BaseAnkiExporter
 
-      NOTE_ID_HEADERS = ['id'].freeze
+      NOTE_ID_HEADER = 'id'.freeze
 
-      TAGS_HEADERS = ['tags'].freeze
+      TAGS_HEADER = 'tags'.freeze
 
       VOCABULARY_HEADERS = [
         'definition',
@@ -138,7 +143,9 @@ module Goi
 
       private
 
-      def header_row = NOTE_ID_HEADERS + VOCABULARY_HEADERS + CONJUGATION_HEADERS + TAGS_HEADERS
+      def header_row = [NOTE_ID_HEADER] + VOCABULARY_HEADERS + CONJUGATION_HEADERS + [TAGS_HEADER]
+
+      def tags_column_index = header_row&.index(TAGS_HEADER)
 
       def note_id(linkage:) = linkage.vocabulary.id
 
@@ -172,7 +179,9 @@ module Goi
       # TODO: Switch to config
       def note_type = NOTE_TYPE
 
-      def header_row = NOTE_ID_HEADERS + VOCABULARY_HEADERS + TAGS_HEADERS
+      def header_row = [NOTE_ID_HEADER] + VOCABULARY_HEADERS + [TAGS_HEADER]
+
+      def tags_column_index = header_row?.index(TAGS_HEADER)
 
       def note_id(linkage:) = linkage.vocabulary.id
 
@@ -191,7 +200,9 @@ module Goi
       # TODO: Switch to config
       def note_type = "日本語 Conj".freeze
 
-      def header_row = NOTE_ID_HEADERS + ['vocabulary_id'] + VOCABULARY_HEADERS + CONJUGATION_HEADERS + TAGS_HEADERS
+      def header_row = [NOTE_ID_HEADER] + ['vocabulary_id'] + VOCABULARY_HEADERS + CONJUGATION_HEADERS + [TAGS_HEADER]
+
+      def tags_column_index = header_row?.index(TAGS_HEADER)
 
       # We could use the conjugation set ID, but if we ever do advanced management in the DB, the ID could be transitory,
       # so we use the vocab id itself. Note that the same PK is fine by anki if the note type is different.
