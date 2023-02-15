@@ -238,7 +238,7 @@ d7dc5e63-a1ca-58e6-9c31-047e23342953,often; much,よく,よく,良く,adverb,,,2
 31df08c1-4538-5a5f-aa61-af9e88805bd5,that's so; isn't it?,そうですね,そうですね,,expression,,,2022-07-24,235,GENKI3_L03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l03
 7d85fe8c-2226-573f-a219-0f2def303b50,but,でも,でも,,conjunction,,5,2022-07-24,236,GENKI3_L03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,conjunction genki3-l03
 4fe504e0-3bf5-5480-98e6-5e626dddc417,"How about...?, How is...?",どうですか,どうですか,,expression,,,2022-07-24,237,GENKI3_L03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l03
-50ec881b-73e0-502b-8316-3d67e8dababb,everyone; everybody,みんな,みんな,皆,noun,,5,2022-07-24,238,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+50ec881b-73e0-502b-8316-3d67e8dababb,everyone; everybody,みんな,みんな,皆,noun,,5,2022-07-24,238,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
 f5f775ad-523f-5888-b269-fcb13c1c1051,i'm okay; no problem,大丈夫,だいじょうぶ,,expression,,5,2022-07-24,239,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l05
 6ae314ed-22ae-5a5f-8e43-c5165e6eb3a1,I'm okay; no thank you; it's all right,大丈夫です,だいじょうぶです,,expression,,,2022-07-24,240,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
 8640d0ab-1efc-5b18-a49c-564f8e53d65c,little quantity; few,少し,すこし,,adverb,,5,2022-07-24,241,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adverb
@@ -428,7 +428,7 @@ e2a1e5ef-c9d8-5554-a912-e6014d2c0f35,small child; cute small version of someone,
 281d7359-80a0-519d-9c57-504f35bfd5ee,heated table,こたつ,こたつ,,noun,,1,2022-08-13,425,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 c3f5ef65-8025-5f56-b5e1-efc61a1c81bc,Japanese bedding,布団,ふとん,,noun,,4,2022-08-13,426,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 49dcb689-b576-56c7-b9f6-1da98acb2667,to collect; to assemble; to gather,集める,あつめる,,verb,ichidan verb,4,2022-08-22,427,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,verb ichidan-verb
-4f3a6c3d-94a5-54c7-bd5c-c16d008d8cf7,cheers,乾杯,かんぱい,,noun,,2,2022-08-27,428,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+4f3a6c3d-94a5-54c7-bd5c-c16d008d8cf7,cheers,乾杯,かんぱい,,noun,,2,2022-08-27,428,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
 4a03f495-c343-5e8f-a1fe-fd1b6624f63a,laundry,洗濯,せんたく,,noun,,5,2022-08-29,429,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 4126b8e5-2e98-52ad-b637-7bd8ed566781,starry sky,星空,ほしぞら,,noun,,,2022-08-29,430,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 ee877e49-b3e4-5e51-a969-c620c8407809,"lively, energetic; well, healthy",元気,げんき,,adjective,na adjective,5,2022-09-02,431,GENKI3_L05,元気だ,元気だった,,,,,,,,,,,,,,,,,元気じゃない,元気じゃなかった,,,,,,,,,,,,,,,,,adjective na-adjective genki3-l05
@@ -622,11 +622,11 @@ e0221c1c-46d8-41a2-84ad-cfae044d6c0a,the following day,翌日,よくじつ,,noun
 4819b7d2-e342-4f75-a37c-f310a8897f6c,...room,〜室,しつ,,suffix,,1,2022-12-24,619,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,suffix
 723f71ed-a490-4215-a2d2-383cb457a9d0,...shop,〜屋,や,,suffix,,,2022-12-24,620,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,suffix
 08d3f50a-8030-47ad-97a7-afa79f92a71f,"fast, quick",速い,はやい,,adjective,i adjective,5,2022-12-24,621,GENKI3_L07,速い,速かった,,,,,,,,,,,,,,,,,速くない,速くなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l07
-24fca95f-34e4-4585-965e-3a6440e60594,"yeah, yes (informal)",うん,うん,,interjection,,,2022-12-24,622,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,interjection
-ab2654c4-b1ce-42b2-9e8e-1885ff4b567e,"um, er, well; no (informal)",ううん,ううん,,interjection,,,2022-12-29,623,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,interjection
+24fca95f-34e4-4585-965e-3a6440e60594,"yeah, yes (informal)",うん,うん,,interjection,,,2022-12-24,622,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,interjection genki3-l08
+ab2654c4-b1ce-42b2-9e8e-1885ff4b567e,"um, er, well; no (informal)",ううん,ううん,,interjection,,,2022-12-29,623,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,interjection genki3-l08
 72520738-32e4-463f-90fa-3fc467b6c1cf,"eh?, what?, oh?",え,え,,interjection,,,2022-12-24,624,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,interjection
 f6710348-4b06-4aad-a443-d1e151651a37,"to fall (of rain, snow, ash); to beam in (of sun or moon light)",降る,ふる,,verb,godan verb,5,2022-12-26,625,,降る,降った,降って,,,,,,,降ります,降りました,,,,,,,,降らない,降らなかった,降らなくて,,,,,,,降りません,降りませんでした,,,,,,,,weather verb godan-verb
-ecb6ce90-dc84-4036-82e8-f38536f49638,"to say; to name, to call",言う,いう,,verb,godan verb,5,2022-12-26,626,,言う,言った,言って,,,,,,,言います,言いました,,,,,,,,言わない,言わなかった,言わなくて,,,,,,,言いません,言いませんでした,,,,,,,,verb godan-verb
+ecb6ce90-dc84-4036-82e8-f38536f49638,"to say; to name, to call",言う,いう,,verb,godan verb,5,2022-12-26,626,GENKI3_L08,言う,言った,言って,,,,,,,言います,言いました,,,,,,,,言わない,言わなかった,言わなくて,,,,,,,言いません,言いませんでした,,,,,,,,verb godan-verb genki3-l08
 b5bf3815-355e-43ea-8a27-73d546ac818e,paper,紙,かみ,,noun,,5,2022-12-26,627,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 d688e5d6-0cea-436b-b796-a2f7f2928b0f,cross mark; × (incorrect),罰点,ばってん,,noun,,,2022-12-26,628,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 7e5656f4-f427-44aa-a4c4-3ebb119b3900,circle; ○ (correct mark),丸,まる,,noun,,3,2022-12-26,629,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
@@ -683,23 +683,44 @@ d37d3ead-b4d2-4e17-ab5c-37aac9a0d99b,chrysanthemum flower,菊花,きっか,,noun
 65c8ad73-6262-4d56-b95c-d2a516177874,I only know a little Japanese,日本語少しだけ分かります,にほんご　すこし　だけ　わかります,,expression,,,2023-01-29,680,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
 5003d035-5662-4821-aed7-3aae20437f1a,"Sorry, I don't understand",すみません、分かりません,すみません、わかりません,,expression,,,2023-01-29,681,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
 b61642cd-1a9e-4f72-90e9-39dab05f588d,I still can't speak Japanese well,日本語はまだまだです,日本語　は　まだまだ　です,,expression,,,2023-01-29,682,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
-c0cd10f5-b523-41fe-8bf0-73e46c2d1a69,charm; amulet,お守り,おまもり,,noun,,,2023-02-07,683,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-ac678aee-6ca8-408e-ad9e-298d6317b3ab,household amulet,お札,おふだ,御札,noun,,,2023-02-07,684,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-f497e598-0605-420a-b613-a1d6291344a5,household shrine,神棚,かみだな,,noun,,,2023-02-07,685,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-477cd7ce-0231-423e-8339-3c3bfdbbf23b,shinto bell,鈴,すず,,noun,,2,2023-02-07,686,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-dce83318-5555-4ea3-b358-04c1081206f9,weather forecast,天気予報,てんきよほう,,noun,,4,2023-01-28,687,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
-5da770a7-203d-433f-ad98-977cf6ed691e,temperature (weather),気温,きおん,,noun,,3,2023-01-28,688,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
-ba1341eb-aaf5-4174-b971-67eb85a9150d,day after tomorrow,明後日,あさって,,noun,,5,2023-01-28,689,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
-cb740381-d3bf-4965-b1f7-b669c6e2c640,every week,毎週,まいしゅう,,noun,,5,2023-01-28,690,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
-0d0e341b-086a-46bc-aae1-430f620e3529,this month,今月,こんげつ,,noun,,5,2023-01-28,691,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
-282d2013-738f-4203-8978-a94672f013fd,next month,来月,らいげつ,,noun,,5,2023-01-28,692,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
-37e210d1-608e-48ca-9224-3aa3bd222557,job; work; occupation,仕事,しごと,,noun,,5,2023-01-28,693,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
-6c8b18b7-9f25-42ff-9688-355ca9cf148f,camera,カメラ,かめら,,noun,,5,2023-01-28,694,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
-a8444c30-e2ab-4cd6-8060-30a8b40b9c16,karaoke,カラオケ,からおけ,,noun,,,2023-01-28,695,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
-2933c37f-6c77-4586-a17e-f0d0960b1082,place,所,どころ,,noun,,5,2023-01-28,696,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
-95b69cbf-4c84-48cc-b954-2e46541f390a,tomato,トマト,とまと,,noun,,5,2023-01-28,697,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
-d801eaaf-ad48-4869-98cf-036ff6586b09,barbecue,バーベキュー,ばあべきゅう,,noun,,,2023-01-28,698,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
-eb11e32d-299a-414d-907e-bc427df1485f,homestay; living with local family,ホームステイ,ほおむすてい,,noun,,,2023-01-28,699,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
-8b86041d-869a-45d2-9b57-b9932b33ab51,Spain,スペイン,すぺいん,西班牙,noun,,,2023-01-28,700,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
-e22a35df-233d-4fac-95b4-bc365e227126,something,何か,なにか,,noun,,3,2023-01-28,701,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
-4ed1fe25-c2cc-4b91-b353-44e4e2cad761,famous,有名,ゆうめい,,adjective,na adjective,5,2023-02-05,702,GENKI3_L08,有名だ,有名だった,,,,,,,,,,,,,,,,,有名じゃない,有名じゃなかった,,,,,,,,,,,,,,,,,adjective na-adjective genki3-l08
+e9a4ba1c-17c6-4b99-8343-d0b1364186a4,Shinto,神道,しんとう,,noun,,,2023-02-07,683,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+c0cd10f5-b523-41fe-8bf0-73e46c2d1a69,charm; amulet,お守り,おまもり,,noun,,,2023-02-07,684,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+ac678aee-6ca8-408e-ad9e-298d6317b3ab,household amulet,お札,おふだ,御札,noun,,,2023-02-07,685,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+f497e598-0605-420a-b613-a1d6291344a5,household shrine,神棚,かみだな,,noun,,,2023-02-07,686,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+477cd7ce-0231-423e-8339-3c3bfdbbf23b,shinto bell,鈴,すず,,noun,,2,2023-02-07,687,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+c874b9d4-72c6-4177-ac37-9c7474022afe,Tsubaki Grand Shrine,椿大神社,つばきおおかみやしろ,,noun,,,2023-02-13,688,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+454b8cc5-3c87-40ff-b026-effc0042555b,Amaterasu Oomikami,天照大神,あまてらすおおみかみ,天照大御神,noun,,,2023-02-13,689,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+6fe16c3d-4c06-4281-9129-377ec4d05e48,Sarutahiko Ookami,猿田彦大神,さろたひこおおかみ,猿田毘古大神,noun,,,2023-02-13,690,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+73d6d9ef-8e00-4762-9049-e75b23e7c6f3,Ame-no-Uzume,天鈿女命,あめのうずめのみこと,天宇受売命,noun,,,2023-02-13,691,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+dce83318-5555-4ea3-b358-04c1081206f9,weather forecast,天気予報,てんきよほう,,noun,,4,2023-01-28,692,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
+5da770a7-203d-433f-ad98-977cf6ed691e,temperature (weather),気温,きおん,,noun,,3,2023-01-28,693,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
+ba1341eb-aaf5-4174-b971-67eb85a9150d,day after tomorrow,明後日,あさって,,noun,,5,2023-01-28,694,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
+cb740381-d3bf-4965-b1f7-b669c6e2c640,every week,毎週,まいしゅう,,noun,,5,2023-01-28,695,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
+0d0e341b-086a-46bc-aae1-430f620e3529,this month,今月,こんげつ,,noun,,5,2023-01-28,696,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
+282d2013-738f-4203-8978-a94672f013fd,next month,来月,らいげつ,,noun,,5,2023-01-28,697,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
+37e210d1-608e-48ca-9224-3aa3bd222557,job; work; occupation,仕事,しごと,,noun,,5,2023-01-28,698,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
+6c8b18b7-9f25-42ff-9688-355ca9cf148f,camera,カメラ,かめら,,noun,,5,2023-01-28,699,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
+a8444c30-e2ab-4cd6-8060-30a8b40b9c16,karaoke,カラオケ,からおけ,,noun,,,2023-01-28,700,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
+2933c37f-6c77-4586-a17e-f0d0960b1082,place,所,どころ,,noun,,5,2023-01-28,701,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
+95b69cbf-4c84-48cc-b954-2e46541f390a,tomato,トマト,とまと,,noun,,5,2023-01-28,702,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
+d801eaaf-ad48-4869-98cf-036ff6586b09,barbecue,バーベキュー,ばあべきゅう,,noun,,,2023-01-28,703,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
+eb11e32d-299a-414d-907e-bc427df1485f,homestay; living with local family,ホームステイ,ほおむすてい,,noun,,,2023-01-28,704,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
+8b86041d-869a-45d2-9b57-b9932b33ab51,Spain,スペイン,すぺいん,西班牙,noun,,,2023-01-28,705,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
+e22a35df-233d-4fac-95b4-bc365e227126,something,何か,なにか,,noun,,3,2023-01-28,706,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
+4ed1fe25-c2cc-4b91-b353-44e4e2cad761,famous,有名,ゆうめい,,adjective,na adjective,5,2023-02-05,707,GENKI3_L08,有名だ,有名だった,,,,,,,,,,,,,,,,,有名じゃない,有名じゃなかった,,,,,,,,,,,,,,,,,adjective na-adjective genki3-l08
+dbe2efeb-e5d8-4c1b-a882-d283af00d09c,to wash,洗う,あらう,,verb,godan verb,5,2023-02-13,708,GENKI3_L08,洗う,洗った,,,,,,,,洗います,洗いました,,,,,,,,洗わない,洗わなかった,,,,,,,,洗いません,洗いませんでした,,,,,,,,verb godan-verb genki3-l08
+e79d58a2-5b9f-44c7-9be4-770d5a542b21,to need,いる,いる,要る,verb,godan verb,5,2023-02-13,709,GENKI3_L08,いる,いった,,,,,,,,いります,いりました,,,,,,,,いらない,いらなかった,,,,,,,,いりません,いりませんでした,,,,,,,,verb godan-verb genki3-l08
+57b262a8-7dd2-424a-95ab-d477a9255d36,late,遅く,おそく,,adverb,,,2023-02-13,710,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adverb
+59e112f2-caab-4eba-b510-0a299237932b,to result in; to become,なる,なる,成る,verb,godan verb,5,2023-02-13,711,,なる,なった,,,,,,,,なります,なりました,,,,,,,,ならない,ならなかった,,,,,,,,なりません,なりませんでした,,,,,,,,verb godan-verb
+863a0940-64c2-4e74-be89-4920f2caa450,to be late,遅くなる,おそくなる,,verb,godan verb,,2023-02-13,712,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,verb godan-verb genki3-l08
+a4d7a4f5-85a8-470d-bf13-0ab13f937452,to take a bath,お風呂に入る,おふろにはいる,,verb,godan verb,,2023-02-13,713,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,verb godan-verb genki3-l08
+6f706c69-bf41-4ce3-a125-2c661c83e3f9,"to think, to consider",思う,おもう,,verb,godan verb,4,2023-02-13,714,GENKI3_L08,思う,思った,,,,,,,,思います,思いました,,,,,,,,思わない,思わなかった,,,,,,,,思いません,思いませんでした,,,,,,,,verb godan-verb genki3-l08
+5465dcfd-3caa-4347-9ced-ba2accdc25ff,to cut,切る,きる,,verb,godan verb,5,2023-02-13,715,GENKI3_L08,切る,切った,,,,,,,,切ります,切りました,,,,,,,,切らない,切らなかった,,,,,,,,切りません,切りませんでした,,,,,,,,verb godan-verb genki3-l08
+99118f6a-e499-4089-a0af-8733667b391d,to make,作る,つくる,,verb,godan verb,5,2023-02-13,716,GENKI3_L08,作る,作った,,,,,,,,作ります,作りました,,,,,,,,作らない,作らなかった,,,,,,,,作りません,作りませんでした,,,,,,,,verb godan-verb genki3-l08
+7e4fb04c-2eb7-49b2-b968-fac6277b7a24,to take (a thing),持っていく,もっていく,持って行く,verb,iku verb,,2023-02-13,717,GENKI3_L08,持っていく,持っていった,,,,,,,,持っていきます,持っていきました,,,,,,,,持っていかない,持っていかなかった,,,,,,,,持っていきません,持っていきませんでした,,,,,,,,verb iku-verb genki3-l08
+d4260f97-87d1-4fb5-919b-78c83b7e018e,to throw away,捨てる,すてる,,verb,ichidan verb,4,2023-02-13,718,GENKI3_L08,捨てる,捨てた,,,,,,,,捨てます,捨てました,,,,,,,,捨てない,捨てなかった,,,,,,,,捨てません,捨てませんでした,,,,,,,,verb ichidan-verb genki3-l08
+b7fcec73-d745-43b3-a936-af1fa2f92b87,to begin,始める,はじめる,,verb,ichidan verb,4,2023-02-13,719,GENKI3_L08,始める,始めた,,,,,,,,始めます,始めました,,,,,,,,始めない,始めなかった,,,,,,,,始めません,始めませんでした,,,,,,,,verb ichidan-verb genki3-l08
+8632038c-1185-43be-ba47-9c89cbf22491,to operate machine; to drive,運転する,うんてんする,,verb,suru verb,3,2023-02-13,720,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,verb suru-verb genki3-l08
+98fd7ee4-f94c-44d8-8bc4-c8ce98cdc295,to do laundry,洗濯する,せんたくする,,verb,suru verb,5,2023-02-13,721,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,verb suru-verb genki3-l08
+ad65a5b9-f5c8-4031-b1ae-79b73ffbc605,to clean,掃除する,そうじする,,verb,suru verb,5,2023-02-13,722,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,verb suru-verb genki3-l08
+83670490-efbb-4edf-b831-bf8b63eade84,to cook,料理する,りょうりする,,verb,suru verb,5,2023-02-13,723,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,verb suru-verb genki3-l08
