@@ -686,7 +686,7 @@ d37d3ead-b4d2-4e17-ab5c-37aac9a0d99b,chrysanthemum flower,菊花,きっか,,noun
 b61642cd-1a9e-4f72-90e9-39dab05f588d,I still can't speak Japanese well,日本語はまだまだです,日本語　は　まだまだ　です,,expression,,,2023-01-29,683,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
 e9a4ba1c-17c6-4b99-8343-d0b1364186a4,Shinto,神道,しんとう,,noun,,,2023-02-07,684,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,shinto noun
 c0cd10f5-b523-41fe-8bf0-73e46c2d1a69,charm; amulet,お守り,おまもり,,noun,,,2023-02-07,685,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,shinto noun
-ac678aee-6ca8-408e-ad9e-298d6317b3ab,household amulet,お札,おふだ,おかみ,noun,,,2023-02-07,686,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,shinto noun
+ac678aee-6ca8-408e-ad9e-298d6317b3ab,household amulet,お札,おふだ,お神札,noun,,,2023-02-07,686,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,shinto noun
 44ee0b58-4002-4765-825d-d4a1c87be36a,kami amulet,神札,しんさつ,,noun,,,2023-02-14,687,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,shinto noun
 de330115-bfcc-5e58-9784-3db94b52aecb,ofuda of Goddes of the Sun,神宮大麻,じんぐうたいま,,noun,,,2023-02-23,688,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,shinto noun
 f497e598-0605-420a-b613-a1d6291344a5,household shrine,神棚,かみだな,,noun,,,2023-02-07,689,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,shinto noun
@@ -707,7 +707,7 @@ a8444c30-e2ab-4cd6-8060-30a8b40b9c16,karaoke,カラオケ,からおけ,,noun,,,2
 2933c37f-6c77-4586-a17e-f0d0960b1082,place,所,どころ,,noun,,5,2023-01-28,704,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
 95b69cbf-4c84-48cc-b954-2e46541f390a,tomato,トマト,とまと,,noun,,5,2023-01-28,705,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
 d801eaaf-ad48-4869-98cf-036ff6586b09,barbecue,バーベキュー,ばあべきゅう,,noun,,,2023-01-28,706,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
-eb11e32d-299a-414d-907e-bc427df1485f,homestay; living with local family,お札,ほおむすてい,,noun,,,2023-01-28,707,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
+eb11e32d-299a-414d-907e-bc427df1485f,homestay; living with local family,ホームステイ,ほおむすてい,,noun,,,2023-01-28,707,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
 8b86041d-869a-45d2-9b57-b9932b33ab51,Spain,スペイン,すぺいん,西班牙,noun,,,2023-01-28,708,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
 e22a35df-233d-4fac-95b4-bc365e227126,something,何か,なにか,,noun,,3,2023-01-28,709,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
 4ed1fe25-c2cc-4b91-b353-44e4e2cad761,famous,有名,ゆうめい,,adjective,na adjective,5,2023-02-05,710,GENKI3_L08,有名だ,有名だった,,,,,,,,,,,,,,,,,有名じゃない,有名じゃなかった,,,,,,,,,,,,,,,,,adjective na-adjective genki3-l08
@@ -739,3 +739,6 @@ f40b78a6-8934-455e-9e9c-307709705c6e,perfect day (weather),日和,びより,,nou
 3a33ac74-90b7-49db-b9a0-24edda83b4ab,nothing; of no concern,なんでもない,なんでもない,何でもない,expression,,,2023-02-22,736,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
 447e4156-378f-4aa0-a295-dc355244c069,please god,神様お願い,かみさまおねがい,,expression,,,2023-02-22,737,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
 2e158218-7876-4dbb-9bb0-29a1ce3e72b7,memorization,暗記,あんき,,noun,,3,2023-02-22,738,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+769fe95d-2271-4548-b9c8-11eb43fb36a6,What is this in Japanese?,これは日本語で何ですか,これはにほんごでなんですか,これは日本語が何ですか,expression,,,2023-02-25,739,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
+1686392c-b1ca-47e5-9e95-58eda23bcd32,What is __ in Japanese?,日本語で〇〇は何ですか,にほんごで〇〇はなんですか,,expression,,,2023-02-25,740,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
+bb7a3612-2498-40bd-a340-a4106d2010b8,I ask that you purify and cleanse me,祓え給え、清め給え,はらいたまえ、きよめたまえ,,expression,,,2023-02-25,741,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,shinto expression
