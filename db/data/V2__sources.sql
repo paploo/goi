@@ -129,6 +129,14 @@ insert into source.lesson (code, lesson_code, source_code, label, section_number
 -- Satori Reader
 --
 
-insert into source.source (code, label) values ('SATORI', 'Satori Reader');
+insert into source.source (code, label, url, description) values ('SATORI', 'Satori Reader', 'https://www.satorireader.com', null);
 
-insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('SATORI_AKIKO', 'AKIKO', 'SATORI', 'Akiko''s American Foreign Exchange', null, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number, url, description) values ('SATORI_AKIKO', 'AKIKO', 'SATORI', 'Akiko''s American Foreign Exchange', null, null, 'https://www.satorireader.com/series/akiko-nikki', null);
+
+--
+-- Tofugu
+--
+
+insert into source.source (code, label, url, description) values ('TOFUGU', 'Tofugu', 'https://www.tofugu.com', null);
+
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number, url, description) values ('TOFUGU_JAPANESE_COUNTER_TSU', 'JAPANESE_COUNTER_TSU', 'TOFUGU', 'Japanese Counter 〜つ', null, null, 'https://www.tofugu.com/japanese/japanese-counter-tsu/', null)

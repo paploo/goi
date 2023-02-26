@@ -680,10 +680,10 @@ eac4900c-87dd-47d2-b598-42fff868832f,"clump, cluster, lump",塊,かたまり,,no
 d0623e4f-7754-47c6-aa7b-af71cf2dedc4,chrysanthemum,菊,きく,,noun,,,2023-01-28,677,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 d37d3ead-b4d2-4e17-ab5c-37aac9a0d99b,chrysanthemum flower,菊花,きっか,,noun,,,2023-01-28,678,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 6f2e00e5-3045-47e7-807d-cb5165c208a7,to be able to speak,話せる,はなせる,,verb,ichidan verb,,2023-01-29,679,,話せる,話せた,話せて,,,,,,,話せます,話せました,,,,,,,,話せない,話せなかった,話せなくて,,,,,,,話せません,話せませんでした,,,,,,,,verb ichidan-verb
-42e0676e-88bd-4999-bb56-b70fea5314c6,I can't speak much Japanese,日本語があまり話せません,にほんご　が　あまり　はなせません,,expression,,,2023-01-29,680,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
-65c8ad73-6262-4d56-b95c-d2a516177874,I only know a little Japanese,日本語少しだけ分かります,にほんご　すこし　だけ　わかります,,expression,,,2023-01-29,681,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
+42e0676e-88bd-4999-bb56-b70fea5314c6,I can't speak much Japanese,日本語があまり話せません,にほんご が あまり はなせません,,expression,,,2023-01-29,680,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
+65c8ad73-6262-4d56-b95c-d2a516177874,I only know a little Japanese,日本語少しだけ分かります,にほんご すこし だけ わかります,,expression,,,2023-01-29,681,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
 5003d035-5662-4821-aed7-3aae20437f1a,"Sorry, I don't understand",すみません、分かりません,すみません、わかりません,,expression,,,2023-01-29,682,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
-b61642cd-1a9e-4f72-90e9-39dab05f588d,I still can't speak Japanese well,日本語はまだまだです,日本語　は　まだまだ　です,,expression,,,2023-01-29,683,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
+b61642cd-1a9e-4f72-90e9-39dab05f588d,I still can't speak Japanese well,日本語はまだまだです,にほんご は まだまだ です,,expression,,,2023-01-29,683,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
 e9a4ba1c-17c6-4b99-8343-d0b1364186a4,Shinto,神道,しんとう,,noun,,,2023-02-07,684,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,shinto noun
 c0cd10f5-b523-41fe-8bf0-73e46c2d1a69,charm; amulet,お守り,おまもり,,noun,,,2023-02-07,685,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,shinto noun
 ac678aee-6ca8-408e-ad9e-298d6317b3ab,household amulet,お札,おふだ,お神札,noun,,,2023-02-07,686,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,shinto noun
@@ -739,6 +739,17 @@ f40b78a6-8934-455e-9e9c-307709705c6e,perfect day (weather),日和,びより,,nou
 3a33ac74-90b7-49db-b9a0-24edda83b4ab,nothing; of no concern,なんでもない,なんでもない,何でもない,expression,,,2023-02-22,736,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
 447e4156-378f-4aa0-a295-dc355244c069,please god,神様お願い,かみさまおねがい,,expression,,,2023-02-22,737,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
 2e158218-7876-4dbb-9bb0-29a1ce3e72b7,memorization,暗記,あんき,,noun,,3,2023-02-22,738,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-769fe95d-2271-4548-b9c8-11eb43fb36a6,What is this in Japanese?,これは日本語で何ですか,これはにほんごでなんですか,これは日本語が何ですか,expression,,,2023-02-25,739,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
-1686392c-b1ca-47e5-9e95-58eda23bcd32,What is __ in Japanese?,日本語で〇〇は何ですか,にほんごで〇〇はなんですか,,expression,,,2023-02-25,740,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
+769fe95d-2271-4548-b9c8-11eb43fb36a6,What is this in Japanese?,これは日本語で何ですか,これ は にほんご で なん です か,これは日本語が何ですか,expression,,,2023-02-25,739,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
+1686392c-b1ca-47e5-9e95-58eda23bcd32,What is __ in Japanese?,日本語で〇〇は何ですか,にほんご で 〇〇 は なん です か,,expression,,,2023-02-25,740,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
 bb7a3612-2498-40bd-a340-a4106d2010b8,I ask that you purify and cleanse me,祓え給え、清め給え,はらいたまえ、きよめたまえ,,expression,,,2023-02-25,741,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,shinto expression
+43c22ea9-1121-42cc-99ba-ebcf12b72ba6,one thing,一つ,ひとつ,,noun,,5,2023-02-26,742,TOFUGU_JAPANESE_COUNTER_TSU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counters noun tofugu-japanese-counter-tsu
+b645172b-fdca-489b-9928-61d7446c43db,two things,二つ,ふたつ,,noun,,5,2023-02-26,743,TOFUGU_JAPANESE_COUNTER_TSU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counters noun tofugu-japanese-counter-tsu
+8af964ab-e81b-4e1b-a32a-967ed918ddb1,three things,三つ,みっつ,,noun,,5,2023-02-26,744,TOFUGU_JAPANESE_COUNTER_TSU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counters noun tofugu-japanese-counter-tsu
+00991bf7-bbb0-43e9-98e5-125d8918259a,four things,四つ,よっつ,,noun,,5,2023-02-26,745,TOFUGU_JAPANESE_COUNTER_TSU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counters noun tofugu-japanese-counter-tsu
+0235c6c0-0996-4b03-a1f3-a3991988022e,five things,五つ,いつつ,,noun,,5,2023-02-26,746,TOFUGU_JAPANESE_COUNTER_TSU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counters noun tofugu-japanese-counter-tsu
+4e042e83-f9cd-4335-9ae0-b07c51b8321f,six things,六つ,むっつ,,noun,,5,2023-02-26,747,TOFUGU_JAPANESE_COUNTER_TSU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counters noun tofugu-japanese-counter-tsu
+4e59bab6-066c-46bf-aaeb-90ebd8455782,seven things,七つ,ななつ,,noun,,5,2023-02-26,748,TOFUGU_JAPANESE_COUNTER_TSU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counters noun tofugu-japanese-counter-tsu
+1dc02b31-a89a-4c9a-9c01-17a9d140f891,eight things,八つ,やっつ,,noun,,5,2023-02-26,749,TOFUGU_JAPANESE_COUNTER_TSU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counters noun tofugu-japanese-counter-tsu
+d353afa8-8c6f-4013-bccf-3697531eaf70,nine things,九つ,ここのつ,,noun,,5,2023-02-26,750,TOFUGU_JAPANESE_COUNTER_TSU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counters noun tofugu-japanese-counter-tsu
+11db4175-cb54-439d-bd1b-662e0ce457b2,ten things,十,とお,,noun,,5,2023-02-26,751,TOFUGU_JAPANESE_COUNTER_TSU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counters noun tofugu-japanese-counter-tsu
+a7b38c4c-749a-4be1-9593-df7f7a72aa97,how many things,いくつ,いくつ,幾つ,noun,,5,2023-02-26,752,TOFUGU_JAPANESE_COUNTER_TSU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counters noun tofugu-japanese-counter-tsu
