@@ -6803,9 +6803,9 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('c3cee3a0-76b6-5d3e-9792-8b924b048bcf', '1686392c-b1ca-47e5-9e95-58eda23bcd32', 'HIRAGANA', 'にほんご で 〇〇 は なん です か');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('7050b053-a509-5053-a7d9-a05ea7fac485', '1686392c-b1ca-47e5-9e95-58eda23bcd32', 'KANJI', '日本語で〇〇は何ですか');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id", "conjugation_set_id") VALUES ('1686392c-b1ca-47e5-9e95-58eda23bcd32', '20ece6aa-9458-5d6f-900d-a9aa6fed9255', 'cf244f6b-b27e-57d4-8f32-7d4086312d74', 'c3cee3a0-76b6-5d3e-9792-8b924b048bcf', NULL, '7050b053-a509-5053-a7d9-a05ea7fac485', NULL);
--- 祓え給え、清め給え | I ask that you purify and cleanse me --;
+-- 祓え給え、清め給え | Cleans please, purify please --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('bb7a3612-2498-40bd-a340-a4106d2010b8', 'EXPRESSION', NULL, NULL, 741, '{shinto}', '2023-02-25');
-INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('15902eaa-a2e6-594a-9277-ee43c91a38bd', 'bb7a3612-2498-40bd-a340-a4106d2010b8', 1, 'I ask that you purify and cleanse me');
+INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('15902eaa-a2e6-594a-9277-ee43c91a38bd', 'bb7a3612-2498-40bd-a340-a4106d2010b8', 1, 'Cleans please, purify please');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('382bf3a0-7618-5dcd-b3bc-e0f230fa1c14', 'bb7a3612-2498-40bd-a340-a4106d2010b8', 'KANJI', '祓え給え、清め給え');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('f564a00c-0655-5bdc-8dab-028c82adb386', 'bb7a3612-2498-40bd-a340-a4106d2010b8', 'HIRAGANA', 'はらいたまえ、きよめたまえ');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('d8b3b26c-567a-584d-9491-3ed2be214401', 'bb7a3612-2498-40bd-a340-a4106d2010b8', 'KANJI', '祓え給え、清め給え');
@@ -6817,6 +6817,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('afe00365-1664-5dfd-959d-f9228a40fb68', '43c22ea9-1121-42cc-99ba-ebcf12b72ba6', 'HIRAGANA', 'ひとつ');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('7c81816e-d25b-5bdf-879a-aa77ef7ca941', '43c22ea9-1121-42cc-99ba-ebcf12b72ba6', 'KANJI', '一つ');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id", "conjugation_set_id") VALUES ('43c22ea9-1121-42cc-99ba-ebcf12b72ba6', '08e6d4ec-1cc7-526f-baea-5a9552e8a295', '813471b5-11ae-59fb-a05e-b1c00a9c8b52', 'afe00365-1664-5dfd-959d-f9228a40fb68', NULL, '7c81816e-d25b-5bdf-879a-aa77ef7ca941', NULL);
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('43c22ea9-1121-42cc-99ba-ebcf12b72ba6', 'GENKI3_L09');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('43c22ea9-1121-42cc-99ba-ebcf12b72ba6', 'TOFUGU_JAPANESE_COUNTER_TSU');
 -- 二つ | two things --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('b645172b-fdca-489b-9928-61d7446c43db', 'NOUN', NULL, 5, 743, '{counters}', '2023-02-26');
@@ -6825,6 +6826,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('3996db39-280e-5dc0-be4d-47744373d427', 'b645172b-fdca-489b-9928-61d7446c43db', 'HIRAGANA', 'ふたつ');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('3195749b-cd70-5c1c-8a68-b035633d1b51', 'b645172b-fdca-489b-9928-61d7446c43db', 'KANJI', '二つ');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id", "conjugation_set_id") VALUES ('b645172b-fdca-489b-9928-61d7446c43db', '468e38fc-4245-57a8-b6f7-5b2d49efc475', 'd6dbb96f-42aa-5375-8a02-5885c09fa255', '3996db39-280e-5dc0-be4d-47744373d427', NULL, '3195749b-cd70-5c1c-8a68-b035633d1b51', NULL);
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('b645172b-fdca-489b-9928-61d7446c43db', 'GENKI3_L09');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('b645172b-fdca-489b-9928-61d7446c43db', 'TOFUGU_JAPANESE_COUNTER_TSU');
 -- 三つ | three things --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('8af964ab-e81b-4e1b-a32a-967ed918ddb1', 'NOUN', NULL, 5, 744, '{counters}', '2023-02-26');
@@ -6833,6 +6835,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('0b9e5f80-4c66-51d0-9c06-aeb69e10c52d', '8af964ab-e81b-4e1b-a32a-967ed918ddb1', 'HIRAGANA', 'みっつ');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('d995392e-cbaa-5503-b1d9-6bd718a0dd05', '8af964ab-e81b-4e1b-a32a-967ed918ddb1', 'KANJI', '三つ');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id", "conjugation_set_id") VALUES ('8af964ab-e81b-4e1b-a32a-967ed918ddb1', 'f8b50c29-0df6-5a1f-8f5a-8f56b704efb0', '2b7269d3-c071-5f1a-b312-f5da6925a7a0', '0b9e5f80-4c66-51d0-9c06-aeb69e10c52d', NULL, 'd995392e-cbaa-5503-b1d9-6bd718a0dd05', NULL);
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('8af964ab-e81b-4e1b-a32a-967ed918ddb1', 'GENKI3_L09');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('8af964ab-e81b-4e1b-a32a-967ed918ddb1', 'TOFUGU_JAPANESE_COUNTER_TSU');
 -- 四つ | four things --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('00991bf7-bbb0-43e9-98e5-125d8918259a', 'NOUN', NULL, 5, 745, '{counters}', '2023-02-26');
@@ -6841,6 +6844,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('f3558b13-fa39-5f63-bc90-151ff91f913c', '00991bf7-bbb0-43e9-98e5-125d8918259a', 'HIRAGANA', 'よっつ');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('bf9570f1-b101-5779-a754-67b5e1b27ef7', '00991bf7-bbb0-43e9-98e5-125d8918259a', 'KANJI', '四つ');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id", "conjugation_set_id") VALUES ('00991bf7-bbb0-43e9-98e5-125d8918259a', 'c8634f31-7525-5a8b-b255-cab278db1ac7', 'bbb56272-8eb9-5222-b966-46c46f7bb9e6', 'f3558b13-fa39-5f63-bc90-151ff91f913c', NULL, 'bf9570f1-b101-5779-a754-67b5e1b27ef7', NULL);
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('00991bf7-bbb0-43e9-98e5-125d8918259a', 'GENKI3_L09');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('00991bf7-bbb0-43e9-98e5-125d8918259a', 'TOFUGU_JAPANESE_COUNTER_TSU');
 -- 五つ | five things --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('0235c6c0-0996-4b03-a1f3-a3991988022e', 'NOUN', NULL, 5, 746, '{counters}', '2023-02-26');
@@ -6849,6 +6853,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('e6832fe8-08c8-5b22-81a0-1f483ef2b38e', '0235c6c0-0996-4b03-a1f3-a3991988022e', 'HIRAGANA', 'いつつ');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('09a45083-ab5c-5fce-be01-313634946c84', '0235c6c0-0996-4b03-a1f3-a3991988022e', 'KANJI', '五つ');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id", "conjugation_set_id") VALUES ('0235c6c0-0996-4b03-a1f3-a3991988022e', '33e01f41-4f23-50e4-a450-14f198206a14', 'e9baddef-62c6-5988-a93b-33947046e25d', 'e6832fe8-08c8-5b22-81a0-1f483ef2b38e', NULL, '09a45083-ab5c-5fce-be01-313634946c84', NULL);
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('0235c6c0-0996-4b03-a1f3-a3991988022e', 'GENKI3_L09');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('0235c6c0-0996-4b03-a1f3-a3991988022e', 'TOFUGU_JAPANESE_COUNTER_TSU');
 -- 六つ | six things --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('4e042e83-f9cd-4335-9ae0-b07c51b8321f', 'NOUN', NULL, 5, 747, '{counters}', '2023-02-26');
@@ -6857,6 +6862,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('cc8ae043-16f4-5cfb-9993-40c5188bdeed', '4e042e83-f9cd-4335-9ae0-b07c51b8321f', 'HIRAGANA', 'むっつ');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('b4bd0893-72fb-5b96-95fc-2d2341dcd660', '4e042e83-f9cd-4335-9ae0-b07c51b8321f', 'KANJI', '六つ');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id", "conjugation_set_id") VALUES ('4e042e83-f9cd-4335-9ae0-b07c51b8321f', '893fa9e9-d76e-5f29-8b7c-a8c86560e8f6', '3ad97503-969f-5cfc-a2fc-35cd4a0644a2', 'cc8ae043-16f4-5cfb-9993-40c5188bdeed', NULL, 'b4bd0893-72fb-5b96-95fc-2d2341dcd660', NULL);
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('4e042e83-f9cd-4335-9ae0-b07c51b8321f', 'GENKI3_L09');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('4e042e83-f9cd-4335-9ae0-b07c51b8321f', 'TOFUGU_JAPANESE_COUNTER_TSU');
 -- 七つ | seven things --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('4e59bab6-066c-46bf-aaeb-90ebd8455782', 'NOUN', NULL, 5, 748, '{counters}', '2023-02-26');
@@ -6865,6 +6871,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('b073b292-5e91-54a9-ac4d-38155c2612b2', '4e59bab6-066c-46bf-aaeb-90ebd8455782', 'HIRAGANA', 'ななつ');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('6cf7071b-01c2-5dfe-be47-3998d6d4f185', '4e59bab6-066c-46bf-aaeb-90ebd8455782', 'KANJI', '七つ');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id", "conjugation_set_id") VALUES ('4e59bab6-066c-46bf-aaeb-90ebd8455782', 'c251c6d9-19c3-57a1-a952-ca47d88e30bf', '0a763085-cdd9-56f7-a6b9-058d749eae4b', 'b073b292-5e91-54a9-ac4d-38155c2612b2', NULL, '6cf7071b-01c2-5dfe-be47-3998d6d4f185', NULL);
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('4e59bab6-066c-46bf-aaeb-90ebd8455782', 'GENKI3_L09');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('4e59bab6-066c-46bf-aaeb-90ebd8455782', 'TOFUGU_JAPANESE_COUNTER_TSU');
 -- 八つ | eight things --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('1dc02b31-a89a-4c9a-9c01-17a9d140f891', 'NOUN', NULL, 5, 749, '{counters}', '2023-02-26');
@@ -6873,6 +6880,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('6b573ac0-1e76-5e90-abb6-00a6350d0c7e', '1dc02b31-a89a-4c9a-9c01-17a9d140f891', 'HIRAGANA', 'やっつ');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('70fa51e0-4294-5677-aa12-a05c493b91f0', '1dc02b31-a89a-4c9a-9c01-17a9d140f891', 'KANJI', '八つ');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id", "conjugation_set_id") VALUES ('1dc02b31-a89a-4c9a-9c01-17a9d140f891', 'af255ef0-7221-5a19-85f3-cf3a05667a67', '1dba43ab-97e2-5fa7-86ec-91f89c19a29c', '6b573ac0-1e76-5e90-abb6-00a6350d0c7e', NULL, '70fa51e0-4294-5677-aa12-a05c493b91f0', NULL);
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('1dc02b31-a89a-4c9a-9c01-17a9d140f891', 'GENKI3_L09');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('1dc02b31-a89a-4c9a-9c01-17a9d140f891', 'TOFUGU_JAPANESE_COUNTER_TSU');
 -- 九つ | nine things --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('d353afa8-8c6f-4013-bccf-3697531eaf70', 'NOUN', NULL, 5, 750, '{counters}', '2023-02-26');
@@ -6881,6 +6889,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('265b8757-9f30-5129-8f6e-f9245403b9f0', 'd353afa8-8c6f-4013-bccf-3697531eaf70', 'HIRAGANA', 'ここのつ');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('432dbb1a-ad04-54ba-bc7d-86fc3a20b0a5', 'd353afa8-8c6f-4013-bccf-3697531eaf70', 'KANJI', '九つ');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id", "conjugation_set_id") VALUES ('d353afa8-8c6f-4013-bccf-3697531eaf70', 'dcf49b4e-782e-50f6-b6e3-35701498579a', '359ca9ab-2ba3-5f16-88a1-e1c45987c335', '265b8757-9f30-5129-8f6e-f9245403b9f0', NULL, '432dbb1a-ad04-54ba-bc7d-86fc3a20b0a5', NULL);
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('d353afa8-8c6f-4013-bccf-3697531eaf70', 'GENKI3_L09');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('d353afa8-8c6f-4013-bccf-3697531eaf70', 'TOFUGU_JAPANESE_COUNTER_TSU');
 -- 十 | ten things --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('11db4175-cb54-439d-bd1b-662e0ce457b2', 'NOUN', NULL, 5, 751, '{counters}', '2023-02-26');
@@ -6889,6 +6898,7 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('0d5304a1-9e20-526b-9358-15190472a1f9', '11db4175-cb54-439d-bd1b-662e0ce457b2', 'HIRAGANA', 'とお');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('c0599c81-a472-5983-ae11-d9da01c2b4e3', '11db4175-cb54-439d-bd1b-662e0ce457b2', 'KANJI', '十');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id", "conjugation_set_id") VALUES ('11db4175-cb54-439d-bd1b-662e0ce457b2', 'ac5540df-5fac-5955-8892-3c6170d0027d', 'c90af868-709f-5e05-95f6-fff046724f38', '0d5304a1-9e20-526b-9358-15190472a1f9', NULL, 'c0599c81-a472-5983-ae11-d9da01c2b4e3', NULL);
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('11db4175-cb54-439d-bd1b-662e0ce457b2', 'GENKI3_L09');
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('11db4175-cb54-439d-bd1b-662e0ce457b2', 'TOFUGU_JAPANESE_COUNTER_TSU');
 -- いくつ | how many things --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('a7b38c4c-749a-4be1-9593-df7f7a72aa97', 'NOUN', NULL, 5, 752, '{counters}', '2023-02-26');
@@ -6898,3 +6908,33 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('2b415ed5-3e60-55f8-95a3-77ae07c5315e', 'a7b38c4c-749a-4be1-9593-df7f7a72aa97', 'KANJI', '幾つ');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id", "conjugation_set_id") VALUES ('a7b38c4c-749a-4be1-9593-df7f7a72aa97', 'c76691f4-6a69-5a67-b2e3-ef86e13eda0c', '0193c4fb-2a92-5f5e-9535-289ea173a3ee', '4439c4ab-dd45-5885-861f-6a2a7e993c58', NULL, '2b415ed5-3e60-55f8-95a3-77ae07c5315e', NULL);
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('a7b38c4c-749a-4be1-9593-df7f7a72aa97', 'TOFUGU_JAPANESE_COUNTER_TSU');
+-- 両親 | parents --;
+INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('65cd8f5d-1350-46d8-a88d-81a2510156c8', 'NOUN', NULL, 5, 753, '{}', '2023-02-28');
+INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('2fd345a9-8318-58be-adbe-365abb3d0b15', '65cd8f5d-1350-46d8-a88d-81a2510156c8', 1, 'parents');
+INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('bf952416-3b34-55a0-8fb8-906a43f12cb4', '65cd8f5d-1350-46d8-a88d-81a2510156c8', 'KANJI', '両親');
+INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('c0e4296a-336b-5394-80ff-4fcd88eb5d5e', '65cd8f5d-1350-46d8-a88d-81a2510156c8', 'HIRAGANA', 'りょうしん');
+INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('ae21248e-1e69-5f22-8f67-50bb2b7cd20f', '65cd8f5d-1350-46d8-a88d-81a2510156c8', 'KANJI', '両親');
+INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id", "conjugation_set_id") VALUES ('65cd8f5d-1350-46d8-a88d-81a2510156c8', '2fd345a9-8318-58be-adbe-365abb3d0b15', 'bf952416-3b34-55a0-8fb8-906a43f12cb4', 'c0e4296a-336b-5394-80ff-4fcd88eb5d5e', NULL, 'ae21248e-1e69-5f22-8f67-50bb2b7cd20f', NULL);
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('65cd8f5d-1350-46d8-a88d-81a2510156c8', 'DUO_02_07');
+INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('65cd8f5d-1350-46d8-a88d-81a2510156c8', 'DUO_U09');
+-- 書店 | bookshop, bookstore --;
+INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('0256935e-df7b-4a95-9e74-9f0351db2254', 'NOUN', NULL, 2, 754, '{}', '2023-03-02');
+INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('7e025ccf-ff13-5c77-8da7-1fb3687fa0c9', '0256935e-df7b-4a95-9e74-9f0351db2254', 1, 'bookshop, bookstore');
+INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('7e64ec1d-edcb-54ae-8412-c90a0ab4ee57', '0256935e-df7b-4a95-9e74-9f0351db2254', 'KANJI', '書店');
+INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('6b412bf5-157f-566c-9e5c-983a224475a7', '0256935e-df7b-4a95-9e74-9f0351db2254', 'HIRAGANA', 'しょてん');
+INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('7ccf4e97-49d0-5f83-99d1-fe756064c301', '0256935e-df7b-4a95-9e74-9f0351db2254', 'KANJI', '書店');
+INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id", "conjugation_set_id") VALUES ('0256935e-df7b-4a95-9e74-9f0351db2254', '7e025ccf-ff13-5c77-8da7-1fb3687fa0c9', '7e64ec1d-edcb-54ae-8412-c90a0ab4ee57', '6b412bf5-157f-566c-9e5c-983a224475a7', NULL, '7ccf4e97-49d0-5f83-99d1-fe756064c301', NULL);
+-- 紀伊國屋 | Bookstore of Kii Province --;
+INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('b191dc0f-34b0-451f-a353-330e270e77b9', 'NOUN', NULL, NULL, 755, '{}', '2023-03-02');
+INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('04827bb9-650b-57d5-8e15-3ef4cf95c99c', 'b191dc0f-34b0-451f-a353-330e270e77b9', 1, 'Bookstore of Kii Province');
+INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('793ed1a2-e79d-5afa-ad1e-abc7d3195785', 'b191dc0f-34b0-451f-a353-330e270e77b9', 'KANJI', '紀伊國屋');
+INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('7b266e82-48be-555a-aa09-327f14700650', 'b191dc0f-34b0-451f-a353-330e270e77b9', 'HIRAGANA', 'きのくにや');
+INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('63a86139-3128-55a3-9af4-a5e05053f66f', 'b191dc0f-34b0-451f-a353-330e270e77b9', 'KANJI', '紀伊國屋');
+INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id", "conjugation_set_id") VALUES ('b191dc0f-34b0-451f-a353-330e270e77b9', '04827bb9-650b-57d5-8e15-3ef4cf95c99c', '793ed1a2-e79d-5afa-ad1e-abc7d3195785', '7b266e82-48be-555a-aa09-327f14700650', NULL, '63a86139-3128-55a3-9af4-a5e05053f66f', NULL);
+-- 祭り | festival --;
+INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('b3d07806-eb7b-49ca-abff-69a9b9e20ef8', 'NOUN', NULL, 3, 756, '{}', '2023-03-03');
+INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('03c50a3e-cd6d-5b94-94b0-e1ad3a30042c', 'b3d07806-eb7b-49ca-abff-69a9b9e20ef8', 1, 'festival');
+INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('269020ae-ca70-591e-a5e8-1c1e5abd3e98', 'b3d07806-eb7b-49ca-abff-69a9b9e20ef8', 'KANJI', '祭り');
+INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('3b0cbc9c-f89c-5a86-a1fb-6a6eedad977a', 'b3d07806-eb7b-49ca-abff-69a9b9e20ef8', 'HIRAGANA', 'まつり');
+INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('dc5b50a2-c831-5619-9634-4ff98cb24a52', 'b3d07806-eb7b-49ca-abff-69a9b9e20ef8', 'KANJI', '祭り');
+INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id", "conjugation_set_id") VALUES ('b3d07806-eb7b-49ca-abff-69a9b9e20ef8', '03c50a3e-cd6d-5b94-94b0-e1ad3a30042c', '269020ae-ca70-591e-a5e8-1c1e5abd3e98', '3b0cbc9c-f89c-5a86-a1fb-6a6eedad977a', NULL, 'dc5b50a2-c831-5619-9634-4ff98cb24a52', NULL);
