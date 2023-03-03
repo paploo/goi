@@ -3186,7 +3186,7 @@ INSERT INTO "vocabulary"."conjugation" ("id", "conjugation_set_id", "politeness_
 INSERT INTO "vocabulary"."conjugation" ("id", "conjugation_set_id", "politeness_code", "charge_code", "form_code", "sort_rank", "value") VALUES ('0f46f706-dd2b-5c5a-91bd-1873c045be9f', '4ac04c8d-e8aa-5ef6-b8f0-dc0507db2525', 'POLITE', 'NEGATIVE', 'PRESENT', 1, 'いません');
 INSERT INTO "vocabulary"."conjugation" ("id", "conjugation_set_id", "politeness_code", "charge_code", "form_code", "sort_rank", "value") VALUES ('553f1641-8c76-5215-bfbb-90931057da93', '4ac04c8d-e8aa-5ef6-b8f0-dc0507db2525', 'POLITE', 'NEGATIVE', 'PAST', 1, 'いませんでした');
 -- ある | there is... (inanimate) --;
-INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('a4025eed-7054-4b18-b8ce-c90bc7ed6b00', 'VERB', 'GODAN_VERB', 5, 361, '{to_be_verb}', '2022-08-10');
+INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('a4025eed-7054-4b18-b8ce-c90bc7ed6b00', 'VERB', 'ARU_VERB', 5, 361, '{to_be_verb}', '2022-08-10');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('dd9022b4-6b3e-56e6-8ad2-372e5ae30b65', 'a4025eed-7054-4b18-b8ce-c90bc7ed6b00', 1, 'there is... (inanimate)');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('0abb42c2-2007-59dc-9e10-bc4d558108f2', 'a4025eed-7054-4b18-b8ce-c90bc7ed6b00', 'HIRAGANA', 'ある');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('674d009f-ae3e-525a-9c8e-1571f94d4b92', 'a4025eed-7054-4b18-b8ce-c90bc7ed6b00', 'HIRAGANA', 'ある');

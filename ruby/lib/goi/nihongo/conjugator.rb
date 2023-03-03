@@ -330,6 +330,20 @@ module Goi
           negative_polite_past: PatternRule.new(/([行い])く$/, '\1きませんでした')
         ),
 
+        'ARU_VERB': verb_set(
+          positive_plain_present: PatternRule.new(/ある$/, 'ある'),
+          positive_plain_past: PatternRule.new(/ある$/, 'あった'),
+          positive_plain_te: PatternRule.new(/ある$/, 'あって'),
+          negative_plain_present: PatternRule.new(/ある$/, 'ない'),
+          negative_plain_past: PatternRule.new(/ある$/, 'なかった'),
+          negative_plain_te: PatternRule.new(/ある$/, 'なくて'),
+
+          positive_polite_present: PatternRule.new(/ある$/, 'あります'),
+          positive_polite_past: PatternRule.new(/ある$/, 'ありました'),
+          negative_polite_present: PatternRule.new(/ある$/, 'ありません'),
+          negative_polite_past: PatternRule.new(/ある$/, 'ありませんでした')
+        ),
+
         'IRREGULAR_ADJECTIVE': nil,
 
         'I_ADJECTIVE': adjective_set(
