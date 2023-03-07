@@ -13,7 +13,6 @@ create table grammar.rule (
     how_to_use text[],
     jlpt_level int default null,
     tags varchar[] default '{}'
-
 );
 
 create table grammar.example (
