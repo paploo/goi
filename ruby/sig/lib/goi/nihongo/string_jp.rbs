@@ -7,10 +7,12 @@ module Goi
 
       attr_reader phonetic_spelling: String?
 
-      attr_reader furigana: String?
+      attr_reader furigana: FuriganaString?
     end
 
     class FuriganaString
+      @tokens: [[String]]
+
       def self.parse: (String|FuriganaString input) -> FuriganaString
 
       def initialize: ([[String]] tokens) -> void

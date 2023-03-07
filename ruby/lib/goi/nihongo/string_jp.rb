@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require_relative '../nihongo/string_jp'
+
 module Goi
   module Nihongo
 
@@ -10,7 +12,7 @@ module Goi
                      furigana: nil)
         @preferred_spelling = preferred_spelling
         @phonetic_spelling = phonetic_spelling
-        @furigana = furigana
+        @furigana = furigana && Goi::Nihongo::FuriganaString.parse(furigana)
       end
 
       attr_reader :preferred_spelling
@@ -25,7 +27,7 @@ module Goi
         # If it's a FuriganaString, just pass through!
         return input if input.is_a?(self)
 
-        # TODO: Refactor to use StringScanner and states, which will be more maintainable but needs an internal class to manage.
+        # TODO: Refactor to use StringScanner, which will be more maintainable but needs an internal class to manage states.
 
         # First tokenize
         raw_tokens = input.to_s.strip.split(/[{}]/).reject(&:empty?).map do |a|
