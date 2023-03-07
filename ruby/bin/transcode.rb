@@ -46,12 +46,12 @@ IMPORTERS = {
 }.freeze
 
 EXPORTERS = {
-  google: Goi::Exporter::Vocabulary::GoogleSheetExporter,
-  anki: Goi::Exporter::Vocabulary::AnkiExporter,
-  anki_vocab: Goi::Exporter::Vocabulary::AnkiVocabExporter,
-  anki_conj: Goi::Exporter::Vocabulary::AnkiConjugationExporter,
-  sql: Goi::Exporter::Vocabulary::SqlFileExporter,
-  sequel: Goi::Exporter::Vocabulary::SequelExporter
+  google: Goi::Exporter::GoogleSheetExporter,
+  anki: Goi::Exporter::AnkiExporter,
+  anki_vocab: Goi::Exporter::AnkiVocabExporter,
+  anki_conj: Goi::Exporter::AnkiConjugationExporter,
+  sql: Goi::Exporter::SqlFileExporter,
+  sequel: Goi::Exporter::SequelExporter
 }.freeze
 
 TRANSFORMERS = {
@@ -67,7 +67,7 @@ args = {
 importer_class = IMPORTERS[:google]
 importer_config = Goi::Importer::Config.new(file_pathname: args[:infile_path], db_config: args[:db_config])
 exporter_class = EXPORTERS[:google]
-exporter_config = Goi::Exporter::Core::Config.new(file_pathname: args[:outfile_path], db_config: args[:db_config])
+exporter_config = Goi::Exporter::Config.new(file_pathname: args[:outfile_path], db_config: args[:db_config])
 transformer_classes = [TRANSFORMERS[:duo_tag]]
 transformer_config = Goi::Transformer::Config.new
 
