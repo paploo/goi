@@ -1,9 +1,0 @@
-module Goi
-  module Pipeline
-    module Vocabulary
-      class Transformer < Goi::Pipeline::Core::Transformer[[Goi::Model::Vocabulary::Linkages]]
-      end
-    end
-  end
-end
-
