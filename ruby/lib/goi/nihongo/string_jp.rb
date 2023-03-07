@@ -5,7 +5,25 @@ require_relative '../nihongo/string_jp'
 module Goi
   module Nihongo
 
+    # Encapsulates all spellings of a Japanese string in one class.
+    #
+    # The simplest form is to just use the preferred spelling; however phonetic and furigana spellings *may* be
+    # attached, as needed.
     class StringJP
+
+      # Parses the given input.
+      # If this is a StringJP or FuriganaString, it applies best practices automatically.
+      # Else it interprets the input as a String and returns the value.
+      def self.from(input)
+        case input
+        when StringJP
+          input
+        when FuriganaString
+          new(preferred_spelling: input.to_s, furigana: input)
+        else
+          new(preferred_spelling: input.to_s)
+        end
+      end
 
       def initialize(preferred_spelling:,
                      phonetic_spelling: nil,
@@ -18,6 +36,8 @@ module Goi
       attr_reader :preferred_spelling
       attr_reader :phonetic_spelling
       attr_reader :furigana
+
+      def to_s = preferred_spelling
 
     end
 

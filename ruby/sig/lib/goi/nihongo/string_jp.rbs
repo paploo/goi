@@ -1,6 +1,8 @@
 module Goi
   module Nihongo
     class StringJP
+      def self.from: (String|StringJP|FuriganaString) -> StringJP
+
       def initialize: (preferred_spelling: String preferred_spelling, ?phonetic_spelling: String? phonetic_spelling, ?furigana: String?|FuriganaString? furigana) -> void
 
       attr_reader preferred_spelling: String
