@@ -8,7 +8,7 @@ module Goi
 
       attr_reader :config
 
-      def inport
+      def import
         # Do Nothing
       end
 

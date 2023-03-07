@@ -1,0 +1,8 @@
+module Goi
+  module Pipeline
+    module Vocabulary
+      class Importer < Goi::Pipeline::Core::Importer[[Goi::Model::Vocabulary::Linkages]]
+      end
+    end
+  end
+end
