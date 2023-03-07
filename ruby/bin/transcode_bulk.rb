@@ -67,12 +67,12 @@ IMPORTERS = {
 }.freeze
 
 EXPORTERS = {
-  google: Goi::Exporter::GoogleSheetExporter,
-  anki: Goi::Exporter::AnkiExporter,
-  anki_vocab: Goi::Exporter::AnkiVocabExporter,
-  anki_conj: Goi::Exporter::AnkiConjugationExporter,
-  sql: Goi::Exporter::SqlFileExporter,
-  sequel: Goi::Exporter::SequelExporter
+  google: Goi::Exporter::Vocabulary::GoogleSheetExporter,
+  anki: Goi::Exporter::Vocabulary::AnkiExporter,
+  anki_vocab: Goi::Exporter::Vocabulary::AnkiVocabExporter,
+  anki_conj: Goi::Exporter::Vocabulary::AnkiConjugationExporter,
+  sql: Goi::Exporter::Vocabulary::SqlFileExporter,
+  sequel: Goi::Exporter::Vocabulary::SequelExporter
 }.freeze
 
 TRANSFORMERS = {
@@ -110,7 +110,7 @@ importer_config = Goi::Importer::Config.new(file_pathname: args[:infile_path], d
 export_phases = args[:export_phases].map do |phase_args|
   Goi::Bin::TranscodeBulk::Config::Phase.new(
     klass: phase_args[:klass],
-    config: Goi::Exporter::Config.new(file_pathname: phase_args[:path], db_config: args[:db_config])
+    config: Goi::Exporter::Core::Config.new(file_pathname: phase_args[:path], db_config: args[:db_config])
   )
 end
 

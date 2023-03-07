@@ -1,0 +1,23 @@
+module Goi
+  module Exporter
+    module Vocabulary
+
+      class SqlFileExporter
+
+        def initialize: (config: Goi::Exporter::Core::Config) -> void
+
+        attr_reader config: Goi::Exporter::Core::Config
+
+        attr_reader db: untyped
+
+        private
+
+        attr_reader record_builder: Goi::SQL::VocabularyRecordBuilder
+
+        def export: (linkages: [Model::Vocabulary::Linkages] linkages) -> untyped
+
+      end
+      
+    end
+  end
+end

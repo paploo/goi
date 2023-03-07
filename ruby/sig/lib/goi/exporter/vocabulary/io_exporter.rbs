@@ -1,0 +1,15 @@
+module Goi
+  module Exporter
+    module Vocabulary
+
+      class IOExporter <Goi::Exporter::Core:: BaseExporter
+        def initialize: (config: Goi::Exporter::Core::Config) -> void
+
+        attr_reader config: Goi::Exporter::Core::Config
+
+        def export: (linkages: [Model::Vocabulary::Linkages] linkages) -> void
+      end
+
+    end
+  end
+end

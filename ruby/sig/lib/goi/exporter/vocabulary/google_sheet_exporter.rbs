@@ -1,0 +1,39 @@
+module Goi
+  module Exporter
+    module Vocabulary
+
+      class GoogleSheetExporter < Goi::Exporter::Core::BaseExporter
+        HEADERS: [String]
+
+        def initialize: (config: Goi::Exporter::Core::Config) -> void
+
+        attr_reader config: Goi::Exporter::Core::Config
+
+        def export: (linkages: [Model::Vocabulary::Linkages] linkages) -> untyped
+
+        private
+
+        def header_row: () -> [String]
+
+        def linkage_rows: (linkages: [Model::Vocabulary::Linkages] linkages) -> [[String?]]
+
+        def linkage_row: (linkage: Model::Vocabulary::Linkages linkage) -> [String?]
+
+        def core_columns: (linkage: Model::Vocabulary::Linkages linkage) -> [String?]
+
+        def conjugation_columns: (linkage: Model::Vocabulary::Linkages linkage) -> [String?]
+
+        def empty_column: () -> [String]
+
+        def find_conjugation: (conjugation_set: Model::Vocabulary::ConjugationSet?, politeness_code: String, charge_code: String, form_code: String) -> Model::Vocabulary::Conjugation?
+
+        def tags_field: (Model::Vocabulary::Vocabulary vocabulary) -> String?
+
+        def lessons_field: (Model::Vocabulary::Vocabulary vocabulary) -> String?
+
+        def to_array_field: ([untyped] array) -> String?
+      end
+
+    end
+  end
+end
