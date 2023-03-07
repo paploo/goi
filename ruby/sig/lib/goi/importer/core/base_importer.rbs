@@ -1,0 +1,13 @@
+module Goi
+  module Importer
+    module Core
+      class BaseImporter
+        def initialize: (config: Config) -> void
+
+        attr_reader config: Config
+
+        def parse: () -> [Model::Vocabulary::Linkages]
+      end
+    end
+  end
+end
