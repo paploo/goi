@@ -62,8 +62,8 @@ module Goi
 end
 
 IMPORTERS = {
-  google: Goi::Importer::Vocabulary::GoogleSheetImporter,
-  sequel: Goi::Importer::Vocabulary::SequelImporter
+  google: Goi::Importer::GoogleSheetImporter,
+  sequel: Goi::Importer::SequelImporter
 }.freeze
 
 EXPORTERS = {
@@ -105,7 +105,7 @@ args = {
 }
 
 importer_class = IMPORTERS[:google]
-importer_config = Goi::Importer::Core::Config.new(file_pathname: args[:infile_path], db_config: args[:db_config])
+importer_config = Goi::Importer::Config.new(file_pathname: args[:infile_path], db_config: args[:db_config])
 
 export_phases = args[:export_phases].map do |phase_args|
   Goi::Bin::TranscodeBulk::Config::Phase.new(
