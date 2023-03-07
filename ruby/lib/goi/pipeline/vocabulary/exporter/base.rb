@@ -3,7 +3,7 @@ module Goi
     module Vocabulary
       module Exporter
         class Base < Pipeline::Core::Exporter
-          def export(value) = raise NotImplementedError
+          def export(linkages) = raise NotImplementedError
         end
       end
     end

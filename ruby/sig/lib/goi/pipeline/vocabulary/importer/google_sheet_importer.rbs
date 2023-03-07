@@ -11,9 +11,9 @@ module Goi
           ALT_PHONETIC_SPELLING_FIELD_DATA: field_data
           KANJI_SPELLING_FIELD_DATA: field_data
 
-          def initialize: (file_pathname: Pathname file_pathname) -> void
+          def initialize: (infile_pathname: Pathname file_pathname) -> void
 
-          attr_reader file_pathname: Pathname
+          attr_reader infile_pathname: Pathname
           attr_reader vocabulary_parser: VocabularyParser
           attr_reader definition_parser: DefinitionParser
           attr_reader spelling_parser: SpellingParser

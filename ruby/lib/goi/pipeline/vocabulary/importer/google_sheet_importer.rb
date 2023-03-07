@@ -1,7 +1,9 @@
 # frozen_string_literal: true
 
-require_relative 'date'
+require 'date'
+require 'csv'
 
+require_relative '../../../core'
 require_relative '../../../model/google_sheet'
 require_relative '../../../model/vocabulary'
 require_relative '../../../nihongo'
@@ -17,10 +19,10 @@ module Goi
           ALT_PHONETIC_SPELLING_FIELD_DATA = {linkage_field: :alt_phonetic_spelling, key: 'alt_phon_spell'}.freeze
           KANJI_SPELLING_FIELD_DATA = {linkage_field: :kanji_spelling, key: 'kanji_spelling'}.freeze
 
-          def initialize(file_pathname:)
-            super
+          def initialize(infile_pathname:)
+            super()
 
-            @file_pathname = file_pathname
+            @infile_pathname = infile_pathname
 
             @vocabulary_parser = VocabularyParser.new
             @definition_parser = DefinitionParser.new
@@ -28,13 +30,14 @@ module Goi
             @conjugation_parser = ConjugationParser.new
           end
 
+          attr_reader :infile_pathname
           attr_reader :vocabulary_parser
           attr_reader :definition_parser
           attr_reader :spelling_parser
           attr_reader :conjugation_parser
 
           def import
-            rows = CSV.read(file_pathname.to_s, headers: true).map(&:to_h)
+            rows = CSV.read(infile_pathname.to_s, headers: true).map(&:to_h)
             parse_rows(rows:)
           end
 
