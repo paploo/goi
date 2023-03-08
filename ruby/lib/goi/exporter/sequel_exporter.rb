@@ -2,6 +2,8 @@ require 'pg'
 require 'sequel'
 require 'sequel/extensions/pg_array'
 
+require_relative '../sql/vocabulary_record_builder'
+
 module Goi
   module Exporter
 

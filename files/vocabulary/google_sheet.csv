@@ -751,7 +751,7 @@ eight things,八つ,やっつ,,八つ,NOUN,,5,"{GENKI3_L09,TOFUGU_JAPANESE_COUNT
 nine things,九つ,ここのつ,,九つ,NOUN,,5,"{GENKI3_L09,TOFUGU_JAPANESE_COUNTER_TSU}",{counters},d353afa8-8c6f-4013-bccf-3697531eaf70,750,2023-02-26,,,,,,,,,,,,,
 ten things,十,とお,,十,NOUN,,5,"{GENKI3_L09,TOFUGU_JAPANESE_COUNTER_TSU}",{counters},11db4175-cb54-439d-bd1b-662e0ce457b2,751,2023-02-26,,,,,,,,,,,,,
 how many things,いくつ,いくつ,,幾つ,NOUN,,5,{TOFUGU_JAPANESE_COUNTER_TSU},{counters},a7b38c4c-749a-4be1-9593-df7f7a72aa97,752,2023-02-26,,,,,,,,,,,,,
-parents,両親,りょうしん,,両親,NOUN,,5,{DUO_02_07},,65cd8f5d-1350-46d8-a88d-81a2510156c8,753,2023-02-28,,,,,,,,,,,,,
+parents,両親,りょうしん,,両親,NOUN,,5,"{DUO_02_07,DUO_U09}",,65cd8f5d-1350-46d8-a88d-81a2510156c8,753,2023-02-28,,,,,,,,,,,,,
 "bookshop, bookstore",書店,しょてん,,書店,NOUN,,2,,,0256935e-df7b-4a95-9e74-9f0351db2254,754,2023-03-02,,,,,,,,,,,,,
 Bookstore of Kii Province,紀伊國屋,きのくにや,,紀伊國屋,NOUN,,,,,b191dc0f-34b0-451f-a353-330e270e77b9,755,2023-03-02,,,,,,,,,,,,,
 festival,祭り,まつり,,祭り,NOUN,,3,,,b3d07806-eb7b-49ca-abff-69a9b9e20ef8,756,2023-03-03,,,,,,,,,,,,,

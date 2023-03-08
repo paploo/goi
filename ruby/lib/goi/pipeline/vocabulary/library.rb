@@ -15,7 +15,10 @@ module Goi
           Pipeline::Core::Pipeline.new(
             importer: Vocabulary::Importer::GoogleSheetImporter.new(infile_pathname:),
             #importer: Vocabulary::Importer::SequelImporter.new(db_config:),
-            transformers: [],
+            transformers: [
+              Vocabulary::Transformer::DuoLessonCodeTransformer.new,
+              Vocabulary::Transformer::ValidationTransformer.new
+            ],
             exporters: [
               #Vocabulary::Exporter::IOExporter.new(io: $stdout),
               Vocabulary::Exporter::GoogleSheetExporter.new(outfile_pathname: output_file(output_dir_pathname:, outfile_key: :google_sheet))

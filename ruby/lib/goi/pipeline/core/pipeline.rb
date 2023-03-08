@@ -19,25 +19,30 @@ module Goi
 
         def run
           @start_at = Time.now
-          log("Pipeline Start: #{self}")
+          log("> Pipeline: #{self}")
 
-          log("Importer Start: #{importer}")
+          log(">> Importer: #{importer}")
           imported_value = importer.import
-          log("Importer Complete: #{importer}")
+          log("<< Importer: #{importer}")
 
+          log(">> Transformers")
           transformed_value = transformers.inject(imported_value) do |value, transformer|
-            log("Transformer Start: #{transformer}")
+            log(">>> Transformer: #{transformer}")
             result = transformer.transform(value)
-            log("Transformer Complete: #{transformer}")
+            log("<<< Transformer: #{transformer}")
+            result
           end
+          log("<< Transformers")
 
+          log(">> Exporters")
           exporters.each do |exporter|
-            log("Exporter Start: #{exporter}")
+            log(">>> Exporter: #{exporter}")
             exporter.export(transformed_value)
-            log("Exporter Complete: #{exporter}")
+            log("<<< Exporter: #{exporter}")
           end
+          log("<< Exporters")
 
-          log("Pipeline Complete: #{self}")
+          log("< Pipeline: #{self}")
         end
 
         private

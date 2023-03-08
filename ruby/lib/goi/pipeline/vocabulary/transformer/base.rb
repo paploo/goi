@@ -3,7 +3,7 @@
 module Goi
   module Pipeline
     module Vocabulary
-      class Transformer
+      module Transformer
         class Base < Pipeline::Core::Transformer
           def transform(linkages) = raise NotImplementedError
         end

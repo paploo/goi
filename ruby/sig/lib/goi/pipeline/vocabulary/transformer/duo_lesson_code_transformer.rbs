@@ -1,0 +1,23 @@
+module Goi
+  module Pipeline
+    module Vocabulary
+      module Transformer
+        class DuoLessonCodeTransformer < Vocabulary::Transformer::Base
+          LEGACY_DUO_LESSON_CODE_REGEX: untyped
+
+          def transform: ([Model::Vocabulary::Linkages] linkages) -> [Model::Vocabulary::Linkages]
+
+          private
+
+          def flat_map_lesson_codes: (untyped lesson_codes) -> untyped
+
+          def duo_lesson_code?: (untyped lesson_code) -> untyped
+
+          def make_new_code: (untyped unit_number) -> ::String
+
+          def map_legacy_code: (untyped duo_lesson_code) -> untyped
+        end
+      end
+    end
+  end
+end
