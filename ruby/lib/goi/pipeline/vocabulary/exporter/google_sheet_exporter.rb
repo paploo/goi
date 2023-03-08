@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative '../../../model/google_sheet'
+require_relative '../google_sheet_utils'
 
 module Goi
   module Pipeline
@@ -8,8 +8,8 @@ module Goi
       module Exporter
         class GoogleSheetExporter < Vocabulary::Exporter::Base
 
-          CONJUGATION_COLUMN_DATA = Goi::Model::GoogleSheet::CONJUGATION_KEY_DATA
-          CONJUGATION_COLUMN_KEYS = Goi::Model::GoogleSheet::CONJUGATION_KEYS
+          CONJUGATION_COLUMN_DATA = GoogleSheetUtils::CONJUGATION_KEY_DATA
+          CONJUGATION_COLUMN_KEYS = GoogleSheetUtils::CONJUGATION_KEYS
 
           HEADERS = [
             'definition',

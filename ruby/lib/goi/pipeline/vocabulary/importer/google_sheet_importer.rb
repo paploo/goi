@@ -4,9 +4,10 @@ require 'date'
 require 'csv'
 
 require_relative '../../../core'
-require_relative '../../../model/google_sheet'
 require_relative '../../../model/vocabulary'
 require_relative '../../../nihongo'
+
+require_relative '../google_sheet_utils'
 
 module Goi
   module Pipeline
@@ -192,9 +193,9 @@ module Goi
 
             private
 
-            KEY_DATA = Goi::Model::GoogleSheet::CONJUGATION_KEY_DATA
-            KEY_LIST = Goi::Model::GoogleSheet::CONJUGATION_KEYS
-            KEY_MAP = Goi::Model::GoogleSheet::CONJUGATION_KEY_DATA_MAP
+            KEY_DATA = GoogleSheetUtils::CONJUGATION_KEY_DATA
+            KEY_LIST = GoogleSheetUtils::CONJUGATION_KEYS
+            KEY_MAP = GoogleSheetUtils::CONJUGATION_KEY_DATA_MAP
 
             def parse_conjugation_set(row:, vocabulary_id:)
               id = Goi::Model::Vocabulary::ConjugationSet.create_id(vocabulary_id:)
