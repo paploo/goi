@@ -14,11 +14,11 @@ module Goi
                          output_dir_pathname:)
           Pipeline::Core::Pipeline.new(
             importer: Vocabulary::Importer::GoogleSheetImporter.new(infile_pathname:),
+            #importer: Vocabulary::Importer::SequelImporter.new(db_config:),
             transformers: [],
             exporters: [
               #Vocabulary::Exporter::IOExporter.new(io: $stdout),
               Vocabulary::Exporter::GoogleSheetExporter.new(outfile_pathname: output_file(output_dir_pathname:, outfile_key: :google_sheet))
-              #Vocabulary::Exporter::GoogleSheetExporter.new(outfile_pathname: nil)
             ]
           )
         end

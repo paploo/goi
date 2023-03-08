@@ -1,0 +1,110 @@
+module Goi
+  module Pipeline
+    module Vocabulary
+      module Importer
+        class SequelImporter < Vocabulary::Importer::Base
+
+          type db_config = {database: String, user: String, password: String, host: String}
+          type record = Hash[Symbol, untyped]
+
+          LINKAGE_FIELD_ID_COL_MAP: ::Hash[Symbol, Symbol]
+
+          def initialize: (db_config: db_config db_config) -> void
+
+          attr_reader db: untyped
+
+          attr_reader vocabulary_parser: VocabularyParser
+          attr_reader definition_parser: DefinitionParser
+          attr_reader spelling_parser: SpellingParser
+          attr_reader conjugation_set_parser: ConjugationSetParser
+          attr_reader conjugation_parser: ConjugationParser
+
+          def import: () -> [Model::Vocabulary::Linkages]
+
+          private
+
+          class VocabularyParser
+            def parse: (vocabulary_record: record, library: Library) -> Model::Vocabulary::Vocabulary
+
+            private
+
+            def parse_tags: (vocabulary_record: record vocabulary_record, library: Library library) -> [String]
+
+            def parse_lesson_codes: (vocabulary_record: record vocabulary_record, library: Library library) -> [String]
+          end
+
+          class DefinitionParser
+            def parse: (vocabulary_id: String, library: Library, linkage_field: Symbol) -> Model::Vocabulary::Definition
+
+            private
+
+            def resolve_record: (vocabulary_id: String vocabulary_id, library: Library library, linkage_field: Symbol linkage_field) -> record?
+          end
+
+          class SpellingParser
+            def parse: (vocabulary_id: String, library: Library, linkage_field: Symbol, required: bool) -> Model::Vocabulary::Spelling
+
+            private
+
+            def resolve_record: (vocabulary_id: String vocabulary_id, library: Library library, linkage_field: Symbol linkage_field) -> record?
+          end
+
+          class ConjugationSetParser
+            def initialize: (conjugation_parser: ConjugationParser) -> void
+
+            def parse: (vocabulary_id: String, library: Library) -> Model::Vocabulary::ConjugationSet
+
+            private
+
+            attr_reader conjugation_parser: ConjugationParser
+
+            def resolve_record: (vocabulary_id: String vocabulary_id, library: Library library, linkage_field: Symbol linkage_field) -> record?
+          end
+
+          class ConjugationParser
+            def parse: (conjugation_set_id: String, library: Library) -> [Model::Vocabulary::Conjugation]
+          end
+
+          class Library
+            def initialize: (db: untyped db) -> void
+
+            attr_reader vocabulary: [record]
+
+            attr_reader definitions: Hash[String, [record]]
+
+            attr_reader spellings: Hash[String, [record]]
+
+            attr_reader linkages: Hash[String, record]
+
+            attr_reader references: Hash[String, [record]]
+
+            attr_reader conjugation_sets: Hash[String, [record]]
+
+            attr_reader conjugations: Hash[String, [record]]
+
+            def load_all: () -> Library
+
+            private
+
+            attr_reader db: untyped
+
+            def load_vocabulary: () -> [record]
+
+            def load_definitions: () -> [record]
+
+            def load_spellings: () -> [record]
+
+            def load_linkages: () -> [record]
+
+            def load_references: () -> [record]
+
+            def load_conjugation_sets: () -> [record]
+
+            def load_conjugations: () -> [record]
+          end
+
+        end
+      end
+    end
+  end
+end

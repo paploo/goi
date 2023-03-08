@@ -12,6 +12,8 @@ module Goi
         OUTFILE_NAMES: Hash[Symbol, String]
 
         def self.output_file: (output_dir_pathname: Pathname? output_dir_pathname, outfile_key: Symbol outfile_key) -> Pathname?
+
+      end
     end
   end
 end
