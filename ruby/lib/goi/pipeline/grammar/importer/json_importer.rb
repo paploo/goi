@@ -24,21 +24,22 @@ module Goi
 
           private
 
-          def parse_hydrated_rules(json) = json.map { |doc| parse_hydrated_rule(doc) }
+          def parse_hydrated_rules(json) = json.each_with_index.map { |doc, index| parse_hydrated_rule(index, doc) }
 
-          def parse_hydrated_rule(json)
-            rule = parse_rule(json)
+          def parse_hydrated_rule(index, json)
+            rule = parse_rule(index, json)
             examples = parse_examples(rule.id, json.fetch('examples', []))
 
             Model::Grammar::HydratedRule.new(rule:, examples:)
           end
 
-          def parse_rule(json)
+          def parse_rule(index, json)
             Model::Grammar::Rule.new(id: json.fetch('id'),
                                      title: parse_stringjp(json.fetch('title')),
                                      meaning: json.fetch('meaning'),
                                      how_to_use: json.fetch('how_to_use'),
                                      jlpt_level: json['jlpt_level']&.to_i,
+                                     row_num: index + 1,
                                      date_added: json.fetch('date_added').tap { |d| Date.parse(d) },
                                      lesson_codes: json['lesson_codes'] || [],
                                      tags: json['tags'] || [])
@@ -51,7 +52,7 @@ module Goi
                                         rule_id: rule_id,
                                         meaning: json.fetch('meaning'),
                                         text: parse_stringjp(json.fetch('text')),
-                                        rank: index+1,
+                                        rank: index + 1,
                                         lesson_codes: json['lesson_codes'] || [],
                                         tags: json['tags'] || [])
           end

@@ -16,9 +16,9 @@ module Goi
 
           def parse_hydrated_rules: ([json_object] json) -> [Model::Grammar::HydratedRule]
 
-          def parse_hydrated_rule: (json_object json) -> Model::Grammar::HydratedRule
+          def parse_hydrated_rule: (Integer index, json_object json) -> Model::Grammar::HydratedRule
 
-          def parse_rule: (json_object json) -> Model::Grammar::Rule
+          def parse_rule: (Integer index, json_object json) -> Model::Grammar::Rule
 
           def parse_examples: (String rule_id, [json_object] json) -> [Model::Grammar::Example]
 

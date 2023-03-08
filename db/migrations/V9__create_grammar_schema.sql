@@ -12,7 +12,8 @@ create table grammar.rule (
     title_furigana_template text default null,
     how_to_use text[],
     jlpt_level int default null,
-    date_added date,
+    row_num int not null,
+    date_added date not null,
     tags varchar[] default '{}'
 );
 

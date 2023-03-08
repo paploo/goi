@@ -10,7 +10,8 @@ module Goi
       end
 
       class Rule
-        def initialize: (id: String id, title: Nihongo::StringJP title, meaning: String meaning, how_to_use: [String] how_to_use, ?jlpt_level: Integer? jlpt_level, date_added: Date date_added, ?lesson_codes: [String] lesson_codes, ?tags: [String] tags) -> void
+
+        def initialize: (id: String id, title: Nihongo::StringJP title, meaning: String meaning, how_to_use: [String] how_to_use, ?jlpt_level: Integer? jlpt_level, row_num: Integer row_num, date_added: Date date_added, ?lesson_codes: [String] lesson_codes, ?tags: [String] tags) -> void
 
         attr_reader id: String
 
@@ -21,6 +22,8 @@ module Goi
         attr_reader how_to_use: [String]
 
         attr_reader jlpt_level: Integer?
+
+        attr_reader row_num: Integer
 
         attr_reader date_added: Date
 

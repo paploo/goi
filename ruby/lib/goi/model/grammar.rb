@@ -21,6 +21,7 @@ module Goi
                        meaning:,
                        how_to_use:,
                        jlpt_level: nil,
+                       row_num:,
                        date_added:,
                        lesson_codes: [],
                        tags: []
@@ -30,6 +31,7 @@ module Goi
           @meaning = meaning
           @how_to_use = how_to_use
           @jlpt_level = jlpt_level
+          @row_num = row_num
           @date_added = date_added
           @lesson_codes = lesson_codes
           @tags = tags
@@ -40,6 +42,7 @@ module Goi
         attr_reader :meaning
         attr_reader :how_to_use
         attr_reader :jlpt_level
+        attr_reader :row_num
         attr_reader :date_added
         attr_reader :lesson_codes
         attr_reader :tags
