@@ -5,8 +5,6 @@ module Goi
         class SqlFileExporter < Vocabulary::Exporter::Base
 
           type db_config = {database: String, user: String, password: String, host: String}
-          type record = Hash[Symbol, untyped]
-          type record_group = [record]
 
           def initialize: (db_config: db_config db_config, outfile_pathname: Pathname? outfile_pathname) -> void
 
@@ -20,9 +18,9 @@ module Goi
 
           def db: () -> untyped
 
-          attr_reader record_builder: Goi::SQL::VocabularyRecordBuilder
+          attr_reader record_builder: Vocabulary::RecordBuilder
 
-          def generate_insert_sql: (record_group record_group) -> [String]
+          def generate_insert_sql: (SQL::VocabularyRecordBuilder::record_group record_group) -> [String]
         end
       end
     end

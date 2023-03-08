@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'sequel'
-require_relative '../../../sql/vocabulary_record_builder'
+require_relative '../record_builder'
 
 module Goi
   module Pipeline
@@ -18,7 +18,7 @@ module Goi
 
             @outfile_pathname = outfile_pathname
 
-            @record_builder = Goi::SQL::VocabularyRecordBuilder.new
+            @record_builder = Vocabulary::RecordBuilder.new
           end
 
           attr_reader :db_config
