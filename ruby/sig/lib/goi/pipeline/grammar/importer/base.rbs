@@ -1,0 +1,11 @@
+module Goi
+  module Pipeline
+    module Grammar
+      module Importer
+        class Base < Pipeline::Core::Importer[[Model::Grammar::HydratedRule]]
+          def import: () -> [Model::Grammar::HydratedRule]
+        end
+      end
+    end
+  end
+end

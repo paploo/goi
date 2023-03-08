@@ -2,7 +2,7 @@
 
 module Goi
   module Pipeline
-    module Vocabulary
+    module Grammar
       module Importer
         class Base < Pipeline::Core::Importer
           def import = raise NotImplementedError
@@ -11,3 +11,4 @@ module Goi
     end
   end
 end
+

@@ -4,6 +4,10 @@ require_relative 'vocabulary/importer'
 require_relative 'vocabulary/transformer'
 require_relative 'vocabulary/exporter'
 
+require_relative 'grammar/importer'
+require_relative 'grammar/transformer'
+require_relative 'grammar/exporter'
+
 module Goi
   module Pipeline
 
@@ -45,6 +49,20 @@ module Goi
             Vocabulary::Exporter::SqlFileExporter.new(db_config:, outfile_pathname: outfile_path(output_dir_pathname, :vocabulary, :sql)),
             Vocabulary::Exporter::SequelExporter.new(db_config:),
             Vocabulary::Exporter::AnkiExporter.new(outfile_pathname: outfile_path(output_dir_pathname, :vocabulary, :anki))
+          ]
+        )
+      end
+
+      def grammar_pipeline
+        db_config = config.db_config
+        infile_pathname = config.infile_pathname
+        output_dir_pathname = config.output_dir_pathname
+
+        Pipeline::Core::Pipeline.new(
+          importer: Grammar::Importer::JSONImporter.new(infile_pathname:),
+          transformers: [],
+          exporters: [
+            Grammar::Exporter::IOExporter.new(io: $stdout)
           ]
         )
       end

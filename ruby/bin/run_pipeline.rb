@@ -4,6 +4,7 @@ require 'pathname'
 
 require_relative '../lib/goi/pipeline'
 
+# TODO: Make general for any pipeline and put in goi library; then we can have multiple CLI apps if we want with minimal code.
 module Goi
   module Bin
     module Pipeline
@@ -17,13 +18,8 @@ module Goi
         attr_reader :pipeline_factory
 
         def run
-          default_vocabulary_pipeline.run
-        end
-
-        private
-
-        def default_vocabulary_pipeline
-          pipeline_factory.vocabulary_pipeline
+          #pipeline_factory.vocabulary_pipeline.run
+          pipeline_factory.grammar_pipeline.run
         end
 
       end
@@ -32,10 +28,16 @@ module Goi
   end
 end
 
+# config = Goi::Pipeline::Factory::Config.new(
+#   db_config: { database: 'goi', user: 'postgres', password: 'postgres', host: 'localhost' },
+#   infile_pathname: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', '日本語 Vocab - Vocab.csv'),
+#   output_dir_pathname: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', 'vocabulary')
+# )
+
 config = Goi::Pipeline::Factory::Config.new(
   db_config: { database: 'goi', user: 'postgres', password: 'postgres', host: 'localhost' },
-  infile_pathname: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', '日本語 Vocab - Vocab.csv'),
-  output_dir_pathname: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', 'vocabulary')
+  infile_pathname: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', '日本語 Vocab - Grammar.json'),
+  output_dir_pathname: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', 'grammar')
 )
 
 Goi::Bin::Pipeline::Application.new(config:).run
