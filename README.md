@@ -78,3 +78,8 @@ time for my use case; I can always add `optparse` later if needed), so you need 
 
 Note that since this is all just for me, I've version controlled these files so that
 I can diff them to catch mistakes before importing into Anki.
+
+## Tests
+
+1. `cd goi/ruby` to get the right ruby version.
+2. `bundle exec rspec spec`

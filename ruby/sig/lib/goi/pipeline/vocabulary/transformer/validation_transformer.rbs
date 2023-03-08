@@ -1,0 +1,31 @@
+module Goi
+  module Pipeline
+    module Vocabulary
+      module Transformer
+        class ValidationTransformer < Vocabulary::Transformer::Base
+          def transform: ([Model::Vocabulary::Linkages] linkages) -> [Model::Vocabulary::Linkages]
+
+          private
+
+          def io: () -> IO
+
+          def report: (linkages: [Model::Vocabulary::Linkages] linkages) -> Goi::Core::ValidationReport?
+
+          def duplicate_ids: (linkages: [Model::Vocabulary::Linkages] linkages) -> Goi::Core::ValidationReport?
+
+          def duplicate_preferred_spellings: (linkages: [Model::Vocabulary::Linkages] linkages) -> Goi::Core::ValidationReport?
+
+          def missing_conjugations: (linkages: [Model::Vocabulary::Linkages] linkages) -> Goi::Core::ValidationReport?
+
+          def incorrect_conjugation_report: (linkages: [Model::Vocabulary::Linkages] linkages) -> Goi::Core::ValidationReport?
+
+          def incorrect_conjugation_word_report: (linkage: [Model::Vocabulary::Linkages] linkage) -> Goi::Core::ValidationReport?
+
+          def empty_conjugation_message: (linkages: [Model::Vocabulary::Linkages] linkages, word_class_code: String word_class_code, label: String label) -> Goi::Core::ValidationMessage
+
+          def find_duplicates: [T] ([T] array) -> [T]
+        end
+      end
+    end
+  end
+end

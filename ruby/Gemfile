@@ -3,6 +3,7 @@
 source 'https://rubygems.org'
 
 gem 'rubocop', require: false, group: 'development'
+gem 'rspec', '~>3.12.0', group: 'development'
 
 gem 'uuidtools', '~>2.1.5'
 gem 'mojinizer', '~>0.2.2'

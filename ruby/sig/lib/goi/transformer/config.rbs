@@ -1,9 +1,0 @@
-module Goi
-  module Transformer
-    class Config
-
-      def initialize: () -> void
-
-    end
-  end
-end

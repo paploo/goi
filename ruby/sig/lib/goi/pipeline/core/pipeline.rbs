@@ -1,0 +1,37 @@
+module Goi
+  module Pipeline
+    module Core
+      class Pipeline [T]
+        def initialize: (importer: Importer[T] importer, ?transformers: [Transformer[T]] transformers, ?exporters: [Exporter[T]] exporters) -> void
+
+        attr_reader importer: Importer[T]
+
+        attr_reader transformers: [Transformer[T]]
+
+        attr_reader exporters: [Exporter[T]]
+
+        def run: () -> void
+
+        private
+
+        def logger: () -> IO
+
+        def log: (String) -> void
+      end
+
+      class Importer [T]
+        def import: () -> T
+      end
+
+      class Exporter [T]
+        def export: (T value) -> void
+      end
+
+      # Transformers can transform the data but not the types.
+      # This allows for extensible plug-n-play and easier semantics, and is safe because of our importer/exporter rules.
+      class Transformer [T]
+        def transform: (T value) -> T
+      end
+    end
+  end
+end

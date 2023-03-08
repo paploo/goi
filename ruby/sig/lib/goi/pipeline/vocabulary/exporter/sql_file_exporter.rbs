@@ -1,0 +1,26 @@
+module Goi
+  module Pipeline
+    module Vocabulary
+      module Exporter
+        class SqlFileExporter < Vocabulary::Exporter::Base
+
+          def initialize: (db_config: Factory::Config::db_config db_config, outfile_pathname: Pathname? outfile_pathname) -> void
+
+          attr_reader db_config: Factory::Config::db_config
+
+          attr_reader outfile_pathname: Pathname?
+
+          def export: ([Model::Vocabulary::Linkages]) -> untyped
+
+          private
+
+          def db: () -> untyped
+
+          attr_reader record_builder: Vocabulary::RecordBuilder
+
+          def generate_insert_sql: (RecordBuilder::record_group record_group) -> [String]
+        end
+      end
+    end
+  end
+end

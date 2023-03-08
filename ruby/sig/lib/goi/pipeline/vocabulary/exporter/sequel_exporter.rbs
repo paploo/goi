@@ -1,0 +1,42 @@
+module Goi
+  module Pipeline
+    module Vocabulary
+      module Exporter
+        # Writes the loaded data directly into the database.
+        #
+        # We currently use a naïve method based on the google sheet being the source of truth:
+        # 1. Delete all vocabulary
+        # 2. Reload all, emitting an error for any that doen't load.
+        # This is really slow, loading about 100 vocabs/sec on my machine.
+        #
+        # One strategy to make this faster is to record a deep checksum for each vocabulary,
+        # and then update the ones that have changed (and, as long as the google sheet is
+        # the source of truth, delete any vocab that no longer exists).
+        class SequelExporter < Vocabulary::Exporter::Base
+
+          def initialize: (db_config: Factory::Config::db_config db_config) -> void
+
+          attr_reader db_config: Factory::Config::db_config
+
+          def export: ([Model::Vocabulary::Linkages] linkages) -> untyped
+
+          private
+
+          attr_reader record_builder: Vocabulary::RecordBuilder
+
+          def db: () -> untyped
+
+          def naive_export: (linkages: [Model::Vocabulary::Linkages] linkages) -> untyped
+
+          def delete_all: () -> void
+
+          def refresh_materialized_views: () -> void
+
+          def write_linkages: (linkages: [Model::Vocabulary::Linkages] linkages) -> untyped
+
+          def write_record_group: (record_group: RecordBuilder::record_group record_group) -> untyped
+        end
+      end
+    end
+  end
+end

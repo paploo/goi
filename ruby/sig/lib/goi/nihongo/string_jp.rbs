@@ -1,0 +1,27 @@
+module Goi
+  module Nihongo
+    class StringJP
+      def self.from: (String|StringJP|FuriganaString) -> StringJP
+
+      def initialize: (preferred_spelling: String preferred_spelling, ?phonetic_spelling: String? phonetic_spelling, ?furigana: String?|FuriganaString? furigana) -> void
+
+      attr_reader preferred_spelling: String
+
+      attr_reader phonetic_spelling: String?
+
+      attr_reader furigana: FuriganaString?
+    end
+
+    class FuriganaString
+      @tokens: [[String]]
+
+      def self.parse: (String|FuriganaString input) -> FuriganaString
+
+      def initialize: ([[String]] tokens) -> void
+
+      def to_s: () -> String
+
+      def to_html: () -> String
+    end
+  end
+end

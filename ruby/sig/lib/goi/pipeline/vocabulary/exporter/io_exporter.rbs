@@ -1,0 +1,15 @@
+module Goi
+  module Pipeline
+    module Vocabulary
+      module Exporter
+        class IOExporter < Vocabulary::Exporter::Base
+          def initialize: (io: IO io) -> void
+
+          attr_reader io: IO
+
+          def export: ([Model::Vocabulary::Linkages] linkages) -> void
+        end
+      end
+    end
+  end
+end

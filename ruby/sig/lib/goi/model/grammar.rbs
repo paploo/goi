@@ -1,0 +1,41 @@
+module Goi
+  module Model
+
+    module Grammar
+      class Rule
+        def initialize: (id: String id, title: Nihongo::StringJP title, meaning: String meaning, how_to_use: [String] how_to_use, ?jlpt_level: Integer? jlpt_level, ?lesson_codes: [String] lesson_codes, ?tags: [String] tags) -> void
+
+        attr_reader title: String
+
+        attr_reader meaning: Nihongo::StringJP
+
+        attr_reader how_to_use: [String]
+
+        attr_reader jlpt_level: Integer?
+
+        attr_reader lesson_codes: [String]
+
+        attr_reader tags: [String]
+      end
+
+      class Example
+        def initialize: (id: String id, rule_id: String rule_id, text: Nihongo::StringJP text, meaning: [String] meaning, ?rank: Integer?? rank, ?lessson_codes: [String] lessson_codes, ?tags: [String] tags) -> void
+
+        attr_reader id: String
+
+        attr_reader rule_id: String
+
+        attr_reader text: Nihongo::StringJP
+
+        attr_reader meaning: [String]
+
+        attr_reader rank: Integer?
+
+        attr_reader lessson_codes: [String]
+
+        attr_reader tags: [String]
+      end
+    end
+
+  end
+end

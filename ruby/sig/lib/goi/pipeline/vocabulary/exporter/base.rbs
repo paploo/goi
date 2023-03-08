@@ -1,0 +1,15 @@
+module Goi
+  module Pipeline
+    module Vocabulary
+      module Exporter
+        class Base < Goi::Pipeline::Core::Exporter[[Goi::Model::Vocabulary::Linkages]]
+
+          private
+
+          def open_path: (Pathname?){(IO) -> void} -> void
+
+        end
+      end
+    end
+  end
+end
