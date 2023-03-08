@@ -22,7 +22,8 @@ module Goi
             exporters: [
               #Vocabulary::Exporter::IOExporter.new(io: $stdout),
               Vocabulary::Exporter::GoogleSheetExporter.new(outfile_pathname: output_file(output_dir_pathname:, outfile_key: :google_sheet)),
-              Vocabulary::Exporter::AnkiExporter.new(outfile_pathname: output_file(output_dir_pathname:, outfile_key: :anki))
+              Vocabulary::Exporter::AnkiExporter.new(outfile_pathname: output_file(output_dir_pathname:, outfile_key: :anki)),
+              Vocabulary::Exporter::SqlFileExporter.new(db_config:, outfile_pathname: output_file(output_dir_pathname:, outfile_key: :sql))
             ]
           )
         end
@@ -32,7 +33,7 @@ module Goi
         OUTFILE_NAMES = {
           google_sheet: 'google_sheet.csv',
           anki: 'anki.csv',
-          data: 'data.sql'
+          sql: 'data.sql'
         }.freeze
 
         def self.output_file(output_dir_pathname:, outfile_key:)

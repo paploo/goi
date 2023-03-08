@@ -24,7 +24,8 @@ module Goi
 
           def initialize(db_config:)
             super()
-            @db = Sequel.postgres(db_config)
+            @db_config = db_config
+            @db = nil
 
             @vocabulary_parser = VocabularyParser.new
             @definition_parser = DefinitionParser.new
@@ -33,7 +34,7 @@ module Goi
             @conjugation_set_parser = ConjugationSetParser.new(conjugation_parser: @conjugation_parser)
           end
 
-          attr_reader :db
+          attr_reader :db_config
 
           attr_reader :vocabulary_parser
           attr_reader :definition_parser
@@ -60,6 +61,10 @@ module Goi
           end
 
           private
+
+          def db
+            @db ||= Sequel.postgres(db_config)
+          end
 
           class VocabularyParser
 
@@ -149,7 +154,7 @@ module Goi
               @conjugation_parser = conjugation_parser
             end
 
-            def parse(vocabulary_id: String, library: Library)
+            def parse(vocabulary_id:, library:)
               record = resolve_record(vocabulary_id:, library:, linkage_field: :conjugation_set_id)
 
               return nil if record.nil?
@@ -180,7 +185,7 @@ module Goi
 
           class ConjugationParser
 
-            def parse(conjugation_set_id: String, library: Library)
+            def parse(conjugation_set_id:, library:)
               records = library.conjugations.fetch(conjugation_set_id)
 
               records.map do |record|

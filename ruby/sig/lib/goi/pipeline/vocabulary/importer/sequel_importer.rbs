@@ -11,7 +11,7 @@ module Goi
 
           def initialize: (db_config: db_config db_config) -> void
 
-          attr_reader db: untyped
+          attr_reader db_config: db_config
 
           attr_reader vocabulary_parser: VocabularyParser
           attr_reader definition_parser: DefinitionParser
@@ -22,6 +22,8 @@ module Goi
           def import: () -> [Model::Vocabulary::Linkages]
 
           private
+
+          def db: -> untyped
 
           class VocabularyParser
             def parse: (vocabulary_record: record, library: Library) -> Model::Vocabulary::Vocabulary
