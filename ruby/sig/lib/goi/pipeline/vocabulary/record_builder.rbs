@@ -2,6 +2,7 @@ module Goi
   module Pipeline
     module Vocabulary
       class RecordBuilder
+
         type record = Hash[Symbol, untyped]
 
         type record_group = {
@@ -18,6 +19,8 @@ module Goi
           }
 
         def build_record_group: (Model::Vocabulary::Linkages linkages) -> record_group
+
+        private
 
         def build_vocabulary_record: (Model::Vocabulary::Vocabulary vocabulary) -> record
 

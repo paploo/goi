@@ -52,7 +52,7 @@ module Goi
                                         rule_id: rule_id,
                                         meaning: json.fetch('meaning'),
                                         text: parse_stringjp(json.fetch('text')),
-                                        rank: index + 1,
+                                        sort_rank: index + 1,
                                         lesson_codes: json['lesson_codes'] || [],
                                         tags: json['tags'] || [])
           end

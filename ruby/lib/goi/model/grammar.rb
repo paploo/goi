@@ -56,7 +56,7 @@ module Goi
                        rule_id:,
                        text:,
                        meaning:,
-                       rank: nil,
+                       sort_rank: nil,
                        lesson_codes: [],
                        tags: []
         )
@@ -64,7 +64,7 @@ module Goi
           @rule_id = rule_id || raise(ArgumentError, 'Rule ID required')
           @text = text
           @meaning = meaning
-          @rank = rank
+          @sort_rank = sort_rank
           @lesson_codes = lesson_codes
           @tags = tags
         end
@@ -73,7 +73,7 @@ module Goi
         attr_reader :rule_id
         attr_reader :text
         attr_reader :meaning
-        attr_reader :rank
+        attr_reader :sort_rank
         attr_reader :lesson_codes
         attr_reader :tags
 
