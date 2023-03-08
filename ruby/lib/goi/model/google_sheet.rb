@@ -1,5 +1,7 @@
 module Goi
   module Model
+    # TODO: Move this into the pipeline vocabulary namespace, as it's a UTILITY class shared for its importer and exporter
+    # TODO: Upon move, rename to GoogleSheetUtils
     module GoogleSheet
 
       CONJUGATION_KEY_DATA = [

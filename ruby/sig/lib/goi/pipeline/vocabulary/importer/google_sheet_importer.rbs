@@ -2,7 +2,7 @@ module Goi
   module Pipeline
     module Vocabulary
       module Importer
-        class GoogleSheetImporter < Importer::Base
+        class GoogleSheetImporter < Vocabulary::Importer::Base
 
           type field_data = { linkage_field: Symbol, key: String }
 

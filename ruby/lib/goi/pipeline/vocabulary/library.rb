@@ -1,5 +1,9 @@
 # frozen_string_literal: true
 
+require_relative 'importer'
+require_relative 'transformer'
+require_relative 'exporter'
+
 module Goi
   module Pipeline
     module Vocabulary
@@ -12,7 +16,9 @@ module Goi
             importer: Vocabulary::Importer::GoogleSheetImporter.new(infile_pathname:),
             transformers: [],
             exporters: [
-              Vocabulary::Exporter::IOExporter.new(io: $stdout)
+              #Vocabulary::Exporter::IOExporter.new(io: $stdout),
+              Vocabulary::Exporter::GoogleSheetExporter.new(outfile_pathname: output_file(output_dir_pathname:, outfile_key: :google_sheet))
+              #Vocabulary::Exporter::GoogleSheetExporter.new(outfile_pathname: nil)
             ]
           )
         end
@@ -25,9 +31,16 @@ module Goi
           data: 'data.sql'
         }.freeze
 
-        def output_file(output_dir_pathname:, outfile_key:)
-          output_dir_pathname + OUTFILE_NAMES[outfile_key]
+        def self.output_file(output_dir_pathname:, outfile_key:)
+          # I don't normally map over a monad in a helper method, but this makes the call points (all in this file) much cleaner.
+          if output_dir_pathname.nil?
+            nil
+          else
+            output_dir_pathname + OUTFILE_NAMES[outfile_key]
+          end
         end
+
+        private_class_method :output_file
 
       end
     end

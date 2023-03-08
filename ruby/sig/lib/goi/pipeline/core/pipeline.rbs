@@ -11,6 +11,12 @@ module Goi
         attr_reader exporters: [Exporter[T]]
 
         def run: () -> void
+
+        private
+
+        def logger: () -> IO
+
+        def log: (String) -> void
       end
 
       class Importer [T]

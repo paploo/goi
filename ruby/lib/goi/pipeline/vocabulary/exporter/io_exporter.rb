@@ -6,7 +6,7 @@ module Goi
   module Pipeline
     module Vocabulary
       module Exporter
-        class IOExporter < Exporter::Base
+        class IOExporter < Vocabulary::Exporter::Base
 
           def initialize(io:)
             super()

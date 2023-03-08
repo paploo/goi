@@ -28,7 +28,6 @@ module Goi
 
       end
 
-
     end
   end
 end

@@ -12,7 +12,7 @@ module Goi
   module Pipeline
     module Vocabulary
       module Importer
-        class GoogleSheetImporter < Importer::Base
+        class GoogleSheetImporter < Vocabulary::Importer::Base
 
           PREFERRED_SPELLING_FIELD_DATA = {linkage_field: :preferred_spelling, key: 'preferred_spelling'}.freeze
           PHONETIC_SPELLING_FIELD_DATA = {linkage_field: :phonetic_spelling, key: 'phonetic_spelling'}.freeze
