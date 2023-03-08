@@ -4,14 +4,13 @@ module Goi
       module Importer
         class SequelImporter < Vocabulary::Importer::Base
 
-          type db_config = {database: String, user: String, password: String, host: String}
-          type record = Hash[Symbol, untyped]
+          type record = RecordBuilder::record
 
           LINKAGE_FIELD_ID_COL_MAP: ::Hash[Symbol, Symbol]
 
-          def initialize: (db_config: db_config db_config) -> void
+          def initialize: (db_config: Factory::Config::db_config db_config) -> void
 
-          attr_reader db_config: db_config
+          attr_reader db_config: Factory::Config::db_config
 
           attr_reader vocabulary_parser: VocabularyParser
           attr_reader definition_parser: DefinitionParser

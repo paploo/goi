@@ -10,20 +10,20 @@ module Goi
 
       class Application
 
+        def initialize(config:)
+          @pipeline_factory = Goi::Pipeline::Factory.new(config:)
+        end
+
+        attr_reader :pipeline_factory
+
         def run
           default_vocabulary_pipeline.run
         end
 
         private
 
-        CONFIG = {
-          db_config: { database: 'goi', user: 'postgres', password: 'postgres', host: 'localhost' },
-          infile_pathname: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', '日本語 Vocab - Vocab.csv'),
-          output_dir_pathname: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', 'vocabulary')
-        }.freeze
-
         def default_vocabulary_pipeline
-          Goi::Pipeline::Vocabulary::Library.default(**CONFIG)
+          pipeline_factory.vocabulary_pipeline
         end
 
       end
@@ -32,4 +32,10 @@ module Goi
   end
 end
 
-Goi::Bin::Pipeline::Application.new.run
+config = Goi::Pipeline::Factory::Config.new(
+  db_config: { database: 'goi', user: 'postgres', password: 'postgres', host: 'localhost' },
+  infile_pathname: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', '日本語 Vocab - Vocab.csv'),
+  output_dir_pathname: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', 'vocabulary')
+)
+
+Goi::Bin::Pipeline::Application.new(config:).run

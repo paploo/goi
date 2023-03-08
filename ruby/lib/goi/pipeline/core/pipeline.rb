@@ -51,7 +51,7 @@ module Goi
 
         def log(message)
           delta_t = Time.now - @start_at
-          logger.puts("[Pipeline](#{"%0.06f" % delta_t.to_f} sec) #{message}")
+          logger.puts("[Pipeline](#{"%0.03f" % delta_t.to_f} sec) #{message}")
         end
 
       end
