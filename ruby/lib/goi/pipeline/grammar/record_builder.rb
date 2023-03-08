@@ -11,8 +11,8 @@ module Goi
             rule: build_rule_record(hydrated_rule.rule),
             examples: hydrated_rule.examples.map { |example| build_example_record(example) },
 
-            rule_references: build_reference_records(:rule_id, hydrated_rule.rule.id, hydrated_rule.rule.lesson_codes),
-            example_references: build_reference_records(:example_id, hydrated_rule.rule.id, hydrated_rule.rule.lesson_codes),
+            rule_references: build_rule_lesson_codes(hydrated_rule.rule),
+            example_references: build_examples_lesson_codes(hydrated_rule.examples),
           }
         end
 
@@ -46,6 +46,16 @@ module Goi
           }
         end
 
+        def build_rule_lesson_codes(rule)
+          build_reference_records(:rule_id, rule.id, rule.lesson_codes)
+        end
+
+        def build_examples_lesson_codes(examples)
+          examples.flat_map do |example|
+            build_reference_records(:example_id, example.id, example.lesson_codes)
+          end
+        end
+
         def build_reference_records(kind, id, lesson_codes)
           lesson_codes.map { |lesson_code| build_reference_record(kind, id, lesson_code) }
         end
@@ -58,7 +68,7 @@ module Goi
         end
 
         def build_string_array(strings)
-          strings.join(',').then { |s| "{#{s}" }
+          strings.join(',').then { |s| "{#{s}}" }
         end
 
         alias_method :build_tags, :build_string_array

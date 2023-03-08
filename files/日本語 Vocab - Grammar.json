@@ -11,19 +11,31 @@
     ],
     "examples": [
       {
-        "id": "bbbb2051-aab0-494e-b0ff-4be24feabbbb",
+        "id": "aaaa2051-aab0-494e-b0ff-4be24feaaaaa",
         "meaning": "Example 1",
         "text": {
           "preferred_spelling": "例え",
           "phonetic_spelling": "たとえ",
           "furigana_template": "{例|たと}え"
         },
-        "lesson_codes": ["REF"],
+        "lesson_codes": ["REF_A1", "REF_A2"],
+        "tags": []
+      },
+      {
+        "id": "bbbb2051-aab0-494e-b0ff-4be24feabbbb",
+        "meaning": "Example 2",
+        "text": {
+          "preferred_spelling": "例え",
+          "phonetic_spelling": "たとえ",
+          "furigana_template": "{例|たと}え"
+        },
+        "lesson_codes": ["REF_B1", "REF_B2"],
         "tags": []
       }
     ],
     "jlpt_level": null,
     "date_added": "2022-03-07",
+    "lesson_codes": ["GENKI"],
     "tags": ["TEST"]
   }
 ]

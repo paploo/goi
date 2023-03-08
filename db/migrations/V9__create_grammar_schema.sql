@@ -40,5 +40,5 @@ create table grammar.example_reference (
     example_id uuid not null references grammar.example(id) on delete cascade,
     lesson_code varchar not null references source.lesson(code)
 );
-create unique index on grammar.example_reference(rule_id, lesson_code);
+create unique index on grammar.example_reference(example_id, lesson_code);
 create index on grammar.example_reference(lesson_code);

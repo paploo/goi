@@ -62,7 +62,8 @@ module Goi
           importer: Grammar::Importer::JSONImporter.new(infile_pathname:),
           transformers: [],
           exporters: [
-            Grammar::Exporter::IOExporter.new(io: $stdout)
+            #Grammar::Exporter::IOExporter.new(io: $stdout)
+            Grammar::Exporter::SequelExporter.new(db_config:)
           ]
         )
       end
