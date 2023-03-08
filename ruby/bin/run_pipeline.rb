@@ -23,8 +23,20 @@ RUN_CONFIGURATIONS = {
   }
 }.freeze
 
-#TODO: Select the configuration based on an argument
-#TODO: Have an :all mode that runs through all pipeline run configurations.
-run_configuration = RUN_CONFIGURATIONS[:grammar]
+# TODO: Use OptionParser lib instead of hacky custom impl.
+def select_mode(mode_arg)
+  mode_arg_sym = mode_arg&.strip&.downcase&.to_sym
+  if RUN_CONFIGURATIONS.has_key?(mode_arg_sym)
+    mode_arg_sym
+  else
+    $stderr.puts("Unknown mode #{mode_arg_sym&.to_s.inspect}; provide a valid mode from: #{RUN_CONFIGURATIONS.keys.map(&:to_s).inspect}")
+    exit(1)
+  end
+end
+
+mode = select_mode(ARGV[0])
+$stderr.puts("RUN MODE: #{mode.inspect}")
+run_configuration = RUN_CONFIGURATIONS[mode]
+$stderr.puts("RUN CONFIGURATION: #{run_configuration.inspect}")
 
 Goi::Application::PipelineApp.new(**run_configuration).run
