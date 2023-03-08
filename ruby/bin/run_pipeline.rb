@@ -10,11 +10,20 @@ module Goi
 
       class Application
 
-        VOCABULARY_PIPELINE = Goi::Pipeline::Vocabulary::Library.default(db_config: { database: 'goi', user: 'postgres', password: 'postgres', host: 'localhost' },
-                                                                         infile_pathname: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', '日本語 Vocab - Vocab.csv'))
-
         def run
-          VOCABULARY_PIPELINE.run
+          default_vocabulary_pipeline.run
+        end
+
+        private
+
+        CONFIG = {
+          db_config: { database: 'goi', user: 'postgres', password: 'postgres', host: 'localhost' },
+          infile_pathname: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', '日本語 Vocab - Vocab.csv'),
+          output_dir_pathname: Pathname(__FILE__).expand_path.join('..', '..', '..', 'files', 'vocabulary')
+        }.freeze
+
+        def default_vocabulary_pipeline
+          Goi::Pipeline::Vocabulary::Library.default(**CONFIG)
         end
 
       end

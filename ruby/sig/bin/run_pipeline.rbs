@@ -1,0 +1,15 @@
+module Goi
+  module Bin
+    module Pipeline
+      class Application
+        def run: () -> void
+
+        private
+
+        CONFIG: Hash[Symbol, untyped]
+
+        def default_vocabulary_pipeline: () -> Goi::Pipeline::Core::Pipeline[[Model::Vocabulary::Linkages]]
+      end
+    end
+  end
+end

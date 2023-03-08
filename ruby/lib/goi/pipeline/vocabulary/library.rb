@@ -5,9 +5,9 @@ module Goi
     module Vocabulary
       module Library
 
-        # TODO: Move args as a configuration object that can apply to any combination of pipeline steps?
         def self.default(db_config:,
-                         infile_pathname:)
+                         infile_pathname:,
+                         output_dir_pathname:)
           Pipeline::Core::Pipeline.new(
             importer: Vocabulary::Importer::GoogleSheetImporter.new(infile_pathname:),
             transformers: [],
@@ -15,6 +15,18 @@ module Goi
               Vocabulary::Exporter::IOExporter.new(io: $stdout)
             ]
           )
+        end
+
+        private
+
+        OUTFILE_NAMES = {
+          google_sheet: 'google_sheet.csv',
+          anki: 'anki.csv',
+          data: 'data.sql'
+        }.freeze
+
+        def output_file(output_dir_pathname:, outfile_key:)
+          output_dir_pathname + OUTFILE_NAMES[outfile_key]
         end
 
       end
