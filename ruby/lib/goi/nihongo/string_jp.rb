@@ -80,6 +80,16 @@ module Goi
 
       def to_s = @tokens.map { |t| t[0] }.join
 
+      def to_template
+        @tokens.map do |t|
+          if t[1].nil? || t[0] == t[1]
+            t[0]
+          else
+            "{#{t[0]}|#{t[1]}}"
+          end
+        end.join
+      end
+
       def to_html
         @tokens.map do |t|
           if t[1].nil? || t[0] == t[1]

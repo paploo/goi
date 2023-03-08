@@ -1,0 +1,37 @@
+module Goi
+  module Pipeline
+    module Grammar
+      class RecordBuilder
+
+        type record = Hash[Symbol, untyped]
+
+        type record_group = {
+            rule: record,
+            examples: [record],
+
+            rule_references: [record],
+            example_references: [record]
+          }
+
+        def build_record_group: (Model::Grammar::HydratedRule hydrated_rule) -> record
+
+        private
+
+        def build_rule_record: (Model::Grammar::Rule hydrated_rule) -> record
+
+        def build_example_record: (Model::Grammar::Example hydrated_rule) -> record
+
+        def build_rule_lesson_codes: (Model::Grammar::Rule) -> [record]
+
+        def build_examples_lesson_codes: ([Model::Grammar::Example]) -> [record]
+
+        def build_reference_records: (Symbol kind, String id, [String] lesson_codes) -> [record]
+
+        def build_reference_record: (Symbol kind, String id, String lesson_code) -> record
+
+        def build_string_array: ([String] strings)-> String
+
+      end
+    end
+  end
+end

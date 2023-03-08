@@ -24,7 +24,7 @@ module Goi
             meaning: rule.meaning,
             title_preferred_spelling: rule.title.preferred_spelling,
             title_phonetic_spelling: rule.title.phonetic_spelling,
-            title_furigana_template: rule.title.furigana,
+            title_furigana_template: rule.title.furigana&.to_template,
             how_to_use: build_how_to_use(rule.how_to_use),
             jlpt_level: rule.jlpt_level,
             row_num: rule.row_num,
@@ -40,7 +40,7 @@ module Goi
             meaning: example.meaning,
             text_preferred_spelling: example.text.preferred_spelling,
             text_phonetic_spelling: example.text.phonetic_spelling,
-            text_furigana_template: example.text.furigana,
+            text_furigana_template: example.text.furigana&.to_template,
             sort_rank: example.sort_rank,
             tags: build_tags(example.tags)
           }

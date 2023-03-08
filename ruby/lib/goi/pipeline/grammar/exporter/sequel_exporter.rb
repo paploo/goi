@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require 'sequel'
-require 'pp'
 require_relative '../record_builder'
 
 module Goi
@@ -91,7 +90,22 @@ module Goi
           end
 
           def write_record_group(record_group:)
-            PP.pp(record_group, $>, 200)
+            # Doing many small transactions had similar perf and behaves better for partial loads.
+            db.transaction do
+              db[Sequel[:grammar][:rule]].insert(record_group[:rule])
+
+              record_group[:examples].each do |example|
+                db[Sequel[:grammar][:example]].insert(example)
+              end
+
+              record_group[:rule_references].each do |rule_reference|
+                db[Sequel[:grammar][:rule_reference]].insert(rule_reference)
+              end
+
+              record_group[:example_references].each do |example_reference|
+                db[Sequel[:grammar][:example_reference]].insert(example_reference)
+              end
+            end
           end
 
         end

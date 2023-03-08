@@ -334,6 +334,7 @@ cython_debug/
 # Make sure to get the ruby lib files which the Python ignores lock out.
 !ruby/lib
 !ruby/sig/lib
+!ruby/spec/lib
 
 # RubyMine likes to generate the sigs at top level, but that isn't where they go.
 /sig/

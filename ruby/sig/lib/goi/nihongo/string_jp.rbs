@@ -21,6 +21,8 @@ module Goi
 
       def to_s: () -> String
 
+      def to_template: () -> String
+
       def to_html: () -> String
     end
   end

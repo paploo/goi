@@ -18,7 +18,7 @@
           "phonetic_spelling": "たとえ",
           "furigana_template": "{例|たと}え"
         },
-        "lesson_codes": ["REF_A1", "REF_A2"],
+        "lesson_codes": ["GENKI3_L00", "GENKI3_L01"],
         "tags": []
       },
       {
@@ -29,13 +29,13 @@
           "phonetic_spelling": "たとえ",
           "furigana_template": "{例|たと}え"
         },
-        "lesson_codes": ["REF_B1", "REF_B2"],
+        "lesson_codes": ["GENKI3_L02", "GENKI3_L03"],
         "tags": []
       }
     ],
     "jlpt_level": null,
     "date_added": "2022-03-07",
-    "lesson_codes": ["GENKI"],
+    "lesson_codes": ["GENKI3_L12"],
     "tags": ["TEST"]
   }
 ]
