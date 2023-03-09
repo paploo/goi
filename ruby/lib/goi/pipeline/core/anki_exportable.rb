@@ -11,11 +11,12 @@ module Goi
       module AnkiExportable
 
         def write_file_headers(io)
-          io.puts("#separator: Comma") # Required to make columns map.
-          io.puts("#deck: #{deck}") unless deck.nil?
-          io.puts("#notetype: #{note_type}") unless note_type.nil?
-          io.puts("#tags column: #{tags_column_index + 1}") unless tags_column_index.nil?
-          io.puts("#columns: " + header_row.to_csv) unless header_row.nil?
+          # Spaces afte rthe colon are not technically supported, though as of 2023-03 work with all of these but notetype
+          io.puts("#separator:Comma") # Required to make columns map.
+          io.puts("#deck:#{deck}") unless deck.nil?
+          io.puts("#notetype:#{note_type}") unless note_type.nil?
+          io.puts("#tags column:#{tags_column_index + 1}") unless tags_column_index.nil?
+          io.puts("#columns:" + header_row.to_csv) unless header_row.nil?
         end
 
         def deck

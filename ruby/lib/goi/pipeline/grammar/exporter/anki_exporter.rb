@@ -33,9 +33,8 @@ module Goi
 
           RULE_HEADERS = [
             'id',
-            'title_preferred_spelling',
-            'title_phonetic_spelling',
-            'title_furigana_html',
+            'title',
+            'title_phonetic',
             'meaning',
             'how_to_use',
             'jlpt_level',
@@ -44,9 +43,8 @@ module Goi
           ].freeze
 
           EXAMPLE_HEADERS = [
-            'preferred_spelling',
-            'phonetic_spelling',
-            'furigana_html',
+            'text',
+            'text_phonetic',
             'meaning'
           ].freeze
 
@@ -66,13 +64,9 @@ module Goi
 
           def deck = '日本語 Grammar'.freeze
 
+          def note_type = '日本語 Grammar'.freeze
+
           def hydrated_rule_row(hydrated_rule:)
-            #first, we need the main rule properties.
-            # Grab the first two examples and encode only those in hard-coded columns.
-            #
-            # Be sure to convert furigana to HTML,
-            # Be sure to compute tags_column_index as the last index.
-            # Be sure to append the lesson codes to tags
             rule = rule_row(hydrated_rule.rule)
             example1 = example_row_or_nils(hydrated_rule.examples[0])
             example2 = example_row_or_nils(hydrated_rule.examples[1])
@@ -83,9 +77,8 @@ module Goi
           def rule_row(rule)
             [
               rule.id,
-              rule.title.preferred_spelling,
+              rule.title.furigana&.to_anki || rule.title.preferred_spelling,
               rule.title.phonetic_spelling,
-              rule.title.furigana&.to_html,
               rule.meaning,
               how_to_use_field(rule.how_to_use),
               rule.jlpt_level&.to_s,
@@ -96,9 +89,8 @@ module Goi
 
           def example_row(example)
             [
-              example.text.preferred_spelling,
+              example.text.furigana&.to_anki || example.text.preferred_spelling,
               example.text.phonetic_spelling,
-              example.text.furigana&.to_html,
               example.meaning
             ]
           end
@@ -116,7 +108,7 @@ module Goi
 
             tagables.flat_map do |tagable|
               tagable.tags + tagable.lesson_codes
-            end
+            end.uniq.sort
           end
 
           def tags_field(tags)

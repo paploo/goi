@@ -34,6 +34,8 @@ end
 
 RSpec.describe Goi::Nihongo::FuriganaString do
 
+  describe("basic functionality") do
+
   it('should parse an empty string as empty') do
     fs = Goi::Nihongo::FuriganaString.parse('')
     expect(fs.to_s).to eq ''
@@ -61,6 +63,35 @@ RSpec.describe Goi::Nihongo::FuriganaString do
     input = Goi::Nihongo::FuriganaString.parse('日本語')
     fs = Goi::Nihongo::FuriganaString.parse(input)
     expect(fs).to be input
+  end
+
+  end
+
+  describe("formatting") do
+
+    input = '{神社|じん・じゃ}に{行|い}きました'
+    fs = Goi::Nihongo::FuriganaString.parse(input)
+
+    it("should give preferred 'kanji' form") {
+      expect(fs.kanji).to eq('神社に行きました')
+    }
+
+    it("should give phonetic 'kana' form") {
+      expect(fs.kana).to eq('じんじゃにいきました')
+    }
+
+    it('should format for html') {
+      expect(fs.to_html).to eq '<ruby>神<rt>じん</rt></ruby><ruby>社<rt>じゃ</rt></ruby>に<ruby>行<rt>い</rt></ruby>きました'
+    }
+
+    it('should format for anki') {
+      expect(fs.to_anki).to eq '神[じん] 社[じゃ]に 行[い]きました'
+    }
+
+    it('should format to input template form') {
+      expect(fs.to_template).to eq '{神|じん}{社|じゃ}に{行|い}きました'
+    }
+
   end
 
 end

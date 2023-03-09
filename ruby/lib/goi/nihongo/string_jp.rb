@@ -78,7 +78,11 @@ module Goi
         @tokens = tokens
       end
 
-      def to_s = @tokens.map { |t| t[0] }.join
+      def kanji = @tokens.map { |t| t[0] }.join
+
+      def kana = @tokens.map { |t| !t[1].nil? ? t[1] : t[0] }.join
+
+      def to_s = kanji
 
       def to_template
         @tokens.map do |t|
@@ -98,6 +102,17 @@ module Goi
             "<ruby>#{t[0]}<rt>#{t[1]}</rt></ruby>"
           end
         end.join
+      end
+
+      def to_anki
+        @tokens.map do |t|
+          if t[1].nil? || t[0] == t[1]
+            t[0]
+          else
+            # Uses space at front to disambiguate which character(s) to put furigana over.
+            " #{t[0]}[#{t[1]}]"
+          end
+        end.join.strip
       end
 
     end
