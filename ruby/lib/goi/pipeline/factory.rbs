@@ -23,6 +23,8 @@ module Goi
 
       def vocabulary_pipeline: () -> vocabulary_pipeline
 
+      def grammar_pipeline: () -> grammar_pipeline
+
       private
 
       OUTFILE_NAMES: Hash[Symbol, Hash[Symbol, String]]

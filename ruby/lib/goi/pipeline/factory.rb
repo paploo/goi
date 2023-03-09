@@ -63,7 +63,8 @@ module Goi
           transformers: [],
           exporters: [
             #Grammar::Exporter::IOExporter.new(io: $stdout)
-            Grammar::Exporter::SequelExporter.new(db_config:)
+            Grammar::Exporter::SequelExporter.new(db_config:),
+            Grammar::Exporter::AnkiExporter.new(outfile_pathname: outfile_path(output_dir_pathname, :grammar, :anki))
           ]
         )
       end
@@ -75,6 +76,9 @@ module Goi
           google_sheet: 'google_sheet.csv',
           anki: 'anki.csv',
           sql: 'data.sql'
+        },
+        grammar: {
+          anki: 'anki.csv'
         }
       }.freeze
 

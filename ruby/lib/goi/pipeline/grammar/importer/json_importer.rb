@@ -40,7 +40,7 @@ module Goi
                                      how_to_use: json.fetch('how_to_use'),
                                      jlpt_level: json['jlpt_level']&.to_i,
                                      row_num: index + 1,
-                                     date_added: json.fetch('date_added').tap { |d| Date.parse(d) },
+                                     date_added: json.fetch('date_added')&.then { |d| Date.parse(d) },
                                      lesson_codes: json['lesson_codes'] || [],
                                      tags: json['tags'] || [])
           end

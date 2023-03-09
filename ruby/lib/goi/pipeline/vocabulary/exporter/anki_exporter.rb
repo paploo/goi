@@ -129,7 +129,7 @@ module Goi
 
           def note_id(linkage:) = linkage.vocabulary.id
 
-          def deck = "日本語 Vocab".freeze
+          def deck = '日本語 Vocab'.freeze
 
           def linkage_row(linkage:)
             note_id_fields(linkage:) + vocabulary_fields(linkage:) + conjugation_fields_or_empty(linkage:) + tags_fields(linkage:)

@@ -33,7 +33,7 @@ module Goi
       end
 
       class Example
-        def initialize: (id: String id, rule_id: String rule_id, text: Nihongo::StringJP text, meaning: [String] meaning, ?sort_rank: Integer? sort_rank, ?lesson_codes: [String] lesson_codes, ?tags: [String] tags) -> void
+        def initialize: (id: String id, rule_id: String rule_id, text: Nihongo::StringJP text, meaning: String meaning, ?sort_rank: Integer? sort_rank, ?lesson_codes: [String] lesson_codes, ?tags: [String] tags) -> void
 
         attr_reader id: String
 
@@ -41,7 +41,7 @@ module Goi
 
         attr_reader text: Nihongo::StringJP
 
-        attr_reader meaning: [String]
+        attr_reader meaning: String
 
         attr_reader sort_rank: Integer?
 

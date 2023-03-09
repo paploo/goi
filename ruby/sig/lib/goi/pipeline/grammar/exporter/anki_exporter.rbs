@@ -1,0 +1,41 @@
+module Goi
+  module Pipeline
+    module Grammar
+      module Exporter
+        class AnkiExporter < Grammar::Exporter::Base
+          include Pipeline::Core::AnkiExportable
+
+          def initialize: (outfile_pathname: Pathname? outfile_pathname) -> void
+
+          attr_reader outfile_pathname: Pathname?
+
+          def export: ([Model::Grammar::HydratedRule] hydrated_rules) -> untyped
+
+          private
+
+          RULE_HEADERS: [String]
+
+          EXAMPLE_HEADERS: [String]
+
+          TAGS_HEADER: String
+
+          def rule_rows: (hydrated_rules: [Model::Grammar::HydratedRule] hydrated_rules) -> [[String?]]
+
+          def hydrated_rule_row: (hydrated_rule: Model::Grammar::HydratedRule hydrated_rule) -> [String?]
+
+          def rule_row: (Model::Grammar::Rule rule) -> [String?]
+
+          def example_row: (Model::Grammar::Example example) -> [String?]
+
+          def example_row_or_nils: (Model::Grammar::Example example) -> [String?]
+
+          def tags: (Model::Grammar::HydratedRule hydrated_rule) -> [String]
+
+          def tags_field: ([String] tags) -> String?
+
+          def how_to_use_field: ([String] how_to_use_array) -> String
+        end
+      end
+    end
+  end
+end

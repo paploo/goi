@@ -3,3 +3,4 @@
 require_relative 'exporter/base'
 require_relative 'exporter/io_exporter'
 require_relative 'exporter/sequel_exporter'
+require_relative 'exporter/anki_exporter'
