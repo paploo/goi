@@ -1,0 +1,41 @@
+module Goi
+  module Pipeline
+    module Grammar
+      module Exporter
+        # Write the loaded data diretly into the database.
+        #
+        # Like with the Vocabulary SequelExporter, we take the nuclear option of rebuilding the data within the
+        # grammar schema each time. This is heavy-handed, but is a workflow that is (currently) working for me.
+        #
+        # In the future I'd ideally have a sync process, but that would take a lot of comparison code and gives
+        # me little benefit because the database is not a transactional source of truth right now. And even if it
+        # were, then I'd switch to it being the importer, and only export to non-db sources, so I wtill wouldn't
+        # need it.
+        class SequelExporter < Grammar::Exporter::Base
+
+          def initialize: (db_config: Factory::Config::db_config db_config) -> void
+
+          attr_reader db_config: Factory::Config::db_config
+
+          def export: ([Model::Grammar::HydratedRule] hydrated_rules) -> void
+
+          private
+
+          attr_reader record_builder: Grammar::RecordBuilder
+
+          def db: () -> untyped
+
+          def naive_export: (hydrated_rules: [Model::Grammar::HydratedRule] hydrated_rules) -> void
+
+          def delete_all: () -> void
+
+          def refresh_materialized_views: () -> void
+
+          def write_hydrated_rules: (hydrated_rules: [Model::Grammar::HydratedRule] hydrated_rules) -> void
+
+          def write_record_group: (record_group: Grammar::RecordBuilder::record record_group) -> void
+        end
+      end
+    end
+  end
+end

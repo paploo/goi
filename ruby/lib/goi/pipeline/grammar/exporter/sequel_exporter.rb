@@ -2,6 +2,7 @@
 
 require 'sequel'
 require_relative '../record_builder'
+require_relative '../../core/safe_processor'
 
 module Goi
   module Pipeline
@@ -64,29 +65,11 @@ module Goi
           end
 
           def write_hydrated_rules(hydrated_rules:)
-            error_ids = []
-            start_t = Time.now
-            STDERR.puts("[#{self.class.name}] writing #{hydrated_rules.length} records.")
-
-            hydrated_rules.each do |hydrated_rule|
-              begin
-                record_group = record_builder.build_record_group(hydrated_rule)
-                write_record_group(record_group:)
-              rescue => err
-                id = hydrated_rule.rule.id
-                msg = "[#{self.class.name}] WRITE ERROR: cannot write grammar rule ID #{id} due to error: #{err.full_message}"
-                STDERR.puts(msg)
-                error_ids << id
-              end
+            p = Pipeline::Core::SafeProcessor.new(id_getter: ->(r) { r.rule.id })
+            p.process(hydrated_rules) do |hydrated_rule|
+              record_group = record_builder.build_record_group(hydrated_rule)
+              write_record_group(record_group:)
             end
-
-            delta_t = Time.now - start_t
-            rate = hydrated_rules.length.to_f / delta_t
-            unless error_ids.empty?
-              STDERR.puts("#{self.class.name} Failed to load #{error_ids.length} vocabulary for ids:")
-              error_ids.each { |id| STDERR.puts "\t#{id}" }
-            end
-            STDERR.puts("[#{self.class.name}] wrote #{hydrated_rules.length} records with #{error_ids.length} errors in #{delta_t} seconds (#{rate} rec/sec)")
           end
 
           def write_record_group(record_group:)
