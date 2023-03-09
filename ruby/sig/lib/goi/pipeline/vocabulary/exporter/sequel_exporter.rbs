@@ -18,7 +18,7 @@ module Goi
 
           attr_reader db_config: Factory::Config::db_config
 
-          def export: ([Model::Vocabulary::Linkages] linkages) -> untyped
+          def export: ([Model::Vocabulary::Linkages] linkages) -> void
 
           private
 
@@ -26,15 +26,15 @@ module Goi
 
           def db: () -> untyped
 
-          def naive_export: (linkages: [Model::Vocabulary::Linkages] linkages) -> untyped
+          def naive_export: (linkages: [Model::Vocabulary::Linkages] linkages) -> void
 
           def delete_all: () -> void
 
           def refresh_materialized_views: () -> void
 
-          def write_linkages: (linkages: [Model::Vocabulary::Linkages] linkages) -> untyped
+          def write_linkages: (linkages: [Model::Vocabulary::Linkages] linkages) -> void
 
-          def write_record_group: (record_group: RecordBuilder::record_group record_group) -> untyped
+          def write_record_group: (record_group: Vocabulary::RecordBuilder::record_group record_group) -> void
         end
       end
     end

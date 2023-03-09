@@ -1,0 +1,13 @@
+module Goi
+  module Pipeline
+    module Grammar
+      module Exporter
+        class IOExporter
+          attr_reader io: IO
+
+          def export: ([Model::Grammar::HydratedRule] linkages) -> void
+        end
+      end
+    end
+  end
+end

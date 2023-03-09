@@ -1,0 +1,5 @@
+#separator: Comma
+#deck: 日本語 Grammar
+#tags column: 18
+#columns: id,title_preferred_spelling,title_phonetic_spelling,title_furigana_html,meaning,how_to_use,jlpt_level,date_added,row_num,example_1_preferred_spelling,example_1_phonetic_spelling,example_1_furigana_html,example_1_meaning,example_2_preferred_spelling,example_2_phonetic_spelling,example_2_furigana_html,example_2_meaning,tags
+0000d0db-623b-457d-b797-5c7bfd8d0000,テスト,,,Test,<li>how to use 1</li><li>how to use 2</li>,,2022-03-07,1,例え,たとえ,<ruby>例<rt>たと</rt></ruby>え,Example 1,例え,たとえ,<ruby>例<rt>たと</rt></ruby>え,Example 2,test genki3-l12 genki3-l00 genki3-l01 genki3-l02 genki3-l03

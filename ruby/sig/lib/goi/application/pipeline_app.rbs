@@ -1,0 +1,13 @@
+module Goi
+  module Application
+    class PipelineApp
+      def initialize: (pipeline_identifier: Symbol pipeline_identifier, pipeline_config: Pipeline::Factory::Config pipeline_config) -> void
+
+      attr_reader pipeline_factory: Pipeline::Factory
+
+      attr_reader pipeline_identifier: Symbol
+
+      def run: () -> void
+    end
+  end
+end

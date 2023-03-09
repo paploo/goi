@@ -4,9 +4,9 @@ require 'pp'
 
 module Goi
   module Pipeline
-    module Vocabulary
+    module Grammar
       module Exporter
-        class IOExporter < Vocabulary::Exporter::Base
+        class IOExporter < Grammar::Exporter::Base
 
           def initialize(io:)
             super()
@@ -15,10 +15,10 @@ module Goi
 
           attr_reader :io
 
-          def export(linkages)
+          def export(hydrated_rules)
             max_width = ENV['MAX_COLUMNS']&.to_i
             width = [PP.width_for(io), max_width].compact.min
-            linkages.each { |link| PP.pp(link, io, width) }
+            hydrated_rules.each { |rule| PP.pp(rule, io, width) }
           end
 
         end

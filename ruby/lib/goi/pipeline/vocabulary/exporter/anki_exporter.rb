@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative '../../../model/vocabulary'
+require_relative '../../../pipeline/core/anki_exportable'
 
 module Goi
   module Pipeline
@@ -8,6 +9,7 @@ module Goi
       module Exporter
 
         class BaseAnkiExporter < Vocabulary::Exporter::Base
+          include Pipeline::Core::AnkiExportable
 
           def initialize(outfile_pathname:)
             super()
@@ -29,30 +31,6 @@ module Goi
 
           private
 
-          def write_file_headers(io)
-            io.puts("#separator: Comma") # Required to make columns map.
-            io.puts("#deck: #{deck}") unless deck.nil?
-            io.puts("#notetype: #{note_type}") unless note_type.nil?
-            io.puts("#tags column: #{tags_column_index + 1}") unless tags_column_index.nil?
-            io.puts("#columns: " + header_row.to_csv) unless header_row.nil?
-          end
-
-          def deck
-            nil
-          end
-
-          def note_type
-            nil
-          end
-
-          def tags_column_index
-            nil
-          end
-
-          def header_row
-            nil
-          end
-
           def linkage_rows(linkages:)
             linkages.map { |linkage| linkage_row(linkage:) }.compact
           end
@@ -60,12 +38,6 @@ module Goi
           def linkage_row(linkage:)
             nil
           end
-
-          def to_array_field(array) = array.join(' ').clean
-
-          def humanize_const(s) = s.downcase.tr('_', ' ')
-
-          def tagize(s) = s.downcase.tr('_', '-')
 
         end
 
@@ -156,6 +128,8 @@ module Goi
           def tags_column_index = header_row&.index(TAGS_HEADER)
 
           def note_id(linkage:) = linkage.vocabulary.id
+
+          def deck = '日本語 Vocab'.freeze
 
           def linkage_row(linkage:)
             note_id_fields(linkage:) + vocabulary_fields(linkage:) + conjugation_fields_or_empty(linkage:) + tags_fields(linkage:)

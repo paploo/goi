@@ -12,6 +12,8 @@ create table grammar.rule (
     title_furigana_template text default null,
     how_to_use text[],
     jlpt_level int default null,
+    row_num int not null,
+    date_added date not null,
     tags varchar[] default '{}'
 );
 
@@ -35,8 +37,8 @@ create unique index on grammar.rule_reference(rule_id, lesson_code);
 create index on grammar.rule_reference(lesson_code);
 
 create table grammar.example_reference (
-    rule_id uuid not null references grammar.example(id) on delete cascade,
+    example_id uuid not null references grammar.example(id) on delete cascade,
     lesson_code varchar not null references source.lesson(code)
 );
-create unique index on grammar.example_reference(rule_id, lesson_code);
+create unique index on grammar.example_reference(example_id, lesson_code);
 create index on grammar.example_reference(lesson_code);

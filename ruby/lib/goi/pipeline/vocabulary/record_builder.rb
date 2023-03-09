@@ -21,6 +21,8 @@ module Goi
           }
         end
 
+        private
+
         def build_vocabulary_record(vocabulary)
           {
             id: vocabulary.id,

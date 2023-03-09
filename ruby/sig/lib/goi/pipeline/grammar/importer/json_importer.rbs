@@ -1,0 +1,33 @@
+module Goi
+  module Pipeline
+    module Grammar
+      module Importer
+        class JSONImporter < Grammar::Importer::Base
+
+          type json_object = Hash[String, untyped]
+
+          def initialize: (infile_pathname: Pathname? infile_pathname) -> void
+
+          attr_reader infile_pathname: Pathname?
+
+          def import: () -> [Model::Grammar::HydratedRule]
+
+          private
+
+          def parse_hydrated_rules: ([json_object] json) -> [Model::Grammar::HydratedRule]
+
+          def parse_hydrated_rule: (Integer index, json_object json) -> Model::Grammar::HydratedRule
+
+          def parse_rule: (Integer index, json_object json) -> Model::Grammar::Rule
+
+          def parse_examples: (String rule_id, [json_object] json) -> [Model::Grammar::Example]
+
+          def parse_example: (String rule_id, Integer index, json_object json) -> Model::Grammar::Example
+
+          def parse_stringjp: (json_object json) -> Nihongo::StringJP
+
+        end
+      end
+    end
+  end
+end

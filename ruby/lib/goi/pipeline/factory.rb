@@ -4,6 +4,10 @@ require_relative 'vocabulary/importer'
 require_relative 'vocabulary/transformer'
 require_relative 'vocabulary/exporter'
 
+require_relative 'grammar/importer'
+require_relative 'grammar/transformer'
+require_relative 'grammar/exporter'
+
 module Goi
   module Pipeline
 
@@ -49,6 +53,22 @@ module Goi
         )
       end
 
+      def grammar_pipeline
+        db_config = config.db_config
+        infile_pathname = config.infile_pathname
+        output_dir_pathname = config.output_dir_pathname
+
+        Pipeline::Core::Pipeline.new(
+          importer: Grammar::Importer::JSONImporter.new(infile_pathname:),
+          transformers: [],
+          exporters: [
+            #Grammar::Exporter::IOExporter.new(io: $stdout)
+            Grammar::Exporter::SequelExporter.new(db_config:),
+            Grammar::Exporter::AnkiExporter.new(outfile_pathname: outfile_path(output_dir_pathname, :grammar, :anki))
+          ]
+        )
+      end
+
       private
 
       OUTFILE_NAMES = {
@@ -56,6 +76,9 @@ module Goi
           google_sheet: 'google_sheet.csv',
           anki: 'anki.csv',
           sql: 'data.sql'
+        },
+        grammar: {
+          anki: 'anki.csv'
         }
       }.freeze
 

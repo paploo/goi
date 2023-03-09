@@ -1,0 +1,11 @@
+module Goi
+  module Pipeline
+    module Grammar
+      module Transformer
+        class Base < Pipeline::Core::Transformer[[Model::Grammar::HydratedRule]]
+          def transform: ([Model::Grammar::HydratedRule] hydrated_rules) -> [Model::Grammar::HydratedRule]
+        end
+      end
+    end
+  end
+end

@@ -54,8 +54,9 @@ module Goi
           end
 
           def delete_all
+            # Catches all the relevant data due to cascading rules.
             db[Sequel[:vocabulary][:vocabulary]].delete
-            db["VACUUM"] # Clean-up the table.
+            db["VACUUM"] # Clean-up the tables.
           end
 
           def refresh_materialized_views
@@ -64,28 +65,11 @@ module Goi
           end
 
           def write_linkages(linkages:)
-            error_ids = []
-            start_t = Time.now
-            STDERR.puts("[#{self.class.name}] writing #{linkages.length} records.")
-
-            linkages.each do |linkage|
-              begin
-                record_group = record_builder.build_record_group(linkage)
-                write_record_group(record_group:)
-              rescue => err
-                msg = "[#{self.class.name}] WRITE ERROR: cannot write vocabulary ID #{linkage.vocabulary.id} due to error: #{err.full_message}"
-                STDERR.puts(msg)
-                error_ids << linkage.vocabulary.id
-              end
+            p = Pipeline::Core::SafeProcessor.new(id_getter: ->(ln) { ln.vocabulary.id })
+            p.process(linkages) do |linkage|
+              record_group = record_builder.build_record_group(linkage)
+              write_record_group(record_group:)
             end
-
-            delta_t = Time.now - start_t
-            rate = linkages.length.to_f / delta_t
-            if !error_ids.empty?
-              STDERR.puts("#{self.class.name} Failed to load #{error_ids.length} vocabulary for ids:")
-              error_ids.each { |id| STDERR.puts "\t#{id}" }
-            end
-            STDERR.puts("[#{self.class.name}] wrote #{linkages.length} records with #{error_ids.length} errors in #{delta_t} seconds (#{rate} rec/sec)")
           end
 
           def write_record_group(record_group:)

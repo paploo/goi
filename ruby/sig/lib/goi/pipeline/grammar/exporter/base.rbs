@@ -1,0 +1,17 @@
+module Goi
+  module Pipeline
+    module Grammar
+      module Exporter
+        class Base < Pipeline::Core::Exporter[[Model::Grammar::HydratedRule]]
+
+          def export: ([Model::Grammar::HydratedRule] hydrated_rules) -> untyped
+
+          private
+
+          def open_path: (Pathname? outfile_pathname) { () -> void } -> void
+
+        end
+      end
+    end
+  end
+end

@@ -3,6 +3,7 @@ module Goi
     class Factory
 
       type vocabulary_pipeline = Core::Pipeline[[Model::Vocabulary::Linkages]]
+      type grammar_pipeline = Core::Pipeline[[Model::Grammar::HydratedRule]]
 
       class Config
         type db_config = {database: String, user: String, password: String, host: String}
@@ -21,6 +22,8 @@ module Goi
       attr_reader config: Config
 
       def vocabulary_pipeline: () -> vocabulary_pipeline
+
+      def grammar_pipeline: () -> grammar_pipeline
 
       private
 

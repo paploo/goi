@@ -1,0 +1,21 @@
+module Goi
+  module Pipeline
+    module Core
+      class SafeProcessor[T]
+        type id = untyped
+
+        def initialize: (id_getter: (Symbol | ^(T) -> id) id_getter, ?io: IO? io) -> void
+
+        def process: ([T] records) { (T) -> void } -> void
+
+        private
+
+        attr_reader io: IO?
+
+        def get_id: (T record) -> id
+
+        def log: (String message) -> void
+      end
+    end
+  end
+end
