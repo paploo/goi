@@ -12,25 +12,9 @@ module Goi
 
           private
 
-          def write_file_headers: (IO io) -> void
-
-          def deck: () -> String?
-
-          def note_type: () -> String?
-
-          def tags_column_index: () -> Integer?
-
-          def header_row: () -> [String]?
-
           def linkage_rows: (linkages: [Model::Vocabulary::Linkages] linkages) -> [[String?]]
 
           def linkage_row: (linkage: Model::Vocabulary::Linkages linkage) -> [String?]?
-
-          def to_array_field: ([untyped] array) -> String?
-
-          def humanize_const: (String s) -> String
-
-          def tagize: (String s) -> String
         end
 
         class BaseAnkiVocabExporter < BaseAnkiExporter
