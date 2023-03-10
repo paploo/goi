@@ -39,8 +39,10 @@ module Goi
 
         attr_reader :io
 
+        attr_reader :id_getter
+
         def get_id(record)
-          @id_getter.is_a?(Symbol) ? record.send(record) : get_id.call(record)
+          id_getter.is_a?(Symbol) ? record.send(record) : id_getter.call(record)
         end
 
         def log(message)

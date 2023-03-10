@@ -24,7 +24,7 @@ module Goi
 
           def parse_example: (String rule_id, Integer index, json_object json) -> Model::Grammar::Example
 
-          def parse_stringjp: (json_object json) -> Nihongo::StringJP
+          def parse_stringjp: ((String|json_object) json) -> Nihongo::StringJP
 
         end
       end

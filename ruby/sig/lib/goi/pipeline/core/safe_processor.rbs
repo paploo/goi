@@ -12,6 +12,8 @@ module Goi
 
         attr_reader io: IO?
 
+        attr_reader id_getter:  (Symbol | ^(T) -> id)
+
         def get_id: (T record) -> id
 
         def log: (String message) -> void

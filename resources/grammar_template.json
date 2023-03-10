@@ -1,0 +1,34 @@
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "title": "〜ませんか",
+  "meaning": "to extend an invitation",
+  "how_to_use": [
+    "verb + ませんか"
+  ],
+  "examples": [
+    {
+      "id": "00000000-0000-0000-0000-000000000000",
+      "meaning": "What do you say to having lunch with me?",
+      "text": {
+        "spelling": "{昼|ひる}ご{飯|はん}を{食|た}べませんか",
+        "phonetic_spelling": null
+      },
+      "lesson_codes": ["GENKI3_L03"],
+      "tags": []
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000000",
+      "meaning": "Will you play tennis with me?",
+      "text": {
+        "spelling": "テニスをませんか。",
+        "phonetic_spelling": null
+      },
+      "lesson_codes": ["GENKI3_L03"],
+      "tags": []
+    }
+  ],
+  "jlpt_level": null,
+  "date_added": "2022-03-09",
+  "lesson_codes": ["GENKI3_L03"],
+  "tags": []
+}

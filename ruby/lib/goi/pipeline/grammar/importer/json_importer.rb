@@ -57,10 +57,23 @@ module Goi
                                         tags: json['tags'] || [])
           end
 
+          # The preferred spelling is always derivable from the furigana template,
+          # But the template should be omitted if it matches the input.
           def parse_stringjp(json)
-            Nihongo::StringJP.new(preferred_spelling: json.fetch('preferred_spelling'),
-                                  phonetic_spelling: json['phonetic_spelling'],
-                                  furigana: json['furigana_template'])
+            case json
+            when String
+              furigana_template = Goi::Nihongo::FuriganaString.parse(json)
+              preferred_spelling = furigana_template.kanji
+              furigana = furigana_template.kanji != furigana_template.to_template ? furigana_template : nil
+              phonetic_spelling = nil
+              Nihongo::StringJP.new(preferred_spelling:, phonetic_spelling:, furigana:)
+            else
+              furigana_template = Goi::Nihongo::FuriganaString.parse(json.fetch('spelling'))
+              preferred_spelling = furigana_template.kanji
+              furigana = furigana_template.kanji != furigana_template.to_template ? furigana_template : nil
+              phonetic_spelling = json['phonetic_spelling']
+              Nihongo::StringJP.new(preferred_spelling:, phonetic_spelling:, furigana:)
+            end
           end
 
         end

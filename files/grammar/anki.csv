@@ -3,4 +3,9 @@
 #notetype:日本語 Grammar
 #tags column:15
 #columns:id,title,title_phonetic,meaning,how_to_use,jlpt_level,date_added,row_num,example_1_text,example_1_text_phonetic,example_1_meaning,example_2_text,example_2_text_phonetic,example_2_meaning,tags
-0000d0db-623b-457d-b797-5c7bfd8d0000,テスト,,Test,<li>how to use 1</li><li>how to use 2</li>,,2022-03-07,1,例[たと]え,たとえ,Example 1,例[たと]え,たとえ,Example 2,genki3-l00 genki3-l01 genki3-l02 genki3-l03 genki3-l12 test
+0000d0db-623b-457d-b797-5c7bfd8d0000,〜ませんか,,to extend an invitation,<li>verb + ませんか</li>,,2022-03-09,1,昼[ひる]ご 飯[はん]を 食[た]べませんか。,,What do you say to having lunch with me?,テニスをませんか。,,Will you play tennis with me?,genki3-l03
+3a5e1272-f03e-4ac4-89be-ad06b7a3331d,Xがあります,,I have/own (inanimate),<li>thing + が + あります</li>,,2022-03-09,2,テレビがありません。,,I don't have a TV.,時[じ] 間[かん]がありますかん。,,Do you have time?,genki3-l04
+b69d0d83-ae0e-4834-abaf-9c570c976d00,Xがいます,,I have/own (animate),<li>thing + が + います</li>,,2022-03-09,3,日[に] 本[ほん] 人[じん]の 友[とも] 達[だち]がいます。,,I have a Japanese friend.,,,,genki3-l04
+5120aeab-2b79-4837-9461-1bc174684feb,XにYがあります,,There is/are (inanimate),<li>place + に + thing + が + あります</li>,,2022-03-09,4,あぞこにマクドナルドがあります。,,There's a McDonald's Over There.,明[あ] 日[した]は 日[に] 本[ほん] 語[ご]のクラスがありません。,,There will be no Japanese class tomorrow,genki3-l04
+17184226-f266-4972-b24a-3f34ee7ebb6b,XにYがいます,,There is/are (animate),<li>place + に + thing + が + あいます</li>,,2022-03-09,5,あそこに留学生 りゅう[がく]買います。,,There's an international student over there.,,,,genki3-l04
+0f175278-c567-4806-bad4-4cd040c40ad9,XはYの[location word]です,,X is [location word] of/to Y,<li>noun + は + noun + の + 右 + です</li><li>noun + は + noun + の + 左 + です</li><li>noun + は + noun + の + 前 + です</li><li>noun + は + noun + の + 後ろ + です</li><li>noun + は + noun + の + 中 + です</li><li>noun + は + noun + の + 上 + です</li><li>noun + は + noun + の + 下 + です</li><li>noun + は + noun + の + 違く + です</li><li>noun + は + noun + の + 隣 + です</li>,,2022-03-09,6,銀[ぎん] 行[こう]は 図[と] 書[しょ] 館[かん]の 隣[となり]です。,,The bank is next to the library.,かさはテーブルの下です。,,The umbrella is under the table.,genki3-l03

@@ -1,41 +1,194 @@
 [
   {
     "id": "0000d0db-623b-457d-b797-5c7bfd8d0000",
-    "meaning": "Test",
-    "title": {
-      "preferred_spelling": "テスト"
-    },
+    "title": "〜ませんか",
+    "meaning": "to extend an invitation",
     "how_to_use": [
-      "how to use 1",
-      "how to use 2"
+      "verb + ませんか"
     ],
     "examples": [
       {
         "id": "aaaa2051-aab0-494e-b0ff-4be24feaaaaa",
-        "meaning": "Example 1",
+        "meaning": "What do you say to having lunch with me?",
         "text": {
-          "preferred_spelling": "例え",
-          "phonetic_spelling": "たとえ",
-          "furigana_template": "{例|たと}え"
+          "spelling": "{昼|ひる}ご{飯|はん}を{食|た}べませんか。",
+          "phonetic_spelling": null
         },
-        "lesson_codes": ["GENKI3_L00", "GENKI3_L01"],
+        "lesson_codes": ["GENKI3_L03"],
         "tags": []
       },
       {
         "id": "bbbb2051-aab0-494e-b0ff-4be24feabbbb",
-        "meaning": "Example 2",
+        "meaning": "Will you play tennis with me?",
         "text": {
-          "preferred_spelling": "例え",
-          "phonetic_spelling": "たとえ",
-          "furigana_template": "{例|たと}え"
+          "spelling": "テニスをませんか。",
+          "phonetic_spelling": null
         },
-        "lesson_codes": ["GENKI3_L02", "GENKI3_L03"],
+        "lesson_codes": ["GENKI3_L03"],
         "tags": []
       }
     ],
     "jlpt_level": null,
-    "date_added": "2022-03-07",
-    "lesson_codes": ["GENKI3_L12"],
-    "tags": ["TEST"]
+    "date_added": "2022-03-09",
+    "lesson_codes": ["GENKI3_L03"],
+    "tags": []
+  },
+  {
+    "id": "3a5e1272-f03e-4ac4-89be-ad06b7a3331d",
+    "title": "Xがあります",
+    "meaning": "I have/own (inanimate)",
+    "how_to_use": [
+      "thing + が + あります"
+    ],
+    "examples": [
+      {
+        "id": "06c8e3e4-ccfb-4646-bb6c-b83bf6128369",
+        "meaning": "I don't have a TV.",
+        "text": {
+          "spelling": "テレビがありません。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L04"],
+        "tags": []
+      },
+      {
+        "id": "8cf7fb0c-0f5b-488a-8c55-17265162cc04",
+        "meaning": "Do you have time?",
+        "text": {
+          "spelling": "{時|じ}{間|かん}がありますかん。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L04"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2022-03-09",
+    "lesson_codes": ["GENKI3_L04"],
+    "tags": []
+  },
+  {
+    "id": "b69d0d83-ae0e-4834-abaf-9c570c976d00",
+    "title": "Xがいます",
+    "meaning": "I have/own (animate)",
+    "how_to_use": [
+      "thing + が + います"
+    ],
+    "examples": [
+      {
+        "id": "29a6b9a0-2b3b-42fb-9d49-835fdd2ca505",
+        "meaning": "I have a Japanese friend.",
+        "text": {
+          "spelling": "{日本|に・ほん}{人|じん}の{友達|とも・だち}がいます。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L04"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2022-03-09",
+    "lesson_codes": ["GENKI3_L04"],
+    "tags": []
+  },
+  {
+    "id": "5120aeab-2b79-4837-9461-1bc174684feb",
+    "title": "XにYがあります",
+    "meaning": "There is/are (inanimate)",
+    "how_to_use": [
+      "place + に + thing + が + あります"
+    ],
+    "examples": [
+      {
+        "id": "49ec76a6-272e-4749-acb8-e46d0617bedd",
+        "meaning": "There's a McDonald's Over There.",
+        "text": {
+          "spelling": "あぞこにマクドナルドがあります。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L04"],
+        "tags": []
+      },
+      {
+        "id": "e499c4cc-8bba-458b-a3b0-1dfe742951f3",
+        "meaning": "There will be no Japanese class tomorrow",
+        "text": {
+          "spelling": "{明|あ}{日|した}は{日|に}{本|ほん}{語|ご}のクラスがありません。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L04"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2022-03-09",
+    "lesson_codes": ["GENKI3_L04"],
+    "tags": []
+  },
+  {
+    "id": "17184226-f266-4972-b24a-3f34ee7ebb6b",
+    "title": "XにYがいます",
+    "meaning": "There is/are (animate)",
+    "how_to_use": [
+      "place + に + thing + が + あいます"
+    ],
+    "examples": [
+      {
+        "id": "48a00293-3121-4ccc-9b3e-d4998a74f6c2",
+        "meaning": "There's an international student over there.",
+        "text": {
+          "spelling": "あそこに{留学生}{りゅう・がく・せい}買います。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L04"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2022-03-09",
+    "lesson_codes": ["GENKI3_L04"],
+    "tags": []
+  },
+  {
+    "id": "0f175278-c567-4806-bad4-4cd040c40ad9",
+    "title": "XはYの[location word]です",
+    "meaning": "X is [location word] of/to Y",
+    "how_to_use": [
+      "noun + は + noun + の + 右 + です",
+      "noun + は + noun + の + 左 + です",
+      "noun + は + noun + の + 前 + です",
+      "noun + は + noun + の + 後ろ + です",
+      "noun + は + noun + の + 中 + です",
+      "noun + は + noun + の + 上 + です",
+      "noun + は + noun + の + 下 + です",
+      "noun + は + noun + の + 違く + です",
+      "noun + は + noun + の + 隣 + です"
+    ],
+    "examples": [
+      {
+        "id": "b63bb0cc-5bb9-4453-9c07-f097b49743c7",
+        "meaning": "The bank is next to the library.",
+        "text": {
+          "spelling": "{銀行|ぎん・こう}は{図書館|と・しょ・かん}の{隣|となり}です。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L03"],
+        "tags": []
+      },
+      {
+        "id": "7f604d44-ff48-4546-a17b-eead1f511b26",
+        "meaning": "The umbrella is under the table.",
+        "text": {
+          "spelling": "かさはテーブルの下です。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L03"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2022-03-09",
+    "lesson_codes": ["GENKI3_L03"],
+    "tags": []
   }
 ]
