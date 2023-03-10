@@ -55,7 +55,7 @@
         "id": "8cf7fb0c-0f5b-488a-8c55-17265162cc04",
         "meaning": "Do you have time?",
         "text": {
-          "spelling": "{時|じ}{間|かん}がありますかん。",
+          "spelling": "{時|じ}{間|かん}がありますか。",
           "phonetic_spelling": null
         },
         "lesson_codes": ["GENKI3_L04"],
@@ -137,7 +137,7 @@
         "id": "48a00293-3121-4ccc-9b3e-d4998a74f6c2",
         "meaning": "There's an international student over there.",
         "text": {
-          "spelling": "あそこに{留学生}{りゅう・がく・せい}買います。",
+          "spelling": "あそこに{留学生|りゅう・がく・せい}がいます。",
           "phonetic_spelling": null
         },
         "lesson_codes": ["GENKI3_L04"],
@@ -176,10 +176,44 @@
         "tags": []
       },
       {
+        "id": "b318cbf3-3ead-4b44-b399-9a72dae9636b",
+        "meaning": "I waited for Mary in front of the mos Burger place.",
+        "text": {
+          "spelling": "{私|わたし}はモスバーガーの{前|まえ}でメアリーさんを{待|ま}ちました。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L03"],
+        "tags": []
+      },
+      {
         "id": "7f604d44-ff48-4546-a17b-eead1f511b26",
         "meaning": "The umbrella is under the table.",
         "text": {
-          "spelling": "かさはテーブルの下です。",
+          "spelling": "{傘|かさ}はテーブルの{下|した}です。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L03"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2022-03-09",
+    "lesson_codes": ["GENKI3_L03"],
+    "tags": []
+  },
+  {
+    "id": "11f50022-8091-40d0-831a-de86193f2f8d",
+    "title": "XはYとZの間です",
+    "meaning": "X is [location word] of/to Y",
+    "how_to_use": [
+      "noun + は + noun + と + noun + の + 間です"
+    ],
+    "examples": [
+      {
+        "id": "0e15c2a9-4690-4969-8c69-2b1df5b395ad",
+        "meaning": "The restaurant is between the supermarket and the hospital.",
+        "text": {
+          "spelling": "レストランはスーパーと{病院|びょう・いん}の{間|あいだ}です",
           "phonetic_spelling": null
         },
         "lesson_codes": ["GENKI3_L03"],

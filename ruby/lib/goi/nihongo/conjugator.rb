@@ -120,6 +120,7 @@ module Goi
       # Type safe convenience for the standard set of adjective conjugations
       def self.adjective_set(positive_plain_present: nil,
                              positive_plain_past: nil,
+                             positive_plain_te: nil,
                              negative_plain_present: nil,
                              negative_plain_past: nil)
         {
@@ -349,6 +350,7 @@ module Goi
         'I_ADJECTIVE': adjective_set(
           positive_plain_present: PatternRule.new(/い$/, 'い'),
           positive_plain_past: PatternRule.new(/い$/, 'かった'),
+          positive_plain_te: PatternRule.new(/い$/, 'くて'),
           negative_plain_present: PatternRule.new(/い$/, 'くない'),
           negative_plain_past: PatternRule.new(/い$/, 'くなかった')
         ),
@@ -356,6 +358,7 @@ module Goi
         'NA_ADJECTIVE': adjective_set(
           positive_plain_present: PatternRule.new(/$/, 'だ'),
           positive_plain_past: PatternRule.new(/$/, 'だった'),
+          positive_plain_te: PatternRule.new(/$/, 'て'),
           negative_plain_present: PatternRule.new(/$/, 'じゃない'),
           negative_plain_past: PatternRule.new(/$/, 'じゃなかった')
         ),
@@ -363,6 +366,7 @@ module Goi
         'YOI_ADJECTIVE': adjective_set(
           positive_plain_present: PatternRule.new(/いい$/, 'いい'),
           positive_plain_past: PatternRule.new(/いい$/, 'よかった'),
+          positive_plain_te: PatternRule.new(/いい$/, 'よくて'),
           negative_plain_present: PatternRule.new(/いい$/, 'よくない'),
           negative_plain_past: PatternRule.new(/いい$/, 'よくなかった')
         ),

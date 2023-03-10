@@ -229,7 +229,7 @@ bd0e8ffa-f7cd-5b27-8481-6ecb87512f6c,to get up,起きる,おきる,,verb,ichidan
 5800b221-4eb5-5331-8c6c-413e2d08c007,to do,する,する,,verb,suru verb,5,2022-07-24,224,GENKI3_L03,する,した,して,,,,,,,します,しました,,,,,,,,しない,しなかった,しなくて,,,,,,,しません,しませんでした,,,,,,,,verb suru-verb genki3-l03
 9e9dc42e-df1e-5ace-948a-9dce72caaceb,to study,勉強する,べんきょうする,,verb,suru verb,5,2022-07-24,225,GENKI3_L03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,verb suru-verb genki3-l03
 6e231f76-5724-5b3c-acfc-cdee6e2eb3a6,yes; umm,ええ,ええ,,expression,,5,2022-07-24,226,GENKI3_L03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l03
-349836a3-2523-5f85-a7c1-f85e49c73f27,good,いい,いい,,adjective,yoi adjective,5,2022-07-24,227,GENKI3_L03,いい,よかった,,,,,,,,,,,,,,,,,よくない,よくなかった,,,,,,,,,,,,,,,,,adjective yoi-adjective genki3-l03
+349836a3-2523-5f85-a7c1-f85e49c73f27,good,いい,いい,,adjective,yoi adjective,5,2022-07-24,227,GENKI3_L03,いい,よかった,よくて,,,,,,,,,,,,,,,,よくない,よくなかった,,,,,,,,,,,,,,,,,adjective yoi-adjective genki3-l03
 fc5427a3-a54b-5c04-8b36-a570b8e7a72b,fast; early,早い,はやい,,adjective,i adjective,5,2022-07-24,228,GENKI3_L03,早い,早かった,,,,,,,,,,,,,,,,,早くない,早くなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l03
 311f8bec-e54c-5317-8880-dfd3e39d23a7,not much,あまり,あまり,,adverb,,5,2022-07-24,229,GENKI3_L03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adverb genki3-l03
 1e68ea18-9d69-5761-a463-510eab20d1d3,not at all,全然,ぜんぜん,,adverb,,3,2022-07-24,230,GENKI3_L03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adverb genki3-l03
@@ -255,10 +255,10 @@ dbecb5a9-82dd-5c17-ba84-c7887cf58ce8,like,好き,すき,,adjective,na adjective,
 cd1adf28-7497-5c5f-ab0f-ecfaedc6e345,summer,夏,なつ,,noun,,5,2022-08-12,250,DUO_01_02 DUO_U01 GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,season noun duo-01-02 duo-u01 genki3-l08
 580fd4b9-e1ae-5e7b-a257-25f2fa55a899,fall,秋,あき,,noun,,5,2022-08-12,251,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,season noun
 f9e87b50-2575-5141-98c9-1d6f96fa0ade,winter,冬,ふゆ,,noun,,5,2022-08-12,252,DUO_01_02 DUO_U01 GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,season noun duo-01-02 duo-u01 genki3-l08
-300c2bc3-fa11-54b9-a12f-1f663986f8ce,white,白,しろ,,noun,,5,2022-08-12,253,DUO_01_01 DUO_U01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,color noun duo-01-01 duo-u01
-48b7e73f-4a0c-56bb-8cd6-bf2ed57ed92c,black,黒,くろ,,noun,,5,2022-08-12,254,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,color noun
-e65aae18-dc90-5f41-aa96-e40680a12452,red,赤,あか,,noun,,5,2022-08-12,255,DUO_01_01 DUO_U01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,color noun duo-01-01 duo-u01
-12290cb0-5c39-5b53-8353-e0404724200b,blue,青,あお,,noun,,5,2022-08-12,256,DUO_01_01 DUO_U01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,color noun duo-01-01 duo-u01
+300c2bc3-fa11-54b9-a12f-1f663986f8ce,white,白,しろ,,noun,,5,2022-08-12,253,DUO_01_01 DUO_U01 GENKI3_L09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,color noun duo-01-01 duo-u01 genki3-l09
+48b7e73f-4a0c-56bb-8cd6-bf2ed57ed92c,black,黒,くろ,,noun,,5,2022-08-12,254,GENKI3_L09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,color noun genki3-l09
+e65aae18-dc90-5f41-aa96-e40680a12452,red,赤,あか,,noun,,5,2022-08-12,255,DUO_01_01 DUO_U01 GENKI3_L09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,color noun duo-01-01 duo-u01 genki3-l09
+12290cb0-5c39-5b53-8353-e0404724200b,blue,青,あお,,noun,,5,2022-08-12,256,DUO_01_01 DUO_U01 GENKI3_L09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,color noun duo-01-01 duo-u01 genki3-l09
 b5431148-e71a-55b1-a42f-cbf2f029c146,yellow,黄色,きいろ,,noun,,5,2022-08-12,257,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,color noun
 fd431252-3f59-5b66-b3b2-f078528bbf06,orange,オレンジ,おれんじ,,noun,,1,2022-08-12,258,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,color noun
 dee5b761-7b7a-5723-8e66-8fe9e0b2c2ea,green,緑,みどり,,noun,,5,2022-08-12,259,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,color noun
@@ -332,7 +332,7 @@ a2edc793-e468-5c89-8566-efd896ac302c,sunny,晴れ,はれ,,noun,,5,2022-08-12,324
 1a0c8160-c588-508a-bcbc-c3bf3bdbb0fe,wind; breeze; draft,風,かぜ,,noun,,5,2022-08-12,327,DUO_01_04 DUO_U02,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun duo-01-04 duo-u02
 86e894b7-ebf2-5e8e-991e-54ebd19f764d,map,地図,ちず,,noun,,5,2022-08-12,328,DUO_01_04 DUO_U02,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun duo-01-04 duo-u02
 7f320ae8-3952-5727-a45e-4c5535a79533,fruit,果物,くだもの,,noun,,5,2022-08-12,329,DUO_01_04 DUO_U02 GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun duo-01-04 duo-u02 genki3-l05
-efc7ae30-059c-5579-9e95-1e53594af9ed,ticket,切符,きっぷ,,noun,,5,2022-08-12,330,DUO_01_04 DUO_U02,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun duo-01-04 duo-u02
+efc7ae30-059c-5579-9e95-1e53594af9ed,ticket (transport),切符,きっぷ,,noun,,5,2022-08-12,330,DUO_01_04 DUO_U02,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun duo-01-04 duo-u02
 038bec1a-765f-42b2-905d-28004fd829a3,game,ゲーム,げえむ,,noun,,3,2022-08-10,331,GENKI3_L04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,activity noun genki3-l04
 303cf994-1062-45cd-9c22-738f09ffee51,part-time job,アルバイト,あればいと,,noun,,4,2022-08-10,332,GENKI3_L04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,activity noun genki3-l04
 8509b44f-d5d4-437f-a845-aae915c292dc,part-time job (colloquial),バイト,ばいと,,noun,,,2022-08-10,333,GENKI3_L04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,activity noun genki3-l04
@@ -469,7 +469,7 @@ bbdc1a0a-1d15-5484-89ac-e3594f2d0e70,small,小さい,ちいさい,,adjective,i a
 ce5f2a5f-821f-5a5f-b5e5-6b59658ee781,easy (problem),やさしい,やさしい,易しい,adjective,i adjective,5,2022-09-07,464,GENKI3_L05,やさしい,やさしかった,,,,,,,,,,,,,,,,,やさしくない,やさしくなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
 f0506ed6-e8ae-5d80-90bc-d527638693f8,kind (person),優しい,やさしい,,adjective,i adjective,4,2022-09-07,465,,優しい,優しかった,,,,,,,,,,,,,,,,,優しくない,優しくなかった,,,,,,,,,,,,,,,,,adjective i-adjective
 835597f8-7be1-561d-8ef8-9c73316e9b49,difficult,難しい,むずかしい,,adjective,i adjective,5,2022-09-07,466,GENKI3_L05,難しい,難しかった,,,,,,,,,,,,,,,,,難しくない,難しくなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
-46305ec7-a809-547e-bb67-8533f9059b26,good-looking; cool,かっこいい,かっこいい,格好いい,adjective,yoi adjective,,2022-09-07,467,GENKI3_L05,かっこいい,かっこよかった,,,,,,,,,,,,,,,,,かっこよくない,かっこよくなかった,,,,,,,,,,,,,,,,,adjective yoi-adjective genki3-l05
+46305ec7-a809-547e-bb67-8533f9059b26,good-looking; cool,かっこいい,かっこいい,格好いい,adjective,yoi adjective,,2022-09-07,467,GENKI3_L05,かっこいい,かっこよかった,かっこよくて,,,,,,,,,,,,,,,,かっこよくない,かっこよくなかった,,,,,,,,,,,,,,,,,adjective yoi-adjective genki3-l05
 b28e9f01-a176-5cfa-b00b-e1fd1552f02d,frightening,怖い,こわい,,adjective,i adjective,4,2022-09-07,468,GENKI3_L05,怖い,怖かった,,,,,,,,,,,,,,,,,怖くない,怖くなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
 03824733-2e97-5d1e-8705-2520abf86985,fun,楽しい,たのしい,,adjective,i adjective,5,2022-09-07,469,GENKI3_L05,楽しい,楽しかった,,,,,,,,,,,,,,,,,楽しくない,楽しくなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
 a1c2f5e9-df18-5d9f-83db-7d30491b502d,inexpensive; cheap (thing),安い,やすい,,adjective,i adjective,5,2022-09-07,470,GENKI3_L05,安い,安かった,,,,,,,,,,,,,,,,,安くない,安くなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
@@ -501,7 +501,7 @@ c0e4b32f-1310-43d5-af64-b603c84c9f3a,Ms. (girl),〜ちゃん,ちゃん,,suffix,,
 685db54c-3d62-4fb2-b18e-28bfdf659461,(my) dad,父,ちち,,noun,,,2022-10-25,496,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l07
 48985c71-3274-4715-9a7c-a7f4e61144e5,(my) mom,母,はは,,noun,,,2022-10-25,497,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l07
 321b332a-43be-46d2-8e2a-b49a3a18fa13,tummy torture; food terrorism,飯テロ,めしてろ,,noun,,,2022-10-18,498,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
-dd54072a-e05a-4b60-a493-578ef2cb015f,lonely; solitary,寂しい,さびしい,,adjective,i adjective,4,2022-09-07,499,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective i-adjective
+dd54072a-e05a-4b60-a493-578ef2cb015f,lonely; solitary,寂しい,さびしい,,adjective,i adjective,4,2022-09-07,499,GENKI3_L09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l09
 aa063477-ef31-4780-9af0-85bc0daccbcf,mouth is lonely,口寂しい,くちさびしい,,adjective,i adjective,,2022-10-06,500,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective i-adjective
 9602b36a-fef2-58f6-a53a-84283766c73d,tidal wave,津波,つなみ,,noun,,1,2022-09-17,501,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 18483a29-02d3-5d72-be2f-2e865c5689a1,typhoon,台風,たいふう,,noun,,4,2022-09-17,502,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
@@ -543,7 +543,7 @@ e00b722d-5ec2-43b3-b972-157994823148,want to do; would like to... (verb desire f
 8c2f94a9-ba53-4f55-931d-ca84f5264280,dictionary,辞書,じしょ,,noun,,5,2022-11-06,538,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 0840f9a3-9712-4e33-9280-6e652015cc1f,"dictionary (formal, expansive)",辞典,じてん,,noun,,4,2022-11-06,539,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 7793dcc0-cdf5-4844-bf94-17ccfaffd08d,encyclopedia,事典,じてん,,noun,,,2022-11-06,540,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-7651476c-6696-4e43-bc7b-ee17b7029ba3,word,単語,たんご,,noun,,3,2022-11-06,541,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+7651476c-6696-4e43-bc7b-ee17b7029ba3,word,単語,たんご,,noun,,3,2022-11-06,541,GENKI3_L09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l09
 cb2ffba7-427d-4fcd-a2d1-156d649a4343,vocabulary; lexicon,語彙,ごい,,noun,,1,2022-11-06,542,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 5963b6a2-d88d-4d1f-9ccd-97fb5a3c6991,kanji,漢字,かんじ,,noun,,5,2022-11-06,543,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l06
 02ed6978-40d0-4d0a-bf11-02cd6c60ebe0,textbook,教科書,きょうかしょ,,noun,,3,2022-11-06,544,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l06
@@ -656,7 +656,7 @@ cb27ecc4-69df-4a8f-8d7c-617a5feb4963,long,長い,ながい,,adjective,i adjectiv
 37c41873-49cd-4de1-9f7c-95c626427047,tall (stature),背が高い,せがたかい,,adjective,i adjective,,2022-12-26,651,GENKI3_L07,背が高い,背が高かった,,,,,,,,,,,,,,,,,背が高くない,背が高くなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l07
 b921252b-8f5f-424b-8efa-e87d9728e04c,short (stature),背が低い,せがひくい,,adjective,i adjective,,2022-12-26,652,GENKI3_L07,背が低い,背が低かった,,,,,,,,,,,,,,,,,背が低くない,背が低くなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l07
 64aafc63-0368-4042-ba5b-17bdc79dc01a,head,頭,あたま,,noun,,,2023-01-28,653,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-d77dfdc7-5046-4e92-85de-c42eb6e54473,"bright, smart, clever",頭がいい,あたまがいい,,adjective,yoi adjective,,2022-12-26,654,GENKI3_L07,頭がいい,頭がよかった,,,,,,,,,,,,,,,,,頭がよくない,頭がよくなかった,,,,,,,,,,,,,,,,,adjective yoi-adjective genki3-l07
+d77dfdc7-5046-4e92-85de-c42eb6e54473,"bright, smart, clever",頭がいい,あたまがいい,,adjective,yoi adjective,,2022-12-26,654,GENKI3_L07,頭がいい,頭がよかった,頭がよくて,,,,,,,,,,,,,,,,頭がよくない,頭がよくなかった,,,,,,,,,,,,,,,,,adjective yoi-adjective genki3-l07
 b2a15708-d53d-4a6c-86b0-471bd76d6779,"kind, gentle, friendly, nice",親切,しんせつ,,adjective,na adjective,4,2022-12-26,655,GENKI3_L07,親切だ,親切だった,,,,,,,,,,,,,,,,,親切じゃない,親切じゃなかった,,,,,,,,,,,,,,,,,adjective na-adjective genki3-l07
 1cdf6da4-2dab-494f-af52-eb0dd3cd624f,convenient,便利,べんり,,adjective,na adjective,5,2022-12-26,656,GENKI3_L07,便利だ,便利だった,,,,,,,,,,,,,,,,,便利じゃない,便利じゃなかった,,,,,,,,,,,,,,,,,adjective na-adjective genki3-l07
 5420fa69-15ad-4fcc-8064-9fbbe42fdda0,to sing,歌う,うたう,,verb,godan verb,5,2022-12-28,657,GENKI3_L07,歌う,歌った,歌って,,,,,,,歌います,歌いました,,,,,,,,歌わない,歌わなかった,歌わなくて,,,,,,,歌いません,歌いませんでした,,,,,,,,verb godan-verb genki3-l07
@@ -758,4 +758,28 @@ a7b38c4c-749a-4be1-9593-df7f7a72aa97,how many things,いくつ,いくつ,幾つ,
 65cd8f5d-1350-46d8-a88d-81a2510156c8,parents,両親,りょうしん,,noun,,5,2023-02-28,753,DUO_02_07 DUO_U09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun duo-02-07 duo-u09
 0256935e-df7b-4a95-9e74-9f0351db2254,"bookshop, bookstore",書店,しょてん,,noun,,2,2023-03-02,754,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 b191dc0f-34b0-451f-a353-330e270e77b9,Bookstore of Kii Province,紀伊國屋,きのくにや,,noun,,,2023-03-02,755,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-b3d07806-eb7b-49ca-abff-69a9b9e20ef8,festival,祭り,まつり,,noun,,3,2023-03-03,756,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+b3d07806-eb7b-49ca-abff-69a9b9e20ef8,festival,祭り,まつり,,noun,,3,2023-03-03,756,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,shinto noun
+9f0023c3-69a4-4d47-b82e-a380f3cd4beb,food offering to the Kami,神饌,しんせん,,noun,,,2023-03-06,757,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,shinto noun
+6ee0a6e5-b80a-4a68-84ff-4d7a2f017f1a,essay; composition,作文,さくぶん,,noun,,5,2023-03-10,758,GENKI3_L09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l09
+652d34ae-2c67-445c-925a-d1a8aca23f20,exam,試験,しけん,,noun,,4,2023-03-10,759,GENKI3_L09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l09
+a79213fe-a7b9-4989-aa85-73fa00237949,letter,手紙,てがみ,,noun,,5,2023-03-10,760,GENKI3_L09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l09
+3a5c4261-8b08-4021-af55-a19f1409e63a,e-mail,メール,めえる,,noun,,,2023-03-10,761,GENKI3_L09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l09
+59017b2b-8226-4224-99e4-60df933d488a,guitar,ギター,ぎたあ,,noun,,5,2023-03-10,762,GENKI3_L09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l09
+fd75b102-e26c-408b-9151-eaa7d41adef8,piano,ピアノ,ぴあの,,noun,,4,2023-03-10,763,GENKI3_L09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l09
+a6524d4d-46e9-4be3-9c49-10f3e2f2f512,bass (e.g. electric),ベース,ばあす,,noun,,,2023-03-10,764,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+d9bb6ddb-817a-4ce4-820e-333b51261c30,"drums, drum kit",ドラム,どらむ,,noun,,,2023-03-10,765,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+19d30b02-efe9-41ce-852a-6e996f02f17b,concert,コンサート,こんさあと,,noun,,4,2023-03-10,766,GENKI3_L09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l09
+c9aad9d3-dfe2-465c-a000-476901e1b94a,ticket (entertainment),チケット,ちけっと,,noun,,,2023-03-10,767,GENKI3_L09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l09
+bbb70bc8-e357-4e83-ace0-6ccbd026b085,traditional Japanese theatre,歌舞伎,かぶき,,noun,,,2023-03-10,768,GENKI3_L09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l09
+e6692a64-ee00-4ec6-82c4-880096c489c6,ski,スキー,すきい,,noun,,3,2023-03-10,769,GENKI3_L09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l09
+97884292-4c0d-44b7-87a3-a69454dae38f,boxed lunch,弁当,べんとう,,noun,,3,2023-03-10,770,GENKI3_L09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l09
+90aa6c73-4f13-40cc-8ce6-5a164549227f,pizza,ピザ,ぴざ,,noun,,,2023-03-10,771,GENKI3_L09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l09
+9f965d06-5760-4051-b162-9d84d32827fd,illness; sickness,病気,びょうき,,noun,,5,2023-03-10,772,GENKI3_L09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l09
+086a9731-f128-44e7-9ec5-38acf4119b8f,medicine,薬,くすり,,noun,,5,2023-03-10,773,GENKI3_L09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l09
+aa0fea42-8c3b-4bd8-91fc-a0140a3c3579,good child,いい子,いいこ,,noun,,,2023-03-10,774,GENKI3_L09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l09
+695a0889-73f3-4d54-add8-0ba56f6d2c6a,color,色,いろ,,noun,,5,2023-03-10,775,GENKI3_L09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l09
+dda5e150-700a-49ef-8ebe-b4439c6b208c,this time; near future,今度,こんど,,noun,,4,2023-03-10,776,GENKI3_L09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l09
+7fb4e6ea-5c2a-4875-bc61-d0708f85c9bf,last month,先月,せんげつ,,noun,,5,2023-03-10,777,GENKI3_L09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l09
+4aa134fc-7603-42bb-a904-4fd8ac6f60fa,last year,去年,きょねん,,noun,,5,2023-03-10,778,GENKI3_L09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l09
+162ad3b5-b9be-4752-b565-dd5b73851f0f,"young, youthful",若い,わかい,,adjective,i adjective,5,2023-03-10,779,GENKI3_L09,若い,若かった,若くて,,,,,,,,,,,,,,,,若くない,若くなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l09
+edb84ec2-d17b-4c61-a892-5f7223107d03,mean-spirited,意地悪,いじわる,,adjective,na adjective,,2023-03-10,780,GENKI3_L09,意地悪だ,意地悪だった,意地悪で,,,,,,,,,,,,,,,,意地悪じゃない,意地悪じゃなかった,,,,,,,,,,,,,,,,,adjective na-adjective genki3-l09
