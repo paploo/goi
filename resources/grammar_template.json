@@ -8,27 +8,27 @@
   "examples": [
     {
       "id": "00000000-0000-0000-0000-000000000000",
-      "meaning": "What do you say to having lunch with me?",
+      "meaning": "Example1",
       "text": {
-        "spelling": "{昼|ひる}ご{飯|はん}を{食|た}べませんか",
+        "spelling": "一〇〇",
         "phonetic_spelling": null
       },
-      "lesson_codes": ["GENKI3_L03"],
+      "lesson_codes": ["GENKI3_Lxx"],
       "tags": []
     },
     {
       "id": "00000000-0000-0000-0000-000000000000",
-      "meaning": "Will you play tennis with me?",
+      "meaning": "Example2",
       "text": {
-        "spelling": "テニスをませんか。",
+        "spelling": "二〇〇",
         "phonetic_spelling": null
       },
-      "lesson_codes": ["GENKI3_L03"],
+      "lesson_codes": ["GENKI3_Lxx"],
       "tags": []
     }
   ],
   "jlpt_level": null,
-  "date_added": "2022-03-09",
-  "lesson_codes": ["GENKI3_L03"],
+  "date_added": "2000-01-01",
+  "lesson_codes": ["GENKI3_Lxx"],
   "tags": []
 }

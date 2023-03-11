@@ -52,7 +52,7 @@ module Goi
         # First tokenize
         raw_tokens = input.to_s.strip.split(/[{}]/).reject(&:empty?).map do |a|
           a.split(/[|｜]/).map do |b| # ASCII and 日本語 pipe character
-            b.split('・') # 日本語 dot character
+            b.split(/[・.]/) # 日本語 dot character
           end
         end
 
@@ -62,11 +62,21 @@ module Goi
           when 1
             group
           when 2
-            chars = group[0][0].split('')
-            raise ArgumentError "Group size mismatch for group: #{group.inspect}" if chars.length != group[1].length
-            chars.zip(group[1])
+            kanji_chars = group[0][0].split('')
+            furigana_groups = group[1]
+            if furigana_groups.length == kanji_chars.length
+              # If they are the same length, zip together!
+              kanji_chars.zip(group[1])
+            elsif furigana_groups.length == 1 && !kanji_chars.empty?
+              # If we only have one furigana group, apply across all the kanji chars
+              # example: 昨日 is きのう but is a weird reading.
+              [[kanji_chars.join, furigana_groups[0]]]
+            else
+              # It's a mismatch in length that can' be reconciled.
+              raise ArgumentError, "Group size mismatch for group: #{group.inspect}" if kanji_chars.length != group[1].length
+            end
           else
-            raise ArgumentError "Unexpected group length encountered for group: #{group.inspect}"
+            raise ArgumentError, "Unexpected group length encountered for group: #{group.inspect}"
           end
         end
 
