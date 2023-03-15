@@ -37,7 +37,7 @@
   {"COMMENT": "GENKI LESSON 04"},
   {
     "id": "3a5e1272-f03e-4ac4-89be-ad06b7a3331d",
-    "title": "Xがあります",
+    "title": "Ａあります",
     "meaning": "I have/own (inanimate)",
     "how_to_use": [
       "thing + が + あります"
@@ -71,7 +71,7 @@
   },
   {
     "id": "b69d0d83-ae0e-4834-abaf-9c570c976d00",
-    "title": "Xがいます",
+    "title": "Ａがいます",
     "meaning": "I have/own (animate)",
     "how_to_use": [
       "thing + が + います"
@@ -95,7 +95,7 @@
   },
   {
     "id": "5120aeab-2b79-4837-9461-1bc174684feb",
-    "title": "XにYがあります",
+    "title": "ＡにＢがあります",
     "meaning": "There is/are (inanimate)",
     "how_to_use": [
       "place + に + thing + が + あります"
@@ -129,7 +129,7 @@
   },
   {
     "id": "17184226-f266-4972-b24a-3f34ee7ebb6b",
-    "title": "XにYがいます",
+    "title": "AにBがいます",
     "meaning": "There is/are (animate)",
     "how_to_use": [
       "place + に + thing + が + あいます"
@@ -153,8 +153,8 @@
   },
   {
     "id": "0f175278-c567-4806-bad4-4cd040c40ad9",
-    "title": "XはYの[location word]です",
-    "meaning": "X is [location word] of/to Y",
+    "title": "ＡはＢの[location word]です",
+    "meaning": "A is [location word] of/to B",
     "how_to_use": [
       "noun + は + noun + の + 右 + です",
       "noun + は + noun + の + 左 + です",
@@ -205,8 +205,8 @@
   },
   {
     "id": "11f50022-8091-40d0-831a-de86193f2f8d",
-    "title": "XはYとZの間です",
-    "meaning": "X is [location word] of/to Y",
+    "title": "ＡはＢとＣの間です",
+    "meaning": "A is {location word} of/to B",
     "how_to_use": [
       "noun + は + noun + と + noun + の + 間です"
     ],
@@ -265,8 +265,8 @@
   },
   {
     "id": "a4766a9c-8bc7-446b-b0df-c3e2865612df",
-    "title": "AとB",
-    "meaning": "and; together with",
+    "title": "ＡとＢ",
+    "meaning": "A and B; person A together with person B",
     "how_to_use": [
       "noun + noun",
       "person + person"
