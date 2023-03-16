@@ -38,7 +38,7 @@
   {
     "id": "3a5e1272-f03e-4ac4-89be-ad06b7a3331d",
     "title": "Ａあります",
-    "meaning": "I have/own (inanimate)",
+    "meaning": "I have/own A (inanimate)",
     "how_to_use": [
       "thing + が + あります"
     ],
@@ -72,7 +72,7 @@
   {
     "id": "b69d0d83-ae0e-4834-abaf-9c570c976d00",
     "title": "Ａがいます",
-    "meaning": "I have/own (animate)",
+    "meaning": "I have/own B (animate)",
     "how_to_use": [
       "thing + が + います"
     ],
@@ -96,7 +96,7 @@
   {
     "id": "5120aeab-2b79-4837-9461-1bc174684feb",
     "title": "ＡにＢがあります",
-    "meaning": "There is/are (inanimate)",
+    "meaning": "There is/are B at A (inanimate)",
     "how_to_use": [
       "place + に + thing + が + あります"
     ],
@@ -130,7 +130,7 @@
   {
     "id": "17184226-f266-4972-b24a-3f34ee7ebb6b",
     "title": "AにBがいます",
-    "meaning": "There is/are (animate)",
+    "meaning": "There is/are B at A (animate)",
     "how_to_use": [
       "place + に + thing + が + あいます"
     ],
@@ -206,7 +206,7 @@
   {
     "id": "11f50022-8091-40d0-831a-de86193f2f8d",
     "title": "ＡはＢとＣの間です",
-    "meaning": "A is {location word} of/to B",
+    "meaning": "A is between B and C",
     "how_to_use": [
       "noun + は + noun + と + noun + の + 間です"
     ],
