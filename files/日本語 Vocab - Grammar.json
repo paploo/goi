@@ -37,7 +37,7 @@
   {"COMMENT": "GENKI LESSON 04"},
   {
     "id": "3a5e1272-f03e-4ac4-89be-ad06b7a3331d",
-    "title": "Ａあります",
+    "title": "Ａがあります",
     "meaning": "I have/own A (inanimate)",
     "how_to_use": [
       "thing + が + あります"
@@ -72,7 +72,7 @@
   {
     "id": "b69d0d83-ae0e-4834-abaf-9c570c976d00",
     "title": "Ａがいます",
-    "meaning": "I have/own B (animate)",
+    "meaning": "I have/own A (animate)",
     "how_to_use": [
       "thing + が + います"
     ],
@@ -129,7 +129,7 @@
   },
   {
     "id": "17184226-f266-4972-b24a-3f34ee7ebb6b",
-    "title": "AにBがいます",
+    "title": "ＡにＢがいます",
     "meaning": "There is/are B at A (animate)",
     "how_to_use": [
       "place + に + thing + が + あいます"
