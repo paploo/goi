@@ -20,3 +20,16 @@ class Hash
   end
 
 end
+
+class Array
+
+  def find_duplicates
+    counts = {}
+    each do |elem|
+      counts[elem] ||= 0
+      counts[elem] += 1
+    end
+    counts.select { |_, count| count > 1 }.keys
+  end
+
+end

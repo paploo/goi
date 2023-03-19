@@ -1,0 +1,27 @@
+module Goi
+  module Pipeline
+    module Grammar
+      module Transformer
+        class ValidationTransformer < Grammar::Transformer::Base
+          def transform: ([Model::Grammar::HydratedRule] hydrated_rules) -> [Model::Grammar::HydratedRule]
+
+          private
+
+          def io: () -> IO
+
+          def report: (hydrated_rules: [Model::Grammar::HydratedRule] hydrated_rules) -> Goi::Core::ValidationReport?
+
+          def duplicate_rule_ids: (hydrated_rules: [Model::Grammar::HydratedRule] hydrated_rules) -> Goi::Core::ValidationReport?
+
+          def duplicate_example_ids: (hydrated_rules: [Model::Grammar::HydratedRule] hydrated_rules) -> Goi::Core::ValidationReport?
+
+          def rule_title_placeholder_case: (hydrated_rules: [Model::Grammar::HydratedRule] hydrated_rules) -> Goi::Core::ValidationReport?
+
+          def rule_meaning_placeholder_case: (hydrated_rules: [Model::Grammar::HydratedRule] hydrated_rules) -> Goi::Core::ValidationReport?
+
+          def missing_examples: (hydrated_rules: [Model::Grammar::HydratedRule] hydrated_rules) -> Goi::Core::ValidationReport?
+        end
+      end
+    end
+  end
+end

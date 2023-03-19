@@ -60,7 +60,9 @@ module Goi
 
         Pipeline::Core::Pipeline.new(
           importer: Grammar::Importer::JSONImporter.new(infile_pathname:),
-          transformers: [],
+          transformers: [
+            Grammar::Transformer::ValidationTransformer.new
+          ],
           exporters: [
             #Grammar::Exporter::IOExporter.new(io: $stdout)
             Grammar::Exporter::SequelExporter.new(db_config:),

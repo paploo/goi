@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+require_relative '../../../core/validation_messages'
+require_relative '../../../core/extensions'
+
 module Goi
   module Pipeline
     module Vocabulary
@@ -35,12 +38,12 @@ module Goi
                 duplicate_preferred_spellings(linkages:),
                 missing_conjugations(linkages:),
                 incorrect_conjugation_report(linkages:)
-              ].compact.filter {|r| !r.empty? }
+              ].compact.filter { |r| !r.empty? }
             )
           end
 
           def duplicate_ids(linkages:)
-            conflicts = find_duplicates(linkages.map { |ln| ln.vocabulary.id })
+            conflicts = (linkages.map { |ln| ln.vocabulary.id }).find_duplicates
             message = "There are #{conflicts.length} conflicting IDs: #{conflicts}"
             level = conflicts.empty? ? :info : :error
 
@@ -51,7 +54,7 @@ module Goi
           end
 
           def duplicate_preferred_spellings(linkages:)
-            duplicates = find_duplicates(linkages.map { |ln| ln.preferred_spelling.value })
+            duplicates = (linkages.map { |ln| ln.preferred_spelling.value }).find_duplicates
             message = "There are #{duplicates.length} duplicated preferred spellings: #{duplicates}"
             level = duplicates.empty? ? :info : :warn
 
@@ -128,15 +131,6 @@ module Goi
             else
               Goi::Core::ValidationMessage.warn(message)
             end
-          end
-
-          def find_duplicates(array)
-            counts = {}
-            array.each do |elem|
-              counts[elem] ||= 0
-              counts[elem] += 1
-            end
-            counts.select { |_, count| count > 1 }.keys
           end
 
         end

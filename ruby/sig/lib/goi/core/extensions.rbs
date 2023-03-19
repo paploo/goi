@@ -7,3 +7,7 @@ end
 class Hash[unchecked out K, unchecked out V]
   def fetch_required: (K key) -> String
 end
+
+class Array[unchecked out T]
+  def find_duplicates: () -> [T]
+end
