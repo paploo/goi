@@ -153,8 +153,8 @@
   },
   {
     "id": "0f175278-c567-4806-bad4-4cd040c40ad9",
-    "title": "ＡはＢの[location word]です",
-    "meaning": "A is [location word] of/to B",
+    "title": "ＡはＢのＬです",
+    "meaning": "A is {location word} of/to B",
     "how_to_use": [
       "noun + は + noun + の + 右 + です",
       "noun + は + noun + の + 左 + です",
@@ -179,7 +179,7 @@
       },
       {
         "id": "b318cbf3-3ead-4b44-b399-9a72dae9636b",
-        "meaning": "I waited for Mary in front of the mos Burger place.",
+        "meaning": "I waited for Mary in front of the Mos Burger place.",
         "text": {
           "spelling": "{私|わたし}はモスバーガーの{前|まえ}でメアリーさんを{待|ま}ちました。",
           "phonetic_spelling": null
