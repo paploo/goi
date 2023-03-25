@@ -139,4 +139,24 @@ insert into source.lesson (code, lesson_code, source_code, label, section_number
 
 insert into source.source (code, label, url, description) values ('TOFUGU', 'Tofugu', 'https://www.tofugu.com', null);
 
-insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number, url, description) values ('TOFUGU_JAPANESE_COUNTER_TSU', 'JAPANESE_COUNTER_TSU', 'TOFUGU', 'Japanese Counter 〜つ', null, null, 'https://www.tofugu.com/japanese/japanese-counter-tsu/', null)
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number, url, description) values ('TOFUGU_JAPANESE_COUNTER_TSU', 'JAPANESE_COUNTER_TSU', 'TOFUGU', 'Japanese Counter 〜つ', null, null, 'https://www.tofugu.com/japanese/japanese-counter-tsu/', null);
+
+--
+-- JLPT 先生
+--
+
+insert into source.source (code, label, url, description) values ('JLPT_SENSEI', 'JLPT 先生', 'https://jlptsensei.com', null);
+
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number, url, description) values ('JLPT_SENSEI_GRAMMAR_N5', 'GRAMMAR_N5', 'JLPT_SENSEI', 'Grammar N5', null, null, 'https://jlptsensei.com/jlpt-n5-grammar-list/', null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number, url, description) values ('JLPT_SENSEI_GRAMMAR_N4', 'GRAMMAR_N4', 'JLPT_SENSEI', 'Grammar N4', null, null, 'https://jlptsensei.com/jlpt-n4-grammar-list/', null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number, url, description) values ('JLPT_SENSEI_GRAMMAR_N3', 'GRAMMAR_N3', 'JLPT_SENSEI', 'Grammar N3', null, null, 'https://jlptsensei.com/jlpt-n3-grammar-list/', null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number, url, description) values ('JLPT_SENSEI_GRAMMAR_N2', 'GRAMMAR_N2', 'JLPT_SENSEI', 'Grammar N2', null, null, 'https://jlptsensei.com/jlpt-n2-grammar-list/', null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number, url, description) values ('JLPT_SENSEI_GRAMMAR_N1', 'GRAMMAR_N1', 'JLPT_SENSEI', 'Grammar N1', null, null, 'https://jlptsensei.com/jlpt-n1-grammar-list/', null);
+
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number, url, description) values ('JLPT_SENSEI_KANJI_N5', 'KANJI_N5', 'JLPT_SENSEI', 'Kanji N5', null, null, 'https://jlptsensei.com/jlpt-n5-kanji-list/', null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number, url, description) values ('JLPT_SENSEI_KANJI_N4', 'KANJI_N4', 'JLPT_SENSEI', 'Kanji N4', null, null, 'https://jlptsensei.com/jlpt-n4-kanji-list/', null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number, url, description) values ('JLPT_SENSEI_KANJI_N3', 'KANJI_N3', 'JLPT_SENSEI', 'Kanji N3', null, null, 'https://jlptsensei.com/jlpt-n3-kanji-list/', null);
+
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number, url, description) values ('JLPT_SENSEI_VOCABULARY_N5', 'VOCABULARY_N5', 'JLPT_SENSEI', 'Vocabulary N5', null, null, 'https://jlptsensei.com/jlpt-n5-vocabulary-list/', null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number, url, description) values ('JLPT_SENSEI_VOCABULARY_N4', 'VOCABULARY_N4', 'JLPT_SENSEI', 'Vocabulary N4', null, null, 'https://jlptsensei.com/jlpt-n4-vocabulary-list/', null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number, url, description) values ('JLPT_SENSEI_VOCABULARY_N3', 'VOCABULARY_N3', 'JLPT_SENSEI', 'Vocabulary N3', null, null, 'https://jlptsensei.com/jlpt-n3-vocabulary-list/', null);
