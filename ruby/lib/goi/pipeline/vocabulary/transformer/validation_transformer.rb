@@ -126,11 +126,7 @@ module Goi
             empty_target_spellings =  empty_targets.map { |ln| ln.preferred_spelling.value }
 
             message = "#{empty_targets.length} of #{targets.length} #{label} have no conjugations: #{empty_target_spellings.inspect}"
-            if empty_targets.empty?
-              Goi::Core::ValidationMessage.info(message)
-            else
-              Goi::Core::ValidationMessage.warn(message)
-            end
+            Goi::Core::ValidationMessage.info(message)
           end
 
         end
