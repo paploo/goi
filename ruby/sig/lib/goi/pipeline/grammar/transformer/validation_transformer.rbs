@@ -26,6 +26,8 @@ module Goi
           def invalid_date_added: (hydrated_rules: [Model::Grammar::HydratedRule] hydrated_rules) -> Goi::Core::ValidationReport?
 
           def missing_examples: (hydrated_rules: [Model::Grammar::HydratedRule] hydrated_rules) -> Goi::Core::ValidationReport?
+
+          def empty_examples: (hydrated_rules: [Model::Grammar::HydratedRule] hydrated_rules) -> Goi::Core::ValidationReport?
         end
       end
     end

@@ -43,7 +43,8 @@ module Goi
                 rule_title_placeholder_case(hydrated_rules:),
                 rule_meaning_placeholder_case(hydrated_rules:),
                 invalid_date_added(hydrated_rules:),
-                missing_examples(hydrated_rules:)
+                missing_examples(hydrated_rules:),
+                empty_examples(hydrated_rules:)
               ].compact.filter { |r| !r.empty? }
             )
           end
@@ -152,6 +153,31 @@ module Goi
             Goi::Core::ValidationReport.new(
               title: 'Missing Examples',
               messages: messages
+            )
+          end
+
+          def empty_examples(hydrated_rules:)
+            empty_meanings = hydrated_rules.flat_map do |hr|
+              hr.examples.select { |ex| ex.meaning.nil? || ex.meaning.empty? }
+            end
+
+            empty_text = hydrated_rules.flat_map do |hr|
+              hr.examples.select { |ex| ex.text.preferred_spelling.nil? || ex.text.preferred_spelling.empty? }
+            end
+
+            return nil if empty_meanings.empty? || empty_text.empty?
+
+            empty_meaning_messages = empty_meanings.map do |ex|
+              Goi::Core::ValidationMessage.error("Empty meaning for example ID #{ex.id}")
+            end
+
+            empty_text_messages = empty_text.map do |ex|
+              Goi::Core::ValidationMessage.error("Empty text for example ID #{ex.id}")
+            end
+
+            Goi::Core::ValidationReport.new(
+              title: 'Empty Examples',
+              messages: empty_meaning_messages + empty_text_messages
             )
           end
 
