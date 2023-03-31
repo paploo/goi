@@ -126,6 +126,7 @@ module Goi
         {
           inflection('POSITIVE', 'PLAIN', 'PRESENT') => positive_plain_present,
           inflection('POSITIVE', 'PLAIN', 'PAST') => positive_plain_past,
+          inflection('POSITIVE', 'PLAIN', 'TE') => positive_plain_te,
 
           inflection('NEGATIVE', 'PLAIN', 'PRESENT') => negative_plain_present,
           inflection('NEGATIVE', 'PLAIN', 'PAST') => negative_plain_past
@@ -358,7 +359,7 @@ module Goi
         'NA_ADJECTIVE': adjective_set(
           positive_plain_present: PatternRule.new(/$/, 'だ'),
           positive_plain_past: PatternRule.new(/$/, 'だった'),
-          positive_plain_te: PatternRule.new(/$/, 'て'),
+          positive_plain_te: PatternRule.new(/$/, 'で'),
           negative_plain_present: PatternRule.new(/$/, 'じゃない'),
           negative_plain_past: PatternRule.new(/$/, 'じゃなかった')
         ),
