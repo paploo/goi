@@ -10,6 +10,16 @@ class String
     nil? || empty?
   end
 
+  def contains_invisibles?
+    # Somewhere I've been copy/pasting from stuck a few ZWSPs in my google doc;
+    # so added a way to check for them.
+    # TODO: Add other invisibles for completeness
+
+    #zwsp="​" # I have captured one from my output to copy/paste!
+    zwsp = "\u200b"
+    include?(zwsp)
+  end
+
 end
 
 class Hash

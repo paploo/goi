@@ -35,6 +35,8 @@ module Goi
 
           def parse_conjugation: (row: Hash[String, String] row, vocabulary_id: String vocabulary_id) -> Model::Vocabulary::ConjugationSet?
 
+          def preflight_check_row: (row: Hash[String, String])-> void
+
           class VocabularyParser
 
             def parse_row: (row: Hash[String, String] row) -> Model::Vocabulary::Vocabulary

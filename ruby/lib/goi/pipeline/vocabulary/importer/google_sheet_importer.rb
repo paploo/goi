@@ -49,6 +49,7 @@ module Goi
           end
 
           def parse_row(row:)
+            preflight_check_row(row:)
             vocabulary = parse_vocabulary(row:)
             vocabulary_id = vocabulary.id
             Goi::Model::Vocabulary::Linkages.new(
@@ -76,6 +77,12 @@ module Goi
 
           def parse_conjugation(row:, vocabulary_id:)
             conjugation_parser.parse_row(row:, vocabulary_id:)
+          end
+
+          def preflight_check_row(row:)
+            row.each_value do |value|
+              raise "Encountered invisible character on row: #{row}" if value&.contains_invisibles?
+            end
           end
 
           class VocabularyParser
