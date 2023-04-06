@@ -268,8 +268,8 @@
     "title": "ＡとＢ",
     "meaning": "A and B; person A together with person B",
     "how_to_use": [
-      "noun + noun",
-      "person + person"
+      "noun + と + noun",
+      "person + は + person + と"
     ],
     "examples": [
       {
@@ -356,7 +356,7 @@
         "id": "bb888773-2128-4246-93ca-df94112ff45f",
         "meaning": "Let's study in the library together.",
         "text": {
-          "spelling": "{一緒|いっ・しょ}に{図書館|と・しょ・かん}で{勉強|べん・きょう}するましましょう",
+          "spelling": "{一緒|いっ・しょ}に{図書館|と・しょ・かん}で{勉強|べん・きょう}しましょう",
           "phonetic_spelling": null
         },
         "lesson_codes": ["GENKI3_L05"],
