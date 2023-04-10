@@ -25,6 +25,16 @@
       },
       "lesson_codes": ["GENKI3_Lxx"],
       "tags": []
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000000",
+      "meaning": "Example3",
+      "text": {
+        "spelling": "三〇〇",
+        "phonetic_spelling": null
+      },
+      "lesson_codes": ["GENKI3_Lxx"],
+      "tags": []
     }
   ],
   "jlpt_level": null,

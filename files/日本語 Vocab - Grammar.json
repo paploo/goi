@@ -381,7 +381,7 @@
   {
     "id": "30a31f32-839f-4610-baf8-788a7f390fd2",
     "title": "〜ましょうか",
-    "meaning": "shall I..",
+    "meaning": "shall I... / let me do ...",
     "how_to_use": [
       "verb-stem + ましょうか"
     ],
@@ -405,11 +405,203 @@
         },
         "lesson_codes": ["JLPT_SENSEI_GRAMMAR_N5"],
         "tags": []
+      },
+      {
+        "id": "df095a25-8c61-420f-b923-19f2b756daac",
+        "meaning": "Shall I carry your bag?",
+        "text": {
+          "spelling": "{荷物|に・もつ}を{持|も}ちましょうか。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L06"],
+        "tags": []
       }
     ],
     "jlpt_level": null,
     "date_added": "2023-03-23",
-    "lesson_codes": ["GENKI3_L05"],
+    "lesson_codes": ["GENKI3_L05", "GENKI3_L06"],
+    "tags": []
+  },
+  {"COMMENT": "GENKI LESSON 06"},
+  {
+    "id": "6d942fcf-dc23-4adb-aa88-6bc8ab197ff3",
+    "title": "〜てください",
+    "meaning": "please do ... for me",
+    "how_to_use": [
+      "verb(て　form) + ください"
+    ],
+    "examples": [
+      {
+        "id": "96f641ac-ce4a-4da2-b980-76b63aa7398c",
+        "meaning": "Please read the textbook.",
+        "text": {
+          "spelling": "{教科書|きょう・か・しょ}を{読|よ}んでください。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L06"],
+        "tags": []
+      },
+      {
+        "id": "78e69786-38e1-4c5f-b4f5-5e649c3ba576",
+        "meaning": "Excuse me. Please teach me a a little.",
+        "text": {
+          "spelling": "すみません。ちょうと{教|おし}えてください。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L06"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-04-09",
+    "lesson_codes": ["GENKI3_L06"],
+    "tags": []
+  },
+  {
+    "id": "1b6c21c5-298b-47b1-bce9-295970b3ca3f",
+    "title": "Ａて、B。",
+    "meaning": "to do A and do B",
+    "how_to_use": [
+      "verb (て form) + 、+ verb"
+    ],
+    "examples": [
+      {
+        "id": "96483b58-c1ee-49ee-a0fb-10961b8d52a3",
+        "meaning": "I will go to the library and check out some books.",
+        "text": {
+          "spelling": "{図書館|と・しょ・かん}に{行|い}って、本を{帰|かえ}ります。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L06"],
+        "tags": []
+      },
+      {
+        "id": "14c95ee9-570f-4d67-8d7d-b4286ca2c0ad",
+        "meaning": "Today I got up at six and studied.",
+        "text": {
+          "spelling": "{今日|きょう}は、{六|ろく}{時|じ}に{起|お}きて、{勉強|べん・きょう}しました。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L06"],
+        "tags": []
+      },
+      {
+        "id": "4a77c196-3b0a-4c70-89b4-17f72c1e0140",
+        "meaning": "Let's go to the cafeteria and have lunch.",
+        "text": {
+          "spelling": "{食堂|しょく・どう}に{行|い}って、{昼|ひる}ご{飯|はん}を{食|た}べましよう。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L06"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-04-09",
+    "lesson_codes": ["GENKI3_L06"],
+    "tags": []
+  },
+  {
+    "id": "79fb54a3-79c7-4691-9d3d-f0ea459c3b9a",
+    "title": "〜てもいいです",
+    "meaning": "you may do ...",
+    "how_to_use": [
+      "verb (て form) + もいいです"
+    ],
+    "examples": [
+      {
+        "id": "6d85da21-e530-49d4-a4ef-7a457d991916",
+        "meaning": "You may use the textbook.",
+        "text": {
+          "spelling": "{教科書|きょう・か・しょ}を{見|み}てもいいですよ。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L06"],
+        "tags": []
+      },
+      {
+        "id": "3ec1dc21-bd84-4b61-a081-653ed46a7b17",
+        "meaning": "May I go to the bathroom?\nYou may./Please.",
+        "text": {
+          "spelling": "トイレに{行|い}ってもいいですか。\nはい、いいですよ。／どうぞ。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L06"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-04-09",
+    "lesson_codes": ["GENKI3_L06"],
+    "tags": []
+  },
+  {
+    "id": "45d46c59-d86c-4a19-9e53-3cebf4dbae83",
+    "title": "〜てはいけません",
+    "meaning": "you must not do ...",
+    "how_to_use": [
+      "verb (て form) + はいけません",
+      "verb (て form) + はいけない"
+    ],
+    "examples": [
+      {
+        "id": "ff742105-6ca3-444b-986f-bcae6765af32",
+        "meaning": "You must not take pictures here.",
+        "text": {
+          "spelling": "ここで{写裏|しゃ・しん}を{撮|と}って{は|wa}いけません。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L06"],
+        "tags": []
+      },
+      {
+        "id": "d538ef36-049b-421b-b182-745d3730a9f5",
+        "meaning": "Do not open up the window.",
+        "text": {
+          "spelling": "{窓|まど}を{開|あ}けて{は|wa}いけない。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["JLPT_SENSEI_GRAMMAR_N5"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-04-09",
+    "lesson_codes": ["GENKI3_L06","JLPT_SENSEI_GRAMMAR_N5"],
+    "tags": []
+  },
+  {
+    "id": "c5381ae9-d2a9-43fb-836a-53d02a300edf",
+    "title": "Ａ。Bから",
+    "meaning": "A; because B",
+    "how_to_use": [
+      "(situation)。 (explanation)から。"
+    ],
+    "examples": [
+      {
+        "id": "8059e232-04da-4512-8734-762c9c42d67d",
+        "meaning": "I will study this evening. (Because) we will have an exam tomorrow.",
+        "text": {
+          "spelling": "私は今晩勉強します。あしたテストがありますから。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L06"],
+        "tags": []
+      },
+      {
+        "id": "f75e83dc-5ab0-43f5-ace0-f80fffda18a5",
+        "meaning": "Let's go by bus. (Because) taxis are expensive.",
+        "text": {
+          "spelling": "バスに乗りましょう。タクシーは高いですから。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L06"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-04-09",
+    "lesson_codes": ["GENKI3_L06"],
     "tags": []
   }
 ]
