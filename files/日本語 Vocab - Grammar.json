@@ -459,7 +459,7 @@
   },
   {
     "id": "1b6c21c5-298b-47b1-bce9-295970b3ca3f",
-    "title": "Ａて、B。",
+    "title": "Ａて、Ｂ。",
     "meaning": "to do A and do B",
     "how_to_use": [
       "verb (て form) + 、+ verb"
@@ -521,9 +521,9 @@
       },
       {
         "id": "3ec1dc21-bd84-4b61-a081-653ed46a7b17",
-        "meaning": "May I go to the bathroom?\nYou may./Please.",
+        "meaning": "May I go to the bathroom? You may./Please.",
         "text": {
-          "spelling": "トイレに{行|い}ってもいいですか。\nはい、いいですよ。／どうぞ。",
+          "spelling": "トイレに{行|い}ってもいいですか。はい、いいですよ。／どうぞ。",
           "phonetic_spelling": null
         },
         "lesson_codes": ["GENKI3_L06"],
@@ -572,7 +572,7 @@
   },
   {
     "id": "c5381ae9-d2a9-43fb-836a-53d02a300edf",
-    "title": "Ａ。Bから",
+    "title": "Ａ。Ｂから",
     "meaning": "A; because B",
     "how_to_use": [
       "(situation)。 (explanation)から。"
@@ -582,7 +582,7 @@
         "id": "8059e232-04da-4512-8734-762c9c42d67d",
         "meaning": "I will study this evening. (Because) we will have an exam tomorrow.",
         "text": {
-          "spelling": "私は今晩勉強します。あしたテストがありますから。",
+          "spelling": "{私|わたし}は{今晩|こん・ばん}{勉強|べん・きょう}します。あしたテストがありますから。",
           "phonetic_spelling": null
         },
         "lesson_codes": ["GENKI3_L06"],
@@ -592,7 +592,7 @@
         "id": "f75e83dc-5ab0-43f5-ace0-f80fffda18a5",
         "meaning": "Let's go by bus. (Because) taxis are expensive.",
         "text": {
-          "spelling": "バスに乗りましょう。タクシーは高いですから。",
+          "spelling": "バスに{乗|の}りましょう。タクシーは{高|たか}いですから。",
           "phonetic_spelling": null
         },
         "lesson_codes": ["GENKI3_L06"],

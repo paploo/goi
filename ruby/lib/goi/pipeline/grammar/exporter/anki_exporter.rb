@@ -55,7 +55,11 @@ module Goi
           end
 
           def header_row
-            RULE_HEADERS + EXAMPLE_HEADERS.map { |h| "example_1_#{h}" } + EXAMPLE_HEADERS.map { |h| "example_2_#{h}" } + [TAGS_HEADER]
+            example_headers = (1..3).flat_map do |example_number|
+              EXAMPLE_HEADERS.map { |h| "example_#{example_number}_#{h}" }
+            end
+
+            RULE_HEADERS + example_headers + [TAGS_HEADER]
           end
 
           def tags_column_index
@@ -70,8 +74,9 @@ module Goi
             rule = rule_row(hydrated_rule.rule)
             example1 = example_row_or_nils(hydrated_rule.examples[0])
             example2 = example_row_or_nils(hydrated_rule.examples[1])
+            example3 = example_row_or_nils(hydrated_rule.examples[2])
             tags = tags_field(tags(hydrated_rule))
-            rule + example1 + example2 + [tags]
+            rule + example1 + example2 + example3 + [tags]
           end
 
           def rule_row(rule)
