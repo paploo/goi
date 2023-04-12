@@ -400,7 +400,7 @@
         "id": "90bdc4bd-0f06-454d-9168-304d589cd8f2",
         "meaning": "Shall I take a picture for you?",
         "text": {
-          "spelling": "{写真|しゃ・しん}を{取|と}りましょうか。",
+          "spelling": "{写真|しゃ・しん}を{撮|と}りましょうか。",
           "phonetic_spelling": null
         },
         "lesson_codes": ["JLPT_SENSEI_GRAMMAR_N5"],
@@ -572,7 +572,7 @@
   },
   {
     "id": "c5381ae9-d2a9-43fb-836a-53d02a300edf",
-    "title": "Ａ。Ｂから",
+    "title": "Ａ。Ｂから。",
     "meaning": "A; because B",
     "how_to_use": [
       "(situation)。 (explanation)から。"
