@@ -469,7 +469,7 @@
         "id": "96483b58-c1ee-49ee-a0fb-10961b8d52a3",
         "meaning": "I will go to the library and check out some books.",
         "text": {
-          "spelling": "{図書館|と・しょ・かん}に{行|い}って、本を{帰|かえ}ります。",
+          "spelling": "{図書館|と・しょ・かん}に{行|い}って、本を{借|か}ります。",
           "phonetic_spelling": null
         },
         "lesson_codes": ["GENKI3_L06"],
