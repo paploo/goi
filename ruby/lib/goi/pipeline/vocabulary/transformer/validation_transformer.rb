@@ -36,6 +36,7 @@ module Goi
               messages: [
                 duplicate_ids(linkages:),
                 duplicate_preferred_spellings(linkages:),
+                invalid_phonetic_spellings(linkages:),
                 missing_conjugations(linkages:),
                 incorrect_conjugation_report(linkages:)
               ].compact.filter { |r| !r.empty? }
@@ -61,6 +62,20 @@ module Goi
             Goi::Core::ValidationReport.new(
               title: 'Duplicate Spellings',
               messages: [Goi::Core::ValidationMessage.new(level:, message:)]
+            )
+          end
+
+          def invalid_phonetic_spellings(linkages:)
+            messages = linkages.reject do |ln|
+              Goi::Nihongo::StringClassification.classify_string(ln.phonetic_spelling.value) == :hiragana
+            end.map do |ln|
+              sp = ln.phonetic_spelling.value
+              Goi::Core::ValidationMessage.error("Vocabulary #{ln.vocabulary.id} contains invalid characters in phonetic spelling: #{sp}")
+            end
+
+            Goi::Core::ValidationReport.new(
+              title: 'Invalid Phonetic Spellings',
+              messages: messages
             )
           end
 
