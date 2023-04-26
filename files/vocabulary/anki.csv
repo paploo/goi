@@ -827,7 +827,7 @@ e2844136-7055-4e0b-a2f0-7579807c0ecc,"to take, to grab; to pass",取る,とる,,
 cbe6d96a-991c-4eeb-a5d3-fbb041d9a450,the world,世界,せかい,,noun,,4,2023-03-26,822,GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l10
 2bc76c1a-20a2-4469-92fd-fb95ac75b996,universe; cosmos; space,宇宙,うちゅう,,noun,,3,2023-03-26,823,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 0a783648-bd6a-46d0-9aba-2deeec868f67,thank you for your hard work,お疲れ様です,おつかれさまです,,expression,,,2023-03-26,824,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
-a1a492f9-8352-4745-9a52-68c87b8d905b,noisy; annoying; bossy,うるさい,うるさい,煩い,adjective,i adjective,5,2023-04-15,825,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective i-adjective
+a1a492f9-8352-4745-9a52-68c87b8d905b,noisy; annoying; bossy,うるさい,うるさい,煩い,adjective,i adjective,5,2023-04-15,825,,うるさい,うるさかった,うるさくて,,,,,,,,,,,,,,,,うるさくない,うるさくなかった,,,,,,,,,,,,,,,,,adjective i-adjective
 d267cff1-9784-4fbd-b039-dbca6dddab5f,love letter,ラブレター,らぶれたあ,,noun,,,2023-04-17,826,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 c895e9c8-dccc-428d-a5a2-64e81cb1e273,cow,牛,うし,,noun,,3,2023-04-22,827,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,animal food noun
 258af567-d885-4e3f-b2ed-31b6710120d7,body; torso,体,からだ,,noun,,5,2023-04-22,828,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,body noun
@@ -859,3 +859,10 @@ baf5b92f-0094-418a-9a98-f30e63e83b25,gloves,手袋,てぶくろ,,noun,,4,2023-04
 098070f1-90bf-4342-9f3c-45cc69277ba6,"slow, late",遅い,おそい,,adjective,i adjective,5,2023-04-24,854,GENKI3_L10,遅い,遅かった,遅くて,,,,,,,,,,,,,,,,遅くない,遅くなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l10
 f42f94a4-6abc-49ea-b38e-66c174e40668,sleepy,眠い,ねむい,,adjective,i adjective,4,2023-04-24,855,GENKI3_L10,眠い,眠かった,眠くて,,,,,,,,,,,,,,,,眠くない,眠くなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l10
 81e11edb-19be-4773-8a8f-39db8b1d2671,easy; simple,簡単,かんたん,,adjective,na adjective,,2023-04-24,856,GENKI3_L10,簡単だ,簡単だった,簡単で,,,,,,,,,,,,,,,,簡単じゃない,簡単じゃなかった,,,,,,,,,,,,,,,,,adjective na-adjective genki3-l10
+65dbd026-a83b-4189-afcf-a0497a15ede9,to take (amount of time/money),かかる,かかる,掛かる,verb,godan verb,5,2023-04-26,857,GENKI3_L10,かかる,かかった,かかって,,,,,,,かかります,かかりました,,,,,,,,かからない,かからなかった,かからなくて,,,,,,,かかりません,かかりませんでした,,,,,,,,verb godan-verb genki3-l10
+0d56f3f4-4e79-45ed-944d-c095551fd422,"to stay (at a hotel, etc)",泊まる,とまる,,verb,godan verb,4,2023-04-26,858,GENKI3_L10,泊まる,泊まった,泊まって,,,,,,,泊まります,泊まりました,,,,,,,,泊まらない,泊まらなかった,泊まらなくて,,,,,,,泊まりません,泊まりませんでした,,,,,,,,verb godan-verb genki3-l10
+4e47dcc0-5e58-4e59-87ed-3b2e6a445c7d,"to decide, to choose",決める,きめる,,verb,ichidan verb,4,2023-04-26,859,GENKI3_L10,決める,決めた,決めて,,,,,,,決めます,決めました,,,,,,,,決めない,決めなかった,決めなくて,,,,,,,決めません,決めませんでした,,,,,,,,verb ichidan-verb genki3-l10
+24b50bc6-55c9-42c4-86bb-34d2353d4ee3,to chill out; to stay home and do nothing,ゴロゴロする,ごろごろする,,verb,suru verb,,2023-04-26,860,GENKI3_L10,ゴロゴロする,ゴロゴロした,ゴロゴロして,,,,,,,ゴロゴロします,ゴロゴロしました,,,,,,,,ゴロゴロしない,ゴロゴロしなかった,ゴロゴロしなくて,,,,,,,ゴロゴロしません,ゴロゴロしませんでした,,,,,,,,verb suru-verb genki3-l10
+55fbdf7e-551e-4455-a7ed-d67c29b04894,to travel,旅行する,りょこうする,,verb,suru verb,,2023-04-26,861,GENKI3_L10,旅行する,旅行した,旅行して,,,,,,,旅行します,旅行しました,,,,,,,,旅行しない,旅行しなかった,旅行しなくて,,,,,,,旅行しません,旅行しませんでした,,,,,,,,verb suru-verb genki3-l10
+a9c39bb4-3d9b-40d1-964f-f80abb1f0f51,practice; training; drill,練習,れんしゅう,,noun,,5,2023-04-26,862,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+203a6c9a-842e-44b0-9537-07063601d6ef,to practice,練習する,れんしゅうする,,verb,suru verb,,2023-04-26,863,GENKI3_L10,練習する,練習した,練習して,,,,,,,練習します,練習しました,,,,,,,,練習しない,練習しなかった,練習しなくて,,,,,,,練習しません,練習しませんでした,,,,,,,,verb suru-verb genki3-l10
