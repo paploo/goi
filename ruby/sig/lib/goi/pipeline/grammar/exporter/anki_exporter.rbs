@@ -5,9 +5,11 @@ module Goi
         class AnkiExporter < Grammar::Exporter::Base
           include Pipeline::Core::AnkiExportable
 
-          def initialize: (outfile_pathname: Pathname? outfile_pathname) -> void
+          def initialize: (outfile_pathname: Pathname? outfile_pathname, example_count: Integer example_count) -> void
 
           attr_reader outfile_pathname: Pathname?
+
+          attr_reader example_count: Integer
 
           def export: ([Model::Grammar::HydratedRule] hydrated_rules) -> untyped
 

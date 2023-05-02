@@ -10,12 +10,14 @@ module Goi
         class AnkiExporter < Grammar::Exporter::Base
           include Pipeline::Core::AnkiExportable
 
-          def initialize(outfile_pathname:)
+          def initialize(outfile_pathname:, example_count: 3)
             super()
             @outfile_pathname = outfile_pathname
+            @example_count = example_count
           end
 
           attr_reader :outfile_pathname
+          attr_reader :example_count
 
           def export(hydrated_rules)
             open_path(outfile_pathname) do |io|
@@ -55,7 +57,7 @@ module Goi
           end
 
           def header_row
-            example_headers = (1..3).flat_map do |example_number|
+            example_headers = (1..example_count).flat_map do |example_number|
               EXAMPLE_HEADERS.map { |h| "example_#{example_number}_#{h}" }
             end
 
@@ -72,11 +74,14 @@ module Goi
 
           def hydrated_rule_row(hydrated_rule:)
             rule = rule_row(hydrated_rule.rule)
-            example1 = example_row_or_nils(hydrated_rule.examples[0])
-            example2 = example_row_or_nils(hydrated_rule.examples[1])
-            example3 = example_row_or_nils(hydrated_rule.examples[2])
+
+            examples = (0...example_count).map do |i|
+              example_row_or_nils(hydrated_rule.examples[i])
+            end
+
             tags = tags_field(tags(hydrated_rule))
-            rule + example1 + example2 + example3 + [tags]
+
+            rule + examples.flatten + [tags]
           end
 
           def rule_row(rule)
