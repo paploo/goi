@@ -339,7 +339,7 @@
       },
       {
         "id": "8bee6f94-96df-4a13-9769-0da26eed141b",
-        "meaning": "Mary bought shoes. Mary bouth a bag, too.",
+        "meaning": "Mary bought shoes. Mary bought a bag, too.",
         "text": {
           "spelling": "メアリーさんは{靴|くつ}を{買|か}いました。メアリーさんはかばんも{買|か}いました。",
           "phonetic_spelling": null
@@ -411,7 +411,7 @@
   },
   {
     "id": "a4766a9c-8bc7-446b-b0df-c3e2865612df",
-    "title": "ＡとＢ",
+    "title": "ＡとＢ<br/>ＡはＢと",
     "meaning": "A and B; person A together with person B",
     "how_to_use": [
       "noun + と + noun",
@@ -451,7 +451,7 @@
     "meaning": "Adjective Noun Modification",
     "how_to_use": [
       "い-adj + noun",
-      "な-adj + な　+ noun"
+      "な-adj + な + noun"
     ],
     "examples": [
       {
