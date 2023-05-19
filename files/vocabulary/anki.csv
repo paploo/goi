@@ -81,7 +81,7 @@ b4a146e5-f483-50d5-8b18-ca71fdb3f570,Canada,カナダ,かなだ,,proper noun,,,2
 54ca6cf2-c9f0-5a77-b53c-8e4a2fbe76ac,China,中国,ちゅうごく,,proper noun,,,2022-04-24,76,GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,country place proper-noun genki3-l01
 f3f3ba33-de3b-5fa1-9b99-eee62ae2e024,India,インド,いんど,,proper noun,,,2022-04-24,77,GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,country place proper-noun genki3-l01
 eb20360e-5c1a-58b8-9bf8-040795c5bf0a,Egypt,エジプト,いじぷと,,proper noun,,,2022-04-24,78,GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,country place proper-noun genki3-l01
-ae144a7c-293f-5f24-81ee-37d5594d6aed,Philipines,フィリビン,ふぃりぴん,,proper noun,,,2022-04-24,79,GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,country place proper-noun genki3-l01
+ae144a7c-293f-5f24-81ee-37d5594d6aed,Philipines,フィリピン,ふぃりぴん,,proper noun,,,2022-04-24,79,GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,country place proper-noun genki3-l01
 abd1e50d-f284-5a21-831f-344cb338414e,Asian Studies,アジア研究,あじあけんきゅう,,noun,,,2022-04-24,80,GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,school-major noun genki3-l01
 13912d04-d947-5c72-a192-740c19a28c86,economics,経済,けいざい,,noun,,4,2022-04-24,81,GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,school-major noun genki3-l01
 7672ef18-d91f-548f-a938-970d6a741586,engineering,工学,こうがく,,noun,,1,2022-04-24,82,GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,school-major noun genki3-l01
@@ -899,7 +899,7 @@ a5128b62-114a-4499-8096-a19211197160,"normal, ordinary, common",普通,ふつう
 65584362-ca9d-4896-b001-ad4d57608f73,local (train),普通,ふつう,,noun,,4,2023-04-29,894,GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l10
 52c14f46-d973-4b99-a029-71d04f1b585b,"hurrying (to somewhere), rushing; express (train)",急行,きゅうこう,,noun,,4,2023-04-29,895,GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,transportation noun genki3-l10
 73e29d1e-7eae-4bc8-bd09-ae0d53c64fdc,super express (train),特急,とっきゅう,,noun,,4,2023-04-29,896,GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,transportation noun genki3-l10
-6ee359fa-54db-451a-b2ab-3b70d6ef098e,"district, area; serving area (train)",方面,ほうめん,,suffix,,2,2023-04-29,897,GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,transportation suffix genki3-l10
+6ee359fa-54db-451a-b2ab-3b70d6ef098e,"district, area; service area (train)",方面,ほうめん,,suffix,,2,2023-04-29,897,GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,transportation suffix genki3-l10
 90b315aa-b052-4791-ae5c-821640511f13,train car number,号車,ごうしゃ,,suffix,,,2023-04-29,898,GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,transportation suffix genki3-l10
 660bade2-d475-4fcc-a09e-1b47235d072a,boarding ticket,乗車券,じょうしゃけん,,noun,,,2023-04-29,899,GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,transportation noun genki3-l10
 f8eb1de4-0b64-4645-9997-11df34ce972a,general admission seat,自由席,じゆうせき,,noun,,,2023-04-29,900,GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,transportation noun genki3-l10
@@ -944,3 +944,4 @@ f622f249-de34-4e3e-be7e-2781eed09a9f,Fujinomiya,富士宮,ふじのみや,,prope
 3074f733-a8d5-4269-b538-882246752cc5,Hamamatsu,浜松,はままつ,,proper noun,,,2023-04-30,939,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,city place proper-noun
 8ad7a2cd-3cca-4a91-b194-c4d380f99bb7,Yamanashi,山梨,やまなし,,proper noun,,,2023-04-30,940,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,place prefecture proper-noun
 ae670ea4-21cb-51fc-b43d-f1c0c7e17fa1,"to be heard far away; to reverberate, to vibrate; to make an impression",響く,ひびく,,verb,godan verb,,2023-05-03,941,,響く,響いた,響いて,,,,,,,響きます,響きました,,,,,,,,響くない,響かない,響かなくて,,,,,,,響きません,響きませんでした,,,,,,,,verb godan-verb
+baea87f9-7939-4aa4-a75f-a7fe1c21cf02,"all, whole, entire",全部,ぜんぶ,,noun,,5,2023-05-18,942,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun

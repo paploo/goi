@@ -688,10 +688,10 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('1c9376e4-091f-5bc5-8b92-eb594b97d7f6', 'eb20360e-5c1a-58b8-9bf8-040795c5bf0a', 'HIRAGANA', 'いじぷと');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id", "conjugation_set_id") VALUES ('eb20360e-5c1a-58b8-9bf8-040795c5bf0a', 'a39bde07-4fbf-5347-ac00-7f7375c46ada', 'adeb661d-4980-5d5e-8aaa-4ec4ba02f175', '1c9376e4-091f-5bc5-8b92-eb594b97d7f6', NULL, NULL, NULL);
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('eb20360e-5c1a-58b8-9bf8-040795c5bf0a', 'GENKI3_L01');
--- フィリビン | Philipines --;
+-- フィリピン | Philipines --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('ae144a7c-293f-5f24-81ee-37d5594d6aed', 'PROPER_NOUN', NULL, NULL, 79, '{country,place}', '2022-04-24');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('cb4f98ff-d415-54de-9362-68569dcf51bf', 'ae144a7c-293f-5f24-81ee-37d5594d6aed', 1, 'Philipines');
-INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('b27800b0-0839-5869-bfed-de5297a5aa5b', 'ae144a7c-293f-5f24-81ee-37d5594d6aed', 'KATAKANA', 'フィリビン');
+INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('b27800b0-0839-5869-bfed-de5297a5aa5b', 'ae144a7c-293f-5f24-81ee-37d5594d6aed', 'KATAKANA', 'フィリピン');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('098b1a75-76d5-5f23-94ab-4846f875e2ec', 'ae144a7c-293f-5f24-81ee-37d5594d6aed', 'HIRAGANA', 'ふぃりぴん');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id", "conjugation_set_id") VALUES ('ae144a7c-293f-5f24-81ee-37d5594d6aed', 'cb4f98ff-d415-54de-9362-68569dcf51bf', 'b27800b0-0839-5869-bfed-de5297a5aa5b', '098b1a75-76d5-5f23-94ab-4846f875e2ec', NULL, NULL, NULL);
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('ae144a7c-293f-5f24-81ee-37d5594d6aed', 'GENKI3_L01');
@@ -8407,9 +8407,9 @@ INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('5a60bace-80aa-5301-a709-729baf737633', '73e29d1e-7eae-4bc8-bd09-ae0d53c64fdc', 'KANJI', '特急');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id", "conjugation_set_id") VALUES ('73e29d1e-7eae-4bc8-bd09-ae0d53c64fdc', 'a015c149-49ab-547c-a7ae-c5b2149f01a2', 'ee8f6d9d-bc63-591f-b123-f9d0f3859c6f', '9a9c6b97-1c40-5b01-8381-c8deda47786b', NULL, '5a60bace-80aa-5301-a709-729baf737633', NULL);
 INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('73e29d1e-7eae-4bc8-bd09-ae0d53c64fdc', 'GENKI3_L10');
--- 方面 | district, area; serving area (train) --;
+-- 方面 | district, area; service area (train) --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('6ee359fa-54db-451a-b2ab-3b70d6ef098e', 'SUFFIX', NULL, 2, 897, '{transportation}', '2023-04-29');
-INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('78b1ade4-f748-5dbc-b9e8-01100be5436d', '6ee359fa-54db-451a-b2ab-3b70d6ef098e', 1, 'district, area; serving area (train)');
+INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('78b1ade4-f748-5dbc-b9e8-01100be5436d', '6ee359fa-54db-451a-b2ab-3b70d6ef098e', 1, 'district, area; service area (train)');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('1e5051d3-bb19-5991-9b00-1cfbc478fbb7', '6ee359fa-54db-451a-b2ab-3b70d6ef098e', 'KANJI', '方面');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('c208451d-6cbb-511f-a175-c43aab765838', '6ee359fa-54db-451a-b2ab-3b70d6ef098e', 'HIRAGANA', 'ほうめん');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('40e81631-5038-5bef-9310-2865addbaf72', '6ee359fa-54db-451a-b2ab-3b70d6ef098e', 'KANJI', '方面');
@@ -8757,3 +8757,10 @@ INSERT INTO "vocabulary"."conjugation" ("id", "conjugation_set_id", "politeness_
 INSERT INTO "vocabulary"."conjugation" ("id", "conjugation_set_id", "politeness_code", "charge_code", "form_code", "sort_rank", "value") VALUES ('12b5dd41-a9e9-5a6d-afad-611f2f69945d', '6ada95a9-349d-5e86-bd53-ef8a9940d114', 'POLITE', 'POSITIVE', 'PAST', 1, '響きました');
 INSERT INTO "vocabulary"."conjugation" ("id", "conjugation_set_id", "politeness_code", "charge_code", "form_code", "sort_rank", "value") VALUES ('6668e4f9-9334-55e4-89a7-df6ba697b2e1', '6ada95a9-349d-5e86-bd53-ef8a9940d114', 'POLITE', 'NEGATIVE', 'PRESENT', 1, '響きません');
 INSERT INTO "vocabulary"."conjugation" ("id", "conjugation_set_id", "politeness_code", "charge_code", "form_code", "sort_rank", "value") VALUES ('a70e60ed-ebac-565c-8e02-b8c6f155129d', '6ada95a9-349d-5e86-bd53-ef8a9940d114', 'POLITE', 'NEGATIVE', 'PAST', 1, '響きませんでした');
+-- 全部 | all, whole, entire --;
+INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('baea87f9-7939-4aa4-a75f-a7fe1c21cf02', 'NOUN', NULL, 5, 942, '{}', '2023-05-18');
+INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('cbcaf5bf-9faa-5953-b69a-8725d9d9a325', 'baea87f9-7939-4aa4-a75f-a7fe1c21cf02', 1, 'all, whole, entire');
+INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('03654a99-a8b3-54d0-84e3-2949f8b23dbd', 'baea87f9-7939-4aa4-a75f-a7fe1c21cf02', 'KANJI', '全部');
+INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('9bbebaeb-d618-5883-99a0-56fa19da3ebc', 'baea87f9-7939-4aa4-a75f-a7fe1c21cf02', 'HIRAGANA', 'ぜんぶ');
+INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('fbaf7523-f1a1-5554-8b59-617c80dda717', 'baea87f9-7939-4aa4-a75f-a7fe1c21cf02', 'KANJI', '全部');
+INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id", "conjugation_set_id") VALUES ('baea87f9-7939-4aa4-a75f-a7fe1c21cf02', 'cbcaf5bf-9faa-5953-b69a-8725d9d9a325', '03654a99-a8b3-54d0-84e3-2949f8b23dbd', '9bbebaeb-d618-5883-99a0-56fa19da3ebc', NULL, 'fbaf7523-f1a1-5554-8b59-617c80dda717', NULL);
