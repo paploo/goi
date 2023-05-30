@@ -915,33 +915,34 @@ f9087879-1bef-483a-86ea-c261d471a33d,stand; stall; booth; kiosk; shop,売店,ば
 3689d8f9-eee4-466a-a652-e0db02f6bfc1,entrance,入口,いりぐち,,noun,,5,2023-04-29,910,GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l10
 866880a4-d2d7-4901-a589-4ac45ac3580b,"switch (method, ideology); transfer (train)",乗り換え,のりかえ,,noun,,2,2023-04-29,911,GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l10
 89a2831d-04d3-431f-bca4-d3ae7787ed2a,last train,終電,しゅうでん,,noun,,,2023-04-29,912,GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,transportation noun genki3-l10
-2e53e69d-300c-4200-bbd1-79e82adb4668,Hokkaido Island,北海道,ほっかいどう,,proper noun,,,2023-04-30,913,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,island place proper-noun
+2e53e69d-300c-4200-bbd1-79e82adb4668,Hokkaido Island/Region,北海道,ほっかいどう,,proper noun,,,2023-04-30,913,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,island place proper-noun
 267cf451-fb84-443a-a7d7-fc8835e1a424,Honshu Island,本州,ほんしゅう,,proper noun,,,2023-04-30,914,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,island place proper-noun
-45389128-6dcc-47e8-8c40-39c7e0a90a7e,Shikoku Island,四国,しこく,,proper noun,,,2023-04-30,915,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,island place proper-noun
-cdd2a12e-4768-438d-b129-ffaf470c623e,Kyushu Island,九州,きゅうしゅう,,proper noun,,,2023-04-30,916,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,island place proper-noun
-270c14de-ebb1-4771-aa08-7e3439f010ad,Harajuku District (colorful youth fashion),原宿,はらじゅく,,proper noun,,,2023-04-30,917,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,district place proper-noun
-f109b166-99ad-4784-b13d-a8eaf22deee9,Akihabara District (epicenter for otaku culture),秋葉原,あきはばら,,proper noun,,,2023-04-30,918,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,district place proper-noun
-4328a4a6-bc1c-4dc2-b99f-66b2cc5216c2,Shibuya (main shopping district),渋谷,しぶや,,proper noun,,,2023-04-30,919,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,district place proper-noun
-c4f7e413-040d-49fa-a1f5-17702d4b5f26,composition; piece of music; song; track,曲,きょく,,noun,,1,2023-04-30,920,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-c7d4afa9-bcd9-44db-b270-dcc71ccf43c4,to repeat,リピートする,りぴいとする,,verb,suru verb,,2023-04-30,921,,リピートする,リピートした,リピートして,,,,,,,リピートします,リピートしました,,,,,,,,リピートしない,リピートしなかった,リピートしなくて,,,,,,,リピートしません,リピートしませんでした,,,,,,,,verb suru-verb
-f8c0d3c4-9ab7-4331-8a62-d33f66eca40c,taxi,タクシー,たくしい,,noun,,5,2023-04-30,922,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,transportation noun genki3-l06
-968de4b8-c431-4980-bb1e-5e0cf792a434,"first, new",初,はつ,,prefix,,1,2023-04-30,923,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,prefix
-fe356748-c690-4460-8235-a5974b3926e0,twenty years old,２０歳,はたち,二十歳,noun,,5,2023-04-30,924,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-93a28b67-c33a-4944-83f7-e110a77e5177,rank; place (suffix),位,い,,counter,,,2023-04-30,925,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter
-0ab4f8ef-d54e-4151-9dcf-e7fa2f712c1c,wisteria,藤,ふじ,,noun,,,2023-04-30,926,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-124e03e0-ef78-49bf-9ce3-268712e9b735,Mt. Fuji,富士山,ふじさん,,proper noun,,,2023-04-30,927,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,place proper-noun
-255014e8-a72b-4cd9-bd50-0013b4093d1a,handmade rain talisman,てるてる坊主,てるてるぼうず,,noun,,,2023-04-30,928,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-cb188f4e-5eb7-495e-b62f-448cbbe44594,Moon,月,つき,,noun,,,2023-04-30,929,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-cebda7c3-c925-452e-9268-41a14a24a5d3,fianceé,許嫁,いいなずけ,,noun,,,2023-04-30,930,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-c1bf07d8-4738-4d62-b959-3b11acf309ad,gyoza,ギョーザ,ぎょうざ,餃子,noun,,,2023-04-30,931,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
-58fafd3c-583f-4127-a7e6-03d781aece5f,prefecture,県,けん,,noun,,,2023-04-30,932,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-381f0532-0cc1-4f08-9b0a-e5948eda33c4,Ise City,伊勢,いせ,,proper noun,,,2023-04-30,933,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,city place proper-noun
-ed9cf934-c3cf-4b6c-83b3-fc8e2c2a617a,Mie Prefecture,三重,みえ,,proper noun,,,2023-04-30,934,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,place prefecture proper-noun
-d1cdd2d2-59a2-4a67-8aff-477a73ae1cf0,Lake Motosu,本栖湖,もとすこ,,proper noun,,,2023-04-30,935,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lake place proper-noun
-4e2191bb-be65-4d5d-b66b-84796fd73c92,Minobu,身延町,みのぶちょう,,proper noun,,,2023-04-30,936,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,city place proper-noun
-41563706-57bf-4b18-9db8-7a5aefac2b6c,Gifu,岐阜,ぎふ,,proper noun,,,2023-04-30,937,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,city place proper-noun
-f622f249-de34-4e3e-be7e-2781eed09a9f,Fujinomiya,富士宮,ふじのみや,,proper noun,,,2023-04-30,938,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,city place proper-noun
-3074f733-a8d5-4269-b538-882246752cc5,Hamamatsu,浜松,はままつ,,proper noun,,,2023-04-30,939,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,city place proper-noun
-8ad7a2cd-3cca-4a91-b194-c4d380f99bb7,Yamanashi,山梨,やまなし,,proper noun,,,2023-04-30,940,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,place prefecture proper-noun
-ae670ea4-21cb-51fc-b43d-f1c0c7e17fa1,"to be heard far away; to reverberate, to vibrate; to make an impression",響く,ひびく,,verb,godan verb,,2023-05-03,941,,響く,響いた,響いて,,,,,,,響きます,響きました,,,,,,,,響くない,響かない,響かなくて,,,,,,,響きません,響きませんでした,,,,,,,,verb godan-verb
-baea87f9-7939-4aa4-a75f-a7fe1c21cf02,"all, whole, entire",全部,ぜんぶ,,noun,,5,2023-05-18,942,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+45389128-6dcc-47e8-8c40-39c7e0a90a7e,Shikoku Island/Region,四国,しこく,,proper noun,,,2023-04-30,915,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,island place proper-noun
+cdd2a12e-4768-438d-b129-ffaf470c623e,Kyushu Island/Region,九州,きゅうしゅう,,proper noun,,,2023-04-30,916,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,island place proper-noun
+30873db7-a22e-485a-8e3d-bfef549da9d2,Ryukyu Islands,琉球諸島,りゅうきゅしょとう,,proper noun,,,2023-05-22,917,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,island place proper-noun
+270c14de-ebb1-4771-aa08-7e3439f010ad,Harajuku District (colorful youth fashion),原宿,はらじゅく,,proper noun,,,2023-04-30,918,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,district place proper-noun
+f109b166-99ad-4784-b13d-a8eaf22deee9,Akihabara District (epicenter for otaku culture),秋葉原,あきはばら,,proper noun,,,2023-04-30,919,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,district place proper-noun
+4328a4a6-bc1c-4dc2-b99f-66b2cc5216c2,Shibuya (main shopping district),渋谷,しぶや,,proper noun,,,2023-04-30,920,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,district place proper-noun
+c4f7e413-040d-49fa-a1f5-17702d4b5f26,composition; piece of music; song; track,曲,きょく,,noun,,1,2023-04-30,921,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+c7d4afa9-bcd9-44db-b270-dcc71ccf43c4,to repeat,リピートする,りぴいとする,,verb,suru verb,,2023-04-30,922,,リピートする,リピートした,リピートして,,,,,,,リピートします,リピートしました,,,,,,,,リピートしない,リピートしなかった,リピートしなくて,,,,,,,リピートしません,リピートしませんでした,,,,,,,,verb suru-verb
+f8c0d3c4-9ab7-4331-8a62-d33f66eca40c,taxi,タクシー,たくしい,,noun,,5,2023-04-30,923,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,transportation noun genki3-l06
+968de4b8-c431-4980-bb1e-5e0cf792a434,"first, new",初,はつ,,prefix,,1,2023-04-30,924,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,prefix
+fe356748-c690-4460-8235-a5974b3926e0,twenty years old,２０歳,はたち,二十歳,noun,,5,2023-04-30,925,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+93a28b67-c33a-4944-83f7-e110a77e5177,rank; place (suffix),位,い,,counter,,,2023-04-30,926,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter
+0ab4f8ef-d54e-4151-9dcf-e7fa2f712c1c,wisteria,藤,ふじ,,noun,,,2023-04-30,927,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+124e03e0-ef78-49bf-9ce3-268712e9b735,Mt. Fuji,富士山,ふじさん,,proper noun,,,2023-04-30,928,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,place proper-noun
+255014e8-a72b-4cd9-bd50-0013b4093d1a,handmade rain talisman,てるてる坊主,てるてるぼうず,,noun,,,2023-04-30,929,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+cb188f4e-5eb7-495e-b62f-448cbbe44594,Moon,月,つき,,noun,,,2023-04-30,930,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+cebda7c3-c925-452e-9268-41a14a24a5d3,fianceé,許嫁,いいなずけ,,noun,,,2023-04-30,931,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+c1bf07d8-4738-4d62-b959-3b11acf309ad,gyoza,ギョーザ,ぎょうざ,餃子,noun,,,2023-04-30,932,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
+58fafd3c-583f-4127-a7e6-03d781aece5f,prefecture,県,けん,,noun,,,2023-04-30,933,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+381f0532-0cc1-4f08-9b0a-e5948eda33c4,Ise City,伊勢,いせ,,proper noun,,,2023-04-30,934,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,city place proper-noun
+ed9cf934-c3cf-4b6c-83b3-fc8e2c2a617a,Mie Prefecture,三重,みえ,,proper noun,,,2023-04-30,935,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,place prefecture proper-noun
+d1cdd2d2-59a2-4a67-8aff-477a73ae1cf0,Lake Motosu,本栖湖,もとすこ,,proper noun,,,2023-04-30,936,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lake place proper-noun
+4e2191bb-be65-4d5d-b66b-84796fd73c92,Minobu,身延町,みのぶちょう,,proper noun,,,2023-04-30,937,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,city place proper-noun
+41563706-57bf-4b18-9db8-7a5aefac2b6c,Gifu,岐阜,ぎふ,,proper noun,,,2023-04-30,938,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,city place proper-noun
+f622f249-de34-4e3e-be7e-2781eed09a9f,Fujinomiya,富士宮,ふじのみや,,proper noun,,,2023-04-30,939,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,city place proper-noun
+3074f733-a8d5-4269-b538-882246752cc5,Hamamatsu,浜松,はままつ,,proper noun,,,2023-04-30,940,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,city place proper-noun
+8ad7a2cd-3cca-4a91-b194-c4d380f99bb7,Yamanashi,山梨,やまなし,,proper noun,,,2023-04-30,941,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,place prefecture proper-noun
+ae670ea4-21cb-51fc-b43d-f1c0c7e17fa1,"to be heard far away; to reverberate, to vibrate; to make an impression",響く,ひびく,,verb,godan verb,,2023-05-03,942,,響く,響いた,響いて,,,,,,,響きます,響きました,,,,,,,,響くない,響かない,響かなくて,,,,,,,響きません,響きませんでした,,,,,,,,verb godan-verb
+baea87f9-7939-4aa4-a75f-a7fe1c21cf02,"all, whole, entire",全部,ぜんぶ,,noun,,5,2023-05-18,943,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
