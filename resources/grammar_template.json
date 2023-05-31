@@ -10,8 +10,7 @@
       "id": "00000000-0000-0000-0000-000000000000",
       "meaning": "Example1",
       "text": {
-        "spelling": "一〇〇",
-        "phonetic_spelling": null
+        "spelling": "一〇〇"
       },
       "lesson_codes": ["GENKI3_Lxx"],
       "tags": []
@@ -20,8 +19,7 @@
       "id": "00000000-0000-0000-0000-000000000000",
       "meaning": "Example2",
       "text": {
-        "spelling": "二〇〇",
-        "phonetic_spelling": null
+        "spelling": "二〇〇"
       },
       "lesson_codes": ["GENKI3_Lxx"],
       "tags": []
@@ -30,8 +28,7 @@
       "id": "00000000-0000-0000-0000-000000000000",
       "meaning": "Example3",
       "text": {
-        "spelling": "三〇〇",
-        "phonetic_spelling": null
+        "spelling": "三〇〇"
       },
       "lesson_codes": ["GENKI3_Lxx"],
       "tags": []

@@ -20,7 +20,41 @@ insert into source.lesson (code, lesson_code, source_code, label, section_number
 insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L09', 'L09', 'GENKI3', 'Kabuki', 4, null);
 insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L10', 'L10', 'GENKI3', 'Winter Vacation Plans', 4, null);
 insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L11', 'L11', 'GENKI3', 'After the Vacation', 4, null);
-insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L12', 'L12', 'GENKI3', 'Feeling Ill', 4, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L12', 'L12', 'GENK',_3 'Feeling Ill', 4, null);
+
+insert into source.source (code, label) values ('GENKI3_WORKBOOK', 'Genki, 3rd Ed Workbook');
+
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L00', 'L00', 'GENKI3_WORKBOOK', 'Greetings and Numbers (Workbook)', 0, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L01', 'L01', 'GENKI3_WORKBOOK', 'New Friends (Workbook)', 1, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L02', 'L02', 'GENKI3_WORKBOOK', 'Shopping (Workbook)', 2, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L03', 'L03', 'GENKI3_WORKBOOK', 'Making a Date (Workbook)', 3, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L04', 'L04', 'GENKI3_WORKBOOK', 'The First Date (Workbook)', 4, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L05', 'L05', 'GENKI3_WORKBOOK', 'A Trip to Okinawa (Workbook)', 4, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L06', 'L06', 'GENKI3_WORKBOOK', 'A Day in Robert''s Life (Workbook)', 4, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L07', 'L07', 'GENKI3_WORKBOOK', 'Family Picture (Workbook)', 4, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L08', 'L08', 'GENKI3_WORKBOOK', 'Barbecue (Workbook)', 4, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L09', 'L09', 'GENKI3_WORKBOOK', 'Kabuki (Workbook)', 4, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L10', 'L10', 'GENKI3_WORKBOOK', 'Winter Vacation Plans (Workbook)', 4, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L11', 'L11', 'GENKI3_WORKBOOK', 'After the Vacation (Workbook)', 4, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L12', 'L12', 'GENKI3_WORKBOOK', 'Feeling Ill (Workbook)', 4, null);
+
+insert into source.source (code, label) values ('GENKI3_READER', 'Genki, 3rd Ed Readers');
+
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L00', 'L00', 'GENKI3_READER', 'Greetings and Numbers (Reader)', 0, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L01', 'L01', 'GENKI3_READER', 'New Friends (Reader)', 1, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L02', 'L02', 'GENKI3_READER', 'Shopping (Reader)', 2, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L03', 'L03', 'GENKI3_READER', 'Making a Date (Reader)', 3, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L04', 'L04', 'GENKI3_READER', 'The First Date (Reader)', 4, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L05', 'L05', 'GENKI3_READER', 'A Trip to Okinawa (Reader)', 4, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L06', 'L06', 'GENKI3_READER', 'A Day in Robert''s Life (Reader)', 4, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L07', 'L07', 'GENKI3_READER', 'Family Picture (Reader)', 4, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L08', 'L08', 'GENKI3_READER', 'Barbecue (Reader)', 4, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L09', 'L09', 'GENKI3_READER', 'Kabuki (Reader)', 4, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L10', 'L10', 'GENKI3_READER', 'Winter Vacation Plans (Reader)', 4, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L11', 'L11', 'GENKI3_READER', 'After the Vacation (Reader)', 4, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L12', 'L12', 'GENKI3_READER', 'Feeling Ill (Reader)', 4, null);
+
+
 
 --
 -- Duolingo
