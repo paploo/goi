@@ -10,7 +10,7 @@ module Goi
         class AnkiExporter < Grammar::Exporter::Base
           include Pipeline::Core::AnkiExportable
 
-          def initialize(outfile_pathname:, example_count: 3)
+          def initialize(outfile_pathname:, example_count: 6)
             super()
             @outfile_pathname = outfile_pathname
             @example_count = example_count
