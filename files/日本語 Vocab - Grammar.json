@@ -917,7 +917,7 @@
         "id": "fdcfc498-ec26-40a9-b6f3-7dac0d102bba",
         "meaning": "Norio is thin, but Yasuo is overweight.",
         "text": {
-          "spelling": "のりおさんは痩せていますが、やすおさんは太ています。"
+          "spelling": "のりおさんは{痩|や}せていますが、やすおさんは{太|ふと}っています。"
         },
         "lesson_codes": ["GENKI3_WORKBOOK_L07"],
         "tags": []
@@ -956,7 +956,7 @@
       },
       {
         "id": "c30d9e1d-16b4-4a6e-ba0c-45d080673dfc",
-        "meaning": "That person is tall.",
+        "meaning": "This person is tall.",
         "text": {
           "spelling": "この{人|ひと}は{背|せ}が{高|たか}いです。"
         },
