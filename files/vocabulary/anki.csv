@@ -397,7 +397,7 @@ f8bbf752-a05d-542c-99ad-1b59fec7e4a6,near; nearby,近く,ちかく,,noun,,5,2022
 e48fb32f-70db-56b6-9be3-882d953469c5,senior colleague,先輩,せんぱい,,noun,,4,2022-09-14,392,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 576386e2-9779-5938-9822-1c1013726a52,junior colleague,後輩,こうはい,,noun,,2,2022-09-14,393,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 c4fe5291-83a0-5e58-9791-744a785a3d9a,rice cracker,煎餅,せんべい,,noun,,,2022-08-12,394,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
-e182997f-4799-5c3c-a985-ed126db9687e,cake,ケーキ,ケえき,,noun,,4,2022-08-12,395,GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun genki3-l10
+e182997f-4799-5c3c-a985-ed126db9687e,cake,ケーキ,けえき,,noun,,4,2022-08-12,395,GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun genki3-l10
 676d3eb5-4992-5047-ad16-142df7b8ec38,rice ball,お握り,おにぎり,,noun,,,2022-08-12,396,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
 cd548aa6-54f8-5f0a-b55f-c0fcf26dbc2a,salt,塩,しお,,noun,,5,2022-08-12,397,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
 f9253f00-8203-5dc9-89f5-a39b4d3d9d55,chopsticks,箸,はし,,noun,,5,2022-08-20,398,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food kitchen noun genki3-l08
@@ -946,3 +946,12 @@ f622f249-de34-4e3e-be7e-2781eed09a9f,Fujinomiya,富士宮,ふじのみや,,prope
 8ad7a2cd-3cca-4a91-b194-c4d380f99bb7,Yamanashi,山梨,やまなし,,proper noun,,,2023-04-30,941,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,place prefecture proper-noun
 ae670ea4-21cb-51fc-b43d-f1c0c7e17fa1,"to be heard far away; to reverberate, to vibrate; to make an impression",響く,ひびく,,verb,godan verb,,2023-05-03,942,,響く,響いた,響いて,,,,,,,響きます,響きました,,,,,,,,響くない,響かない,響かなくて,,,,,,,響きません,響きませんでした,,,,,,,,verb godan-verb
 baea87f9-7939-4aa4-a75f-a7fe1c21cf02,"all, whole, entire",全部,ぜんぶ,,noun,,5,2023-05-18,943,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+080d3d0f-be20-44e3-9875-e31a43a060dd,success in life or career; getting ahead,出世,しゅっせ,,noun,,1,2023-05-27,944,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+0e00a4f1-5085-4ed1-9fe2-3fba9d203bd8,"Kami of rice, sake, tea, foxes, argiculture, and industry",稲荷,いなり,,proper noun,,,2023-05-27,945,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,shinto proper-noun
+6beb44e6-22bf-431d-8d36-85832dcbdfd7,Shusse Inari Shrine,出世稲荷神社,しゅっせいなりじんじゃ,,proper noun,,,2023-05-27,946,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,shinto proper-noun
+60894d39-c3fc-4e93-b5d9-15f5474a0182,Kami of productivity and harvests,宇迦之御魂神,うかのみたまのかみ,,proper noun,,,2023-05-27,947,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,shinto proper-noun
+2f34f807-3e9a-4524-9978-15024692df0b,"Kami of samurai, water, and health",誉田別命,ほむだわけのみこと,,proper noun,,,2023-05-27,948,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,shinto proper-noun
+e59283c2-8b65-4db0-87aa-587e7dc4fc10,Matsue,松江,まつえ,,proper noun,,,2023-06-16,949,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,city place proper-noun
+d683deca-2ea1-47bf-bda3-486ba91e1834,Shimane Prefecture,島根,しまね,,proper noun,,,2023-06-16,950,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,place prefecture proper-noun
+0110d6df-3066-44ad-8559-35a4fc986ba2,"restaurant, shop, establishment",店,みせ,,noun,,5,2023-06-12,951,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l07
+3e24186e-afd5-4565-9956-dc7cffde2fe8,"shop, store, restaurant suffix",〜店,てん,,suffix,,1,2023-06-12,952,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,suffix
