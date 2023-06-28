@@ -1028,7 +1028,7 @@
         "id": "1678adef-7305-4f9e-8644-c2c13f4ef00f",
         "meaning": "I went to a department store to buy a bag.",
         "text": {
-          "spelling": "デパートにかばんをかいに行きました。"
+          "spelling": "デパートにかばんをかいに{行|い}きました。"
         },
         "lesson_codes": ["GENKI3_L07"],
         "tags": []
@@ -1037,7 +1037,7 @@
         "id": "2ffb5f54-5c61-4f03-a166-3e150acb1048",
         "meaning": "Mary has come to Japan to study Japanese.",
         "text": {
-          "spelling": "メアリーさんは日本に日本語を勉強しに来ました"
+          "spelling": "メアリーさんは{日本|に・ほん}に{日本|に・ほん}{語|ご}を{勉強|べん・きょう}しに{来|き}ました"
         },
         "lesson_codes": ["GENKI3_L07"],
         "tags": []
@@ -1072,6 +1072,89 @@
     "tags": []
   },
   {"COMMENT": "GENKI LESSON 08"},
+  {
+    "id": "1de0df00-b25f-45c8-b326-b91ddafb8a79",
+    "title": "〜と思いです／〜ないと思います",
+    "meaning": "To describe what you (do/don't) think",
+    "how_to_use": [
+      "verb (short form) + と思いです",
+      "verb (short negative form) + と思います"
+    ],
+    "examples": [
+      {
+        "id": "e81519f4-8f3c-4ea2-bb39-5ef9353432e5",
+        "meaning": "I think tasheki likes Mary.",
+        "text": {
+          "spelling": "たけしさんはメアリーさんが{好|す}きだと{思|おも}います。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "bc50d311-aa82-495b-83ad-24ab0820d15e",
+        "meaning": "I think Mary doesn't like Takeshi.",
+        "text": {
+          "spelling": "メアリーさんはたけしさんが{好|す}きじゃないと{思|おも}います。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "bd439fed-0627-416e-8644-b46b0f5ee894",
+        "meaning": "I think Mary is busy.",
+        "text": {
+          "spelling": "メアリーさんは{忙|いそが}しいと{思|おも}います。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "8f98f300-c0f4-4414-95ce-1bf3e4fdb9e7",
+        "meaning": "I think Mary is not tall.",
+        "text": {
+          "spelling": "メアリーさんは{背|せ}が{高|たか}くないと{思|おも}います。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "662b8d8c-6793-4b69-a9f4-8bcaa3f9d273",
+        "meaning": "I think Mary doesn't drink coffee much.",
+        "text": {
+          "spelling": "メアリーさんはあまりコーヒーを{飲|の}まないと{思|おも}います。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "8129fd4b-915d-466e-9582-7679954a4179",
+        "meaning": "I think Mary often goes to see movies.",
+        "text": {
+          "spelling": "メアリーさんはよく{映画|えい・が}を{見|み}にいくと{思|おも}います。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "437babfb-9e7b-48ce-afd3-9723b247f80d",
+        "meaning": "I think Mary is good at Japanese.",
+        "text": {
+          "spelling": "メアリーさんは{日本|に・本}{語|ご}が上手だと{思|おも}います。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-06-27",
+    "lesson_codes": ["GENKI3_L08"],
+    "tags": []
+  },
+
+
+  {"COMMENT": "Make explicit card for short verb + の being a noun (L8-6)"},
+
+
   {"COMMENT": "GENKI LESSON 09"},
   {"COMMENT": "GENKI LESSON 10"},
   {"COMMENT": "GENKI LESSON 11"},
