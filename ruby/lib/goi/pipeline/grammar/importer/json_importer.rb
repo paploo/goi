@@ -19,7 +19,9 @@ module Goi
 
           def import
             json = JSON.load_file(infile_pathname.to_s)
-            stripped_json = json.reject { |o| o.is_a?(Hash) && o.has_key?("COMMENT") }
+            stripped_json = json.reject do |o|
+              o.is_a?(Hash) && (o.key?("COMMENT") || o.key?("TODO"))
+            end
             parse_hydrated_rules(stripped_json)
           end
 

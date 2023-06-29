@@ -843,7 +843,7 @@
         "id": "af66790f-b14e-4902-ab5b-b432ac3c3c06",
         "meaning": "Dad is up and awake",
         "text": {
-          "spelling": "お{父|ちち}さんは{起|お}きています。"
+          "spelling": "お{父|とう}さんは{起|お}きています。"
         },
         "lesson_codes": ["GENKI3_L07"],
         "tags": []
@@ -1150,9 +1150,90 @@
     "lesson_codes": ["GENKI3_L08"],
     "tags": []
   },
+  {
+    "id": "1c127fc4-8ef6-452f-9a1f-0caf81872680",
+    "title": "〜と言っていました",
+    "meaning": "They said...",
+    "how_to_use": [
+      "verb (short form) + と言っていました"
+    ],
+    "examples": [
+      {
+        "id": "858b3e24-90e1-4f2e-9790-c10a96f4f7ec",
+        "meaning": "Yasmin said that there would be an exam tomorrow.",
+        "text": {
+          "spelling": "ヤスミンさんは、{明日|あ・した}{試験|し・けん}があると{言|い}っていました。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "e572789c-1f91-42aa-97ff-c49b3f2419b1",
+        "meaning": "Professor Yamashita said that he is not married",
+        "text": {
+          "spelling": "{山下|山・した}{先生|せん・せい}は{結婚|けっ・こん}していないと{言|い}っていました。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "464b14cb-8027-46bc-b47f-4ec32044ed70",
+        "meaning": "Dad is kind, they said.",
+        "text": {
+          "spelling": "お{父|とう}さんは{親切|しん・せつ}だと{言|い}っていました。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "dccc6d6a-159c-4acf-bc63-080a661b00a6",
+        "meaning": "Their family doesn't speak English, they said.",
+        "text": {
+          "spelling": "{家族|か・ぞく}は{英語|えい・ご}を{話|はな}さないと{言|い}っていました。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-06-28",
+    "lesson_codes": ["GENKI3_L08"],
+    "tags": []
+  },
+  {
+    "id": "278fa04d-8cf7-4991-9fdf-662ecfdb9820",
+    "title": "〜ないでください",
+    "meaning": "to extend an invitation",
+    "how_to_use": [
+      "verb (short, negative) +　でください"
+    ],
+    "examples": [
+      {
+        "id": "2aace507-37d5-42fc-afd4-b8460acad62e",
+        "meaning": "Please don't take pictures here.",
+        "text": {
+          "spelling": "ここで写真を取らないでください。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "d2c47776-71a2-49cd-8f53-fcbc0c1f9876",
+        "meaning": "A: May I enter this room?<br/>B: Please don't.",
+        "text": {
+          "spelling": "Ａ：この{部屋|へ・や}に{入|はい}ってもいいですか。<br/>Ｂ：{入|はい}らないでください。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-06-28",
+    "lesson_codes": ["GENKI3_L08"],
+    "tags": []
+  },
 
-
-  {"COMMENT": "Make explicit card for short verb + の being a noun (L8-6)"},
+  {"TODO": "(L8-6) Make explicit card for short verb + の being a noun"},
 
 
   {"COMMENT": "GENKI LESSON 09"},
