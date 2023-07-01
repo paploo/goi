@@ -889,15 +889,6 @@
         },
         "lesson_codes": ["GENKI3_L07"],
         "tags": []
-      },
-      {
-        "id": "a4d26267-0f76-4ffa-bbb4-25dde35ca95d",
-        "meaning": "Example3",
-        "text": {
-          "spelling": "三〇〇"
-        },
-        "lesson_codes": ["GENKI3_L07"],
-        "tags": []
       }
     ],
     "jlpt_level": null,
@@ -1074,10 +1065,10 @@
   {"COMMENT": "GENKI LESSON 08"},
   {
     "id": "1de0df00-b25f-45c8-b326-b91ddafb8a79",
-    "title": "〜と思いです／〜ないと思います",
+    "title": "〜と思います／〜ないと思います",
     "meaning": "To describe what you (do/don't) think",
     "how_to_use": [
-      "verb (short form) + と思いです",
+      "verb (short form) + と思います",
       "verb (short negative form) + と思います"
     ],
     "examples": [
@@ -1233,7 +1224,8 @@
     "tags": []
   },
 
-  {"TODO": "(L8-6) Make explicit card for short verb + の being a noun"},
+  {"TODO": "(L8-6) Use example from homework 8I2 and 8II4 for specific lesson grammar"},
+  {"TODO": "(L8-6) Make explicit card for short verb + の being a noun; to do this do we need こと?"},
 
 
   {"COMMENT": "GENKI LESSON 09"},
