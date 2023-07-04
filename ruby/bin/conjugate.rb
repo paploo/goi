@@ -113,13 +113,6 @@ module Goi
   end
 end
 
-
-
-#TODO: Help should use data from code to give legal values, such as:
-#      - Goi::Model::Vocabulary::Conjugation::Inflection
-#      - Goi::Nihongo::Conjugator.RULES for the conjugation_kind_code
-#      - Maybe use Look-up tables in db to get the conjugation_kind_code?
-
 def parse_args
   args = {}
 
