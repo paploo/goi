@@ -113,9 +113,13 @@ end
 
 #TODO: Instantiate using command line args
 #TODO: Use option parser to do that
+#TODO: Help should use data from code to give legal values, such as:
+#      - Goi::Model::Vocabulary::Conjugation::Inflection
+#      - Goi::Nihongo::Conjugator.RULES for the conjugation_kind_code
+#      - Maybe use Look-up tables in db to get the conjugation_kind_code?
 config = Goi::Bin::Conjugate::Application::Config.new(
-  conjugation_kind_code: "ICHIDAN_VERB",
-  dictionary_spellings: ["食べる", "出かける"]
+  conjugation_kind_code: "GODAN_VERB",
+  dictionary_spellings: ["黙る"]
   #
   # conjugation_kind_code: "AI_SURU_VERB",
   # dictionary_spellings: ["愛する"]
