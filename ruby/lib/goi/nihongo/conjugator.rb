@@ -188,7 +188,6 @@ module Goi
       U_ENDING_REGEX = /([うくぐすずつづぬふぶぷむる])$/
 
       RULES = {
-        'IRREGULAR_VERB': nil,
 
         'GODAN_VERB': verb_set(
           # https://blog.lingodeer.com/japanese-verb-conjugation-guide/
@@ -359,8 +358,6 @@ module Goi
           negative_polite_present: PatternRule.new(/する$/, 'しません'),
           negative_polite_past: PatternRule.new(/する$/, 'しませんでした')
         ),
-
-        'IRREGULAR_ADJECTIVE': nil,
 
         'I_ADJECTIVE': adjective_set(
           positive_plain_present: PatternRule.new(/い$/, 'い'),

@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'optparse'
+
 require_relative '../lib/goi/model'
 require_relative '../lib/goi/nihongo'
 
@@ -111,18 +113,45 @@ module Goi
   end
 end
 
-#TODO: Instantiate using command line args
-#TODO: Use option parser to do that
+
+
 #TODO: Help should use data from code to give legal values, such as:
 #      - Goi::Model::Vocabulary::Conjugation::Inflection
 #      - Goi::Nihongo::Conjugator.RULES for the conjugation_kind_code
 #      - Maybe use Look-up tables in db to get the conjugation_kind_code?
-config = Goi::Bin::Conjugate::Application::Config.new(
-  conjugation_kind_code: "GODAN_VERB",
-  dictionary_spellings: ["黙る"]
-  #
-  # conjugation_kind_code: "AI_SURU_VERB",
-  # dictionary_spellings: ["愛する"]
-)
+
+def parse_args
+  args = {}
+
+  # A little shared setup
+  legal_kinds = Goi::Nihongo::Conjugator::RULES.keys.map(&:to_s)
+
+  # First we opt-parse the options.
+  OptionParser.new do |opts|
+    opts.banner = "Usage: conjugate.rb [options] word1 word2"
+
+    opts.on("-c", "--conj KIND", "Supply the conjugation kind code. Legal values include:", "\t#{legal_kinds.join(', ')}") do |c|
+      kind = c&.upcase&.tr('-', '_')
+      args[:conjugation_kind_code] = kind
+    end
+
+    opts.on("-h", "--help", "Show Help") do
+      puts opts
+      exit(0)
+    end
+  end.parse!
+
+  # The remaining arguments are not options, but rather the words
+  args[:dictionary_spellings] = ARGV
+
+  # Do some validation
+  if args[:conjugation_kind_code].nil? || !legal_kinds.include?(args[:conjugation_kind_code])
+    raise "Expected kind code #{args[:conjugation_kind_code].inspect} to be one of #{legal_kinds}"
+  end
+
+  args
+end
+
+config = Goi::Bin::Conjugate::Application::Config.new(**parse_args)
 
 Goi::Bin::Conjugate::Application.new(config:).run
