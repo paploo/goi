@@ -16,9 +16,9 @@ module Goi
         attr_reader :config
 
         def run
-          compute_conjugations.each do |inflection_set|
-            output_inflection_set(inflection_set:, io: config.io)
-          end
+          inflection_sets = compute_conjugations
+          io = config.io
+          output_inflection_sets(inflection_sets:, io:)
         end
 
         private
@@ -34,12 +34,24 @@ module Goi
           end
         end
 
+        def output_inflection_sets(inflection_sets:, io:)
+          output_inflection_header(io:)
+          inflection_sets.each { |inflection_set| output_inflection_set(inflection_set:, io:) }
+        end
+
         def output_inflection_set(inflection_set:, io:)
-          #TODO: Use CSV output for each row that can be copy/pasted into GoogleSheets?
-          io.puts(inflection_set.dictionary_spelling)
-          inflection_set.conjugations.each do |k, v|
-            puts("#{k.code}: #{v}") unless v.nil?
-          end
+          conjugations = inflection_set.conjugations
+          output_conjugations(conjugations:, io:)
+        end
+
+        def output_inflection_header(io:)
+          header = config.inflections.map(&:code).join("\t")
+          io.puts(header)
+        end
+
+        def output_conjugations(conjugations:, io:)
+          values = config.inflections.map { |infl| conjugations[infl] }.join("\t")
+          io.puts(values)
         end
 
         class InflectionSet
@@ -56,11 +68,25 @@ module Goi
 
         class Config
 
-          # DEFAULT_INFLECTIONS = [
-          #   {charge_code: }
-          # ].map { |keys| Goi::Model::Vocabulary::Conjugation::Inflection.new(**keys) }.freeze
+          ALL_INFLECTIONS = Goi::Model::Vocabulary::Conjugation::Inflection.all
 
-          DEFAULT_INFLECTIONS = Goi::Model::Vocabulary::Conjugation::Inflection.all
+          DEFAULT_INFLECTIONS = [
+            { charge_code: 'POSITIVE', politeness_code: 'PLAIN', form_code: 'PRESENT' },
+            { charge_code: 'POSITIVE', politeness_code: 'PLAIN', form_code: 'PAST' },
+            { charge_code: 'POSITIVE', politeness_code: 'PLAIN', form_code: 'TE' },
+
+            { charge_code: 'NEGATIVE', politeness_code: 'PLAIN', form_code: 'PRESENT' },
+            { charge_code: 'NEGATIVE', politeness_code: 'PLAIN', form_code: 'PAST' },
+            { charge_code: 'NEGATIVE', politeness_code: 'PLAIN', form_code: 'TE' },
+
+            { charge_code: 'POSITIVE', politeness_code: 'POLITE', form_code: 'PRESENT' },
+            { charge_code: 'POSITIVE', politeness_code: 'POLITE', form_code: 'PAST' },
+            { charge_code: 'POSITIVE', politeness_code: 'POLITE', form_code: 'TE' },
+
+            { charge_code: 'NEGATIVE', politeness_code: 'POLITE', form_code: 'PRESENT' },
+            { charge_code: 'NEGATIVE', politeness_code: 'POLITE', form_code: 'PAST' },
+            { charge_code: 'NEGATIVE', politeness_code: 'POLITE', form_code: 'TE' },
+          ].map { |keys| Goi::Model::Vocabulary::Conjugation::Inflection.new(**keys) }.freeze
 
           def initialize(dictionary_spellings:, conjugation_kind_code:, inflections: nil)
             @dictionary_spellings = dictionary_spellings
@@ -76,6 +102,7 @@ module Goi
             STDOUT
           end
 
+
         end
 
       end
@@ -87,11 +114,11 @@ end
 #TODO: Instantiate using command line args
 #TODO: Use option parser to do that
 config = Goi::Bin::Conjugate::Application::Config.new(
-  # conjugation_kind_code: "ICHIDAN_VERB",
-  # dictionary_spellings: ["食べる", "出かける"]
+  conjugation_kind_code: "ICHIDAN_VERB",
+  dictionary_spellings: ["食べる", "出かける"]
   #
-  conjugation_kind_code: "AI_SURU_VERB",
-  dictionary_spellings: ["愛する"]
+  # conjugation_kind_code: "AI_SURU_VERB",
+  # dictionary_spellings: ["愛する"]
 )
 
 Goi::Bin::Conjugate::Application.new(config:).run
