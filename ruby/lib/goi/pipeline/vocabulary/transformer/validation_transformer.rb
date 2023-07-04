@@ -119,7 +119,7 @@ module Goi
               end
 
               if !expected.nil? && actual != expected
-                [Goi::Core::ValidationMessage.warn("Expected #{expected} but got #{actual} for #{linkage.vocabulary.conjugation_kind_code} inflection #{conjugation.inflection}")]
+                [Goi::Core::ValidationMessage.error("Expected #{expected} but got #{actual} for #{linkage.vocabulary.conjugation_kind_code} inflection #{conjugation.inflection}")]
               elsif !pattern_error.nil?
                 [Goi::Core::ValidationMessage.warn("Expected #{linkage.preferred_spelling.value} to match a conjugation pattern for #{linkage.vocabulary.conjugation_kind_code} inflection #{conjugation.inflection}, producing #{actual}")]
               else
