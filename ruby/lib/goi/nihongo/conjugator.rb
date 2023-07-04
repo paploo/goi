@@ -346,6 +346,20 @@ module Goi
           negative_polite_past: PatternRule.new(/ある$/, 'ありませんでした')
         ),
 
+        'AI_SURU_VERB': verb_set(
+          positive_plain_present: PatternRule.new(/する$/, 'する'),
+          positive_plain_past: PatternRule.new(/する$/, 'した'),
+          positive_plain_te: PatternRule.new(/する$/, 'して'),
+          negative_plain_present: PatternRule.new(/する$/, 'さない'),
+          negative_plain_past: PatternRule.new(/する$/, 'しなかった'),
+          negative_plain_te: PatternRule.new(/する$/, 'しなくて'),
+
+          positive_polite_present: PatternRule.new(/する$/, 'します'),
+          positive_polite_past: PatternRule.new(/する$/, 'しました'),
+          negative_polite_present: PatternRule.new(/する$/, 'しません'),
+          negative_polite_past: PatternRule.new(/する$/, 'しませんでした')
+        ),
+
         'IRREGULAR_ADJECTIVE': nil,
 
         'I_ADJECTIVE': adjective_set(

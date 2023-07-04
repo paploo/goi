@@ -35,6 +35,7 @@ module Goi
         end
 
         def output_inflection_set(inflection_set:, io:)
+          #TODO: Use CSV output for each row that can be copy/pasted into GoogleSheets?
           io.puts(inflection_set.dictionary_spelling)
           inflection_set.conjugations.each do |k, v|
             puts("#{k.code}: #{v}") unless v.nil?
@@ -86,8 +87,11 @@ end
 #TODO: Instantiate using command line args
 #TODO: Use option parser to do that
 config = Goi::Bin::Conjugate::Application::Config.new(
-  conjugation_kind_code: "ICHIDAN_VERB",
-  dictionary_spellings: ["食べる", "出かける"]
+  # conjugation_kind_code: "ICHIDAN_VERB",
+  # dictionary_spellings: ["食べる", "出かける"]
+  #
+  conjugation_kind_code: "AI_SURU_VERB",
+  dictionary_spellings: ["愛する"]
 )
 
 Goi::Bin::Conjugate::Application.new(config:).run
