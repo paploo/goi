@@ -1295,7 +1295,77 @@
     "lesson_codes": ["GENKI3_L08"],
     "tags": []
   },
-
+  {
+    "id": "f7851ce8-e9b1-47c4-82bc-47626526312a",
+    "title": "何か and 何も",
+    "meaning": "something, anything?, and not...anything",
+    "how_to_use": [
+      "positive statement: 何か ⟶ something",
+      "questions: 何か ⟶ anything?",
+      "negative statements: 何も + negative ⟶ not...anything",
+      "(Usually the particles は, が, and を are dropped when used in places these are expected)"
+    ],
+    "examples": [
+      {
+        "id": "80d6261c-89df-4f07-9b36-5ab262066b30",
+        "meaning": "The cat has brought something.",
+        "text": {
+          "spelling": "{猫|ねこ}が{何|なに}か{持|も}ってきました。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "a46eeb59-60d1-4d27-8602-4910f2c2d38b",
+        "meaning": "Q: Did the cat eat anything?<br/>A: No, the cat did not eat anything.",
+        "text": {
+          "spelling": "Ｑ：{猫|ねこ}は{何|なに}か{食|た}べましたか。<br/>Ａ：いいえ、{猫|ねこ}は{何|なに}も{食|た}べませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "275ca238-e5ed-48c5-9848-2f2ee003dd4f",
+        "meaning": "I met Yumi, but we didn't talk about anything.",
+        "text": {
+          "spelling": "ゆみさんに{会|あ}いましたが、{何|なに}も{話|はな}しませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "68ad5a53-d637-46ca-a1c6-e7d95e091c93",
+        "meaning": "Would you like to drink something?",
+        "text": {
+          "spelling": "{何|なに}か{飲|の}みませんか。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "002822fc-a376-443e-8ca6-3ebb219fc971",
+        "meaning": "Kento asked something, but I did not understand.",
+        "text": {
+          "spelling": "けんとさんは{何|なに}か{聞|き}きましたが、{分|わ}かりませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "6d7f9dd1-6b26-4449-baa6-03e747a7d3ea",
+        "meaning": "There was a TV, but I didn't watch anything.",
+        "text": {
+          "spelling": "テレビがありましたが、{何|なに}も{見|み}ませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-07-23",
+    "lesson_codes": ["GENKI3_L08"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 09"},
   {"COMMENT": "GENKI LESSON 10"},
