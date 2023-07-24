@@ -376,7 +376,7 @@
   {
     "id": "5fe8f0bb-9572-4a81-88a6-7a83d554b85d",
     "title": "〜時間",
-    "meaning": "duration of time",
+    "meaning": "duration of time: hours",
     "how_to_use": [
       "number + 時間",
       "number + 時間 + ぐらい",
@@ -1130,7 +1130,7 @@
         "id": "437babfb-9e7b-48ce-afd3-9723b247f80d",
         "meaning": "I think Mary is good at Japanese.",
         "text": {
-          "spelling": "メアリーさんは{日本|に・本}{語|ご}が上手だと{思|おも}います。"
+          "spelling": "メアリーさんは{日本|に・本}{語|ご}が{上手|じょう・ず}だと{思|おも}います。"
         },
         "lesson_codes": ["GENKI3_L08"],
         "tags": []
@@ -1223,9 +1223,78 @@
     "lesson_codes": ["GENKI3_L08"],
     "tags": []
   },
-
-  {"TODO": "(L8-6) Use example from homework 8I2 and 8II4 for specific lesson grammar"},
   {"TODO": "(L8-6) Make explicit card for short verb + の being a noun; to do this do we need こと?"},
+  {
+    "id": "c1cb4718-94af-4017-9671-4561b9738aae",
+    "title": "〇〇のが好きです<br/>〇〇のが上手です",
+    "meaning": "Turn a verb into a noun describing an action (i.e. normalizer) to describe things one likes/dislikes or are good/bad at",
+    "how_to_use": [
+      "activity verb (short form) + の + が + 好きです",
+      "activity verb (short form) + の + が + きれいです",
+      "activity verb (short form) + の + が + 上手です",
+      "activity verb (short form) + の + が + 下手です"
+    ],
+    "examples": [
+      {
+        "id": "5104ac1d-b806-4aaf-aab6-c9f1370398fb",
+        "meaning": "I like studying the Japanese language.",
+        "text": {
+          "spelling": "{日本語|に・ほん・ご}を{勉強|べん・きょう}するのが{好|す}きです。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "728ba088-711f-4479-9fb5-7ee966dd4894",
+        "meaning": "I don't like cleaning my room.",
+        "text": {
+          "spelling": "部屋|へ・や}を{掃除|そう・じ}するのがきらいです"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "4543a970-3341-4614-bac4-c72da11242b4",
+        "meaning": "Robert is good at cooking meals.",
+        "text": {
+          "spelling": "ロバートさんは{料理|りょう・り}を{作|つく}るのが{上手|じょう・ず}です。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "a424a513-0f2b-4a27-bf54-9e88c01f321a",
+        "meaning": "Takeshi is not a good speaker of English.",
+        "text": {
+          "spelling": "たけしさんは{英語|えい・ご}を{話|はな}すのが{下手|へた}です。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "fa1506ed-4868-4b75-bda6-1341df85c822",
+        "meaning": "Q: What does the Japanese teacher like to do?<br/>I think they like driving a car.",
+        "text": {
+          "spelling": "Ｑ：{日本語|に・ほん・ご}の{先生|せん・せい}は{何|なに}をするのが{好|す}きですか。<br/>Ａ：{車|くるま}を{運転|うん・てん}するのが{好|す}きだと{思|おも}います。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "fc9b4d11-9820-43e6-ae85-8f1f3c3079d4",
+        "meaning": "Q: Do you like cleaning your room?<br/>A: No, Don't like it very much",
+        "text": {
+          "spelling": "Ｑ：{掃除|そう・じ}するのが{好|す}きですか。<br/>Ａ：いいえ、あまり{好|す}きじゃないです。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-07-23",
+    "lesson_codes": ["GENKI3_L08"],
+    "tags": []
+  },
 
 
   {"COMMENT": "GENKI LESSON 09"},
