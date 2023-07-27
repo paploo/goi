@@ -1101,9 +1101,9 @@
       },
       {
         "id": "8f98f300-c0f4-4414-95ce-1bf3e4fdb9e7",
-        "meaning": "I think Mary is not tall.",
+        "meaning": "I think Mary doesn't go home late at night.",
         "text": {
-          "spelling": "メアリーさんは{背|せ}が{高|たか}くないと{思|おも}います。"
+          "spelling": "メアリーさんは{夜|よる}{遅|おそ}く{家|いえ}に{帰|かえ}らないと{思|おも}ういます。"
         },
         "lesson_codes": ["GENKI3_L08"],
         "tags": []
