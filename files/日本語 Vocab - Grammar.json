@@ -122,6 +122,7 @@
     "lesson_codes": ["GENKI3_L03"],
     "tags": []
   },
+
   {"COMMENT": "GENKI LESSON 04"},
   {
     "id": "3a5e1272-f03e-4ac4-89be-ad06b7a3331d",
@@ -444,6 +445,7 @@
     "lesson_codes": ["GENKI3_L04"],
     "tags": []
   },
+
   {"COMMENT": "GENKI LESSON 05"},
   {
     "id": "ab1cd527-1492-4657-8d6e-0905ca0154ca",
@@ -568,6 +570,7 @@
     "lesson_codes": ["GENKI3_L05", "GENKI3_L06"],
     "tags": []
   },
+
   {"COMMENT": "GENKI LESSON 06"},
   {
     "id": "6d942fcf-dc23-4adb-aa88-6bc8ab197ff3",
@@ -751,6 +754,7 @@
     "lesson_codes": ["GENKI3_L06"],
     "tags": []
   },
+
   {"COMMENT": "GENKI LESSON 07"},
   {
     "id": "23587f59-8d3d-446d-b3b2-5c644e7d9614",
@@ -1062,6 +1066,7 @@
     "lesson_codes": ["GENKI3_L07"],
     "tags": []
   },
+
   {"COMMENT": "GENKI LESSON 08"},
   {
     "id": "1de0df00-b25f-45c8-b326-b91ddafb8a79",
@@ -1368,6 +1373,60 @@
   },
 
   {"COMMENT": "GENKI LESSON 09"},
+  {
+    "id": "ef61ea7d-f297-402a-8d20-ec499c26e9a2",
+    "title": "〜と思います／〜なかったと思います (past tense)",
+    "meaning": "To describe what you do/don't think (past tense)",
+    "how_to_use": [
+      "verb (casual past tense) + と思います",
+      "verb (casual negative past tense) + と思います"
+    ],
+    "examples": [
+      {
+        "id": "a5041ba3-065a-4d66-811e-36f31c9c6b13",
+        "meaning": "A: Hey, my pork cutlet is gone!<br/>B: I think Tom ate it.",
+        "text": {
+          "spelling": "Ａ：あ、{私|わたし}のとんかつがない！<br/>Ｂ：トムさんが{食|た}べたと{思|おも}います。"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      },
+      {
+        "id": "bf314136-c7ba-46b5-bb9f-5965d4e87342",
+        "meaning": "I don't think last winter was very cold.<br/>(lit., I think last winter was not very cold.)",
+        "text": {
+          "spelling": "{去年|きょ・ねん}の{冬|ふゆ}はあまり{寒|さむ}くなかったと{思|おも}います。"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      },
+      {
+        "id": "41df0653-bf1b-4ed3-9e0a-88af433150b8",
+        "meaning": "I think Tadashi's father was good-looking when he was young.",
+        "text": {
+          "spelling": "ただしさんのお{父|とう}さんは{若|わか}い{時|とき}、かっこよかったと{思|おも}います。"
+        },
+        "lesson_codes": [
+          "GENKI3_L09"
+        ],
+        "tags": []
+      },
+      {
+        "id": "903c5e17-7b19-4a4d-95e1-d85f6c5711ad",
+        "meaning": "I don't think last week's exam was difficult.<br>(lit., I think last week's exam was not difficult.)",
+        "text": {
+          "spelling": "{先週|せん・しゅう}の{試験|し・けん}は{難|むずか}しくなかったと思います。"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-07-26",
+    "lesson_codes": ["GENKI3_L09"],
+    "tags": []
+  },
+
   {"COMMENT": "GENKI LESSON 10"},
   {"COMMENT": "GENKI LESSON 11"},
   {"COMMENT": "GENKI LESSON 12"}
