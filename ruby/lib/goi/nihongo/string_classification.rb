@@ -24,15 +24,21 @@ module Goi
         end
       end
 
+      def is_latin_class(classification)
+        classification.start_with?('latin')
+      end
+
       def self.classify_chars(string)
         string.chars.map { |c| classify_char(c) }
       end
 
       # A purpose built string classifier with the following rules:
-      # 1. It prefers 日本語 to Latin, choosing latin only if there are no japanese characters present.
-      # 2. If any character is kanji, we classify as kanji.
-      # 3. If it has a mix of kana, we choose the most frequently seen one.
-      # 4. Othewrise we just go with whatever (latin) classification we saw the most.
+      # 1. If we only have one classification, use it!
+      # 2. It prefers 日本語 to Latin, choosing latin only if there are no japanese characters present.
+      # 3. If any character is kanji, we classify as kanji.
+      # 4. If it has a mix of kana, we choose the most frequently seen one.
+      # 5. If it is only latin categories, we go with :latin
+      # 5. Otherwise we aren't sure and give :other
       #
       # These rules allow us to classify some weirder entries such as:
       # - 'あまり + negative' => 'HIRAGANA',
@@ -42,12 +48,16 @@ module Goi
         char_classes = classify_chars(string)
         class_freqs = char_classes.group_by { |c| c }.transform_values(&:length)
 
-        if class_freqs.keys.include?(:kanji)
+        if char_classes.length == 1
+          char_classes.first
+        elsif class_freqs.keys.include?(:kanji)
           :kanji
         elsif class_freqs.keys.include?(:hiragana) || class_freqs.keys.include?(:katakana)
           class_freqs.fetch(:hiragana, 0) >= class_freqs.fetch(:katakana, 0) ? :hiragana : :katakana
+        elsif char_classes.all? {|classification| classification.start_with?('latin')}
+          :latin
         else
-          char_classes.max&.first
+          :other
         end
       end
 

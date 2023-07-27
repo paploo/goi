@@ -1010,7 +1010,7 @@ c140acec-79cd-4125-beeb-f5c9dec64531,chef,シェフ,しぇふ,,noun,,,2023-07-03
 58f002a2-cf8d-45bb-89ae-0fa9f58efb14,cartoonist,本画家,ほんがか,,noun,,,2023-07-03,1005,GENKI3_L11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,occupation noun genki3-l11
 eff03d92-8f87-4ec4-a6cc-2413d79618ce,president (of a society),会長,かいちょう,,noun,,,2023-07-03,1006,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,occupation noun
 5927fcfa-94ff-470a-abec-a630fed5f343,student council,生徒会,せいとかい,,noun,,,2023-07-03,1007,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-3582470a-2d03-4433-a592-8425d28a34a8,president (of student council),生徒会長,せいとかいちょう,,noun,,,2023-07-03,1008,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,occupation noun
+3582470a-2d03-4433-a592-8425d28a34a8,president (of student council),生徒会長,せいとかいちょう,,noun,,,2023-07-03,1008,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 f3740055-9587-4b22-ab9a-a61e7ae0da83,strawberry,イチゴ,いちご,苺,noun,,,2023-07-03,1009,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun genki3-l08
 862c35fc-e8f4-4773-95b6-d4391838f3d3,watermelon,スイカ,すいか,西瓜,noun,,,2023-07-03,1010,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun genki3-l08
 2581949d-c347-4956-9058-4bad13011b50,grape,ブドウ,ぶどう,葡萄,noun,,,2023-07-03,1011,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun genki3-l08
@@ -1022,7 +1022,7 @@ ad03ff07-4d09-417b-954e-4dd2002ac35e,cucumber,きゅうり,きゅうり,胡瓜,n
 85d4b4d5-230a-400b-a59b-6cd7af67d111,cabbage,キャベツ,きゃべつ,,noun,,,2023-07-03,1017,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun genki3-l08
 a88cd0d0-5a7d-485d-b228-7ba1fc44ffab,beef,牛肉,ぎゅうにく,,noun,,5,2023-07-03,1018,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun genki3-l08
 86553639-b08b-4e67-ad23-430ba24e0283,pork,豚肉,ぶたにく,,noun,,5,2023-07-03,1019,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun genki3-l08
-f5bfb80a-583c-4baf-8ee8-9c7ebdd51f7c,chicken,鶏肉,とりにく,,noun,,,2023-07-03,1020,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun genki3-l08
+f5bfb80a-583c-4baf-8ee8-9c7ebdd51f7c,chicken (meat),鶏肉,とりにく,,noun,,,2023-07-03,1020,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun genki3-l08
 f5cbf874-f82b-4efb-96e1-4aa3f5d70c88,eyebrow,眉毛,まゆげ,,noun,,5,2023-07-03,1021,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,body noun genki3-l07
 83d7b383-0cf3-443d-9a9b-2033abcc4ff8,nose,鼻,はな,,noun,,,2023-07-03,1022,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,body noun genki3-l07
 17e4963e-c435-4b4b-9960-94a030bfebb8,finger; toe,指,ゆび,,noun,,4,2023-07-03,1023,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,body noun genki3-l07
@@ -1032,3 +1032,30 @@ f5cbf874-f82b-4efb-96e1-4aa3f5d70c88,eyebrow,眉毛,まゆげ,,noun,,5,2023-07-0
 4c4c2094-26cd-4d7b-aa3e-fd878e8454dd,chest; breast,胸,むね,,noun,,3,2023-07-03,1027,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,body noun genki3-l07
 0ebf2f5c-501b-435a-9000-6fb879b2ea4a,belly; abdomen,おなか,おなか,お腹,noun,,5,2023-07-03,1028,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,body noun genki3-l07
 455ae01a-7072-4ced-b164-8b976350920d,bottom; buttocks,お尻,おしり,,noun,,,2023-07-03,1029,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,body noun genki3-l07
+11716149-5f93-46fe-8159-642ec14db49b,astronomical observatory,天文台,てんもんだい,,noun,,,2023-07-26,1030,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+f514c41e-7583-4314-964b-85e98ef768a9,after school,放課後,ほうかご,,noun,,,2023-07-26,1031,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+a3abe00b-2a6a-469a-bc41-683847115aa6,"okay, okay; no problem.",平気平気,へいきへいき,,expression,,,2023-07-26,1032,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
+7c8de559-3219-4ee0-9d80-783886e04e23,"cool, calm; alright, okay",平気,へいき,,adjective,na adjective,2,2023-07-26,1033,,平気だ,平気だった,平気で,,,,,,,,,,,,,,,,平気じゃない,平気じゃなかった,,,,,,,,,,,,,,,,,adjective na-adjective
+c478c022-153f-4cb5-9d03-5ab41b2f0f26,lovely; wonderful,素敵,すてき,,adjective,na adjective,3,2023-07-26,1034,,素敵だ,素敵だった,素敵で,,,,,,,,,,,,,,,,素敵じゃない,素敵じゃなかった,,,,,,,,,,,,,,,,,adjective na-adjective
+dd36edcd-f4ad-4c02-93d7-68b62cc6ce96,to be silent; to say nothing,黙る,だまる,,verb,godan verb,3,2023-07-26,1035,,黙る,黙った,黙って,,,,,,,黙ります,黙りました,,,,,,,,黙らない,黙らなかった,黙らなくて,,,,,,,黙りません,黙りませんでした,,,,,,,,verb godan-verb
+3d338d48-08d3-4c93-962b-751b7d6ed4c4,shut-up,だまれ,だまれ,黙れ,expression,,,2023-07-26,1036,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
+6fc9aac0-cfc6-47b0-a6b7-4f159f5e005e,chuckle-chuckle,くすくす,くすくす,,expression,,,2023-07-26,1037,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
+27400ce0-94cc-4cb0-a6fd-362b4760c2aa,ritual prayer,祝詞,のりと,,noun,,,2023-07-26,1038,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,shinto noun
+bc8cac37-af5d-47fd-b71f-399f4e0c0698,Great Purification Norito,大祓詞,おおはらえのことば,,noun,,,2023-07-26,1039,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,shinto noun
+93a15ce7-a585-4073-b859-5ed0ce14dab5,to offer; to sacrifice; to dedicate,供える,そなえる,,verb,ichidan verb,,2023-07-26,1040,,供える,供えた,供えて,,,,,,,供えます,供えました,,,,,,,,供えない,供えなかった,供えなくて,,,,,,,供えません,供えませんでした,,,,,,,,shinto verb ichidan-verb
+8b93bf4d-8bcb-4cda-aa0d-fa2449f31012,torii gate,鳥居,とりい,,noun,,1,2023-07-26,1041,GENKI3_READER_L04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,shinto noun genki3-reader-l04
+671c88b2-b358-4229-9a5a-4474f740a7c7,samurai,侍,さむらい,,noun,,1,2023-07-26,1042,GENKI3_READER_L04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-reader-l04
+4ed750e9-44da-4f8e-a6b7-87f3866f5067,ninja (western term for shinobi),忍者,にんじゃ,,noun,,,2023-07-26,1043,GENKI3_READER_L04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-reader-l04
+30192858-4515-484b-97c9-3b6f5d80211b,stealth; shinobi (ninja),忍び,しのび,,noun,,,2023-07-26,1044,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+02f6ab80-d8a5-4669-8406-adfbe1105595,chopstic counter; bowlfuls of rice counter,~膳,~ぜん,,counter,,1,2023-07-26,1045,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter
+f2941d49-7e5d-431e-8178-14baf7f9eec1,small dining table (for one),膳,ぜん,,noun,,1,2023-07-26,1046,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+71f788e7-0988-411a-bc28-7971a7ac8f9a,minus; negative number,マイナス,まいなす,,noun,,2,2023-07-26,1047,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+5a2d7301-0927-4c4f-bf46-4944dcedd2d4,chicken (animal),鶏,にわとり,,noun,,5,2023-07-26,1048,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,anima noun
+a91c8b5c-016e-4461-a058-fcaf1697aa74,rice plant,稲,いね,,noun,,3,2023-07-26,1049,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+ce895534-0c4a-4228-bd61-18d09d6d18a2,red bean paste,あんこ,あんこ,餡子,noun,,,2023-07-26,1050,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
+f8678cec-432f-4a3c-9cf4-f95a6c3342fe,fish-shaped panckacke with filling,たい焼き,たいやき,,noun,,,2023-07-26,1051,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
+546e188d-e2dc-4404-b5e7-e7a44e6638ac,octopus dumplings,たこ焼き,たこやき,,noun,,,2023-07-26,1052,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
+daa9ea58-6ef2-4791-9aea-910f1435b89a,Are you ready to order?,ご注文はお決まりですか?,ごちゅうもん は おきまりですか,,expression,,,2023-07-26,1053,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food expression
+a0382c8e-8af2-4cfc-8210-68a4da84cf90,"aloneness, loneliness, solitude",一人ぼっち,ひとりぼっち,,noun,,,2023-07-26,1054,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+5094ccdc-daa5-4b2a-981a-4d8e6c162a21,"same, identical; equivalent",同じ,おなじ,,noun,,5,2023-07-26,1055,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+c4c3dbe9-42d5-4211-a4ca-58280aa1acbe,kanji iteration mark,々,のま,,punctuation,,,2023-07-26,1056,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,punctuation punctuation

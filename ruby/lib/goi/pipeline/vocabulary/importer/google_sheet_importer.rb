@@ -157,7 +157,8 @@ module Goi
             CODE_MAP = {
               hiragana: 'HIRAGANA',
               kanji: 'KANJI',
-              katakana: 'KATAKANA'
+              katakana: 'KATAKANA',
+              cjk_punctuation: 'PUNCTUATION'
             }.freeze
 
             def parse_row(row:, field_data:, required: true, vocabulary_id:)

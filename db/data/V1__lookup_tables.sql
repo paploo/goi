@@ -18,6 +18,7 @@ INSERT INTO vocabulary.word_class (code, label) VALUES ('SUFFIX', 'Suffix');
 INSERT INTO vocabulary.word_class (code, label) VALUES ('PRE_NOUN_ADJECTIVAL', 'Pre-Noun Adjectival');
 INSERT INTO vocabulary.word_class (code, label) VALUES ('AUXILIARY', 'Auxiliary');
 INSERT INTO vocabulary.word_class (code, label) VALUES ('PREFIX', 'Prefix');
+INSERT INTO vocabulary.word_class (code, label) VALUES ('PUNCTUATION', 'Punctuation');
 
 ---
 --- CONJUGATION KIND
@@ -41,6 +42,7 @@ INSERT INTO vocabulary.conjugation_kind (code, label, word_class_code) VALUES ('
 INSERT INTO vocabulary.spelling_kind (code, label) VALUES ('HIRAGANA', 'Hiragana');
 INSERT INTO vocabulary.spelling_kind (code, label) VALUES ('KATAKANA', 'Katakana');
 INSERT INTO vocabulary.spelling_kind (code, label) VALUES ('KANJI', 'Kanji');
+INSERT INTO vocabulary.spelling_kind (code, label) VALUES ('PUNCTUATION', 'Punctuation');
 
 ---
 --- CONJUGATION CHARGE
