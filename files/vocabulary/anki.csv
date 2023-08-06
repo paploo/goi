@@ -87,7 +87,7 @@ abd1e50d-f284-5a21-831f-344cb338414e,Asian Studies,アジア研究,あじあけ�
 7672ef18-d91f-548f-a938-970d6a741586,engineering,工学,こうがく,,noun,,1,2022-04-24,82,GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,school-major noun genki3-l01
 471eeab4-7852-53f9-ba6c-342f13746958,international relations,国際関係,こくさいかんけい,,noun,,,2022-04-24,83,GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,school-major noun genki3-l01
 9e62feab-62dc-5faf-92d9-8cd423af7dab,computer; computer science,コンピューター,こんぴゅうたあ,,noun,,4,2022-04-24,84,GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,school-major noun genki3-l01
-15b8fb86-6025-524c-a968-0d8e442c0d8e,politics; government,政治,せいじ,,noun,,4,2022-04-24,85,GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,school-major noun genki3-l01
+15b8fb86-6025-524c-a968-0d8e442c0d8e,politics; government,政治,せいじ,,noun,,4,2022-04-24,85,GENKI3_L01 GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,school-major noun genki3-l01 genki3-l12
 ee82d23f-991e-59ba-9646-d407d35b46ae,biology,生物学,せいぶつがく,,noun,,,2022-04-24,86,GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,school-major noun genki3-l01
 a74f0164-da3d-59dc-bbd0-39cf065ee813,business,ビジネス,びじねす,,noun,,1,2022-04-24,87,GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,school-major noun genki3-l01
 f41b3958-7c0c-5c05-9ea8-d0099b014f0c,literature,文学,ぶんがく,,noun,,4,2022-04-24,88,GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,school-major noun genki3-l01
@@ -133,7 +133,7 @@ e2c0e2f3-891a-55e3-ad28-285669d27287,pork bone (e.g. ramen broth),豚骨,とん�
 496222cc-1cb3-50c8-9e7e-bbc7d327b78c,vegetables,野菜,やさい,,noun,,5,2022-05-30,128,DUO_02_01 DUO_U06 GENKI3_L02,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun duo-02-01 duo-u06 genki3-l02
 4fbc0a01-e32a-5449-8efe-3ae37aee4f2f,rice; meal,ご飯,ごはん,,noun,,5,2022-05-30,129,DUO_02_01 DUO_U06 GENKI3_L04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun duo-02-01 duo-u06 genki3-l04
 b74ca7fa-4622-5a52-b9df-5260878e687b,bread,パン,ぱん,,noun,,5,2022-05-30,130,DUO_02_01 DUO_U06 GENKI3_L04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun duo-02-01 duo-u06 genki3-l04
-5e2b2d0d-7461-56e2-a151-9a10375d5615,egg,卵,たまご,,noun,,5,2022-05-30,131,DUO_02_06 DUO_U08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun duo-02-06 duo-u08
+5e2b2d0d-7461-56e2-a151-9a10375d5615,egg,卵,たまご,,noun,,5,2022-05-30,131,DUO_02_06 DUO_U08 GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun duo-02-06 duo-u08 genki3-l12
 12c11165-7996-5b13-bf19-c3afc419afb2,apple,りんご,りんご,林檎,noun,,,2022-05-30,132,DUO_02_06 DUO_U08 GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun duo-02-06 duo-u08 genki3-l10
 7b7d934a-cfd6-4286-9175-dfe7676b4355,pear,なし,なし,梨,noun,,,2022-08-09,133,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
 6c124141-b31a-5d91-afcb-6a4bb127f31f,peach,桃,もも,,noun,,,2022-08-29,134,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
@@ -281,8 +281,8 @@ f5b2d28f-d519-4138-a9d0-5c99b82d09af,bird,鳥,とり,,noun,,5,2022-05-30,272,DUO
 5c312431-d91a-5f48-8325-6af1228e5478,fox,狐,きつね,,noun,,,2022-09-02,276,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,animal noun
 3ab6c13d-cea6-51c9-8cc8-727dfb4074c0,racoon dog,狸,たぬき,,noun,,,2022-09-02,277,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,animal noun
 93849573-7b32-4df3-a3b9-a15fb7555627,"counter for birds, rabbits, etc",〜羽,〜わ,,counter,,3,2022-05-30,278,DUO_02_04 DUO_U07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,animal counter duo-02-04 duo-u07
-6432ab47-a4a0-487f-89ad-b37fce084c74,"she, her",彼女,かのじょ,,pronoun,,4,2022-08-08,279,DUO_02_07 DUO_U09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pronoun duo-02-07 duo-u09
-794880bc-1fa2-4fb8-9fa0-bd04c175bbee,"him, he",彼,かれ,,pronoun,,4,2022-08-08,280,DUO_02_07 DUO_U09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pronoun duo-02-07 duo-u09
+6432ab47-a4a0-487f-89ad-b37fce084c74,"she, her; girlfriend",彼女,かのじょ,,pronoun,,4,2022-08-08,279,DUO_02_07 DUO_U09 GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pronoun duo-02-07 duo-u09 genki3-l12
+794880bc-1fa2-4fb8-9fa0-bd04c175bbee,"him, he; boyfriend",彼,かれ,,pronoun,,4,2022-08-08,280,DUO_02_07 DUO_U09 GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pronoun duo-02-07 duo-u09 genki3-l12
 46260a68-5466-4f70-9b0b-968d8143848f,"they, them",彼ら,かれら,,pronoun,,3,2022-08-08,281,DUO_02_07 DUO_U09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pronoun duo-02-07 duo-u09
 7592b181-b6f1-41f0-b618-4ae67ab38b21,"...plural (person, animal)",〜たち,たち,〜達,suffix,,,2022-08-08,282,DUO_02_07 DUO_U09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,suffix duo-02-07 duo-u09
 bd6d533d-c173-49c5-95c7-85fe90dd38a6,"I (male, casual)",僕,ぼく,,pronoun,,4,2022-08-08,283,DUO_02_07 DUO_U09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pronoun duo-02-07 duo-u09
@@ -323,7 +323,7 @@ fcb92bf6-7f59-59fd-863a-7aa2762f640d,ear,耳,みみ,,noun,,5,2022-08-12,317,DUO_
 08a92e33-466f-588d-b364-19981156b72f,eye,目,め,,noun,,5,2022-08-12,318,DUO_01_03 DUO_U02 GENKI3_L07 LULI_KANJI_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,body noun duo-01-03 duo-u02 genki3-l07 luli-kanji-l01
 78b70b1a-bd80-521c-94a9-0dec45988921,mouth,口,くち,,noun,,5,2022-08-17,319,GENKI3_L07 LULI_KANJI_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,body noun genki3-l07 luli-kanji-l01
 a3d9c5ec-a34a-5a91-b166-7291979bef67,hand; arm,手,て,,noun,,5,2022-08-15,320,LULI_KANJI_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,body noun luli-kanji-l01
-b5407428-ff7a-5715-8283-de41ff4e555c,foot,足,あし,,noun,,5,2022-08-15,321,LULI_KANJI_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,body noun luli-kanji-l01
+b5407428-ff7a-5715-8283-de41ff4e555c,foot,足,あし,,noun,,5,2022-08-15,321,GENKI3_L12 LULI_KANJI_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,body noun genki3-l12 luli-kanji-l01
 12773416-725b-57f8-b7cc-856c607390db,back,背中,せなか,,noun,,4,2022-08-12,322,DUO_01_03 DUO_U02,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,body noun duo-01-03 duo-u02
 83e6b487-2d55-5480-a55b-2a808a40a3f1,cloudy,曇り,くもり,,noun,,5,2022-08-12,323,DUO_01_03 DUO_U02 GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,weather noun duo-01-03 duo-u02 genki3-l08
 a2edc793-e468-5c89-8566-efd896ac302c,sunny,晴れ,はれ,,noun,,5,2022-08-12,324,DUO_01_03 DUO_U02 GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,weather noun duo-01-03 duo-u02 genki3-l08
@@ -332,7 +332,7 @@ a2edc793-e468-5c89-8566-efd896ac302c,sunny,晴れ,はれ,,noun,,5,2022-08-12,324
 1a0c8160-c588-508a-bcbc-c3bf3bdbb0fe,wind; breeze; draft,風,かぜ,,noun,,5,2022-08-12,327,DUO_01_04 DUO_U02,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun duo-01-04 duo-u02
 86e894b7-ebf2-5e8e-991e-54ebd19f764d,map,地図,ちず,,noun,,5,2022-08-12,328,DUO_01_04 DUO_U02,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun duo-01-04 duo-u02
 7f320ae8-3952-5727-a45e-4c5535a79533,fruit,果物,くだもの,,noun,,5,2022-08-12,329,DUO_01_04 DUO_U02 GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun duo-01-04 duo-u02 genki3-l05
-efc7ae30-059c-5579-9e95-1e53594af9ed,ticket (transport),切符,きっぷ,,noun,,5,2022-08-12,330,DUO_01_04 DUO_U02,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,transportation noun duo-01-04 duo-u02
+efc7ae30-059c-5579-9e95-1e53594af9ed,ticket (transport),切符,きっぷ,,noun,,5,2022-08-12,330,DUO_01_04 DUO_U02 GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,transportation noun duo-01-04 duo-u02 genki3-l12
 038bec1a-765f-42b2-905d-28004fd829a3,game,ゲーム,げえむ,,noun,,3,2022-08-10,331,GENKI3_L04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,activity noun genki3-l04
 303cf994-1062-45cd-9c22-738f09ffee51,part-time job,アルバイト,あればいと,,noun,,4,2022-08-10,332,GENKI3_L04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,activity noun genki3-l04
 8509b44f-d5d4-437f-a845-aae915c292dc,part-time job (colloquial),バイト,ばいと,,noun,,,2022-08-10,333,GENKI3_L04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,activity noun genki3-l04
@@ -1026,11 +1026,11 @@ f5bfb80a-583c-4baf-8ee8-9c7ebdd51f7c,chicken (meat),鶏肉,とりにく,,noun,,,
 f5cbf874-f82b-4efb-96e1-4aa3f5d70c88,eyebrow,眉毛,まゆげ,,noun,,5,2023-07-03,1021,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,body noun genki3-l07
 83d7b383-0cf3-443d-9a9b-2033abcc4ff8,nose,鼻,はな,,noun,,,2023-07-03,1022,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,body noun genki3-l07
 17e4963e-c435-4b4b-9960-94a030bfebb8,finger; toe,指,ゆび,,noun,,4,2023-07-03,1023,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,body noun genki3-l07
-8a4f2e48-5feb-4638-a493-0bf16f685147,tooth; teeth,歯,は,,noun,,5,2023-07-03,1024,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,body noun genki3-l07
+8a4f2e48-5feb-4638-a493-0bf16f685147,tooth; teeth,歯,は,,noun,,5,2023-07-03,1024,GENKI3_L07 GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,body noun genki3-l07 genki3-l12
 3be29c6d-912f-48e9-b293-2c7a6eb898cb,neck,首,くび,,noun,,4,2023-07-03,1025,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,body noun genki3-l07
 8255a2b7-e385-4ec4-a4d7-35f38e2f0abc,shoulder,肩,かた,,noun,,3,2023-07-03,1026,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,body noun genki3-l07
 4c4c2094-26cd-4d7b-aa3e-fd878e8454dd,chest; breast,胸,むね,,noun,,3,2023-07-03,1027,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,body noun genki3-l07
-0ebf2f5c-501b-435a-9000-6fb879b2ea4a,belly; abdomen,おなか,おなか,お腹,noun,,5,2023-07-03,1028,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,body noun genki3-l07
+0ebf2f5c-501b-435a-9000-6fb879b2ea4a,"belly, abdomen; stomach",おなか,おなか,お腹,noun,,5,2023-07-03,1028,GENKI3_L07 GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,body noun genki3-l07 genki3-l12
 455ae01a-7072-4ced-b164-8b976350920d,bottom; buttocks,お尻,おしり,,noun,,,2023-07-03,1029,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,body noun genki3-l07
 11716149-5f93-46fe-8159-642ec14db49b,astronomical observatory,天文台,てんもんだい,,noun,,,2023-07-26,1030,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 f514c41e-7583-4314-964b-85e98ef768a9,after school,放課後,ほうかご,,noun,,,2023-07-26,1031,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
@@ -1047,7 +1047,7 @@ bc8cac37-af5d-47fd-b71f-399f4e0c0698,Great Purification Norito,大祓詞,おお�
 671c88b2-b358-4229-9a5a-4474f740a7c7,samurai,侍,さむらい,,noun,,1,2023-07-26,1042,GENKI3_READER_L04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-reader-l04
 4ed750e9-44da-4f8e-a6b7-87f3866f5067,ninja (western term for shinobi),忍者,にんじゃ,,noun,,,2023-07-26,1043,GENKI3_READER_L04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-reader-l04
 30192858-4515-484b-97c9-3b6f5d80211b,stealth; shinobi (ninja),忍び,しのび,,noun,,,2023-07-26,1044,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-02f6ab80-d8a5-4669-8406-adfbe1105595,chopstic counter; bowlfuls of rice counter,~膳,~ぜん,,counter,,1,2023-07-26,1045,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter
+02f6ab80-d8a5-4669-8406-adfbe1105595,chopstic counter; bowlfuls of rice counter,〜膳,〜ぜん,~膳,counter,,1,2023-07-26,1045,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter
 f2941d49-7e5d-431e-8178-14baf7f9eec1,small dining table (for one),膳,ぜん,,noun,,1,2023-07-26,1046,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 71f788e7-0988-411a-bc28-7971a7ac8f9a,minus; negative number,マイナス,まいなす,,noun,,2,2023-07-26,1047,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 5a2d7301-0927-4c4f-bf46-4944dcedd2d4,chicken (animal),鶏,にわとり,,noun,,5,2023-07-26,1048,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,anima noun
@@ -1059,3 +1059,23 @@ daa9ea58-6ef2-4791-9aea-910f1435b89a,Are you ready to order?,ご注文はお決�
 a0382c8e-8af2-4cfc-8210-68a4da84cf90,"aloneness, loneliness, solitude",一人ぼっち,ひとりぼっち,,noun,,,2023-07-26,1054,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 5094ccdc-daa5-4b2a-981a-4d8e6c162a21,"same, identical; equivalent",同じ,おなじ,,noun,,5,2023-07-26,1055,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 c4c3dbe9-42d5-4211-a4ca-58280aa1acbe,kanji iteration mark,々,のま,,punctuation,,,2023-07-26,1056,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,punctuation punctuation
+ba8b9d88-29a4-4eaf-b847-cce5165dda99,mushroom,キノコ,きのこ,茸,noun,,,2023-08-06,1057,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
+4e546fcd-c938-4940-b811-44b73cb3036c,shitake mushroom,シイタケ,しいたけ,椎茸,noun,,,2023-08-06,1058,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
+aab2dc15-ca3c-4257-b850-de6da15d02b8,enoki mushroom,エノキタケ,えのきたけ,榎茸,noun,,,2023-08-06,1059,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
+b2f3fa88-a242-4572-9e82-08c3330bbcb3,throat,喉,のど,,noun,,3,2023-08-06,1060,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,body noun genki3-l12
+b7d95fc3-f77f-450a-9e1f-0b5199e1a11c,influenza,インフルエンザ,いんふるえんざ,,noun,,,2023-08-06,1061,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,health noun genki3-l12
+55c676ce-abe9-4453-bfa2-9b9d54ed2552,common cold,風邪,かぜ,,noun,,5,2023-08-06,1062,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,health noun genki3-l12
+e0c045e2-6774-4f83-94e8-4ae6b505fcf1,hangover,二日酔い,ふつかよい,,noun,,,2023-08-06,1063,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,health noun genki3-l12
+ab9b9fd9-5b1e-4493-b0bc-72b3c0600bdb,homesickness,ホームシック,ほおむしっく,,noun,,,2023-08-06,1064,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l12
+7fe2537e-b887-4df9-b5c5-f3d50912acd3,allergy,アレルギー,あれるぎい,,noun,,,2023-08-06,1065,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,health noun genki3-l12
+cca7ac8b-f2d0-4141-ab39-bf30fae68bc2,juice,ジュース,じゅうす,,noun,,3,2023-08-06,1066,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun genki3-l12
+f88fe556-3635-470d-acc1-8cdb60c9396d,clothes (esp. Western clothes),服,ふく,,noun,,5,2023-08-06,1067,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l12
+466f5766-af1d-4ff6-aaf6-bdab641cb921,thing (concrete object),物,もの,,noun,,5,2023-08-06,1068,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l12
+b0030f58-6fb0-4693-a003-8a3f8982c229,present; gift,プレゼント,ぷれぜんと,,noun,,4,2023-08-06,1069,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l12
+d3951418-0bce-4527-a675-1fb479d57a8e,"charge, fee; generation, school year, reign",〜代,〜だい,,suffix,,,2023-08-06,1070,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,suffix genki3-l12
+6555991b-5151-4bb7-9fd5-e56168155e70,business to take care of; tasks; errand,用事,ようじ,,noun,,4,2023-08-06,1071,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l12
+c2ae2edc-d8a5-45cb-bb22-3000878734de,restroom; lavatory,お手洗い,おてあらい,,noun,,5,2023-08-06,1072,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l12
+ddc1dfa4-8993-4324-9353-20a35cffd8bd,match; game,試合,しあい,,noun,,4,2023-08-06,1073,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l12
+9bf40a2d-6506-4437-8b16-40db606989c0,"grade (on a test, etc.)",成績,せいせき,,noun,,3,2023-08-06,1074,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l12
+7a6e8950-d1a0-443c-923d-5bcb01163371,boyfriend,彼氏,かれし,,noun,,,2023-08-06,1075,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l12
+eb687fed-4097-43de-b0a2-92c7f6b66902,meaning; significance,意味,いみ,,noun,,5,2023-08-06,1076,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l12
