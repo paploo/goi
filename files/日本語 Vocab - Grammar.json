@@ -122,6 +122,70 @@
     "lesson_codes": ["GENKI3_L03"],
     "tags": []
   },
+  {
+    "id": "dd34d089-fe5a-4958-83d1-0baaa30f609f",
+    "title": "よく〇〇ます／時々〇〇ます／あまり〇〇ません／全然〇〇ません",
+    "meaning": "Frequency Adverbs",
+    "how_to_use": [
+      "よく + verb (present)",
+      "たいてい + verb (present)",
+      "時々 + verb (present)",
+      "あまり + verb (negative)",
+      "全然 + verb (negative)",
+      "毎日 + verb + (present)"
+    ],
+    "examples": [
+      {
+        "id": "06133f8b-d28d-46a9-911a-4ab5ad4d5458",
+        "meaning": "Yumi often comes to my house.",
+        "text": {
+          "spelling": "ゆみさんはよく{私|わたし}のうちに{来|き}ます。"
+        },
+        "lesson_codes": ["GENKI3_L03"],
+        "tags": []
+      },
+      {
+        "id": "ecfc043d-aa9b-4d23-8e2d-53ec8792781c",
+        "meaning": "Professor Yamashita usually goes to sleep at 11.",
+        "text": {
+          "spelling": "{山下|やま・した}{先生|せん・せい}はたいてい{十一|じゅう・いち}{時|じ}に{寝|ね}ます"
+        },
+        "lesson_codes": ["GENKI3_L03"],
+        "tags": []
+      },
+      {
+        "id": "5850facf-58ed-459e-91fb-8a828fdbe089",
+        "meaning": "Takeshi sometimes drinks coffee at that cafe.",
+        "text": {
+          "spelling": "たけしさんは{時々|とき・どき}あのカフェでコーヒーを{飲|の}みます。"
+        },
+        "lesson_codes": ["GENKI3_L03"],
+        "tags": []
+      },
+      {
+        "id": "4efba880-4c26-46ec-b741-ae15f9f9217b",
+        "meaning": "Takeshi does not study much.",
+        "text": {
+          "spelling": "たけしさんはあまり{勉強|べん・きょう}しません。"
+        },
+        "lesson_codes": ["GENKI3_L03"],
+        "tags": []
+      },
+      {
+        "id": "97c37d64-f03a-49c3-a4c4-2d85d564dbdd",
+        "meaning": "I don't watch TV at all.",
+        "text": {
+          "spelling": "{私|わたし}は{全然|ぜん・ぜん}テレビを{見|み}ません。"
+        },
+        "lesson_codes": ["GENKI3_L03"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-08-06",
+    "lesson_codes": ["GENKI3_L03"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 04"},
   {
@@ -1424,6 +1488,77 @@
     "jlpt_level": null,
     "date_added": "2023-07-26",
     "lesson_codes": ["GENKI3_L09"],
+    "tags": []
+  },
+  {
+    "id": "a8af87a3-4897-49b5-941b-e608727e4751",
+    "title": "Past + 〜と言っていました",
+    "meaning": "Quoting a past-tense form",
+    "how_to_use": [
+      "verb (past short form) + と言っていました"
+    ],
+    "examples": [
+      {
+        "id": "27c0049d-2162-480b-ab6a-fda7bc444d0e",
+        "meaning": "Yasmin said that she didn't have lunch.",
+        "text": {
+          "spelling": "ヤスミンさんは{昼|ひる}ご{飯|はん}を{食|た}べなかったと{言|い}っていました。"
+        },
+        "lesson_codes": [
+          "GENKI3_L09"
+        ],
+        "tags": []
+      },
+      {
+        "id": "8b3f0267-83f9-4829-a825-ff7666d75fbd",
+        "meaning": "My father said he is not very good at dancing.",
+        "text": {
+          "spelling": "お{父|とう}さんは{踊|おど}るのがあまり{上手|じょう・ず}じゃなかったと{言|い}っていました。"
+        },
+        "lesson_codes": [
+          "GENKI3_L09"
+        ],
+        "tags": []
+      },
+      {
+        "id": "235f3dcf-ce1d-4b55-b3ee-5c4c3120ccdf",
+        "meaning": "Yasmin said she was sick.",
+        "text": {
+          "spelling": "ヤスミンさんは{病気|びょう・き}だったと{言|い}っていました。"
+        },
+        "lesson_codes": [
+          "GENKI3_L09"
+        ],
+        "tags": []
+      },
+      {
+        "id": "41a06609-1d7d-410d-917c-64e8ab560392",
+        "meaning": "Takeshi said that kabuki started at twelve o'clock, and finished at four o'clock.",
+        "text": {
+          "spelling": "たけしさんは、{歌舞伎|か・ぶ・き}は{十二|じゅう・に}{時|じ}に{始|はじ}まって、{四|よ}{時|じ}に{終|お}わったと{言|い}っていました。"
+      },
+        "lesson_codes": [
+          "GENKI3_L09"
+        ],
+        "tags": []
+      },
+      {
+        "id": "1e734e14-4e35-409b-95f4-c03e30ff5080",
+        "meaning": "Takeshi said he went to see Kabuki last month.",
+        "text": {
+          "spelling": "たけしさんは、{先月|せん・げつ}、{歌舞伎|か・ぶ・き}を{見|み}に{行|い}ったと{言|い}っていました。"
+        },
+        "lesson_codes": [
+          "GENKI3_L09"
+        ],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-08-06",
+    "lesson_codes": [
+      "GENKI3_L09"
+    ],
     "tags": []
   },
 
