@@ -1,0 +1,83 @@
+.card {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    background-color: black;
+}
+
+.instruction {
+	font-size: 75%;
+}
+
+.question {
+	padding-top: 16px;
+	padding-bottom: 8px;
+}
+
+.answer {
+	border-bottom: 1px solid grey;
+	padding-bottom: 16px;
+}
+
+
+.large {
+	font-size: 125%
+}
+
+
+.detail-info {
+  font-size: 15px;
+}
+
+.section-title {
+	font-size: 75%;
+	color: lightblue;
+}
+
+.rule {
+	margin-top: 8px;
+	padding: 4px;
+}
+
+.rule .title-and-meaning {
+	border: 1px solid gray;
+}
+
+.rule .rule-meaning {
+	font-style: italic;
+	font-size: 75%;
+}
+
+.how-to-use {
+	margin-top: 8px;
+}
+
+.how-to-use li {
+	list-style: none;
+	border: 1px solid gray;
+	margin: 0px 0px 8px 0px;
+	padding: 4px;
+  font-size: 75%;
+}
+
+.how-to-use ul li::before {
+  content: "- ";
+}
+
+.examples {
+  margin-top: 8px;
+}
+
+.examples .example {
+	border: 1px solid gray;
+	padding: 4px;
+	margin-bottom: 4px;
+	text-align: left;
+}
+
+.examples .example .meaning {
+	color: lightgray;
+	font-style: italic;
+	font-size: 75%
+}

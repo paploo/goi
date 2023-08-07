@@ -1,0 +1,49 @@
+.card {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    background-color: black;
+}
+
+.instruction {
+	font-size: 15px;
+}
+
+.large {
+	font-size: 150%
+}
+
+.conjugation-directive {
+	font-size: 100%;
+}
+
+.conjugation-directive.formal {
+  //background: rgba(128, 128, 128, 0.05);
+	color: rgba(128, 128, 128);
+}
+
+.conjugation-directive.casual {
+  //background: rgba(0, 0, 255, 0.05);
+	color: rgba(128, 128, 255);
+}
+
+.answer {
+	border-bottom: 1px solid grey;
+	padding-bottom: 16px;
+}
+
+.word-type {
+	font-size: 15px;
+	font-style: oblique;
+}
+
+.detail-info {
+  font-size: 15px;
+}
+
+.grey-badge {
+  border: 1pt solid white;
+	background: grey;
+	color: white;
+}

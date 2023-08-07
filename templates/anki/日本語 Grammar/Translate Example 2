@@ -1,0 +1,58 @@
+<script type="text/javascript">
+  function swapElem(idToHide, idToShow, display_type = 'block') {
+    document.getElementById(idToShow).style.display = display_type;
+    document.getElementById(idToHide).style.display = 'none';
+  }
+</script>
+
+<div class="instruction">
+	📕🇯🇵→🇬🇧📕
+</div>
+
+<div class="question large">
+	<div class="example">
+		{{#example_2_text}}{{#example_2_meaning}}
+			<div id="ex-kanji" class="text" onclick="swapElem('ex-kanji','ex-furigana');">
+				{{kanji:example_2_text}}
+			</div>
+			<div id="ex-furigana" class="text" style='display:none' onclick="swapElem('ex-furigana', 'ex-kanji');">
+				{{furigana:example_2_text}}
+			</div>
+		{{/example_2_meaning}}{{/example_2_text}}
+	</div>
+
+		<p>
+		{{tts ja_JP:kanji:example_2_text}}
+		{{#example_2_text_phonetic}}
+			| {{tts ja_JP:example_2_text_phonetic}}
+		{{/example_2_text_phonetic}}
+	</p>
+</div>
+```
+{{FrontSide}}
+
+<hr id=answer>
+
+<div class="answer">
+  <div class="example">
+		{{#example_2_text}}{{#example_2_meaning}}
+			<div class="text">{{example_2_meaning}}</div>
+		{{/example_2_meaning}}{{/example_2_text}}
+	</div>
+</div>
+
+<div class="rule">
+	<div class="section-title">Rule</div>
+	<div class="title-and-meaning">
+		<div class="rule-title">{{furigana:title}}</div>
+		<div class="rule-meaning">{{meaning}}</div>
+	</div>
+</div>
+
+
+{{#how_to_use}}
+<div class='how-to-use'>
+	<div class="section-title">How to Use</div>
+	{{how_to_use}}
+</div>
+{{/how_to_use}}

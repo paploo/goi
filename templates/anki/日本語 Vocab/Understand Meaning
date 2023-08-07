@@ -1,0 +1,12 @@
+<p class='instruction'>📕🇯🇵→🇬🇧📕</p>
+<p class='large'>{{preferred_spelling}}</p>
+<p>📕</p>```
+{{FrontSide}}
+
+<hr id=answer>
+
+<p class='answer'>{{definition}}</p>
+
+<p class='word-type'>{{word_class}} {{conjugation_kind}}</p>
+<p class='detail-info'>{{phonetic_spelling}}</p>
+<p>{{tts ja_JP:preferred_spelling}}｜{{tts ja_JP:phonetic_spelling}}</p>

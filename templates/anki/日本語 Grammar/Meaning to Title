@@ -1,0 +1,66 @@
+<div class="instruction">
+	📕🇬🇧→🇯🇵⚖️
+</div>
+
+<div class="question">
+{{furigana:meaning}}
+</div>```
+{{FrontSide}}
+
+<hr id=answer>
+
+<div class="answer">
+  {{title}}
+</div>
+
+
+{{#how_to_use}}
+<div class='how-to-use'>
+	<div class="section-title">How to Use</div>
+	{{how_to_use}}
+</div>
+{{/how_to_use}}
+
+<div class="examples">
+	<div class="section-title">Examples</div>
+
+	<div class="example">
+		<div class="text">{{furigana:example_1_text}}</div>
+		<div class="meaning">{{example_1_meaning}}</div>
+	</div>
+
+	{{#example_2_text}}
+		<div class="example">
+			<div class="text">{{furigana:example_2_text}}</div>
+			<div class="meaning">{{example_2_meaning}}</div>
+		</div>
+	{{/example_2_text}}
+
+  {{#example_3_text}}
+		<div class="example">
+			<div class="text">{{furigana:example_3_text}}</div>
+			<div class="meaning">{{example_3_meaning}}</div>
+		</div>
+	{{/example_3_text}}
+
+	{{#example_4_text}}
+		<div class="example">
+			<div class="text">{{furigana:example_4_text}}</div>
+			<div class="meaning">{{example_4_meaning}}</div>
+		</div>
+	{{/example_4_text}}
+
+	{{#example_5_text}}
+		<div class="example">
+			<div class="text">{{furigana:example_5_text}}</div>
+			<div class="meaning">{{example_5_meaning}}</div>
+		</div>
+	{{/example_5_text}}
+
+	{{#example_6_text}}
+		<div class="example">
+			<div class="text">{{furigana:example_6_text}}</div>
+			<div class="meaning">{{example_6_meaning}}</div>
+		</div>
+	{{/example_6_text}}
+</div>

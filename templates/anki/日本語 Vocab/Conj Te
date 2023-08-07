@@ -1,0 +1,16 @@
+{{#positive_plain_te}}
+<p class='instruction'>🇯🇵→<span class="grey-badge">て</span></p>
+<p class='word-type'>{{conjugation_kind}}</p>
+<p class='large'><ruby>{{preferred_spelling}}<rt>{{phonetic_spelling}}</rt></ruby></p>
+<p class='conjugation-directive'><span class="grey-badge">て</span><br/>-Te Form</p>
+{{/positive_plain_te}}
+```
+{{FrontSide}}
+
+<hr id=answer>
+
+<p class='answer'>{{positive_plain_te}}</p>
+
+<p class='detail-info'>📕 {{definition}}</p>
+
+<p>{{tts ja_JP:positive_plain_te}}</p>

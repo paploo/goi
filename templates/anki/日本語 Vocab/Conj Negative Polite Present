@@ -1,0 +1,16 @@
+{{#negative_polite_present}}
+<p class='instruction'>🇯🇵→🙇❌</p>
+<p class='word-type'>{{conjugation_kind}}</p>
+<p class='large'><ruby>{{preferred_spelling}}<rt>{{phonetic_spelling}}</rt></ruby></p>
+<p class='conjugation-directive formal'>🙇❌<br/>Negative Polite?</p>
+{{/negative_polite_present}}
+```
+{{FrontSide}}
+
+<hr id=answer>
+
+<p class='answer'>{{negative_polite_present}}</p>
+
+<p class='detail-info'>📕 {{definition}}</p>
+
+<p>{{tts ja_JP:negative_polite_present}}</p>
