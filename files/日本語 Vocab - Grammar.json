@@ -124,7 +124,7 @@
   },
   {
     "id": "dd34d089-fe5a-4958-83d1-0baaa30f609f",
-    "title": "よく〇〇ます／時々〇〇ます／あまり〇〇ません／全然〇〇ません",
+    "title": "よく／たいてい/時々……ます<br/>あまり／全然……ません",
     "meaning": "Frequency Adverbs",
     "how_to_use": [
       "よく + verb (present)",
@@ -1075,12 +1075,9 @@
     "title": "〜に行く",
     "meaning": "purpose of movement",
     "how_to_use": [
-      "destination + に + purpose-of-movement (verb stem) + 行く",
-      "destination + に + purpose-of-movement (verb stem) + 来る",
-      "destination + に + purpose-of-movement (verb stem) + 帰る",
-      "destination + へ + purpose-of-movement (verb stem) + 行く",
-      "destination + へ + purpose-of-movement (verb stem) + 来る",
-      "destination + へ + purpose-of-movement (verb stem) + 帰る"
+      "destination + に/へ + purpose-of-movement (verb stem) + に + 行く",
+      "destination + に/へ + purpose-of-movement (verb stem) + に + 来る",
+      "destination + に/へ + purpose-of-movement (verb stem) + に + 帰る"
     ],
     "examples": [
       {
@@ -1190,7 +1187,7 @@
         "id": "8129fd4b-915d-466e-9582-7679954a4179",
         "meaning": "I think Mary often goes to see movies.",
         "text": {
-          "spelling": "メアリーさんはよく{映画|えい・が}を{見|み}にいくと{思|おも}います。"
+          "spelling": "メアリーさんはよく{映画|えい・が}を{見|み}に{行|い}くと{思|おも}います。"
         },
         "lesson_codes": ["GENKI3_L08"],
         "tags": []
