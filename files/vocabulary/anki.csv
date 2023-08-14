@@ -227,7 +227,7 @@ bd0e8ffa-f7cd-5b27-8481-6ecb87512f6c,to get up,起きる,おきる,,verb,ichidan
 66e4cf05-72cd-512b-a462-05f4e69906b5,to see; to look at; to watch,見る,みる,,verb,ichidan verb,5,2022-07-24,222,GENKI3_L03,見る,見た,見て,,,,,,,見ます,見ました,,,,,,,,見ない,見なかった,見なくて,,,,,,,見ません,見ませんでした,,,,,,,,verb ichidan-verb genki3-l03
 10567940-e3bb-5257-b33c-ae9976bfaddd,to come,くる,くる,来る,verb,kuru verb,5,2022-07-24,223,GENKI3_L03,くる,きた,きて,,,,,,,きます,きました,,,,,,,,こない,こなかった,こなくて,,,,,,,きません,きませんでした,,,,,,,,verb kuru-verb genki3-l03
 5800b221-4eb5-5331-8c6c-413e2d08c007,to do,する,する,,verb,suru verb,5,2022-07-24,224,GENKI3_L03,する,した,して,,,,,,,します,しました,,,,,,,,しない,しなかった,しなくて,,,,,,,しません,しませんでした,,,,,,,,verb suru-verb genki3-l03
-9e9dc42e-df1e-5ace-948a-9dce72caaceb,to study,勉強する,べんきょうする,,verb,suru verb,5,2022-07-24,225,GENKI3_L03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,verb suru-verb genki3-l03
+9e9dc42e-df1e-5ace-948a-9dce72caaceb,to study,勉強する,べんきょうする,,verb,suru verb,5,2022-07-24,225,GENKI3_L03,勉強する,勉強した,勉強して,,,,,,,勉強します,勉強しました,,,,,,,,勉強しない,勉強しなかった,勉強しなくて,,,,,,,勉強しません,勉強しませんでした,,,,,,,,verb suru-verb genki3-l03
 6e231f76-5724-5b3c-acfc-cdee6e2eb3a6,yes; umm,ええ,ええ,,expression,,5,2022-07-24,226,GENKI3_L03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l03
 349836a3-2523-5f85-a7c1-f85e49c73f27,good,いい,いい,,adjective,yoi adjective,5,2022-07-24,227,GENKI3_L03,いい,よかった,よくて,,,,,,,,,,,,,,,,よくない,よくなかった,,,,,,,,,,,,,,,,,adjective yoi-adjective genki3-l03
 fc5427a3-a54b-5c04-8b36-a570b8e7a72b,"early; simple, quick",早い,はやい,,adjective,i adjective,5,2022-07-24,228,GENKI3_L03,早い,早かった,早くて,,,,,,,,,,,,,,,,早くない,早くなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l03
@@ -312,7 +312,7 @@ fbd9dcaa-2454-526e-b8a1-4b4e68fed07a,tree; shrub; bush,木,き,,noun,,5,2022-08-
 5fbad03e-b5f7-51ea-998a-d8e68b87a332,rice field,田,た,,noun,,3,2022-08-15,307,LULI_KANJI_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun luli-kanji-l01
 4769746e-d143-5e87-bfe8-841622ac2659,cherry tree; cherry blossom,桜,さくら,,noun,,3,2022-08-31,308,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 39007001-a5bd-5f32-b00a-41b88d6dcb04,want,欲しい,ほしい,,adjective,i adjective,5,2022-08-12,309,DUO_01_02 DUO_U01,欲しい,欲しかった,欲しくて,,,,,,,,,,,,,,,,欲しくない,欲しくなかった,,,,,,,,,,,,,,,,,adjective i-adjective duo-01-02 duo-u01
-d296367e-4c7b-5675-9477-ef164a14186d,sweet,甘い,あまい,,adjective,i adjective,5,2022-08-12,310,DUO_01_02 DUO_U01,甘い,甘かった,甘くて,,,,,,,,,,,,,,,,甘くない,甘くなかった,,,,,,,,,,,,,,,,,food adjective i-adjective duo-01-02 duo-u01
+d296367e-4c7b-5675-9477-ef164a14186d,sweet,甘い,あまい,,adjective,i adjective,5,2022-08-12,310,DUO_01_02 DUO_U01 GENKI3_L12,甘い,甘かった,甘くて,,,,,,,,,,,,,,,,甘くない,甘くなかった,,,,,,,,,,,,,,,,,food adjective i-adjective duo-01-02 duo-u01 genki3-l12
 a135ce08-66bb-5864-803a-134a43cd833b,dirty,汚い,きたない,,adjective,i adjective,5,2022-08-12,311,DUO_01_02 DUO_U01,汚い,汚かった,汚くて,,,,,,,,,,,,,,,,汚くない,汚くなかった,,,,,,,,,,,,,,,,,adjective i-adjective duo-01-02 duo-u01
 b0b557a1-615d-53a4-acdc-768151964aa5,sushi,寿司,すし,,noun,,,2022-08-12,312,DUO_01_02 DUO_U01 GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun duo-01-02 duo-u01 genki3-l10
 b39de966-5af7-5bec-a79b-2c72f8c7e4f9,sashimi,刺身,さしみ,,noun,,2,2022-08-12,313,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
@@ -392,7 +392,7 @@ b7339af2-316c-551b-a5da-cb03d2ef2392,on,上,うえ,,noun,,5,2022-08-10,385,GENKI
 f8bbf752-a05d-542c-99ad-1b59fec7e4a6,near; nearby,近く,ちかく,,noun,,5,2022-08-10,387,GENKI3_L04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,location noun genki3-l04
 9c00bb62-e821-5702-ad5d-20d324fdb688,next (to); adjacent,隣,となり,,noun,,5,2022-08-10,388,GENKI3_L04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,location noun genki3-l04
 5d31fe9a-a3d5-548d-b92c-323392afbb5f,between,間,あいだ,,noun,,5,2022-08-10,389,GENKI3_L04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,location noun genki3-l04
-4f2e177f-cee0-4330-ac19-9c6506a76c9b,amazing,すごい,すごい,凄い,adjective,i adjective,4,2022-10-06,390,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective i-adjective
+4f2e177f-cee0-4330-ac19-9c6506a76c9b,amazing,すごい,すごい,凄い,adjective,i adjective,4,2022-10-06,390,,すごい,すごかった,すごくて,,,,,,,,,,,,,,,,すごくない,すごくなかった,,,,,,,,,,,,,,,,,adjective i-adjective
 1892e385-4410-4dae-94d6-24b8c84c27a1,let me see; well; errr; uh,ええと,ええと,,expression,,2,2022-10-06,391,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
 e48fb32f-70db-56b6-9be3-882d953469c5,senior colleague,先輩,せんぱい,,noun,,4,2022-09-14,392,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 576386e2-9779-5938-9822-1c1013726a52,junior colleague,後輩,こうはい,,noun,,2,2022-09-14,393,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
@@ -429,7 +429,7 @@ e2a1e5ef-c9d8-5554-a912-e6014d2c0f35,small child; cute small version of someone,
 2ef7fa68-00e9-438c-8a78-e8e1b10cd274,two people,二人,ふたり,,noun,,5,2022-09-26,424,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l07
 281d7359-80a0-519d-9c57-504f35bfd5ee,heated table,こたつ,こたつ,,noun,,1,2022-08-13,425,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 c3f5ef65-8025-5f56-b5e1-efc61a1c81bc,Japanese bedding,布団,ふとん,,noun,,4,2022-08-13,426,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-49dcb689-b576-56c7-b9f6-1da98acb2667,to collect; to assemble; to gather,集める,あつめる,,verb,ichidan verb,4,2022-08-22,427,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,verb ichidan-verb
+49dcb689-b576-56c7-b9f6-1da98acb2667,to collect; to assemble; to gather,集める,あつめる,,verb,ichidan verb,4,2022-08-22,427,,集める,集めた,集めて,,,,,,,集めます,集めました,,,,,,,,集めない,集めなかった,集めなくて,,,,,,,集めません,集めませんでした,,,,,,,,verb ichidan-verb
 4f3a6c3d-94a5-54c7-bd5c-c16d008d8cf7,cheers,乾杯,かんぱい,,noun,,2,2022-08-27,428,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08
 4a03f495-c343-5e8f-a1fe-fd1b6624f63a,laundry,洗濯,せんたく,,noun,,5,2022-08-29,429,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 4126b8e5-2e98-52ad-b637-7bd8ed566781,starry sky,星空,ほしぞら,,noun,,,2022-08-29,430,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
@@ -501,7 +501,7 @@ c0e4b32f-1310-43d5-af64-b603c84c9f3a,Ms. (girl),〜ちゃん,ちゃん,,suffix,,
 685db54c-3d62-4fb2-b18e-28bfdf659461,(my) dad,父,ちち,,noun,,,2022-10-25,496,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l07
 48985c71-3274-4715-9a7c-a7f4e61144e5,(my) mom,母,はは,,noun,,,2022-10-25,497,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l07
 321b332a-43be-46d2-8e2a-b49a3a18fa13,tummy torture; food terrorism,飯テロ,めしてろ,,noun,,,2022-10-18,498,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
-dd54072a-e05a-4b60-a493-578ef2cb015f,lonely; solitary,寂しい,さびしい,,adjective,i adjective,4,2022-09-07,499,GENKI3_L09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l09
+dd54072a-e05a-4b60-a493-578ef2cb015f,lonely; solitary,寂しい,さびしい,,adjective,i adjective,4,2022-09-07,499,GENKI3_L09,寂しい,寂しかった,寂しくて,,,,,,,,,,,,,,,,寂しくない,寂しくなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l09
 aa063477-ef31-4780-9af0-85bc0daccbcf,mouth is lonely,口寂しい,くちさびしい,,adjective,i adjective,,2022-10-06,500,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective i-adjective
 9602b36a-fef2-58f6-a53a-84283766c73d,tidal wave,津波,つなみ,,noun,,1,2022-09-17,501,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 18483a29-02d3-5d72-be2f-2e865c5689a1,typhoon,台風,たいふう,,noun,,4,2022-09-17,502,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
@@ -726,10 +726,10 @@ a4d7a4f5-85a8-470d-bf13-0ab13f937452,to take a bath,お風呂に入る,おふろ
 7e4fb04c-2eb7-49b2-b968-fac6277b7a24,to take (a thing),持っていく,もっていく,持って行く,verb,iku verb,,2023-02-13,721,GENKI3_L08,持っていく,持っていった,持っていって,,,,,,,持っていきます,持っていきました,,,,,,,,持っていかない,持っていかなかった,,,,,,,,持っていきません,持っていきませんでした,,,,,,,,verb iku-verb genki3-l08
 d4260f97-87d1-4fb5-919b-78c83b7e018e,to throw away,捨てる,すてる,,verb,ichidan verb,4,2023-02-13,722,GENKI3_L08,捨てる,捨てた,捨てて,,,,,,,捨てます,捨てました,,,,,,,,捨てない,捨てなかった,,,,,,,,捨てません,捨てませんでした,,,,,,,,verb ichidan-verb genki3-l08
 b7fcec73-d745-43b3-a936-af1fa2f92b87,to begin (transitive; by someone),始める,はじめる,,verb,ichidan verb,4,2023-02-13,723,GENKI3_L08,始める,始めた,始めて,,,,,,,始めます,始めました,,,,,,,,始めない,始めなかった,,,,,,,,始めません,始めませんでした,,,,,,,,verb ichidan-verb genki3-l08
-8632038c-1185-43be-ba47-9c89cbf22491,to operate machine; to drive,運転する,うんてんする,,verb,suru verb,3,2023-02-13,724,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,verb suru-verb genki3-l08
-98fd7ee4-f94c-44d8-8bc4-c8ce98cdc295,to do laundry,洗濯する,せんたくする,,verb,suru verb,5,2023-02-13,725,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,verb suru-verb genki3-l08
-ad65a5b9-f5c8-4031-b1ae-79b73ffbc605,to clean,掃除する,そうじする,,verb,suru verb,5,2023-02-13,726,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,verb suru-verb genki3-l08
-83670490-efbb-4edf-b831-bf8b63eade84,to cook,料理する,りょうりする,,verb,suru verb,5,2023-02-13,727,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,verb suru-verb genki3-l08
+8632038c-1185-43be-ba47-9c89cbf22491,to operate machine; to drive,運転する,うんてんする,,verb,suru verb,3,2023-02-13,724,GENKI3_L08,運転する,運転した,運転して,,,,,,,運転します,運転しました,,,,,,,,運転しない,運転しなかった,運転しなくて,,,,,,,運転しません,運転しませんでした,,,,,,,,verb suru-verb genki3-l08
+98fd7ee4-f94c-44d8-8bc4-c8ce98cdc295,to do laundry,洗濯する,せんたくする,,verb,suru verb,5,2023-02-13,725,GENKI3_L08,洗濯する,洗濯した,洗濯して,,,,,,,洗濯します,洗濯しました,,,,,,,,洗濯しない,洗濯しなかった,洗濯しなくて,,,,,,,洗濯しません,洗濯しませんでした,,,,,,,,verb suru-verb genki3-l08
+ad65a5b9-f5c8-4031-b1ae-79b73ffbc605,to clean,掃除する,そうじする,,verb,suru verb,5,2023-02-13,726,GENKI3_L08,掃除する,掃除した,掃除して,,,,,,,掃除します,掃除しました,,,,,,,,掃除しない,掃除しなかった,掃除しなくて,,,,,,,掃除しません,掃除しませんでした,,,,,,,,verb suru-verb genki3-l08
+83670490-efbb-4edf-b831-bf8b63eade84,to cook,料理する,りょうりする,,verb,suru verb,5,2023-02-13,727,GENKI3_L08,料理する,料理した,料理して,,,,,,,料理します,料理しました,,,,,,,,料理しない,料理しなかった,料理しなくて,,,,,,,料理しません,料理しませんでした,,,,,,,,verb suru-verb genki3-l08
 1c110c93-26bf-48b3-810e-c87f3139a5d8,always; all the time,いつも,いつも,,adverb,,5,2023-02-19,728,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adverb genki3-l08
 b27a1f3a-eca5-420c-89fa-5e00469a4bcb,everyone together,みんなで,みんなで,,expression,,,2023-02-19,729,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l08
 5c792e43-8635-48d7-a0a4-3b5af1c3bf96,regrettable; unfortunate; disappointing,残念,ざんねん,,adjective,na adjective,4,2023-02-19,730,,残念だ,残念だった,残念で,,,,,,,,,,,,,,,,残念じゃない,残念じゃなかった,,,,,,,,,,,,,,,,,adjective na-adjective
@@ -1037,7 +1037,7 @@ f5cbf874-f82b-4efb-96e1-4aa3f5d70c88,eyebrow,眉毛,まゆげ,,noun,,5,2023-07-0
 f514c41e-7583-4314-964b-85e98ef768a9,after school,放課後,ほうかご,,noun,,,2023-07-26,1032,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 a3abe00b-2a6a-469a-bc41-683847115aa6,"okay, okay; no problem.",平気平気,へいきへいき,,expression,,,2023-07-26,1033,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
 7c8de559-3219-4ee0-9d80-783886e04e23,"cool, calm; alright, okay",平気,へいき,,adjective,na adjective,2,2023-07-26,1034,,平気だ,平気だった,平気で,,,,,,,,,,,,,,,,平気じゃない,平気じゃなかった,,,,,,,,,,,,,,,,,adjective na-adjective
-c478c022-153f-4cb5-9d03-5ab41b2f0f26,lovely; wonderful,素敵,すてき,,adjective,na adjective,3,2023-07-26,1035,,素敵だ,素敵だった,素敵で,,,,,,,,,,,,,,,,素敵じゃない,素敵じゃなかった,,,,,,,,,,,,,,,,,adjective na-adjective
+c478c022-153f-4cb5-9d03-5ab41b2f0f26,lovely; wonderful,素敵,すてき,,adjective,na adjective,3,2023-07-26,1035,GENKI3_L12,素敵だ,素敵だった,素敵で,,,,,,,,,,,,,,,,素敵じゃない,素敵じゃなかった,,,,,,,,,,,,,,,,,adjective na-adjective genki3-l12
 dd36edcd-f4ad-4c02-93d7-68b62cc6ce96,to be silent; to say nothing,黙る,だまる,,verb,godan verb,3,2023-07-26,1036,,黙る,黙った,黙って,,,,,,,黙ります,黙りました,,,,,,,,黙らない,黙らなかった,黙らなくて,,,,,,,黙りません,黙りませんでした,,,,,,,,verb godan-verb
 3d338d48-08d3-4c93-962b-751b7d6ed4c4,shut-up,だまれ,だまれ,黙れ,expression,,,2023-07-26,1037,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
 6fc9aac0-cfc6-47b0-a6b7-4f159f5e005e,chuckle-chuckle,くすくす,くすくす,,expression,,,2023-07-26,1038,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
@@ -1074,9 +1074,24 @@ f88fe556-3635-470d-acc1-8cdb60c9396d,clothes (esp. Western clothes),服,ふく,,
 466f5766-af1d-4ff6-aaf6-bdab641cb921,thing (concrete object),物,もの,,noun,,5,2023-08-06,1069,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l12
 b0030f58-6fb0-4693-a003-8a3f8982c229,present; gift,プレゼント,ぷれぜんと,,noun,,4,2023-08-06,1070,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l12
 d3951418-0bce-4527-a675-1fb479d57a8e,"charge, fee; generation, school year, reign",〜代,〜だい,,suffix,,,2023-08-06,1071,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,suffix genki3-l12
-6555991b-5151-4bb7-9fd5-e56168155e70,business to take care of; tasks; errand,用事,ようじ,,noun,,4,2023-08-06,1072,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l12
-c2ae2edc-d8a5-45cb-bb22-3000878734de,restroom; lavatory,お手洗い,おてあらい,,noun,,5,2023-08-06,1073,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l12
-ddc1dfa4-8993-4324-9353-20a35cffd8bd,match; game,試合,しあい,,noun,,4,2023-08-06,1074,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l12
-9bf40a2d-6506-4437-8b16-40db606989c0,"grade (on a test, etc.)",成績,せいせき,,noun,,3,2023-08-06,1075,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l12
-7a6e8950-d1a0-443c-923d-5bcb01163371,boyfriend,彼氏,かれし,,noun,,,2023-08-06,1076,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l12
-eb687fed-4097-43de-b0a2-92c7f6b66902,meaning; significance,意味,いみ,,noun,,5,2023-08-06,1077,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l12
+0dd69b0e-4851-4886-94ee-4fd547959097,interest (in something); curiosity (about something),興味,きょうみ,,noun,,4,2023-08-14,1072,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+6555991b-5151-4bb7-9fd5-e56168155e70,business to take care of; tasks; errand,用事,ようじ,,noun,,4,2023-08-06,1073,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l12
+c2ae2edc-d8a5-45cb-bb22-3000878734de,restroom; lavatory,お手洗い,おてあらい,,noun,,5,2023-08-06,1074,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l12
+ddc1dfa4-8993-4324-9353-20a35cffd8bd,match; game,試合,しあい,,noun,,4,2023-08-06,1075,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l12
+9bf40a2d-6506-4437-8b16-40db606989c0,"grade (on a test, etc.)",成績,せいせき,,noun,,3,2023-08-06,1076,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l12
+7a6e8950-d1a0-443c-923d-5bcb01163371,boyfriend,彼氏,かれし,,noun,,,2023-08-06,1077,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l12
+eb687fed-4097-43de-b0a2-92c7f6b66902,meaning; significance,意味,いみ,,noun,,5,2023-08-06,1078,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l12
+b9535bfb-ebaf-40db-9a4c-b0b6d2050f87,"narrow, confined; narrow-minded",狭い,せまい,,adjective,i adjective,5,2023-08-14,1079,GENKI3_L12,狭い,狭かった,狭くて,,,,,,,,,,,,,,,,狭くない,狭くなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l12
+13324ffc-76b4-41cd-9290-dfc0ed89dad3,"wide, spacious",広い,ひろい,,adjective,i adjective,5,2023-08-14,1080,GENKI3_L12,広い,広かった,広くて,,,,,,,,,,,,,,,,広くない,広くなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l12
+ad9caf05-8fd6-417a-af7f-96daf4b13180,bad,悪い,わるい,,adjective,i adjective,5,2023-08-14,1081,GENKI3_L12,悪い,悪かった,悪くて,,,,,,,,,,,,,,,,悪くない,悪くなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l12
+625d1004-a176-43da-9304-facd0c90d159,"painful, sore; hurts; slang for cringy, embarrassing",痛い,いたい,,adjective,i adjective,5,2023-08-14,1082,GENKI3_L12,痛い,痛かった,痛くて,,,,,,,,,,,,,,,,痛くない,痛くなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l12
+050c6d9b-cc8e-496b-b1c2-8e115a438541,"many, numerous; a lot in number",多い,おおい,,adjective,i adjective,5,2023-08-14,1083,GENKI3_L12,多い,多かった,多くて,,,,,,,,,,,,,,,,多くない,多くなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l12
+406e4af2-b723-49b7-9d29-c68f624a8011,to thirst; to crave,渇く,かわく,,verb,godan verb,2,2023-08-14,1084,,渇く,渇いた,渇いて,,,,,,,渇きます,渇きました,,,,,,,,渇かない,渇かなかった,渇かなくて,,,,,,,渇きません,渇きませんでした,,,,,,,,verb godan-verb
+5ddce05c-9319-4a88-8dd8-6487ba3c661a,to walk,歩く,あるく,,verb,godan verb,5,2023-08-14,1085,GENKI3_L12,歩く,歩いた,歩いて,,,,,,,歩きます,歩きました,,,,,,,,歩かない,歩かなかった,歩かなくて,,,,,,,歩きません,歩きませんでした,,,,,,,,verb godan-verb genki3-l12
+31e9ef41-9e83-438d-a458-2b0a38314726,to catch a cold,風邪をひく,かぜおひく,,verb,godan verb,,2023-08-14,1086,GENKI3_L12,風邪をひく,風邪をひいた,風邪をひいて,,,,,,,風邪をひきます,風邪をひきました,,,,,,,,風邪をひかない,風邪をひかなかった,風邪をひかなくて,,,,,,,風邪をひきません,風邪をひきませんでした,,,,,,,,verb godan-verb genki3-l12
+edd10fbe-217d-4d29-bab8-d13b336f0a80,to have a fever,熱がある,ねつがある,,verb,godan verb,,2023-08-14,1087,GENKI3_L12,熱がある,熱があった,熱があって,,,,,,,熱があります,熱がありました,,,,,,,,熱があらない,熱があらなかった,熱があらなくて,,,,,,,熱がありません,熱がありませんでした,,,,,,,,verb godan-verb genki3-l12
+4f72dc1d-5621-463e-8b12-78116a8714af,to become thirsty,喉が渇く,のどがかわく,喉が乾く,verb,godan verb,,2023-08-14,1088,GENKI3_L12,喉が渇く,喉が渇いた,喉が渇いて,,,,,,,喉が渇きます,喉が渇きました,,,,,,,,喉が渇かない,喉が渇かなかった,喉が渇かなくて,,,,,,,喉が渇きません,喉が渇きませんでした,,,,,,,,verb godan-verb genki3-l12
+1f0cdf92-fe3d-415d-b01c-59b32023e3b6,"to pay (e.g. a bill); to brush off, wipe away",払う,はらう,,verb,godan verb,4,2023-08-14,1089,GENKI3_L12,払う,払った,払って,,,,,,,払います,払いました,,,,,,,,払わない,払わなかった,払わなくて,,,,,,,払いません,払いませんでした,,,,,,,,verb godan-verb genki3-l12
+a66d5760-b877-4ae9-8245-06248130ca6e,"to lose (something); to get rid of, eliminate, remove",なくす,なくす,無くす,verb,godan verb,5,2023-08-14,1090,GENKI3_L12,なくす,なくした,なくして,,,,,,,なくします,なくしました,,,,,,,,なくさない,なくさなかった,なくさなくて,,,,,,,なくしません,なくしませんでした,,,,,,,,verb godan-verb genki3-l12
+7e3c8052-4a60-4d5f-91b3-5e9e49259e9c,to be interested (in...),興味がある,きょうみがある,,verb,godan verb,,2023-08-14,1091,GENKI3_L12,興味がある,興味があった,興味があって,,,,,,,興味があります,興味がありました,,,,,,,,興味があらない,興味があらなかった,興味があらなくて,,,,,,,興味がありません,興味がありませんでした,,,,,,,,verb godan-verb genki3-l12
+431d3458-6634-4a7e-8c2f-e0e24edd1ab0,to get dry,乾く,かわく,,verb,godan verb,4,2023-08-14,1092,,乾く,乾いた,乾いて,,,,,,,乾きます,乾きました,,,,,,,,乾かない,乾かなかった,乾かなくて,,,,,,,乾きません,乾きませんでした,,,,,,,,verb godan-verb
