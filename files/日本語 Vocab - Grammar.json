@@ -1084,7 +1084,7 @@
         "id": "1678adef-7305-4f9e-8644-c2c13f4ef00f",
         "meaning": "I went to a department store to buy a bag.",
         "text": {
-          "spelling": "デパートにかばんをかいに{行|い}きました。"
+          "spelling": "デパートにかばんを{買|か}いに{行|い}きました。"
         },
         "lesson_codes": ["GENKI3_L07"],
         "tags": []
