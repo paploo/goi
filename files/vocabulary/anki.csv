@@ -1106,23 +1106,37 @@ c77090c9-7699-4c5f-be70-2de5d0d63fc2,don't look well,元気がない,げんき�
 f09fa12a-9b9b-486d-9094-a639a8624d1c,for the first time,初めて,はじめて,,adverb,,5,2023-08-19,1101,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adverb genki3-l12
 38cff09c-f0dc-4fd8-b223-e426228b6c56,two to three days,二三日,にさんにち,二、三日,noun,,,2023-08-19,1102,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l12
 45ea90e7-b688-470e-852c-d7c18a8a2b23,"besides, in addition, also, moreover",それに,それに,其れに,conjunction,,4,2023-08-19,1103,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,conjunction genki3-l12
-d62c6268-6138-471d-becc-7d7796aac610,"road, path, street; route",道,みち,,noun,,5,2023-08-19,1104,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-26a6add0-0043-4dd2-ab3b-6db454a5cd8b,bridge,橋,はし,,noun,,5,2023-08-19,1105,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-85ac9d74-a276-443f-9a2a-eca1bfc7e972,road; highway,道路,どうろ,,noun,,3,2023-08-19,1106,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-8884b984-cfcb-4537-b6ef-9ea08955506d,freeway; expressway,高速道路,こうそくどうろ,,noun,,,2023-08-19,1107,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-c959e600-2c26-4884-bfee-700dc412720d,traffic light; signal,信号,しんごう,,noun,,3,2023-08-19,1108,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-103cb65d-49a0-455a-ba6a-e134d430d946,traffic circle; roundabout,ロータリー,ろおたりい,,noun,,,2023-08-19,1109,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-8c1d005f-3d35-4e4c-852c-3c45e5119617,straight ahead; direct (route),まっすぐ,まっすぐ,真っ直ぐ,noun,,5,2023-08-19,1110,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+d62c6268-6138-471d-becc-7d7796aac610,"road, path, street; route",道,みち,,noun,,5,2023-08-19,1104,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,roads noun
+26a6add0-0043-4dd2-ab3b-6db454a5cd8b,bridge,橋,はし,,noun,,5,2023-08-19,1105,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,roads noun
+85ac9d74-a276-443f-9a2a-eca1bfc7e972,road; highway,道路,どうろ,,noun,,3,2023-08-19,1106,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,roads noun
+8884b984-cfcb-4537-b6ef-9ea08955506d,freeway; expressway,高速道路,こうそくどうろ,,noun,,,2023-08-19,1107,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,roads noun
+c959e600-2c26-4884-bfee-700dc412720d,traffic light; signal,信号,しんごう,,noun,,3,2023-08-19,1108,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,roads noun
+103cb65d-49a0-455a-ba6a-e134d430d946,traffic circle; roundabout,ロータリー,ろおたりい,,noun,,,2023-08-19,1109,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,roads noun
+8c1d005f-3d35-4e4c-852c-3c45e5119617,straight ahead; direct (route),まっすぐ,まっすぐ,真っ直ぐ,noun,,5,2023-08-19,1110,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,roads noun
 a5b14922-855c-441e-a335-5fdb9209e56f,corner; edge,角,かど,,noun,,5,2023-08-19,1111,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 7686f747-f955-4079-bf34-f23dd9c6fa8e,"side (of something, or taking someone's side)",側,がわ,,noun,,5,2023-08-19,1112,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 37a13ec3-c024-4a38-b4de-ad63e1d75b8b,ordinal number suffix,〜目,〜め,,suffix,,5,2023-08-19,1113,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,suffix
 e7d2c825-b4a8-47da-9825-fa7db01bf8dd,"to bend, to curve; to turn",曲がる,まがる,,verb,godan verb,5,2023-08-19,1114,,曲がる,曲がった,曲がって,,,,,,,曲がります,曲がりました,,,,,,,,曲がらない,曲がらなかった,曲がらなくて,,,,,,,曲がりません,曲がりませんでした,,,,,,,,verb godan-verb
 a118ba7f-e1b5-40e6-97b3-3ffd9a941ee4,"to cross over, to go across",渡る,わたる,,verb,godan verb,5,2023-08-19,1115,,渡る,渡った,渡って,,,,,,,渡ります,渡りました,,,,,,,,渡らない,渡らなかった,渡らなくて,,,,,,,渡りません,渡りませんでした,,,,,,,,verb godan-verb
-70876a31-cbd8-4d8a-9c9f-24daffeab903,turn left,左に曲がる,ひだりまがる,,expression,,,2023-08-19,1116,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l06
-681b71c5-6a4d-48d5-abab-8163b3643834,turn right,右に曲がる,みぎにまがる,,expression,,,2023-08-19,1117,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l06
-2a050671-c33f-454a-93bc-81aef09dc985,go straight ahead,まっすぐ行く,まっすぐいく,真っ直ぐ行く,expression,,,2023-08-19,1118,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l06
-694d9251-f941-4423-ae8f-623795994442,cross the street,道を渡る,みちおわたる,,expression,,,2023-08-19,1119,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l06
-11b574a3-d877-4700-8c14-f73f79549d28,turn left at the second corner,二つ目の角を左に曲がる,ふたつめのかどおひだりにまがる,,expression,,,2023-08-19,1120,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l06
-20b7ab1e-d446-41ba-83ca-0b8d28b9b93d,turn right at the first traffic light,一つ目の信号を右に曲がる,ひとつめのしんごうおひだりにまがる,,expression,,,2023-08-19,1121,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l06
-00e58b4d-a715-410c-afab-08bec93f1274,left side of the street,道の左側,みちのひだりがわ,,noun,,,2023-08-19,1122,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l06
-c3b3e9a4-3ace-4b98-9a13-c8f49931c6be,right side of the street,道の右側,みちのみぎがわ,,noun,,,2023-08-19,1123,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l06
+70876a31-cbd8-4d8a-9c9f-24daffeab903,turn left,左に曲がる,ひだりまがる,,expression,,,2023-08-19,1116,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions expression genki3-l06
+681b71c5-6a4d-48d5-abab-8163b3643834,turn right,右に曲がる,みぎにまがる,,expression,,,2023-08-19,1117,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions expression genki3-l06
+2a050671-c33f-454a-93bc-81aef09dc985,go straight ahead,まっすぐ行く,まっすぐいく,真っ直ぐ行く,expression,,,2023-08-19,1118,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions expression genki3-l06
+694d9251-f941-4423-ae8f-623795994442,cross the street,道を渡る,みちおわたる,,expression,,,2023-08-19,1119,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions expression genki3-l06
+11b574a3-d877-4700-8c14-f73f79549d28,turn left at the second corner,二つ目の角を左に曲がる,ふたつめのかどおひだりにまがる,,expression,,,2023-08-19,1120,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions expression genki3-l06
+20b7ab1e-d446-41ba-83ca-0b8d28b9b93d,turn right at the first traffic light,一つ目の信号を右に曲がる,ひとつめのしんごうおひだりにまがる,,expression,,,2023-08-19,1121,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions expression genki3-l06
+00e58b4d-a715-410c-afab-08bec93f1274,left side of the street,道の左側,みちのひだりがわ,,noun,,,2023-08-19,1122,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions noun genki3-l06
+c3b3e9a4-3ace-4b98-9a13-c8f49931c6be,right side of the street,道の右側,みちのみぎがわ,,noun,,,2023-08-19,1123,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions noun genki3-l06
+8d5224d4-fae7-4c07-bea3-a99ee92a5201,deer,鹿,しか,,noun,,,2023-08-19,1124,GENKI3_READER_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,animal noun genki3-reader-l06
+92c80009-73fb-4ad7-85e5-85dc734ebdd8,dawn,暁,あかつき,,noun,,,2023-08-19,1125,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+3e3b9c43-a6b3-44b9-91ed-0a7c0713f419,steamed immature soybean dish,枝豆,えだまめ,,noun,,,2023-08-19,1126,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
+75e16084-677e-4356-a7a6-55b5a7acb509,sugar,砂糖,さとう,,noun,,,2023-08-19,1127,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
+ab95ec33-d82d-422a-981d-3897138cf40c,stone (liftable),石,いし,,noun,,,2023-08-19,1128,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+49aedaa1-bdab-4551-84e5-7bc8f3717fcd,prefix for ordinal numbers,第〜,だい〜,,prefix,,1,2023-08-19,1129,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,prefix
+1e1bf4fd-c4b1-48b5-96ca-b427634e4a92,counter for occurrences,〜回,〜かい,,counter,,3,2023-08-19,1130,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter
+fbcbed4b-b36f-4b0a-a4d6-3442c8f335cd,counter for volume of a book counter; rolls of paper,〜巻,〜かん,,counter,,,2023-08-19,1131,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter
+d91afc90-6ea1-4f0f-a88d-5e3db6cdb4ae,"counter for stories, TV episodes, etc",〜話,〜わ,,counter,,,2023-08-19,1132,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter
+c9e049f6-abca-4d42-9317-77227b6321ba,"chapter, section",章,しょう,,noun,,3,2023-08-19,1133,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+dd3784df-38c1-4751-86bc-d05a690d5c82,book volume one; manga volume one,第１巻,だいいっかん,第一巻,noun,,,2023-08-19,1134,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+ed38785b-186c-404f-824f-9bc499be075f,television/anime episode one (lit. story number one),第１話,だいいちわ,第一話,noun,,,2023-08-19,1135,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+cdf0b243-612d-47aa-85ae-3f785a27065e,"first occurence, first time; tv/anime episode one (lit. occurence number one)",第１回,だいいっかい,第一回,noun,,,2023-08-19,1136,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+ef17c3e4-003d-40ad-b6fb-4c0e617c96bc,chapter/section one,第１章,だいいっしょう,第一章,noun,,,2023-08-19,1137,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
