@@ -641,7 +641,7 @@
     "title": "〜てください",
     "meaning": "please do ... for me",
     "how_to_use": [
-      "verb(て　form) + ください"
+      "verb (て form) + ください"
     ],
     "examples": [
       {
@@ -825,8 +825,8 @@
     "title": "①　〜ている",
     "meaning": "action in progress; action is occupation or habit",
     "how_to_use": [
-      "activity verb + ている",
-      "activity verb + ています"
+      "activity verb (て form) + いる",
+      "activity verb (て form) + います"
     ],
     "examples": [
       {
@@ -885,8 +885,8 @@
     "title": "②　〜ている",
     "meaning": "result of a change",
     "how_to_use": [
-      "change verb + ている",
-      "change verb + ています"
+      "change verb (て form) + いる",
+      "change verb (て form) + います"
     ],
     "examples": [
       {
@@ -1556,6 +1556,76 @@
     "lesson_codes": [
       "GENKI3_L09"
     ],
+    "tags": []
+  },
+  {
+    "id": "b74986e7-b6cc-469c-a99f-d5d96e5b20af",
+    "title": "〜noun",
+    "meaning": "Qualifying Nouns with Verbs and Adjectives",
+    "how_to_use": [
+      "い-adj + noun",
+      "な-adj + な + noun",
+      "verb + ている + noun"
+    ],
+    "examples": [
+      {
+        "id": "51da4689-f81e-49dc-a3b2-e5a3e2ca68f8",
+        "meaning": "A person who has long hair",
+        "text": {
+          "spelling": "{髪|かみ}が{長|なが}い{人|ひと}"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      },
+      {
+        "id": "410d9b6a-8aac-4174-9583-122e21de930b",
+        "meaning": "A person who likes cats",
+        "text": {
+          "spelling": "{猫|ねこ}が{好|す}きな{人|ひと}"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      },
+      {
+        "id": "26a7f9d5-d429-4408-837f-2af106599d66",
+        "meaning": "A person who wears glasses",
+        "text": {
+          "spelling": "メガネをかけている{人|ひと}"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      },
+      {
+        "id": "b373eaa4-848d-4aee-9696-f4fdab063f8b",
+        "meaning": "A: Which one is Yui?<br/>B: Yui is the one who is reading a book over there.",
+        "text": {
+          "spelling": "Ａ：ゆいさんはどの{人|ひと}ですか。<br/>Ｂ：あそこで{本|ほん}を{読|よ}んでいる{人|ひと}です。"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      },
+      {
+        "id": "8b624060-8a7c-4295-bc58-d4eecb9a1290",
+        "meaning": "The student taking pictures over there is Robert.",
+        "text": {
+          "spelling": "あそこで{写真|しゃ・しん}を{撮|と}っている{学生|がく・せい}はロバートさんです。"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      },
+      {
+        "id": "4ecbae11-372c-45a8-8dc6-339423e52f61",
+        "meaning": "A: Which one is Erika?<br/>B: (She) is the person who is talking with Momo.",
+        "text": {
+          "spelling": "Ａ：エリカさんはどの人ですか。<br/>Ｂ：ももさんと話している人です。"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-08-23",
+    "lesson_codes": ["GENKI3_L09"],
     "tags": []
   },
 
