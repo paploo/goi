@@ -513,7 +513,7 @@
   {"COMMENT": "GENKI LESSON 05"},
   {
     "id": "ab1cd527-1492-4657-8d6e-0905ca0154ca",
-    "title": "Ａ(な)Ｎ",
+    "title": "ＡＮ<br/>ＡなＮ",
     "meaning": "Adjective Noun Modification",
     "how_to_use": [
       "い-adj + noun",
@@ -1560,7 +1560,7 @@
   },
   {
     "id": "b74986e7-b6cc-469c-a99f-d5d96e5b20af",
-    "title": "〜noun",
+    "title": "〜ているＮ<br/>ＡＮ<br/>ＡなＮ",
     "meaning": "Qualifying Nouns with Verbs and Adjectives",
     "how_to_use": [
       "い-adj + noun",
@@ -1570,7 +1570,7 @@
     "examples": [
       {
         "id": "51da4689-f81e-49dc-a3b2-e5a3e2ca68f8",
-        "meaning": "A person who has long hair",
+        "meaning": "a person who has long hair",
         "text": {
           "spelling": "{髪|かみ}が{長|なが}い{人|ひと}"
         },
@@ -1579,7 +1579,7 @@
       },
       {
         "id": "410d9b6a-8aac-4174-9583-122e21de930b",
-        "meaning": "A person who likes cats",
+        "meaning": "a person who likes cats",
         "text": {
           "spelling": "{猫|ねこ}が{好|す}きな{人|ひと}"
         },
@@ -1588,7 +1588,7 @@
       },
       {
         "id": "26a7f9d5-d429-4408-837f-2af106599d66",
-        "meaning": "A person who wears glasses",
+        "meaning": "a person who wears glasses",
         "text": {
           "spelling": "メガネをかけている{人|ひと}"
         },
