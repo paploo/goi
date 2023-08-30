@@ -521,8 +521,8 @@ efc52f0e-dabf-46c7-b2ad-26e571ae6d45,to assist; to help,手伝う,てつだう,,
 b6c9813d-5289-4b39-8a74-b5f33c33caab,anticipation; looking forward,楽しみ,たのしみ,,noun,,4,2022-10-28,516,SATORI_AKIKO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun satori-akiko
 b1d00880-96a1-4022-83e8-37b3d194641a,diary; journal,日記,にっき,,noun,,4,2022-10-28,517,SATORI_AKIKO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun satori-akiko
 08e9dd32-2b1b-4607-be8e-d478b4b61dcc,this morning,今朝,けさ,,noun,,5,2022-10-28,518,GENKI3_L08 SATORI_AKIKO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l08 satori-akiko
-a10a6ed4-5532-49e3-b3d5-85ce530a2e68,"from (e.g. time, place, numerical); since",から,から,,particle,,,2022-10-28,519,GENKI3_L09 SATORI_AKIKO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,particle genki3-l09 satori-akiko
-7616d577-d1e9-46fa-882d-6ef09228b67e,to (a place/a time); until,まで,まで,迄,particle,,,2023-03-15,520,GENKI3_L09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,particle genki3-l09
+a10a6ed4-5532-49e3-b3d5-85ce530a2e68,"from (e.g. time, place, numerical); since",〜から,〜から,,particle,,,2022-10-28,519,GENKI3_L09 SATORI_AKIKO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,particle genki3-l09 satori-akiko
+7616d577-d1e9-46fa-882d-6ef09228b67e,to (a place/a time); until,〜まで,〜まで,迄,particle,,,2023-03-15,520,GENKI3_L09,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,particle genki3-l09
 66b9dcc9-149e-4639-812b-d3a37529ddd5,to fly; to soar,飛ぶ,とぶ,,verb,godan verb,5,2022-10-28,521,SATORI_AKIKO,飛ぶ,飛んだ,飛んで,,,,,,,飛びます,飛びました,,,,,,,,飛ばない,飛ばなかった,飛ばなくて,,,,,,,飛びません,飛びませんでした,,,,,,,,verb godan-verb satori-akiko
 9e9f9643-20da-4b45-81cf-6529c352b762,Seattle,シアトル,しあとる,,proper noun,,,2022-10-28,522,SATORI_AKIKO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,city place proper-noun satori-akiko
 9faa758c-5112-402d-8ef9-fd45059aac84,airport,空港,くうこう,,noun,,4,2022-10-28,523,SATORI_AKIKO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,place noun satori-akiko
@@ -601,7 +601,7 @@ bb48ad15-f759-4f3a-a82e-086955c34c32,that would be fine; that wouldn't be necess
 8305b809-be6b-4db9-a865-6eab6bc3d31a,really?,本当ですか,ほんとうですか,,expression,,,2022-11-07,596,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l06
 a76843ba-7c36-48c7-8228-c4fc87f7dc5a,Happy New Year (before),良いお年をお迎え下さい,よいおとしをおむかえください,,expression,,,2022-12-30,597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,new-year expression
 ee74ec67-b3e5-4897-80e1-a95662a97d2e,Happy New Year (after),明けましておめでとうございます,あけましておめでとうございます,,expression,,,2022-12-30,598,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,new-year expression
-970a61f9-8199-4c8e-8ead-6be5ee79f686,first Shrine visit of the new year,初詣,はつもうで,,noun,,,2022-02-23,599,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,new-year shinto noun
+970a61f9-8199-4c8e-8ead-6be5ee79f686,first Shrine visit of the new year,初詣,はつもうで,,noun,,,2023-02-23,599,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,new-year shinto noun
 bc35c124-e247-49d1-8d23-85c0f1526d5a,English Language,英語,えいご,,noun,,5,2022-11-27,600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 6cba1e11-925c-40b6-a59c-00f167b33c66,literature; the arts,文芸,ぶんげい,,noun,,2,2022-11-27,601,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 73326224-f7f3-4425-836f-7c2ef93d478a,astronomy,天文,てんもん,,noun,,,2022-11-27,602,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
@@ -646,7 +646,7 @@ d864756e-dd31-48ab-8c50-b5c574c88f8f,"plump, chubby; 〇〇 (placeholder)",丸�
 08fc35f2-25ad-4f21-8c9a-5e8b0ac46bcb,cafeteria; dining commons,食堂,しょくどう,,noun,,5,2022-12-26,641,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l07
 ede7bbcc-5506-4d37-bbf2-802b22422332,department store,デパート,でぱあと,,noun,,5,2022-12-26,642,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l07
 fe9c2565-7cc3-4bbe-8c25-6a2302f83953,hair (on the head),髪,かみ,,noun,,5,2022-12-26,643,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,body noun genki3-l07
-9a7a411c-754d-4e0a-a0ba-0641b5dbec0e,glasses,めがね,めがね,眼鏡,noun,,5,2022-12-26,644,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l07
+9a7a411c-754d-4e0a-a0ba-0641b5dbec0e,glasses,メガネ,めがね,眼鏡,noun,,5,2022-12-26,644,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l07
 ea726385-922e-4bd4-a05e-85b7ca9d66b7,song,歌,うた,,noun,,5,2022-12-26,645,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l07
 74bc8dc3-881d-4428-b957-086adf3e18a2,club; group with common interests,サークル,さあくる,,noun,,2,2022-12-26,646,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l07
 2e35a029-8475-408a-bf4a-f56b7bd14035,car,車,くるま,,noun,,5,2022-12-26,647,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,transportation noun genki3-l07
@@ -1047,7 +1047,7 @@ bc8cac37-af5d-47fd-b71f-399f4e0c0698,Great Purification Norito,大祓詞,おお�
 671c88b2-b358-4229-9a5a-4474f740a7c7,samurai,侍,さむらい,,noun,,1,2023-07-26,1042,GENKI3_READER_L04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-reader-l04
 4ed750e9-44da-4f8e-a6b7-87f3866f5067,ninja (western term for shinobi),忍者,にんじゃ,,noun,,,2023-07-26,1043,GENKI3_READER_L04,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-reader-l04
 30192858-4515-484b-97c9-3b6f5d80211b,stealth; shinobi (ninja),忍び,しのび,,noun,,,2023-07-26,1044,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-02f6ab80-d8a5-4669-8406-adfbe1105595,chopstic counter; bowlfuls of rice counter,〜膳,〜ぜん,~膳,counter,,1,2023-07-26,1045,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter
+02f6ab80-d8a5-4669-8406-adfbe1105595,chopstic counter; bowlfuls of rice counter,〜膳,〜ぜん,,counter,,1,2023-07-26,1045,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter
 f2941d49-7e5d-431e-8178-14baf7f9eec1,small dining table (for one),膳,ぜん,,noun,,1,2023-07-26,1046,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 71f788e7-0988-411a-bc28-7971a7ac8f9a,minus; negative number,マイナス,まいなす,,noun,,2,2023-07-26,1047,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 5a2d7301-0927-4c4f-bf46-4944dcedd2d4,chicken (animal),鶏,にわとり,,noun,,5,2023-07-26,1048,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,animal noun
