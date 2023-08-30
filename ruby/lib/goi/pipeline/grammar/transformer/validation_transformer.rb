@@ -105,7 +105,7 @@ module Goi
             return nil if mistitled_hydrated_rules.empty?
 
             messages = mistitled_hydrated_rules.map do |hr|
-              Goi::Core::ValidationMessage.warn("Rule #{hr.rule.id} title placeholder width not wide: #{hr.rule.title.preferred_spelling.inspect}")
+              Goi::Core::ValidationMessage.warn("Rule #{hr.rule.id} title placeholder (capital char) width not wide: #{hr.rule.title.preferred_spelling.inspect}")
             end
 
             Goi::Core::ValidationReport.new(
