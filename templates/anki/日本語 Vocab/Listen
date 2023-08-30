@@ -1,7 +1,8 @@
 <p class='instruction'>👂🇯🇵→🇬🇧📕</p>
 <p>{{phonetic_spelling}}</p>
 
-{{tts ja_JP:preferred_spelling}}｜{{tts ja_JP:phonetic_spelling}}```
+{{tts ja_JP:preferred_spelling}}｜{{tts ja_JP:phonetic_spelling}}
+```
 {{FrontSide}}
 
 <hr id=answer>

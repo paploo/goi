@@ -4,7 +4,8 @@
 
 <div class="question large">
 {{furigana:title}}
-</div>```
+</div>
+```
 {{FrontSide}}
 
 <hr id=answer>
