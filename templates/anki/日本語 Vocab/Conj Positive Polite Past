@@ -1,7 +1,19 @@
+<script type="text/javascript">
+  function swapElem(idToHide, idToShow, display_type = 'block') {
+    document.getElementById(idToShow).style.display = display_type;
+    document.getElementById(idToHide).style.display = 'none';
+  }
+</script>
+
 {{#positive_polite_past}}
 <p class='instruction'>🇯🇵→🙇🕙</p>
 <p class='word-type'>{{conjugation_kind}}</p>
-<p class='large'><ruby>{{preferred_spelling}}<rt>{{phonetic_spelling}}</rt></ruby></p>
+<div id="kanji" onclick="swapElem('kanji', 'furigana');">
+    <p class='large'>{{preferred_spelling}}</p>
+</div>
+<div id="furigana" style='display:none' onclick="swapElem('furigana', 'kanji');">
+    <p class='large'><ruby>{{preferred_spelling}}<rt>{{phonetic_spelling}}</rt></ruby></p>
+</div>
 <p class='conjugation-directive formal'>🙇🕙<br/>Polite Past?</p>
 {{/positive_polite_past}}
 ```
