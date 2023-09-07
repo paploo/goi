@@ -875,7 +875,7 @@
         "tags": []
       }
     ],
-    "jlpt_level": null,
+    "jlpt_level": 5,
     "date_added": "2023-05-30",
     "lesson_codes": ["GENKI3_L07"],
     "tags": []
@@ -926,7 +926,7 @@
         "tags": []
       }
     ],
-    "jlpt_level": null,
+    "jlpt_level": 5,
     "date_added": "2023-05-30",
     "lesson_codes": ["GENKI3_L07"],
     "tags": []
@@ -1565,7 +1565,7 @@
     "how_to_use": [
       "い-adj + noun",
       "な-adj + な + noun",
-      "verb + ている + noun"
+      "verb (te-form) + いる + noun"
     ],
     "examples": [
       {
@@ -1625,6 +1625,66 @@
     ],
     "jlpt_level": null,
     "date_added": "2023-08-23",
+    "lesson_codes": ["GENKI3_L09"],
+    "tags": []
+  },
+  {
+    "id": "0653c4b2-5685-4913-ac34-24977b7c60dd",
+    "title": "もう〜ました<br/>まだ〜ていません",
+    "meaning": "have ... already<br/>have not ... yet",
+    "how_to_use": [
+      "もう + 〇〇 + verb (past tense) ⟶ already have",
+      "まだ + 〇〇 + verb (te form) + いません ⟶ have not yet"
+    ],
+    "examples": [
+      {
+        "id": "7ed6ed63-8c75-446c-ab22-41946ead4d74",
+        "meaning": "I have already done the homework",
+        "text": {
+          "spelling": "もう{宿題|しゅく・だい}をしました。"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      },
+      {
+        "id": "570e9173-ed24-4d8a-af37-9a9b8224ed60",
+        "meaning": "I have not done the homework yet.",
+        "text": {
+          "spelling": "まだ{宿題|しゅく・だい}をしていません。"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      },
+      {
+        "id": "12427994-7440-40b6-996e-26c982b5f8d7",
+        "meaning": "Q: Did you already memorize the new kanji?<br/>A: Yes, I already memorized them.",
+        "text": {
+          "spelling": "Ｑ：もう{新|あたら}しい{漢字|かん・じ}を{覚|おぼ}えましたか。<br/>Ａ：はい、もう{覚|おぼ}えました。"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      },
+      {
+        "id": "e6717229-68cd-48bf-94ba-31ebfeeba666",
+        "meaning": "Q: Did you already talk with the new teacher?<br/>A: No, I have not yet talked to them.",
+        "text": {
+          "spelling": "Ｑ：もう{新|あたら}しい{先生|せん・せい}と{話|はな}しましたか。<br/>Ａ：いいえ、まだ{話|はな}していません。"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      },
+      {
+        "id": "6f28b5bb-a759-484e-bfc2-337819e68267",
+        "meaning": "Q: Did you already memorize your lesson 10 vocabulary?<br/>A: No, I haven't memorized them yet.",
+        "text": {
+          "spelling": "Ｑ：もう{十|じゅう}{課|か}の{単語|たん・ご}を{覚|おぼ}えた？<br/>Ａ：ううん、まだ{覚|おぼ}えたいない。"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": 5,
+    "date_added": "2023-09-06",
     "lesson_codes": ["GENKI3_L09"],
     "tags": []
   },
