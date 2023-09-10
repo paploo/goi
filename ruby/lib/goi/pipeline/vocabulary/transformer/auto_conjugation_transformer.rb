@@ -29,14 +29,6 @@ module Goi
 
           private
 
-          # def ensure_set(dictionary_spelling:, vocabulary_id:, conjugation_kind_code:, conjugation_set:)
-          #   if conjugation_set.nil?
-          #     empty_conjugation_set(vocabulary_id:)
-          #   else
-          #     transform_conjugation_set(dictionary_spelling:, conjugation_kind_code:, conjugation_set:)
-          #   end
-          # end
-
           def empty_conjugation_set(vocabulary_id:)
             Goi::Model::Vocabulary::ConjugationSet.new(
               id: Goi::Model::Vocabulary::ConjugationSet.create_id(vocabulary_id:),
