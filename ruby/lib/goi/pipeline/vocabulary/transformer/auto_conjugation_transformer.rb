@@ -11,8 +11,8 @@ module Goi
 
           def transform(linkages)
             linkages.map do |ln|
-              # If it isn't conjugable or it doesn't have a conjugation set already, skip it.
-              if ln.vocabulary.conjugation_kind_code.nil? || ln.conjugation_set.nil?
+              # If it isn't conjugable, skip it.
+              if ln.vocabulary.conjugation_kind_code.nil?
                 # Do nothing
                 ln
               else
@@ -20,7 +20,7 @@ module Goi
                 conjugation_set = transform_conjugation_set(
                   dictionary_spelling: ln.preferred_spelling.value,
                   conjugation_kind_code: ln.vocabulary.conjugation_kind_code,
-                  conjugation_set: ln.conjugation_set
+                  conjugation_set: ln.conjugation_set || empty_conjugation_set(vocabulary_id: ln.vocabulary.id)
                 )
                 ln.copy(conjugation_set:)
               end
@@ -29,8 +29,25 @@ module Goi
 
           private
 
+          # def ensure_set(dictionary_spelling:, vocabulary_id:, conjugation_kind_code:, conjugation_set:)
+          #   if conjugation_set.nil?
+          #     empty_conjugation_set(vocabulary_id:)
+          #   else
+          #     transform_conjugation_set(dictionary_spelling:, conjugation_kind_code:, conjugation_set:)
+          #   end
+          # end
+
+          def empty_conjugation_set(vocabulary_id:)
+            Goi::Model::Vocabulary::ConjugationSet.new(
+              id: Goi::Model::Vocabulary::ConjugationSet.create_id(vocabulary_id:),
+              vocabulary_id:,
+              conjugations: []
+            )
+          end
+
           def transform_conjugation_set(dictionary_spelling:, conjugation_kind_code:, conjugation_set:)
             new_conjugations = transform_conjugations(conjugation_set:, dictionary_spelling:, conjugation_kind_code:)
+
             Goi::Model::Vocabulary::ConjugationSet.new(
               id: conjugation_set.id,
               vocabulary_id: conjugation_set.vocabulary_id,
@@ -39,7 +56,6 @@ module Goi
           end
 
           def transform_conjugations(conjugation_set:, dictionary_spelling:, conjugation_kind_code:)
-
             Goi::Model::Vocabulary::Conjugation::Inflection.all.flat_map do |inflection|
               original = select_all_for_inflection(conjugation_set:, inflection:)
 

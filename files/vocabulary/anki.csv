@@ -474,8 +474,8 @@ b28e9f01-a176-5cfa-b00b-e1fd1552f02d,frightening,怖い,こわい,,adjective,i a
 03824733-2e97-5d1e-8705-2520abf86985,fun,楽しい,たのしい,,adjective,i adjective,5,2022-09-07,469,GENKI3_L05,楽しい,楽しかった,楽しくて,,,,,,,,,,,,,,,,楽しくない,楽しくなかった,楽しくなくて,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
 a1c2f5e9-df18-5d9f-83db-7d30491b502d,inexpensive; cheap (thing),安い,やすい,,adjective,i adjective,5,2022-09-07,470,GENKI3_L05,安い,安かった,安くて,,,,,,,,,,,,,,,,安くない,安くなかった,安くなくて,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
 cad48907-4908-5de4-8ee7-0c78c98ab755,disgusted with; to dislike,嫌い,きらい,,adjective,na adjective,5,2022-09-07,471,GENKI3_L05,嫌いだ,嫌いだった,嫌いで,,,,,,,,,,,,,,,,嫌いじゃない,嫌いじゃなかった,嫌いではなくて,,,,,,,,,,,,,,,,adjective na-adjective genki3-l05
-f12880cb-86c7-5720-8773-a1cdfbe838f7,very fond of; to love,大好き,だいすき,,adjective,na adjective,5,2022-09-07,472,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective na-adjective genki3-l05
-f610a74c-6229-5d19-b214-c183c4a1d92b,to hate,大嫌い,だいきらい,,adjective,na adjective,,2022-09-07,473,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective na-adjective genki3-l05
+f12880cb-86c7-5720-8773-a1cdfbe838f7,very fond of; to love,大好き,だいすき,,adjective,na adjective,5,2022-09-07,472,GENKI3_L05,大好きだ,大好きだった,大好きで,,,,,,,,,,,,,,,,大好きじゃない,大好きじゃなかった,大好きではなくて,,,,,,,,,,,,,,,,adjective na-adjective genki3-l05
+f610a74c-6229-5d19-b214-c183c4a1d92b,to hate,大嫌い,だいきらい,,adjective,na adjective,,2022-09-07,473,GENKI3_L05,大嫌いだ,大嫌いだった,大嫌いで,,,,,,,,,,,,,,,,大嫌いじゃない,大嫌いじゃなかった,大嫌いではなくて,,,,,,,,,,,,,,,,adjective na-adjective genki3-l05
 439064cf-bf88-40b4-91ae-12440a980aec,neither like nor dislike it,好きでも嫌いでもないです,すきでもきらいでもないです,,expression,,,2022-11-12,474,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l05
 8218a74b-27ab-5310-80f8-8cca81609f73,beautiful; clean,きれい,きれい,綺麗,adjective,na adjective,5,2022-09-07,475,GENKI3_L05,きれいだ,きれいだった,きれいで,,,,,,,,,,,,,,,,きれいじゃない,きれいじゃなかった,きれいではなくて,,,,,,,,,,,,,,,,adjective na-adjective genki3-l05
 489610bc-c907-5de6-a0e7-acbeba740f3d,quiet,静か,しずか,,adjective,na adjective,5,2022-09-07,476,GENKI3_L05,静かだ,静かだった,静かで,,,,,,,,,,,,,,,,静かじゃない,静かじゃなかった,静かではなくて,,,,,,,,,,,,,,,,adjective na-adjective genki3-l05
@@ -502,7 +502,7 @@ c0e4b32f-1310-43d5-af64-b603c84c9f3a,Ms. (girl),〜ちゃん,ちゃん,,suffix,,
 48985c71-3274-4715-9a7c-a7f4e61144e5,(my) mom,母,はは,,noun,,,2022-10-25,497,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l07
 321b332a-43be-46d2-8e2a-b49a3a18fa13,tummy torture; food terrorism,飯テロ,めしてろ,,noun,,,2022-10-18,498,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
 dd54072a-e05a-4b60-a493-578ef2cb015f,lonely; solitary,寂しい,さびしい,,adjective,i adjective,4,2022-09-07,499,GENKI3_L09,寂しい,寂しかった,寂しくて,,,,,,,,,,,,,,,,寂しくない,寂しくなかった,寂しくなくて,,,,,,,,,,,,,,,,adjective i-adjective genki3-l09
-aa063477-ef31-4780-9af0-85bc0daccbcf,mouth is lonely,口寂しい,くちさびしい,,adjective,i adjective,,2022-10-06,500,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective i-adjective
+aa063477-ef31-4780-9af0-85bc0daccbcf,mouth is lonely,口寂しい,くちさびしい,,adjective,i adjective,,2022-10-06,500,,口寂しい,口寂しかった,口寂しくて,,,,,,,,,,,,,,,,口寂しくない,口寂しくなかった,口寂しくなくて,,,,,,,,,,,,,,,,adjective i-adjective
 9602b36a-fef2-58f6-a53a-84283766c73d,tidal wave,津波,つなみ,,noun,,1,2022-09-17,501,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 18483a29-02d3-5d72-be2f-2e865c5689a1,typhoon,台風,たいふう,,noun,,4,2022-09-17,502,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 932265f2-4f7c-5f7d-b31d-cb211276ae8d,earthquake,地震,じしん,,noun,,4,2022-09-17,503,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
@@ -538,7 +538,7 @@ c45eae5d-011d-4200-9dd7-be3ec1c2bf51,romantic love,恋,こい,,noun,,3,2022-10-3
 9654de24-9624-4834-aec3-4d26a88c3c79,thorn,刺,とげ,,noun,,1,2022-10-30,533,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 c108107d-4842-4ff4-ac72-a221ce7c2f91,thorny shrub; wild rose,茨,いばら,,noun,,,2022-10-30,534,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 b08173f1-4500-4da6-81ee-cd7421bb3686,princess,姫,ひめ,,noun,,,2022-10-30,535,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-bd75e0c9-27e6-4f6f-803f-bb0ee9236290,good; excellent; fine; agreeable,良い,よい,,adjective,i adjective,5,2022-10-30,536,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective i-adjective
+bd75e0c9-27e6-4f6f-803f-bb0ee9236290,good; excellent; fine; agreeable,良い,よい,,adjective,i adjective,5,2022-10-30,536,,良い,良かった,良くて,,,,,,,,,,,,,,,,良くない,良くなかった,良くなくて,,,,,,,,,,,,,,,,adjective i-adjective
 e00b722d-5ec2-43b3-b972-157994823148,want to do; would like to... (verb desire form),〜たい,たい,,suffix,,,2022-10-31,537,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,suffix
 3bdf59a1-7f82-4e77-851b-462abfece32e,fireworks,花火,はなび,,noun,,2,2022-11-03,538,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 8c2f94a9-ba53-4f55-931d-ca84f5264280,dictionary,辞書,じしょ,,noun,,5,2022-11-06,539,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
@@ -575,7 +575,7 @@ b398c1c2-e5e8-4d6d-ac7e-7c19c3348496,to die,死ぬ,しぬ,,verb,godan verb,5,202
 302a20f2-ce11-496b-8f9f-57f6eb69fedf,to sit down,座る,すわる,,verb,godan verb,5,2022-11-06,570,GENKI3_L06,座る,座った,座って,,,座れる,,,,座ります,座りました,,,,座れます,,,,座らない,座らなかった,座らなくて,,,座れない,,,,座りません,座りませんでした,,,,座れません,,,,verb godan-verb genki3-l06
 32a15edf-8576-4e81-8a17-4fa4de5e1a83,to stand up,立つ,たつ,,verb,godan verb,5,2022-11-06,571,GENKI3_L06,立つ,立った,立って,,,立てる,,,,立ちます,立ちました,,,,立てます,,,,立たない,立たなかった,立たなくて,,,立てない,,,,立ちません,立ちませんでした,,,,立てません,,,,verb godan-verb genki3-l06
 689665c5-083d-43d5-8f42-bdde636364be,to smoke; to breathe in; to sip; to absorb,吸う,すう,,verb,godan verb,5,2022-11-07,572,,吸う,吸った,吸って,,,吸える,,,,吸います,吸いました,,,,吸えます,,,,吸わない,吸わなかった,吸わなくて,,,吸えない,,,,吸いません,吸いませんでした,,,,吸えません,,,,verb godan-verb
-aff392d9-b36e-4db0-b277-220588c4164d,to smoke tobacco,タバコを吸う,たばこをすう,,verb,godan verb,,2022-11-06,573,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,verb godan-verb genki3-l06
+aff392d9-b36e-4db0-b277-220588c4164d,to smoke tobacco,タバコを吸う,たばこをすう,,verb,godan verb,,2022-11-06,573,GENKI3_L06,タバコを吸う,タバコを吸った,タバコを吸って,,,タバコを吸える,,,,タバコを吸います,タバコを吸いました,,,,タバコを吸えます,,,,タバコを吸わない,タバコを吸わなかった,タバコを吸わなくて,,,タバコを吸えない,,,,タバコを吸いません,タバコを吸いませんでした,,,,タバコを吸えません,,,,verb godan-verb genki3-l06
 0b86b8fd-2de0-461b-aea3-c2407a45cfa5,to use,使う,つかう,,verb,godan verb,5,2022-11-06,574,GENKI3_L06,使う,使った,使って,,,使える,,,,使います,使いました,,,,使えます,,,,使わない,使わなかった,使わなくて,,,使えない,,,,使いません,使いませんでした,,,,使えません,,,,verb godan-verb genki3-l06
 260b582d-9cfa-41ad-8a5c-f6d476b15cca,to enter,入る,はいる,,verb,godan verb,5,2022-11-06,575,GENKI3_L06,入る,入った,入って,,,入れる,,,,入ります,入りました,,,,入れます,,,,入らない,入らなかった,入らなくて,,,入れない,,,,入りません,入りませんでした,,,,入れません,,,,verb godan-verb genki3-l06
 30391416-f09e-42d7-8fad-3da2072345ac,to carry; to hold,持つ,もつ,,verb,godan verb,5,2022-11-06,576,GENKI3_L06,持つ,持った,持って,,,持てる,,,,持ちます,持ちました,,,,持てます,,,,持たない,持たなかった,持たなくて,,,持てない,,,,持ちません,持ちませんでした,,,,持てません,,,,verb godan-verb genki3-l06
@@ -587,7 +587,7 @@ d94d586d-e5e5-4d9f-8ef7-1520f3d714cf,to forget; to leave behind,忘れる,わす
 e876fbbd-05cd-49a3-995a-2002ec68b841,to get off; to descend,降りる,おりる,,verb,ichidan verb,5,2022-11-07,582,GENKI3_L06,降りる,降りた,降りて,,,降りられる,,,,降ります,降りました,,,,降りられます,,,,降りない,降りなかった,降りなくて,,,降りられない,,,,降りません,降りませんでした,,,,降りられません,,,,verb ichidan-verb genki3-l06
 78be3afb-da4b-4e78-b019-39ba138f1c33,to borrow,借りる,かりる,,verb,ichidan verb,5,2022-11-07,583,GENKI3_L06,借りる,借りた,借りて,,,借りられる,,,,借ります,借りました,,,,借りられます,,,,借りない,借りなかった,借りなくて,,,借りられない,,,,借りません,借りませんでした,,,,借りられません,,,,verb ichidan-verb genki3-l06
 313659a3-3ae2-4a49-b5c0-bfb840178eab,to bask; to bathe in; to be flooded with,浴びる,あびる,,verb,ichidan verb,5,2022-11-07,584,,浴びる,浴びた,浴びて,,,浴びられる,,,,浴びます,浴びました,,,,浴びられます,,,,浴びない,浴びなかった,浴びなくて,,,浴びられない,,,,浴びません,浴びませんでした,,,,浴びられません,,,,verb ichidan-verb
-ff59504a-164b-44a8-b108-aed6d9525249,to take a shower,シャワーを浴びる,しゃわあをあびる,,verb,ichidan verb,,2022-11-07,585,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,verb ichidan-verb genki3-l06
+ff59504a-164b-44a8-b108-aed6d9525249,to take a shower,シャワーを浴びる,しゃわあをあびる,,verb,ichidan verb,,2022-11-07,585,GENKI3_L06,シャワーを浴びる,シャワーを浴びた,シャワーを浴びて,,,シャワーを浴びられる,,,,シャワーを浴びます,シャワーを浴びました,,,,シャワーを浴びられます,,,,シャワーを浴びない,シャワーを浴びなかった,シャワーを浴びなくて,,,シャワーを浴びられない,,,,シャワーを浴びません,シャワーを浴びませんでした,,,,シャワーを浴びられません,,,,verb ichidan-verb genki3-l06
 c586dd61-02b7-4f20-aa46-b9af2ea9d555,to turn on (light),つける,つける,点ける,verb,ichidan verb,2,2022-11-07,586,GENKI3_L06,つける,つけた,つけて,,,つけられる,,,,つけます,つけました,,,,つけられます,,,,つけない,つけなかった,つけなくて,,,つけられない,,,,つけません,つけませんでした,,,,つけられません,,,,verb ichidan-verb genki3-l06
 1e870393-7556-4275-b53f-e150b3e33c86,to call (on phone),電話する,でんわする,,verb,suru verb,,2022-11-07,587,GENKI3_L06,電話する,電話した,電話して,,,電話できる,,,,電話します,電話しました,,,,電話できます,,,,電話しない,電話しなかった,電話しなくて,,,電話できない,,,,電話しません,電話しませんでした,,,,電話できません,,,,verb suru-verb genki3-l06
 dad99237-3191-4473-9e44-77182e802cbb,to bring (a person),連れてくる,つれてくる,連れて来る,verb,kuru verb,,2022-11-07,588,GENKI3_L06,連れてくる,連れてきた,連れてきて,,,連れてこられる,,,,連れてきます,連れてきました,,,,連れてこられます,,,,連れてこない,連れてこなかった,連れてこなくて,,,連れてこられない,,,,連れてきません,連れてきませんでした,,,,連れてこられません,,,,verb kuru-verb genki3-l06
@@ -718,8 +718,8 @@ dbe2efeb-e5d8-4c1b-a882-d283af00d09c,to wash,洗う,あらう,,verb,godan verb,5
 e79d58a2-5b9f-44c7-9be4-770d5a542b21,to need,いる,いる,要る,verb,godan verb,5,2023-02-13,713,GENKI3_L08,いる,いった,いって,,,いれる,,,,いります,いりました,,,,いれます,,,,いらない,いらなかった,いらなくて,,,いれない,,,,いりません,いりませんでした,,,,いれません,,,,verb godan-verb genki3-l08
 57b262a8-7dd2-424a-95ab-d477a9255d36,late,遅く,おそく,,adverb,,,2023-02-13,714,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adverb
 59e112f2-caab-4eba-b510-0a299237932b,to result in; to become,なる,なる,成る,verb,godan verb,5,2023-02-13,715,GENKI3_L10,なる,なった,なって,,,なれる,,,,なります,なりました,,,,なれます,,,,ならない,ならなかった,ならなくて,,,なれない,,,,なりません,なりませんでした,,,,なれません,,,,verb godan-verb genki3-l10
-863a0940-64c2-4e74-be89-4920f2caa450,to be late,遅くなる,おそくなる,,verb,godan verb,,2023-02-13,716,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,verb godan-verb genki3-l08
-a4d7a4f5-85a8-470d-bf13-0ab13f937452,to take a bath,お風呂に入る,おふろにはいる,,verb,godan verb,,2023-02-13,717,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,verb godan-verb genki3-l08
+863a0940-64c2-4e74-be89-4920f2caa450,to be late,遅くなる,おそくなる,,verb,godan verb,,2023-02-13,716,GENKI3_L08,遅くなる,遅くなった,遅くなって,,,遅くなれる,,,,遅くなります,遅くなりました,,,,遅くなれます,,,,遅くならない,遅くならなかった,遅くならなくて,,,遅くなれない,,,,遅くなりません,遅くなりませんでした,,,,遅くなれません,,,,verb godan-verb genki3-l08
+a4d7a4f5-85a8-470d-bf13-0ab13f937452,to take a bath,お風呂に入る,おふろにはいる,,verb,godan verb,,2023-02-13,717,GENKI3_L08,お風呂に入る,お風呂に入った,お風呂に入って,,,お風呂に入れる,,,,お風呂に入ります,お風呂に入りました,,,,お風呂に入れます,,,,お風呂に入らない,お風呂に入らなかった,お風呂に入らなくて,,,お風呂に入れない,,,,お風呂に入りません,お風呂に入りませんでした,,,,お風呂に入れません,,,,verb godan-verb genki3-l08
 6f706c69-bf41-4ce3-a125-2c661c83e3f9,"to think, to consider",思う,おもう,,verb,godan verb,4,2023-02-13,718,GENKI3_L08,思う,思った,思って,,,思える,,,,思います,思いました,,,,思えます,,,,思わない,思わなかった,思わなくて,,,思えない,,,,思いません,思いませんでした,,,,思えません,,,,verb godan-verb genki3-l08
 5465dcfd-3caa-4347-9ced-ba2accdc25ff,to cut,切る,きる,,verb,godan verb,5,2023-02-13,719,GENKI3_L08,切る,切った,切って,,,切れる,,,,切ります,切りました,,,,切れます,,,,切らない,切らなかった,切らなくて,,,切れない,,,,切りません,切りませんでした,,,,切れません,,,,verb godan-verb genki3-l08
 99118f6a-e499-4089-a0af-8733667b391d,to make,作る,つくる,,verb,godan verb,5,2023-02-13,720,GENKI3_L08,作る,作った,作って,,,作れる,,,,作ります,作りました,,,,作れます,,,,作らない,作らなかった,作らなくて,,,作れない,,,,作りません,作りませんでした,,,,作れません,,,,verb godan-verb genki3-l08
@@ -871,8 +871,8 @@ a9c39bb4-3d9b-40d1-964f-f80abb1f0f51,practice; training; drill,練習,れんし�
 4d214d3e-3112-4281-bd01-e756b7ed432c,"which way, which one (of two alternatives) (formal)",どちら,どちら,何方,pronoun,,,2023-04-29,866,GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pronoun genki3-l10
 31328661-0617-40c5-b98b-af7682e3570f,early; soon,早く,はやく,,adverb,,,2023-04-29,867,GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adverb genki3-l10
 0b901f00-f8cd-4000-9f7f-76944ace8b64,quickly; switfly; rapidly; fast,速く,はやく,,adverb,,,2023-04-29,868,GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adverb genki3-l10
-378460aa-24ff-4394-916e-c8da937bba0a,to come by walking,歩いてくる,あるいてくる,歩いて来る,verb,kuru verb,,2023-09-05,869,GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,verb kuru-verb genki3-l10
-6b858157-d4b8-4760-bcb9-82f10c7552a2,to go by walking,歩いていく,あるいていく,歩いて行く,verb,iku verb,,2023-09-05,870,GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,verb iku-verb genki3-l10
+378460aa-24ff-4394-916e-c8da937bba0a,to come by walking,歩いてくる,あるいてくる,歩いて来る,verb,kuru verb,,2023-09-05,869,GENKI3_L10,歩いてくる,歩いてきた,歩いてきて,,,歩いてこられる,,,,歩いてきます,歩いてきました,,,,歩いてこられます,,,,歩いてこない,歩いてこなかった,歩いてこなくて,,,歩いてこられない,,,,歩いてきません,歩いてきませんでした,,,,歩いてこられません,,,,verb kuru-verb genki3-l10
+6b858157-d4b8-4760-bcb9-82f10c7552a2,to go by walking,歩いていく,あるいていく,歩いて行く,verb,iku verb,,2023-09-05,870,GENKI3_L10,歩いていく,歩いていった,歩いていって,,,歩いていける,,,,歩いていきます,歩いていきました,,,,歩いていけます,,,,歩いていかない,歩いていかなかった,歩いていかなくて,,,歩いていけない,,,,歩いていきません,歩いていきませんでした,,,,歩いていけません,,,,verb iku-verb genki3-l10
 e48e8a00-3523-42d7-ae33-aa903297a3cd,by (means of transportation); with (a tool),で,で,,particle,,,2023-04-29,871,GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,particle genki3-l10
 c2895bba-b0c3-4880-91a0-604140e63de4,how (instructive); by what means,どうやって,どうやって,,adverb,,,2023-04-29,872,GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adverb genki3-l10
 5a175169-8ef1-4dee-ae47-7ac8ec481227,how long; how far; how much,どのくらい,どのくらい,どの位,expression,,,2023-04-29,873,GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l10
