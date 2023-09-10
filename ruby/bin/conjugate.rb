@@ -88,6 +88,11 @@ module Goi
             { charge_code: 'NEGATIVE', politeness_code: 'POLITE', form_code: 'PRESENT' },
             { charge_code: 'NEGATIVE', politeness_code: 'POLITE', form_code: 'PAST' },
             { charge_code: 'NEGATIVE', politeness_code: 'POLITE', form_code: 'TE' },
+
+            { charge_code: 'POSITIVE', politeness_code: 'PLAIN', form_code: 'POTENTIAL' },
+            { charge_code: 'NEGATIVE', politeness_code: 'PLAIN', form_code: 'POTENTIAL' },
+            { charge_code: 'POSITIVE', politeness_code: 'POLITE', form_code: 'POTENTIAL' },
+            { charge_code: 'NEGATIVE', politeness_code: 'POLITE', form_code: 'POTENTIAL' },
           ].map { |keys| Goi::Model::Vocabulary::Conjugation::Inflection.new(**keys) }.freeze
 
           def initialize(dictionary_spellings:, conjugation_kind_code:, inflections: nil)

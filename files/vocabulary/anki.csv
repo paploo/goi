@@ -22,7 +22,7 @@ b06abb09-c9bd-5beb-a7b7-d184bedf72ca,Welcome home,お帰り,おかえり,,expres
 05436324-1858-5a2f-a2a1-a41d00f862cc,"Thank you for the meal (after, polite)",ごちそうさまでした,ごちそうさまでした,,expression,,,2022-04-24,17,GENKI3_L00,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,greeting expression genki3-l00
 136d6d6d-0487-5709-ac27-2c376bfebd43,How do you do?; I am glad to meet you,はじめまして,はじめまして,初めまして,expression,,2,2022-04-24,18,GENKI3_L00,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,greeting expression genki3-l00
 ddd5fd1f-f041-576c-a479-d8d9a3221370,Nice to meet you; i'm counting on you,よろしくお願いします,よろしくおねがいします,,expression,,,2022-04-24,19,GENKI3_L00,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,greeting expression genki3-l00
-0d8e1494-cfe2-43ab-b06e-31ad060eec1a,be; is (coupala),だ,だ,,verb,irregular verb,,2022-10-09,20,,だ,だった,で,,,,,,,です,でした,でありまして,,,,,,,じゃない,じゃなかった,,,,,,,,じゃないです,じゃないかったです,,,,,,,,verb irregular-verb
+0d8e1494-cfe2-43ab-b06e-31ad060eec1a,be; is (coupala),だ,だ,,verb,copula verb,,2022-10-09,20,,だ,だった,で,,,,,,,です,でした,でありまして,,,,,,,じゃない,じゃなかった,,,,,,,,じゃないです,じゃないかったです,,,,,,,,verb copula-verb
 d43cc787-37af-5dd1-92b5-fc756f18298a,college; university,大学,だいがく,,noun,,5,2022-04-24,21,DUO_02_05 DUO_U08 GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,place school noun duo-02-05 duo-u08 genki3-l01
 3c890a54-15f9-56e1-9bd5-3c91274b6246,high school,高校,こうこう,,noun,,4,2022-04-24,22,DUO_02_05 DUO_U08 GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,place school noun duo-02-05 duo-u08 genki3-l01
 6de86986-05ed-58da-a055-9d49c89f7a06,student,学生,がくせい,,noun,,5,2022-04-24,23,GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,school noun genki3-l01
@@ -219,14 +219,14 @@ f05e2adf-83c4-5ccf-a74a-fbd5664dceb1,when,いつ,いつ,,noun,,5,2022-07-24,211,
 27c14160-d0d6-51f8-b7b1-9172cf8b84d2,to listen; to hear; to ask,聞く,きく,,verb,godan verb,5,2022-07-24,214,GENKI3_L03,聞く,聞いた,聞いて,,,,,,,聞きます,聞きました,,,,,,,,聞かない,聞かなかった,聞かなくて,,,,,,,聞きません,聞きませんでした,,,,,,,,verb godan-verb genki3-l03
 b8a9c502-6f50-5d50-96f1-417feef69161,to drink; to swallow,飲む,のむ,,verb,godan verb,5,2022-07-24,215,DUO_02_03 DUO_U07 GENKI3_L03,飲む,飲んだ,飲んで,,,,,,,飲みます,飲みました,,,,,,,,飲まない,飲まなかった,飲まなくて,,,,,,,飲みません,飲みませんでした,,,,,,,,verb godan-verb duo-02-03 duo-u07 genki3-l03
 87e72b5b-0332-5b61-b21c-ea8cc6a05c1f,to speak; to talk,話す,はなす,,verb,godan verb,5,2022-07-24,216,GENKI3_L03,話す,話した,話して,,,,,,,話します,話しました,,,,,,,,話さない,話さなかった,話さなくて,,,,,,,話しません,話しませんでした,,,,,,,,verb godan-verb genki3-l03
-615aadf7-6900-5c48-814a-d6cc0884ae86,to read,読む,よむ,,verb,godan verb,5,2022-07-24,217,DUO_01_02 DUO_U01 GENKI3_L03,読む,読んだ,読んで,,,,,,,読みます,読みました,,,,,,,,読まない,読まなかった,読まなくて,,,,,,,読みません,読みませんでした,,,,,,,,verb godan-verb duo-01-02 duo-u01 genki3-l03
+615aadf7-6900-5c48-814a-d6cc0884ae86,to read,読む,よむ,,verb,godan verb,5,2022-07-24,217,DUO_01_02 DUO_U01 GENKI3_L03,読む,読んだ,読んで,,,読める,,,,読みます,読みました,,,,読めます,,,,読まない,読まなかった,読まなくて,,,読めない,,,,読みません,読みませんでした,,,,読めません,,,,verb godan-verb duo-01-02 duo-u01 genki3-l03
 184de362-74cc-5125-a9b9-8658bb577f7d,to wear,着る,きる,,verb,ichidan verb,5,2022-08-12,218,DUO_01_02 DUO_U01 GENKI3_L07,着る,着た,着て,,,,,,,着ます,着ました,,,,,,,,着ない,着なかった,着なくて,,,,,,,着ません,着ませんでした,,,,,,,,verb ichidan-verb duo-01-02 duo-u01 genki3-l07
 bd0e8ffa-f7cd-5b27-8481-6ecb87512f6c,to get up,起きる,おきる,,verb,ichidan verb,5,2022-07-24,219,DUO_02_03 DUO_U07 GENKI3_L03,起きる,起きた,起きて,,,,,,,起きます,起きました,,,,,,,,起きない,起きなかった,起きなくて,,,,,,,起きません,起きませんでした,,,,,,,,verb ichidan-verb duo-02-03 duo-u07 genki3-l03
 28166f6b-3aba-5230-9bd4-18e1a467bc3f,to eat,食べる,たべる,,verb,ichidan verb,5,2022-07-24,220,DUO_02_03 DUO_U07 GENKI3_L03,食べる,食べた,食べて,,,,,,,食べます,食べました,,,,,,,,食べない,食べなかった,食べなくて,,,,,,,食べません,食べませんでした,,,,,,,,verb ichidan-verb duo-02-03 duo-u07 genki3-l03
 45b4593b-f7a0-516e-84c4-68c7a7099243,to sleep; to go to sleep,寝る,ねる,,verb,ichidan verb,5,2022-07-24,221,DUO_02_03 DUO_U07 GENKI3_L03,寝る,寝た,寝て,,,,,,,寝ます,寝ました,,,,,,,,寝ない,寝なかった,寝なくて,,,,,,,寝ません,寝ませんでした,,,,,,,,verb ichidan-verb duo-02-03 duo-u07 genki3-l03
-66e4cf05-72cd-512b-a462-05f4e69906b5,to see; to look at; to watch,見る,みる,,verb,ichidan verb,5,2022-07-24,222,GENKI3_L03,見る,見た,見て,,,,,,,見ます,見ました,,,,,,,,見ない,見なかった,見なくて,,,,,,,見ません,見ませんでした,,,,,,,,verb ichidan-verb genki3-l03
-10567940-e3bb-5257-b33c-ae9976bfaddd,to come,くる,くる,来る,verb,kuru verb,5,2022-07-24,223,GENKI3_L03,くる,きた,きて,,,,,,,きます,きました,,,,,,,,こない,こなかった,こなくて,,,,,,,きません,きませんでした,,,,,,,,verb kuru-verb genki3-l03
-5800b221-4eb5-5331-8c6c-413e2d08c007,to do,する,する,,verb,suru verb,5,2022-07-24,224,GENKI3_L03,する,した,して,,,,,,,します,しました,,,,,,,,しない,しなかった,しなくて,,,,,,,しません,しませんでした,,,,,,,,verb suru-verb genki3-l03
+66e4cf05-72cd-512b-a462-05f4e69906b5,to see; to look at; to watch,見る,みる,,verb,ichidan verb,5,2022-07-24,222,GENKI3_L03,見る,見た,見て,,,見られる,,,,見ます,見ました,,,,見られます,,,,見ない,見なかった,見なくて,,,見られない,,,,見ません,見ませんでした,,,,見られません,,,,verb ichidan-verb genki3-l03
+10567940-e3bb-5257-b33c-ae9976bfaddd,to come,くる,くる,来る,verb,kuru verb,5,2022-07-24,223,GENKI3_L03,くる,きた,きて,,,こられる,,,,きます,きました,,,,こられます,,,,こない,こなかった,こなくて,,,こられない,,,,きません,きませんでした,,,,こられません,,,,verb kuru-verb genki3-l03
+5800b221-4eb5-5331-8c6c-413e2d08c007,to do,する,する,,verb,suru verb,5,2022-07-24,224,GENKI3_L03,する,した,して,,,できる,,,,します,しました,,,,できます,,,,しない,しなかった,しなくて,,,できない,,,,しません,しませんでした,,,,できません,,,,verb suru-verb genki3-l03
 9e9dc42e-df1e-5ace-948a-9dce72caaceb,to study,勉強する,べんきょうする,,verb,suru verb,5,2022-07-24,225,GENKI3_L03,勉強する,勉強した,勉強して,,,,,,,勉強します,勉強しました,,,,,,,,勉強しない,勉強しなかった,勉強しなくて,,,,,,,勉強しません,勉強しませんでした,,,,,,,,verb suru-verb genki3-l03
 6e231f76-5724-5b3c-acfc-cdee6e2eb3a6,yes; umm,ええ,ええ,,expression,,5,2022-07-24,226,GENKI3_L03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l03
 349836a3-2523-5f85-a7c1-f85e49c73f27,good,いい,いい,,adjective,yoi adjective,5,2022-07-24,227,GENKI3_L03,いい,よかった,よくて,,,,,,,,,,,,,,,,よくない,よくなかった,,,,,,,,,,,,,,,,,adjective yoi-adjective genki3-l03
@@ -468,12 +468,12 @@ bbdc1a0a-1d15-5484-89ac-e3594f2d0e70,small,小さい,ちいさい,,adjective,i a
 2e46c8d1-bb5e-5c96-9e63-b1d4fc035da1,boring,つまらない,つまらない,詰まらない,adjective,i adjective,5,2022-09-07,463,GENKI3_L05,つまらない,つまらなかった,つまらなくて,,,,,,,,,,,,,,,,つまらなくない,つまらなくなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
 ce5f2a5f-821f-5a5f-b5e5-6b59658ee781,easy (problem),やさしい,やさしい,易しい,adjective,i adjective,5,2022-09-07,464,GENKI3_L05,やさしい,やさしかった,やさしくて,,,,,,,,,,,,,,,,やさしくない,やさしくなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
 f0506ed6-e8ae-5d80-90bc-d527638693f8,kind (person),優しい,やさしい,,adjective,i adjective,4,2022-09-07,465,,優しい,優しかった,優しくて,,,,,,,,,,,,,,,,優しくない,優しくなかった,,,,,,,,,,,,,,,,,adjective i-adjective
-835597f8-7be1-561d-8ef8-9c73316e9b49,difficult,難しい,むずかしい,,adjective,i adjective,5,2022-09-07,466,GENKI3_L05,難しい,難しかった,難しくて,,,,,,,,,,,,,,,,難しくない,難しくなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
-46305ec7-a809-547e-bb67-8533f9059b26,good-looking; cool,かっこいい,かっこいい,格好いい,adjective,yoi adjective,,2022-09-07,467,GENKI3_L05,かっこいい,かっこよかった,かっこよくて,,,,,,,,,,,,,,,,かっこよくない,かっこよくなかった,,,,,,,,,,,,,,,,,adjective yoi-adjective genki3-l05
+835597f8-7be1-561d-8ef8-9c73316e9b49,difficult,難しい,むずかしい,,adjective,i adjective,5,2022-09-07,466,GENKI3_L05,難しい,難しかった,難しくて,,,,,,,,,,,,,,,,難しくない,難しくなかった,難しくなくて,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
+46305ec7-a809-547e-bb67-8533f9059b26,good-looking; cool,かっこいい,かっこいい,格好いい,adjective,yoi adjective,,2022-09-07,467,GENKI3_L05,かっこいい,かっこよかった,かっこよくて,,,,,,,,,,,,,,,,かっこよくない,かっこよくなかった,かっこよくなくて,,,,,,,,,,,,,,,,adjective yoi-adjective genki3-l05
 b28e9f01-a176-5cfa-b00b-e1fd1552f02d,frightening,怖い,こわい,,adjective,i adjective,4,2022-09-07,468,GENKI3_L05,怖い,怖かった,怖くて,,,,,,,,,,,,,,,,怖くない,怖くなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
 03824733-2e97-5d1e-8705-2520abf86985,fun,楽しい,たのしい,,adjective,i adjective,5,2022-09-07,469,GENKI3_L05,楽しい,楽しかった,楽しくて,,,,,,,,,,,,,,,,楽しくない,楽しくなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
 a1c2f5e9-df18-5d9f-83db-7d30491b502d,inexpensive; cheap (thing),安い,やすい,,adjective,i adjective,5,2022-09-07,470,GENKI3_L05,安い,安かった,安くて,,,,,,,,,,,,,,,,安くない,安くなかった,,,,,,,,,,,,,,,,,adjective i-adjective genki3-l05
-cad48907-4908-5de4-8ee7-0c78c98ab755,disgusted with; to dislike,嫌い,きらい,,adjective,na adjective,5,2022-09-07,471,GENKI3_L05,嫌いだ,嫌いだった,嫌いで,,,,,,,,,,,,,,,,嫌いじゃない,嫌いじゃなかった,,,,,,,,,,,,,,,,,adjective na-adjective genki3-l05
+cad48907-4908-5de4-8ee7-0c78c98ab755,disgusted with; to dislike,嫌い,きらい,,adjective,na adjective,5,2022-09-07,471,GENKI3_L05,嫌いだ,嫌いだった,嫌いで,,,,,,,,,,,,,,,,嫌いじゃない,嫌いじゃなかった,嫌いではなくて,,,,,,,,,,,,,,,,adjective na-adjective genki3-l05
 f12880cb-86c7-5720-8773-a1cdfbe838f7,very fond of; to love,大好き,だいすき,,adjective,na adjective,5,2022-09-07,472,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective na-adjective genki3-l05
 f610a74c-6229-5d19-b214-c183c4a1d92b,to hate,大嫌い,だいきらい,,adjective,na adjective,,2022-09-07,473,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adjective na-adjective genki3-l05
 439064cf-bf88-40b4-91ae-12440a980aec,neither like nor dislike it,好きでも嫌いでもないです,すきでもきらいでもないです,,expression,,,2022-11-12,474,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l05
@@ -880,7 +880,7 @@ d7ddb1ab-26e6-4dcb-bcdc-88a1d64b7de5,weeks duration,週間,しゅうかん,,noun
 d4cf8b00-41e4-4b7b-a26a-8202b7955365,months duration counter,ヶ月,かげつ,か月,counter,,1,2023-04-29,875,GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter genki3-l10
 2206f837-577f-4fd0-8e9e-aae4ca658484,years duration counter,年,ねん,,counter,,,2023-04-29,876,GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter genki3-l10
 f391c18d-e0c6-40e3-8dae-137cecc28d22,these days,このごろ,このごろ,この頃,adverb,,4,2023-04-29,877,GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adverb genki3-l10
-6387a3e4-f906-49c0-9385-012f97ae387e,in ... time; after ...,後,ご,,suffix,,3,2023-04-29,878,GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,suffix genki3-l10
+6387a3e4-f906-49c0-9385-012f97ae387e,in ... time; after ...,〜後,〜ご,,suffix,,3,2023-04-29,878,GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,suffix genki3-l10
 7d0c7190-fb04-441e-8a78-857a16fe07e1,or,か,か,,particle,,,2023-04-29,879,GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,particle genki3-l10
 df28fcb8-ffe2-446c-8094-15e3a6f63d88,"direction, way; side of argument; one side of a comparison",方,ほう,,noun,,3,2023-08-06,880,GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,comparison noun genki3-l10
 3209125c-afca-486b-b0d7-391f20b5f345,why; what for,なんで,なんで,何で,adverb,,3,2023-04-29,881,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adverb
