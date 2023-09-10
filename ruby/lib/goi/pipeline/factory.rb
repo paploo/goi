@@ -41,6 +41,7 @@ module Goi
           #importer: Vocabulary::Importer::SequelImporter.new(db_config:),
           transformers: [
             Vocabulary::Transformer::DuoLessonCodeTransformer.new,
+            Vocabulary::Transformer::AutoConjugationTransformer.new,
             Vocabulary::Transformer::ValidationTransformer.new
           ],
           exporters: [

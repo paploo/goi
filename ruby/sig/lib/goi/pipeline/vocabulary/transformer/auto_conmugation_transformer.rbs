@@ -1,0 +1,17 @@
+module Goi
+  module Pipeline
+    module Vocabulary
+      module Transformer
+        class AutoConjugationTransformer < Vocabulary::Transformer::Base
+
+          def transform: ([Model::Vocabulary::Linkages] linkages) -> [Model::Vocabulary::Linkages]
+
+          private
+
+          def transform_conjugation_set: (Model::Vocabulary::ConjugationSet conjugation_set) -> Model::Vocabulary::ConjugationSet
+
+        end
+      end
+    end
+  end
+end
