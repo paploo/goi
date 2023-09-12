@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="run_pipeline (grammar)" type="RubyRunConfigurationType" factoryName="Ruby">
+  <configuration default="false" name="run_pipeline (grammar)" type="RubyRunConfigurationType" factoryName="Ruby" folderName="Ruby Goi">
     <module name="ruby" />
     <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
     <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/../../ruby" />
