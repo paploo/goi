@@ -2,12 +2,13 @@ package net.paploo.goi.domain.data.vocabulary
 
 import net.paploo.goi.common.Identifiable
 import net.paploo.goi.common.Valued
+import net.paploo.goi.domain.data.common.Spelling
+import net.paploo.goi.domain.data.common.JpString
 
 data class LinkedVocabulary(
     val vocabulary: Vocabulary,
     val preferredDefinition: Definition,
-    val preferredSpelling: Spelling,
-    val phoneticSpelling: Spelling,
+    val preferredWritten: JpString,
     val altPhoneticSpelling: Spelling?,
     val kanjiSpelling: Spelling?,
     val conjugations: Collection<Conjugation>?,
@@ -25,5 +26,8 @@ data class LinkedVocabulary(
 
     override val id: Vocabulary.Id = vocabulary.id
 
-    override val value: String = preferredSpelling.value
+    override val value: String = preferredWritten.value
+    val preferredSpelling: Spelling get() = preferredWritten.preferredSpelling
+
+    val phoneticSpelling: Spelling get() = preferredWritten.phoneticSpelling
 }

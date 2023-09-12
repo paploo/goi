@@ -2,9 +2,11 @@ package net.paploo.goi.domain.data.vocabulary
 
 import net.paploo.goi.common.Identifiable
 import net.paploo.goi.common.Identifier
-import net.paploo.goi.common.Valued
 import net.paploo.goi.domain.data.common.JlptLevel
+import net.paploo.goi.domain.data.common.Tag
+import net.paploo.goi.domain.data.common.Tagable
 import net.paploo.goi.domain.data.source.Lesson
+import net.paploo.goi.domain.data.source.Referencable
 import java.time.LocalDate
 import java.util.*
 
@@ -13,17 +15,14 @@ data class Vocabulary(
     val wordClass: WordClass,
     val conjugationKind: ConjugationKind?,
     val jlptLevel: JlptLevel?,
-    val rowNum: Int?,
-    val dateAdded: LocalDate?,
-    val references: List<Lesson>, //TODO: should this be an enum or a data class with a code? Should we do sources with lessons in a hierarchy?
-    val tags: Collection<Tag>,
-) : Identifiable<Vocabulary.Id> {
+    val rowNumber: Int,
+    val dateAdded: LocalDate,
+    override val references: Set<Lesson>,
+    override val tags: Set<Tag>,
+) : Identifiable<Vocabulary.Id>, Referencable, Tagable {
 
     @JvmInline
     value class Id(override val value: UUID) : Identifier<UUID>
-
-    @JvmInline
-    value class Tag(override val value: String) : Valued<String>
 
     val isConjugable = conjugationKind != null
 

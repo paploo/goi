@@ -7,3 +7,7 @@ object Lesson{
     @JvmInline
     value class Code(override val value: String) : Coded<String>
 }
+
+interface Referencable {
+    val references: Set<Lesson>
+}
