@@ -1,4 +1,4 @@
-package net.paploo.goi.common
+package net.paploo.goi.common.interfaces
 
 interface Valued<out T: Any> {
     val value: T

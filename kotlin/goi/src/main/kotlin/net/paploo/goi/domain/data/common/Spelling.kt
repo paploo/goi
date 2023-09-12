@@ -1,6 +1,6 @@
 package net.paploo.goi.domain.data.common
 
-import net.paploo.goi.common.Valued
+import net.paploo.goi.common.interfaces.Valued
 
 data class Spelling(
     val spellingKind: SpellingKind,

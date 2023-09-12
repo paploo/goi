@@ -1,4 +1,4 @@
-package net.paploo.goi.common
+package net.paploo.goi.common.interfaces
 
 interface Identifiable<out I: Identifier<*>> {
     val id: I

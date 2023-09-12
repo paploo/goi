@@ -1,6 +1,6 @@
 package net.paploo.goi.domain.data.vocabulary
 
-import net.paploo.goi.common.Valued
+import net.paploo.goi.common.interfaces.Valued
 
 data class Conjugation(
     val inflection: Inflection,

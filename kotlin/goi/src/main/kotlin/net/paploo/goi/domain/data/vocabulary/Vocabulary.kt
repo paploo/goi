@@ -1,7 +1,7 @@
 package net.paploo.goi.domain.data.vocabulary
 
-import net.paploo.goi.common.Identifiable
-import net.paploo.goi.common.Identifier
+import net.paploo.goi.common.interfaces.Identifiable
+import net.paploo.goi.common.interfaces.Identifier
 import net.paploo.goi.domain.data.common.*
 import net.paploo.goi.domain.data.source.Lesson
 import net.paploo.goi.domain.data.source.Referencable
@@ -24,7 +24,7 @@ data class Vocabulary(
     override val tags: Set<Tag>,
 ) : Identifiable<Vocabulary.Id>, Referencable, Tagable {
 
-    //TODO: Move these safeties to a more generalized validation layer and/or a custom validation exception type.
+    //TODO: Move this validation to a more generalized validation layer and/or a custom validation exception type.
     init {
         assert(wordClass.isConjugable && conjugations != null) {
             "Expected vocabulary $id to have conjugations."

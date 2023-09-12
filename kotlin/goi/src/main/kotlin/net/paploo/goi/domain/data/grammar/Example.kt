@@ -1,7 +1,7 @@
 package net.paploo.goi.domain.data.grammar
 
-import net.paploo.goi.common.Identifiable
-import net.paploo.goi.common.Identifier
+import net.paploo.goi.common.interfaces.Identifiable
+import net.paploo.goi.common.interfaces.Identifier
 import net.paploo.goi.domain.data.common.JpString
 import net.paploo.goi.domain.data.common.Tag
 import net.paploo.goi.domain.data.common.Tagable
