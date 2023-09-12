@@ -2,9 +2,7 @@ package net.paploo.goi.domain.data.vocabulary
 
 import net.paploo.goi.common.Identifiable
 import net.paploo.goi.common.Identifier
-import net.paploo.goi.domain.data.common.JlptLevel
-import net.paploo.goi.domain.data.common.Tag
-import net.paploo.goi.domain.data.common.Tagable
+import net.paploo.goi.domain.data.common.*
 import net.paploo.goi.domain.data.source.Lesson
 import net.paploo.goi.domain.data.source.Referencable
 import java.time.LocalDate
@@ -14,12 +12,32 @@ data class Vocabulary(
     override val id: Id,
     val wordClass: WordClass,
     val conjugationKind: ConjugationKind?,
+    val preferredDefinition: Definition,
+    val preferredWritten: JpString,
+    val altPhoneticSpelling: Spelling?,
+    val kanjiSpelling: Spelling?,
+    val conjugations: Collection<Conjugation>?,
     val jlptLevel: JlptLevel?,
     val rowNumber: Int,
     val dateAdded: LocalDate,
     override val references: Set<Lesson>,
     override val tags: Set<Tag>,
 ) : Identifiable<Vocabulary.Id>, Referencable, Tagable {
+
+    //TODO: Move these safeties to a more generalized validation layer and/or a custom validation exception type.
+    init {
+        assert(wordClass.isConjugable && conjugations != null) {
+            "Expected vocabulary $id to have conjugations."
+        }
+
+        assert(wordClass.isConjugable && (conjugationKind?.associatedWordClass == wordClass)) {
+            "Expected vocabulary $id to have a legal conjugation kind but instead has $conjugationKind."
+        }
+
+        assert(!(wordClass.isConjugable) && conjugationKind == null && conjugations == null) {
+            "Expected vocabulary $id to have no conjugationKind and no conjugations."
+        }
+    }
 
     @JvmInline
     value class Id(override val value: UUID) : Identifier<UUID>
@@ -61,6 +79,7 @@ data class Vocabulary(
         AruVerb(WordClass.Verb),
         AiSuruVerb(WordClass.Verb),
         CopulaVerb(WordClass.Verb),
-
     }
 }
+
+val Vocabulary.WordClass.isConjugable: Boolean get() = Vocabulary.ConjugationKind.entries.any { it.associatedWordClass == this }
