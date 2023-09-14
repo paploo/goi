@@ -37,4 +37,5 @@ class KuruVerbInflector : StandardVerbInflector() {
     companion object {
         val default: KuruVerbInflector = KuruVerbInflector()
     }
+
 }

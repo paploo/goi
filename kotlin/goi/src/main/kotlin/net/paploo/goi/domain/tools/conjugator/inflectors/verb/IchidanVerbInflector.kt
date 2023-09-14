@@ -3,6 +3,7 @@ package net.paploo.goi.domain.tools.conjugator.inflectors.verb
 import net.paploo.goi.domain.tools.conjugator.Rewriter
 
 class IchidanVerbInflector : StandardVerbInflector() {
+
     private val validEndingsRegex = "(る)$".toRegex()
 
     override val positivePlainPresent = Rewriter.replace(validEndingsRegex, "る")
@@ -24,4 +25,5 @@ class IchidanVerbInflector : StandardVerbInflector() {
     companion object {
         val default: IchidanVerbInflector = IchidanVerbInflector()
     }
+
 }
