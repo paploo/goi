@@ -2,6 +2,7 @@ package net.paploo.goi.domain.tools.conjugator
 
 import net.paploo.goi.common.extensions.contains
 import net.paploo.goi.common.extensions.flatMap
+import net.paploo.goi.domain.tools.conjugator.inflectors.verb.GodanVerbInflector
 
 interface Rewriter : (String) -> Result<String> {
 
@@ -85,23 +86,6 @@ class GodanRewriteRule(
                 Rewriter.replacement(regex, repl)(dictionaryValue)
             }
         } ?: Result.failure(IllegalArgumentException("Invalid ending on godan verb '$dictionaryValue'"))
-
-    //    override fun invoke(dictionaryValue: String): Result<String> = when (dictionaryValue) {
-//        in "(う)$".toRegex() -> Result.success(uRepl)
-//        in "(く)$".toRegex() -> Result.success(kuRepl)
-//        in "(ぐ)$".toRegex() -> Result.success(guRepl)
-//        in "(す)$".toRegex() -> Result.success(suRepl)
-//        in "(ず)$".toRegex() -> Result.failure(IllegalArgumentException("Unknown ending 'ず' on godan verb '$dictionaryValue'"))
-//        in "(つ)$".toRegex() -> Result.success(tsuRepl)
-//        in "(づ)$".toRegex() -> Result.failure(IllegalArgumentException("Unknown ending 'づ' on godan verb '$dictionaryValue'"))
-//        in "(ぬ)$".toRegex() -> Result.success(nuRepl)
-//        in "(ふ)$".toRegex() -> Result.failure(IllegalArgumentException("Unknown ending 'ふ' on godan verb '$dictionaryValue'"))
-//        in "(ぶ)$".toRegex() -> Result.success(buRepl)
-//        in "(ぷ)$".toRegex() -> Result.failure(IllegalArgumentException("Unknown ending 'ぷ' on godan verb '$dictionaryValue'"))
-//        in "(む)$".toRegex() -> Result.success(muRepl)
-//        in "(る)$".toRegex() -> Result.success(ruRepl)
-//        else -> Result.failure(IllegalArgumentException("Invalid ending on godan verb '$dictionaryValue'"))
-//    }
 
     companion object {
 

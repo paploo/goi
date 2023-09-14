@@ -2,6 +2,8 @@ package net.paploo.goi.domain.tools.conjugator
 
 import net.paploo.goi.domain.data.vocabulary.Conjugation
 import net.paploo.goi.domain.data.vocabulary.Vocabulary
+import net.paploo.goi.domain.tools.conjugator.inflectors.verb.GodanVerbInflector
+import net.paploo.goi.domain.tools.conjugator.inflectors.verb.IchidanVerbInflector
 
 interface Conjugator : (Vocabulary.ConjugationKind) -> Inflector? {
     override fun invoke(conjugationKind: Vocabulary.ConjugationKind): Inflector?
