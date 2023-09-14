@@ -16,8 +16,10 @@ class SpellingClassifierTest : DescribeSpec({
         it("should classify single classification strings as their classification") {
             classifier.classify("日本語") shouldBe (Spelling.Kind.Kanji)
             classifier.classify("りんご") shouldBe (Spelling.Kind.Hiragana)
+            classifier.classify("ゑ") shouldBe (Spelling.Kind.Hiragana)
             classifier.classify("バス") shouldBe (Spelling.Kind.Katakana)
             classifier.classify("ー") shouldBe (Spelling.Kind.Katakana)
+            classifier.classify("・") shouldBe (Spelling.Kind.Katakana)
             classifier.classify("々") shouldBe (Spelling.Kind.CjkPunctuation)
             classifier.classify("Hello") shouldBe (Spelling.Kind.Latin)
             classifier.classify("32") shouldBe (Spelling.Kind.Latin)

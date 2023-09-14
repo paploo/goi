@@ -1,13 +1,12 @@
 package net.paploo.goi.domain.data.vocabulary
 
 import net.paploo.goi.common.interfaces.Valued
+import kotlin.enums.EnumEntries
 
 data class Conjugation(
     val inflection: Inflection,
     override val value: String
 ) : Valued<String> {
-
-    //TODO: Inflector should be able to differentiate between an unmatched rule and no rule defined.
 
     data class Inflection(
         val charge: Charge,
@@ -35,6 +34,19 @@ data class Conjugation(
             Passive,
             Causative,
             Imperative,
+        }
+
+        companion object {
+
+            val entries: List<Inflection> =
+                Charge.entries.flatMap { charge ->
+                    Politeness.entries.flatMap { politeness ->
+                        Form.entries.map { form ->
+                            Inflection(charge = charge, politeness = politeness, form = form)
+                        }
+                    }
+                }
+
         }
 
     }

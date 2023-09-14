@@ -1,7 +1,14 @@
+import net.paploo.goi.domain.data.vocabulary.Conjugation
+import net.paploo.goi.domain.tools.kana.KanaTable
+
 fun main(args: Array<String>) {
     println("Hello World!")
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+    println(KanaTable["き"])
+
+//    Conjugation.Inflection.entries.forEach {
+//        println(it)
+//        val name = it.charge.toString() + it.politeness + it.form
+//        println("val $name = Inflection(Charge.${it.charge}, Politeness.${it.politeness}, Form.${it.form})")
+//    }
 }

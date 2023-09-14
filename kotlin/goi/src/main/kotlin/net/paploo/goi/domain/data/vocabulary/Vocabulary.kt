@@ -66,19 +66,17 @@ data class Vocabulary(
     }
 
     enum class ConjugationKind(val associatedWordClass: WordClass) {
-        IrregularVerb(WordClass.Verb),
         GodanVerb(WordClass.Verb),
         IchidanVerb(WordClass.Verb),
-        IrregularAdjective(WordClass.Adjective),
-        IAdjective(WordClass.Adjective),
-        NaAdjective(WordClass.Adjective),
         SuruVerb(WordClass.Verb),
-        YoiAdjective(WordClass.Adjective),
         KuruVerb(WordClass.Verb),
         IkuVerb(WordClass.Verb),
         AruVerb(WordClass.Verb),
-        AiSuruVerb(WordClass.Verb),
         CopulaVerb(WordClass.Verb),
+        AiSuruVerb(WordClass.Verb),
+        IAdjective(WordClass.Adjective),
+        NaAdjective(WordClass.Adjective),
+        YoiAdjective(WordClass.Adjective),
     }
 }
 
