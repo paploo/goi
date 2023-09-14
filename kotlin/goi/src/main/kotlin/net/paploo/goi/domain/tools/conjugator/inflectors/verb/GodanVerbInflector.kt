@@ -6,7 +6,7 @@ import net.paploo.goi.domain.tools.conjugator.Rewriter
 class GodanVerbInflector : StandardVerbInflector() {
     private val validEndingsRegex: Regex = """([${validDictionaryEndings.joinToString("")}])$""".toRegex()
 
-    override val positivePlainPresent = Rewriter.replacement(validEndingsRegex, "$1")
+    override val positivePlainPresent = Rewriter.replace(validEndingsRegex, "$1")
 
     override val positivePlainPast = GodanRewriteRule(
         uRepl = "った",

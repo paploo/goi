@@ -16,7 +16,7 @@ interface Rewriter : (String) -> Result<String> {
 
         fun join(first: Rewriter, second: Rewriter): Rewriter = JoinRewriter(first, second)
 
-        fun replacement(pattern: Regex, replacement: String): Rewriter = PatternRewriter(pattern, replacement)
+        fun replace(pattern: Regex, replacement: String): Rewriter = PatternRewriter(pattern, replacement)
 
     }
 
@@ -83,7 +83,7 @@ class GodanRewriteRule(
     override fun invoke(dictionaryValue: String): Result<String> =
         validPatterns.entries.find { (_, regex) -> dictionaryValue in regex }?.let { (ending, regex) ->
             replacements[ending]?.let { repl ->
-                Rewriter.replacement(regex, repl)(dictionaryValue)
+                Rewriter.replace(regex, repl)(dictionaryValue)
             }
         } ?: Result.failure(IllegalArgumentException("Invalid ending on godan verb '$dictionaryValue'"))
 
