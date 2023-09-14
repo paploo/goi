@@ -90,9 +90,9 @@ class GodanVerbInflector : StandardVerbInflector() {
     )
 
     companion object {
-        val default: GodanVerbInflector by lazy { GodanVerbInflector() }
-
         val validDictionaryEndings: List<String> = listOf("う", "く", "ぐ", "す", "つ", "ぬ", "ぶ", "む", "る")
+
+        val default: GodanVerbInflector = GodanVerbInflector()
     }
 
 }

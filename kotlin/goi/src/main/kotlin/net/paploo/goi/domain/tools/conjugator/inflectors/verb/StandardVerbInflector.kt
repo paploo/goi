@@ -5,39 +5,29 @@ import net.paploo.goi.domain.data.vocabulary.Conjugation.Inflection.Charge
 import net.paploo.goi.domain.data.vocabulary.Conjugation.Inflection.Politeness
 import net.paploo.goi.domain.data.vocabulary.Conjugation.Inflection.Form
 import net.paploo.goi.domain.tools.conjugator.Rewriter
-import net.paploo.goi.domain.tools.conjugator.getOrThrow
 import net.paploo.goi.domain.tools.conjugator.plus
 
+/**
+ * A standardized implementation of VerbInflector.
+ *
+ * This:
+ * 1. handles the `invoke` method for you, and
+ * 2. Gives default implementations for derived conjugations where possible
+ *    - for example, potential forms are all ichidan conjugations of the positive plain potential
+ */
 abstract class StandardVerbInflector : VerbInflector {
 
     override val negativePlainPotential: Rewriter by lazy {
-        positivePlainPotential + IchidanVerbInflector.default.getOrThrow(
-            Conjugation.Inflection(
-                Charge.Negative,
-                Politeness.Plain,
-                Form.Present
-            )
-        )
+        positivePlainPotential + IchidanVerbInflector.default.negativePlainPresent
     }
 
     override val positivePolitePotential: Rewriter by lazy {
-        positivePlainPotential + IchidanVerbInflector.default.getOrThrow(
-            Conjugation.Inflection(
-                Charge.Positive,
-                Politeness.Polite,
-                Form.Present
-            )
-        )
+        positivePlainPotential + IchidanVerbInflector.default.positivePolitePresent
     }
 
+
     override val negativePolitePotential: Rewriter by lazy {
-        positivePlainPotential + IchidanVerbInflector.default.getOrThrow(
-            Conjugation.Inflection(
-                Charge.Negative,
-                Politeness.Polite,
-                Form.Present
-            )
-        )
+        positivePlainPotential + IchidanVerbInflector.default.negativePolitePresent
     }
 
     override fun invoke(inflection: Conjugation.Inflection): Rewriter? = when (inflection) {
