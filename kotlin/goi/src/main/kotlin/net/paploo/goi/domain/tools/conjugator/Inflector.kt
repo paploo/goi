@@ -17,6 +17,9 @@ internal fun Inflector.getOrThrow(inflection: Conjugation.Inflection): Rewriter 
     invoke(inflection) ?: throw IllegalArgumentException("No Rewriter for inflection $inflection")
 
 
+/**
+ * Gives some syntactic sugar niceness for making objects that are Inflectors but that delegate to inline created inflector instances.
+ */
 open class DelegatedInflector(inflector: Inflector): Inflector by inflector
 
 /**
@@ -69,10 +72,25 @@ private class VerbStandardInflector(
     private val negativePolitePast: Rewriter,
 
     private val positivePlainPotential: Rewriter,
-    private val negativePlainPotential: Rewriter = positivePlainPotential + IchidanVerbInflector.getOrThrow(Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Present)),
-    private val positivePolitePotential: Rewriter = positivePlainPotential + IchidanVerbInflector.getOrThrow(Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Present)),
-    private val negativePolitePotential: Rewriter = positivePlainPotential + IchidanVerbInflector.getOrThrow(Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Present)),
+    private val negativePlainPotential: Rewriter? = null,
+    private val positivePolitePotential: Rewriter? = null,
+    private val negativePolitePotential: Rewriter? = null,
 ) : Inflector {
+
+    //Provide some defaults for some easily derivable values, but allow them to be overriden. Note that we have to be lazy
+    //because our dependency has to fully initialize first!
+
+    val defaultNegativePlainPotential: Rewriter by lazy {
+        positivePlainPotential + IchidanVerbInflector.getOrThrow(Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Present))
+    }
+
+    val defaultPositivePolitePotential: Rewriter by lazy {
+        positivePlainPotential + IchidanVerbInflector.getOrThrow(Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Present))
+    }
+
+    val defaultNegativePolitePotential: Rewriter by lazy {
+        positivePlainPotential + IchidanVerbInflector.getOrThrow(Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Present))
+    }
 
     override fun invoke(inflection: Conjugation.Inflection): Rewriter? = when (inflection) {
         Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Present) -> positivePlainPresent
@@ -90,9 +108,9 @@ private class VerbStandardInflector(
         Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Past) -> negativePolitePast
 
         Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Potential) -> positivePlainPotential
-        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Potential) -> positivePlainPast
-        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Potential) -> positivePlainPresent
-        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Potential) -> positivePlainPast
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Potential) -> negativePlainPotential ?: defaultNegativePlainPotential
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Potential) -> positivePolitePotential ?: defaultPositivePolitePotential
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Potential) -> negativePolitePotential ?: defaultNegativePolitePotential
 
         else -> null
     }
@@ -100,9 +118,9 @@ private class VerbStandardInflector(
 }
 
 object IchidanVerbInflector : DelegatedInflector(
-    "(る)＄".toRegex().let { verbRegex ->
+    """る$""".toRegex().let { verbRegex ->
         VerbStandardInflector(
-            positivePlainPresent = Rewriter.replacement(verbRegex, "る"),
+            positivePlainPresent = Rewriter.identity,
             positivePlainPast = Rewriter.replacement(verbRegex, "た"),
             positivePlainTe = Rewriter.replacement(verbRegex, "て"),
 

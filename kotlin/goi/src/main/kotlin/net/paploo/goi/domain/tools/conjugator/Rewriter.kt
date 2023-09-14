@@ -8,9 +8,15 @@ interface Rewriter : (String) -> Result<String> {
     override fun invoke(dictionaryValue: String): Result<String>
 
     companion object {
+
         operator fun invoke(function: (String) -> Result<String>): Rewriter = FunctionRewriter(function)
+
+        val identity: Rewriter = IdentityRewriter
+
         fun join(first: Rewriter, second: Rewriter): Rewriter = JoinRewriter(first, second)
+
         fun replacement(pattern: Regex, replacement: String): Rewriter = PatternRewriter(pattern, replacement)
+
     }
 
     private class FunctionRewriter(
@@ -25,7 +31,11 @@ interface Rewriter : (String) -> Result<String> {
         val second: Rewriter
     ) : Rewriter {
         override fun invoke(dictionaryValue: String): Result<String> =
-            first(dictionaryValue).flatMap { second.invoke(dictionaryValue) }
+            first(dictionaryValue).flatMap { second(it) }
+    }
+
+    private object IdentityRewriter : Rewriter {
+        override fun invoke(dictionaryValue: String): Result<String> = Result.success(dictionaryValue)
     }
 
     private class PatternRewriter(
@@ -33,8 +43,8 @@ interface Rewriter : (String) -> Result<String> {
         val replacement: String
     ) : Rewriter {
         override fun invoke(dictionaryValue: String): Result<String> =
-            if (dictionaryValue.matches(pattern)) Result.runCatching { dictionaryValue.replace(pattern, replacement) }
-            else Result.failure(IllegalArgumentException("Cannot rewrite: no match for $dictionaryValue using pattern $pattern"))
+            if (dictionaryValue.contains(pattern)) Result.runCatching { dictionaryValue.replace(pattern, replacement) }
+            else Result.failure(IllegalArgumentException("Cannot rewrite: no match for '$dictionaryValue' using pattern '$pattern'"))
     }
 
 }
