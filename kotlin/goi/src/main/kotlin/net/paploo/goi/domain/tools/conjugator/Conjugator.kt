@@ -23,8 +23,8 @@ fun Conjugator.apply(
 class DefaultConjugator : Conjugator {
 
     override fun invoke(conjugationKind: Vocabulary.ConjugationKind): Inflector? = when (conjugationKind) {
-        Vocabulary.ConjugationKind.GodanVerb -> null
-        Vocabulary.ConjugationKind.IchidanVerb -> IchidanVerbInflector
+        Vocabulary.ConjugationKind.GodanVerb -> GodanVerbInflector.default
+        Vocabulary.ConjugationKind.IchidanVerb -> IchidanVerbInflector.default
         Vocabulary.ConjugationKind.SuruVerb -> null
         Vocabulary.ConjugationKind.KuruVerb -> null
         Vocabulary.ConjugationKind.IkuVerb -> null

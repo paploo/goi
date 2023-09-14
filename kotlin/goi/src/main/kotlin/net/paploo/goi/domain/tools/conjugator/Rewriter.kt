@@ -43,7 +43,7 @@ interface Rewriter : (String) -> Result<String> {
         val replacement: String
     ) : Rewriter {
         override fun invoke(dictionaryValue: String): Result<String> =
-            if (dictionaryValue.contains(pattern)) Result.runCatching { dictionaryValue.replace(pattern, replacement) }
+            if (dictionaryValue in pattern) Result.runCatching { dictionaryValue.replace(pattern, replacement) }
             else Result.failure(IllegalArgumentException("Cannot rewrite: no match for '$dictionaryValue' using pattern '$pattern'"))
     }
 
@@ -66,22 +66,42 @@ class GodanRewriteRule(
     private val ruRepl: String,
 ) : Rewriter {
 
-    override fun invoke(dictionaryValue: String): Result<String> = when (dictionaryValue) {
-        in "(う)$".toRegex() -> Result.success(uRepl)
-        in "(く)$".toRegex() -> Result.success(kuRepl)
-        in "(ぐ)$".toRegex() -> Result.success(guRepl)
-        in "(す)$".toRegex() -> Result.success(suRepl)
-        in "(ず)$".toRegex() -> Result.failure(IllegalArgumentException("Unknown ending 'ず' on godan verb '$dictionaryValue'"))
-        in "(つ)$".toRegex() -> Result.success(tsuRepl)
-        in "(づ)$".toRegex() -> Result.failure(IllegalArgumentException("Unknown ending 'づ' on godan verb '$dictionaryValue'"))
-        in "(ぬ)$".toRegex() -> Result.success(nuRepl)
-        in "(ふ)$".toRegex() -> Result.failure(IllegalArgumentException("Unknown ending 'ふ' on godan verb '$dictionaryValue'"))
-        in "(ぶ)$".toRegex() -> Result.success(buRepl)
-        in "(ぷ)$".toRegex() -> Result.failure(IllegalArgumentException("Unknown ending 'ぷ' on godan verb '$dictionaryValue'"))
-        in "(む)$".toRegex() -> Result.success(muRepl)
-        in "(る)$".toRegex() -> Result.success(ruRepl)
-        else -> Result.failure(IllegalArgumentException("Invalid ending on godan verb '$dictionaryValue'"))
-    }
+    private val validPatterns: Map<String, Regex> = GodanVerbInflector.validDictionaryEndings.associateWith { "($it)$".toRegex() }
+
+    private val replacements: Map<String, String> = mapOf(
+        "う" to uRepl,
+        "く" to kuRepl,
+        "ぐ" to guRepl,
+        "す" to suRepl,
+        "つ" to tsuRepl,
+        "ぬ" to nuRepl,
+        "ぶ" to buRepl,
+        "む" to muRepl,
+        "る" to ruRepl,
+    )
+    override fun invoke(dictionaryValue: String): Result<String> =
+        validPatterns.entries.find { (_, regex) -> dictionaryValue in regex }?.let { (ending, regex) ->
+            replacements[ending]?.let { repl ->
+                Rewriter.replacement(regex, repl)(dictionaryValue)
+            }
+        } ?: Result.failure(IllegalArgumentException("Invalid ending on godan verb '$dictionaryValue'"))
+
+    //    override fun invoke(dictionaryValue: String): Result<String> = when (dictionaryValue) {
+//        in "(う)$".toRegex() -> Result.success(uRepl)
+//        in "(く)$".toRegex() -> Result.success(kuRepl)
+//        in "(ぐ)$".toRegex() -> Result.success(guRepl)
+//        in "(す)$".toRegex() -> Result.success(suRepl)
+//        in "(ず)$".toRegex() -> Result.failure(IllegalArgumentException("Unknown ending 'ず' on godan verb '$dictionaryValue'"))
+//        in "(つ)$".toRegex() -> Result.success(tsuRepl)
+//        in "(づ)$".toRegex() -> Result.failure(IllegalArgumentException("Unknown ending 'づ' on godan verb '$dictionaryValue'"))
+//        in "(ぬ)$".toRegex() -> Result.success(nuRepl)
+//        in "(ふ)$".toRegex() -> Result.failure(IllegalArgumentException("Unknown ending 'ふ' on godan verb '$dictionaryValue'"))
+//        in "(ぶ)$".toRegex() -> Result.success(buRepl)
+//        in "(ぷ)$".toRegex() -> Result.failure(IllegalArgumentException("Unknown ending 'ぷ' on godan verb '$dictionaryValue'"))
+//        in "(む)$".toRegex() -> Result.success(muRepl)
+//        in "(る)$".toRegex() -> Result.success(ruRepl)
+//        else -> Result.failure(IllegalArgumentException("Invalid ending on godan verb '$dictionaryValue'"))
+//    }
 
     companion object {
 
