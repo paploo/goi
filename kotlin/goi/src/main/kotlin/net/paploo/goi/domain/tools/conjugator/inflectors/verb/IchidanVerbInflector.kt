@@ -5,8 +5,7 @@ import net.paploo.goi.domain.tools.conjugator.Rewriter
 class IchidanVerbInflector : StandardVerbInflector() {
     private val validEndingsRegex = "(る)$".toRegex()
 
-    override val positivePlainPresent =
-        Rewriter.replace(validEndingsRegex, "る") //By using a matcher, we validate it matches the pattern
+    override val positivePlainPresent = Rewriter.replace(validEndingsRegex, "る") //By using a matcher, we validate it matches the pattern
     override val positivePlainPast = Rewriter.replace(validEndingsRegex, "た")
     override val positivePlainTe = Rewriter.replace(validEndingsRegex, "て")
 
