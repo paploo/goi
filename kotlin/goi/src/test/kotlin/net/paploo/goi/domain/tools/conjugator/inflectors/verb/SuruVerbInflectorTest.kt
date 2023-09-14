@@ -9,7 +9,7 @@ import net.paploo.goi.domain.tools.conjugator.describeInflector
 
 class SuruVerbInflectorTest : DescribeSpec({
 
-    describeInflector("Godan Verb Inflector", SuruVerbInflector.default, "洗濯する") {
+    describeInflector("Suru Verb Inflector", SuruVerbInflector.default, "洗濯する") {
         Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Present) shouldInflectAs "洗濯する"
         Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Past) shouldInflectAs "洗濯した"
         Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Te) shouldInflectAs "洗濯して"

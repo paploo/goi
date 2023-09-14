@@ -4,6 +4,8 @@ import net.paploo.goi.domain.data.vocabulary.Conjugation
 import net.paploo.goi.domain.data.vocabulary.Vocabulary
 import net.paploo.goi.domain.tools.conjugator.inflectors.verb.GodanVerbInflector
 import net.paploo.goi.domain.tools.conjugator.inflectors.verb.IchidanVerbInflector
+import net.paploo.goi.domain.tools.conjugator.inflectors.verb.KuruVerbInflector
+import net.paploo.goi.domain.tools.conjugator.inflectors.verb.SuruVerbInflector
 
 interface Conjugator : (Vocabulary.ConjugationKind) -> Inflector? {
     override fun invoke(conjugationKind: Vocabulary.ConjugationKind): Inflector?
@@ -27,8 +29,8 @@ class DefaultConjugator : Conjugator {
     override fun invoke(conjugationKind: Vocabulary.ConjugationKind): Inflector? = when (conjugationKind) {
         Vocabulary.ConjugationKind.GodanVerb -> GodanVerbInflector.default
         Vocabulary.ConjugationKind.IchidanVerb -> IchidanVerbInflector.default
-        Vocabulary.ConjugationKind.SuruVerb -> null
-        Vocabulary.ConjugationKind.KuruVerb -> null
+        Vocabulary.ConjugationKind.SuruVerb -> SuruVerbInflector.default
+        Vocabulary.ConjugationKind.KuruVerb -> KuruVerbInflector.default
         Vocabulary.ConjugationKind.IkuVerb -> null
         Vocabulary.ConjugationKind.AruVerb -> null
         Vocabulary.ConjugationKind.CopulaVerb -> null
