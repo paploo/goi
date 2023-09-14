@@ -1,198 +1,216 @@
 package net.paploo.goi.domain.tools.conjugator.inflectors.verb
 
 import io.kotest.core.spec.style.DescribeSpec
+import io.kotest.matchers.result.shouldBeFailure
 import net.paploo.goi.domain.data.vocabulary.Conjugation
+import net.paploo.goi.domain.data.vocabulary.Conjugation.Inflection.Charge
+import net.paploo.goi.domain.data.vocabulary.Conjugation.Inflection.Politeness
+import net.paploo.goi.domain.data.vocabulary.Conjugation.Inflection.Form
 import net.paploo.goi.domain.tools.conjugator.describeInflector
+import java.lang.IllegalArgumentException
 
 class GodanVerbInflectorTest : DescribeSpec({
 
     //u
     describeInflector("Godan Verb Inflector", GodanVerbInflector.default, "会う") {
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Present) shouldInflectAs "会う"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Past) shouldInflectAs "会った"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Te) shouldInflectAs "会って"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Present) shouldInflectAs "会う"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Past) shouldInflectAs "会った"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Te) shouldInflectAs "会って"
 
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Present) shouldInflectAs "会わない"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Past) shouldInflectAs "会わなかった"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Te) shouldInflectAs "会わなくて"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Present) shouldInflectAs "会わない"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Past) shouldInflectAs "会わなかった"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Te) shouldInflectAs "会わなくて"
 
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Present) shouldInflectAs "会います"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Past) shouldInflectAs "会いました"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Present) shouldInflectAs "会いません"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Past) shouldInflectAs "会いませんでした"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Present) shouldInflectAs "会います"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Past) shouldInflectAs "会いました"
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Present) shouldInflectAs "会いません"
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Past) shouldInflectAs "会いませんでした"
 
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Potential) shouldInflectAs "会える"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Potential) shouldInflectAs "会えない"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Potential) shouldInflectAs "会えます"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Potential) shouldInflectAs "会えません"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Potential) shouldInflectAs "会える"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Potential) shouldInflectAs "会えない"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Potential) shouldInflectAs "会えます"
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Potential) shouldInflectAs "会えません"
     }
 
     //ku
     describeInflector("Godan Verb Inflector", GodanVerbInflector.default, "聞く") {
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Present) shouldInflectAs "聞く"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Past) shouldInflectAs "聞いた"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Te) shouldInflectAs "聞いて"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Present) shouldInflectAs "聞く"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Past) shouldInflectAs "聞いた"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Te) shouldInflectAs "聞いて"
 
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Present) shouldInflectAs "聞かない"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Past) shouldInflectAs "聞かなかった"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Te) shouldInflectAs "聞かなくて"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Present) shouldInflectAs "聞かない"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Past) shouldInflectAs "聞かなかった"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Te) shouldInflectAs "聞かなくて"
 
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Present) shouldInflectAs "聞きます"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Past) shouldInflectAs "聞きました"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Present) shouldInflectAs "聞きません"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Past) shouldInflectAs "聞きませんでした"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Present) shouldInflectAs "聞きます"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Past) shouldInflectAs "聞きました"
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Present) shouldInflectAs "聞きません"
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Past) shouldInflectAs "聞きませんでした"
 
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Potential) shouldInflectAs "聞ける"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Potential) shouldInflectAs "聞けない"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Potential) shouldInflectAs "聞けます"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Potential) shouldInflectAs "聞けません"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Potential) shouldInflectAs "聞ける"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Potential) shouldInflectAs "聞けない"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Potential) shouldInflectAs "聞けます"
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Potential) shouldInflectAs "聞けません"
     }
 
     //gu
     describeInflector("Godan Verb Inflector", GodanVerbInflector.default, "急ぐ") {
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Present) shouldInflectAs "急ぐ"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Past) shouldInflectAs "急いだ"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Te) shouldInflectAs "急いで"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Present) shouldInflectAs "急ぐ"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Past) shouldInflectAs "急いだ"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Te) shouldInflectAs "急いで"
 
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Present) shouldInflectAs "急がない"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Past) shouldInflectAs "急がなかった"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Te) shouldInflectAs "急がなくて"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Present) shouldInflectAs "急がない"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Past) shouldInflectAs "急がなかった"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Te) shouldInflectAs "急がなくて"
 
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Present) shouldInflectAs "急ぎます"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Past) shouldInflectAs "急ぎました"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Present) shouldInflectAs "急ぎません"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Past) shouldInflectAs "急ぎませんでした"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Present) shouldInflectAs "急ぎます"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Past) shouldInflectAs "急ぎました"
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Present) shouldInflectAs "急ぎません"
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Past) shouldInflectAs "急ぎませんでした"
 
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Potential) shouldInflectAs "急げる"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Potential) shouldInflectAs "急げない"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Potential) shouldInflectAs "急げます"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Potential) shouldInflectAs "急げません"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Potential) shouldInflectAs "急げる"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Potential) shouldInflectAs "急げない"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Potential) shouldInflectAs "急げます"
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Potential) shouldInflectAs "急げません"
     }
 
     //su
     describeInflector("Godan Verb Inflector", GodanVerbInflector.default, "話す") {
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Present) shouldInflectAs "話す"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Past) shouldInflectAs "話した"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Te) shouldInflectAs "話して"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Present) shouldInflectAs "話す"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Past) shouldInflectAs "話した"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Te) shouldInflectAs "話して"
 
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Present) shouldInflectAs "話さない"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Past) shouldInflectAs "話さなかった"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Te) shouldInflectAs "話さなくて"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Present) shouldInflectAs "話さない"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Past) shouldInflectAs "話さなかった"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Te) shouldInflectAs "話さなくて"
 
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Present) shouldInflectAs "話します"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Past) shouldInflectAs "話しました"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Present) shouldInflectAs "話しません"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Past) shouldInflectAs "話しませんでした"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Present) shouldInflectAs "話します"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Past) shouldInflectAs "話しました"
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Present) shouldInflectAs "話しません"
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Past) shouldInflectAs "話しませんでした"
 
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Potential) shouldInflectAs "話せる"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Potential) shouldInflectAs "話せない"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Potential) shouldInflectAs "話せます"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Potential) shouldInflectAs "話せません"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Potential) shouldInflectAs "話せる"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Potential) shouldInflectAs "話せない"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Potential) shouldInflectAs "話せます"
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Potential) shouldInflectAs "話せません"
     }
 
     //tsu
     describeInflector("Godan Verb Inflector", GodanVerbInflector.default, "待つ") {
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Present) shouldInflectAs "待つ"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Past) shouldInflectAs "待った"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Te) shouldInflectAs "待って"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Present) shouldInflectAs "待つ"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Past) shouldInflectAs "待った"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Te) shouldInflectAs "待って"
 
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Present) shouldInflectAs "待たない"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Past) shouldInflectAs "待たなかった"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Te) shouldInflectAs "待たなくて"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Present) shouldInflectAs "待たない"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Past) shouldInflectAs "待たなかった"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Te) shouldInflectAs "待たなくて"
 
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Present) shouldInflectAs "待ちます"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Past) shouldInflectAs "待ちました"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Present) shouldInflectAs "待ちません"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Past) shouldInflectAs "待ちませんでした"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Present) shouldInflectAs "待ちます"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Past) shouldInflectAs "待ちました"
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Present) shouldInflectAs "待ちません"
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Past) shouldInflectAs "待ちませんでした"
 
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Potential) shouldInflectAs "待てる"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Potential) shouldInflectAs "待てない"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Potential) shouldInflectAs "待てます"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Potential) shouldInflectAs "待てません"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Potential) shouldInflectAs "待てる"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Potential) shouldInflectAs "待てない"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Potential) shouldInflectAs "待てます"
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Potential) shouldInflectAs "待てません"
     }
 
     //nu
     describeInflector("Godan Verb Inflector", GodanVerbInflector.default, "死ぬ") {
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Present) shouldInflectAs "死ぬ"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Past) shouldInflectAs "死んだ"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Te) shouldInflectAs "死んで"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Present) shouldInflectAs "死ぬ"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Past) shouldInflectAs "死んだ"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Te) shouldInflectAs "死んで"
 
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Present) shouldInflectAs "死なない"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Past) shouldInflectAs "死ななかった"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Te) shouldInflectAs "死ななくて"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Present) shouldInflectAs "死なない"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Past) shouldInflectAs "死ななかった"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Te) shouldInflectAs "死ななくて"
 
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Present) shouldInflectAs "死にます"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Past) shouldInflectAs "死にました"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Present) shouldInflectAs "死にません"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Past) shouldInflectAs "死にませんでした"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Present) shouldInflectAs "死にます"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Past) shouldInflectAs "死にました"
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Present) shouldInflectAs "死にません"
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Past) shouldInflectAs "死にませんでした"
 
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Potential) shouldInflectAs "死ねる"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Potential) shouldInflectAs "死ねない"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Potential) shouldInflectAs "死ねます"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Potential) shouldInflectAs "死ねません"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Potential) shouldInflectAs "死ねる"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Potential) shouldInflectAs "死ねない"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Potential) shouldInflectAs "死ねます"
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Potential) shouldInflectAs "死ねません"
     }
 
     //bu
     describeInflector("Godan Verb Inflector", GodanVerbInflector.default, "飛ぶ") {
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Present) shouldInflectAs "飛ぶ"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Past) shouldInflectAs "飛んだ"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Te) shouldInflectAs "飛んで"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Present) shouldInflectAs "飛ぶ"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Past) shouldInflectAs "飛んだ"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Te) shouldInflectAs "飛んで"
 
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Present) shouldInflectAs "飛ばない"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Past) shouldInflectAs "飛ばなかった"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Te) shouldInflectAs "飛ばなくて"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Present) shouldInflectAs "飛ばない"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Past) shouldInflectAs "飛ばなかった"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Te) shouldInflectAs "飛ばなくて"
 
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Present) shouldInflectAs "飛びます"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Past) shouldInflectAs "飛びました"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Present) shouldInflectAs "飛びません"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Past) shouldInflectAs "飛びませんでした"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Present) shouldInflectAs "飛びます"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Past) shouldInflectAs "飛びました"
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Present) shouldInflectAs "飛びません"
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Past) shouldInflectAs "飛びませんでした"
 
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Potential) shouldInflectAs "飛べる"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Potential) shouldInflectAs "飛べない"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Potential) shouldInflectAs "飛べます"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Potential) shouldInflectAs "飛べません"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Potential) shouldInflectAs "飛べる"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Potential) shouldInflectAs "飛べない"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Potential) shouldInflectAs "飛べます"
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Potential) shouldInflectAs "飛べません"
     }
 
     //mu
     describeInflector("Godan Verb Inflector", GodanVerbInflector.default, "薬を飲む") {
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Present) shouldInflectAs "薬を飲む"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Past) shouldInflectAs "薬を飲んだ"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Te) shouldInflectAs "薬を飲んで"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Present) shouldInflectAs "薬を飲む"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Past) shouldInflectAs "薬を飲んだ"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Te) shouldInflectAs "薬を飲んで"
 
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Present) shouldInflectAs "薬を飲まない"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Past) shouldInflectAs "薬を飲まなかった"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Te) shouldInflectAs "薬を飲まなくて"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Present) shouldInflectAs "薬を飲まない"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Past) shouldInflectAs "薬を飲まなかった"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Te) shouldInflectAs "薬を飲まなくて"
 
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Present) shouldInflectAs "薬を飲みます"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Past) shouldInflectAs "薬を飲みました"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Present) shouldInflectAs "薬を飲みません"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Past) shouldInflectAs "薬を飲みませんでした"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Present) shouldInflectAs "薬を飲みます"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Past) shouldInflectAs "薬を飲みました"
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Present) shouldInflectAs "薬を飲みません"
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Past) shouldInflectAs "薬を飲みませんでした"
 
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Potential) shouldInflectAs "薬を飲める"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Potential) shouldInflectAs "薬を飲めない"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Potential) shouldInflectAs "薬を飲めます"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Potential) shouldInflectAs "薬を飲めません"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Potential) shouldInflectAs "薬を飲める"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Potential) shouldInflectAs "薬を飲めない"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Potential) shouldInflectAs "薬を飲めます"
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Potential) shouldInflectAs "薬を飲めません"
     }
 
     //ru
     describeInflector("Godan Verb Inflector", GodanVerbInflector.default, "頑張る") {
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Present) shouldInflectAs "頑張る"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Past) shouldInflectAs "頑張った"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Te) shouldInflectAs "頑張って"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Present) shouldInflectAs "頑張る"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Past) shouldInflectAs "頑張った"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Te) shouldInflectAs "頑張って"
 
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Present) shouldInflectAs "頑張らない"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Past) shouldInflectAs "頑張らなかった"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Te) shouldInflectAs "頑張らなくて"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Present) shouldInflectAs "頑張らない"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Past) shouldInflectAs "頑張らなかった"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Te) shouldInflectAs "頑張らなくて"
 
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Present) shouldInflectAs "頑張ります"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Past) shouldInflectAs "頑張りました"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Present) shouldInflectAs "頑張りません"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Past) shouldInflectAs "頑張りませんでした"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Present) shouldInflectAs "頑張ります"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Past) shouldInflectAs "頑張りました"
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Present) shouldInflectAs "頑張りません"
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Past) shouldInflectAs "頑張りませんでした"
 
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Potential) shouldInflectAs "頑張れる"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Plain, Conjugation.Inflection.Form.Potential) shouldInflectAs "頑張れない"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Positive, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Potential) shouldInflectAs "頑張れます"
-        Conjugation.Inflection(Conjugation.Inflection.Charge.Negative, Conjugation.Inflection.Politeness.Polite, Conjugation.Inflection.Form.Potential) shouldInflectAs "頑張れません"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Potential) shouldInflectAs "頑張れる"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Potential) shouldInflectAs "頑張れない"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Potential) shouldInflectAs "頑張れます"
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Potential) shouldInflectAs "頑張れません"
+    }
+
+    describe("Illegal Values") {
+
+        for(inflection in VerbInflector.supportedInflections) {
+            val inflectionName = "${inflection.charge.name.lowercase()} ${inflection.politeness.name.lowercase()} ${inflection.form.name.lowercase()}"
+
+            it("should fail for $inflectionName with an error when the verb doesn't end in ふ") {
+                val result = GodanVerbInflector.default(inflection)?.invoke("ぎふ")
+                result?.shouldBeFailure<IllegalArgumentException>()
+            }
+        }
+
     }
 
 

@@ -46,7 +46,7 @@ class DescribeInflector(
     private val expectationsScope: DescribeInflectorScope.() -> Unit
 ) {
 
-    val expectationMap: Map<Conjugation.Inflection, String> get() = DescribeInflectorScope().apply(expectationsScope).build()
+    val expectationMap: Map<Conjugation.Inflection, Result<String>> get() = DescribeInflectorScope().apply(expectationsScope).build()
 
     operator fun invoke(scope: DescribeSpecRootScope) {
         scope.apply {
@@ -67,22 +67,23 @@ class DescribeInflector(
     private suspend fun makeTests(scope: DescribeSpecContainerScope) {
         scope.apply {
             for ((inflection, expectedValue) in expectationMap) {
-                it("should inflect ${inflection.charge.name.lowercase()} ${inflection.politeness.name.lowercase()} ${inflection.form.name.lowercase()}") {
+                val inflectionName = "${inflection.charge.name.lowercase()} ${inflection.politeness.name.lowercase()} ${inflection.form.name.lowercase()}"
+                it("should inflect $inflectionName}") {
                     val inflected = inflector(inflection)?.invoke(dictionaryValue)
-                    inflected shouldBe Result.success(expectedValue)
+                    inflected shouldBe expectedValue
                 }
             }
         }
     }
 
     class DescribeInflectorScope {
-        private var expectations: MutableMap<Conjugation.Inflection, String> = mutableMapOf()
+        private var expectations: MutableMap<Conjugation.Inflection, Result<String>> = mutableMapOf()
 
         infix fun Conjugation.Inflection.shouldInflectAs(expectedValue: String) {
-            expectations[this] = expectedValue
+            expectations[this] = Result.success(expectedValue)
         }
 
-        internal fun build(): Map<Conjugation.Inflection, String> = expectations.toMap()
+        internal fun build(): Map<Conjugation.Inflection, Result<String>> = expectations.toMap()
     }
 
 }

@@ -1,5 +1,9 @@
 package net.paploo.goi.domain.tools.conjugator.inflectors.verb
 
+import net.paploo.goi.domain.data.vocabulary.Conjugation
+import net.paploo.goi.domain.data.vocabulary.Conjugation.Inflection.Charge
+import net.paploo.goi.domain.data.vocabulary.Conjugation.Inflection.Politeness
+import net.paploo.goi.domain.data.vocabulary.Conjugation.Inflection.Form
 import net.paploo.goi.domain.tools.conjugator.Inflector
 import net.paploo.goi.domain.tools.conjugator.Rewriter
 
@@ -25,4 +29,25 @@ interface VerbInflector : Inflector {
     val negativePlainPotential: Rewriter
     val positivePolitePotential: Rewriter
     val negativePolitePotential: Rewriter
+
+    companion object {
+
+        val supportedInflections: Set<Conjugation.Inflection> = setOf(
+           Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Present),
+           Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Past),
+           Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Te),
+           Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Present),
+           Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Past),
+           Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Te),
+           Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Present),
+           Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Past),
+           Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Present),
+           Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Past),
+           Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Potential),
+           Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Potential),
+           Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Potential),
+           Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Potential),
+        )
+
+    }
 }
