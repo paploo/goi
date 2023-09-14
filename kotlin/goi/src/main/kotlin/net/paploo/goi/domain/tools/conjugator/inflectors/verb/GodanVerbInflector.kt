@@ -20,23 +20,73 @@ class GodanVerbInflector : StandardVerbInflector() {
         ruRepl = "った",
     )
 
-    override val positivePlainTe = Rewriter.identity
+    override val positivePlainTe = GodanRewriteRule(
+        uRepl = "って",
+        kuRepl = "いて",
+        guRepl = "いで",
+        suRepl = "して",
+        tsuRepl = "って",
+        nuRepl = "んで",
+        buRepl = "んで",
+        muRepl = "んで",
+        ruRepl = "って",
+    )
 
-    override val negativePlainPresent = Rewriter.identity
+    override val negativePlainPresent = GodanRewriteRule(
+        uRepl = "わない",
+        kuRepl = "かない",
+        guRepl = "がない",
+        suRepl = "さない",
+        tsuRepl = "たない",
+        nuRepl = "なない",
+        buRepl = "ばない",
+        muRepl = "まない",
+        ruRepl = "らない",
+    )
 
-    override val negativePlainPast = Rewriter.identity
+    override val negativePlainPast = GodanRewriteRule(
+        uRepl = "わなかった",
+        kuRepl = "かなかった",
+        guRepl = "がなかった",
+        suRepl = "さなかった",
+        tsuRepl = "たなかった",
+        nuRepl = "ななかった",
+        buRepl = "ばなかった",
+        muRepl = "まなかった",
+        ruRepl = "らなかった",
+    )
 
-    override val negativePlainTe = Rewriter.identity
+    override val negativePlainTe = GodanRewriteRule(
+        uRepl = "わなくて",
+        kuRepl = "かなくて",
+        guRepl = "がなくて",
+        suRepl = "さなくて",
+        tsuRepl = "たなくて",
+        nuRepl = "ななくて",
+        buRepl = "ばなくて",
+        muRepl = "まなくて",
+        ruRepl = "らなくて",
+    )
 
-    override val positivePolitePresent = Rewriter.identity
+    override val positivePolitePresent = GodanRewriteRule.iColumnWithSuffix("ます")
 
-    override val positivePolitePast = Rewriter.identity
+    override val positivePolitePast = GodanRewriteRule.iColumnWithSuffix("ました")
 
-    override val negativePolitePresent = Rewriter.identity
+    override val negativePolitePresent = GodanRewriteRule.iColumnWithSuffix("ません")
 
-    override val negativePolitePast = Rewriter.identity
+    override val negativePolitePast = GodanRewriteRule.iColumnWithSuffix("ませんでした")
 
-    override val positivePlainPotential = Rewriter.identity
+    override val positivePlainPotential = GodanRewriteRule(
+        uRepl = "える",
+        kuRepl = "ける",
+        guRepl = "げる",
+        suRepl = "せる",
+        tsuRepl = "てる",
+        nuRepl = "ねる",
+        buRepl = "べる",
+        muRepl = "める",
+        ruRepl = "れる",
+    )
 
     companion object {
         val default: GodanVerbInflector by lazy { GodanVerbInflector() }
