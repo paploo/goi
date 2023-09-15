@@ -29,9 +29,9 @@ class DefaultConjugator : Conjugator {
         Vocabulary.ConjugationKind.SuruVerb -> SuruVerbInflector.default
         Vocabulary.ConjugationKind.KuruVerb -> KuruVerbInflector.default
         Vocabulary.ConjugationKind.IkuVerb -> IkuVerbInflector.default
-        Vocabulary.ConjugationKind.AruVerb -> null
-        Vocabulary.ConjugationKind.CopulaVerb -> null
-        Vocabulary.ConjugationKind.AiSuruVerb -> null
+        Vocabulary.ConjugationKind.AruVerb -> AruVerbInflector.default
+        Vocabulary.ConjugationKind.CopulaVerb -> CopulaVerbInflector.default
+        Vocabulary.ConjugationKind.AiSuruVerb -> AiSuruVerbInflector.default
 
         Vocabulary.ConjugationKind.IAdjective -> null
         Vocabulary.ConjugationKind.NaAdjective -> null

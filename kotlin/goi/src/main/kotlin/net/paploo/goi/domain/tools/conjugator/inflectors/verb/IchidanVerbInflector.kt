@@ -1,7 +1,6 @@
 package net.paploo.goi.domain.tools.conjugator.inflectors.verb
 
 import net.paploo.goi.domain.tools.conjugator.Rewriter
-import net.paploo.goi.domain.tools.conjugator.plus
 
 class IchidanVerbInflector : StandardVerbInflector() {
 
