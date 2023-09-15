@@ -2,6 +2,9 @@ package net.paploo.goi.domain.tools.conjugator
 
 import net.paploo.goi.domain.data.vocabulary.Conjugation
 import net.paploo.goi.domain.data.vocabulary.Vocabulary
+import net.paploo.goi.domain.tools.conjugator.inflectors.adjective.IAdjectiveInflector
+import net.paploo.goi.domain.tools.conjugator.inflectors.adjective.NaAdjectiveInflector
+import net.paploo.goi.domain.tools.conjugator.inflectors.adjective.YoiAdjectiveInflector
 import net.paploo.goi.domain.tools.conjugator.inflectors.verb.*
 
 interface Conjugator : (Vocabulary.ConjugationKind) -> Inflector? {
@@ -33,9 +36,9 @@ class DefaultConjugator : Conjugator {
         Vocabulary.ConjugationKind.CopulaVerb -> CopulaVerbInflector.default
         Vocabulary.ConjugationKind.AiSuruVerb -> AiSuruVerbInflector.default
 
-        Vocabulary.ConjugationKind.IAdjective -> null
-        Vocabulary.ConjugationKind.NaAdjective -> null
-        Vocabulary.ConjugationKind.YoiAdjective -> null
+        Vocabulary.ConjugationKind.IAdjective -> IAdjectiveInflector.default
+        Vocabulary.ConjugationKind.NaAdjective -> NaAdjectiveInflector.default
+        Vocabulary.ConjugationKind.YoiAdjective -> YoiAdjectiveInflector.default
     }
 }
 

@@ -36,13 +36,17 @@ interface VerbInflector : Inflector {
            Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Present),
            Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Past),
            Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Te),
+
            Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Present),
            Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Past),
            Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Te),
+
            Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Present),
            Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Past),
+
            Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Present),
            Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Past),
+
            Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Potential),
            Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Potential),
            Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Potential),
