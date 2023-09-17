@@ -21,8 +21,8 @@ sealed interface JpString : Valued<String> {
         override val phoneticSpelling: Spelling
     ) : JpString {
 
-        override val furiganaSpelling: FuriganaTemplate
-            get() = FuriganaTemplate(preferredSpelling = preferredSpelling, phoneticSpelling = phoneticSpelling)
+        override val furiganaTemplate: FuriganaTemplate
+            get() = TODO() //FuriganaTemplate(preferredSpelling = preferredSpelling, phoneticSpelling = phoneticSpelling)
 
     }
 

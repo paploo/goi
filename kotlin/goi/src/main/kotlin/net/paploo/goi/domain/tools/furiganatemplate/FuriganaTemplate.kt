@@ -75,7 +75,7 @@ sealed interface FuriganaTemplate {
         val preferredSpelling: Spelling,
         val phoneticSpelling: Spelling
     ) : FuriganaTemplate {
-        private val delegate = LexingDelegate(this, unionLexer)
+        private val delegate = LexingDelegate(this, TODO())
 
         override fun tokens(): Result<List<Token>> = delegate.tokens()
 
