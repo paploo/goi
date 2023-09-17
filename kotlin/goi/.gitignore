@@ -40,3 +40,7 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Antlr IntelliJ Publin ###
+src/main/gen
+kotlin/goi/src/main/gen

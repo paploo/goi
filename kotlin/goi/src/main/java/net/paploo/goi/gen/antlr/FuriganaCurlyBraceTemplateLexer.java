@@ -1,4 +1,4 @@
-// Generated from /Users/paploo/Library/CloudStorage/Dropbox/Projects/Ruby/goi/kotlin/goi/src/main/antlr/FuriganaCurlyBraceTemplateLexer.g4 by ANTLR 4.13.1
+// Generated from FuriganaCurlyBraceTemplateLexer.g4 by ANTLR 4.13.1
 
     package net.paploo.goi.gen.antlr;
 
