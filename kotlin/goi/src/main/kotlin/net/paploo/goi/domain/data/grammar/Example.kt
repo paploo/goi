@@ -2,7 +2,7 @@ package net.paploo.goi.domain.data.grammar
 
 import net.paploo.goi.common.interfaces.Identifiable
 import net.paploo.goi.common.interfaces.Identifier
-import net.paploo.goi.domain.data.common.JpString
+import net.paploo.goi.domain.data.common.FuriganaString
 import net.paploo.goi.domain.data.common.Tag
 import net.paploo.goi.domain.data.common.Tagable
 import net.paploo.goi.domain.data.source.Lesson
@@ -12,7 +12,7 @@ import java.util.*
 data class Example(
     override val id: Id,
     val meaning: String,
-    val text: JpString,
+    val text: FuriganaString,
     val sortRank: Int?,
     override val references: Set<Lesson>,
     override val tags: Set<Tag>,

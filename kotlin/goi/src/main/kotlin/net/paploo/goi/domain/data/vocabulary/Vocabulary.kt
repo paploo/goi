@@ -13,7 +13,7 @@ data class Vocabulary(
     val wordClass: WordClass,
     val conjugationKind: ConjugationKind?,
     val preferredDefinition: Definition,
-    val preferredWritten: JpString,
+    val preferredWritten: FuriganaString,
     val altPhoneticSpelling: Spelling?,
     val kanjiSpelling: Spelling?,
     val conjugations: Collection<Conjugation>?,

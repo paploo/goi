@@ -5,7 +5,6 @@ val kotest_version: String by project
 plugins {
     kotlin("jvm") version "1.9.0"
     application
-    java
     antlr
 }
 
@@ -36,6 +35,10 @@ application {
     mainClass.set("MainKt")
 }
 
+
+
+// ANTLR
+
 tasks.generateGrammarSource {
     //The default is project_dir/build/generated-src/antlr/main, but this moves
     //it into the src directory like we do with jOOQ.
@@ -44,4 +47,12 @@ tasks.generateGrammarSource {
 
 tasks.generateTestGrammarSource {
     outputDirectory = File(project.projectDir, "src/test/java/net/paploo/goi/gen/antlr")
+}
+
+tasks.compileKotlin {
+    dependsOn("generateGrammarSource")
+}
+
+tasks.compileTestKotlin {
+    dependsOn("generateTestGrammarSource")
 }

@@ -7,8 +7,7 @@ options { tokenVocab=FuriganaCurlyBraceTemplateLexer; }
 }
 
 //Root rule:
-template: (string | group)+;
-
+template: (string | group)+ EOF;
 string: STR;
 
 //group: GROUP_START (rubyGroup | emptyGroup); //if we wanted to support empry groups.
@@ -17,4 +16,4 @@ emptyGroup: nativeChars NATIVE_GROUP_END;
 rubyGroup: nativeChars GROUP_PART_SEPARATOR rubySubGroups RUBY_GROUP_END;
 rubySubGroups: (rubyText RUBY_SEPARATOR)* rubyText;
 rubyText: HIRAGANA+ | KATAKANA+ | ROMAJI+;
-nativeChars: (CJK_CHAR|FULL_WIDTH_ALAPHANUMERIC_CHAR)+;
+nativeChars: (CJK_CHAR | FULL_WIDTH_ALAPHANUMERIC_CHAR)+;
