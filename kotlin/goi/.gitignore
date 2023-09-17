@@ -43,4 +43,4 @@ bin/
 
 ### Antlr IntelliJ Publin ###
 src/main/gen
-kotlin/goi/src/main/gen
+src/main/antlr/gen
