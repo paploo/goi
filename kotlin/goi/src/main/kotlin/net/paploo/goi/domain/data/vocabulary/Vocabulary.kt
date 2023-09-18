@@ -30,7 +30,7 @@ data class Vocabulary(
             "Expected vocabulary $id to have conjugations."
         }
 
-        assert(wordClass.isConjugable && (conjugationKind?.associatedWordClass == wordClass)) {
+        assert(wordClass.isConjugable && (conjugationKind?.associatedWordClasses?.contains(wordClass) ?: false)) {
             "Expected vocabulary $id to have a legal conjugation kind but instead has $conjugationKind."
         }
 
@@ -59,25 +59,26 @@ data class Vocabulary(
         Contraction,
         Counter,
         Suffix,
+        AuxiliaryAdjective,
         PreNounAdjectival,
         Auxiliary,
         Prefix,
         Punctuation,
     }
 
-    enum class ConjugationKind(val associatedWordClass: WordClass) {
-        GodanVerb(WordClass.Verb),
-        IchidanVerb(WordClass.Verb),
-        SuruVerb(WordClass.Verb),
-        KuruVerb(WordClass.Verb),
-        IkuVerb(WordClass.Verb),
-        AruVerb(WordClass.Verb),
-        CopulaVerb(WordClass.Verb),
-        AiSuruVerb(WordClass.Verb),
-        IAdjective(WordClass.Adjective),
-        NaAdjective(WordClass.Adjective),
-        YoiAdjective(WordClass.Adjective),
+    enum class ConjugationKind(val associatedWordClasses: Set<WordClass>) {
+        GodanVerb(setOf(WordClass.Verb)),
+        IchidanVerb(setOf(WordClass.Verb)),
+        SuruVerb(setOf(WordClass.Verb)),
+        KuruVerb(setOf(WordClass.Verb)),
+        IkuVerb(setOf(WordClass.Verb)),
+        AruVerb(setOf(WordClass.Verb)),
+        CopulaVerb(setOf(WordClass.Verb)),
+        AiSuruVerb(setOf(WordClass.Verb)),
+        IAdjective(setOf(WordClass.Adjective, WordClass.AuxiliaryAdjective)),
+        NaAdjective(setOf(WordClass.Adjective, WordClass.AuxiliaryAdjective)),
+        YoiAdjective(setOf(WordClass.Adjective, WordClass.AuxiliaryAdjective)),
     }
 }
 
-val Vocabulary.WordClass.isConjugable: Boolean get() = Vocabulary.ConjugationKind.entries.any { it.associatedWordClass == this }
+val Vocabulary.WordClass.isConjugable: Boolean get() = Vocabulary.ConjugationKind.entries.any { this in it.associatedWordClasses }
