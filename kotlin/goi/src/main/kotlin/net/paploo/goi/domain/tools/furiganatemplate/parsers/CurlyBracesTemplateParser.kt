@@ -21,8 +21,9 @@ class CurlyBracesTemplateParser : FuriganaTemplateParser<FuriganaTemplate.CurlyB
         }.mapCatching { parser ->
             Listeners().also { listeners ->
                 listeners.addTo(parser)
+                logger.info("Parsing $furiganaTemplate")
                 parser.template().also { context ->
-                    logger.debug(context.toStringTree(parser))
+                    logger.debug("Parsed {} into {}", furiganaTemplate, context.toStringTree(parser))
                 }
             }
         }.flatMap { listeners ->
@@ -40,6 +41,8 @@ class CurlyBracesTemplateParser : FuriganaTemplateParser<FuriganaTemplate.CurlyB
             FuriganaCurlyBraceTemplateLexer(charStream)
         }.let { lexer ->
             FuriganaCurlyBraceTemplateParser(CommonTokenStream(lexer))
+        }.apply {
+            errorHandler = DefaultErrorStrategy()
         }
 
     companion object {
@@ -136,7 +139,7 @@ private class CurlyBracesTemplateParserListener : FuriganaCurlyBraceTemplatePars
 
     override fun visitErrorNode(node: ErrorNode?) {
         val error = FuriganaTemplateParseException(node.toString())
-        //logger.error("Error", error)
+        logger.warn("Error", error)
         errors += error
     }
 
@@ -188,7 +191,7 @@ private class CurlyBracesTemplateParserErrorListener : BaseErrorListener() {
             msg = msg,
             exception = e
         )
-        //logger.error("Error", error)
+        logger.warn("Error", error)
         errors += error
     }
 
