@@ -20,7 +20,7 @@ data class Spelling(
 
     companion object {
 
-        fun invoke(value: String): Spelling =
+        operator fun invoke(value: String): Spelling =
             SpellingClassifier.default.classify(value)?.let { kind ->
                 Spelling(kind = kind, value = value)
             } ?: throw IllegalArgumentException("Could not classify value '$value'")

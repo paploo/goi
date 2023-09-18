@@ -5,9 +5,8 @@ import net.paploo.goi.domain.tools.furiganatemplate.FuriganaParseTree
 import net.paploo.goi.domain.tools.furiganatemplate.FuriganaParseTreeTransformer
 
 class PhoneticSpellingTransformer : FuriganaParseTreeTransformer<Spelling> {
-    override fun invoke(tree: FuriganaParseTree): Result<Spelling> {
-        TODO("Not yet implemented")
-    }
+    override fun invoke(tree: FuriganaParseTree): Result<Spelling> =
+        tree.elements.joinToString("") { it.text }.let { Result.success(Spelling(it)) }
 
     companion object {
         val default: PhoneticSpellingTransformer = PhoneticSpellingTransformer()

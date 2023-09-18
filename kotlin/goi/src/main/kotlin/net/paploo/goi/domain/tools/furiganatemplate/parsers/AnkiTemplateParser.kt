@@ -6,7 +6,7 @@ import net.paploo.goi.domain.tools.furiganatemplate.FuriganaTemplateParser
 
 class AnkiTemplateParser : FuriganaTemplateParser<FuriganaTemplate.Anki> {
     override fun invoke(furiganaTemplate: FuriganaTemplate.Anki): Result<FuriganaParseTree> {
-        TODO("Anki template parsing is not yest supported.")
+        TODO("Anki template parsing is not supported at this time")
     }
 
     companion object {

@@ -5,12 +5,14 @@ data class FuriganaParseTree(
 ) {
 
     sealed interface Element {
+        val text: String
+
         data class Text(
-            val text: String
+            override val text: String
         ) : Element
 
         data class RubyText(
-            val text: String,
+            override val text: String,
             val rubyText: String
         ) : Element
     }
