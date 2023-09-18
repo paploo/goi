@@ -3,6 +3,12 @@ package net.paploo.goi.domain.data.common
 import net.paploo.goi.common.extensions.flatMap
 import net.paploo.goi.common.interfaces.Valued
 import net.paploo.goi.domain.tools.furiganatemplate.*
+import net.paploo.goi.domain.tools.furiganatemplate.parsers.AnkiTemplateParser
+import net.paploo.goi.domain.tools.furiganatemplate.parsers.CurlyBracesTemplateParser
+import net.paploo.goi.domain.tools.furiganatemplate.parsers.PreferredTextParser
+import net.paploo.goi.domain.tools.furiganatemplate.parsers.UnionTemplateParser
+import net.paploo.goi.domain.tools.furiganatemplate.transformers.PhoneticSpellingTransformer
+import net.paploo.goi.domain.tools.furiganatemplate.transformers.PreferredSpellingTransformer
 
 
 data class FuriganaString(
