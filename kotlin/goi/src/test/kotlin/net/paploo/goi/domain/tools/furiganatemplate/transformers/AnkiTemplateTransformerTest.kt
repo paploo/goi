@@ -30,6 +30,20 @@ class AnkiTemplateTransformerTest : DescribeSpec({
         transformer(tree) shouldBe Result.success(expectedTemplate)
     }
 
+    it("should be able to handle multi-character spanning groups") {
+        val tree = FuriganaParseTree(
+            elements = listOf(
+                FuriganaParseTree.Element.RubyText("昨日", "きのう"),
+            )
+        )
+
+        val expectedTemplate = FuriganaTemplate.Anki(
+            "昨日[きのう]"
+        )
+
+        transformer(tree) shouldBe Result.success(expectedTemplate)
+    }
+
     it("should not put a leading space if it starts with a furigana group") {
         val tree = FuriganaParseTree(
             elements = listOf(
