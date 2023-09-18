@@ -15,6 +15,7 @@ INSERT INTO vocabulary.word_class (code, label) VALUES ('EXPRESSION', 'Expressio
 INSERT INTO vocabulary.word_class (code, label) VALUES ('CONTRACTION', 'Contraction');
 INSERT INTO vocabulary.word_class (code, label) VALUES ('COUNTER', 'Counter');
 INSERT INTO vocabulary.word_class (code, label) VALUES ('SUFFIX', 'Suffix');
+INSERT INTO vocabulary.word_class (code, label) VALUES ('AUXILIARY_ADJECTIVE', 'Auxiliary Adjective');
 INSERT INTO vocabulary.word_class (code, label) VALUES ('PRE_NOUN_ADJECTIVAL', 'Pre-Noun Adjectival');
 INSERT INTO vocabulary.word_class (code, label) VALUES ('AUXILIARY', 'Auxiliary');
 INSERT INTO vocabulary.word_class (code, label) VALUES ('PREFIX', 'Prefix');

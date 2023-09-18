@@ -539,7 +539,7 @@ c45eae5d-011d-4200-9dd7-be3ec1c2bf51,romantic love,恋,こい,,noun,,3,2022-10-3
 c108107d-4842-4ff4-ac72-a221ce7c2f91,thorny shrub; wild rose,茨,いばら,,noun,,,2022-10-30,534,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 b08173f1-4500-4da6-81ee-cd7421bb3686,princess,姫,ひめ,,noun,,,2022-10-30,535,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 bd75e0c9-27e6-4f6f-803f-bb0ee9236290,good; excellent; fine; agreeable,良い,よい,,adjective,i adjective,5,2022-10-30,536,,良い,良かった,良くて,,,,,,,,,,,,,,,,良くない,良くなかった,良くなくて,,,,,,,,,,,,,,,,adjective i-adjective
-e00b722d-5ec2-43b3-b972-157994823148,want to do; would like to... (verb desire form),〜たい,たい,,suffix,,,2022-10-31,537,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,suffix
+e00b722d-5ec2-43b3-b972-157994823148,want to do; would like to...,〜たい,〜たい,,auxiliary adjective,i adjective,,2022-10-31,537,GENKI3_L11,〜たい,〜たかった,〜たくて,,,,,,,,,,,,,,,,〜たくない,〜たくなかった,〜たくなくて,,,,,,,,,,,,,,,,auxiliary-adjective i-adjective genki3-l11
 3bdf59a1-7f82-4e77-851b-462abfece32e,fireworks,花火,はなび,,noun,,2,2022-11-03,538,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 8c2f94a9-ba53-4f55-931d-ca84f5264280,dictionary,辞書,じしょ,,noun,,5,2022-11-06,539,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 0840f9a3-9712-4e33-9280-6e652015cc1f,"dictionary (formal, expansive)",辞典,じてん,,noun,,4,2022-11-06,540,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
@@ -1120,12 +1120,12 @@ a5b14922-855c-441e-a335-5fdb9209e56f,corner; edge,角,かど,,noun,,5,2023-08-19
 37a13ec3-c024-4a38-b4de-ad63e1d75b8b,ordinal number suffix,〜目,〜め,,suffix,,5,2023-08-19,1115,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,suffix
 e7d2c825-b4a8-47da-9825-fa7db01bf8dd,"to bend, to curve; to turn",曲がる,まがる,,verb,godan verb,5,2023-08-19,1116,,曲がる,曲がった,曲がって,,,曲がれる,,,,曲がります,曲がりました,,,,曲がれます,,,,曲がらない,曲がらなかった,曲がらなくて,,,曲がれない,,,,曲がりません,曲がりませんでした,,,,曲がれません,,,,verb godan-verb
 a118ba7f-e1b5-40e6-97b3-3ffd9a941ee4,"to cross over, to go across",渡る,わたる,,verb,godan verb,5,2023-08-19,1117,,渡る,渡った,渡って,,,渡れる,,,,渡ります,渡りました,,,,渡れます,,,,渡らない,渡らなかった,渡らなくて,,,渡れない,,,,渡りません,渡りませんでした,,,,渡れません,,,,verb godan-verb
-70876a31-cbd8-4d8a-9c9f-24daffeab903,turn left,左に曲がる,ひだりまがる,,expression,,,2023-08-19,1118,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions expression genki3-l06
+70876a31-cbd8-4d8a-9c9f-24daffeab903,turn left,左に曲がる,ひだりにまがる,,expression,,,2023-08-19,1118,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions expression genki3-l06
 681b71c5-6a4d-48d5-abab-8163b3643834,turn right,右に曲がる,みぎにまがる,,expression,,,2023-08-19,1119,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions expression genki3-l06
 2a050671-c33f-454a-93bc-81aef09dc985,go straight ahead,まっすぐ行く,まっすぐいく,真っ直ぐ行く,expression,,,2023-08-19,1120,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions expression genki3-l06
 694d9251-f941-4423-ae8f-623795994442,cross the street,道を渡る,みちおわたる,,expression,,,2023-08-19,1121,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions expression genki3-l06
 11b574a3-d877-4700-8c14-f73f79549d28,turn left at the second corner,二つ目の角を左に曲がる,ふたつめのかどおひだりにまがる,,expression,,,2023-08-19,1122,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions expression genki3-l06
-20b7ab1e-d446-41ba-83ca-0b8d28b9b93d,turn right at the first traffic light,一つ目の信号を右に曲がる,ひとつめのしんごうおひだりにまがる,,expression,,,2023-08-19,1123,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions expression genki3-l06
+20b7ab1e-d446-41ba-83ca-0b8d28b9b93d,turn right at the first traffic light,一つ目の信号を右に曲がる,ひとつめのしんごうおみぎにまがる,,expression,,,2023-08-19,1123,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions expression genki3-l06
 00e58b4d-a715-410c-afab-08bec93f1274,left side of the street,道の左側,みちのひだりがわ,,noun,,,2023-08-19,1124,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions noun genki3-l06
 c3b3e9a4-3ace-4b98-9a13-c8f49931c6be,right side of the street,道の右側,みちのみぎがわ,,noun,,,2023-08-19,1125,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions noun genki3-l06
 8d5224d4-fae7-4c07-bea3-a99ee92a5201,deer,鹿,しか,,noun,,,2023-08-19,1126,GENKI3_READER_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,animal noun genki3-reader-l06
