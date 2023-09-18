@@ -40,16 +40,6 @@ public interface FuriganaCurlyBraceTemplateParserListener extends ParseTreeListe
 	 */
 	void exitGroup(FuriganaCurlyBraceTemplateParser.GroupContext ctx);
 	/**
-	 * Enter a parse tree produced by {@link FuriganaCurlyBraceTemplateParser#emptyGroup}.
-	 * @param ctx the parse tree
-	 */
-	void enterEmptyGroup(FuriganaCurlyBraceTemplateParser.EmptyGroupContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link FuriganaCurlyBraceTemplateParser#emptyGroup}.
-	 * @param ctx the parse tree
-	 */
-	void exitEmptyGroup(FuriganaCurlyBraceTemplateParser.EmptyGroupContext ctx);
-	/**
 	 * Enter a parse tree produced by {@link FuriganaCurlyBraceTemplateParser#rubyGroup}.
 	 * @param ctx the parse tree
 	 */
@@ -60,33 +50,83 @@ public interface FuriganaCurlyBraceTemplateParserListener extends ParseTreeListe
 	 */
 	void exitRubyGroup(FuriganaCurlyBraceTemplateParser.RubyGroupContext ctx);
 	/**
-	 * Enter a parse tree produced by {@link FuriganaCurlyBraceTemplateParser#rubySubGroups}.
+	 * Enter a parse tree produced by {@link FuriganaCurlyBraceTemplateParser#nativeGroup}.
 	 * @param ctx the parse tree
 	 */
-	void enterRubySubGroups(FuriganaCurlyBraceTemplateParser.RubySubGroupsContext ctx);
+	void enterNativeGroup(FuriganaCurlyBraceTemplateParser.NativeGroupContext ctx);
 	/**
-	 * Exit a parse tree produced by {@link FuriganaCurlyBraceTemplateParser#rubySubGroups}.
+	 * Exit a parse tree produced by {@link FuriganaCurlyBraceTemplateParser#nativeGroup}.
 	 * @param ctx the parse tree
 	 */
-	void exitRubySubGroups(FuriganaCurlyBraceTemplateParser.RubySubGroupsContext ctx);
+	void exitNativeGroup(FuriganaCurlyBraceTemplateParser.NativeGroupContext ctx);
 	/**
-	 * Enter a parse tree produced by {@link FuriganaCurlyBraceTemplateParser#rubyText}.
+	 * Enter a parse tree produced by {@link FuriganaCurlyBraceTemplateParser#cjkChar}.
 	 * @param ctx the parse tree
 	 */
-	void enterRubyText(FuriganaCurlyBraceTemplateParser.RubyTextContext ctx);
+	void enterCjkChar(FuriganaCurlyBraceTemplateParser.CjkCharContext ctx);
 	/**
-	 * Exit a parse tree produced by {@link FuriganaCurlyBraceTemplateParser#rubyText}.
+	 * Exit a parse tree produced by {@link FuriganaCurlyBraceTemplateParser#cjkChar}.
 	 * @param ctx the parse tree
 	 */
-	void exitRubyText(FuriganaCurlyBraceTemplateParser.RubyTextContext ctx);
+	void exitCjkChar(FuriganaCurlyBraceTemplateParser.CjkCharContext ctx);
 	/**
-	 * Enter a parse tree produced by {@link FuriganaCurlyBraceTemplateParser#nativeChars}.
+	 * Enter a parse tree produced by {@link FuriganaCurlyBraceTemplateParser#nativeRubySubGroups}.
 	 * @param ctx the parse tree
 	 */
-	void enterNativeChars(FuriganaCurlyBraceTemplateParser.NativeCharsContext ctx);
+	void enterNativeRubySubGroups(FuriganaCurlyBraceTemplateParser.NativeRubySubGroupsContext ctx);
 	/**
-	 * Exit a parse tree produced by {@link FuriganaCurlyBraceTemplateParser#nativeChars}.
+	 * Exit a parse tree produced by {@link FuriganaCurlyBraceTemplateParser#nativeRubySubGroups}.
 	 * @param ctx the parse tree
 	 */
-	void exitNativeChars(FuriganaCurlyBraceTemplateParser.NativeCharsContext ctx);
+	void exitNativeRubySubGroups(FuriganaCurlyBraceTemplateParser.NativeRubySubGroupsContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link FuriganaCurlyBraceTemplateParser#nativeRubyText}.
+	 * @param ctx the parse tree
+	 */
+	void enterNativeRubyText(FuriganaCurlyBraceTemplateParser.NativeRubyTextContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link FuriganaCurlyBraceTemplateParser#nativeRubyText}.
+	 * @param ctx the parse tree
+	 */
+	void exitNativeRubyText(FuriganaCurlyBraceTemplateParser.NativeRubyTextContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link FuriganaCurlyBraceTemplateParser#pronuncationGroup}.
+	 * @param ctx the parse tree
+	 */
+	void enterPronuncationGroup(FuriganaCurlyBraceTemplateParser.PronuncationGroupContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link FuriganaCurlyBraceTemplateParser#pronuncationGroup}.
+	 * @param ctx the parse tree
+	 */
+	void exitPronuncationGroup(FuriganaCurlyBraceTemplateParser.PronuncationGroupContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link FuriganaCurlyBraceTemplateParser#jpChar}.
+	 * @param ctx the parse tree
+	 */
+	void enterJpChar(FuriganaCurlyBraceTemplateParser.JpCharContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link FuriganaCurlyBraceTemplateParser#jpChar}.
+	 * @param ctx the parse tree
+	 */
+	void exitJpChar(FuriganaCurlyBraceTemplateParser.JpCharContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link FuriganaCurlyBraceTemplateParser#pronuncationRubySubGroups}.
+	 * @param ctx the parse tree
+	 */
+	void enterPronuncationRubySubGroups(FuriganaCurlyBraceTemplateParser.PronuncationRubySubGroupsContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link FuriganaCurlyBraceTemplateParser#pronuncationRubySubGroups}.
+	 * @param ctx the parse tree
+	 */
+	void exitPronuncationRubySubGroups(FuriganaCurlyBraceTemplateParser.PronuncationRubySubGroupsContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link FuriganaCurlyBraceTemplateParser#pronunciationRubyText}.
+	 * @param ctx the parse tree
+	 */
+	void enterPronunciationRubyText(FuriganaCurlyBraceTemplateParser.PronunciationRubyTextContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link FuriganaCurlyBraceTemplateParser#pronunciationRubyText}.
+	 * @param ctx the parse tree
+	 */
+	void exitPronunciationRubyText(FuriganaCurlyBraceTemplateParser.PronunciationRubyTextContext ctx);
 }

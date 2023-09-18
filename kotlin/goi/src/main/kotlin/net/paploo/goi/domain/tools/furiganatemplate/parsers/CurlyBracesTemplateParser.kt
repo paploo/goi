@@ -8,7 +8,6 @@ import net.paploo.goi.gen.antlr.FuriganaCurlyBraceTemplateParser.TemplateContext
 import net.paploo.goi.gen.antlr.FuriganaCurlyBraceTemplateParserBaseListener
 import org.antlr.v4.runtime.*
 import org.antlr.v4.runtime.tree.ErrorNode
-import org.antlr.v4.runtime.tree.TerminalNode
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 
@@ -85,10 +84,6 @@ private class CurlyBracesTemplateParserListener : FuriganaCurlyBraceTemplatePars
         logger.debug("exitTemplate: {}", ctx)
     }
 
-    override fun enterString(ctx: FuriganaCurlyBraceTemplateParser.StringContext?) {
-        //Do Nothing
-    }
-
     override fun exitString(ctx: FuriganaCurlyBraceTemplateParser.StringContext?) {
         logger.debug("exitString: {}", ctx)
         val text = ctx?.text
@@ -111,30 +106,32 @@ private class CurlyBracesTemplateParserListener : FuriganaCurlyBraceTemplatePars
         }
     }
 
-    override fun enterNativeChars(ctx: FuriganaCurlyBraceTemplateParser.NativeCharsContext?) {
-        //Do Nothing
-    }
-
-    override fun exitNativeChars(ctx: FuriganaCurlyBraceTemplateParser.NativeCharsContext?) {
-        logger.debug("exitNativeChars: {}", ctx)
+    override fun exitCjkChar(ctx: FuriganaCurlyBraceTemplateParser.CjkCharContext?) {
+        logger.debug("exitCjkChar: {}", ctx)
         ctx?.text?.let {
             rubyGroupBuffers.characters.addAll(it.toList())
         }
     }
 
-    override fun enterRubyText(ctx: FuriganaCurlyBraceTemplateParser.RubyTextContext?) {
-        //Do Nothing
-    }
-
-    override fun exitRubyText(ctx: FuriganaCurlyBraceTemplateParser.RubyTextContext?) {
-        logger.debug("exitNativeChars: {}", ctx)
+    override fun exitNativeRubyText(ctx: FuriganaCurlyBraceTemplateParser.NativeRubyTextContext?) {
+        logger.debug("exitNativeRubyText: {}", ctx)
         ctx?.text?.let {
             rubyGroupBuffers.rubyText += it
         }
     }
 
-    override fun visitTerminal(node: TerminalNode?) {
-        logger.debug("visitTerminal: {}, parent = {}", node, node?.parent)
+    override fun exitJpChar(ctx: FuriganaCurlyBraceTemplateParser.JpCharContext?) {
+        logger.debug("exitJpChar: {}", ctx)
+        ctx?.text?.let {
+            rubyGroupBuffers.characters.addAll(it.toList())
+        }
+    }
+
+    override fun exitPronunciationRubyText(ctx: FuriganaCurlyBraceTemplateParser.PronunciationRubyTextContext?) {
+        logger.debug("exitJpChar: {}", ctx)
+        ctx?.text?.let {
+            rubyGroupBuffers.rubyText += it
+        }
     }
 
     override fun visitErrorNode(node: ErrorNode?) {

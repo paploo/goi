@@ -24,12 +24,15 @@ public class FuriganaCurlyBraceTemplateParser extends Parser {
 		GROUP_INVALID_CHAR=10, RUBY_GROUP_END=11, RUBY_SEPARATOR=12, HIRAGANA=13, 
 		KATAKANA=14, ROMAJI=15, RUBY_TEXT_INVALID_CHAR=16;
 	public static final int
-		RULE_template = 0, RULE_string = 1, RULE_group = 2, RULE_emptyGroup = 3, 
-		RULE_rubyGroup = 4, RULE_rubySubGroups = 5, RULE_rubyText = 6, RULE_nativeChars = 7;
+		RULE_template = 0, RULE_string = 1, RULE_group = 2, RULE_rubyGroup = 3, 
+		RULE_nativeGroup = 4, RULE_cjkChar = 5, RULE_nativeRubySubGroups = 6, 
+		RULE_nativeRubyText = 7, RULE_pronuncationGroup = 8, RULE_jpChar = 9, 
+		RULE_pronuncationRubySubGroups = 10, RULE_pronunciationRubyText = 11;
 	private static String[] makeRuleNames() {
 		return new String[] {
-			"template", "string", "group", "emptyGroup", "rubyGroup", "rubySubGroups", 
-			"rubyText", "nativeChars"
+			"template", "string", "group", "rubyGroup", "nativeGroup", "cjkChar", 
+			"nativeRubySubGroups", "nativeRubyText", "pronuncationGroup", "jpChar", 
+			"pronuncationRubySubGroups", "pronunciationRubyText"
 		};
 	}
 	public static final String[] ruleNames = makeRuleNames();
@@ -135,23 +138,23 @@ public class FuriganaCurlyBraceTemplateParser extends Parser {
 		try {
 			enterOuterAlt(_localctx, 1);
 			{
-			setState(20);
+			setState(28);
 			_errHandler.sync(this);
 			_la = _input.LA(1);
 			while (_la==STR || _la==GROUP_START) {
 				{
-				setState(18);
+				setState(26);
 				_errHandler.sync(this);
 				switch (_input.LA(1)) {
 				case STR:
 					{
-					setState(16);
+					setState(24);
 					string();
 					}
 					break;
 				case GROUP_START:
 					{
-					setState(17);
+					setState(25);
 					group();
 					}
 					break;
@@ -159,11 +162,11 @@ public class FuriganaCurlyBraceTemplateParser extends Parser {
 					throw new NoViableAltException(this);
 				}
 				}
-				setState(22);
+				setState(30);
 				_errHandler.sync(this);
 				_la = _input.LA(1);
 			}
-			setState(23);
+			setState(31);
 			match(EOF);
 			}
 		}
@@ -201,7 +204,7 @@ public class FuriganaCurlyBraceTemplateParser extends Parser {
 		try {
 			enterOuterAlt(_localctx, 1);
 			{
-			setState(25);
+			setState(33);
 			match(STR);
 			}
 		}
@@ -242,9 +245,9 @@ public class FuriganaCurlyBraceTemplateParser extends Parser {
 		try {
 			enterOuterAlt(_localctx, 1);
 			{
-			setState(27);
+			setState(35);
 			match(GROUP_START);
-			setState(28);
+			setState(36);
 			rubyGroup();
 			}
 		}
@@ -260,58 +263,13 @@ public class FuriganaCurlyBraceTemplateParser extends Parser {
 	}
 
 	@SuppressWarnings("CheckReturnValue")
-	public static class EmptyGroupContext extends ParserRuleContext {
-		public NativeCharsContext nativeChars() {
-			return getRuleContext(NativeCharsContext.class,0);
-		}
-		public TerminalNode NATIVE_GROUP_END() { return getToken(FuriganaCurlyBraceTemplateParser.NATIVE_GROUP_END, 0); }
-		public EmptyGroupContext(ParserRuleContext parent, int invokingState) {
-			super(parent, invokingState);
-		}
-		@Override public int getRuleIndex() { return RULE_emptyGroup; }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FuriganaCurlyBraceTemplateParserListener ) ((FuriganaCurlyBraceTemplateParserListener)listener).enterEmptyGroup(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FuriganaCurlyBraceTemplateParserListener ) ((FuriganaCurlyBraceTemplateParserListener)listener).exitEmptyGroup(this);
-		}
-	}
-
-	public final EmptyGroupContext emptyGroup() throws RecognitionException {
-		EmptyGroupContext _localctx = new EmptyGroupContext(_ctx, getState());
-		enterRule(_localctx, 6, RULE_emptyGroup);
-		try {
-			enterOuterAlt(_localctx, 1);
-			{
-			setState(30);
-			nativeChars();
-			setState(31);
-			match(NATIVE_GROUP_END);
-			}
-		}
-		catch (RecognitionException re) {
-			_localctx.exception = re;
-			_errHandler.reportError(this, re);
-			_errHandler.recover(this, re);
-		}
-		finally {
-			exitRule();
-		}
-		return _localctx;
-	}
-
-	@SuppressWarnings("CheckReturnValue")
 	public static class RubyGroupContext extends ParserRuleContext {
-		public NativeCharsContext nativeChars() {
-			return getRuleContext(NativeCharsContext.class,0);
+		public NativeGroupContext nativeGroup() {
+			return getRuleContext(NativeGroupContext.class,0);
 		}
-		public TerminalNode GROUP_PART_SEPARATOR() { return getToken(FuriganaCurlyBraceTemplateParser.GROUP_PART_SEPARATOR, 0); }
-		public RubySubGroupsContext rubySubGroups() {
-			return getRuleContext(RubySubGroupsContext.class,0);
+		public PronuncationGroupContext pronuncationGroup() {
+			return getRuleContext(PronuncationGroupContext.class,0);
 		}
-		public TerminalNode RUBY_GROUP_END() { return getToken(FuriganaCurlyBraceTemplateParser.RUBY_GROUP_END, 0); }
 		public RubyGroupContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
 		}
@@ -328,17 +286,91 @@ public class FuriganaCurlyBraceTemplateParser extends Parser {
 
 	public final RubyGroupContext rubyGroup() throws RecognitionException {
 		RubyGroupContext _localctx = new RubyGroupContext(_ctx, getState());
-		enterRule(_localctx, 8, RULE_rubyGroup);
+		enterRule(_localctx, 6, RULE_rubyGroup);
+		try {
+			setState(40);
+			_errHandler.sync(this);
+			switch ( getInterpreter().adaptivePredict(_input,2,_ctx) ) {
+			case 1:
+				enterOuterAlt(_localctx, 1);
+				{
+				setState(38);
+				nativeGroup();
+				}
+				break;
+			case 2:
+				enterOuterAlt(_localctx, 2);
+				{
+				setState(39);
+				pronuncationGroup();
+				}
+				break;
+			}
+		}
+		catch (RecognitionException re) {
+			_localctx.exception = re;
+			_errHandler.reportError(this, re);
+			_errHandler.recover(this, re);
+		}
+		finally {
+			exitRule();
+		}
+		return _localctx;
+	}
+
+	@SuppressWarnings("CheckReturnValue")
+	public static class NativeGroupContext extends ParserRuleContext {
+		public TerminalNode GROUP_PART_SEPARATOR() { return getToken(FuriganaCurlyBraceTemplateParser.GROUP_PART_SEPARATOR, 0); }
+		public NativeRubySubGroupsContext nativeRubySubGroups() {
+			return getRuleContext(NativeRubySubGroupsContext.class,0);
+		}
+		public TerminalNode RUBY_GROUP_END() { return getToken(FuriganaCurlyBraceTemplateParser.RUBY_GROUP_END, 0); }
+		public List<CjkCharContext> cjkChar() {
+			return getRuleContexts(CjkCharContext.class);
+		}
+		public CjkCharContext cjkChar(int i) {
+			return getRuleContext(CjkCharContext.class,i);
+		}
+		public NativeGroupContext(ParserRuleContext parent, int invokingState) {
+			super(parent, invokingState);
+		}
+		@Override public int getRuleIndex() { return RULE_nativeGroup; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof FuriganaCurlyBraceTemplateParserListener ) ((FuriganaCurlyBraceTemplateParserListener)listener).enterNativeGroup(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof FuriganaCurlyBraceTemplateParserListener ) ((FuriganaCurlyBraceTemplateParserListener)listener).exitNativeGroup(this);
+		}
+	}
+
+	public final NativeGroupContext nativeGroup() throws RecognitionException {
+		NativeGroupContext _localctx = new NativeGroupContext(_ctx, getState());
+		enterRule(_localctx, 8, RULE_nativeGroup);
+		int _la;
 		try {
 			enterOuterAlt(_localctx, 1);
 			{
-			setState(33);
-			nativeChars();
-			setState(34);
+			setState(43); 
+			_errHandler.sync(this);
+			_la = _input.LA(1);
+			do {
+				{
+				{
+				setState(42);
+				cjkChar();
+				}
+				}
+				setState(45); 
+				_errHandler.sync(this);
+				_la = _input.LA(1);
+			} while ( _la==CJK_CHAR || _la==FULL_WIDTH_ALAPHANUMERIC_CHAR );
+			setState(47);
 			match(GROUP_PART_SEPARATOR);
-			setState(35);
-			rubySubGroups();
-			setState(36);
+			setState(48);
+			nativeRubySubGroups();
+			setState(49);
 			match(RUBY_GROUP_END);
 			}
 		}
@@ -354,58 +386,40 @@ public class FuriganaCurlyBraceTemplateParser extends Parser {
 	}
 
 	@SuppressWarnings("CheckReturnValue")
-	public static class RubySubGroupsContext extends ParserRuleContext {
-		public List<RubyTextContext> rubyText() {
-			return getRuleContexts(RubyTextContext.class);
-		}
-		public RubyTextContext rubyText(int i) {
-			return getRuleContext(RubyTextContext.class,i);
-		}
-		public List<TerminalNode> RUBY_SEPARATOR() { return getTokens(FuriganaCurlyBraceTemplateParser.RUBY_SEPARATOR); }
-		public TerminalNode RUBY_SEPARATOR(int i) {
-			return getToken(FuriganaCurlyBraceTemplateParser.RUBY_SEPARATOR, i);
-		}
-		public RubySubGroupsContext(ParserRuleContext parent, int invokingState) {
+	public static class CjkCharContext extends ParserRuleContext {
+		public TerminalNode CJK_CHAR() { return getToken(FuriganaCurlyBraceTemplateParser.CJK_CHAR, 0); }
+		public TerminalNode FULL_WIDTH_ALAPHANUMERIC_CHAR() { return getToken(FuriganaCurlyBraceTemplateParser.FULL_WIDTH_ALAPHANUMERIC_CHAR, 0); }
+		public CjkCharContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
 		}
-		@Override public int getRuleIndex() { return RULE_rubySubGroups; }
+		@Override public int getRuleIndex() { return RULE_cjkChar; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FuriganaCurlyBraceTemplateParserListener ) ((FuriganaCurlyBraceTemplateParserListener)listener).enterRubySubGroups(this);
+			if ( listener instanceof FuriganaCurlyBraceTemplateParserListener ) ((FuriganaCurlyBraceTemplateParserListener)listener).enterCjkChar(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FuriganaCurlyBraceTemplateParserListener ) ((FuriganaCurlyBraceTemplateParserListener)listener).exitRubySubGroups(this);
+			if ( listener instanceof FuriganaCurlyBraceTemplateParserListener ) ((FuriganaCurlyBraceTemplateParserListener)listener).exitCjkChar(this);
 		}
 	}
 
-	public final RubySubGroupsContext rubySubGroups() throws RecognitionException {
-		RubySubGroupsContext _localctx = new RubySubGroupsContext(_ctx, getState());
-		enterRule(_localctx, 10, RULE_rubySubGroups);
+	public final CjkCharContext cjkChar() throws RecognitionException {
+		CjkCharContext _localctx = new CjkCharContext(_ctx, getState());
+		enterRule(_localctx, 10, RULE_cjkChar);
+		int _la;
 		try {
-			int _alt;
 			enterOuterAlt(_localctx, 1);
 			{
-			setState(43);
-			_errHandler.sync(this);
-			_alt = getInterpreter().adaptivePredict(_input,2,_ctx);
-			while ( _alt!=2 && _alt!=org.antlr.v4.runtime.atn.ATN.INVALID_ALT_NUMBER ) {
-				if ( _alt==1 ) {
-					{
-					{
-					setState(38);
-					rubyText();
-					setState(39);
-					match(RUBY_SEPARATOR);
-					}
-					} 
-				}
-				setState(45);
-				_errHandler.sync(this);
-				_alt = getInterpreter().adaptivePredict(_input,2,_ctx);
+			setState(51);
+			_la = _input.LA(1);
+			if ( !(_la==CJK_CHAR || _la==FULL_WIDTH_ALAPHANUMERIC_CHAR) ) {
+			_errHandler.recoverInline(this);
 			}
-			setState(46);
-			rubyText();
+			else {
+				if ( _input.LA(1)==Token.EOF ) matchedEOF = true;
+				_errHandler.reportMatch(this);
+				consume();
+			}
 			}
 		}
 		catch (RecognitionException re) {
@@ -420,7 +434,73 @@ public class FuriganaCurlyBraceTemplateParser extends Parser {
 	}
 
 	@SuppressWarnings("CheckReturnValue")
-	public static class RubyTextContext extends ParserRuleContext {
+	public static class NativeRubySubGroupsContext extends ParserRuleContext {
+		public List<NativeRubyTextContext> nativeRubyText() {
+			return getRuleContexts(NativeRubyTextContext.class);
+		}
+		public NativeRubyTextContext nativeRubyText(int i) {
+			return getRuleContext(NativeRubyTextContext.class,i);
+		}
+		public List<TerminalNode> RUBY_SEPARATOR() { return getTokens(FuriganaCurlyBraceTemplateParser.RUBY_SEPARATOR); }
+		public TerminalNode RUBY_SEPARATOR(int i) {
+			return getToken(FuriganaCurlyBraceTemplateParser.RUBY_SEPARATOR, i);
+		}
+		public NativeRubySubGroupsContext(ParserRuleContext parent, int invokingState) {
+			super(parent, invokingState);
+		}
+		@Override public int getRuleIndex() { return RULE_nativeRubySubGroups; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof FuriganaCurlyBraceTemplateParserListener ) ((FuriganaCurlyBraceTemplateParserListener)listener).enterNativeRubySubGroups(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof FuriganaCurlyBraceTemplateParserListener ) ((FuriganaCurlyBraceTemplateParserListener)listener).exitNativeRubySubGroups(this);
+		}
+	}
+
+	public final NativeRubySubGroupsContext nativeRubySubGroups() throws RecognitionException {
+		NativeRubySubGroupsContext _localctx = new NativeRubySubGroupsContext(_ctx, getState());
+		enterRule(_localctx, 12, RULE_nativeRubySubGroups);
+		try {
+			int _alt;
+			enterOuterAlt(_localctx, 1);
+			{
+			setState(58);
+			_errHandler.sync(this);
+			_alt = getInterpreter().adaptivePredict(_input,4,_ctx);
+			while ( _alt!=2 && _alt!=org.antlr.v4.runtime.atn.ATN.INVALID_ALT_NUMBER ) {
+				if ( _alt==1 ) {
+					{
+					{
+					setState(53);
+					nativeRubyText();
+					setState(54);
+					match(RUBY_SEPARATOR);
+					}
+					} 
+				}
+				setState(60);
+				_errHandler.sync(this);
+				_alt = getInterpreter().adaptivePredict(_input,4,_ctx);
+			}
+			setState(61);
+			nativeRubyText();
+			}
+		}
+		catch (RecognitionException re) {
+			_localctx.exception = re;
+			_errHandler.reportError(this, re);
+			_errHandler.recover(this, re);
+		}
+		finally {
+			exitRule();
+		}
+		return _localctx;
+	}
+
+	@SuppressWarnings("CheckReturnValue")
+	public static class NativeRubyTextContext extends ParserRuleContext {
 		public List<TerminalNode> HIRAGANA() { return getTokens(FuriganaCurlyBraceTemplateParser.HIRAGANA); }
 		public TerminalNode HIRAGANA(int i) {
 			return getToken(FuriganaCurlyBraceTemplateParser.HIRAGANA, i);
@@ -429,46 +509,42 @@ public class FuriganaCurlyBraceTemplateParser extends Parser {
 		public TerminalNode KATAKANA(int i) {
 			return getToken(FuriganaCurlyBraceTemplateParser.KATAKANA, i);
 		}
-		public List<TerminalNode> ROMAJI() { return getTokens(FuriganaCurlyBraceTemplateParser.ROMAJI); }
-		public TerminalNode ROMAJI(int i) {
-			return getToken(FuriganaCurlyBraceTemplateParser.ROMAJI, i);
-		}
-		public RubyTextContext(ParserRuleContext parent, int invokingState) {
+		public NativeRubyTextContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
 		}
-		@Override public int getRuleIndex() { return RULE_rubyText; }
+		@Override public int getRuleIndex() { return RULE_nativeRubyText; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FuriganaCurlyBraceTemplateParserListener ) ((FuriganaCurlyBraceTemplateParserListener)listener).enterRubyText(this);
+			if ( listener instanceof FuriganaCurlyBraceTemplateParserListener ) ((FuriganaCurlyBraceTemplateParserListener)listener).enterNativeRubyText(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FuriganaCurlyBraceTemplateParserListener ) ((FuriganaCurlyBraceTemplateParserListener)listener).exitRubyText(this);
+			if ( listener instanceof FuriganaCurlyBraceTemplateParserListener ) ((FuriganaCurlyBraceTemplateParserListener)listener).exitNativeRubyText(this);
 		}
 	}
 
-	public final RubyTextContext rubyText() throws RecognitionException {
-		RubyTextContext _localctx = new RubyTextContext(_ctx, getState());
-		enterRule(_localctx, 12, RULE_rubyText);
+	public final NativeRubyTextContext nativeRubyText() throws RecognitionException {
+		NativeRubyTextContext _localctx = new NativeRubyTextContext(_ctx, getState());
+		enterRule(_localctx, 14, RULE_nativeRubyText);
 		int _la;
 		try {
-			setState(63);
+			setState(73);
 			_errHandler.sync(this);
 			switch (_input.LA(1)) {
 			case HIRAGANA:
 				enterOuterAlt(_localctx, 1);
 				{
-				setState(49); 
+				setState(64); 
 				_errHandler.sync(this);
 				_la = _input.LA(1);
 				do {
 					{
 					{
-					setState(48);
+					setState(63);
 					match(HIRAGANA);
 					}
 					}
-					setState(51); 
+					setState(66); 
 					_errHandler.sync(this);
 					_la = _input.LA(1);
 				} while ( _la==HIRAGANA );
@@ -477,39 +553,20 @@ public class FuriganaCurlyBraceTemplateParser extends Parser {
 			case KATAKANA:
 				enterOuterAlt(_localctx, 2);
 				{
-				setState(54); 
+				setState(69); 
 				_errHandler.sync(this);
 				_la = _input.LA(1);
 				do {
 					{
 					{
-					setState(53);
+					setState(68);
 					match(KATAKANA);
 					}
 					}
-					setState(56); 
+					setState(71); 
 					_errHandler.sync(this);
 					_la = _input.LA(1);
 				} while ( _la==KATAKANA );
-				}
-				break;
-			case ROMAJI:
-				enterOuterAlt(_localctx, 3);
-				{
-				setState(59); 
-				_errHandler.sync(this);
-				_la = _input.LA(1);
-				do {
-					{
-					{
-					setState(58);
-					match(ROMAJI);
-					}
-					}
-					setState(61); 
-					_errHandler.sync(this);
-					_la = _input.LA(1);
-				} while ( _la==ROMAJI );
 				}
 				break;
 			default:
@@ -528,58 +585,229 @@ public class FuriganaCurlyBraceTemplateParser extends Parser {
 	}
 
 	@SuppressWarnings("CheckReturnValue")
-	public static class NativeCharsContext extends ParserRuleContext {
-		public List<TerminalNode> CJK_CHAR() { return getTokens(FuriganaCurlyBraceTemplateParser.CJK_CHAR); }
-		public TerminalNode CJK_CHAR(int i) {
-			return getToken(FuriganaCurlyBraceTemplateParser.CJK_CHAR, i);
+	public static class PronuncationGroupContext extends ParserRuleContext {
+		public TerminalNode GROUP_PART_SEPARATOR() { return getToken(FuriganaCurlyBraceTemplateParser.GROUP_PART_SEPARATOR, 0); }
+		public PronuncationRubySubGroupsContext pronuncationRubySubGroups() {
+			return getRuleContext(PronuncationRubySubGroupsContext.class,0);
 		}
-		public List<TerminalNode> FULL_WIDTH_ALAPHANUMERIC_CHAR() { return getTokens(FuriganaCurlyBraceTemplateParser.FULL_WIDTH_ALAPHANUMERIC_CHAR); }
-		public TerminalNode FULL_WIDTH_ALAPHANUMERIC_CHAR(int i) {
-			return getToken(FuriganaCurlyBraceTemplateParser.FULL_WIDTH_ALAPHANUMERIC_CHAR, i);
+		public TerminalNode RUBY_GROUP_END() { return getToken(FuriganaCurlyBraceTemplateParser.RUBY_GROUP_END, 0); }
+		public List<JpCharContext> jpChar() {
+			return getRuleContexts(JpCharContext.class);
 		}
-		public NativeCharsContext(ParserRuleContext parent, int invokingState) {
+		public JpCharContext jpChar(int i) {
+			return getRuleContext(JpCharContext.class,i);
+		}
+		public PronuncationGroupContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
 		}
-		@Override public int getRuleIndex() { return RULE_nativeChars; }
+		@Override public int getRuleIndex() { return RULE_pronuncationGroup; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof FuriganaCurlyBraceTemplateParserListener ) ((FuriganaCurlyBraceTemplateParserListener)listener).enterNativeChars(this);
+			if ( listener instanceof FuriganaCurlyBraceTemplateParserListener ) ((FuriganaCurlyBraceTemplateParserListener)listener).enterPronuncationGroup(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof FuriganaCurlyBraceTemplateParserListener ) ((FuriganaCurlyBraceTemplateParserListener)listener).exitNativeChars(this);
+			if ( listener instanceof FuriganaCurlyBraceTemplateParserListener ) ((FuriganaCurlyBraceTemplateParserListener)listener).exitPronuncationGroup(this);
 		}
 	}
 
-	public final NativeCharsContext nativeChars() throws RecognitionException {
-		NativeCharsContext _localctx = new NativeCharsContext(_ctx, getState());
-		enterRule(_localctx, 14, RULE_nativeChars);
+	public final PronuncationGroupContext pronuncationGroup() throws RecognitionException {
+		PronuncationGroupContext _localctx = new PronuncationGroupContext(_ctx, getState());
+		enterRule(_localctx, 16, RULE_pronuncationGroup);
 		int _la;
 		try {
 			enterOuterAlt(_localctx, 1);
 			{
-			setState(66); 
+			setState(76); 
 			_errHandler.sync(this);
 			_la = _input.LA(1);
 			do {
 				{
 				{
-				setState(65);
-				_la = _input.LA(1);
-				if ( !(_la==CJK_CHAR || _la==FULL_WIDTH_ALAPHANUMERIC_CHAR) ) {
-				_errHandler.recoverInline(this);
-				}
-				else {
-					if ( _input.LA(1)==Token.EOF ) matchedEOF = true;
-					_errHandler.reportMatch(this);
-					consume();
+				setState(75);
+				jpChar();
 				}
 				}
-				}
-				setState(68); 
+				setState(78); 
 				_errHandler.sync(this);
 				_la = _input.LA(1);
-			} while ( _la==CJK_CHAR || _la==FULL_WIDTH_ALAPHANUMERIC_CHAR );
+			} while ( (((_la) & ~0x3f) == 0 && ((1L << _la) & 960L) != 0) );
+			setState(80);
+			match(GROUP_PART_SEPARATOR);
+			setState(81);
+			pronuncationRubySubGroups();
+			setState(82);
+			match(RUBY_GROUP_END);
+			}
+		}
+		catch (RecognitionException re) {
+			_localctx.exception = re;
+			_errHandler.reportError(this, re);
+			_errHandler.recover(this, re);
+		}
+		finally {
+			exitRule();
+		}
+		return _localctx;
+	}
+
+	@SuppressWarnings("CheckReturnValue")
+	public static class JpCharContext extends ParserRuleContext {
+		public TerminalNode CJK_CHAR() { return getToken(FuriganaCurlyBraceTemplateParser.CJK_CHAR, 0); }
+		public TerminalNode FULL_WIDTH_ALAPHANUMERIC_CHAR() { return getToken(FuriganaCurlyBraceTemplateParser.FULL_WIDTH_ALAPHANUMERIC_CHAR, 0); }
+		public TerminalNode HIRAGANA_CHAR() { return getToken(FuriganaCurlyBraceTemplateParser.HIRAGANA_CHAR, 0); }
+		public TerminalNode KATAKANA_CHAR() { return getToken(FuriganaCurlyBraceTemplateParser.KATAKANA_CHAR, 0); }
+		public JpCharContext(ParserRuleContext parent, int invokingState) {
+			super(parent, invokingState);
+		}
+		@Override public int getRuleIndex() { return RULE_jpChar; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof FuriganaCurlyBraceTemplateParserListener ) ((FuriganaCurlyBraceTemplateParserListener)listener).enterJpChar(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof FuriganaCurlyBraceTemplateParserListener ) ((FuriganaCurlyBraceTemplateParserListener)listener).exitJpChar(this);
+		}
+	}
+
+	public final JpCharContext jpChar() throws RecognitionException {
+		JpCharContext _localctx = new JpCharContext(_ctx, getState());
+		enterRule(_localctx, 18, RULE_jpChar);
+		int _la;
+		try {
+			enterOuterAlt(_localctx, 1);
+			{
+			setState(84);
+			_la = _input.LA(1);
+			if ( !((((_la) & ~0x3f) == 0 && ((1L << _la) & 960L) != 0)) ) {
+			_errHandler.recoverInline(this);
+			}
+			else {
+				if ( _input.LA(1)==Token.EOF ) matchedEOF = true;
+				_errHandler.reportMatch(this);
+				consume();
+			}
+			}
+		}
+		catch (RecognitionException re) {
+			_localctx.exception = re;
+			_errHandler.reportError(this, re);
+			_errHandler.recover(this, re);
+		}
+		finally {
+			exitRule();
+		}
+		return _localctx;
+	}
+
+	@SuppressWarnings("CheckReturnValue")
+	public static class PronuncationRubySubGroupsContext extends ParserRuleContext {
+		public List<PronunciationRubyTextContext> pronunciationRubyText() {
+			return getRuleContexts(PronunciationRubyTextContext.class);
+		}
+		public PronunciationRubyTextContext pronunciationRubyText(int i) {
+			return getRuleContext(PronunciationRubyTextContext.class,i);
+		}
+		public List<TerminalNode> RUBY_SEPARATOR() { return getTokens(FuriganaCurlyBraceTemplateParser.RUBY_SEPARATOR); }
+		public TerminalNode RUBY_SEPARATOR(int i) {
+			return getToken(FuriganaCurlyBraceTemplateParser.RUBY_SEPARATOR, i);
+		}
+		public PronuncationRubySubGroupsContext(ParserRuleContext parent, int invokingState) {
+			super(parent, invokingState);
+		}
+		@Override public int getRuleIndex() { return RULE_pronuncationRubySubGroups; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof FuriganaCurlyBraceTemplateParserListener ) ((FuriganaCurlyBraceTemplateParserListener)listener).enterPronuncationRubySubGroups(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof FuriganaCurlyBraceTemplateParserListener ) ((FuriganaCurlyBraceTemplateParserListener)listener).exitPronuncationRubySubGroups(this);
+		}
+	}
+
+	public final PronuncationRubySubGroupsContext pronuncationRubySubGroups() throws RecognitionException {
+		PronuncationRubySubGroupsContext _localctx = new PronuncationRubySubGroupsContext(_ctx, getState());
+		enterRule(_localctx, 20, RULE_pronuncationRubySubGroups);
+		try {
+			int _alt;
+			enterOuterAlt(_localctx, 1);
+			{
+			setState(91);
+			_errHandler.sync(this);
+			_alt = getInterpreter().adaptivePredict(_input,9,_ctx);
+			while ( _alt!=2 && _alt!=org.antlr.v4.runtime.atn.ATN.INVALID_ALT_NUMBER ) {
+				if ( _alt==1 ) {
+					{
+					{
+					setState(86);
+					pronunciationRubyText();
+					setState(87);
+					match(RUBY_SEPARATOR);
+					}
+					} 
+				}
+				setState(93);
+				_errHandler.sync(this);
+				_alt = getInterpreter().adaptivePredict(_input,9,_ctx);
+			}
+			setState(94);
+			pronunciationRubyText();
+			}
+		}
+		catch (RecognitionException re) {
+			_localctx.exception = re;
+			_errHandler.reportError(this, re);
+			_errHandler.recover(this, re);
+		}
+		finally {
+			exitRule();
+		}
+		return _localctx;
+	}
+
+	@SuppressWarnings("CheckReturnValue")
+	public static class PronunciationRubyTextContext extends ParserRuleContext {
+		public List<TerminalNode> ROMAJI() { return getTokens(FuriganaCurlyBraceTemplateParser.ROMAJI); }
+		public TerminalNode ROMAJI(int i) {
+			return getToken(FuriganaCurlyBraceTemplateParser.ROMAJI, i);
+		}
+		public PronunciationRubyTextContext(ParserRuleContext parent, int invokingState) {
+			super(parent, invokingState);
+		}
+		@Override public int getRuleIndex() { return RULE_pronunciationRubyText; }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof FuriganaCurlyBraceTemplateParserListener ) ((FuriganaCurlyBraceTemplateParserListener)listener).enterPronunciationRubyText(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof FuriganaCurlyBraceTemplateParserListener ) ((FuriganaCurlyBraceTemplateParserListener)listener).exitPronunciationRubyText(this);
+		}
+	}
+
+	public final PronunciationRubyTextContext pronunciationRubyText() throws RecognitionException {
+		PronunciationRubyTextContext _localctx = new PronunciationRubyTextContext(_ctx, getState());
+		enterRule(_localctx, 22, RULE_pronunciationRubyText);
+		int _la;
+		try {
+			enterOuterAlt(_localctx, 1);
+			{
+			setState(97); 
+			_errHandler.sync(this);
+			_la = _input.LA(1);
+			do {
+				{
+				{
+				setState(96);
+				match(ROMAJI);
+				}
+				}
+				setState(99); 
+				_errHandler.sync(this);
+				_la = _input.LA(1);
+			} while ( _la==ROMAJI );
 			}
 		}
 		catch (RecognitionException re) {
@@ -594,48 +822,62 @@ public class FuriganaCurlyBraceTemplateParser extends Parser {
 	}
 
 	public static final String _serializedATN =
-		"\u0004\u0001\u0010G\u0002\u0000\u0007\u0000\u0002\u0001\u0007\u0001\u0002"+
+		"\u0004\u0001\u0010f\u0002\u0000\u0007\u0000\u0002\u0001\u0007\u0001\u0002"+
 		"\u0002\u0007\u0002\u0002\u0003\u0007\u0003\u0002\u0004\u0007\u0004\u0002"+
-		"\u0005\u0007\u0005\u0002\u0006\u0007\u0006\u0002\u0007\u0007\u0007\u0001"+
-		"\u0000\u0001\u0000\u0005\u0000\u0013\b\u0000\n\u0000\f\u0000\u0016\t\u0000"+
+		"\u0005\u0007\u0005\u0002\u0006\u0007\u0006\u0002\u0007\u0007\u0007\u0002"+
+		"\b\u0007\b\u0002\t\u0007\t\u0002\n\u0007\n\u0002\u000b\u0007\u000b\u0001"+
+		"\u0000\u0001\u0000\u0005\u0000\u001b\b\u0000\n\u0000\f\u0000\u001e\t\u0000"+
 		"\u0001\u0000\u0001\u0000\u0001\u0001\u0001\u0001\u0001\u0002\u0001\u0002"+
-		"\u0001\u0002\u0001\u0003\u0001\u0003\u0001\u0003\u0001\u0004\u0001\u0004"+
-		"\u0001\u0004\u0001\u0004\u0001\u0004\u0001\u0005\u0001\u0005\u0001\u0005"+
-		"\u0005\u0005*\b\u0005\n\u0005\f\u0005-\t\u0005\u0001\u0005\u0001\u0005"+
-		"\u0001\u0006\u0004\u00062\b\u0006\u000b\u0006\f\u00063\u0001\u0006\u0004"+
-		"\u00067\b\u0006\u000b\u0006\f\u00068\u0001\u0006\u0004\u0006<\b\u0006"+
-		"\u000b\u0006\f\u0006=\u0003\u0006@\b\u0006\u0001\u0007\u0004\u0007C\b"+
-		"\u0007\u000b\u0007\f\u0007D\u0001\u0007\u0000\u0000\b\u0000\u0002\u0004"+
-		"\u0006\b\n\f\u000e\u0000\u0001\u0001\u0000\u0006\u0007G\u0000\u0014\u0001"+
-		"\u0000\u0000\u0000\u0002\u0019\u0001\u0000\u0000\u0000\u0004\u001b\u0001"+
-		"\u0000\u0000\u0000\u0006\u001e\u0001\u0000\u0000\u0000\b!\u0001\u0000"+
-		"\u0000\u0000\n+\u0001\u0000\u0000\u0000\f?\u0001\u0000\u0000\u0000\u000e"+
-		"B\u0001\u0000\u0000\u0000\u0010\u0013\u0003\u0002\u0001\u0000\u0011\u0013"+
-		"\u0003\u0004\u0002\u0000\u0012\u0010\u0001\u0000\u0000\u0000\u0012\u0011"+
-		"\u0001\u0000\u0000\u0000\u0013\u0016\u0001\u0000\u0000\u0000\u0014\u0012"+
-		"\u0001\u0000\u0000\u0000\u0014\u0015\u0001\u0000\u0000\u0000\u0015\u0017"+
-		"\u0001\u0000\u0000\u0000\u0016\u0014\u0001\u0000\u0000\u0000\u0017\u0018"+
-		"\u0005\u0000\u0000\u0001\u0018\u0001\u0001\u0000\u0000\u0000\u0019\u001a"+
-		"\u0005\u0001\u0000\u0000\u001a\u0003\u0001\u0000\u0000\u0000\u001b\u001c"+
-		"\u0005\u0002\u0000\u0000\u001c\u001d\u0003\b\u0004\u0000\u001d\u0005\u0001"+
-		"\u0000\u0000\u0000\u001e\u001f\u0003\u000e\u0007\u0000\u001f \u0005\u0004"+
-		"\u0000\u0000 \u0007\u0001\u0000\u0000\u0000!\"\u0003\u000e\u0007\u0000"+
-		"\"#\u0005\u0005\u0000\u0000#$\u0003\n\u0005\u0000$%\u0005\u000b\u0000"+
-		"\u0000%\t\u0001\u0000\u0000\u0000&\'\u0003\f\u0006\u0000\'(\u0005\f\u0000"+
-		"\u0000(*\u0001\u0000\u0000\u0000)&\u0001\u0000\u0000\u0000*-\u0001\u0000"+
-		"\u0000\u0000+)\u0001\u0000\u0000\u0000+,\u0001\u0000\u0000\u0000,.\u0001"+
-		"\u0000\u0000\u0000-+\u0001\u0000\u0000\u0000./\u0003\f\u0006\u0000/\u000b"+
-		"\u0001\u0000\u0000\u000002\u0005\r\u0000\u000010\u0001\u0000\u0000\u0000"+
-		"23\u0001\u0000\u0000\u000031\u0001\u0000\u0000\u000034\u0001\u0000\u0000"+
-		"\u00004@\u0001\u0000\u0000\u000057\u0005\u000e\u0000\u000065\u0001\u0000"+
-		"\u0000\u000078\u0001\u0000\u0000\u000086\u0001\u0000\u0000\u000089\u0001"+
-		"\u0000\u0000\u00009@\u0001\u0000\u0000\u0000:<\u0005\u000f\u0000\u0000"+
-		";:\u0001\u0000\u0000\u0000<=\u0001\u0000\u0000\u0000=;\u0001\u0000\u0000"+
-		"\u0000=>\u0001\u0000\u0000\u0000>@\u0001\u0000\u0000\u0000?1\u0001\u0000"+
-		"\u0000\u0000?6\u0001\u0000\u0000\u0000?;\u0001\u0000\u0000\u0000@\r\u0001"+
-		"\u0000\u0000\u0000AC\u0007\u0000\u0000\u0000BA\u0001\u0000\u0000\u0000"+
-		"CD\u0001\u0000\u0000\u0000DB\u0001\u0000\u0000\u0000DE\u0001\u0000\u0000"+
-		"\u0000E\u000f\u0001\u0000\u0000\u0000\b\u0012\u0014+38=?D";
+		"\u0001\u0002\u0001\u0003\u0001\u0003\u0003\u0003)\b\u0003\u0001\u0004"+
+		"\u0004\u0004,\b\u0004\u000b\u0004\f\u0004-\u0001\u0004\u0001\u0004\u0001"+
+		"\u0004\u0001\u0004\u0001\u0005\u0001\u0005\u0001\u0006\u0001\u0006\u0001"+
+		"\u0006\u0005\u00069\b\u0006\n\u0006\f\u0006<\t\u0006\u0001\u0006\u0001"+
+		"\u0006\u0001\u0007\u0004\u0007A\b\u0007\u000b\u0007\f\u0007B\u0001\u0007"+
+		"\u0004\u0007F\b\u0007\u000b\u0007\f\u0007G\u0003\u0007J\b\u0007\u0001"+
+		"\b\u0004\bM\b\b\u000b\b\f\bN\u0001\b\u0001\b\u0001\b\u0001\b\u0001\t\u0001"+
+		"\t\u0001\n\u0001\n\u0001\n\u0005\nZ\b\n\n\n\f\n]\t\n\u0001\n\u0001\n\u0001"+
+		"\u000b\u0004\u000bb\b\u000b\u000b\u000b\f\u000bc\u0001\u000b\u0000\u0000"+
+		"\f\u0000\u0002\u0004\u0006\b\n\f\u000e\u0010\u0012\u0014\u0016\u0000\u0002"+
+		"\u0001\u0000\u0006\u0007\u0001\u0000\u0006\td\u0000\u001c\u0001\u0000"+
+		"\u0000\u0000\u0002!\u0001\u0000\u0000\u0000\u0004#\u0001\u0000\u0000\u0000"+
+		"\u0006(\u0001\u0000\u0000\u0000\b+\u0001\u0000\u0000\u0000\n3\u0001\u0000"+
+		"\u0000\u0000\f:\u0001\u0000\u0000\u0000\u000eI\u0001\u0000\u0000\u0000"+
+		"\u0010L\u0001\u0000\u0000\u0000\u0012T\u0001\u0000\u0000\u0000\u0014["+
+		"\u0001\u0000\u0000\u0000\u0016a\u0001\u0000\u0000\u0000\u0018\u001b\u0003"+
+		"\u0002\u0001\u0000\u0019\u001b\u0003\u0004\u0002\u0000\u001a\u0018\u0001"+
+		"\u0000\u0000\u0000\u001a\u0019\u0001\u0000\u0000\u0000\u001b\u001e\u0001"+
+		"\u0000\u0000\u0000\u001c\u001a\u0001\u0000\u0000\u0000\u001c\u001d\u0001"+
+		"\u0000\u0000\u0000\u001d\u001f\u0001\u0000\u0000\u0000\u001e\u001c\u0001"+
+		"\u0000\u0000\u0000\u001f \u0005\u0000\u0000\u0001 \u0001\u0001\u0000\u0000"+
+		"\u0000!\"\u0005\u0001\u0000\u0000\"\u0003\u0001\u0000\u0000\u0000#$\u0005"+
+		"\u0002\u0000\u0000$%\u0003\u0006\u0003\u0000%\u0005\u0001\u0000\u0000"+
+		"\u0000&)\u0003\b\u0004\u0000\')\u0003\u0010\b\u0000(&\u0001\u0000\u0000"+
+		"\u0000(\'\u0001\u0000\u0000\u0000)\u0007\u0001\u0000\u0000\u0000*,\u0003"+
+		"\n\u0005\u0000+*\u0001\u0000\u0000\u0000,-\u0001\u0000\u0000\u0000-+\u0001"+
+		"\u0000\u0000\u0000-.\u0001\u0000\u0000\u0000./\u0001\u0000\u0000\u0000"+
+		"/0\u0005\u0005\u0000\u000001\u0003\f\u0006\u000012\u0005\u000b\u0000\u0000"+
+		"2\t\u0001\u0000\u0000\u000034\u0007\u0000\u0000\u00004\u000b\u0001\u0000"+
+		"\u0000\u000056\u0003\u000e\u0007\u000067\u0005\f\u0000\u000079\u0001\u0000"+
+		"\u0000\u000085\u0001\u0000\u0000\u00009<\u0001\u0000\u0000\u0000:8\u0001"+
+		"\u0000\u0000\u0000:;\u0001\u0000\u0000\u0000;=\u0001\u0000\u0000\u0000"+
+		"<:\u0001\u0000\u0000\u0000=>\u0003\u000e\u0007\u0000>\r\u0001\u0000\u0000"+
+		"\u0000?A\u0005\r\u0000\u0000@?\u0001\u0000\u0000\u0000AB\u0001\u0000\u0000"+
+		"\u0000B@\u0001\u0000\u0000\u0000BC\u0001\u0000\u0000\u0000CJ\u0001\u0000"+
+		"\u0000\u0000DF\u0005\u000e\u0000\u0000ED\u0001\u0000\u0000\u0000FG\u0001"+
+		"\u0000\u0000\u0000GE\u0001\u0000\u0000\u0000GH\u0001\u0000\u0000\u0000"+
+		"HJ\u0001\u0000\u0000\u0000I@\u0001\u0000\u0000\u0000IE\u0001\u0000\u0000"+
+		"\u0000J\u000f\u0001\u0000\u0000\u0000KM\u0003\u0012\t\u0000LK\u0001\u0000"+
+		"\u0000\u0000MN\u0001\u0000\u0000\u0000NL\u0001\u0000\u0000\u0000NO\u0001"+
+		"\u0000\u0000\u0000OP\u0001\u0000\u0000\u0000PQ\u0005\u0005\u0000\u0000"+
+		"QR\u0003\u0014\n\u0000RS\u0005\u000b\u0000\u0000S\u0011\u0001\u0000\u0000"+
+		"\u0000TU\u0007\u0001\u0000\u0000U\u0013\u0001\u0000\u0000\u0000VW\u0003"+
+		"\u0016\u000b\u0000WX\u0005\f\u0000\u0000XZ\u0001\u0000\u0000\u0000YV\u0001"+
+		"\u0000\u0000\u0000Z]\u0001\u0000\u0000\u0000[Y\u0001\u0000\u0000\u0000"+
+		"[\\\u0001\u0000\u0000\u0000\\^\u0001\u0000\u0000\u0000][\u0001\u0000\u0000"+
+		"\u0000^_\u0003\u0016\u000b\u0000_\u0015\u0001\u0000\u0000\u0000`b\u0005"+
+		"\u000f\u0000\u0000a`\u0001\u0000\u0000\u0000bc\u0001\u0000\u0000\u0000"+
+		"ca\u0001\u0000\u0000\u0000cd\u0001\u0000\u0000\u0000d\u0017\u0001\u0000"+
+		"\u0000\u0000\u000b\u001a\u001c(-:BGIN[c";
 	public static final ATN _ATN =
 		new ATNDeserializer().deserialize(_serializedATN.toCharArray());
 	static {

@@ -55,18 +55,6 @@ public class FuriganaCurlyBraceTemplateParserBaseListener implements FuriganaCur
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterEmptyGroup(FuriganaCurlyBraceTemplateParser.EmptyGroupContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitEmptyGroup(FuriganaCurlyBraceTemplateParser.EmptyGroupContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
 	@Override public void enterRubyGroup(FuriganaCurlyBraceTemplateParser.RubyGroupContext ctx) { }
 	/**
 	 * {@inheritDoc}
@@ -79,37 +67,97 @@ public class FuriganaCurlyBraceTemplateParserBaseListener implements FuriganaCur
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterRubySubGroups(FuriganaCurlyBraceTemplateParser.RubySubGroupsContext ctx) { }
+	@Override public void enterNativeGroup(FuriganaCurlyBraceTemplateParser.NativeGroupContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitRubySubGroups(FuriganaCurlyBraceTemplateParser.RubySubGroupsContext ctx) { }
+	@Override public void exitNativeGroup(FuriganaCurlyBraceTemplateParser.NativeGroupContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterRubyText(FuriganaCurlyBraceTemplateParser.RubyTextContext ctx) { }
+	@Override public void enterCjkChar(FuriganaCurlyBraceTemplateParser.CjkCharContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitRubyText(FuriganaCurlyBraceTemplateParser.RubyTextContext ctx) { }
+	@Override public void exitCjkChar(FuriganaCurlyBraceTemplateParser.CjkCharContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterNativeChars(FuriganaCurlyBraceTemplateParser.NativeCharsContext ctx) { }
+	@Override public void enterNativeRubySubGroups(FuriganaCurlyBraceTemplateParser.NativeRubySubGroupsContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitNativeChars(FuriganaCurlyBraceTemplateParser.NativeCharsContext ctx) { }
+	@Override public void exitNativeRubySubGroups(FuriganaCurlyBraceTemplateParser.NativeRubySubGroupsContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterNativeRubyText(FuriganaCurlyBraceTemplateParser.NativeRubyTextContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitNativeRubyText(FuriganaCurlyBraceTemplateParser.NativeRubyTextContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterPronuncationGroup(FuriganaCurlyBraceTemplateParser.PronuncationGroupContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitPronuncationGroup(FuriganaCurlyBraceTemplateParser.PronuncationGroupContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterJpChar(FuriganaCurlyBraceTemplateParser.JpCharContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitJpChar(FuriganaCurlyBraceTemplateParser.JpCharContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterPronuncationRubySubGroups(FuriganaCurlyBraceTemplateParser.PronuncationRubySubGroupsContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitPronuncationRubySubGroups(FuriganaCurlyBraceTemplateParser.PronuncationRubySubGroupsContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterPronunciationRubyText(FuriganaCurlyBraceTemplateParser.PronunciationRubyTextContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitPronunciationRubyText(FuriganaCurlyBraceTemplateParser.PronunciationRubyTextContext ctx) { }
 
 	/**
 	 * {@inheritDoc}

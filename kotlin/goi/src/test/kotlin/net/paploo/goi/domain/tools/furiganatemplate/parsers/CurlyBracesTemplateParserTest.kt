@@ -119,7 +119,8 @@ class CurlyBracesTemplateParserTest : DescribeSpec({
         val expectedTree = FuriganaParseTree(
             elements = listOf(
                 FuriganaParseTree.Element.Text("〜て"),
-                FuriganaParseTree.Element.RubyText("は", "wa")
+                FuriganaParseTree.Element.RubyText("は", "wa"),
+                FuriganaParseTree.Element.Text("いけません"),
             )
         )
 
