@@ -9,7 +9,7 @@ lexer grammar FuriganaCurlyBraceTemplateLexer;
 // 2. In a tie, the first rule wins.
 
 //mode DEFAULT;
-STR: (~'{')+;
+STR: (~('{' | '}'))+; //Don't match on either curly brace; first to not collide, and second to make it error if unmatched.
 GROUP_START: '{' -> pushMode(GROUP_MODE);
 INVALID_CHAR: .; //If no other rule matches, this will catch the input to make it more handlable.
 

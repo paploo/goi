@@ -135,10 +135,10 @@ public class FuriganaCurlyBraceTemplateParser extends Parser {
 		try {
 			enterOuterAlt(_localctx, 1);
 			{
-			setState(18); 
+			setState(20);
 			_errHandler.sync(this);
 			_la = _input.LA(1);
-			do {
+			while (_la==STR || _la==GROUP_START) {
 				{
 				setState(18);
 				_errHandler.sync(this);
@@ -159,11 +159,11 @@ public class FuriganaCurlyBraceTemplateParser extends Parser {
 					throw new NoViableAltException(this);
 				}
 				}
-				setState(20); 
+				setState(22);
 				_errHandler.sync(this);
 				_la = _input.LA(1);
-			} while ( _la==STR || _la==GROUP_START );
-			setState(22);
+			}
+			setState(23);
 			match(EOF);
 			}
 		}
@@ -201,7 +201,7 @@ public class FuriganaCurlyBraceTemplateParser extends Parser {
 		try {
 			enterOuterAlt(_localctx, 1);
 			{
-			setState(24);
+			setState(25);
 			match(STR);
 			}
 		}
@@ -242,9 +242,9 @@ public class FuriganaCurlyBraceTemplateParser extends Parser {
 		try {
 			enterOuterAlt(_localctx, 1);
 			{
-			setState(26);
-			match(GROUP_START);
 			setState(27);
+			match(GROUP_START);
+			setState(28);
 			rubyGroup();
 			}
 		}
@@ -285,9 +285,9 @@ public class FuriganaCurlyBraceTemplateParser extends Parser {
 		try {
 			enterOuterAlt(_localctx, 1);
 			{
-			setState(29);
-			nativeChars();
 			setState(30);
+			nativeChars();
+			setState(31);
 			match(NATIVE_GROUP_END);
 			}
 		}
@@ -332,13 +332,13 @@ public class FuriganaCurlyBraceTemplateParser extends Parser {
 		try {
 			enterOuterAlt(_localctx, 1);
 			{
-			setState(32);
-			nativeChars();
 			setState(33);
-			match(GROUP_PART_SEPARATOR);
+			nativeChars();
 			setState(34);
-			rubySubGroups();
+			match(GROUP_PART_SEPARATOR);
 			setState(35);
+			rubySubGroups();
+			setState(36);
 			match(RUBY_GROUP_END);
 			}
 		}
@@ -386,25 +386,25 @@ public class FuriganaCurlyBraceTemplateParser extends Parser {
 			int _alt;
 			enterOuterAlt(_localctx, 1);
 			{
-			setState(42);
+			setState(43);
 			_errHandler.sync(this);
 			_alt = getInterpreter().adaptivePredict(_input,2,_ctx);
 			while ( _alt!=2 && _alt!=org.antlr.v4.runtime.atn.ATN.INVALID_ALT_NUMBER ) {
 				if ( _alt==1 ) {
 					{
 					{
-					setState(37);
-					rubyText();
 					setState(38);
+					rubyText();
+					setState(39);
 					match(RUBY_SEPARATOR);
 					}
 					} 
 				}
-				setState(44);
+				setState(45);
 				_errHandler.sync(this);
 				_alt = getInterpreter().adaptivePredict(_input,2,_ctx);
 			}
-			setState(45);
+			setState(46);
 			rubyText();
 			}
 		}
@@ -452,23 +452,23 @@ public class FuriganaCurlyBraceTemplateParser extends Parser {
 		enterRule(_localctx, 12, RULE_rubyText);
 		int _la;
 		try {
-			setState(62);
+			setState(63);
 			_errHandler.sync(this);
 			switch (_input.LA(1)) {
 			case HIRAGANA:
 				enterOuterAlt(_localctx, 1);
 				{
-				setState(48); 
+				setState(49); 
 				_errHandler.sync(this);
 				_la = _input.LA(1);
 				do {
 					{
 					{
-					setState(47);
+					setState(48);
 					match(HIRAGANA);
 					}
 					}
-					setState(50); 
+					setState(51); 
 					_errHandler.sync(this);
 					_la = _input.LA(1);
 				} while ( _la==HIRAGANA );
@@ -477,17 +477,17 @@ public class FuriganaCurlyBraceTemplateParser extends Parser {
 			case KATAKANA:
 				enterOuterAlt(_localctx, 2);
 				{
-				setState(53); 
+				setState(54); 
 				_errHandler.sync(this);
 				_la = _input.LA(1);
 				do {
 					{
 					{
-					setState(52);
+					setState(53);
 					match(KATAKANA);
 					}
 					}
-					setState(55); 
+					setState(56); 
 					_errHandler.sync(this);
 					_la = _input.LA(1);
 				} while ( _la==KATAKANA );
@@ -496,17 +496,17 @@ public class FuriganaCurlyBraceTemplateParser extends Parser {
 			case ROMAJI:
 				enterOuterAlt(_localctx, 3);
 				{
-				setState(58); 
+				setState(59); 
 				_errHandler.sync(this);
 				_la = _input.LA(1);
 				do {
 					{
 					{
-					setState(57);
+					setState(58);
 					match(ROMAJI);
 					}
 					}
-					setState(60); 
+					setState(61); 
 					_errHandler.sync(this);
 					_la = _input.LA(1);
 				} while ( _la==ROMAJI );
@@ -558,13 +558,13 @@ public class FuriganaCurlyBraceTemplateParser extends Parser {
 		try {
 			enterOuterAlt(_localctx, 1);
 			{
-			setState(65); 
+			setState(66); 
 			_errHandler.sync(this);
 			_la = _input.LA(1);
 			do {
 				{
 				{
-				setState(64);
+				setState(65);
 				_la = _input.LA(1);
 				if ( !(_la==CJK_CHAR || _la==FULL_WIDTH_ALAPHANUMERIC_CHAR) ) {
 				_errHandler.recoverInline(this);
@@ -576,7 +576,7 @@ public class FuriganaCurlyBraceTemplateParser extends Parser {
 				}
 				}
 				}
-				setState(67); 
+				setState(68); 
 				_errHandler.sync(this);
 				_la = _input.LA(1);
 			} while ( _la==CJK_CHAR || _la==FULL_WIDTH_ALAPHANUMERIC_CHAR );
@@ -594,48 +594,48 @@ public class FuriganaCurlyBraceTemplateParser extends Parser {
 	}
 
 	public static final String _serializedATN =
-		"\u0004\u0001\u0010F\u0002\u0000\u0007\u0000\u0002\u0001\u0007\u0001\u0002"+
+		"\u0004\u0001\u0010G\u0002\u0000\u0007\u0000\u0002\u0001\u0007\u0001\u0002"+
 		"\u0002\u0007\u0002\u0002\u0003\u0007\u0003\u0002\u0004\u0007\u0004\u0002"+
 		"\u0005\u0007\u0005\u0002\u0006\u0007\u0006\u0002\u0007\u0007\u0007\u0001"+
-		"\u0000\u0001\u0000\u0004\u0000\u0013\b\u0000\u000b\u0000\f\u0000\u0014"+
+		"\u0000\u0001\u0000\u0005\u0000\u0013\b\u0000\n\u0000\f\u0000\u0016\t\u0000"+
 		"\u0001\u0000\u0001\u0000\u0001\u0001\u0001\u0001\u0001\u0002\u0001\u0002"+
 		"\u0001\u0002\u0001\u0003\u0001\u0003\u0001\u0003\u0001\u0004\u0001\u0004"+
 		"\u0001\u0004\u0001\u0004\u0001\u0004\u0001\u0005\u0001\u0005\u0001\u0005"+
-		"\u0005\u0005)\b\u0005\n\u0005\f\u0005,\t\u0005\u0001\u0005\u0001\u0005"+
-		"\u0001\u0006\u0004\u00061\b\u0006\u000b\u0006\f\u00062\u0001\u0006\u0004"+
-		"\u00066\b\u0006\u000b\u0006\f\u00067\u0001\u0006\u0004\u0006;\b\u0006"+
-		"\u000b\u0006\f\u0006<\u0003\u0006?\b\u0006\u0001\u0007\u0004\u0007B\b"+
-		"\u0007\u000b\u0007\f\u0007C\u0001\u0007\u0000\u0000\b\u0000\u0002\u0004"+
-		"\u0006\b\n\f\u000e\u0000\u0001\u0001\u0000\u0006\u0007F\u0000\u0012\u0001"+
-		"\u0000\u0000\u0000\u0002\u0018\u0001\u0000\u0000\u0000\u0004\u001a\u0001"+
-		"\u0000\u0000\u0000\u0006\u001d\u0001\u0000\u0000\u0000\b \u0001\u0000"+
-		"\u0000\u0000\n*\u0001\u0000\u0000\u0000\f>\u0001\u0000\u0000\u0000\u000e"+
-		"A\u0001\u0000\u0000\u0000\u0010\u0013\u0003\u0002\u0001\u0000\u0011\u0013"+
+		"\u0005\u0005*\b\u0005\n\u0005\f\u0005-\t\u0005\u0001\u0005\u0001\u0005"+
+		"\u0001\u0006\u0004\u00062\b\u0006\u000b\u0006\f\u00063\u0001\u0006\u0004"+
+		"\u00067\b\u0006\u000b\u0006\f\u00068\u0001\u0006\u0004\u0006<\b\u0006"+
+		"\u000b\u0006\f\u0006=\u0003\u0006@\b\u0006\u0001\u0007\u0004\u0007C\b"+
+		"\u0007\u000b\u0007\f\u0007D\u0001\u0007\u0000\u0000\b\u0000\u0002\u0004"+
+		"\u0006\b\n\f\u000e\u0000\u0001\u0001\u0000\u0006\u0007G\u0000\u0014\u0001"+
+		"\u0000\u0000\u0000\u0002\u0019\u0001\u0000\u0000\u0000\u0004\u001b\u0001"+
+		"\u0000\u0000\u0000\u0006\u001e\u0001\u0000\u0000\u0000\b!\u0001\u0000"+
+		"\u0000\u0000\n+\u0001\u0000\u0000\u0000\f?\u0001\u0000\u0000\u0000\u000e"+
+		"B\u0001\u0000\u0000\u0000\u0010\u0013\u0003\u0002\u0001\u0000\u0011\u0013"+
 		"\u0003\u0004\u0002\u0000\u0012\u0010\u0001\u0000\u0000\u0000\u0012\u0011"+
-		"\u0001\u0000\u0000\u0000\u0013\u0014\u0001\u0000\u0000\u0000\u0014\u0012"+
-		"\u0001\u0000\u0000\u0000\u0014\u0015\u0001\u0000\u0000\u0000\u0015\u0016"+
-		"\u0001\u0000\u0000\u0000\u0016\u0017\u0005\u0000\u0000\u0001\u0017\u0001"+
-		"\u0001\u0000\u0000\u0000\u0018\u0019\u0005\u0001\u0000\u0000\u0019\u0003"+
-		"\u0001\u0000\u0000\u0000\u001a\u001b\u0005\u0002\u0000\u0000\u001b\u001c"+
-		"\u0003\b\u0004\u0000\u001c\u0005\u0001\u0000\u0000\u0000\u001d\u001e\u0003"+
-		"\u000e\u0007\u0000\u001e\u001f\u0005\u0004\u0000\u0000\u001f\u0007\u0001"+
-		"\u0000\u0000\u0000 !\u0003\u000e\u0007\u0000!\"\u0005\u0005\u0000\u0000"+
-		"\"#\u0003\n\u0005\u0000#$\u0005\u000b\u0000\u0000$\t\u0001\u0000\u0000"+
-		"\u0000%&\u0003\f\u0006\u0000&\'\u0005\f\u0000\u0000\')\u0001\u0000\u0000"+
-		"\u0000(%\u0001\u0000\u0000\u0000),\u0001\u0000\u0000\u0000*(\u0001\u0000"+
-		"\u0000\u0000*+\u0001\u0000\u0000\u0000+-\u0001\u0000\u0000\u0000,*\u0001"+
-		"\u0000\u0000\u0000-.\u0003\f\u0006\u0000.\u000b\u0001\u0000\u0000\u0000"+
-		"/1\u0005\r\u0000\u00000/\u0001\u0000\u0000\u000012\u0001\u0000\u0000\u0000"+
-		"20\u0001\u0000\u0000\u000023\u0001\u0000\u0000\u00003?\u0001\u0000\u0000"+
-		"\u000046\u0005\u000e\u0000\u000054\u0001\u0000\u0000\u000067\u0001\u0000"+
-		"\u0000\u000075\u0001\u0000\u0000\u000078\u0001\u0000\u0000\u00008?\u0001"+
-		"\u0000\u0000\u00009;\u0005\u000f\u0000\u0000:9\u0001\u0000\u0000\u0000"+
-		";<\u0001\u0000\u0000\u0000<:\u0001\u0000\u0000\u0000<=\u0001\u0000\u0000"+
-		"\u0000=?\u0001\u0000\u0000\u0000>0\u0001\u0000\u0000\u0000>5\u0001\u0000"+
-		"\u0000\u0000>:\u0001\u0000\u0000\u0000?\r\u0001\u0000\u0000\u0000@B\u0007"+
-		"\u0000\u0000\u0000A@\u0001\u0000\u0000\u0000BC\u0001\u0000\u0000\u0000"+
-		"CA\u0001\u0000\u0000\u0000CD\u0001\u0000\u0000\u0000D\u000f\u0001\u0000"+
-		"\u0000\u0000\b\u0012\u0014*27<>C";
+		"\u0001\u0000\u0000\u0000\u0013\u0016\u0001\u0000\u0000\u0000\u0014\u0012"+
+		"\u0001\u0000\u0000\u0000\u0014\u0015\u0001\u0000\u0000\u0000\u0015\u0017"+
+		"\u0001\u0000\u0000\u0000\u0016\u0014\u0001\u0000\u0000\u0000\u0017\u0018"+
+		"\u0005\u0000\u0000\u0001\u0018\u0001\u0001\u0000\u0000\u0000\u0019\u001a"+
+		"\u0005\u0001\u0000\u0000\u001a\u0003\u0001\u0000\u0000\u0000\u001b\u001c"+
+		"\u0005\u0002\u0000\u0000\u001c\u001d\u0003\b\u0004\u0000\u001d\u0005\u0001"+
+		"\u0000\u0000\u0000\u001e\u001f\u0003\u000e\u0007\u0000\u001f \u0005\u0004"+
+		"\u0000\u0000 \u0007\u0001\u0000\u0000\u0000!\"\u0003\u000e\u0007\u0000"+
+		"\"#\u0005\u0005\u0000\u0000#$\u0003\n\u0005\u0000$%\u0005\u000b\u0000"+
+		"\u0000%\t\u0001\u0000\u0000\u0000&\'\u0003\f\u0006\u0000\'(\u0005\f\u0000"+
+		"\u0000(*\u0001\u0000\u0000\u0000)&\u0001\u0000\u0000\u0000*-\u0001\u0000"+
+		"\u0000\u0000+)\u0001\u0000\u0000\u0000+,\u0001\u0000\u0000\u0000,.\u0001"+
+		"\u0000\u0000\u0000-+\u0001\u0000\u0000\u0000./\u0003\f\u0006\u0000/\u000b"+
+		"\u0001\u0000\u0000\u000002\u0005\r\u0000\u000010\u0001\u0000\u0000\u0000"+
+		"23\u0001\u0000\u0000\u000031\u0001\u0000\u0000\u000034\u0001\u0000\u0000"+
+		"\u00004@\u0001\u0000\u0000\u000057\u0005\u000e\u0000\u000065\u0001\u0000"+
+		"\u0000\u000078\u0001\u0000\u0000\u000086\u0001\u0000\u0000\u000089\u0001"+
+		"\u0000\u0000\u00009@\u0001\u0000\u0000\u0000:<\u0005\u000f\u0000\u0000"+
+		";:\u0001\u0000\u0000\u0000<=\u0001\u0000\u0000\u0000=;\u0001\u0000\u0000"+
+		"\u0000=>\u0001\u0000\u0000\u0000>@\u0001\u0000\u0000\u0000?1\u0001\u0000"+
+		"\u0000\u0000?6\u0001\u0000\u0000\u0000?;\u0001\u0000\u0000\u0000@\r\u0001"+
+		"\u0000\u0000\u0000AC\u0007\u0000\u0000\u0000BA\u0001\u0000\u0000\u0000"+
+		"CD\u0001\u0000\u0000\u0000DB\u0001\u0000\u0000\u0000DE\u0001\u0000\u0000"+
+		"\u0000E\u000f\u0001\u0000\u0000\u0000\b\u0012\u0014+38=?D";
 	public static final ATN _ATN =
 		new ATNDeserializer().deserialize(_serializedATN.toCharArray());
 	static {
