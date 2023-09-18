@@ -17,7 +17,7 @@
     </EXTENSION>
     <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
     <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/../../ruby/bin/conjugate.rb" />
-    <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="-c ichidan-verb 食べる" />
+    <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="-c i-adjective 〜たい" />
     <method v="2" />
   </configuration>
 </component>
