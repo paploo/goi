@@ -460,7 +460,7 @@
       },
       {
         "id": "b4dd90bd-4073-47c6-93c8-81099a896be6",
-        "meaning": "I studied Japanes for about three hours yesterday.",
+        "meaning": "I studied Japanese for about three hours yesterday.",
         "text": {
           "spelling": "{私|わたし}は{昨日|きのう}{日本語|に・ほん・ご}を{三|さん}{時間|じ・かん}ぐらい{勉強|べん・きょう}しました。",
           "phonetic_spelling": null
@@ -869,7 +869,7 @@
         "id": "ec46701c-881a-4c9d-830d-961295183dee",
         "meaning": "Takeshi is reading a book in English.",
         "text": {
-          "spelling": "たけしさんは{英語|えい・ご}の{本|ほん}を{読|よ}んでいます"
+          "spelling": "たけしさんは{英語|えい・ご}の{本|ほん}を{読|よ}んでいます。"
         },
         "lesson_codes": ["GENKI3_L07"],
         "tags": []
