@@ -14,8 +14,6 @@ class TimerLog(
 
     private val startTime: Long = System.nanoTime()
 
-    val startMark = mark("Start")
-
     fun mark(label: String): Mark {
         val deltaNanos = System.nanoTime() - startTime
         return Mark(

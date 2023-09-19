@@ -25,16 +25,19 @@ abstract class BasePipeline<T> : Pipeline<T> {
             Context(TimerLog("Pipeline") { logger.info(it.formatted()) })
         ).flatMap { context ->
             context.timerLog.markAround("Execute Pipeline") {
+                context.timerLog.mark("START IMPORT PHASE")
                 import(context).flatMap {
+                    context.timerLog.mark("START TRANSFORM PHASE")
                     transform(it, context)
                 }.flatMap {
+                    context.timerLog.mark("START EXPORT PHASE")
                     export(it, context)
                 }
             }
         }
 
     private suspend fun import(context: Context): Result<T> =
-        context.timerLog.markAround("import with $importer") {
+        context.timerLog.markAround("Import with $importer") {
             importer(context)
         }
 

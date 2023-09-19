@@ -1,7 +1,10 @@
 package net.paploo.goi.pipeline.grammarrule
 
 import net.paploo.goi.domain.data.grammar.GrammarRule
-import net.paploo.goi.pipeline.core.*
+import net.paploo.goi.pipeline.core.BasePipeline
+import net.paploo.goi.pipeline.core.Exporter
+import net.paploo.goi.pipeline.core.Importer
+import net.paploo.goi.pipeline.core.Transformer
 
 class GrammarRulePipeline(
     config: Configuration
