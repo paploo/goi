@@ -47,4 +47,35 @@ class ResultTest : DescribeSpec({
 
     }
 
+    describe("sequenceToResult") {
+
+        it("should turn a list of successes into a successful list of the values") {
+            val input = listOf(
+                Result.success("一"),
+                Result.success("二"),
+                Result.success("三"),
+            )
+
+            input.sequenceToResult() shouldBe Result.success(listOf("一", "二", "三"))
+        }
+
+        it("should return the first failure found in the list") {
+            val error = RuntimeException("Test Exception")
+            val input = listOf(
+                Result.success("一"),
+                Result.failure(error),
+                Result.success("二"),
+                Result.success("三"),
+                Result.failure(RuntimeException("This is not the exception you are looking for")),
+            )
+
+            input.sequenceToResult() shouldBe Result.failure(error)
+        }
+
+        it("should convert an empty list to a success of an empty list") {
+            emptyList<Result<String>>().sequenceToResult() shouldBe Result.success(emptyList<String>())
+        }
+
+    }
+
 })
