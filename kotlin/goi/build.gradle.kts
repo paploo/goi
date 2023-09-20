@@ -1,4 +1,5 @@
 val antlr_version: String by project
+val commons_csv_version: String by project
 val kotest_version: String by project
 val kotlin_coroutines_version: String by project
 val logback_version: String by project
@@ -18,8 +19,10 @@ repositories {
 
 dependencies {
     antlr("org.antlr:antlr4:$antlr_version")
-//    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlin_coroutines_version")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlin_coroutines_version")
+
+    implementation("org.apache.commons:commons-csv:$commons_csv_version")
+
     implementation("ch.qos.logback:logback-classic:$logback_version")
 
     testImplementation("io.kotest:kotest-runner-junit5:$kotest_version")

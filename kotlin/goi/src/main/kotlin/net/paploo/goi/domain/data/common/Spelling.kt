@@ -9,8 +9,13 @@ data class Spelling(
     override val value: String,
 ) : Valued<String> {
 
+    init {
+        if (value.isEmpty()) throw IllegalArgumentException("${this::class.simpleName} must contain a value, but got an empty string.")
+    }
+
     //TODO: Add writing system classification?
     enum class Kind(val isKana: Boolean) {
+        Unknown(isKana = false), //TODO: fallback on this instead of error.
         Kanji(isKana = false),
         Katakana(isKana = true),
         Hiragana(isKana = true),
@@ -23,7 +28,7 @@ data class Spelling(
         operator fun invoke(value: String): Spelling =
             SpellingClassifier.default.classify(value)?.let { kind ->
                 Spelling(kind = kind, value = value)
-            } ?: throw IllegalArgumentException("Could not classify value '$value'")
+            } ?: Spelling(kind = Kind.Unknown, value = value)
 
     }
 

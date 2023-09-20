@@ -44,7 +44,7 @@ class DefaultClassifier : SpellingClassifier {
             else if (classified.contains(Spelling.Kind.Hiragana)) Spelling.Kind.Hiragana
             else if (classified.contains(Spelling.Kind.CjkPunctuation)) Spelling.Kind.CjkPunctuation
             else if (classified.contains(Spelling.Kind.Latin)) Spelling.Kind.Latin
-            else null
+            else null //TODO: Return unknown on unclassifiable or empty.
         }
 
     //TODO: Refine this and make it a public classification to go with Spelling?
@@ -60,7 +60,7 @@ class DefaultClassifier : SpellingClassifier {
         Katakana(Spelling.Kind.Katakana),
         Kanji(Spelling.Kind.Kanji),
         CjkPunctuation(Spelling.Kind.CjkPunctuation),
-        HalfAndFullWidth(null), //TODO: Split into two separate values
+        HalfAndFullWidth(null), //TODO: Split into two separate values?
 
         // Other
         Other(null),

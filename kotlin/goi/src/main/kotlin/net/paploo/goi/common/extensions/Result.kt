@@ -6,8 +6,14 @@ inline fun <R, T> Result<T>.flatMap(transform: (T) -> Result<R>): Result<R> =
         onFailure = { Result.failure(it) }
     )
 
+//TODO: Write Tests
+inline fun <T> Result<T>.mapFailure(transform: (Throwable) -> Throwable): Result<T> =
+    fold(
+        onSuccess = { Result.success(it) },
+        onFailure = { Result.failure(transform(it)) }
+    )
 
-fun <T> Iterable<Result<T>>.sequenceToResult(): Result<Iterable<T>> {
+fun <T> Iterable<Result<T>>.sequenceToResult(): Result<List<T>> {
     val buffer: MutableList<T> = mutableListOf()
     for (elem in this) {
         elem.onSuccess {

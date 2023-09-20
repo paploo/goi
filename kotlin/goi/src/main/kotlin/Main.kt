@@ -1,28 +1,20 @@
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.async
-import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.runBlocking
+import net.paploo.goi.common.extensions.enumResultValueOf
+import net.paploo.goi.common.extensions.toCamelCase
+import net.paploo.goi.common.extensions.toPascalCase
+import net.paploo.goi.common.extensions.toSnakeCase
 import net.paploo.goi.common.util.TimerLog
-import net.paploo.goi.domain.data.vocabulary.Conjugation
 import net.paploo.goi.domain.data.vocabulary.Vocabulary
-import net.paploo.goi.domain.tools.kana.KanaTable
-import net.paploo.goi.gen.antlr.FuriganaCurlyBraceTemplateLexer
-import net.paploo.goi.gen.antlr.FuriganaCurlyBraceTemplateParser
-import net.paploo.goi.gen.antlr.FuriganaCurlyBraceTemplateParserBaseListener
-import net.paploo.goi.gen.antlr.FuriganaCurlyBraceTemplateParserListener
 import net.paploo.goi.pipeline.core.Exporter
-import net.paploo.goi.pipeline.core.Importer
 import net.paploo.goi.pipeline.core.Transformer
 import net.paploo.goi.pipeline.vocabulary.VocabularyPipeline
-import org.antlr.v4.runtime.*
-import org.antlr.v4.runtime.atn.ATNConfigSet
-import org.antlr.v4.runtime.dfa.DFA
-import org.antlr.v4.runtime.tree.ErrorNode
-import org.antlr.v4.runtime.tree.ParseTreeListener
-import org.antlr.v4.runtime.tree.TerminalNode
+import net.paploo.goi.pipeline.vocabulary.importer.GoogleSheetImporter
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
-import java.util.*
+import java.nio.file.Path
+import kotlin.io.path.Path
+import kotlin.io.path.absolute
 
 /**
  * Auto-created main stub; this links to the "application" declaration in the gradle project, and is the root of the
@@ -34,14 +26,24 @@ import java.util.*
 fun main(args: Array<String>): Unit = runBlocking(Dispatchers.Default) {
     val logger: Logger = LoggerFactory.getLogger("Main.kt")
     val timer = TimerLog("Main.kt") { logger.info(it.formatted()) }
+
+    timer.mark("fielsDirectory: $filesDirectory")
+
     timer.markAround("Invoke Application") {
         invokeApplication(timer)
     }
 }
 
+val filesDirectory: Path = Path(".", "files").absolute()
+
+operator fun Path.plus(other: Path): Path =
+    this.resolve(other)
+
+
+
 suspend fun invokeApplication(timer: TimerLog) {
     val config = VocabularyPipeline.Configuration(
-        importer = Importer.constValue(emptyList()),
+        importer = GoogleSheetImporter(GoogleSheetImporter.Configuration(filePath = filesDirectory + Path("日本語 Vocab - Vocab.csv"))),
         transformers = listOf(Transformer.identity()),
         exporters = listOf(Exporter.empty())
     )

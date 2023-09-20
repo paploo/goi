@@ -20,11 +20,11 @@ data class FuriganaString(
     fun <T> transform(transformer: FuriganaParseTreeTransformer<T>): Result<T> =
         parseTree().flatMap { transformer(it) }
 
-    override val value: String get() = preferredText.value
+    override val value: String get() = transform(PreferredSpellingTransformer.default).map { it.value }.getOrDefault("")
 
-    val preferredText: Spelling = transform(PreferredSpellingTransformer.default).getOrThrow()
+    val preferredSpelling: Spelling by lazy { transform(PreferredSpellingTransformer.default).getOrThrow() }
 
-    val phoneticText: Spelling? = transform(PhoneticSpellingTransformer.default).getOrThrow()
+    val phoneticSpelling: Spelling? by lazy { transform(PhoneticSpellingTransformer.default).getOrThrow() }
 
     private val parseTree: Result<FuriganaParseTree> by lazy {
         when (furiganaTemplate) {
