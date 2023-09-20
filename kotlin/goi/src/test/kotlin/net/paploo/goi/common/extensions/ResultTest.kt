@@ -3,7 +3,10 @@ package net.paploo.goi.common.extensions
 import io.kotest.assertions.throwables.shouldThrow
 import io.kotest.core.spec.style.DescribeSpec
 import io.kotest.matchers.booleans.shouldBeFalse
+import io.kotest.matchers.result.shouldBeFailure
+import io.kotest.matchers.result.shouldBeSuccess
 import io.kotest.matchers.shouldBe
+import java.util.NoSuchElementException
 
 class ResultTest : DescribeSpec({
 
@@ -42,6 +45,37 @@ class ResultTest : DescribeSpec({
                 }
             }.let { error ->
                 error shouldBe testException
+            }
+        }
+
+    }
+
+    describe("mapFailure") {
+
+        it("should not execute the block if success") {
+            var didExecute: Boolean = false
+
+            val result = Result.success("猫").mapFailure {
+                didExecute = true
+                it
+            }
+
+            result.shouldBeSuccess().shouldBe("猫")
+            didExecute.shouldBeFalse()
+        }
+
+        it("should execute the block with the exception and return the result if failure") {
+            val excpA = RuntimeException("test exception")
+            val excpBMessage = "test excp 狸"
+
+            val result = Result.failure<String>(excpA).mapFailure {
+                RuntimeException(excpBMessage, it)
+            }
+
+            result.shouldBeFailure {
+                //Validate both that we got the result back and the exception was available for use.
+                it.message shouldBe excpBMessage
+                it.cause shouldBe excpA
             }
         }
 
