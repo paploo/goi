@@ -1,3 +1,5 @@
+import com.adarshr.gradle.testlogger.theme.ThemeType
+
 val antlr_version: String by project
 val commons_csv_version: String by project
 val kotest_version: String by project
@@ -8,6 +10,7 @@ plugins {
     kotlin("jvm") version "1.9.0"
     application
     antlr
+    id("com.adarshr.test-logger") version "3.2.0"
 }
 
 group = "net.paploo"
@@ -31,6 +34,9 @@ dependencies {
 
 tasks.test {
     useJUnitPlatform()
+    testlogger {
+        theme = ThemeType.STANDARD_PARALLEL
+    }
 }
 
 kotlin {

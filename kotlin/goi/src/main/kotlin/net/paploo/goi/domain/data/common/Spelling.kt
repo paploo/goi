@@ -13,22 +13,22 @@ data class Spelling(
         if (value.isEmpty()) throw IllegalArgumentException("${this::class.simpleName} must contain a value, but got an empty string.")
     }
 
-    //TODO: Add writing system classification?
-    enum class Kind(val isKana: Boolean) {
-        Unknown(isKana = false), //TODO: fallback on this instead of error.
-        Kanji(isKana = false),
-        Katakana(isKana = true),
-        Hiragana(isKana = true),
-        CjkPunctuation(isKana = false),
-        Latin(isKana = false),
+    enum class Kind(val isKana: Boolean, val isNihongo: Boolean) {
+        Unknown(isKana = false, isNihongo = false),
+        Kanji(isKana = false, isNihongo = true),
+        Katakana(isKana = true, isNihongo = true),
+        Hiragana(isKana = true, isNihongo = true),
+        CjkPunctuation(isKana = false, isNihongo = true),
+        HalfAndFullWidth(isKana = false, isNihongo = true),
+        Latin(isKana = false, isNihongo = false),
     }
 
     companion object {
 
         operator fun invoke(value: String): Spelling =
-            SpellingClassifier.default.classify(value)?.let { kind ->
+            SpellingClassifier.default.invoke(value).let { kind ->
                 Spelling(kind = kind, value = value)
-            } ?: Spelling(kind = Kind.Unknown, value = value)
+            }
 
     }
 

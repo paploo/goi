@@ -6,7 +6,6 @@ inline fun <R, T> Result<T>.flatMap(transform: (T) -> Result<R>): Result<R> =
         onFailure = { Result.failure(it) }
     )
 
-//TODO: Write Tests
 inline fun <T> Result<T>.mapFailure(transform: (Throwable) -> Throwable): Result<T> =
     fold(
         onSuccess = { Result.success(it) },
