@@ -7,13 +7,16 @@ import net.paploo.goi.domain.data.common.Spelling
 import net.paploo.goi.domain.data.common.Tag
 import net.paploo.goi.domain.data.source.Lesson
 import net.paploo.goi.domain.data.vocabulary.Conjugation
+import net.paploo.goi.domain.data.vocabulary.Conjugation.Inflection.Charge
+import net.paploo.goi.domain.data.vocabulary.Conjugation.Inflection.Form
+import net.paploo.goi.domain.data.vocabulary.Conjugation.Inflection.Politeness
 import net.paploo.goi.domain.data.vocabulary.Definition
 import net.paploo.goi.domain.data.vocabulary.Vocabulary
 import net.paploo.goi.domain.tools.furiganatemplate.FuriganaTemplate
 import java.time.LocalDate
 import java.util.UUID
 
-class VocabularyRecordToDomainTransform : (VocabularyCsvRecord) -> Result<Vocabulary> {
+internal class VocabularyRecordToDomainTransform : (VocabularyCsvRecord) -> Result<Vocabulary> {
 
     override fun invoke(record: VocabularyCsvRecord): Result<Vocabulary> =
         VocabularyResultRecord(
@@ -34,6 +37,8 @@ class VocabularyRecordToDomainTransform : (VocabularyCsvRecord) -> Result<Vocabu
             IllegalArgumentException("Encountered exception converting record: $record;\n\treason: $err", err)
         }
 
+    //This essentially can work like a one-off monadic collection object;
+    //so that if I do more complex handling of the results I have a place to do it.
     private data class VocabularyResultRecord(
         val id: Result<Vocabulary.Id>,
         val wordClass: Result<Vocabulary.WordClass>,
@@ -114,10 +119,6 @@ class VocabularyRecordToDomainTransform : (VocabularyCsvRecord) -> Result<Vocabu
             spelling?.let { Spelling(it) }
         }
 
-    private fun conjugations(record: VocabularyCsvRecord): Result<Collection<Conjugation>?> =
-        Result.success(null)
-        //TODO()
-
     private fun jlptLevel(record: VocabularyCsvRecord): Result<JlptLevel?> =
         record.get(VocabularyCsvRecord.Field.JlptLevel).flatMap { levelString ->
             levelString?.let {
@@ -127,6 +128,7 @@ class VocabularyRecordToDomainTransform : (VocabularyCsvRecord) -> Result<Vocabu
 
     private fun rowNumber(record: VocabularyCsvRecord): Result<Int> =
         record.getNotNull(VocabularyCsvRecord.Field.RowNum).flatMap { rowNumString ->
+            println("## $rowNumString for ${record.record.recordNumber}")
             Result.runCatching { rowNumString.toInt() }
         }
 
@@ -148,6 +150,32 @@ class VocabularyRecordToDomainTransform : (VocabularyCsvRecord) -> Result<Vocabu
                 parseCodeList(rawCodes) { Tag(it.toKebabCase()) }.map { it.toSet() }
             } ?: Result.success(emptySet())
         }
+
+    private fun conjugations(record: VocabularyCsvRecord): Result<Collection<Conjugation>?> =
+        mapOf(
+            Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Present) to record[VocabularyCsvRecord.Field.DictionaryForm],
+            Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Past) to record[VocabularyCsvRecord.Field.PastForm],
+            Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Te) to record[VocabularyCsvRecord.Field.TeForm],
+            Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Present) to record[VocabularyCsvRecord.Field.NegativeForm],
+            Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Past) to record[VocabularyCsvRecord.Field.NegativePastForm],
+            Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Te) to record[VocabularyCsvRecord.Field.NegativeTeForm],
+            Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Present) to record[VocabularyCsvRecord.Field.PoliteForm],
+            Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Past) to record[VocabularyCsvRecord.Field.PolitePastForm],
+            Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Te) to record[VocabularyCsvRecord.Field.PoliteTeForm],
+            Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Present) to record[VocabularyCsvRecord.Field.PoliteNegativeForm],
+            Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Past) to record[VocabularyCsvRecord.Field.PoliteNegativePastForm],
+            Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Te) to record[VocabularyCsvRecord.Field.PoliteNegativeTeForm],
+            Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Potential) to record[VocabularyCsvRecord.Field.PositivePlainPotential],
+            Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Potential) to record[VocabularyCsvRecord.Field.NegativePlainPotential],
+            Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Potential) to record[VocabularyCsvRecord.Field.PositivePolitePotential],
+            Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Potential) to record[VocabularyCsvRecord.Field.NegativePolitePotential],
+        ).mapNotNull { (inflection, result) ->
+            result.map {value ->
+                value?.let {
+                    Conjugation(inflection, it)
+                }
+            }.sequenceToNullable()
+        }.sequenceToResult()
 
     // Parses input of the form "{foo, bar,baz}"
     private fun <T> parseCodeList(rawList: String, transform: (String) -> T): Result<List<T>> =

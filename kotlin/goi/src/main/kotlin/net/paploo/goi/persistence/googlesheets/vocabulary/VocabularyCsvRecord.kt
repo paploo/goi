@@ -3,7 +3,7 @@ package net.paploo.goi.persistence.googlesheets.vocabulary
 import net.paploo.goi.common.extensions.flatMap
 import org.apache.commons.csv.CSVRecord
 
-data class VocabularyCsvRecord(
+internal data class VocabularyCsvRecord(
     val record: CSVRecord
 ) {
 

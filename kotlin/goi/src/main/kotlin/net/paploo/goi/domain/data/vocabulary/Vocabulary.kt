@@ -16,7 +16,7 @@ data class Vocabulary(
     val preferredWritten: FuriganaString,
     val altPhoneticSpelling: Spelling?,
     val kanjiSpelling: Spelling?,
-    val conjugations: Collection<Conjugation>?,
+    val conjugations: Collection<Conjugation>?, //We don't forbid multiple conjugations for an inflection, some verbs have multiples; first in list takes priority
     val jlptLevel: JlptLevel?,
     val rowNumber: Int,
     val dateAdded: LocalDate,

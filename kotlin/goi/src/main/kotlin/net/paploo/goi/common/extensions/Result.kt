@@ -23,3 +23,10 @@ fun <T> Iterable<Result<T>>.sequenceToResult(): Result<List<T>> {
     }
     return Result.success(buffer.toList())
 }
+
+//TODO: Write tests!
+fun <T : Any> Result<T?>.sequenceToNullable(): Result<T>? =
+    fold(
+        onSuccess = { nullable -> nullable?.let { Result.success(it) } },
+        onFailure = { Result.failure(it) }
+    )

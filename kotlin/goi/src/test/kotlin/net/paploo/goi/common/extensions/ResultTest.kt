@@ -3,6 +3,8 @@ package net.paploo.goi.common.extensions
 import io.kotest.assertions.throwables.shouldThrow
 import io.kotest.core.spec.style.DescribeSpec
 import io.kotest.matchers.booleans.shouldBeFalse
+import io.kotest.matchers.nulls.shouldBeNull
+import io.kotest.matchers.nulls.shouldNotBeNull
 import io.kotest.matchers.result.shouldBeFailure
 import io.kotest.matchers.result.shouldBeSuccess
 import io.kotest.matchers.shouldBe
@@ -108,6 +110,37 @@ class ResultTest : DescribeSpec({
 
         it("should convert an empty list to a success of an empty list") {
             emptyList<Result<String>>().sequenceToResult() shouldBe Result.success(emptyList<String>())
+        }
+
+    }
+
+    describe("sequenceToNullable") {
+
+        it("should sequence a success of a value to the value") {
+            val s: String? = "狸"
+            val r: Result<String?> = Result.success(s)
+
+            val sequenced: Result<String>? = r.sequenceToNullable()
+
+            sequenced shouldBe Result.success("狸")
+        }
+
+        it("should sequence a success of a null to a null") {
+            val s: String? = null
+            val r: Result<String?> = Result.success(s)
+
+            val sequenced: Result<String>? = r.sequenceToNullable()
+
+            sequenced.shouldBeNull()
+        }
+
+        it("should sequence a failure to the failure") {
+            val excp = RuntimeException("test exception")
+            val r: Result<String?> = Result.failure(excp)
+
+            val sequenced: Result<String>? = r.sequenceToNullable()
+
+            sequenced shouldBe Result.failure(excp)
         }
 
     }

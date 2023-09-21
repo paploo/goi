@@ -1,11 +1,6 @@
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.runBlocking
-import net.paploo.goi.common.extensions.enumResultValueOf
-import net.paploo.goi.common.extensions.toCamelCase
-import net.paploo.goi.common.extensions.toPascalCase
-import net.paploo.goi.common.extensions.toSnakeCase
 import net.paploo.goi.common.util.TimerLog
-import net.paploo.goi.domain.data.vocabulary.Vocabulary
 import net.paploo.goi.pipeline.core.Exporter
 import net.paploo.goi.pipeline.core.Transformer
 import net.paploo.goi.pipeline.vocabulary.VocabularyPipeline

@@ -10,11 +10,11 @@ class GoogleSheetsVocabularyDao(
 ) {
 
     suspend fun getAll(): Result<List<Vocabulary>> =
-        GoogleSheetsVocabularyReader().invoke(filePath).flatMap { records ->
+        VocabularyReader().invoke(filePath).flatMap { records ->
             records.map { VocabularyRecordToDomainTransform().invoke(it) }.sequenceToResult()
         }
 
 
-    suspend fun writeAll(vocabularyList: List<Vocabulary>): Result<List<Vocabulary>> = TODO()
+    suspend fun writeAll(vocabularyList: List<Vocabulary>): Result<Unit> = TODO()
 
 }
