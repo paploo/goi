@@ -30,7 +30,7 @@ fun main(args: Array<String>): Unit = runBlocking(Dispatchers.Default) {
     timer.mark("fielsDirectory: $filesDirectory")
 
     timer.markAround("Invoke Application") {
-        invokeApplication(timer)
+        invokeApplication(timer, logger)
     }
 }
 
@@ -41,7 +41,7 @@ operator fun Path.plus(other: Path): Path =
 
 
 
-suspend fun invokeApplication(timer: TimerLog) {
+suspend fun invokeApplication(timer: TimerLog, logger: Logger) {
     val config = VocabularyPipeline.Configuration(
         importer = GoogleSheetImporter(GoogleSheetImporter.Configuration(filePath = filesDirectory + Path("日本語 Vocab - Vocab.csv"))),
         transformers = listOf(Transformer.identity()),
@@ -49,5 +49,11 @@ suspend fun invokeApplication(timer: TimerLog) {
     )
     val pipeline = VocabularyPipeline(config)
     val result = pipeline()
-    timer.mark("completed with $result")
+    timer.mark("completed with status ${result.isSuccess}")
+
+    result.onFailure {
+        logger.error("FAILURE", it)
+    }.onSuccess {
+        logger.info("SUCCESS\n{}", it.joinToString("\n"))
+    }
 }

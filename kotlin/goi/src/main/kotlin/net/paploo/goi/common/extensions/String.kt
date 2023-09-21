@@ -4,6 +4,9 @@ package net.paploo.goi.common.extensions
 fun String.toSnakeCase(): String =
     replace("(([a-z])([A-Z]))|(([A-Z])([A-Z][a-z]))".toRegex(), "$2$5_$3$6").replace('-', '_').lowercase()
 
+fun String.toKebabCase(): String =
+    toSnakeCase().replace('_', '-')
+
 //TODO: Write Tests
 fun String.toConstCase(): String =
     toSnakeCase().uppercase()

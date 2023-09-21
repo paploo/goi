@@ -14,7 +14,7 @@ data class Example(
     val meaning: String,
     val text: FuriganaString,
     val sortRank: Int?,
-    override val references: Set<Lesson>,
+    override val references: Set<Lesson.Code>,
     override val tags: Set<Tag>,
 ) : Identifiable<Example.Id>, Referencable, Tagable {
 

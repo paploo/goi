@@ -20,7 +20,7 @@ data class Vocabulary(
     val jlptLevel: JlptLevel?,
     val rowNumber: Int,
     val dateAdded: LocalDate,
-    override val references: Set<Lesson>,
+    override val references: Set<Lesson.Code>,
     override val tags: Set<Tag>,
 ) : Identifiable<Vocabulary.Id>, Referencable, Tagable {
 

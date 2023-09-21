@@ -1,9 +1,6 @@
 package net.paploo.goi.persistence.googlesheets.vocabulary
 
-import net.paploo.goi.common.extensions.enumResultValueOf
-import net.paploo.goi.common.extensions.flatMap
-import net.paploo.goi.common.extensions.mapFailure
-import net.paploo.goi.common.extensions.toCamelCase
+import net.paploo.goi.common.extensions.*
 import net.paploo.goi.domain.data.common.FuriganaString
 import net.paploo.goi.domain.data.common.JlptLevel
 import net.paploo.goi.domain.data.common.Spelling
@@ -34,7 +31,7 @@ class VocabularyRecordToDomainTransform : (VocabularyCsvRecord) -> Result<Vocabu
             references = references(record),
             tags = tags(record),
         ).toDomain().mapFailure { err ->
-            IllegalArgumentException("Encountered exception processing record: $record", err)
+            IllegalArgumentException("Encountered exception converting record: $record;\n\treason: $err", err)
         }
 
     private data class VocabularyResultRecord(
@@ -49,11 +46,11 @@ class VocabularyRecordToDomainTransform : (VocabularyCsvRecord) -> Result<Vocabu
         val jlptLevel: Result<JlptLevel?>,
         val rowNumber: Result<Int>,
         val dateAdded: Result<LocalDate>,
-        val references: Result<Set<Lesson>>,
+        val references: Result<Set<Lesson.Code>>,
         val tags: Result<Set<Tag>>,
     ) {
 
-        //TODO: If we had a validation exception that could be composed of other exceptions, we could report all failures.
+        //TODO: gather all the exceptions in to a multi-exception to report all at once.
         fun toDomain(): Result<Vocabulary> = Result.runCatching {
             //Easier to runCatching than flatMap over this many rows!
             Vocabulary(
@@ -82,12 +79,12 @@ class VocabularyRecordToDomainTransform : (VocabularyCsvRecord) -> Result<Vocabu
 
     private fun wordClass(record: VocabularyCsvRecord): Result<Vocabulary.WordClass> =
         record.getNotNull(VocabularyCsvRecord.Field.WordClassCode).flatMap {
-            enumResultValueOf<Vocabulary.WordClass>(it.toCamelCase())
+            enumResultValueOf<Vocabulary.WordClass>(it.toPascalCase())
         }
 
     private fun conjugationKind(record: VocabularyCsvRecord): Result<Vocabulary.ConjugationKind?> =
         record.get(VocabularyCsvRecord.Field.ConjugationKindCode).flatMap { code ->
-            code?.let { enumResultValueOf<Vocabulary.ConjugationKind>(it.toCamelCase()) } ?: Result.success(null)
+            code?.let { enumResultValueOf<Vocabulary.ConjugationKind>(it.toPascalCase()) } ?: Result.success(null)
         }
 
     private fun preferredDefinition(record: VocabularyCsvRecord): Result<Definition> =
@@ -98,10 +95,12 @@ class VocabularyRecordToDomainTransform : (VocabularyCsvRecord) -> Result<Vocabu
     private fun preferredWritten(record: VocabularyCsvRecord): Result<FuriganaString> =
         record.getNotNull(VocabularyCsvRecord.Field.PreferredSpelling).flatMap { preferred ->
             record.getNotNull(VocabularyCsvRecord.Field.PhoneticSpelling).map { phonetic ->
-                FuriganaString(FuriganaTemplate.Ruby(
-                    preferred = preferred,
-                    phonetic = phonetic
-                ))
+                FuriganaString(
+                    FuriganaTemplate.Ruby(
+                        preferred = preferred,
+                        phonetic = phonetic
+                    )
+                )
             }
         }
 
@@ -116,30 +115,45 @@ class VocabularyRecordToDomainTransform : (VocabularyCsvRecord) -> Result<Vocabu
         }
 
     private fun conjugations(record: VocabularyCsvRecord): Result<Collection<Conjugation>?> =
-        TODO()
+        Result.success(null)
+        //TODO()
 
     private fun jlptLevel(record: VocabularyCsvRecord): Result<JlptLevel?> =
         record.get(VocabularyCsvRecord.Field.JlptLevel).flatMap { levelString ->
-            levelString?.let {lvl ->
-                JlptLevel.entries.find {
-                    it.value.toString() == lvl
-                }?.let {
-                    Result.success(it)
-                } ?: Result.failure(NoSuchElementException("Invalid JLPT Level: $levelString"))
+            levelString?.let {
+                JlptLevel.forLevelNumber(it)
             } ?: Result.success(null)
         }
 
     private fun rowNumber(record: VocabularyCsvRecord): Result<Int> =
-        TODO()
+        record.getNotNull(VocabularyCsvRecord.Field.RowNum).flatMap { rowNumString ->
+            Result.runCatching { rowNumString.toInt() }
+        }
 
     private fun dateAdded(record: VocabularyCsvRecord): Result<LocalDate> =
-        TODO()
+        record.getNotNull(VocabularyCsvRecord.Field.DateAdded).flatMap { iosString ->
+            Result.runCatching { LocalDate.parse(iosString) }
+        }
 
-    private fun references(record: VocabularyCsvRecord): Result<Set<Lesson>> =
-        TODO()
+    private fun references(record: VocabularyCsvRecord): Result<Set<Lesson.Code>> =
+        record.get(VocabularyCsvRecord.Field.LessonCodes).flatMap { rawCodes ->
+            rawCodes?.let {
+                parseCodeList(rawCodes) { Lesson.Code(it.toConstCase()) }.map { it.toSet() }
+            } ?: Result.success(emptySet())
+        }
 
     private fun tags(record: VocabularyCsvRecord): Result<Set<Tag>> =
-        TODO()
+        record.get(VocabularyCsvRecord.Field.LessonCodes).flatMap { rawCodes ->
+            rawCodes?.let {
+                parseCodeList(rawCodes) { Tag(it.toKebabCase()) }.map { it.toSet() }
+            } ?: Result.success(emptySet())
+        }
+
+    // Parses input of the form "{foo, bar,baz}"
+    private fun <T> parseCodeList(rawList: String, transform: (String) -> T): Result<List<T>> =
+        "^\\{(.*)\\}\$".toRegex().matchEntire(rawList)?.let {match ->
+            match.groupValues[1].split(',').map { it.trim() }.map(transform).let { Result.success(it) }
+        } ?: Result.success(emptyList())
 
 
 }

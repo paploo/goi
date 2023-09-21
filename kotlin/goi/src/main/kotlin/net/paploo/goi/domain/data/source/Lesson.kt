@@ -1,13 +1,18 @@
 package net.paploo.goi.domain.data.source
 
 import net.paploo.goi.common.interfaces.Coded
+import java.lang.IllegalArgumentException
 
 //In the future we might want/need a full Lesson data class, but for now we just need the code.
 object Lesson{
     @JvmInline
-    value class Code(override val value: String) : Coded<String>
+    value class Code(override val value: String) : Coded<String> {
+        init {
+            if (!value.matches("^(([A-Z])([_A-Z0-9])*)$".toRegex())) throw IllegalArgumentException("Lesson codes must be CONST_CASE, but got '$value'")
+        }
+    }
 }
 
 interface Referencable {
-    val references: Set<Lesson>
+    val references: Set<Lesson.Code>
 }

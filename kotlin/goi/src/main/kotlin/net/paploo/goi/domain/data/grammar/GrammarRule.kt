@@ -17,7 +17,7 @@ data class GrammarRule(
     val jlptLevel: JlptLevel?,
     val rowNumber: Int,
     val dateAdded: Int,
-    override val references: Set<Lesson>,
+    override val references: Set<Lesson.Code>,
     override val tags: Set<Tag>,
     val examples: List<Example>,
 ) : Identifiable<GrammarRule.Id>, Referencable, Tagable {
