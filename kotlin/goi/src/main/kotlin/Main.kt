@@ -4,7 +4,8 @@ import net.paploo.goi.common.util.TimerLog
 import net.paploo.goi.pipeline.core.Exporter
 import net.paploo.goi.pipeline.core.Transformer
 import net.paploo.goi.pipeline.vocabulary.VocabularyPipeline
-import net.paploo.goi.pipeline.vocabulary.importer.GoogleSheetImporter
+import net.paploo.goi.pipeline.vocabulary.exporter.AnkiVocabularyExporter
+import net.paploo.goi.pipeline.vocabulary.importer.GoogleSheetVocabularyImporter
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 import java.nio.file.Path
@@ -38,9 +39,9 @@ operator fun Path.plus(other: Path): Path =
 
 suspend fun invokeApplication(timer: TimerLog, logger: Logger) {
     val config = VocabularyPipeline.Configuration(
-        importer = GoogleSheetImporter(GoogleSheetImporter.Configuration(filePath = filesDirectory + Path("日本語 Vocab - Vocab.csv"))),
+        importer = GoogleSheetVocabularyImporter(GoogleSheetVocabularyImporter.Config(filePath = filesDirectory + Path("日本語 Vocab - Vocab.csv"))),
         transformers = listOf(Transformer.identity()),
-        exporters = listOf(Exporter.empty())
+        exporters = listOf(AnkiVocabularyExporter(AnkiVocabularyExporter.Config(filePath = filesDirectory + Path("vocabulary", "anki_kotlin.csv"))))
     )
     val pipeline = VocabularyPipeline(config)
     val result = pipeline()
@@ -49,6 +50,6 @@ suspend fun invokeApplication(timer: TimerLog, logger: Logger) {
     result.onFailure {
         logger.error("FAILURE", it)
     }.onSuccess {
-        logger.info("SUCCESS\n{}", it.joinToString("\n"))
+        logger.info("SUCCESS\n{}", it.size)
     }
 }

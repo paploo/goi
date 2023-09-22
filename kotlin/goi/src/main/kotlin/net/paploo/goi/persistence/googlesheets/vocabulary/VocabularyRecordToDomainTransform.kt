@@ -57,7 +57,8 @@ internal class VocabularyRecordToDomainTransform : (VocabularyCsvRecord) -> Resu
 
         //TODO: gather all the exceptions in to a multi-exception to report all at once.
         fun toDomain(): Result<Vocabulary> = Result.runCatching {
-            //Easier to runCatching than flatMap over this many rows!
+            //Easier to runCatching than flatMap over this many rows, but may have to switch
+            //if I want to do anything more sophisticated.
             Vocabulary(
                 id = id.getOrThrow(),
                 wordClass = wordClass.getOrThrow(),
@@ -84,12 +85,12 @@ internal class VocabularyRecordToDomainTransform : (VocabularyCsvRecord) -> Resu
 
     private fun wordClass(record: VocabularyCsvRecord): Result<Vocabulary.WordClass> =
         record.getNotNull(VocabularyCsvRecord.Field.WordClassCode).flatMap {
-            enumResultValueOf<Vocabulary.WordClass>(it.toPascalCase())
+            enumResultValueOf<Vocabulary.WordClass>(it.pascalCase())
         }
 
     private fun conjugationKind(record: VocabularyCsvRecord): Result<Vocabulary.ConjugationKind?> =
         record.get(VocabularyCsvRecord.Field.ConjugationKindCode).flatMap { code ->
-            code?.let { enumResultValueOf<Vocabulary.ConjugationKind>(it.toPascalCase()) } ?: Result.success(null)
+            code?.let { enumResultValueOf<Vocabulary.ConjugationKind>(it.pascalCase()) } ?: Result.success(null)
         }
 
     private fun preferredDefinition(record: VocabularyCsvRecord): Result<Definition> =
@@ -128,7 +129,6 @@ internal class VocabularyRecordToDomainTransform : (VocabularyCsvRecord) -> Resu
 
     private fun rowNumber(record: VocabularyCsvRecord): Result<Int> =
         record.getNotNull(VocabularyCsvRecord.Field.RowNum).flatMap { rowNumString ->
-            println("## $rowNumString for ${record.record.recordNumber}")
             Result.runCatching { rowNumString.toInt() }
         }
 
@@ -140,14 +140,14 @@ internal class VocabularyRecordToDomainTransform : (VocabularyCsvRecord) -> Resu
     private fun references(record: VocabularyCsvRecord): Result<Set<Lesson.Code>> =
         record.get(VocabularyCsvRecord.Field.LessonCodes).flatMap { rawCodes ->
             rawCodes?.let {
-                parseCodeList(rawCodes) { Lesson.Code(it.toConstCase()) }.map { it.toSet() }
+                parseCodeList(rawCodes) { Lesson.Code(it.constCase()) }.map { it.toSet() }
             } ?: Result.success(emptySet())
         }
 
     private fun tags(record: VocabularyCsvRecord): Result<Set<Tag>> =
         record.get(VocabularyCsvRecord.Field.LessonCodes).flatMap { rawCodes ->
             rawCodes?.let {
-                parseCodeList(rawCodes) { Tag(it.toKebabCase()) }.map { it.toSet() }
+                parseCodeList(rawCodes) { Tag(it.kebabCase()) }.map { it.toSet() }
             } ?: Result.success(emptySet())
         }
 

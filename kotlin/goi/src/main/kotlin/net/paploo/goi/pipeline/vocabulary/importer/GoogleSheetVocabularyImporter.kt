@@ -6,17 +6,17 @@ import net.paploo.goi.pipeline.core.Context
 import net.paploo.goi.pipeline.core.Importer
 import java.nio.file.Path
 
-class GoogleSheetImporter(
-    val configuration: Configuration
+class GoogleSheetVocabularyImporter(
+    val config: Config
 ) : Importer<List<Vocabulary>> {
 
-    data class Configuration(
+    data class Config(
         val filePath: Path
     )
 
     override suspend fun invoke(context: Context): Result<List<Vocabulary>> =
         context.timerLog.markAround("Import from GoogleSheet") {
-            GoogleSheetsVocabularyDao(configuration.filePath).getAll()
+            GoogleSheetsVocabularyDao(config.filePath).getAll()
         }
 
 }
