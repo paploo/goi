@@ -41,7 +41,7 @@ suspend fun invokeApplication(timer: TimerLog, logger: Logger) {
     val config = VocabularyPipeline.Configuration(
         importer = GoogleSheetVocabularyImporter(GoogleSheetVocabularyImporter.Config(filePath = filesDirectory + Path("日本語 Vocab - Vocab.csv"))),
         transformers = listOf(Transformer.identity()),
-        exporters = listOf(AnkiVocabularyExporter(AnkiVocabularyExporter.Config(filePath = filesDirectory + Path("vocabulary", "anki_kotlin.csv"))))
+        exporters = listOf(AnkiVocabularyExporter(AnkiVocabularyExporter.Config(filePath = filesDirectory + Path("vocabulary", "anki.csv"))))
     )
     val pipeline = VocabularyPipeline(config)
     val result = pipeline()
