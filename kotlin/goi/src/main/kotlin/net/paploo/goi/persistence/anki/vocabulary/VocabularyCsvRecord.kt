@@ -1,6 +1,9 @@
 package net.paploo.goi.persistence.anki.vocabulary
 
+import net.paploo.goi.persistence.common.BaseVocabularyCsvRecord
+import net.paploo.goi.persistence.common.CsvRecord
 import org.apache.commons.csv.CSVRecord
+import kotlin.enums.EnumEntries
 
 internal data class VocabularyCsvRecord(
     val id: String?,
@@ -16,7 +19,7 @@ internal data class VocabularyCsvRecord(
     val lessons: String?,
     val conjugations: Conjugations,
     val tags: String?,
-) {
+) : BaseVocabularyCsvRecord<VocabularyCsvRecord, VocabularyCsvRecord.Field>() {
 
     constructor(csvRecord: CSVRecord) : this(
         id = csvRecord[Field.Id],
@@ -113,7 +116,10 @@ internal data class VocabularyCsvRecord(
     /**
      * Ordered list of anki CSV columns
      */
-    enum class Field(val headerName: String, val getter: VocabularyCsvRecord.() -> String?) {
+    enum class Field(
+        override val headerName: String,
+        override val getter: VocabularyCsvRecord.() -> String?
+    ) : CsvRecord.Field<VocabularyCsvRecord, Field> {
         Id("id", { id }),
         Definition("definition", { definition }),
         PreferredSpelling("preferred_spelling", { preferredSpelling }),
@@ -164,17 +170,8 @@ internal data class VocabularyCsvRecord(
         Tags("tags", { tags }),
     }
 
-    operator fun get(field: Field): String? =
-        field.getter(this)
+    override val record: VocabularyCsvRecord = this
 
-    fun getNotNull(field: Field): Result<String> =
-        get(field)?.let { Result.success(it) }
-            ?: Result.failure(IllegalArgumentException("$field contained a null value but should've been non-null"))
-
-    fun toRow(): List<String?> =
-        Field.entries.map { get(it) }
-
-    fun toMap(): Map<Field, String?> =
-        Field.entries.associateWith { get(it) }
+    override val fields: EnumEntries<Field> = Field.entries
 
 }

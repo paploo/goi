@@ -1,7 +1,10 @@
 package net.paploo.goi.persistence.googlesheets.vocabulary
 
+import net.paploo.goi.persistence.common.BaseVocabularyCsvRecord
+import net.paploo.goi.persistence.common.CsvRecord
 import org.apache.commons.csv.CSVRecord
 import java.lang.IllegalArgumentException
+import kotlin.enums.EnumEntries
 
 internal data class VocabularyCsvRecord(
     val definition: String?,
@@ -18,7 +21,7 @@ internal data class VocabularyCsvRecord(
     val rowNum: String?,
     val dateAdded: String?,
     val conjugations: Conjugations,
-) {
+) : BaseVocabularyCsvRecord<VocabularyCsvRecord, VocabularyCsvRecord.Field>() {
 
     constructor(csvRecord: CSVRecord) : this(
         definition = csvRecord[Field.Definition.headerName],
@@ -73,7 +76,13 @@ internal data class VocabularyCsvRecord(
         val negativePolitePotential: String?,
     )
 
-    enum class Field(val headerName: String, val getter: VocabularyCsvRecord.() -> String?) {
+    /**
+     * Ordered list of anki CSV columns
+     */
+    enum class Field(
+        override val headerName: String,
+        override val getter: VocabularyCsvRecord.() -> String?
+    ) : CsvRecord.Field<VocabularyCsvRecord, Field> {
         Definition("definition", { definition }),
         PreferredSpelling("preferred_spelling", { preferredSpelling }),
         PhoneticSpelling("phonetic_spelling", { phoneticSpelling }),
@@ -106,21 +115,8 @@ internal data class VocabularyCsvRecord(
         NegativePolitePotential("negative_polite_potential", { conjugations.negativePolitePotential }),
     }
 
-    private val fieldMap: Map<Field, String?> by lazy {
-        Field.entries.associateWith { get(it) }
-    }
+    override val record: VocabularyCsvRecord = this
 
-    operator fun get(field: Field): String? =
-        field.getter(this)
-
-    fun getNotNull(field: Field): Result<String> =
-        get(field)?.let { Result.success(it) }
-            ?: Result.failure(IllegalArgumentException("$field contained a null value but should've been non-null"))
-
-    fun toRow(): List<String?> =
-        Field.entries.map { get(it) }
-
-    fun toMap(): Map<Field, String?> =
-        Field.entries.associateWith { get(it) }
+    override val fields: EnumEntries<Field> = Field.entries
 
 }
