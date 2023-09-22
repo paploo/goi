@@ -29,7 +29,7 @@ internal data class VocabularyCsvRecord(
         Id("id"),
         RowNum("row_num"),
         DateAdded("date_added"),
-        X("x"), //The empty spacer field
+
         DictionaryForm("dictionary_form"),
         PastForm("past_form"),
         TeForm("te_form"),

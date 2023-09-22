@@ -1,6 +1,10 @@
 package net.paploo.goi.persistence.anki.vocabulary
 
+import net.paploo.goi.common.extensions.constCase
+import net.paploo.goi.common.extensions.kebabCase
 import net.paploo.goi.common.extensions.snakeCase
+import net.paploo.goi.common.interfaces.Valued
+import net.paploo.goi.common.interfaces.valued
 import net.paploo.goi.domain.data.vocabulary.Conjugation
 import net.paploo.goi.domain.data.vocabulary.Conjugation.Inflection.Charge
 import net.paploo.goi.domain.data.vocabulary.Conjugation.Inflection.Form
@@ -20,17 +24,38 @@ internal class VocabularyDomainToRecordTransform : (Vocabulary) -> Result<Vocabu
             id = vocab.id.value.toString(),
             definition = vocab.preferredDefinition.value,
             preferredSpelling = vocab.preferredWritten.preferredSpelling.value,
-            phoneticSpelling = vocab.preferredWritten.phoneticSpelling?.value,
-            altSpelling = vocab.altPhoneticSpelling?.value,
+            phoneticSpelling = phoneticSpelling(vocab),
+            altSpelling = altSpelling(vocab),
             wordClass = vocab.wordClass.name.snakeCase().replace('_', ' '),
             conjugationKind = vocab.conjugationKind?.name?.snakeCase()?.replace('_', ' '),
             jlptLevel = vocab.jlptLevel?.levelNumber?.toString(),
             dateAdded = vocab.dateAdded.format(DateTimeFormatter.ISO_LOCAL_DATE),
             rowNum = vocab.rowNumber.toString(),
-            lessons = vocab.references.map { it.value }.sorted().joinToString(" "),
+            lessons = buildLessons(vocab).joinToString(" "),
             conjugations = buildRecordConjugations(vocab),
-            tags = vocab.tags.map { it.value }.sorted().joinToString(" "),
+            tags = buildTags(vocab).joinToString(" "),
         )
+
+    private fun phoneticSpelling(vocab: Vocabulary): String? =
+        listOfNotNull(
+            vocab.preferredWritten.phoneticSpelling,
+            vocab.altPhoneticSpelling
+        ).joinToString("／") { it.value }
+
+    private fun altSpelling(vocab: Vocabulary): String? =
+        vocab.kanjiSpelling?.let { kanji ->
+            if (kanji != vocab.preferredWritten.preferredSpelling) kanji.value else null
+        }
+
+    private fun buildLessons(vocab: Vocabulary): List<String> =
+        vocab.references.map { it.value.constCase() }.sorted()
+    private fun buildTags(vocab: Vocabulary): List<String> =
+        listOf<List<Valued<String>>>(
+            vocab.tags.sorted(),
+            listOf(vocab.wordClass.name.valued()),
+            listOfNotNull(vocab.conjugationKind?.name?.valued()),
+            vocab.references.sorted()
+        ).flatten().map { it.value.kebabCase() }
 
     private fun buildRecordConjugations(vocab: Vocabulary): VocabularyCsvRecord.Conjugations =
         VocabularyCsvRecord.Conjugations(

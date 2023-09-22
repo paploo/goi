@@ -8,7 +8,7 @@ import java.nio.file.Path
 
 internal class VocabularyReader : suspend (Path) -> Result<List<VocabularyCsvRecord>> {
 
-    val format: CSVFormat = CsvFormats.default
+    val format: CSVFormat = CsvFormats.googleSheet
 
     override suspend fun invoke(filePath: Path): Result<List<VocabularyCsvRecord>> =
         Result.runCatching {

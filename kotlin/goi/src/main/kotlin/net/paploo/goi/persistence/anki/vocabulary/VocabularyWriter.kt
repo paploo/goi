@@ -8,7 +8,7 @@ import java.nio.file.Path
 
 internal class VocabularyWriter : suspend (Path, List<VocabularyCsvRecord>) -> Result<Unit> {
 
-    val format: CSVFormat = CsvFormats.default
+    val format: CSVFormat = CsvFormats.anki
 
     override suspend fun invoke(filePath: Path, records: List<VocabularyCsvRecord>): Result<Unit> =
         Result.runCatching {

@@ -145,7 +145,7 @@ internal class VocabularyRecordToDomainTransform : (VocabularyCsvRecord) -> Resu
         }
 
     private fun tags(record: VocabularyCsvRecord): Result<Set<Tag>> =
-        record.get(VocabularyCsvRecord.Field.LessonCodes).flatMap { rawCodes ->
+        record.get(VocabularyCsvRecord.Field.Tags).flatMap { rawCodes ->
             rawCodes?.let {
                 parseCodeList(rawCodes) { Tag(it.kebabCase()) }.map { it.toSet() }
             } ?: Result.success(emptySet())
