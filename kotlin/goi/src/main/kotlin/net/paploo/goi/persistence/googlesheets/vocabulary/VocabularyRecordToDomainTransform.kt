@@ -78,6 +78,10 @@ internal class VocabularyRecordToDomainTransform : (VocabularyCsvRecord) -> Resu
 
     }
 
+    private fun String.getResult(): Result<String> = Result.success(this)
+    private fun String?.getNotNullResult(): Result<String> =
+        this?.let { Result.success(it) } ?: Result.failure(NoSuchElementException("No "))
+
     private fun id(record: VocabularyCsvRecord): Result<Vocabulary.Id> =
         record.getNotNull(VocabularyCsvRecord.Field.Id).mapCatching {
             Vocabulary.Id(UUID.fromString(it))
@@ -89,7 +93,7 @@ internal class VocabularyRecordToDomainTransform : (VocabularyCsvRecord) -> Resu
         }
 
     private fun conjugationKind(record: VocabularyCsvRecord): Result<Vocabulary.ConjugationKind?> =
-        record.get(VocabularyCsvRecord.Field.ConjugationKindCode).flatMap { code ->
+        record[VocabularyCsvRecord.Field.ConjugationKindCode].let { code ->
             code?.let { enumResultValueOf<Vocabulary.ConjugationKind>(it.pascalCase()) } ?: Result.success(null)
         }
 
@@ -111,17 +115,17 @@ internal class VocabularyRecordToDomainTransform : (VocabularyCsvRecord) -> Resu
         }
 
     private fun altPhoneticSpelling(record: VocabularyCsvRecord): Result<Spelling?> =
-        record.get(VocabularyCsvRecord.Field.AltPhonSpell).map { spelling ->
+        record[VocabularyCsvRecord.Field.AltPhonSpell].let { Result.success(it) }.map { spelling ->
             spelling?.let { Spelling(it) }
         }
 
     private fun kanjiSpelling(record: VocabularyCsvRecord): Result<Spelling?> =
-        record.get(VocabularyCsvRecord.Field.KanjiSpelling).map { spelling ->
+        record[VocabularyCsvRecord.Field.KanjiSpelling].let { Result.success(it) }.map { spelling ->
             spelling?.let { Spelling(it) }
         }
 
     private fun jlptLevel(record: VocabularyCsvRecord): Result<JlptLevel?> =
-        record.get(VocabularyCsvRecord.Field.JlptLevel).flatMap { levelString ->
+        record[VocabularyCsvRecord.Field.JlptLevel].let { levelString ->
             levelString?.let {
                 JlptLevel.forLevelNumber(it)
             } ?: Result.success(null)
@@ -138,21 +142,21 @@ internal class VocabularyRecordToDomainTransform : (VocabularyCsvRecord) -> Resu
         }
 
     private fun references(record: VocabularyCsvRecord): Result<Set<Lesson.Code>> =
-        record.get(VocabularyCsvRecord.Field.LessonCodes).flatMap { rawCodes ->
+        record[VocabularyCsvRecord.Field.LessonCodes].let { rawCodes ->
             rawCodes?.let {
                 parseCodeList(rawCodes) { Lesson.Code(it.constCase()) }.map { it.toSet() }
             } ?: Result.success(emptySet())
         }
 
     private fun tags(record: VocabularyCsvRecord): Result<Set<Tag>> =
-        record.get(VocabularyCsvRecord.Field.Tags).flatMap { rawCodes ->
+        record[VocabularyCsvRecord.Field.Tags].let { rawCodes ->
             rawCodes?.let {
                 parseCodeList(rawCodes) { Tag(it.kebabCase()) }.map { it.toSet() }
             } ?: Result.success(emptySet())
         }
 
     private fun conjugations(record: VocabularyCsvRecord): Result<Collection<Conjugation>?> =
-        mapOf(
+        listOf(
             Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Present) to record[VocabularyCsvRecord.Field.DictionaryForm],
             Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Past) to record[VocabularyCsvRecord.Field.PastForm],
             Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Te) to record[VocabularyCsvRecord.Field.TeForm],
@@ -169,13 +173,14 @@ internal class VocabularyRecordToDomainTransform : (VocabularyCsvRecord) -> Resu
             Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Potential) to record[VocabularyCsvRecord.Field.NegativePlainPotential],
             Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Potential) to record[VocabularyCsvRecord.Field.PositivePolitePotential],
             Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Potential) to record[VocabularyCsvRecord.Field.NegativePolitePotential],
-        ).mapNotNull { (inflection, result) ->
-            result.map {value ->
-                value?.let {
-                    Conjugation(inflection, it)
-                }
-            }.sequenceToNullable()
-        }.sequenceToResult()
+        ).mapNotNull { (inflection, value) ->
+            value?.let {
+                Conjugation(inflection, it)
+            }
+        }.let {
+            Result.success(it)
+        }
+
 
     // Parses input of the form "{foo, bar,baz}"
     private fun <T> parseCodeList(rawList: String, transform: (String) -> T): Result<List<T>> =
