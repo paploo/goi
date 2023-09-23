@@ -8,8 +8,8 @@ class AnkiVocabularyDao(
     val filePath: Path
 ) {
 
-    suspend fun writeAll(vocularyList: List<Vocabulary>): Result<Unit> =
-        vocularyList.map { VocabularyDomainToRecordTransform().invoke(it) }.sequenceToResult().map { records ->
+    suspend fun writeAll(vocabularyList: List<Vocabulary>): Result<Unit> =
+        vocabularyList.map { VocabularyDomainToRecordTransform().invoke(it) }.sequenceToResult().map { records ->
             VocabularyWriter().invoke(filePath, records)
         }
 

@@ -3,7 +3,6 @@ package net.paploo.goi.persistence.googlesheets.vocabulary
 import net.paploo.goi.persistence.common.BaseVocabularyCsvRecord
 import net.paploo.goi.persistence.common.CsvRecord
 import org.apache.commons.csv.CSVRecord
-import java.lang.IllegalArgumentException
 import kotlin.enums.EnumEntries
 
 internal data class VocabularyCsvRecord(
@@ -96,6 +95,8 @@ internal data class VocabularyCsvRecord(
         Id("id", { id }),
         RowNum("row_num", { rowNum }),
         DateAdded("date_added", { dateAdded }),
+
+        ConjugationSectionDivider("", { null }),
 
         DictionaryForm("dictionary_form", { conjugations.dictionaryForm }),
         PastForm("past_form", { conjugations.pastForm }),

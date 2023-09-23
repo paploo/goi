@@ -5,6 +5,7 @@ import net.paploo.goi.pipeline.core.Exporter
 import net.paploo.goi.pipeline.core.Transformer
 import net.paploo.goi.pipeline.vocabulary.VocabularyPipeline
 import net.paploo.goi.pipeline.vocabulary.exporter.AnkiVocabularyExporter
+import net.paploo.goi.pipeline.vocabulary.exporter.GoogleVocabularyExporter
 import net.paploo.goi.pipeline.vocabulary.importer.GoogleSheetVocabularyImporter
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
@@ -41,7 +42,10 @@ suspend fun invokeApplication(timer: TimerLog, logger: Logger) {
     val config = VocabularyPipeline.Configuration(
         importer = GoogleSheetVocabularyImporter(GoogleSheetVocabularyImporter.Config(filePath = filesDirectory + Path("日本語 Vocab - Vocab.csv"))),
         transformers = listOf(Transformer.identity()),
-        exporters = listOf(AnkiVocabularyExporter(AnkiVocabularyExporter.Config(filePath = filesDirectory + Path("vocabulary", "anki.csv"))))
+        exporters = listOf(
+            AnkiVocabularyExporter(AnkiVocabularyExporter.Config(filePath = filesDirectory + Path("vocabulary", "anki.csv"))),
+            GoogleVocabularyExporter(GoogleVocabularyExporter.Config(filePath = filesDirectory + Path("vocabulary", "google_sheet.csv"))),
+        )
     )
     val pipeline = VocabularyPipeline(config)
     val result = pipeline()

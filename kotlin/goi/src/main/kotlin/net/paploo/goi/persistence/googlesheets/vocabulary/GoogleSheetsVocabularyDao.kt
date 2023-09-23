@@ -15,6 +15,9 @@ class GoogleSheetsVocabularyDao(
         }
 
 
-    suspend fun writeAll(vocabularyList: List<Vocabulary>): Result<Unit> = TODO()
+    suspend fun writeAll(vocabularyList: List<Vocabulary>): Result<Unit> =
+        vocabularyList.map { VocabularyDomainToRecordTransform().invoke(it) }.sequenceToResult().map { records ->
+            VocabularyWriter().invoke(filePath, records)
+        }
 
 }

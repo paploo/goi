@@ -78,10 +78,6 @@ internal class VocabularyRecordToDomainTransform : (VocabularyCsvRecord) -> Resu
 
     }
 
-    private fun String.getResult(): Result<String> = Result.success(this)
-    private fun String?.getNotNullResult(): Result<String> =
-        this?.let { Result.success(it) } ?: Result.failure(NoSuchElementException("No "))
-
     private fun id(record: VocabularyCsvRecord): Result<Vocabulary.Id> =
         record.getNotNull(VocabularyCsvRecord.Field.Id).mapCatching {
             Vocabulary.Id(UUID.fromString(it))

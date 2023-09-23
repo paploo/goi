@@ -1,12 +1,12 @@
 package net.paploo.goi.pipeline.vocabulary.exporter
 
 import net.paploo.goi.domain.data.vocabulary.Vocabulary
-import net.paploo.goi.persistence.anki.vocabulary.AnkiVocabularyDao
+import net.paploo.goi.persistence.googlesheets.vocabulary.GoogleSheetsVocabularyDao
 import net.paploo.goi.pipeline.core.Context
 import net.paploo.goi.pipeline.core.Exporter
 import java.nio.file.Path
 
-class AnkiVocabularyExporter(
+class GoogleVocabularyExporter(
     val config: Config
 ) : Exporter<List<Vocabulary>> {
 
@@ -15,9 +15,8 @@ class AnkiVocabularyExporter(
     )
 
     override suspend fun invoke(vocabularyList: List<Vocabulary>, context: Context): Result<Unit> =
-        context.timerLog.markAround("Export to Anki") {
-            AnkiVocabularyDao(config.filePath).writeAll(vocabularyList)
+        context.timerLog.markAround("Export to Google Sheets") {
+            GoogleSheetsVocabularyDao(config.filePath).writeAll(vocabularyList)
         }
 
 }
-

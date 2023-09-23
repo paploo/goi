@@ -11,18 +11,17 @@ object CsvFormats {
         .setCommentMarker('#') //Enables comments in a way that works with Anki output.
         .setIgnoreEmptyLines(true) //Ignore empty lines
         .setTrim(true) //Trim leading/trailing whitespace. This is normally what we want.
-        .setTrailingDelimiter(false) //
         .setRecordSeparator('\n') //This sets the line endings to UNIX ones, breaking RFC4180 but matching the Ruby reference impl.
+        .setSkipHeaderRecord(true) // On output don't write a header record; instead we usually manage this ourselves since we have simple collections at that point.
         .build()
 
     val googleSheet: CSVFormat = CSVFormat.Builder
         .create(default)
-        .setAllowMissingColumnNames(true)
+        .setAllowMissingColumnNames(true) //We have seprator columns; usually I'd prefer to yell.
         .build()
 
     val anki: CSVFormat = CSVFormat.Builder
         .create(default)
-        .setSkipHeaderRecord(true)
         .build()
 
 }
