@@ -5,13 +5,15 @@ val antlr_version: String by project
 val commons_csv_version: String by project
 val kotest_version: String by project
 val kotlin_coroutines_version: String by project
+val kotlin_serialization_version: String by project
 val logback_version: String by project
 val hikari_version: String by project
 val postgres_version: String by project
 val jooq_version: String by project
 
 plugins {
-    kotlin("jvm") version "1.9.0"
+    kotlin("jvm") version "1.9.10"
+    kotlin("plugin.serialization") version "1.9.10"
     application
     antlr
     id("nu.studer.jooq") version "8.2.1"
@@ -28,6 +30,7 @@ repositories {
 dependencies {
     antlr("org.antlr:antlr4:$antlr_version")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlin_coroutines_version")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:$kotlin_serialization_version")
 
     implementation("ch.qos.logback:logback-classic:$logback_version")
     implementation("org.apache.commons:commons-csv:$commons_csv_version")
