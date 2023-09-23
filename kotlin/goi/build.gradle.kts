@@ -124,12 +124,18 @@ jooq {
                             "source.source",
 
                             "vocabulary.conjugation",
+                            "vocabulary.conjugation_charge",
+                            "vocabulary.conjugation_form",
+                            "vocabulary.conjugation_kind",
+                            "vocabulary.conjugation_politeness",
                             "vocabulary.conjugation_set",
                             "vocabulary.definition",
                             "vocabulary.linkages",
                             "vocabulary.reference",
                             "vocabulary.spelling",
+                            "vocabulary.spelling_kind",
                             "vocabulary.vocabulary",
+                            "vocabulary.word_class",
                         ).joinToString("|")
                     }
                     generate.apply {
