@@ -1,4 +1,4 @@
-package net.paploo.goi.persistence.database
+package net.paploo.goi.persistence.database.vocabulary
 
 import net.paploo.goi.common.extensions.constCase
 import net.paploo.goi.common.extensions.snakeCase

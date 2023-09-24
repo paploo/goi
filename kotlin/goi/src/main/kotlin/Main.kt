@@ -49,7 +49,7 @@ fun dataSource(): ServiceDataSource = HikariServicedataSource {
 }
 
 suspend fun invokeApplication(timer: TimerLog, logger: Logger) {
-    val dataSource = dataSource()
+    //val dataSource = dataSource()
 
     val config = VocabularyPipeline.Configuration(
         importer = GoogleSheetVocabularyImporter(GoogleSheetVocabularyImporter.Config(filePath = filesDirectory + Path("日本語 Vocab - Vocab.csv"))),
@@ -57,20 +57,21 @@ suspend fun invokeApplication(timer: TimerLog, logger: Logger) {
         exporters = listOf(
             AnkiVocabularyExporter(AnkiVocabularyExporter.Config(filePath = filesDirectory + Path("vocabulary", "anki.csv"))),
             GoogleVocabularyExporter(GoogleVocabularyExporter.Config(filePath = filesDirectory + Path("vocabulary", "google_sheet.csv"))),
-            SqlFileVocabularyExporter(SqlFileVocabularyExporter.Config(dataSource = dataSource, filePath = filesDirectory + Path("vocabulary", "data.sql"))),
+            SqlFileVocabularyExporter(SqlFileVocabularyExporter.Config(filePath = filesDirectory + Path("vocabulary", "data.sql"))),
         )
     )
     val pipeline = VocabularyPipeline(config)
     val result = pipeline()
-    timer.mark("completed with status ${result.isSuccess}")
+    val endMark = timer.mark("completed with status ${result.isSuccess}")
 
     result.onFailure {
-        logger.error("FAILURE", it)
+        logger.error("FAILURE: $it", it)
     }.onSuccess {
-        logger.info("SUCCESS\n{}", it.size)
+        val rate = it.size.toDouble() / endMark.delta.toMillis().toDouble() * 1000.0
+        logger.info("SUCCESS: records processed: ${it.size}, time was ${endMark.delta.toMillis()} ms, rate was ${rate} rec/sec")
     }
 
     withContext(Dispatchers.IO) {
-        dataSource.close()
+        //dataSource.close()
     }
 }
