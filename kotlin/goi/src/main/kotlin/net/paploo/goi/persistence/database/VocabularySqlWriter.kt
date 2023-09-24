@@ -54,24 +54,31 @@ internal class VocabularySqlWriter : suspend (Path, List<VocabularyRecordGroup>)
         "-- ${recordGroup.spellings.firstOrNull()?.value} | ${recordGroup.definitions.firstOrNull()?.value} --;"
 
     fun vocabularySql(record: VocabularyRecord): String =
-        dsl.insertInto(VOCABULARY_).set(record).sql
+        dsl.insertInto(VOCABULARY_).set(record).sql.finishing()
 
     fun definitionSql(record: DefinitionRecord): String =
-        dsl.insertInto(DEFINITION).set(record).sql
+        dsl.insertInto(DEFINITION).set(record).sql.finishing()
 
     fun spellingSql(record: SpellingRecord): String =
-        dsl.insertInto(SPELLING).set(record).sql
+        dsl.insertInto(SPELLING).set(record).sql.finishing()
 
     fun conjugationSetSql(record: ConjugationSetRecord): String =
-        dsl.insertInto(CONJUGATION_SET).set(record).sql
+        dsl.insertInto(CONJUGATION_SET).set(record).sql.finishing()
 
     fun linkagesSql(record: LinkagesRecord): String =
-        dsl.insertInto(LINKAGES).set(record).sql
+        dsl.insertInto(LINKAGES).set(record).sql.finishing()
 
     fun referenceSql(record: ReferenceRecord): String =
-        dsl.insertInto(REFERENCE).set(record).sql
+        dsl.insertInto(REFERENCE).set(record).sql.finishing()
 
     fun conjugationSql(record: ConjugationRecord): String =
-        dsl.insertInto(CONJUGATION).set(record).sql
+        dsl.insertInto(CONJUGATION).set(record).sql.finishing()
+
+    private fun String.finishing(): String =
+        (this + ";")
+            //Some substitutions to diff test against reference impl.
+            .replace("null", "NULL")
+            .replace("insert into", "INSERT INTO")
+            .replace("\") values ('", "\") VALUES ('")
 
 }
