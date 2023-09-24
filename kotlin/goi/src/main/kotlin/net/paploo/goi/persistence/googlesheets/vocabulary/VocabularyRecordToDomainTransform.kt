@@ -176,8 +176,6 @@ internal class VocabularyRecordToDomainTransform : (VocabularyCsvRecord) -> Resu
             }
         }.let { conjugations ->
             wordClass(record).map {wordClass ->
-                println(wordClass)
-                println(wordClass.isConjugable)
                 if (wordClass.isConjugable) conjugations
                 else null
             }

@@ -46,11 +46,7 @@ fun dataSource(): ServiceDataSource = HikariServicedataSource {
     password = "postgres"
     minimumIdle = 2
     maximumPoolSize = 10
-
-    isReadOnly = true
 }
-
-
 
 suspend fun invokeApplication(timer: TimerLog, logger: Logger) {
     val dataSource = dataSource()
@@ -59,9 +55,9 @@ suspend fun invokeApplication(timer: TimerLog, logger: Logger) {
         importer = GoogleSheetVocabularyImporter(GoogleSheetVocabularyImporter.Config(filePath = filesDirectory + Path("日本語 Vocab - Vocab.csv"))),
         transformers = listOf(Transformer.identity()),
         exporters = listOf(
-            //AnkiVocabularyExporter(AnkiVocabularyExporter.Config(filePath = filesDirectory + Path("vocabulary", "anki.csv"))),
-            //GoogleVocabularyExporter(GoogleVocabularyExporter.Config(filePath = filesDirectory + Path("vocabulary", "google_sheet.csv"))),
-            SqlFileVocabularyExporter(SqlFileVocabularyExporter.Config(dataSource = dataSource, filePath = filesDirectory + Path("vocabulary", "data_kotlin.sql"))),
+            AnkiVocabularyExporter(AnkiVocabularyExporter.Config(filePath = filesDirectory + Path("vocabulary", "anki.csv"))),
+            GoogleVocabularyExporter(GoogleVocabularyExporter.Config(filePath = filesDirectory + Path("vocabulary", "google_sheet.csv"))),
+            SqlFileVocabularyExporter(SqlFileVocabularyExporter.Config(dataSource = dataSource, filePath = filesDirectory + Path("vocabulary", "data.sql"))),
         )
     )
     val pipeline = VocabularyPipeline(config)

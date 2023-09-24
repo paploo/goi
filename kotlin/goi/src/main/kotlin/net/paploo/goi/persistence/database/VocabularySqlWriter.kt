@@ -74,11 +74,6 @@ internal class VocabularySqlWriter : suspend (Path, List<VocabularyRecordGroup>)
     fun conjugationSql(record: ConjugationRecord): String =
         dsl.insertInto(CONJUGATION).set(record).sql.finishing()
 
-    private fun String.finishing(): String =
-        (this + ";")
-            //Some substitutions to diff test against reference impl.
-            .replace("null", "NULL")
-            .replace("insert into", "INSERT INTO")
-            .replace("\") values ('", "\") VALUES ('")
+    private fun String.finishing(): String = this + ";"
 
 }

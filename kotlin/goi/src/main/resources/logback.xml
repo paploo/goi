@@ -10,9 +10,10 @@
         </encoder>
     </appender>
 
-    <root level="debug">
+    <root level="DEBUG">
         <appender-ref ref="STDOUT"/>
     </root>
 
     <logger name="net.paploo.goi.domain.tools.furiganatemplate.parsers" level="INFO"/>
+    <logger name="com.zaxxer.hikari" level="INFO"/>
 </configuration>
