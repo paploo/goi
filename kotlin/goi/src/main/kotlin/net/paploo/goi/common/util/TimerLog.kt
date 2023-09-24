@@ -14,11 +14,15 @@ class TimerLog(
 
     private val startTime: Long = System.nanoTime()
 
-    fun mark(label: String): Mark {
+    fun mark(label: String): Mark =
+        mark { label }
+
+    fun mark(label: (Duration) -> String): Mark {
         val deltaNanos = System.nanoTime() - startTime
+        val delta = Duration.ofNanos(deltaNanos)
         return Mark(
-            label = label,
-            delta = Duration.ofNanos(deltaNanos),
+            label = label(delta),
+            delta = delta,
             owner = this
         ).also { mark ->
             synchronized(markLog) { markLog += mark }
@@ -28,9 +32,13 @@ class TimerLog(
     }
 
     inline fun <R> markAround(label: String, block: () -> R): R {
-        mark("START: $label")
+        val startMark = mark("> start: $label")
         return block().also {
-            mark("END  : $label")
+            mark {
+                val deltaNanos = (it - startMark.delta).toNanos()
+                val deltaFormatted = String.format("%.6f", (deltaNanos / 1000000.0))
+                "< end  : $label ($deltaFormatted ms)"
+            }
         }
     }
 

@@ -41,7 +41,7 @@ operator fun Path.plus(other: Path): Path =
 
 fun dataSource(): ServiceDataSource = HikariServicedataSource {
     poolName = "GoiPostgresPool"
-    jdbcUrl = "jdbc:postgresql://localhost:5432/goi"
+    jdbcUrl = "jdbc:postgresql://localhost:5432/goi_kotlin" //TODO: Switch to full database when code is stable
     username = "postgres"
     password = "postgres"
     minimumIdle = 2
@@ -61,7 +61,7 @@ suspend fun invokeApplication(timer: TimerLog, logger: Logger) {
         )
     )
     val pipeline = VocabularyPipeline(config)
-    val result = pipeline()
+    val result = pipeline.invoke()
     val endMark = timer.mark("completed with status ${result.isSuccess}")
 
     result.onFailure {
