@@ -51,7 +51,8 @@ dependencies {
 tasks.test {
     useJUnitPlatform()
     testlogger {
-        theme = ThemeType.STANDARD_PARALLEL
+        //theme = ThemeType.STANDARD_PARALLEL
+        theme = ThemeType.PLAIN_PARALLEL
     }
 }
 

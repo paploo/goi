@@ -1,11 +1,14 @@
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.withContext
 import net.paploo.goi.common.util.TimerLog
-import net.paploo.goi.pipeline.core.Exporter
+import net.paploo.goi.persistence.common.HikariServicedataSource
+import net.paploo.goi.persistence.common.ServiceDataSource
 import net.paploo.goi.pipeline.core.Transformer
 import net.paploo.goi.pipeline.vocabulary.VocabularyPipeline
 import net.paploo.goi.pipeline.vocabulary.exporter.AnkiVocabularyExporter
 import net.paploo.goi.pipeline.vocabulary.exporter.GoogleVocabularyExporter
+import net.paploo.goi.pipeline.vocabulary.exporter.SqlFileVocabularyExporter
 import net.paploo.goi.pipeline.vocabulary.importer.GoogleSheetVocabularyImporter
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
@@ -36,15 +39,29 @@ val filesDirectory: Path = Path(".", "files").absolute()
 operator fun Path.plus(other: Path): Path =
     this.resolve(other)
 
+fun dataSource(): ServiceDataSource = HikariServicedataSource {
+    poolName = "GoiPostgresPool"
+    jdbcUrl = "jdbc:postgresql://localhost:5432/goi"
+    username = "postgres"
+    password = "postgres"
+    minimumIdle = 2
+    maximumPoolSize = 10
+
+    isReadOnly = true
+}
+
 
 
 suspend fun invokeApplication(timer: TimerLog, logger: Logger) {
+    val dataSource = dataSource()
+
     val config = VocabularyPipeline.Configuration(
         importer = GoogleSheetVocabularyImporter(GoogleSheetVocabularyImporter.Config(filePath = filesDirectory + Path("日本語 Vocab - Vocab.csv"))),
         transformers = listOf(Transformer.identity()),
         exporters = listOf(
-            AnkiVocabularyExporter(AnkiVocabularyExporter.Config(filePath = filesDirectory + Path("vocabulary", "anki.csv"))),
-            GoogleVocabularyExporter(GoogleVocabularyExporter.Config(filePath = filesDirectory + Path("vocabulary", "google_sheet.csv"))),
+            //AnkiVocabularyExporter(AnkiVocabularyExporter.Config(filePath = filesDirectory + Path("vocabulary", "anki.csv"))),
+            //GoogleVocabularyExporter(GoogleVocabularyExporter.Config(filePath = filesDirectory + Path("vocabulary", "google_sheet.csv"))),
+            SqlFileVocabularyExporter(SqlFileVocabularyExporter.Config(dataSource = dataSource, filePath = filesDirectory + Path("vocabulary", "data_kotlin.sql"))),
         )
     )
     val pipeline = VocabularyPipeline(config)
@@ -55,5 +72,9 @@ suspend fun invokeApplication(timer: TimerLog, logger: Logger) {
         logger.error("FAILURE", it)
     }.onSuccess {
         logger.info("SUCCESS\n{}", it.size)
+    }
+
+    withContext(Dispatchers.IO) {
+        dataSource.close()
     }
 }

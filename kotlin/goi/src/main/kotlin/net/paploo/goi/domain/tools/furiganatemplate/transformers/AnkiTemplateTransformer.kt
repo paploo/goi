@@ -10,6 +10,7 @@ import net.paploo.goi.domain.tools.furiganatemplate.FuriganaTemplate
  * @see https://docs.ankiweb.net/templates/fields.html?highlight=tts#ruby-characters
  */
 class AnkiTemplateTransformer : FuriganaParseTreeTransformer<FuriganaTemplate.Anki> {
+
     override fun invoke(tree: FuriganaParseTree): Result<FuriganaTemplate.Anki> =
         tree.elements.mapIndexed { index, element ->
             when (element) {
@@ -17,10 +18,8 @@ class AnkiTemplateTransformer : FuriganaParseTreeTransformer<FuriganaTemplate.An
                 is FuriganaParseTree.Element.RubyText -> "${rubyGroupSeparator(index)}${element.text}[${element.rubyText}]" //Don't forget the space in front!
             }
         }.let { parts ->
-            println(parts)
             parts.joinToString("")
         }.let {
-            println("'$it'")
             Result.success(FuriganaTemplate.Anki(it))
         }
 

@@ -156,7 +156,6 @@ object KanaTable {
         // https://en.wikipedia.org/wiki/Katakana : Ministry of Education Additional Ones
 
     ).also { table ->
-        println("TABLE RUN")
         table.groupBy { it.hiragana }.forEach { (value, kana) -> require(kana.size == 1) { "$value has multiple Kana defined: $kana" } }
         table.groupBy { it.katakana }.forEach { (value, kana) -> require(kana.size == 1) { "$value has multiple Kana defined: $kana" } }
         table.groupBy { it.coordinate }.forEach { (value, kana) -> require(kana.size == 1) { "$value has multiple Kana defined: $kana" } }

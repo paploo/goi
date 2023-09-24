@@ -15,8 +15,6 @@ class GoogleVocabularyExporter(
     )
 
     override suspend fun invoke(vocabularyList: List<Vocabulary>, context: Context): Result<Unit> =
-        context.timerLog.markAround("Export to Google Sheets") {
-            GoogleSheetsVocabularyDao(config.filePath).writeAll(vocabularyList)
-        }
+        GoogleSheetsVocabularyDao(config.filePath).writeAll(vocabularyList)
 
 }
