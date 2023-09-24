@@ -6,3 +6,4 @@ After we move to Kotlin, there are a few revamps to do:
 - Spelling types (katakana, hiragana, kanji, et cetera, aren't real useful beyond the preferred spelling.
   - If we retain them, we need to expand to handle more complex cases probably.
 - Conjugations: Remove unused Irreglar kinds
+- GrammarRule: Tags should be NOT NULL default {}

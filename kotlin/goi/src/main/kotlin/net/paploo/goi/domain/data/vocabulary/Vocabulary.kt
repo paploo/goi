@@ -26,16 +26,20 @@ data class Vocabulary(
 
     //TODO: Move this validation to a more generalized validation layer and/or a custom validation exception type.
     init {
-        assert(wordClass.isConjugable && conjugations != null) {
-            "Expected vocabulary $id to have conjugations."
+        if(wordClass.isConjugable) {
+            require(conjugations != null) {
+                "Expected vocabulary $id to have conjugations."
+            }
+
+            require(conjugationKind?.associatedWordClasses?.contains(wordClass) ?: false ) {
+                "Expected vocabulary $id to have no conjugationKind and no conjugations."
+            }
         }
 
-        assert(wordClass.isConjugable && (conjugationKind?.associatedWordClasses?.contains(wordClass) ?: false)) {
-            "Expected vocabulary $id to have a legal conjugation kind but instead has $conjugationKind."
-        }
-
-        assert(!(wordClass.isConjugable) && conjugationKind == null && conjugations == null) {
-            "Expected vocabulary $id to have no conjugationKind and no conjugations."
+        if(!wordClass.isConjugable) {
+            require(conjugationKind == null && conjugations == null) {
+                "Expected vocabulary $id to have no conjugationKind and no conjugations."
+            }
         }
     }
 

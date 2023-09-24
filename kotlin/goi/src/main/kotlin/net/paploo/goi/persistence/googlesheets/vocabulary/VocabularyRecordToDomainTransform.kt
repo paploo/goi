@@ -12,6 +12,7 @@ import net.paploo.goi.domain.data.vocabulary.Conjugation.Inflection.Form
 import net.paploo.goi.domain.data.vocabulary.Conjugation.Inflection.Politeness
 import net.paploo.goi.domain.data.vocabulary.Definition
 import net.paploo.goi.domain.data.vocabulary.Vocabulary
+import net.paploo.goi.domain.data.vocabulary.isConjugable
 import net.paploo.goi.domain.tools.furiganatemplate.FuriganaTemplate
 import java.time.LocalDate
 import java.util.UUID
@@ -173,8 +174,13 @@ internal class VocabularyRecordToDomainTransform : (VocabularyCsvRecord) -> Resu
             value?.let {
                 Conjugation(inflection, it)
             }
-        }.let {
-            Result.success(it)
+        }.let { conjugations ->
+            wordClass(record).map {wordClass ->
+                println(wordClass)
+                println(wordClass.isConjugable)
+                if (wordClass.isConjugable) conjugations
+                else null
+            }
         }
 
 
