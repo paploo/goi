@@ -10662,9 +10662,9 @@ INSERT INTO "vocabulary"."reference" ("vocabulary_id", "lesson_code") VALUES ('5
 -- 々 | kanji iteration mark --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('c4c3dbe9-42d5-4211-a4ca-58280aa1acbe', 'PUNCTUATION', NULL, NULL, 1058, '{punctuation}', '2023-07-26');
 INSERT INTO "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") VALUES ('d613c9b8-1591-512b-8c6b-072b04ea568f', 'c4c3dbe9-42d5-4211-a4ca-58280aa1acbe', 1, 'kanji iteration mark');
-INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('11ce9c87-a943-54a6-b923-f25fc07a7778', 'c4c3dbe9-42d5-4211-a4ca-58280aa1acbe', 'PUNCTUATION', '々');
+INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('11ce9c87-a943-54a6-b923-f25fc07a7778', 'c4c3dbe9-42d5-4211-a4ca-58280aa1acbe', 'CJK_PUNCTUATION', '々');
 INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('8ae72360-03b9-59f2-8b23-e5c4e52970e5', 'c4c3dbe9-42d5-4211-a4ca-58280aa1acbe', 'HIRAGANA', 'のま');
-INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('c66d7f71-1de1-5705-b12c-cbc0f9c64ed4', 'c4c3dbe9-42d5-4211-a4ca-58280aa1acbe', 'PUNCTUATION', '々');
+INSERT INTO "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") VALUES ('c66d7f71-1de1-5705-b12c-cbc0f9c64ed4', 'c4c3dbe9-42d5-4211-a4ca-58280aa1acbe', 'CJK_PUNCTUATION', '々');
 INSERT INTO "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id", "conjugation_set_id") VALUES ('c4c3dbe9-42d5-4211-a4ca-58280aa1acbe', 'd613c9b8-1591-512b-8c6b-072b04ea568f', '11ce9c87-a943-54a6-b923-f25fc07a7778', '8ae72360-03b9-59f2-8b23-e5c4e52970e5', NULL, 'c66d7f71-1de1-5705-b12c-cbc0f9c64ed4', NULL);
 -- キノコ | mushroom --;
 INSERT INTO "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "tags", "date_added") VALUES ('ba8b9d88-29a4-4eaf-b847-cce5165dda99', 'NOUN', NULL, NULL, 1059, '{food}', '2023-08-06');

@@ -44,7 +44,7 @@ INSERT INTO vocabulary.conjugation_kind (code, label, word_class_code) VALUES ('
 INSERT INTO vocabulary.spelling_kind (code, label) VALUES ('HIRAGANA', 'Hiragana');
 INSERT INTO vocabulary.spelling_kind (code, label) VALUES ('KATAKANA', 'Katakana');
 INSERT INTO vocabulary.spelling_kind (code, label) VALUES ('KANJI', 'Kanji');
-INSERT INTO vocabulary.spelling_kind (code, label) VALUES ('PUNCTUATION', 'Punctuation');
+INSERT INTO vocabulary.spelling_kind (code, label) VALUES ('CJK_PUNCTUATION', 'CJK Punctuation');
 
 ---
 --- CONJUGATION CHARGE
