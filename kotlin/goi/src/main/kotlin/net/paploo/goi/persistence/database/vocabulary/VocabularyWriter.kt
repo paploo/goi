@@ -59,7 +59,6 @@ internal class VocabularyWriter : suspend (ServiceDataSource, List<VocabularyRec
                 batch.map { writeRecord(dataSource, it) }.sequenceToResult().map { it.sum() }
             }.sequenceToResult().map { it.sum() }
         }
-//        recordGroups.map { writeRecord(dataSource, it) }.sequenceToResult().map { it.size }
 
     private suspend fun writeRecord(dataSource: ServiceDataSource, recordGroup: VocabularyRecordGroup): Result<Int> =
         withContext(Dispatchers.IO) {
