@@ -27,9 +27,7 @@ internal class VocabularyWriter : suspend (ServiceDataSource, List<VocabularyRec
         //Right now the database is only used as an output source, so we do a full clean reload. No need to spend the work to transactionally update.
         clearVocabularyDatabases(dataSource).flatMap {
             logger.info("Starting write of ${recordGroups.size} vocabulary entries")
-            writeRecords(dataSource, recordGroups).also {
-
-            }
+            writeRecords(dataSource, recordGroups)
         }.also { result ->
             result.onSuccess {
                 logger.info("Write of ${recordGroups.size} vocabulary entries resulted in writing $it rows")
