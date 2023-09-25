@@ -1,13 +1,10 @@
 package net.paploo.goi.persistence.database.vocabulary
 
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.coroutineScope
-import kotlinx.coroutines.future.asDeferred
 import kotlinx.coroutines.withContext
 import net.paploo.goi.common.extensions.flatMap
 import net.paploo.goi.common.extensions.parallelMap
 import net.paploo.goi.common.extensions.sequenceToResult
-import net.paploo.goi.common.util.TimerLog
 import net.paploo.goi.persistence.common.ServiceDataSource
 import net.paploo.goi.persistence.common.executeAsyncResult
 import net.paploo.goi.persistence.db.goi.vocabulary.tables.records.*

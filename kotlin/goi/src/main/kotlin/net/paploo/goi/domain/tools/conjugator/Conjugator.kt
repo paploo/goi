@@ -39,6 +39,15 @@ operator fun Conjugator.invoke(
 ): Result<String>? =
     invoke(conjugationKind)?.invoke(inflection)?.invoke(dictionaryValue)
 
+fun Conjugator.conjugate(
+    conjugationKind: Vocabulary.ConjugationKind,
+    inflection: Conjugation.Inflection,
+    dictionaryValue: String
+): Result<Conjugation>? =
+    invoke(conjugationKind = conjugationKind, inflection = inflection, dictionaryValue = dictionaryValue)?.map {
+        Conjugation(inflection = inflection, value = it)
+    }
+
 class DefaultConjugator : Conjugator {
 
     override fun invoke(conjugationKind: Vocabulary.ConjugationKind): Inflector? = when (conjugationKind) {
