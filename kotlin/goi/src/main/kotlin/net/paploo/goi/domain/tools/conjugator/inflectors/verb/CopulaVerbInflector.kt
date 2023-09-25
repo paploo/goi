@@ -1,34 +1,67 @@
 package net.paploo.goi.domain.tools.conjugator.inflectors.verb
 
+import net.paploo.goi.domain.data.vocabulary.Conjugation
+import net.paploo.goi.domain.data.vocabulary.Conjugation.Inflection.Charge
+import net.paploo.goi.domain.data.vocabulary.Conjugation.Inflection.Politeness
+import net.paploo.goi.domain.data.vocabulary.Conjugation.Inflection.Form
+import net.paploo.goi.domain.tools.conjugator.Inflector
 import net.paploo.goi.domain.tools.conjugator.Rewriter
 
-class CopulaVerbInflector : StandardVerbInflector() {
-    private val validEndingsRegex = "(です)$".toRegex()
+class CopulaVerbInflector : Inflector {
 
-    override val positivePlainPresent: Rewriter = Rewriter.replace(validEndingsRegex, "だ")
-    override val positivePlainPast: Rewriter = Rewriter.replace(validEndingsRegex, "だった")
-    override val positivePlainTe: Rewriter = Rewriter.replace(validEndingsRegex, "で")
+    override fun invoke(inflection: Conjugation.Inflection): Rewriter? = when (inflection) {
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Present) -> positivePlainPresent
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Past) -> positivePlainPast
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Te) -> positivePlainTe
 
-    override val negativePlainPresent: Rewriter = Rewriter.replace(validEndingsRegex, "じゃない")
-    override val negativePlainPast: Rewriter = Rewriter.replace(validEndingsRegex, "じゃなかった")
-    override val negativePlainTe: Rewriter = noConjugationRewriter("negative plain te")
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Present) -> negativePlainPresent
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Past) -> negativePlainPast
 
-    override val positivePolitePresent: Rewriter = Rewriter.replace(validEndingsRegex, "です")
-    override val positivePolitePast: Rewriter = Rewriter.replace(validEndingsRegex, "でした")
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Present) -> positivePolitePresent
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Past) -> positivePolitePast
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Te) -> positivePoliteTe
 
-    override val negativePolitePresent: Rewriter = Rewriter.replace(validEndingsRegex, "じゃないです")
-    override val negativePolitePast: Rewriter = Rewriter.replace(validEndingsRegex, "じゃないかったです")
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Present) -> negativePolitePresent
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Past) -> negativePolitePast
 
-    override val positivePlainPotential: Rewriter = noConjugationRewriter("positive plain potential")
-    override val negativePlainPotential: Rewriter = noConjugationRewriter("negative plain potential")
-    override val positivePolitePotential: Rewriter = noConjugationRewriter("positive polite potential")
-    override val negativePolitePotential: Rewriter = noConjugationRewriter("negative polite potential")
-
-    private fun noConjugationRewriter(inflectionName: String): Rewriter = Rewriter {
-        Result.failure(IllegalArgumentException("There is no valid copula conjugation for $inflectionName"))
+        else -> null
     }
+
+    private val validEndingsRegex = "(だ)$".toRegex()
+
+    val positivePlainPresent: Rewriter = Rewriter.replace(validEndingsRegex, "だ")
+    val positivePlainPast: Rewriter = Rewriter.replace(validEndingsRegex, "だった")
+    val positivePlainTe: Rewriter = Rewriter.replace(validEndingsRegex, "で")
+
+    val negativePlainPresent: Rewriter = Rewriter.replace(validEndingsRegex, "じゃない")
+    val negativePlainPast: Rewriter = Rewriter.replace(validEndingsRegex, "じゃなかった")
+
+    val positivePolitePresent: Rewriter = Rewriter.replace(validEndingsRegex, "です")
+    val positivePolitePast: Rewriter = Rewriter.replace(validEndingsRegex, "でした")
+    val positivePoliteTe: Rewriter = Rewriter.replace(validEndingsRegex, "でありまして")
+
+    val negativePolitePresent: Rewriter = Rewriter.replace(validEndingsRegex, "じゃないです")
+    val negativePolitePast: Rewriter = Rewriter.replace(validEndingsRegex, "じゃないかったです")
 
     companion object {
         val default: CopulaVerbInflector = CopulaVerbInflector()
+
+
+        val supportedInflections: Set<Conjugation.Inflection> = setOf(
+            Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Present),
+            Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Past),
+            Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Te),
+
+            Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Present),
+            Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Past),
+
+            Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Present),
+            Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Past),
+            Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Te),
+
+            Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Present),
+            Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Past),
+        )
+
     }
 }

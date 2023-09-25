@@ -29,3 +29,7 @@ fun <T : Any> Result<T?>.sequenceToNullable(): Result<T>? =
         onSuccess = { nullable -> nullable?.let { Result.success(it) } },
         onFailure = { Result.failure(it) }
     )
+
+//TODO: Write tests
+fun <T : Any> Result<T>?.sequenceToResult(): Result<T?> =
+    this ?: Result.success(null)
