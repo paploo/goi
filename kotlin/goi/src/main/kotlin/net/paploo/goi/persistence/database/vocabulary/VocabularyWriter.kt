@@ -15,7 +15,9 @@ import net.paploo.goi.persistence.db.goi.vocabulary.tables.references.*
 import org.jooq.DSLContext
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
+import kotlin.math.ceil
 import kotlin.math.max
+import kotlin.math.roundToInt
 
 internal class VocabularyWriter : suspend (ServiceDataSource, List<VocabularyRecordGroup>) -> Result<Unit> {
 
@@ -47,7 +49,7 @@ internal class VocabularyWriter : suspend (ServiceDataSource, List<VocabularyRec
 
     private suspend fun writeRecords(dataSource: ServiceDataSource, recordGroups: List<VocabularyRecordGroup>): Result<Int> =
         Result.success(
-            max(recordGroups.size / 10, 1)
+            max(ceil(recordGroups.size / 10.0).roundToInt(), 1)
         ).mapCatching { batchSize ->
             logger.debug("Splitting ${recordGroups.size} record groups into batch sizes of $batchSize")
             recordGroups.chunked(batchSize)

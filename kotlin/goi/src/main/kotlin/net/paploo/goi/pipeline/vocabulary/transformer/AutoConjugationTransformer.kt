@@ -36,38 +36,95 @@ class AutoConjugationTransformer : Transformer<List<Vocabulary>> {
         vocab.conjugationKind?.let { conjugationKind ->
             val dictionaryValue = vocab.preferredWritten.value
 
-            Conjugation.Inflection.entries.map { inflection ->
-                conjugator.invoke(
-                    conjugationKind = conjugationKind,
-                    inflection = inflection,
-                    dictionaryValue = dictionaryValue
-                ).sequenceToResult().flatMap { computedConjugation ->
-                    val suppliedConjugation = vocab.conjugations?.find { it.inflection == inflection }?.value
+            // Make a list of the derived inflections.
+            val computedMap: Result<Map<Conjugation.Inflection, String?>> =
+                computedMap(conjugationKind, dictionaryValue)
 
-                    chooseConjugation(
-                        vocabularyId = vocab.id,
-                        inflection = inflection,
-                        suppliedConjugation = suppliedConjugation,
-                        computedConjugation = computedConjugation
-                    ).map { value ->
-                        value?.let { Conjugation(inflection, value) }
+            // Group the given conjugations by inflection
+            val suppliedGroups: Result<Map<Conjugation.Inflection, List<Conjugation>>> = vocab.conjugations?.let {
+                suppliedGroups(vocab.conjugations)
+            } ?: Result.success(emptyMap())
+
+            // For each inflection in the inflection group, compare the FIRST against the computed to see if it is legal.
+            // In any case, always pass through ALL the given conjugations for the inflection.
+            val updatedConjugations: Result<List<Conjugation>> =
+                computedMap.flatMap { computed ->
+                    suppliedGroups.flatMap { supplied ->
+                        validatedSuppliedConjugations(vocab.id, supplied, computed).flatMap { validatedSupplied ->
+                            // At the end, discover any unseen inflections (Set subtract), warn about each, and append them.
+                            autoConjugations(vocab.id, computed, supplied.keys).map { auto ->
+                                validatedSupplied + auto
+                            }
+                        }
                     }
                 }
-            }.sequenceToResult().map { autoConjugations ->
-                vocab.copy(conjugations = autoConjugations.filterNotNull())
-            }
-        } ?: Result.success(vocab) // Don't conjugate if no conjugation kind.
 
-    private fun chooseConjugation(vocabularyId: Vocabulary.Id, inflection: Conjugation.Inflection, computedConjugation: String?, suppliedConjugation: String?): Result<String?> =
-        if (suppliedConjugation == computedConjugation) {
-            Result.success(suppliedConjugation)
-        } else if (suppliedConjugation != null && computedConjugation == null) {
-            Result.failure(UnexpectedConjugationException(vocabularyId, inflection, suppliedConjugation, null))
-        } else if (suppliedConjugation == null && computedConjugation != null) {
-            logger.info("Missing expected conjugation for $vocabularyId; auto-supplying $computedConjugation for $inflection")
-            Result.success(computedConjugation)
-        } else {  //if (computedConjugation != suppliedConjugation)
-            Result.failure(UnexpectedConjugationException(vocabularyId, inflection, suppliedConjugation, computedConjugation))
+            updatedConjugations.map {
+                vocab.copy(conjugations = it)
+            }
+        } ?: Result.success(vocab)
+
+    private fun autoConjugations(
+        vocabularyId: Vocabulary.Id,
+        computedMap: Map<Conjugation.Inflection, String?>,
+        suppliedInflections: Set<Conjugation.Inflection>,
+    ): Result<List<Conjugation>> =
+        computedMap.filterNot { (inflection, value) ->
+            inflection in suppliedInflections
+        }.flatMap { (inflection, conjugatedValue) ->
+            conjugatedValue?.let {
+                logger.warn("Auto-conjugating $vocabularyId: value = $conjugatedValue for $inflection")
+                listOf(Conjugation(inflection = inflection, value = conjugatedValue))
+            } ?: emptyList()
+        }.let { Result.success(it) }
+
+    private fun validatedSuppliedConjugations(
+        vocabularyId: Vocabulary.Id,
+        suppliedGroups: Map<Conjugation.Inflection, List<Conjugation>>,
+        computedMap: Map<Conjugation.Inflection, String?>
+    ): Result<List<Conjugation>> =
+        suppliedGroups.map { (inflection, allSupplied) ->
+            //Validate the primary supplied against the computed.
+            allSupplied.firstOrNull()?.let { primarySupplied ->
+                val computedConjugation = computedMap[inflection]
+                if (primarySupplied.value != computedConjugation) {
+                    //If primary is invalid, error!
+                    Result.failure(
+                        UnexpectedConjugationException(
+                            vocabularyId = vocabularyId,
+                            inflection = inflection,
+                            suppliedConjugation = primarySupplied.value,
+                            computedConjugation = computedConjugation
+                        )
+                    )
+                } else {
+                    //If primary is valid, pass through the conjugations.
+                    Result.success(allSupplied)
+                }
+            } ?: Result.success(emptyList())
+        }.sequenceToResult().map { it.flatten() }
+
+
+    private fun computedMap(
+        conjugationKind: Vocabulary.ConjugationKind,
+        dictionaryValue: String
+    ): Result<Map<Conjugation.Inflection, String?>> =
+        Conjugation.Inflection.entries.map { inflection ->
+            conjugator.invoke(
+                conjugationKind = conjugationKind,
+                inflection = inflection,
+                dictionaryValue = dictionaryValue
+            ).sequenceToResult().map {
+                inflection to it
+            }
+        }.sequenceToResult().map {
+            it.toMap()
+        }
+
+    private fun suppliedGroups(conjugations: Collection<Conjugation>): Result<Map<Conjugation.Inflection, List<Conjugation>>> =
+        //Note: groupBy guarantees iteration order preservation!
+        Result.runCatching {
+            conjugations.groupBy { it.inflection }
         }
 
     data class UnexpectedConjugationException(
