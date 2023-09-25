@@ -32,6 +32,9 @@ abstract class BasePipeline<T> : Pipeline<T> {
                 }.flatMap {
                     context.timerLog.mark("# START EXPORT PHASE")
                     export(it, context)
+                }.map {
+                    context.timerLog.mark("# END PIPELINE")
+                    it
                 }
             }
         }
@@ -53,6 +56,8 @@ abstract class BasePipeline<T> : Pipeline<T> {
             context.timerLog.markAround("Export with ${exporter::class.simpleName}") {
                 exporter(value, context)
             }
+        }.also {
+            logger.info("EXPORT: $it")
         }.sequenceToResult().map { value }
 
 }

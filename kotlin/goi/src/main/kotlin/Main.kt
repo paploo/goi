@@ -9,6 +9,7 @@ import net.paploo.goi.pipeline.vocabulary.VocabularyPipeline
 import net.paploo.goi.pipeline.vocabulary.exporter.AnkiVocabularyExporter
 import net.paploo.goi.pipeline.vocabulary.exporter.GoogleVocabularyExporter
 import net.paploo.goi.pipeline.vocabulary.exporter.SqlFileVocabularyExporter
+import net.paploo.goi.pipeline.vocabulary.exporter.SqlVocabularyExporter
 import net.paploo.goi.pipeline.vocabulary.importer.GoogleSheetVocabularyImporter
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
@@ -41,7 +42,7 @@ operator fun Path.plus(other: Path): Path =
 
 fun dataSource(): ServiceDataSource = HikariServicedataSource {
     poolName = "GoiPostgresPool"
-    jdbcUrl = "jdbc:postgresql://localhost:5432/goi_kotlin" //TODO: Switch to full database when code is stable
+    jdbcUrl = "jdbc:postgresql://localhost:5432/goi"
     username = "postgres"
     password = "postgres"
     minimumIdle = 2
@@ -49,7 +50,7 @@ fun dataSource(): ServiceDataSource = HikariServicedataSource {
 }
 
 suspend fun invokeApplication(timer: TimerLog, logger: Logger) {
-    //val dataSource = dataSource()
+    val dataSource = dataSource()
 
     val config = VocabularyPipeline.Configuration(
         importer = GoogleSheetVocabularyImporter(GoogleSheetVocabularyImporter.Config(filePath = filesDirectory + Path("日本語 Vocab - Vocab.csv"))),
@@ -58,6 +59,7 @@ suspend fun invokeApplication(timer: TimerLog, logger: Logger) {
             AnkiVocabularyExporter(AnkiVocabularyExporter.Config(filePath = filesDirectory + Path("vocabulary", "anki.csv"))),
             GoogleVocabularyExporter(GoogleVocabularyExporter.Config(filePath = filesDirectory + Path("vocabulary", "google_sheet.csv"))),
             SqlFileVocabularyExporter(SqlFileVocabularyExporter.Config(filePath = filesDirectory + Path("vocabulary", "data.sql"))),
+            SqlVocabularyExporter(SqlVocabularyExporter.Config(dataSource = dataSource)),
         )
     )
     val pipeline = VocabularyPipeline(config)
@@ -72,6 +74,6 @@ suspend fun invokeApplication(timer: TimerLog, logger: Logger) {
     }
 
     withContext(Dispatchers.IO) {
-        //dataSource.close()
+        dataSource.close()
     }
 }

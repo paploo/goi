@@ -17,4 +17,5 @@
     <logger name="net.paploo.goi.domain.tools.furiganatemplate.parsers" level="INFO"/>
     <logger name="com.zaxxer.hikari" level="INFO"/>
     <logger name="org.jooq.Constants" level="WARN"/>
+    <logger name="org.jooq.tools.LoggerListener" level="INFO"/>
 </configuration>

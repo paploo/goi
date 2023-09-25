@@ -10,7 +10,7 @@ import org.jooq.impl.DSL
 import java.io.FileWriter
 import java.nio.file.Path
 
-internal class VocabularySqlWriter : suspend (Path, List<VocabularyRecordGroup>) -> Result<Unit> {
+internal class VocabularyFileWriter : suspend (Path, List<VocabularyRecordGroup>) -> Result<Unit> {
 
     override suspend fun invoke(filePath: Path, recordGroups: List<VocabularyRecordGroup>): Result<Unit> =
         Result.runCatching {
@@ -53,25 +53,25 @@ internal class VocabularySqlWriter : suspend (Path, List<VocabularyRecordGroup>)
     private fun headerComment(recordGroup: VocabularyRecordGroup): String =
         "-- ${recordGroup.spellings.firstOrNull()?.value} | ${recordGroup.definitions.firstOrNull()?.value} --;"
 
-    fun vocabularySql(record: VocabularyRecord): String =
+    private fun vocabularySql(record: VocabularyRecord): String =
         dsl.insertInto(VOCABULARY_).set(record).sql.finishing()
 
-    fun definitionSql(record: DefinitionRecord): String =
+    private fun definitionSql(record: DefinitionRecord): String =
         dsl.insertInto(DEFINITION).set(record).sql.finishing()
 
-    fun spellingSql(record: SpellingRecord): String =
+    private fun spellingSql(record: SpellingRecord): String =
         dsl.insertInto(SPELLING).set(record).sql.finishing()
 
-    fun conjugationSetSql(record: ConjugationSetRecord): String =
+    private fun conjugationSetSql(record: ConjugationSetRecord): String =
         dsl.insertInto(CONJUGATION_SET).set(record).sql.finishing()
 
-    fun linkagesSql(record: LinkagesRecord): String =
+    private fun linkagesSql(record: LinkagesRecord): String =
         dsl.insertInto(LINKAGES).set(record).sql.finishing()
 
-    fun referenceSql(record: ReferenceRecord): String =
+    private fun referenceSql(record: ReferenceRecord): String =
         dsl.insertInto(REFERENCE).set(record).sql.finishing()
 
-    fun conjugationSql(record: ConjugationRecord): String =
+    private fun conjugationSql(record: ConjugationRecord): String =
         dsl.insertInto(CONJUGATION).set(record).sql.finishing()
 
     private fun String.finishing(): String = this + ";"
