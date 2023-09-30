@@ -56,3 +56,28 @@ This is a basic kotlin gralde project; you can build and run tests in one motion
 ```shell
 ./gradlew clean build test
 ```
+
+### Jooq
+
+The database records are built using the Jooq generator. When the database is changed, these generated files need to be
+rebuilt:
+```shell
+./gradlew generateJooq
+```
+Note that sometime the original files need to be manually deleted from the directory to force clean rebuilding:
+```shell
+rm -rf $PROJECT_ROOT/kotlin/goi/src/gen/kotlin/net/paploo/goi/persistence
+```
+
+### Antlr
+
+Antlr is used to manage the grammar/parser for the 
+
+Antlr is a little weird to work with:
+1. The IntelliJ plugin likes to gen files into both `src/main/antlr/gen` and `src/main/gen`. The output path
+   can be configured in the project settings, and it is relative to `src/main`. **I don't use this method.**
+2. The Gradle Plugin generates java code into `$PROJECT_ROOT/kotlin/goi/src/main/java/net/paploo/goi/gen/antlr`
+   via the command `./gradlew generateGrammarSource`. 
+
+> ⚠️ The generated files don't always get rebuilt appropriately using gradle; so when making changes ALWAYS delete the
+> generated files first!
