@@ -36,6 +36,8 @@ abstract class BasePipeline<T> : Pipeline<T> {
                     context.timerLog.mark("# END PIPELINE")
                     it
                 }
+            }.also {
+                logger.info(context.timerLog.formatted())
             }
         }
 

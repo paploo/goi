@@ -19,8 +19,12 @@ class HikariServicedataSource(
     val hikariDataSource: HikariDataSource
 ) : ServiceDataSource, DataSource by hikariDataSource, Closeable by hikariDataSource {
 
-    constructor(configuration: HikariConfig.() -> Unit) : this(
-        HikariConfig().apply(configuration).let { HikariDataSource(it) }
+    constructor(configurationBlock: HikariConfig.() -> Unit) : this(
+        HikariConfig().apply(configurationBlock)
+    )
+
+    constructor(configuration: HikariConfig) : this(
+        HikariDataSource(configuration)
     )
 
 }
