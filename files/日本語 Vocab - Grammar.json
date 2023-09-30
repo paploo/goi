@@ -426,7 +426,7 @@
         "id": "3a12ad59-47f8-452a-9f5a-345d52909b97",
         "meaning": "Ken read a book at home. He read a book at a cafe, too.",
         "text": {
-          "spelling": "けんさんはうちで{本|ほん}を{読|よ}みました。カフェでも本|ほん}を{読|よ}みました。",
+          "spelling": "けんさんはうちで{本|ほん}を{読|よ}みました。カフェでも{本|ほん}を{読|よ}みました。",
           "phonetic_spelling": null
         },
         "lesson_codes": ["GENKI3_L03"],
@@ -1059,7 +1059,7 @@
         "id": "a5351a6c-dc6a-47de-8740-0cf5dbcfed0d",
         "meaning": "Professor Yamashita is Japanese and he is about fifty years old.",
         "text": {
-          "spelling": "{山下|山・した}{先生|せん・せい}は{日本|に・ほん}{人|じん}で、{五|ご}{十|じゅう}{歳|さい}ぐらいです。"
+          "spelling": "{山下|やま・した}{先生|せん・せい}は{日本|に・ほん}{人|じん}で、{五|ご}{十|じゅう}{歳|さい}ぐらいです。"
         },
         "lesson_codes": ["GENKI3_L07"],
         "tags": []
@@ -1196,7 +1196,7 @@
         "id": "437babfb-9e7b-48ce-afd3-9723b247f80d",
         "meaning": "I think Mary is good at Japanese.",
         "text": {
-          "spelling": "メアリーさんは{日本|に・本}{語|ご}が{上手|じょう・ず}だと{思|おも}います。"
+          "spelling": "メアリーさんは{日本|に・ほん}{語|ご}が{上手|じょう・ず}だと{思|おも}います。"
         },
         "lesson_codes": ["GENKI3_L08"],
         "tags": []
@@ -1228,7 +1228,7 @@
         "id": "e572789c-1f91-42aa-97ff-c49b3f2419b1",
         "meaning": "Professor Yamashita said that he is not married",
         "text": {
-          "spelling": "{山下|山・した}{先生|せん・せい}は{結婚|けっ・こん}していないと{言|い}っていました。"
+          "spelling": "{山下|やま・した}{先生|せん・せい}は{結婚|けっ・こん}していないと{言|い}っていました。"
         },
         "lesson_codes": ["GENKI3_L08"],
         "tags": []
@@ -1314,7 +1314,7 @@
         "id": "728ba088-711f-4479-9fb5-7ee966dd4894",
         "meaning": "I don't like cleaning my room.",
         "text": {
-          "spelling": "部屋|へ・や}を{掃除|そう・じ}するのがきらいです"
+          "spelling": "{部屋|へ・や}を{掃除|そう・じ}するのがきらいです"
         },
         "lesson_codes": ["GENKI3_L08"],
         "tags": []
@@ -1533,7 +1533,7 @@
         "meaning": "Takeshi said that kabuki started at twelve o'clock, and finished at four o'clock.",
         "text": {
           "spelling": "たけしさんは、{歌舞伎|か・ぶ・き}は{十二|じゅう・に}{時|じ}に{始|はじ}まって、{四|よ}{時|じ}に{終|お}わったと{言|い}っていました。"
-      },
+        },
         "lesson_codes": [
           "GENKI3_L09"
         ],
