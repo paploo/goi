@@ -7,6 +7,7 @@ import net.paploo.goi.domain.data.common.Tag
 import net.paploo.goi.domain.data.common.Tagable
 import net.paploo.goi.domain.data.source.Lesson
 import net.paploo.goi.domain.data.source.Referencable
+import java.time.LocalDate
 import java.util.*
 
 data class GrammarRule(
@@ -16,7 +17,7 @@ data class GrammarRule(
     val howToUse: List<String>,
     val jlptLevel: JlptLevel?,
     val rowNumber: Int,
-    val dateAdded: Int,
+    val dateAdded: LocalDate,
     override val references: Set<Lesson.Code>,
     override val tags: Set<Tag>,
     val examples: List<Example>,

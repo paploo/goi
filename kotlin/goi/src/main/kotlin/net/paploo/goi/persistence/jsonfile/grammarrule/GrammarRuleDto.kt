@@ -37,6 +37,8 @@ data class GrammarRuleDto(
     val examples: List<ExampleDto>,
     @SerialName("jlpt_level")
     val jlptLevel: Int?,
+    @SerialName("row_num")
+    val rowNum: Int? = null,
     @Serializable(LocalDateSerializer::class)
     @SerialName("date_added")
     val dateAdded: LocalDate,

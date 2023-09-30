@@ -23,8 +23,9 @@ internal class JsonFileGrammarRuleReader : suspend (Path) -> Result<List<Grammar
                 jsonReader.decodeFromStream<List<GrammarRuleJsonElement>>(usedStream)
             }
         }.map {
-            it.forEach { rec -> logger.info(rec.toString()) }
-            it.filterIsInstance<GrammarRuleDto>()
+            it.filterIsInstance<GrammarRuleDto>().mapIndexed { index, dto ->
+                dto.copy(rowNum = index + 1)
+            }
         }
 
 }
