@@ -10,6 +10,7 @@ import net.paploo.goi.persistence.common.ServiceDataSource
 import net.paploo.goi.pipeline.core.Importer
 import net.paploo.goi.pipeline.core.Pipeline
 import net.paploo.goi.pipeline.grammarrule.GrammarRulePipeline
+import net.paploo.goi.pipeline.grammarrule.importer.JsonFileGrammarRuleImporter
 import net.paploo.goi.pipeline.vocabulary.VocabularyPipeline
 import net.paploo.goi.pipeline.vocabulary.exporter.AnkiVocabularyExporter
 import net.paploo.goi.pipeline.vocabulary.exporter.GoogleVocabularyExporter
@@ -118,9 +119,7 @@ class PipelineApplication(
         VocabularyPipeline.Configuration(
             importer = GoogleSheetVocabularyImporter(
                 GoogleSheetVocabularyImporter.Config(
-                    filePath = filesDirectory append Path(
-                        "日本語 Vocab - Vocab.csv"
-                    )
+                    filePath = filesDirectory append Path("日本語 Vocab - Vocab.csv")
                 )
             ),
             transformers = listOf(
@@ -129,26 +128,18 @@ class PipelineApplication(
             exporters = listOf(
                 AnkiVocabularyExporter(
                     AnkiVocabularyExporter.Config(
-                        filePath = filesDirectory append Path(
-                            "vocabulary",
-                            "anki.csv"
-                        )
+                        filePath = filesDirectory append Path("vocabulary", "anki.csv")
                     )
                 ),
                 GoogleVocabularyExporter(
                     GoogleVocabularyExporter.Config(
-                        filePath = filesDirectory append Path(
-                            "vocabulary",
-                            "google_sheet.csv"
+                        filePath = filesDirectory append Path("vocabulary", "google_sheet.csv"
                         )
                     )
                 ),
                 SqlFileVocabularyExporter(
                     SqlFileVocabularyExporter.Config(
-                        filePath = filesDirectory append Path(
-                            "vocabulary",
-                            "data.sql"
-                        )
+                        filePath = filesDirectory append Path("vocabulary", "data.sql")
                     )
                 ),
                 SqlVocabularyExporter(SqlVocabularyExporter.Config(dataSource = dataSource)),
@@ -160,7 +151,11 @@ class PipelineApplication(
         dataSource: ServiceDataSource
     ): GrammarRulePipeline.Configuration =
         GrammarRulePipeline.Configuration(
-            importer = Importer.const(Result.failure(NotImplementedError("No grammar rule importer configured."))),
+            importer = JsonFileGrammarRuleImporter(
+                JsonFileGrammarRuleImporter.Config(
+                    filePath = filesDirectory append Path("日本語 Vocab - Grammar.json")
+                )
+            ),
             transformers = emptyList(),
             exporters = emptyList()
         )
