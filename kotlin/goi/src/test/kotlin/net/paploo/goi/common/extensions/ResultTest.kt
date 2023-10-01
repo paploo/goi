@@ -3,6 +3,7 @@ package net.paploo.goi.common.extensions
 import io.kotest.assertions.throwables.shouldThrow
 import io.kotest.core.spec.style.DescribeSpec
 import io.kotest.matchers.booleans.shouldBeFalse
+import io.kotest.matchers.booleans.shouldBeTrue
 import io.kotest.matchers.nulls.shouldBeNull
 import io.kotest.matchers.nulls.shouldNotBeNull
 import io.kotest.matchers.result.shouldBeFailure
@@ -83,6 +84,72 @@ class ResultTest : DescribeSpec({
 
     }
 
+    describe("finally") {
+
+        it("should run on a success and return the original success") {
+            var didRun = false
+
+            val res = Result.success("猫").finally { didRun = true }
+
+            didRun.shouldBeTrue()
+            res shouldBe Result.success("猫")
+        }
+
+        it("should run on a failure and return the original failure") {
+            val error = RuntimeException("やばい！")
+            var didRun = false
+
+            val res = Result.failure<String>(error).finally { didRun = true }
+
+            didRun.shouldBeTrue()
+            res shouldBe Result.failure(error)
+        }
+
+        it("should return the failure if the finally throws") {
+            val error = RuntimeException("やばい！")
+            var didRun = false
+
+            val res = Result.success("猫").finally { didRun = true; throw error }
+
+            didRun.shouldBeTrue()
+            res shouldBe Result.failure(error)
+        }
+
+    }
+
+    describe("flatFinally") {
+
+        it("should run on a success and return the original success") {
+            var didRun = false
+
+            val res = Result.success("猫").flatFinally { didRun = true; Result.success(Unit) }
+
+            didRun.shouldBeTrue()
+            res shouldBe Result.success("猫")
+        }
+
+        it("should run on a failure and return the original failure") {
+            val error = RuntimeException("やばい！")
+            var didRun = false
+
+            val res = Result.failure<String>(error).flatFinally { didRun = true;  Result.success(Unit) }
+
+            didRun.shouldBeTrue()
+            res shouldBe Result.failure(error)
+        }
+
+        it("should return the failure if the finally throws") {
+            val error = RuntimeException("やばい！")
+            var didRun = false
+
+            val res = Result.success("猫").flatFinally { didRun = true; Result.failure<Unit>(error) }
+
+            didRun.shouldBeTrue()
+            res shouldBe Result.failure(error)
+        }
+
+    }
+
     describe("sequenceToResult") {
 
         it("should turn a list of successes into a successful list of the values") {
@@ -116,6 +183,8 @@ class ResultTest : DescribeSpec({
 
     describe("sequenceToNullable") {
 
+        //Note, the type signatures on the assignments are as important as the values themselves!
+
         it("should sequence a success of a value to the value") {
             val s: String? = "狸"
             val r: Result<String?> = Result.success(s)
@@ -139,6 +208,38 @@ class ResultTest : DescribeSpec({
             val r: Result<String?> = Result.failure(excp)
 
             val sequenced: Result<String>? = r.sequenceToNullable()
+
+            sequenced shouldBe Result.failure(excp)
+        }
+
+    }
+
+    describe("nullable sequenceToResult") {
+
+        //Note, the type signatures on the assignments are as important as the values themselves!
+
+        it("should sequence a null to a success of a null") {
+            val r: Result<String>? = null
+
+            val sequenced: Result<String?> = r.sequenceToResult()
+
+            sequenced shouldBe Result.success(null)
+        }
+
+        it("should sequence a non-null success to a success of a non-null") {
+            val s: String = "狸"
+            val r: Result<String>? = Result.success(s)
+
+            val sequenced: Result<String?> = r.sequenceToResult()
+
+            sequenced shouldBe Result.success(s)
+        }
+
+        it("should sequence a failure to a failure") {
+            val excp = RuntimeException("やばい！")
+            val r: Result<String>? = Result.failure(excp)
+
+            val sequenced: Result<String?> = r.sequenceToResult()
 
             sequenced shouldBe Result.failure(excp)
         }

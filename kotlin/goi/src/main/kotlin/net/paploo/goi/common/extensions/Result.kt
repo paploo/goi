@@ -12,15 +12,13 @@ inline fun <T> Result<T>.mapFailure(transform: (Throwable) -> Throwable): Result
         onFailure = { Result.failure(transform(it)) }
     )
 
-//TODO: Write tests
 inline fun <T> Result<T>.finally(block: () -> Unit): Result<T> =
-    onSuccess { block() }.onFailure { block() }
+    flatFinally { Result.runCatching { block() } }
 
-//TODO: Write tests
-inline fun <T> Result<T>.flatFinally(block: () -> Result<Unit>): Result<T> =
+inline fun <T> Result<T>.flatFinally(block: () -> Result<Any>): Result<T> =
     fold(
         onSuccess = { t -> block().map { t } },
-        onFailure = { e -> block(); Result.failure(e) }
+        onFailure = { e -> block().flatMap { Result.failure(e) } }
     )
 
 fun <T> Iterable<Result<T>>.sequenceToResult(): Result<List<T>> {
@@ -41,6 +39,5 @@ fun <T : Any> Result<T?>.sequenceToNullable(): Result<T>? =
         onFailure = { Result.failure(it) }
     )
 
-//TODO: Write tests
 fun <T : Any> Result<T>?.sequenceToResult(): Result<T?> =
     this ?: Result.success(null)
