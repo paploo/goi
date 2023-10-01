@@ -41,10 +41,13 @@ INSERT INTO vocabulary.conjugation_kind (code, label, word_class_code) VALUES ('
 ---
 --- SPELLING KIND
 ---
+INSERT INTO vocabulary.spelling_kind (code, label) VALUES ('UNKNOWN', 'Unknown');
 INSERT INTO vocabulary.spelling_kind (code, label) VALUES ('HIRAGANA', 'Hiragana');
 INSERT INTO vocabulary.spelling_kind (code, label) VALUES ('KATAKANA', 'Katakana');
 INSERT INTO vocabulary.spelling_kind (code, label) VALUES ('KANJI', 'Kanji');
-INSERT INTO vocabulary.spelling_kind (code, label) VALUES ('PUNCTUATION', 'Punctuation');
+INSERT INTO vocabulary.spelling_kind (code, label) VALUES ('CJK_PUNCTUATION', 'CJK Punctuation');
+INSERT INTO vocabulary.spelling_kind (code, label) VALUES ('HALF_AND_FULL_WIDTH', 'Half and Full Width');
+INSERT INTO vocabulary.spelling_kind (code, label) VALUES ('LATIN', 'Latin');
 
 ---
 --- CONJUGATION CHARGE

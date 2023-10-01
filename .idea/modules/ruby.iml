@@ -19,8 +19,8 @@
           </COVERAGE_PATTERN>
         </EXTENSION>
         <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
-        <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/../../ruby/bin/run_pipeline.rb" />
-        <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="vocabulary" />
+        <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/../../ruby/bin/conjugate.rb" />
+        <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="-c godan-verb 読む" />
         <method v="2" />
       </configuration>
       <configuration default="false" name="run_pipeline (grammar)" type="RubyRunConfigurationType" factoryName="Ruby" folderName="Ruby Goi">

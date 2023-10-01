@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/goi.iml" filepath="$PROJECT_DIR$/.idea/goi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/net.paploo.goi.main.iml" filepath="$PROJECT_DIR$/.idea/modules/net.paploo.goi.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ruby.iml" filepath="$PROJECT_DIR$/.idea/modules/ruby.iml" />
     </modules>
   </component>
