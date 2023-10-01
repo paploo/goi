@@ -7,14 +7,13 @@ import net.paploo.goi.common.extensions.sequenceToResult
 import net.paploo.goi.common.util.TimerLog
 import net.paploo.goi.persistence.common.HikariServicedataSource
 import net.paploo.goi.persistence.common.ServiceDataSource
-import net.paploo.goi.pipeline.core.Importer
 import net.paploo.goi.pipeline.core.Pipeline
 import net.paploo.goi.pipeline.grammarrule.GrammarRulePipeline
 import net.paploo.goi.pipeline.grammarrule.exporter.AnkiGrammarRuleExporter
 import net.paploo.goi.pipeline.grammarrule.exporter.SqlFileGrammarRuleExporter
 import net.paploo.goi.pipeline.grammarrule.exporter.SqlGrammarRuleExporter
 import net.paploo.goi.pipeline.grammarrule.importer.JsonFileGrammarRuleImporter
-import net.paploo.goi.pipeline.grammarrule.transformer.ValidationGrammarRuleGransformer
+import net.paploo.goi.pipeline.grammarrule.transformer.ValidationGrammarRuleTransformer
 import net.paploo.goi.pipeline.vocabulary.VocabularyPipeline
 import net.paploo.goi.pipeline.vocabulary.exporter.AnkiVocabularyExporter
 import net.paploo.goi.pipeline.vocabulary.exporter.GoogleVocabularyExporter
@@ -161,7 +160,7 @@ class PipelineApplication(
                 )
             ),
             transformers = listOf(
-                ValidationGrammarRuleGransformer()
+                ValidationGrammarRuleTransformer()
             ),
             exporters = listOf(
                 AnkiGrammarRuleExporter(

@@ -683,7 +683,7 @@
         "id": "96483b58-c1ee-49ee-a0fb-10961b8d52a3",
         "meaning": "I will go to the library and check out some books.",
         "text": {
-          "spelling": "{図書館|と・しょ・かん}に{行|い}って、本を{借|か}ります。",
+          "spelling": "{図書館|と・しょ・かん}に{行|い}って、{本|ほん}を{借|か}ります。",
           "phonetic_spelling": null
         },
         "lesson_codes": ["GENKI3_L06"],
@@ -1116,7 +1116,7 @@
         "id": "5db69135-b52b-47d7-a64c-3955da05ade1",
         "meaning": "There is one Indonesian student in our class.",
         "text": {
-          "spelling": "{私|わたし}のクラスにはインドネシア{人|じん}の学生が{一人|ひとり}います。"
+          "spelling": "{私|わたし}のクラスにはインドネシア{人|じん}の{学生|がく・せい}が{一人|ひとり}います。"
         },
         "lesson_codes": ["GENKI3_L07"],
         "tags": []
@@ -1617,7 +1617,7 @@
         "id": "4ecbae11-372c-45a8-8dc6-339423e52f61",
         "meaning": "A: Which one is Erika?<br/>B: (She) is the person who is talking with Momo.",
         "text": {
-          "spelling": "Ａ：エリカさんはどの{人|ひと}ですか。<br/>Ｂ：ももさんと{話|はな}している人です。"
+          "spelling": "Ａ：エリカさんはどの{人|ひと}ですか。<br/>Ｂ：ももさんと{話|はな}している{人|ひと}です。"
         },
         "lesson_codes": ["GENKI3_L09"],
         "tags": []
