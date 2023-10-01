@@ -85,7 +85,7 @@ class PipelineApplication(
             result.onFailure {
                 logger.error("FAILURE: $it", it)
             }.onSuccess {
-                val rate = it.size.toDouble() / ((endMark.delta - startMark.delta).toMillis().toDouble() * 1000.0)
+                val rate = it.size.toDouble() / (endMark.delta - startMark.delta).toMillis().toDouble() * 1000.0
                 logger.info("SUCCESS: records processed: ${it.size}, time was ${endMark.delta.toMillis()} ms, rate was $rate rec/sec")
             }.also {
                 logger.info(timer.formatted())
