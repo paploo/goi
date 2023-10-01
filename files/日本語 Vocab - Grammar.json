@@ -1269,7 +1269,7 @@
         "id": "2aace507-37d5-42fc-afd4-b8460acad62e",
         "meaning": "Please don't take pictures here.",
         "text": {
-          "spelling": "ここで写真を取らないでください。"
+          "spelling": "ここで{写真|しゃ・しん}を{取|と}らないでください。"
         },
         "lesson_codes": ["GENKI3_L08"],
         "tags": []
@@ -1617,7 +1617,7 @@
         "id": "4ecbae11-372c-45a8-8dc6-339423e52f61",
         "meaning": "A: Which one is Erika?<br/>B: (She) is the person who is talking with Momo.",
         "text": {
-          "spelling": "Ａ：エリカさんはどの人ですか。<br/>Ｂ：ももさんと話している人です。"
+          "spelling": "Ａ：エリカさんはどの{人|ひと}ですか。<br/>Ｂ：ももさんと{話|はな}している人です。"
         },
         "lesson_codes": ["GENKI3_L09"],
         "tags": []

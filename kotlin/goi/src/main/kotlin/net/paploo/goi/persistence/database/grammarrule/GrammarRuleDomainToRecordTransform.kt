@@ -46,11 +46,11 @@ internal class GrammarRuleDomainToRecordTransform : (GrammarRule) -> Result<Gram
         }.sequenceToResult()
 
     private fun buildExampleRecord(rule: GrammarRule, example: Example, index: Int): Result<ExampleRecord> =
-        example.text.transform(AnkiTemplateTransformer()).map { template ->
+        example.text.transform(AnkiTemplateTransformer.default).map { template ->
             ExampleRecord(
                 id = example.id.value,
                 ruleId = rule.id.value,
-                meaning = rule.meaning,
+                meaning = example.meaning,
                 textPreferredSpelling = example.text.preferredSpelling.value,
                 textPhoneticSpelling = example.text.phoneticSpelling?.value,
                 textFuriganaTemplate = template.templateString,

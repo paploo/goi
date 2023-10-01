@@ -35,10 +35,10 @@ internal class GrammarRuleDomainToRecordTransform : (GrammarRule) -> Result<Gram
             rule.references.toList(),
             rule.examples.flatMap { it.tags },
             rule.examples.flatMap { it.references },
-        ).also { println(it) }.flatten().map { it.value.kebabCase() }.distinct().sorted()
+        ).flatten().map { it.value.kebabCase() }.distinct().sorted()
 
     private fun buildExample(example: Example): Result<GrammarRuleCsvRecord.Example> =
-        example.text.transform(AnkiTemplateTransformer()).map { template ->
+        example.text.transform(AnkiTemplateTransformer.default).map { template ->
             GrammarRuleCsvRecord.Example(
                 text = template.templateString,
                 textPhonetic = null, //The cards all just use the raw text; field is deprecated but still needed in CSV.

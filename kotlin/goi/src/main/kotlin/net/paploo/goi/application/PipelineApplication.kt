@@ -12,7 +12,9 @@ import net.paploo.goi.pipeline.core.Pipeline
 import net.paploo.goi.pipeline.grammarrule.GrammarRulePipeline
 import net.paploo.goi.pipeline.grammarrule.exporter.AnkiGrammarRuleExporter
 import net.paploo.goi.pipeline.grammarrule.exporter.SqlFileGrammarRuleExporter
+import net.paploo.goi.pipeline.grammarrule.exporter.SqlGrammarRuleExporter
 import net.paploo.goi.pipeline.grammarrule.importer.JsonFileGrammarRuleImporter
+import net.paploo.goi.pipeline.grammarrule.transformer.ValidationGrammarRuleGransformer
 import net.paploo.goi.pipeline.vocabulary.VocabularyPipeline
 import net.paploo.goi.pipeline.vocabulary.exporter.AnkiVocabularyExporter
 import net.paploo.goi.pipeline.vocabulary.exporter.GoogleVocabularyExporter
@@ -159,7 +161,7 @@ class PipelineApplication(
                 )
             ),
             transformers = listOf(
-                //TODO
+                ValidationGrammarRuleGransformer()
             ),
             exporters = listOf(
                 AnkiGrammarRuleExporter(
@@ -170,6 +172,11 @@ class PipelineApplication(
                 SqlFileGrammarRuleExporter(
                     SqlFileGrammarRuleExporter.Config(
                         filePath = filesDirectory append Path("grammar", "data.sql")
+                    )
+                ),
+                SqlGrammarRuleExporter(
+                    SqlGrammarRuleExporter.Config(
+                        dataSource = dataSource
                     )
                 )
             )
