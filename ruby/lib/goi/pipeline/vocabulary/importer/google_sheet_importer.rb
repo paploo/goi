@@ -158,7 +158,7 @@ module Goi
               hiragana: 'HIRAGANA',
               kanji: 'KANJI',
               katakana: 'KATAKANA',
-              cjk_punctuation: 'PUNCTUATION'
+              cjk_punctuation: 'CJK_PUNCTUATION'
             }.freeze
 
             def parse_row(row:, field_data:, required: true, vocabulary_id:)
