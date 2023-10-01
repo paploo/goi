@@ -11,6 +11,7 @@ import net.paploo.goi.pipeline.core.Importer
 import net.paploo.goi.pipeline.core.Pipeline
 import net.paploo.goi.pipeline.grammarrule.GrammarRulePipeline
 import net.paploo.goi.pipeline.grammarrule.exporter.AnkiGrammarRuleExporter
+import net.paploo.goi.pipeline.grammarrule.exporter.SqlFileGrammarRuleExporter
 import net.paploo.goi.pipeline.grammarrule.importer.JsonFileGrammarRuleImporter
 import net.paploo.goi.pipeline.vocabulary.VocabularyPipeline
 import net.paploo.goi.pipeline.vocabulary.exporter.AnkiVocabularyExporter
@@ -164,6 +165,11 @@ class PipelineApplication(
                 AnkiGrammarRuleExporter(
                     AnkiGrammarRuleExporter.Config(
                         filePath = filesDirectory append Path("grammar", "anki.csv")
+                    )
+                ),
+                SqlFileGrammarRuleExporter(
+                    SqlFileGrammarRuleExporter.Config(
+                        filePath = filesDirectory append Path("grammar", "data.sql")
                     )
                 )
             )

@@ -15,8 +15,8 @@ internal class VocabularyFileWriter : suspend (Path, List<VocabularyRecordGroup>
     override suspend fun invoke(filePath: Path, recordGroups: List<VocabularyRecordGroup>): Result<Unit> =
         Result.runCatching {
             FileWriter(filePath.toFile())
-        }.map { fileWriter ->
-            fileWriter.use { writer ->
+        }.map {
+            it.use { writer ->
 
                 recordGroups.forEach { recordGroup ->
                     recordGroupSql(recordGroup).map { lines ->
@@ -54,26 +54,26 @@ internal class VocabularyFileWriter : suspend (Path, List<VocabularyRecordGroup>
         "-- ${recordGroup.spellings.firstOrNull()?.value} | ${recordGroup.definitions.firstOrNull()?.value} --;"
 
     private fun vocabularySql(record: VocabularyRecord): String =
-        dsl.insertInto(VOCABULARY_).set(record).sql.finishing()
+        dsl.insertInto(VOCABULARY_).set(record).sql.finish()
 
     private fun definitionSql(record: DefinitionRecord): String =
-        dsl.insertInto(DEFINITION).set(record).sql.finishing()
+        dsl.insertInto(DEFINITION).set(record).sql.finish()
 
     private fun spellingSql(record: SpellingRecord): String =
-        dsl.insertInto(SPELLING).set(record).sql.finishing()
+        dsl.insertInto(SPELLING).set(record).sql.finish()
 
     private fun conjugationSetSql(record: ConjugationSetRecord): String =
-        dsl.insertInto(CONJUGATION_SET).set(record).sql.finishing()
+        dsl.insertInto(CONJUGATION_SET).set(record).sql.finish()
 
     private fun linkagesSql(record: LinkagesRecord): String =
-        dsl.insertInto(LINKAGES).set(record).sql.finishing()
+        dsl.insertInto(LINKAGES).set(record).sql.finish()
 
     private fun referenceSql(record: ReferenceRecord): String =
-        dsl.insertInto(REFERENCE).set(record).sql.finishing()
+        dsl.insertInto(REFERENCE).set(record).sql.finish()
 
     private fun conjugationSql(record: ConjugationRecord): String =
-        dsl.insertInto(CONJUGATION).set(record).sql.finishing()
+        dsl.insertInto(CONJUGATION).set(record).sql.finish()
 
-    private fun String.finishing(): String = this + ";"
+    private fun String.finish(): String = this + ";"
 
 }

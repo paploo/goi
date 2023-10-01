@@ -10,10 +10,10 @@ import java.util.*
 internal class VocabularyDomainToRecordTransform : (Vocabulary) -> Result<VocabularyRecordGroup> {
 
     override fun invoke(vocab: Vocabulary): Result<VocabularyRecordGroup> = Result.runCatching {
-        buildRecord(vocab)
+        buildRecordGroup(vocab)
     }
 
-    private fun buildRecord(vocab: Vocabulary): VocabularyRecordGroup =
+    private fun buildRecordGroup(vocab: Vocabulary): VocabularyRecordGroup =
         VocabRecords(
             vocabularyRecord = buildVocabularyRecord(vocab),
             preferredDefinition = buildPreferredDefinition(vocab),
@@ -29,7 +29,7 @@ internal class VocabularyDomainToRecordTransform : (Vocabulary) -> Result<Vocabu
     /**
      * Intermediate grouping of records with their contextual information.
      *
-     * This allows propert creation of a linkages record without making assumptions.
+     * This allows proper creation of a linkages record without making assumptions.
      */
     private data class VocabRecords(
         val vocabularyRecord: VocabularyRecord,
