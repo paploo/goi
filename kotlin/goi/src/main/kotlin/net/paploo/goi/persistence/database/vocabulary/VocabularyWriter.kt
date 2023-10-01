@@ -16,6 +16,13 @@ import kotlin.math.ceil
 import kotlin.math.max
 import kotlin.math.roundToInt
 
+/**
+ * Vocabulary Writer that takes the tactic of issuing many separate insert statements (one per record), using multiple
+ * threads for parallelization where it can do so.
+ *
+ * TODO: See if a batch writer would work faster. It takes more effort for parallelization since we have to be careful
+ *       to write all dependencies first. This may or may not make it worth the effort.
+ */
 internal class VocabularyWriter : suspend (ServiceDataSource, List<VocabularyRecordGroup>) -> Result<Unit> {
 
     val logger: Logger = LoggerFactory.getLogger(this::class.java)
