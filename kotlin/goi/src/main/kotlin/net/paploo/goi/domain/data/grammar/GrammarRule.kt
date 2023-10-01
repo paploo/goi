@@ -2,6 +2,7 @@ package net.paploo.goi.domain.data.grammar
 
 import net.paploo.goi.common.interfaces.Identifiable
 import net.paploo.goi.common.interfaces.Identifier
+import net.paploo.goi.domain.data.common.FuriganaString
 import net.paploo.goi.domain.data.common.JlptLevel
 import net.paploo.goi.domain.data.common.Tag
 import net.paploo.goi.domain.data.common.Tagable
@@ -12,7 +13,7 @@ import java.util.*
 
 data class GrammarRule(
     override val id: Id,
-    val title: String,
+    val title: FuriganaString,
     val meaning: String,
     val howToUse: List<String>,
     val jlptLevel: JlptLevel?,

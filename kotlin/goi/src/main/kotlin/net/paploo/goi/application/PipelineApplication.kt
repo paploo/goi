@@ -10,6 +10,7 @@ import net.paploo.goi.persistence.common.ServiceDataSource
 import net.paploo.goi.pipeline.core.Importer
 import net.paploo.goi.pipeline.core.Pipeline
 import net.paploo.goi.pipeline.grammarrule.GrammarRulePipeline
+import net.paploo.goi.pipeline.grammarrule.exporter.AnkiGrammarRuleExporter
 import net.paploo.goi.pipeline.grammarrule.importer.JsonFileGrammarRuleImporter
 import net.paploo.goi.pipeline.vocabulary.VocabularyPipeline
 import net.paploo.goi.pipeline.vocabulary.exporter.AnkiVocabularyExporter
@@ -156,8 +157,16 @@ class PipelineApplication(
                     filePath = filesDirectory append Path("日本語 Vocab - Grammar.json")
                 )
             ),
-            transformers = emptyList(),
-            exporters = emptyList()
+            transformers = listOf(
+                //TODO
+            ),
+            exporters = listOf(
+                AnkiGrammarRuleExporter(
+                    AnkiGrammarRuleExporter.Config(
+                        filePath = filesDirectory append Path("grammar", "anki.csv")
+                    )
+                )
+            )
         )
 
 

@@ -111,6 +111,23 @@ class CurlyBracesTemplateParserTest : DescribeSpec({
         result shouldBe Result.success(expectedTree)
     }
 
+    it("should allow a noma in the japanese text") {
+        val template = FuriganaTemplate.CurlyBraces("たけしさんは{時々|とき・どき}あのカフェでコーヒーを{飲|の}みます。")
+
+        val result = parser(template)
+
+        val expectedTree = FuriganaParseTree(
+            elements = listOf(
+                FuriganaParseTree.Element.Text("たけしさんは"),
+                FuriganaParseTree.Element.RubyText("時", "とき"),
+                FuriganaParseTree.Element.RubyText("々", "どき"),
+                FuriganaParseTree.Element.Text("あのカフェでコーヒーを"),
+                FuriganaParseTree.Element.RubyText("飲", "の"),
+                FuriganaParseTree.Element.Text("みます。"),
+            )
+        )
+    }
+
     it("should allow romaji in ruby text") {
         val template = FuriganaTemplate.CurlyBraces("〜て{は|wa}いけません")
 

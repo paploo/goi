@@ -8,7 +8,6 @@ import net.paploo.goi.domain.data.common.Tag
 import net.paploo.goi.domain.data.grammar.Example
 import net.paploo.goi.domain.data.grammar.GrammarRule
 import net.paploo.goi.domain.data.source.Lesson
-import net.paploo.goi.domain.tools.furiganatemplate.FuriganaTemplate
 
 internal class GrammarRuleRecordToDomainTransform : (GrammarRuleDto) -> Result<GrammarRule> {
 
@@ -18,7 +17,7 @@ internal class GrammarRuleRecordToDomainTransform : (GrammarRuleDto) -> Result<G
                 examples(record).mapCatching { examples ->
                     GrammarRule(
                         id = GrammarRule.Id(record.id),
-                        title = record.title,
+                        title = FuriganaString.fromPreferred(record.title),
                         meaning = record.meaning,
                         howToUse = record.howToUse,
                         jlptLevel = jlptLevel,
@@ -48,7 +47,7 @@ internal class GrammarRuleRecordToDomainTransform : (GrammarRuleDto) -> Result<G
             Example(
                 id = Example.Id(record.id),
                 meaning = record.meaning,
-                text = FuriganaString(FuriganaTemplate.CurlyBraces(record.text.spelling)),
+                text = FuriganaString.fromCurlyBraces(record.text.spelling),
                 references = record.lessonCodes.map { Lesson.Code(it) }.toSet(),
                 tags = record.tags.map { Tag(it) }.toSet(),
             )

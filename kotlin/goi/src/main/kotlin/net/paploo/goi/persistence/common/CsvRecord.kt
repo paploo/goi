@@ -65,7 +65,7 @@ interface CsvRecord<R, F>
 
 }
 
-abstract class BaseVocabularyCsvRecord<R, F>(
+abstract class BaseCsvRecord<R, F>(
 ) : CsvRecord<R, F>
         where F : Enum<F>, F : CsvRecord.Field<R, F>, R : CsvRecord<R, F> {
 

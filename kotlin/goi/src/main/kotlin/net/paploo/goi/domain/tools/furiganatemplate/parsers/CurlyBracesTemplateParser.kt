@@ -21,7 +21,7 @@ class CurlyBracesTemplateParser : FuriganaTemplateParser<FuriganaTemplate.CurlyB
         }.mapCatching { parser ->
             Listeners().also { listeners ->
                 listeners.addTo(parser)
-                logger.info("Parsing $furiganaTemplate")
+                logger.debug("Parsing $furiganaTemplate")
                 parser.template().also { context ->
                     logger.debug("Parsed {} into {}", furiganaTemplate, context.toStringTree(parser))
                 }
@@ -32,7 +32,9 @@ class CurlyBracesTemplateParser : FuriganaTemplateParser<FuriganaTemplate.CurlyB
             logger.debug("listeners.parse.parseTree() = {}", listeners.parse.parseTree())
 
             listeners.firstErrorOrNull()?.let { err ->
-                Result.failure(err)
+                Result.failure(
+                    FuriganaTemplateParseException("Could not parse template: $furiganaTemplate because $err", err)
+                )
             } ?: Result.success(listeners.parse.parseTree())
         }
 

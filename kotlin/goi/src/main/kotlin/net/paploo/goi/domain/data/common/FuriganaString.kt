@@ -39,6 +39,7 @@ data class FuriganaString(
 
         fun fromPreferred(preferred: String): FuriganaString =
             FuriganaString(FuriganaTemplate.Text(preferred))
+
         fun fromRuby(preferred: String, phonetic: String): FuriganaString =
             FuriganaString(FuriganaTemplate.Ruby(preferred, phonetic))
 

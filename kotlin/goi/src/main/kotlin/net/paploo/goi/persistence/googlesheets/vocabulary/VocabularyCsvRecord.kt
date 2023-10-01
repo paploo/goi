@@ -1,6 +1,6 @@
 package net.paploo.goi.persistence.googlesheets.vocabulary
 
-import net.paploo.goi.persistence.common.BaseVocabularyCsvRecord
+import net.paploo.goi.persistence.common.BaseCsvRecord
 import net.paploo.goi.persistence.common.CsvRecord
 import org.apache.commons.csv.CSVRecord
 import kotlin.enums.EnumEntries
@@ -20,7 +20,7 @@ internal data class VocabularyCsvRecord(
     val rowNum: String?,
     val dateAdded: String?,
     val conjugations: Conjugations,
-) : BaseVocabularyCsvRecord<VocabularyCsvRecord, VocabularyCsvRecord.Field>() {
+) : BaseCsvRecord<VocabularyCsvRecord, VocabularyCsvRecord.Field>() {
 
     constructor(csvRecord: CSVRecord) : this(
         definition = csvRecord[Field.Definition.headerName],

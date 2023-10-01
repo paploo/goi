@@ -1,6 +1,6 @@
 package net.paploo.goi.persistence.anki.vocabulary
 
-import net.paploo.goi.persistence.common.BaseVocabularyCsvRecord
+import net.paploo.goi.persistence.common.BaseCsvRecord
 import net.paploo.goi.persistence.common.CsvRecord
 import org.apache.commons.csv.CSVRecord
 import kotlin.enums.EnumEntries
@@ -19,7 +19,7 @@ internal data class VocabularyCsvRecord(
     val lessons: String?,
     val conjugations: Conjugations,
     val tags: String?,
-) : BaseVocabularyCsvRecord<VocabularyCsvRecord, VocabularyCsvRecord.Field>() {
+) : BaseCsvRecord<VocabularyCsvRecord, VocabularyCsvRecord.Field>() {
 
     constructor(csvRecord: CSVRecord) : this(
         id = csvRecord[Field.Id],
@@ -167,6 +167,7 @@ internal data class VocabularyCsvRecord(
         NegativePolitePassive("negative_polite_passive", { conjugations.negativePolitePassive }),
         NegativePoliteCausative("negative_polite_causative", { conjugations.negativePoliteCausative }),
         NegativePoliteImperative("negative_polite_imperative", { conjugations.negativePoliteImperative }),
+        //Tags always go on the end for anki sheets
         Tags("tags", { tags }),
     }
 
