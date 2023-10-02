@@ -13,14 +13,26 @@ insert into source.lesson (code, lesson_code, source_code, label, section_number
 insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L02', 'L02', 'GENKI3', 'Shopping', 2, null);
 insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L03', 'L03', 'GENKI3', 'Making a Date', 3, null);
 insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L04', 'L04', 'GENKI3', 'The First Date', 4, null);
-insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L05', 'L05', 'GENKI3', 'A Trip to Okinawa', 4, null);
-insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L06', 'L06', 'GENKI3', 'A Day in Robert''s Life', 4, null);
-insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L07', 'L07', 'GENKI3', 'Family Picture', 4, null);
-insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L08', 'L08', 'GENKI3', 'Barbecue', 4, null);
-insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L09', 'L09', 'GENKI3', 'Kabuki', 4, null);
-insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L10', 'L10', 'GENKI3', 'Winter Vacation Plans', 4, null);
-insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L11', 'L11', 'GENKI3', 'After the Vacation', 4, null);
-insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L12', 'L12', 'GENK',_3 'Feeling Ill', 4, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L05', 'L05', 'GENKI3', 'A Trip to Okinawa', 5, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L06', 'L06', 'GENKI3', 'A Day in Robert''s Life', 6, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L07', 'L07', 'GENKI3', 'Family Picture', 7, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L08', 'L08', 'GENKI3', 'Barbecue', 8, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L09', 'L09', 'GENKI3', 'Kabuki', 9, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L10', 'L10', 'GENKI3', 'Winter Vacation Plans', 10, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L11', 'L11', 'GENKI3', 'After the Vacation', 11, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L12', 'L12', 'GENKI3', 'Feeling Ill', 12, null);
+
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L13', 'L13', 'GENKI3', 'Looking for a Part-time Job', 13, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L14', 'L14', 'GENKI3', 'Valentine''s Day', 14, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L15', 'L15', 'GENKI3', 'A trip to Nagano', 15, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L16', 'L16', 'GENKI3', 'Lost and Found', 16, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L17', 'L17', 'GENKI3', 'Grumble and Gossip', 17, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L18', 'L18', 'GENKI3', 'John''s Part-time Job', 18, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L19', 'L19', 'GENKI3', 'Meeting the Boss', 19, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L20', 'L20', 'GENKI3', 'Mary Goes Shopping', 20, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L21', 'L21', 'GENKI3', 'Burglar', 21, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L22', 'L22', 'GENKI3', 'Education in Japan', 22, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_L23', 'L23', 'GENKI3', 'Good-bye', 23, null);
 
 insert into source.source (code, label) values ('GENKI3_WORKBOOK', 'Genki, 3rd Ed Workbook');
 
