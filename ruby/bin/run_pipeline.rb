@@ -39,4 +39,6 @@ $stderr.puts("RUN MODE: #{mode.inspect}")
 run_configuration = RUN_CONFIGURATIONS[mode]
 $stderr.puts("RUN CONFIGURATION: #{run_configuration.inspect}")
 
+raise "This app is deprecated and could overwrite newer formats from the kotlin source."
+
 Goi::Application::PipelineApp.new(**run_configuration).run
