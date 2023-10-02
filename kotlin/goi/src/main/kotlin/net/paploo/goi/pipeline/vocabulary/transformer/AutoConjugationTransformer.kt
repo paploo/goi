@@ -152,7 +152,7 @@ class AutoConjugationTransformer : Transformer<List<Vocabulary>> {
             inflection in suppliedInflections
         }.flatMap { (inflection, conjugation) ->
             conjugation?.let {
-                logger.warn("Auto-conjugating $vocabularyId: value = ${conjugation.value} for $inflection")
+                logger.debug("Auto-conjugating {}: value = {} for {}", vocabularyId, conjugation.value, inflection)
                 listOf(conjugation)
             } ?: emptyList()
         }.let { Result.success(it) }
