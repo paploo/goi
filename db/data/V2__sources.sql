@@ -186,6 +186,7 @@ insert into source.lesson (code, lesson_code, source_code, label, section_number
 insert into source.source (code, label, url, description) values ('TOFUGU', 'Tofugu', 'https://www.tofugu.com', null);
 
 insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number, url, description) values ('TOFUGU_JAPANESE_COUNTER_TSU', 'JAPANESE_COUNTER_TSU', 'TOFUGU', 'Japanese Counter 〜つ', null, null, 'https://www.tofugu.com/japanese/japanese-counter-tsu/', null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number, url, description) values ('TOFUGU_DATE_AND_TIME', 'DATE_AND_TIME', 'TOFUGU', 'Date and Time', null, null, 'https://www.tofugu.com/japanese-grammar/date-and-time/', null);
 
 --
 -- JLPT 先生
