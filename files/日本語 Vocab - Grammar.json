@@ -786,8 +786,8 @@
   },
   {
     "id": "c5381ae9-d2a9-43fb-836a-53d02a300edf",
-    "title": "Ａ。Ｂから。",
-    "meaning": "A; because B",
+    "title": "Ｓ。Ｅから。",
+    "meaning": "S; because E.",
     "how_to_use": [
       "(situation)。 (explanation)から。"
     ],
@@ -1685,6 +1685,67 @@
     ],
     "jlpt_level": 5,
     "date_added": "2023-09-06",
+    "lesson_codes": ["GENKI3_L09"],
+    "tags": []
+  },
+  {
+    "id": "032d9866-ff59-4863-9b00-b8c4b5adc110",
+    "title": "Ｅから、Ｓ。",
+    "meaning": "S, because E.<br/>E; therefore S.",
+    "how_to_use": [
+      "(explanation)から、(situation)。",
+      "(explanation formal verb)から、(situation)。 ⟶ usually in suggestions",
+      "(explanation formal verb)から、(situation)か。 ⟶ usually in requests"
+    ],
+    "examples": [
+      {
+        "id": "2438c90e-820e-4683-accb-d6b0ef3cda4d",
+        "meaning": "I will study this evening, because we will have an exam tomorrow.<br/>We will have an exam tomorrow; therefore, I will study this evening.",
+        "text": {
+          "spelling": "{明日|あ・した}{試験|し・けん}があるから、{今晩|こん・ばん}{勉強|べん・きょう}します。"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      },
+      {
+        "id": "753049ed-6851-4499-8f97-10b29c1ee2a8",
+        "meaning": "We didn't go out, because it was cold.<br/>It was cold; therefore we didn't go out.",
+        "text": {
+          "spelling": "{寒|さむ}かったから、{出|で}かけませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      },
+      {
+        "id": "eba0db7d-5b0d-4824-b049-0631047d2253",
+        "meaning": "I have kabuki tickets; (therefore) let's go see it.",
+        "text": {
+          "spelling": "{歌舞伎|か・ぶ・き}のチケットがありますから、{一緒|いっ・しょ}に{見|み}に{行|い}きましょう。"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      },
+      {
+        "id": "408caa1e-7bce-4887-a902-059cba7004be",
+        "meaning": "I got two concert tickets, (therefore) would you like to go?",
+        "text": {
+          "spelling": "コンサートのチケットを{二枚|に・まい}もらったから、{行|い}きませんか。"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      },
+      {
+        "id": "baea1be8-e2ec-43ca-a845-9096471fb9be",
+        "meaning": "I was very lonely because I did not have any friends.",
+        "text": {
+          "spelling": "{友達|とも・だち}がいなかったから、とても{寂|さび}しかったです。"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-10-02",
     "lesson_codes": ["GENKI3_L09"],
     "tags": []
   },
