@@ -12096,9 +12096,9 @@ insert into "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 insert into "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") values ('1a541a2a-88fb-53a7-baf4-057d65f71c4b', '3b6793f2-af6c-48ad-9d46-7bf82a7c2efe', 'KANJI', '七日');
 insert into "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id", "conjugation_set_id") values ('3b6793f2-af6c-48ad-9d46-7bf82a7c2efe', '655ae751-370a-54ef-aef1-7303dcd748a4', '83771993-ae1c-5459-a02d-716ef341acc2', 'e72ad454-9ae8-56c4-bc82-d9d3b4bada7d', null, '1a541a2a-88fb-53a7-baf4-057d65f71c4b', null);
 insert into "vocabulary"."reference" ("vocabulary_id", "lesson_code") values ('3b6793f2-af6c-48ad-9d46-7bf82a7c2efe', 'GENKI3_L13');
--- 八日 | eigh dats --;
+-- 八日 | eight days --;
 insert into "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "date_added", "tags") values ('08094ea3-5e6d-4f87-9285-14af84b44904', 'NOUN', null, null, 1191, date '2023-10-02', cast('{"time","counter"}' as varchar[]));
-insert into "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") values ('499a4d5c-1373-53e1-a844-21c859022d3e', '08094ea3-5e6d-4f87-9285-14af84b44904', 1, 'eigh dats');
+insert into "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") values ('499a4d5c-1373-53e1-a844-21c859022d3e', '08094ea3-5e6d-4f87-9285-14af84b44904', 1, 'eight days');
 insert into "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") values ('d3bc6094-d15b-52a8-b5fd-ed6090c1cf57', '08094ea3-5e6d-4f87-9285-14af84b44904', 'KANJI', '八日');
 insert into "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") values ('835f40a8-e078-55d5-9dcb-c8e8e7dd08b0', '08094ea3-5e6d-4f87-9285-14af84b44904', 'HIRAGANA', 'ようか');
 insert into "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") values ('cb2f4c51-cb76-512e-8cda-a23b00a20b97', '08094ea3-5e6d-4f87-9285-14af84b44904', 'KANJI', '八日');
