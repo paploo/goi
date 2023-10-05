@@ -22,6 +22,7 @@ class DistributedApplication : Application<List<String>> {
      */
     sealed interface Args<CommandArgs: Any> : Valued<CommandArgs> {
         data class Pipeline(override val value: PipelineApplication.Arguments): Args<PipelineApplication.Arguments>
+        data class FuriganaTemplate(override val value: List<String>): Args<List<String>>
     }
 
     override suspend fun invoke(args: List<String>): Result<Unit> =
@@ -30,6 +31,7 @@ class DistributedApplication : Application<List<String>> {
                 logger.debug("Parsed args {} as {}", args, it)
                 when(it) {
                     is Args.Pipeline -> PipelineApplication().invoke(it.value)
+                    is Args.FuriganaTemplate -> FuriganaTemplateApplication().invoke(it.value)
                 }
             }
         }
@@ -37,6 +39,7 @@ class DistributedApplication : Application<List<String>> {
     private fun parseArgs(args: List<String>): Result<Args<*>> =
         when(val command = args.firstOrNull()?.pascalCase()) {
             "Pipeline" -> parsePipelineArgs(args.drop(1))
+            "Template" -> parseTemplateArgs(args.drop(1))
             null -> throw IllegalArgumentException("Expected the first argument to be a command, e.g. 'pipeline'")
             else -> throw IllegalArgumentException("Unknown command '$command' on argument list $args")
         }
@@ -47,5 +50,9 @@ class DistributedApplication : Application<List<String>> {
         }.let {
             Args.Pipeline(PipelineApplication.Arguments(actions = it))
         }.let { Result.success(it) }
+
+    private fun parseTemplateArgs(subArgs: List<String>): Result<Args.FuriganaTemplate> =
+        if (subArgs.isEmpty()) Result.failure(IllegalArgumentException("Expected arguments but got none"))
+        else Result.success(Args.FuriganaTemplate(subArgs))
 
 }
