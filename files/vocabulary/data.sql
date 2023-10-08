@@ -9023,11 +9023,11 @@ insert into "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 insert into "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") values ('4c3483bb-1cb2-50dc-90c4-5b11bab905d7', 'df28fcb8-ffe2-446c-8094-15e3a6f63d88', 'KANJI', '方');
 insert into "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id", "conjugation_set_id") values ('df28fcb8-ffe2-446c-8094-15e3a6f63d88', 'c5686804-df59-53b7-a21a-34dd85c5984f', 'c1511c27-e772-5700-8d1f-0ce81db350b8', '040753ed-70ee-54ae-94b9-84dc16e60caf', null, '4c3483bb-1cb2-50dc-90c4-5b11bab905d7', null);
 insert into "vocabulary"."reference" ("vocabulary_id", "lesson_code") values ('df28fcb8-ffe2-446c-8094-15e3a6f63d88', 'GENKI3_L10');
--- より | rather than, instead of --;
+-- 〜より | rather than, instead of --;
 insert into "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "date_added", "tags") values ('37d49ca1-c983-4f65-96bd-0530bc1e7a1b', 'PARTICLE', null, 5, 881, date '2023-01-07', cast('{"comparison"}' as varchar[]));
 insert into "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") values ('cf91dda9-1a00-5404-a727-18c7c0486737', '37d49ca1-c983-4f65-96bd-0530bc1e7a1b', 1, 'rather than, instead of');
-insert into "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") values ('1572d90b-923d-5063-806d-0874e00f7b58', '37d49ca1-c983-4f65-96bd-0530bc1e7a1b', 'HIRAGANA', 'より');
-insert into "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") values ('9b35a901-8e7b-56e8-8dd1-b71493e65eac', '37d49ca1-c983-4f65-96bd-0530bc1e7a1b', 'HIRAGANA', 'より');
+insert into "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") values ('1572d90b-923d-5063-806d-0874e00f7b58', '37d49ca1-c983-4f65-96bd-0530bc1e7a1b', 'HIRAGANA', '〜より');
+insert into "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") values ('9b35a901-8e7b-56e8-8dd1-b71493e65eac', '37d49ca1-c983-4f65-96bd-0530bc1e7a1b', 'HIRAGANA', '〜より');
 insert into "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id", "conjugation_set_id") values ('37d49ca1-c983-4f65-96bd-0530bc1e7a1b', 'cf91dda9-1a00-5404-a727-18c7c0486737', '1572d90b-923d-5063-806d-0874e00f7b58', '9b35a901-8e7b-56e8-8dd1-b71493e65eac', null, null, null);
 insert into "vocabulary"."reference" ("vocabulary_id", "lesson_code") values ('37d49ca1-c983-4f65-96bd-0530bc1e7a1b', 'GENKI3_L10');
 -- なんで | why; what for --;
