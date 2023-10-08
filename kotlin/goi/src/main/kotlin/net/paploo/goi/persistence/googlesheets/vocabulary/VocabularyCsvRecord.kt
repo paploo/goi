@@ -2,8 +2,11 @@ package net.paploo.goi.persistence.googlesheets.vocabulary
 
 import net.paploo.goi.persistence.common.BaseCsvRecord
 import net.paploo.goi.persistence.common.CsvRecord
+import net.paploo.goi.persistence.common.extensions.getOrNull
 import org.apache.commons.csv.CSVRecord
 import kotlin.enums.EnumEntries
+
+
 
 internal data class VocabularyCsvRecord(
     val definition: String?,
@@ -37,22 +40,22 @@ internal data class VocabularyCsvRecord(
         rowNum = csvRecord[Field.RowNum.headerName],
         dateAdded = csvRecord[Field.DateAdded.headerName],
         conjugations = Conjugations(
-            dictionaryForm = csvRecord[Field.DictionaryForm.headerName],
-            pastForm = csvRecord[Field.PastForm.headerName],
-            teForm = csvRecord[Field.TeForm.headerName],
-            negativeForm = csvRecord[Field.NegativeForm.headerName],
-            negativePastForm = csvRecord[Field.NegativePastForm.headerName],
-            negativeTeForm = csvRecord[Field.NegativeTeForm.headerName],
-            politeForm = csvRecord[Field.PoliteForm.headerName],
-            politePastForm = csvRecord[Field.PolitePastForm.headerName],
-            politeTeForm = csvRecord[Field.PoliteTeForm.headerName],
-            politeNegativeForm = csvRecord[Field.PoliteNegativeForm.headerName],
-            politeNegativePastForm = csvRecord[Field.PoliteNegativePastForm.headerName],
-            politeNegativeTeForm = csvRecord[Field.PoliteNegativeTeForm.headerName],
-            positivePlainPotential = csvRecord[Field.PositivePlainPotential.headerName],
-            negativePlainPotential = csvRecord[Field.NegativePlainPotential.headerName],
-            positivePolitePotential = csvRecord[Field.PositivePolitePotential.headerName],
-            negativePolitePotential = csvRecord[Field.NegativePolitePotential.headerName],
+            dictionaryForm = csvRecord.getOrNull(Field.DictionaryForm.headerName),
+            pastForm = csvRecord.getOrNull(Field.PastForm.headerName),
+            teForm = csvRecord.getOrNull(Field.TeForm.headerName),
+            negativeForm = csvRecord.getOrNull(Field.NegativeForm.headerName),
+            negativePastForm = csvRecord.getOrNull(Field.NegativePastForm.headerName),
+            negativeTeForm = csvRecord.getOrNull(Field.NegativeTeForm.headerName),
+            politeForm = csvRecord.getOrNull(Field.PoliteForm.headerName),
+            politePastForm = csvRecord.getOrNull(Field.PolitePastForm.headerName),
+            politeTeForm = csvRecord.getOrNull(Field.PoliteTeForm.headerName),
+            politeNegativeForm = csvRecord.getOrNull(Field.PoliteNegativeForm.headerName),
+            politeNegativePastForm = csvRecord.getOrNull(Field.PoliteNegativePastForm.headerName),
+            politeNegativeTeForm = csvRecord.getOrNull(Field.PoliteNegativeTeForm.headerName),
+            positivePlainPotential = csvRecord.getOrNull(Field.PositivePlainPotential.headerName),
+            negativePlainPotential = csvRecord.getOrNull(Field.NegativePlainPotential.headerName),
+            positivePolitePotential = csvRecord.getOrNull(Field.PositivePolitePotential.headerName),
+            negativePolitePotential = csvRecord.getOrNull(Field.NegativePolitePotential.headerName),
         )
     )
 

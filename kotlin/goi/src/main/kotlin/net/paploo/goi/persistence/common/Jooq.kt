@@ -17,6 +17,3 @@ suspend fun Query.executeAsyncResult() =
     Result.runCatching { executeAsync().asDeferred().await() }.flatMap {
         Result.success(it)
     }
-//    Result.runCatching { executeAsync().asDeferred().await() }.flatMap {
-//        Result.success(it)
-//    }
