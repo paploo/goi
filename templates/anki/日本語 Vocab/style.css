@@ -47,3 +47,9 @@
 	background: grey;
 	color: white;
 }
+
+.blue-badge {
+	border: 1pt solid white;
+	background: rgba(128, 128, 255);
+	color: white;
+}
