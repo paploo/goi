@@ -1839,7 +1839,7 @@
   },
   {
     "id": "872eef00-764f-4dcd-89b1-1819fae14850",
-    "title": "ＡとＢとＣのなかでＡが一番〇〇。<br/>ＸのなかでＡが一番〇〇。",
+    "title": "ＡとＢとＣの中でＡが一番〇〇。<br/>Ｘの中でＡが一番〇〇。",
     "meaning": "A is the most ____ (among thr group of items).",
     "how_to_use": [
       "noun + と + noun + と + … + の中で + noun + が + 一番 + property。",
