@@ -796,7 +796,7 @@
         "id": "8059e232-04da-4512-8734-762c9c42d67d",
         "meaning": "I will study this evening. (Because) we will have an exam tomorrow.",
         "text": {
-          "spelling": "{私|わたし}は{今晩|こん・ばん}{勉強|べん・きょう}します。あしたテストがありますから。",
+          "spelling": "{私|わたし}は{今晩|こん・ばん}{勉強|べん・きょう}します。{明日|あ・した}テストがありますから。",
           "phonetic_spelling": null
         },
         "lesson_codes": ["GENKI3_L06"],

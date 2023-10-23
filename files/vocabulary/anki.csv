@@ -55,17 +55,17 @@ dce3fe6a-497c-54b2-a121-df6767084258,Now,今,いま,,noun,,5,2022-04-24,48,DUO_0
 94611381-0488-58aa-8cf2-12ad9ff4e2dd,P.M.,午後,ごご,,noun,,5,2022-04-24,50,DUO_02_03 DUO_U07 GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,time noun duo-02-03 duo-u07 genki3-l01
 40502e18-b4ba-50b4-89b7-23fd3b4d4a21,...o'clock,〜時,〜じ,,suffix,,,2022-04-24,51,DUO_02_02 DUO_U06 GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,time suffix duo-02-02 duo-u06 genki3-l01
 5372b023-b803-551c-9a7f-f404804f63f1,half; half-past,半,はん,,noun,,5,2022-04-24,52,DUO_02_02 DUO_U06 GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,time noun duo-02-02 duo-u06 genki3-l01
-2cf1d32f-b261-5ba6-829c-a9f1237a88d6,"minute, arcminutes",〜分,〜ふん／〜ぷん,,noun,,1,2022-04-24,53,DUO_02_02 DUO_U06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,time noun duo-02-02 duo-u06
+2cf1d32f-b261-5ba6-829c-a9f1237a88d6,"minute, arcminutes",〜分,〜ふん／〜ぷん,,suffix,,1,2022-04-24,53,DUO_02_02 DUO_U06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,time suffix duo-02-02 duo-u06
 db9793c1-8b7c-481c-bc77-6d36eb4afb30,"part, portion, share",分,ぶん,,noun,,3,2022-08-09,54,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 a39e794c-9682-5cd5-9c5e-dd961aa92bc5,approximately at time,〜ごろ,〜ごろ,〜頃,noun,,3,2022-04-24,55,DUO_02_03 DUO_U07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,time noun duo-02-03 duo-u07
 9e67a677-9058-536e-85d6-389ea5138c86,exactly,ちょうど,ちょうど,丁度,noun,,5,2022-04-24,56,DUO_02_02 DUO_U06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,time noun duo-02-02 duo-u06
 252852aa-aefd-504b-b671-668a33020492,zero,零,れい,,noun,,5,2022-04-24,57,DUO_02_03 DUO_U07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,number time noun duo-02-03 duo-u07
 cc6a4913-6f39-521b-a0cf-9631f640800e,Japan,日本,にほん,,proper noun,,3,2022-04-24,58,GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,country place proper-noun genki3-l01
 522e0796-297d-5bf2-be85-e93596baa6bf,America,アメリカ,あめりか,,proper noun,,4,2022-04-24,59,GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,country place proper-noun genki3-l01
-a420a37b-593e-572e-aae7-d724eca6803d,...language,〜語,〜ご,,noun,,3,2022-04-24,60,GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l01
+a420a37b-593e-572e-aae7-d724eca6803d,...language,〜語,〜ご,,suffix,,3,2022-04-24,60,GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,suffix genki3-l01
 c59169cb-e5ad-5311-a9ce-43764a5ddda6,...years old,〜歳,〜さい,,suffix,,,2022-04-24,61,GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,suffix genki3-l01
 1731f988-dcfb-5b31-bda9-c8988a5711bf,telephone,電話,でんわ,,noun,,5,2022-04-24,62,DUO_01_04 DUO_U02 GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun duo-01-04 duo-u02 genki3-l01
-f6524cfb-fa66-56ae-ae4c-0e38a8b6e54c,number (in a series),〜番,〜ばん,,noun,,3,2022-04-24,63,GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l01
+f6524cfb-fa66-56ae-ae4c-0e38a8b6e54c,number (in a series),〜番,〜ばん,,suffix,,3,2022-04-24,63,GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,suffix genki3-l01
 d8f98686-282e-5c5f-88b2-4e046e707e54,number; series of digits,番号,ばんごう,,noun,,5,2022-04-24,64,GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l01
 728f5a87-3848-5450-a941-f9cd0f898067,name,名前,なまえ,,noun,,5,2022-04-24,65,GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l01
 507092ff-6dc3-5749-a9c3-79ba8d2bc360,what,何,なに／なん,,pronoun,,5,2022-04-24,66,GENKI3_L01,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pronoun genki3-l01
@@ -112,10 +112,10 @@ dc17e988-29c0-4adf-8ae2-b9c763a53811,sisters,姉妹,しまい,,noun,,3,2022-08-0
 8373ee97-fb02-5fa4-9f3a-e6d0bfe42042,that one,それ,それ,,pronoun,,5,2022-05-30,107,DUO_02_01 DUO_U06 GENKI3_L02,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pointing-word pronoun duo-02-01 duo-u06 genki3-l02
 e3286acb-a31b-5fb6-9c16-28ac16fcc269,that one over there,あれ,あれ,,pronoun,,5,2022-05-30,108,DUO_02_01 DUO_U06 GENKI3_L02,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pointing-word pronoun duo-02-01 duo-u06 genki3-l02
 9ef8e062-db86-5059-82be-ccc85580d5e7,which one,どれ,どれ,,pronoun,,5,2022-05-30,109,DUO_02_01 DUO_U06 GENKI3_L02,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pointing-word pronoun duo-02-01 duo-u06 genki3-l02
-430b4ea9-6092-52c7-b2bf-4300de6196c7,this...,この〜,この,,pronoun,,5,2022-05-30,110,GENKI3_L02,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pointing-word pronoun genki3-l02
-9d9f54be-2a19-5147-8935-e7c3c887fa03,that...,その〜,その,,pronoun,,5,2022-05-30,111,GENKI3_L02,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pointing-word pronoun genki3-l02
-908efe1a-b6e9-55d5-b550-461cea175af4,that... over there,あの〜,あの,,pronoun,,5,2022-05-30,112,GENKI3_L02,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pointing-word pronoun genki3-l02
-a9b7cffc-2d14-58ae-818b-3ac3b6e6e4d0,which....,どの〜,どの,,pronoun,,5,2022-05-30,113,GENKI3_L02,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pointing-word pronoun genki3-l02
+430b4ea9-6092-52c7-b2bf-4300de6196c7,this...,この〜,この〜,,pronoun,,5,2022-05-30,110,GENKI3_L02,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pointing-word pronoun genki3-l02
+9d9f54be-2a19-5147-8935-e7c3c887fa03,that...,その〜,その〜,,pronoun,,5,2022-05-30,111,GENKI3_L02,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pointing-word pronoun genki3-l02
+908efe1a-b6e9-55d5-b550-461cea175af4,that... over there,あの〜,あの〜,,pronoun,,5,2022-05-30,112,GENKI3_L02,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pointing-word pronoun genki3-l02
+a9b7cffc-2d14-58ae-818b-3ac3b6e6e4d0,which....,どの〜,どの〜,,pronoun,,5,2022-05-30,113,GENKI3_L02,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pointing-word pronoun genki3-l02
 9c591bfa-c4a7-5263-b2b1-7c8d14e10c34,here,ここ,ここ,,pronoun,,5,2022-05-30,114,GENKI3_L02,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pointing-word pronoun genki3-l02
 0279527b-c398-5856-aad3-11b834907f56,there,そこ,そこ,,pronoun,,5,2022-05-30,115,GENKI3_L02,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pointing-word pronoun genki3-l02
 5587745e-e524-5159-8fe6-1e8637b90455,over there,あそこ,あそこ,,pronoun,,5,2022-05-30,116,GENKI3_L02,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pointing-word pronoun genki3-l02
@@ -400,7 +400,7 @@ c4fe5291-83a0-5e58-9791-744a785a3d9a,rice cracker,煎餅,せんべい,,noun,,,20
 e182997f-4799-5c3c-a985-ed126db9687e,cake,ケーキ,けえき,,noun,,4,2022-08-12,395,GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun genki3-l10
 676d3eb5-4992-5047-ad16-142df7b8ec38,rice ball,お握り,おにぎり,,noun,,,2022-08-12,396,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
 cd548aa6-54f8-5f0a-b55f-c0fcf26dbc2a,salt,塩,しお,,noun,,5,2022-08-12,397,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
-f9253f00-8203-5dc9-89f5-a39b4d3d9d55,chopsticks,箸,はし,,noun,,5,2022-08-20,398,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food kitchen noun genki3-l08
+f9253f00-8203-5dc9-89f5-a39b4d3d9d55,chopsticks,お箸,おはし,,noun,,5,2022-08-20,398,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food kitchen noun genki3-l08
 ca8b76ff-0345-5367-855a-fd69329898a6,(some) more; longer; further,もっと,もっと,,adverb,,5,2022-08-12,399,GENKI3_L11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adverb genki3-l11
 fa69ee4d-ab8a-5daf-8701-abab724eaade,geek; nerd,オタク,おたく,,noun,,,2022-08-12,400,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,slang noun
 3953151e-3280-5665-8c64-1bfabbedcdd2,hot water; hot bath; hot spring,湯,ゆ,,noun,,4,2022-08-12,401,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,water noun
@@ -424,7 +424,7 @@ aeac8e75-ade1-55a0-b4d0-4203dc90df45,light music,軽音楽,けいおんがく,,n
 3e15a011-580f-46c7-a59c-b17b6cb530a4,stroll,散歩,さんぽ,,noun,,5,2022-10-06,419,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 e2a1e5ef-c9d8-5554-a912-e6014d2c0f35,small child; cute small version of someone,チビ,ちび,,noun,,,2022-08-13,420,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 2c0b911e-ac72-5c04-bfd3-ebcd9e988dee,cute,かわいい,かわいい,可愛い,adjective,i adjective,5,2022-08-13,421,,かわいい,かわいかった,かわいくて,,,,,,,,,,,,,,,,かわいくない,かわいくなかった,かわいくなくて,,,,,,,,,,,,,,,,adjective i-adjective
-356f27dd-22ca-4e95-b637-6ee6c52855f2,counter for people,〜人,にん,,counter,,,2022-09-26,422,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter genki3-l07
+356f27dd-22ca-4e95-b637-6ee6c52855f2,counter for people,〜人,〜にん,,counter,,,2022-09-26,422,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter genki3-l07
 63328d5a-cff9-459a-bc29-b0ce33776a95,1 person; alone; single,一人,ひとり,,noun,,5,2022-09-26,423,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l07
 2ef7fa68-00e9-438c-8a78-e8e1b10cd274,two people,二人,ふたり,,noun,,5,2022-09-26,424,GENKI3_L07,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l07
 281d7359-80a0-519d-9c57-504f35bfd5ee,heated table,こたつ,こたつ,,noun,,1,2022-08-13,425,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
@@ -507,7 +507,7 @@ aa063477-ef31-4780-9af0-85bc0daccbcf,mouth is lonely,口寂しい,くちさび�
 18483a29-02d3-5d72-be2f-2e865c5689a1,typhoon,台風,たいふう,,noun,,4,2022-09-17,502,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 932265f2-4f7c-5f7d-b31d-cb211276ae8d,earthquake,地震,じしん,,noun,,4,2022-09-17,503,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 890ba235-9527-4fe0-91bd-93629049bfb9,lake,湖,みずうみ,,noun,,4,2022-10-09,504,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-4a460208-8302-4310-ad5a-1bddeaa9f6ed,lake (place suffix),~湖,こ,,noun,,,2022-10-09,505,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+4a460208-8302-4310-ad5a-1bddeaa9f6ed,lake (place suffix),〜湖,〜こ,,suffix,,,2022-10-09,505,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,suffix
 61d1e705-cff1-4878-80a3-79621573e4d0,"rice (husked, uncooked)",米,こめ,,noun,,4,2022-10-09,506,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
 65b11105-952e-4063-88a5-0e79208e9416,matcha,抹茶,まっちゃ,,noun,,,2022-10-11,507,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
 fbd864eb-69c2-42e7-8025-c8874a7adf1c,"cooking, esp. frying",焼き,やき,,noun,,,2022-10-25,508,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
@@ -618,7 +618,7 @@ d54c3104-3c82-4445-b71f-14598f3d2e8b,boiling water,熱湯,ねっとう,,noun,,1,
 507be1d7-9684-4c55-a7b0-c7747cfad3c2,rice cracker w/ sweet soy glaze,ぽたぽた焼,ぽたぽたやき,,noun,,,2022-11-27,613,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
 c7af2e91-5b5c-478e-b95c-c4167249c7ff,it is assuredly that...; can say with confidence that...,〜なんです,なんです,,auxiliary,,,2022-11-27,614,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,auxiliary
 6a75dd67-15fc-4ae5-8742-5ab9f037aa1a,you (male lang; derogatory),お前,おまえ,,noun,,3,2022-11-27,615,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-778ba9bb-ce07-4049-98ed-9fa73a5c4ae8,"the following, next",翌~,よく,,prefix,,,2022-12-24,616,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,prefix
+778ba9bb-ce07-4049-98ed-9fa73a5c4ae8,"the following, next",翌〜,よく〜,,prefix,,,2022-12-24,616,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,prefix
 e0221c1c-46d8-41a2-84ad-cfae044d6c0a,the following day,翌日,よくじつ,,noun,,,2022-12-24,617,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 2149878c-3d6e-4063-821d-7eba07487046,two days later; day after next,翌々日,よくよくじつ,,noun,,,2022-12-24,618,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 7915563f-ead7-42da-b0cb-143692e31c74,"origin place (country, city)",出身,しゅっしん,,noun,,3,2022-12-24,619,GENKI3_L11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l11
@@ -942,7 +942,7 @@ c1bf07d8-4738-4d62-b959-3b11acf309ad,gyoza,ギョーザ,ぎょうざ,餃子,noun
 ed9cf934-c3cf-4b6c-83b3-fc8e2c2a617a,Mie Prefecture,三重,みえ,,proper noun,,,2023-04-30,937,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,place prefecture proper-noun
 d1cdd2d2-59a2-4a67-8aff-477a73ae1cf0,Lake Motosu,本栖湖,もとすこ,,proper noun,,,2023-04-30,938,GENKI3_L11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,lake place proper-noun genki3-l11
 4e2191bb-be65-4d5d-b66b-84796fd73c92,Minobu,身延町,みのぶちょう,,proper noun,,,2023-04-30,939,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,city place proper-noun
-41563706-57bf-4b18-9db8-7a5aefac2b6c,Gifu,岐阜,ぎふ,,proper noun,,,2023-04-30,940,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,city place proper-noun
+8c76e642-8d32-4d23-be06-a3f0f3c12328,Kofu,甲府,こうふ,,proper noun,,,2023-04-30,940,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,city place proper-noun
 f622f249-de34-4e3e-be7e-2781eed09a9f,Fujinomiya,富士宮,ふじのみや,,proper noun,,,2023-04-30,941,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,city place proper-noun
 3074f733-a8d5-4269-b538-882246752cc5,Hamamatsu,浜松,はままつ,,proper noun,,,2023-04-30,942,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,city place proper-noun
 8ad7a2cd-3cca-4a91-b194-c4d380f99bb7,Yamanashi,山梨,やまなし,,proper noun,,,2023-04-30,943,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,place prefecture proper-noun

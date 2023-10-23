@@ -51,17 +51,17 @@ A.M.,午前,ごぜん,,午前,NOUN,,5,"{DUO_02_03,DUO_U07,GENKI3_L01}",{time},42
 P.M.,午後,ごご,,午後,NOUN,,5,"{DUO_02_03,DUO_U07,GENKI3_L01}",{time},94611381-0488-58aa-8cf2-12ad9ff4e2dd,50,2022-04-24
 ...o'clock,〜時,〜じ,,〜時,SUFFIX,,,"{DUO_02_02,DUO_U06,GENKI3_L01}",{time},40502e18-b4ba-50b4-89b7-23fd3b4d4a21,51,2022-04-24
 half; half-past,半,はん,,半,NOUN,,5,"{DUO_02_02,DUO_U06,GENKI3_L01}",{time},5372b023-b803-551c-9a7f-f404804f63f1,52,2022-04-24
-"minute, arcminutes",〜分,〜ふん,〜ぷん,〜分,NOUN,,1,"{DUO_02_02,DUO_U06}",{time},2cf1d32f-b261-5ba6-829c-a9f1237a88d6,53,2022-04-24
+"minute, arcminutes",〜分,〜ふん,〜ぷん,〜分,SUFFIX,,1,"{DUO_02_02,DUO_U06}",{time},2cf1d32f-b261-5ba6-829c-a9f1237a88d6,53,2022-04-24
 "part, portion, share",分,ぶん,,分,NOUN,,3,,,db9793c1-8b7c-481c-bc77-6d36eb4afb30,54,2022-08-09
 approximately at time,〜ごろ,〜ごろ,,〜頃,NOUN,,3,"{DUO_02_03,DUO_U07}",{time},a39e794c-9682-5cd5-9c5e-dd961aa92bc5,55,2022-04-24
 exactly,ちょうど,ちょうど,,丁度,NOUN,,5,"{DUO_02_02,DUO_U06}",{time},9e67a677-9058-536e-85d6-389ea5138c86,56,2022-04-24
 zero,零,れい,,零,NOUN,,5,"{DUO_02_03,DUO_U07}","{number,time}",252852aa-aefd-504b-b671-668a33020492,57,2022-04-24
 Japan,日本,にほん,,日本,PROPER_NOUN,,3,{GENKI3_L01},"{country,place}",cc6a4913-6f39-521b-a0cf-9631f640800e,58,2022-04-24
 America,アメリカ,あめりか,,,PROPER_NOUN,,4,{GENKI3_L01},"{country,place}",522e0796-297d-5bf2-be85-e93596baa6bf,59,2022-04-24
-...language,〜語,〜ご,,〜語,NOUN,,3,{GENKI3_L01},,a420a37b-593e-572e-aae7-d724eca6803d,60,2022-04-24
+...language,〜語,〜ご,,〜語,SUFFIX,,3,{GENKI3_L01},,a420a37b-593e-572e-aae7-d724eca6803d,60,2022-04-24
 ...years old,〜歳,〜さい,,〜歳,SUFFIX,,,{GENKI3_L01},,c59169cb-e5ad-5311-a9ce-43764a5ddda6,61,2022-04-24
 telephone,電話,でんわ,,電話,NOUN,,5,"{DUO_01_04,DUO_U02,GENKI3_L01}",,1731f988-dcfb-5b31-bda9-c8988a5711bf,62,2022-04-24
-number (in a series),〜番,〜ばん,,〜番,NOUN,,3,{GENKI3_L01},,f6524cfb-fa66-56ae-ae4c-0e38a8b6e54c,63,2022-04-24
+number (in a series),〜番,〜ばん,,〜番,SUFFIX,,3,{GENKI3_L01},,f6524cfb-fa66-56ae-ae4c-0e38a8b6e54c,63,2022-04-24
 number; series of digits,番号,ばんごう,,番号,NOUN,,5,{GENKI3_L01},,d8f98686-282e-5c5f-88b2-4e046e707e54,64,2022-04-24
 name,名前,なまえ,,名前,NOUN,,5,{GENKI3_L01},,728f5a87-3848-5450-a941-f9cd0f898067,65,2022-04-24
 what,何,なに,なん,何,PRONOUN,,5,{GENKI3_L01},,507092ff-6dc3-5749-a9c3-79ba8d2bc360,66,2022-04-24
@@ -108,10 +108,10 @@ this one,これ,これ,,,PRONOUN,,5,"{DUO_02_01,DUO_U06,GENKI3_L02}",{pointing_w
 that one,それ,それ,,,PRONOUN,,5,"{DUO_02_01,DUO_U06,GENKI3_L02}",{pointing_word},8373ee97-fb02-5fa4-9f3a-e6d0bfe42042,107,2022-05-30
 that one over there,あれ,あれ,,,PRONOUN,,5,"{DUO_02_01,DUO_U06,GENKI3_L02}",{pointing_word},e3286acb-a31b-5fb6-9c16-28ac16fcc269,108,2022-05-30
 which one,どれ,どれ,,,PRONOUN,,5,"{DUO_02_01,DUO_U06,GENKI3_L02}",{pointing_word},9ef8e062-db86-5059-82be-ccc85580d5e7,109,2022-05-30
-this...,この〜,この,,,PRONOUN,,5,{GENKI3_L02},{pointing_word},430b4ea9-6092-52c7-b2bf-4300de6196c7,110,2022-05-30
-that...,その〜,その,,,PRONOUN,,5,{GENKI3_L02},{pointing_word},9d9f54be-2a19-5147-8935-e7c3c887fa03,111,2022-05-30
-that... over there,あの〜,あの,,,PRONOUN,,5,{GENKI3_L02},{pointing_word},908efe1a-b6e9-55d5-b550-461cea175af4,112,2022-05-30
-which....,どの〜,どの,,,PRONOUN,,5,{GENKI3_L02},{pointing_word},a9b7cffc-2d14-58ae-818b-3ac3b6e6e4d0,113,2022-05-30
+this...,この〜,この〜,,,PRONOUN,,5,{GENKI3_L02},{pointing_word},430b4ea9-6092-52c7-b2bf-4300de6196c7,110,2022-05-30
+that...,その〜,その〜,,,PRONOUN,,5,{GENKI3_L02},{pointing_word},9d9f54be-2a19-5147-8935-e7c3c887fa03,111,2022-05-30
+that... over there,あの〜,あの〜,,,PRONOUN,,5,{GENKI3_L02},{pointing_word},908efe1a-b6e9-55d5-b550-461cea175af4,112,2022-05-30
+which....,どの〜,どの〜,,,PRONOUN,,5,{GENKI3_L02},{pointing_word},a9b7cffc-2d14-58ae-818b-3ac3b6e6e4d0,113,2022-05-30
 here,ここ,ここ,,,PRONOUN,,5,{GENKI3_L02},{pointing_word},9c591bfa-c4a7-5263-b2b1-7c8d14e10c34,114,2022-05-30
 there,そこ,そこ,,,PRONOUN,,5,{GENKI3_L02},{pointing_word},0279527b-c398-5856-aad3-11b834907f56,115,2022-05-30
 over there,あそこ,あそこ,,,PRONOUN,,5,{GENKI3_L02},{pointing_word},5587745e-e524-5159-8fe6-1e8637b90455,116,2022-05-30
@@ -396,7 +396,7 @@ rice cracker,煎餅,せんべい,,煎餅,NOUN,,,,{food},c4fe5291-83a0-5e58-9791-
 cake,ケーキ,けえき,,,NOUN,,4,{GENKI3_L10},{food},e182997f-4799-5c3c-a985-ed126db9687e,395,2022-08-12
 rice ball,お握り,おにぎり,,お握り,NOUN,,,,{food},676d3eb5-4992-5047-ad16-142df7b8ec38,396,2022-08-12
 salt,塩,しお,,塩,NOUN,,5,,{food},cd548aa6-54f8-5f0a-b55f-c0fcf26dbc2a,397,2022-08-12
-chopsticks,箸,はし,,箸,NOUN,,5,{GENKI3_L08},"{food,kitchen}",f9253f00-8203-5dc9-89f5-a39b4d3d9d55,398,2022-08-20
+chopsticks,お箸,おはし,,お箸,NOUN,,5,{GENKI3_L08},"{food,kitchen}",f9253f00-8203-5dc9-89f5-a39b4d3d9d55,398,2022-08-20
 (some) more; longer; further,もっと,もっと,,,ADVERB,,5,{GENKI3_L11},,ca8b76ff-0345-5367-855a-fd69329898a6,399,2022-08-12
 geek; nerd,オタク,おたく,,,NOUN,,,,{slang},fa69ee4d-ab8a-5daf-8701-abab724eaade,400,2022-08-12
 hot water; hot bath; hot spring,湯,ゆ,,湯,NOUN,,4,,{water},3953151e-3280-5665-8c64-1bfabbedcdd2,401,2022-08-12
@@ -420,7 +420,7 @@ club; department (of company),部,ぶ,,部,NOUN,,1,,,300bed58-ddab-5420-8396-314
 stroll,散歩,さんぽ,,散歩,NOUN,,5,,,3e15a011-580f-46c7-a59c-b17b6cb530a4,419,2022-10-06
 small child; cute small version of someone,チビ,ちび,,,NOUN,,,,,e2a1e5ef-c9d8-5554-a912-e6014d2c0f35,420,2022-08-13
 cute,かわいい,かわいい,,可愛い,ADJECTIVE,I_ADJECTIVE,5,,,2c0b911e-ac72-5c04-bfd3-ebcd9e988dee,421,2022-08-13
-counter for people,〜人,にん,,〜人,COUNTER,,,{GENKI3_L07},,356f27dd-22ca-4e95-b637-6ee6c52855f2,422,2022-09-26
+counter for people,〜人,〜にん,,〜人,COUNTER,,,{GENKI3_L07},,356f27dd-22ca-4e95-b637-6ee6c52855f2,422,2022-09-26
 1 person; alone; single,一人,ひとり,,一人,NOUN,,5,{GENKI3_L07},,63328d5a-cff9-459a-bc29-b0ce33776a95,423,2022-09-26
 two people,二人,ふたり,,二人,NOUN,,5,{GENKI3_L07},,2ef7fa68-00e9-438c-8a78-e8e1b10cd274,424,2022-09-26
 heated table,こたつ,こたつ,,,NOUN,,1,,,281d7359-80a0-519d-9c57-504f35bfd5ee,425,2022-08-13
@@ -503,7 +503,7 @@ tidal wave,津波,つなみ,,津波,NOUN,,1,,,9602b36a-fef2-58f6-a53a-84283766c7
 typhoon,台風,たいふう,,台風,NOUN,,4,,,18483a29-02d3-5d72-be2f-2e865c5689a1,502,2022-09-17
 earthquake,地震,じしん,,地震,NOUN,,4,,,932265f2-4f7c-5f7d-b31d-cb211276ae8d,503,2022-09-17
 lake,湖,みずうみ,,湖,NOUN,,4,,,890ba235-9527-4fe0-91bd-93629049bfb9,504,2022-10-09
-lake (place suffix),~湖,こ,,~湖,NOUN,,,,,4a460208-8302-4310-ad5a-1bddeaa9f6ed,505,2022-10-09
+lake (place suffix),〜湖,〜こ,,〜湖,SUFFIX,,,,,4a460208-8302-4310-ad5a-1bddeaa9f6ed,505,2022-10-09
 "rice (husked, uncooked)",米,こめ,,米,NOUN,,4,,{food},61d1e705-cff1-4878-80a3-79621573e4d0,506,2022-10-09
 matcha,抹茶,まっちゃ,,抹茶,NOUN,,,,{food},65b11105-952e-4063-88a5-0e79208e9416,507,2022-10-11
 "cooking, esp. frying",焼き,やき,,焼き,NOUN,,,,{food},fbd864eb-69c2-42e7-8025-c8874a7adf1c,508,2022-10-25
@@ -614,7 +614,7 @@ sweet soy sauce,砂糖醤油,さとうじょうゆ,,砂糖醤油,NOUN,,,,{food},
 rice cracker w/ sweet soy glaze,ぽたぽた焼,ぽたぽたやき,,ぽたぽた焼,NOUN,,,,{food},507be1d7-9684-4c55-a7b0-c7747cfad3c2,613,2022-11-27
 it is assuredly that...; can say with confidence that...,〜なんです,なんです,,,AUXILIARY,,,,,c7af2e91-5b5c-478e-b95c-c4167249c7ff,614,2022-11-27
 you (male lang; derogatory),お前,おまえ,,お前,NOUN,,3,,,6a75dd67-15fc-4ae5-8742-5ab9f037aa1a,615,2022-11-27
-"the following, next",翌~,よく,,翌~,PREFIX,,,,,778ba9bb-ce07-4049-98ed-9fa73a5c4ae8,616,2022-12-24
+"the following, next",翌〜,よく〜,,翌〜,PREFIX,,,,,778ba9bb-ce07-4049-98ed-9fa73a5c4ae8,616,2022-12-24
 the following day,翌日,よくじつ,,翌日,NOUN,,,,,e0221c1c-46d8-41a2-84ad-cfae044d6c0a,617,2022-12-24
 two days later; day after next,翌々日,よくよくじつ,,翌々日,NOUN,,,,,2149878c-3d6e-4063-821d-7eba07487046,618,2022-12-24
 "origin place (country, city)",出身,しゅっしん,,出身,NOUN,,3,{GENKI3_L11},,7915563f-ead7-42da-b0cb-143692e31c74,619,2022-12-24
@@ -938,7 +938,7 @@ Ise City,伊勢,いせ,,伊勢,PROPER_NOUN,,,,"{place,city}",381f0532-0cc1-4f08-
 Mie Prefecture,三重,みえ,,三重,PROPER_NOUN,,,,"{place,prefecture}",ed9cf934-c3cf-4b6c-83b3-fc8e2c2a617a,937,2023-04-30
 Lake Motosu,本栖湖,もとすこ,,本栖湖,PROPER_NOUN,,,{GENKI3_L11},"{place,lake}",d1cdd2d2-59a2-4a67-8aff-477a73ae1cf0,938,2023-04-30
 Minobu,身延町,みのぶちょう,,身延町,PROPER_NOUN,,,,"{place,city}",4e2191bb-be65-4d5d-b66b-84796fd73c92,939,2023-04-30
-Gifu,岐阜,ぎふ,,岐阜,PROPER_NOUN,,,,"{place,city}",41563706-57bf-4b18-9db8-7a5aefac2b6c,940,2023-04-30
+Kofu,甲府,こうふ,,甲府,PROPER_NOUN,,,,"{place,city}",8c76e642-8d32-4d23-be06-a3f0f3c12328,940,2023-04-30
 Fujinomiya,富士宮,ふじのみや,,富士宮,PROPER_NOUN,,,,"{place,city}",f622f249-de34-4e3e-be7e-2781eed09a9f,941,2023-04-30
 Hamamatsu,浜松,はままつ,,浜松,PROPER_NOUN,,,,"{place,city}",3074f733-a8d5-4269-b538-882246752cc5,942,2023-04-30
 Yamanashi,山梨,やまなし,,山梨,PROPER_NOUN,,,,"{place,prefecture}",8ad7a2cd-3cca-4a91-b194-c4d380f99bb7,943,2023-04-30
