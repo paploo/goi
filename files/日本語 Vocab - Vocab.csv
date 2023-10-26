@@ -927,7 +927,7 @@ to repeat,リピートする,りぴいとする,,,VERB,SURU_VERB,,,,c7d4afa9-bcd
 taxi,タクシー,たくしい,,,NOUN,,5,{GENKI3_L06},{transportation},f8c0d3c4-9ab7-4331-8a62-d33f66eca40c,926,2023-04-30
 "first, new",初,はつ,,初,PREFIX,,1,,,968de4b8-c431-4980-bb1e-5e0cf792a434,927,2023-04-30
 twenty years old,２０歳,はたち,,二十歳,NOUN,,5,,,fe356748-c690-4460-8235-a5974b3926e0,928,2023-04-30
-rank; place (suffix),位,い,,位,COUNTER,,,,,93a28b67-c33a-4944-83f7-e110a77e5177,929,2023-04-30
+rank; place (suffix),〜位,〜い,,〜位,COUNTER,,,,,93a28b67-c33a-4944-83f7-e110a77e5177,929,2023-04-30
 wisteria,藤,ふじ,,藤,NOUN,,,,,0ab4f8ef-d54e-4151-9dcf-e7fa2f712c1c,930,2023-04-30
 Mt. Fuji,富士山,ふじさん,,富士山,PROPER_NOUN,,,,{place},124e03e0-ef78-49bf-9ce3-268712e9b735,931,2023-04-30
 handmade rain talisman,てるてる坊主,てるてるぼうず,,てるてる坊主,NOUN,,,,,255014e8-a72b-4cd9-bd50-0013b4093d1a,932,2023-04-30
@@ -1163,7 +1163,7 @@ larger apartment building; condominum,マンション,まんしょん,,,NOUN,,2,
 advertisements,広告,こうこく,,広告,NOUN,,3,{GENKI3_L13},,fe68e271-6db4-4671-b574-ab8f372589c9,1162,2023-10-01
 "recruitment, taking applicaitons; raising funds",募集,ぼしゅう,,募集,NOUN,,2,{GENKI3_L13},,a7185b72-5b75-4626-8ed7-968e42537401,1163,2023-10-01
 promise; appointment,約束,やくそく,,約束,NOUN,,4,{GENKI3_L13},,5dc48856-8f42-49f9-809d-e9f35f9fe8ba,1164,2023-10-01
-"happy, glad, pleased",嬉い,うれしい,,嬉い,ADJECTIVE,I_ADJECTIVE,3,{GENKI3_L13},,1c316eca-4942-496b-a982-cb85c6767fcc,1165,2023-10-01
+"happy, glad, pleased",嬉しい,うれしい,,嬉しい,ADJECTIVE,I_ADJECTIVE,3,{GENKI3_L13},,1c316eca-4942-496b-a982-cb85c6767fcc,1165,2023-10-01
 sad,悲しい,かなしい,,悲しい,ADJECTIVE,I_ADJECTIVE,4,{GENKI3_L13},,9f12c0fc-9080-4b4c-9d51-acaf87ebd1c5,1166,2023-10-01
 strict,厳しい,きびしい,,厳しい,ADJECTIVE,I_ADJECTIVE,4,{GENKI3_L13},,48024766-080a-43b6-bbe1-cc58991f91a6,1167,2023-10-01
 feeling; mood,気分,きぶん,,気分,NOUN,,4,,,10103df2-4cbe-482b-a25d-1d55b4c24a73,1168,2023-10-01
