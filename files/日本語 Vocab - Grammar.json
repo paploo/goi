@@ -1296,7 +1296,7 @@
     "meaning": "Turn a verb into a noun describing an action (i.e. normalizer) to describe things one likes/dislikes or are good/bad at",
     "how_to_use": [
       "activity verb (short form) + の + が + 好きです",
-      "activity verb (short form) + の + が + きれいです",
+      "activity verb (short form) + の + が + 嫌いです",
       "activity verb (short form) + の + が + 上手です",
       "activity verb (short form) + の + が + 下手です"
     ],
@@ -1314,7 +1314,7 @@
         "id": "728ba088-711f-4479-9fb5-7ee966dd4894",
         "meaning": "I don't like cleaning my room.",
         "text": {
-          "spelling": "{部屋|へ・や}を{掃除|そう・じ}するのがきらいです"
+          "spelling": "{部屋|へ・や}を{掃除|そう・じ}するのが{嫌|きら}いです"
         },
         "lesson_codes": ["GENKI3_L08"],
         "tags": []
@@ -1718,7 +1718,7 @@
       },
       {
         "id": "eba0db7d-5b0d-4824-b049-0631047d2253",
-        "meaning": "I have kabuki tickets; (therefore) let's go see it.",
+        "meaning": "I have kabuki tickets; (therefore) let's go see it together.",
         "text": {
           "spelling": "{歌舞伎|か・ぶ・き}のチケットがありますから、{一緒|いっ・しょ}に{見|み}に{行|い}きましょう。"
         },
