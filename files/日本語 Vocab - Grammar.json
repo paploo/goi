@@ -1860,7 +1860,7 @@
         "id": "8efa8208-0bb3-47f5-8a50-d7864af0cb06",
         "meaning": "Q: What season do you like the best?<br/>A: I like fall the most.",
         "text": {
-          "spelling": "Ｑ：{季節|き・せつ}のなかでいつが{一番|いち・ばん}{好|す}きてすか。<br/>Ａ：{秋|あき}が{一番|いち・ばん}{好|す}きです。"
+          "spelling": "Ｑ：{季節|き・せつ}の{中|なか}でいつが{一番|いち・ばん}{好|す}きてすか。<br/>Ａ：{秋|あき}が{一番|いち・ばん}{好|す}きです。"
         },
         "lesson_codes": ["GENKI3_L10"],
         "tags": []
