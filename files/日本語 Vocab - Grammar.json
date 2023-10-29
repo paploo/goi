@@ -2020,6 +2020,76 @@
     "lesson_codes": ["GENKI3_L10"],
     "tags": []
   },
+  {
+    "id": "c124fbd0-2ecb-4ce4-b4e6-f1b3534bc3c2",
+    "title": "Ａなる",
+    "meaning": "to become A",
+    "how_to_use": [
+      "い-adj (stem) + く + なる",
+      "な-adj (stem) + に + なる",
+      "noun + に + なる"
+    ],
+    "examples": [
+      {
+        "id": "357df4b7-6870-4505-b7ba-8e3cd60b1193",
+        "meaning": "Studying Japanese has become fun<br/>(though it was like torture before).",
+        "text": {
+          "spelling": "{日本語|に・ほん・ご}の{勉強|べん・きょう}が{楽|たの}しくなりました。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "4f493e43-03e3-4326-9fed-5db136c123eb",
+        "meaning": "I have become fond of studying Japanese.",
+        "text": {
+          "spelling": "{日本語|に・ほん・ご}の{勉強|べん・きょう}が{好|い}きになりました。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "b6d63151-4c1b-452d-9b43-a50cfa2c8af1",
+        "meaning": "Mary has become better in Japanese than before.",
+        "text": {
+          "spelling": "メアリーさんは{前|まえ}より{日本語|に・ほん・ご}が{上手|じょう・ず}になりました。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "26767e4f-0df1-49ee-a93a-53bc7110db88",
+        "meaning": "My room became clean, because I cleand it this morning.",
+        "text": {
+          "spelling": "{今朝|けさ}{掃除|そう・じ}したから、{私|わたし}の{部屋|へ・や}がきれいになりました。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "8991aec7-e02f-49a5-81ba-17f59aa274e9",
+        "meaning": "I have become very good at speaking Japanese, because I practiced a lot.",
+        "text": {
+          "spelling": "たくさん{練習|れん・しゅう}したから、{日本語|に・ほん・ご}を{話|はな}すのがすごく{上手|じょう・ず}になりました。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "94a0472b-31ab-484a-bce4-981033212a0d",
+        "meaning": "I will become a teacher, because I like children.",
+        "text": {
+          "spelling": "{子供|こ・ども}が{好|す}きだから、{先生|せん・せい}になります。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-10-28",
+    "lesson_codes": ["GENKI3_L10"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 11"},
   {"COMMENT": "GENKI LESSON 12"}
