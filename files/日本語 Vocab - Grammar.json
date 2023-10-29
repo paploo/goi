@@ -1898,6 +1898,76 @@
     "lesson_codes": ["GENKI3_L10"],
     "tags": []
   },
+  {
+    "id": "b5df7fe2-6198-44ad-9e45-aead8d6ab5e2",
+    "title": "ＡＮ ⟶ Ａの",
+    "meaning": "Indefinite Noun",
+    "how_to_use": [
+      "adj + noun (thing) ⟶ adj + の",
+      "noun (possessor) + の + noun (possessed) ⟶ noun (possessor) + の",
+      "Note: Use 人 (ひと) for indefinite people"
+    ],
+    "examples": [
+      {
+        "id": "2b787771-848d-4526-a018-8f84714e9690",
+        "meaning": "I have a black sweater. I have a red one, too.",
+        "text": {
+          "spelling": "{私|わたし}は{黒|くろ}いセーターを{持|も}っています。{赤|あか}いのも{持|も}っています。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "819768bf-5bed-4b90-83d8-0866d8fa6cec",
+        "meaning": "We have a lot of cakes. Take the ones you like.",
+        "text": {
+          "spelling": "ケーキがたくさんあります。{好|す}きなのを{持|も}っていって{下|くだ}さい。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "58852d0a-b0e4-4222-860e-dd69c69f0299",
+        "meaning": "A: Is this Sora's bag?<br/>B: No, that is Mary's",
+        "text": {
+          "spelling": "Ａ：これはソラさんの{鞄|かばん}ですか。<br/>Ｂ：いいえ、それはメアリーさんのです。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "1e1b52eb-654e-480f-a9e6-405af267d711",
+        "meaning": "This clock is expensive. Give me a cheap one.",
+        "text": {
+          "spelling": "この{時計|と・けい}は{高|たか}いです。{安|やす}いのを{下|くだ}さい。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "0b374020-95ac-4577-b409-b7be39be8ff1",
+        "meaning": "My computer is slower than yours.",
+        "text": {
+          "spelling": "{私|わたし}のパソコンの{方|ほう}があなたのより{遅|おそ}いです。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "9e39d1ad-70f2-4898-be34-339646f1cfe8",
+        "meaning": "This is Rin's apple.",
+        "text": {
+          "spelling": "このりんごはリンさんのです。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-10-28",
+    "lesson_codes": ["GENKI3_L10"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 11"},
   {"COMMENT": "GENKI LESSON 12"}
