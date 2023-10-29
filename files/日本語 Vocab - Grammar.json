@@ -1968,6 +1968,58 @@
     "lesson_codes": ["GENKI3_L10"],
     "tags": []
   },
+  {
+    "id": "33b3532b-9ce8-4fbb-96fb-39f6aa1cd073",
+    "title": "〜つもりだ",
+    "meaning": "I intend to do...",
+    "how_to_use": [
+      "verb (short, present) + つもりだ ⟶ I intend to do...",
+      "verb (short, negative, present) + つもりだ ⟶ I do not intend to do...",
+      "verb (short, past) + つもりだ ⟶ I intended to do, but didn't do..."
+    ],
+    "examples": [
+      {
+        "id": "dbca02ac-d348-4c0f-8f7a-e4942ae1f34b",
+        "meaning": "I intend to play tennis with Takeshi this weekend.",
+        "text": {
+          "spelling": "{週末|しゅう・まつ}にたけしさんとテニスをするつもりです。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "f5aa06ea-1d79-4a1a-a8f6-eea972010878",
+        "meaning": "Professor Yamashita does not intend to come to school tomorrow.",
+        "text": {
+          "spelling": "{山下|やま・した}{先生|せん・せい}は{明日|あ・した}{大学|だい・がく}に{来|こ}ないつもりです。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "3a9fe084-8fa2-4db0-9057-5a70555c4bf6",
+        "meaning": "We were planning to visit a temple, but we didn't, because the weather was not good.",
+        "text": {
+          "spelling": "お{寺|てら}を{見|み}に{行|い}くつもりでしたが、{天気|てん・き}が{良|よ}くなかったから、{行|い}きませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "ae991891-962d-4ed0-8b87-f3687d0d0d7b",
+        "meaning": "(I will) stay at my friend's house because hotels are expensive.",
+        "text": {
+          "spelling": "ホテルは{高|たか}いから、{友達|とも・だち}のうちに{泊|と}まるつもりです。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-10-28",
+    "lesson_codes": ["GENKI3_L10"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 11"},
   {"COMMENT": "GENKI LESSON 12"}
