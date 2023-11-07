@@ -127,12 +127,14 @@
     "title": "よく／たいてい/時々……ます<br/>あまり／全然……ません",
     "meaning": "Frequency Adverbs",
     "how_to_use": [
-      "よく + verb (present)",
-      "たいてい + verb (present)",
-      "時々 + verb (present)",
-      "あまり + verb (negative)",
-      "全然 + verb (negative)",
-      "毎日 + verb + (present)"
+      "いつも + verb (present) ⟶ always",
+      "よく + verb (present) ⟶ often",
+      "たいてい + verb (present) ⟶ usually",
+      "時々 + verb (present) ⟶ sometimes",
+      "あまり + verb (negative) ⟶ not much",
+      "ほとんど + verb (negative) ⟶ seldom/hardly",
+      "全然 + verb (negative) ⟶ never",
+      "毎日 + verb + (present) ⟶ every day"
     ],
     "examples": [
       {
