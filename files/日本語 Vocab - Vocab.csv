@@ -1106,93 +1106,94 @@ very soon; in a few moments; shortly,もうすぐ,もうすぐ,,もう直ぐ,EXP
 for the first time,初めて,はじめて,,初めて,ADVERB,,5,{GENKI3_L12},,f09fa12a-9b9b-486d-9094-a639a8624d1c,1105,2023-08-19
 two to three days,二三日,にさんにち,,二、三日,NOUN,,,{GENKI3_L12},,38cff09c-f0dc-4fd8-b223-e426228b6c56,1106,2023-08-19
 "besides, in addition, also, moreover",それに,それに,,其れに,CONJUNCTION,,4,{GENKI3_L12},,45ea90e7-b688-470e-852c-d7c18a8a2b23,1107,2023-08-19
-"road, path, street; route",道,みち,,道,NOUN,,5,,{roads},d62c6268-6138-471d-becc-7d7796aac610,1108,2023-08-19
-bridge,橋,はし,,橋,NOUN,,5,,{roads},26a6add0-0043-4dd2-ab3b-6db454a5cd8b,1109,2023-08-19
-road; highway,道路,どうろ,,道路,NOUN,,3,,{roads},85ac9d74-a276-443f-9a2a-eca1bfc7e972,1110,2023-08-19
-freeway; expressway,高速道路,こうそくどうろ,,高速道路,NOUN,,,,{roads},8884b984-cfcb-4537-b6ef-9ea08955506d,1111,2023-08-19
-traffic light; signal,信号,しんごう,,信号,NOUN,,3,,{roads},c959e600-2c26-4884-bfee-700dc412720d,1112,2023-08-19
-traffic circle; roundabout,ロータリー,ろおたりい,,,NOUN,,,,{roads},103cb65d-49a0-455a-ba6a-e134d430d946,1113,2023-08-19
-straight ahead; direct (route),まっすぐ,まっすぐ,,真っ直ぐ,NOUN,,5,,{roads},8c1d005f-3d35-4e4c-852c-3c45e5119617,1114,2023-08-19
-corner; edge,角,かど,,角,NOUN,,5,,,a5b14922-855c-441e-a335-5fdb9209e56f,1115,2023-08-19
-"side (of something, or taking someone's side)",側,がわ,,側,NOUN,,5,,,7686f747-f955-4079-bf34-f23dd9c6fa8e,1116,2023-08-19
-ordinal number suffix,〜目,〜め,,〜目,SUFFIX,,5,,,37a13ec3-c024-4a38-b4de-ad63e1d75b8b,1117,2023-08-19
-"to bend, to curve; to turn",曲がる,まがる,,曲がる,VERB,GODAN_VERB,5,,,e7d2c825-b4a8-47da-9825-fa7db01bf8dd,1118,2023-08-19
-"to cross over, to go across",渡る,わたる,,渡る,VERB,GODAN_VERB,5,,,a118ba7f-e1b5-40e6-97b3-3ffd9a941ee4,1119,2023-08-19
-turn left,左に曲がる,ひだりにまがる,,左に曲がる,EXPRESSION,,,{GENKI3_L06},{directions},70876a31-cbd8-4d8a-9c9f-24daffeab903,1120,2023-08-19
-turn right ,右に曲がる,みぎにまがる,,右に曲がる,EXPRESSION,,,{GENKI3_L06},{directions},681b71c5-6a4d-48d5-abab-8163b3643834,1121,2023-08-19
-go straight ahead,まっすぐ行く,まっすぐいく,,真っ直ぐ行く,EXPRESSION,,,{GENKI3_L06},{directions},2a050671-c33f-454a-93bc-81aef09dc985,1122,2023-08-19
-cross the street,道を渡る,みちおわたる,,道を渡る,EXPRESSION,,,{GENKI3_L06},{directions},694d9251-f941-4423-ae8f-623795994442,1123,2023-08-19
-turn left at the second corner,二つ目の角を左に曲がる,ふたつめのかどおひだりにまがる,,二つ目の角を左に曲がる,EXPRESSION,,,{GENKI3_L06},{directions},11b574a3-d877-4700-8c14-f73f79549d28,1124,2023-08-19
-turn right at the first traffic light,一つ目の信号を右に曲がる,ひとつめのしんごうおみぎにまがる,,一つ目の信号を右に曲がる,EXPRESSION,,,{GENKI3_L06},{directions},20b7ab1e-d446-41ba-83ca-0b8d28b9b93d,1125,2023-08-19
-left side of the street,道の左側,みちのひだりがわ,,道の左側,NOUN,,,{GENKI3_L06},{directions},00e58b4d-a715-410c-afab-08bec93f1274,1126,2023-08-19
-right side of the street,道の右側,みちのみぎがわ,,道の右側,NOUN,,,{GENKI3_L06},{directions},c3b3e9a4-3ace-4b98-9a13-c8f49931c6be,1127,2023-08-19
-deer,鹿,しか,,鹿,NOUN,,,{GENKI3_READER_L06},{animal},8d5224d4-fae7-4c07-bea3-a99ee92a5201,1128,2023-08-19
-dawn,暁,あかつき,,暁,NOUN,,,,,92c80009-73fb-4ad7-85e5-85dc734ebdd8,1129,2023-08-19
-steamed immature soybean dish,枝豆,えだまめ,,枝豆,NOUN,,,,{food},3e3b9c43-a6b3-44b9-91ed-0a7c0713f419,1130,2023-08-19
-sugar,砂糖,さとう,,砂糖,NOUN,,,,{food},75e16084-677e-4356-a7a6-55b5a7acb509,1131,2023-08-19
-stone (liftable),石,いし,,石,NOUN,,,,,ab95ec33-d82d-422a-981d-3897138cf40c,1132,2023-08-19
-prefix for ordinal numbers,第〜,だい〜,,第〜,PREFIX,,1,,,49aedaa1-bdab-4551-84e5-7bc8f3717fcd,1133,2023-08-19
-counter for occurrences,〜回,〜かい,,〜回,COUNTER,,3,{GENKI3_L13},,1e1bf4fd-c4b1-48b5-96ca-b427634e4a92,1134,2023-08-19
-counter for volume of a book counter; rolls of paper,〜巻,〜かん,,〜巻,COUNTER,,,,,fbcbed4b-b36f-4b0a-a4d6-3442c8f335cd,1135,2023-08-19
-"counter for stories, TV episodes, etc",〜話,〜わ,,〜話,COUNTER,,,,,d91afc90-6ea1-4f0f-a88d-5e3db6cdb4ae,1136,2023-08-19
-lesson/chapter counter,〜課,〜か,,〜課,COUNTER,,3,,,c94b72b6-895e-44b1-a422-f33ffdd13e08,1137,2023-09-06
-lesson; company department,課,か,,課,NOUN,,3,,,01b88113-5da4-44b5-88ed-9dd83b4423e7,1138,2023-09-06
-"chapter, section",章,しょう,,章,NOUN,,3,,,c9e049f6-abca-4d42-9317-77227b6321ba,1139,2023-08-19
-book volume one; manga volume one,第１巻,だいいっかん,,第一巻,NOUN,,,,,dd3784df-38c1-4751-86bc-d05a690d5c82,1140,2023-08-19
-television/anime episode one (lit. story number one),第１話,だいいちわ,,第一話,NOUN,,,,,ed38785b-186c-404f-824f-9bc499be075f,1141,2023-08-19
-"first occurence, first time; tv/anime episode one (lit. occurence number one)",第１回,だいいっかい,,第一回,NOUN,,,,,cdf0b243-612d-47aa-85ae-3f785a27065e,1142,2023-08-19
-chapter/section one,第１章,だいいっしょう,,第一章,NOUN,,,,,ef17c3e4-003d-40ad-b6fb-4c0e617c96bc,1143,2023-08-19
-lesson one; company department one,第１課,だいいっか,,第一課,NOUN,,,,,989aff98-06ed-450f-ba46-18dec22384ba,1144,2023-09-06
-adult,大人,おとな,,大人,NOUN,,5,{GENKI3_L13},,1beb4f97-f09f-46ad-86c3-cd7bdfd09150,1145,2023-10-01
-I (formal),私,わたくし,,私,PRONOUN,,,{GENKI3_L13},,fad56bc8-840d-4b06-8551-4fdaaa0eb86d,1146,2023-10-01
-curry,カレー,かれえ,,咖哩,NOUN,,5,{GENKI3_L13},{food},28a11f83-90ae-4e19-a205-b41be20ad72f,1147,2023-10-01
-black tea,紅茶,こうちゃ,,紅茶,NOUN,,5,{GENKI3_L13},{food},e13c86b7-5cde-4fb8-994b-abec2783d466,1148,2023-10-01
-"kimono, traditional dress",着物,きもの,,着物,NOUN,,4,{GENKI3_L13},{clothing},d6fc25ea-75f0-45f4-a5e1-078972da8a70,1149,2023-10-01
-sweater,セーター,せえたあ,,,NOUN,,5,{GENKI3_L13},{clothing},286f3775-7a0e-433a-be70-bb75863c0bd7,1150,2023-10-01
-musical instrument,楽器,がっき,,楽器,NOUN,,2,{GENKI3_L13},{music},98ee6ba8-f451-4235-b337-232b4e21f807,1151,2023-10-01
-karate,空手,からて,,空手,NOUN,,,{GENKI3_L13},{sports},9587795e-675b-40ac-91a3-92e6f75282db,1152,2023-10-01
-golf,ゴルフ,ごるふ,,,NOUN,,,{GENKI3_L13},{sports},32fff803-2d72-407a-98ef-887e8cdb6ac4,1153,2023-10-01
-motorcycle,バイク,ばいく,,,NOUN,,,{GENKI3_L13},{transportation},e319f559-2638-4539-9c5a-c8eb9a67f8d6,1154,2023-10-01
-elephant,象,ぞう,,象,NOUN,,3,{GENKI3_L13},{animal},685cb1a3-3a8c-4282-9493-9496e346bd12,1155,2023-10-01
-foreign language,外国語,がいこくご,,外国語,NOUN,,,{GENKI3_L13},,9421a6d6-b741-4420-a47c-71d3173e0776,1156,2023-10-01
-language,言葉,ことば,,言葉,NOUN,,5,{GENKI3_L13},,5761e779-048f-42e5-bbac-7a886d45065f,1157,2023-10-01
-grammar,文法,ぶんぽう,,文法,NOUN,,4,{GENKI3_L13},,e15354e5-1125-4982-ae84-971eaacd60e4,1158,2023-10-01
-"app, application (computing)",アプリ,あぷり,,,NOUN,,,{GENKI3_L13},,be9bde54-a1ec-436c-8a29-1fee90f6b38c,1159,2023-10-01
-small apartment building; apartment,アパート,あぱあと,,,NOUN,,5,{GENKI3_L13},,26596ea4-c7cd-4e1a-aa8c-0e77f099843a,1160,2023-10-01
-larger apartment building; condominum,マンション,まんしょん,,,NOUN,,2,{GENKI3_L13},,1c1fe474-8207-4ab1-bf81-d20fe8fa58ba,1161,2023-10-01
-(consumer) prices,物価,ぶっか,,物価,NOUN,,3,{GENKI3_L13},,3629ae27-12ba-4e38-a458-82d64e38f3a6,1162,2023-10-01
-advertisements,広告,こうこく,,広告,NOUN,,3,{GENKI3_L13},,fe68e271-6db4-4671-b574-ab8f372589c9,1163,2023-10-01
-"recruitment, taking applications; raising funds",募集,ぼしゅう,,募集,NOUN,,2,{GENKI3_L13},,a7185b72-5b75-4626-8ed7-968e42537401,1164,2023-10-01
-promise; appointment,約束,やくそく,,約束,NOUN,,4,{GENKI3_L13},,5dc48856-8f42-49f9-809d-e9f35f9fe8ba,1165,2023-10-01
-"happy, glad, pleased",嬉しい,うれしい,,嬉しい,ADJECTIVE,I_ADJECTIVE,3,{GENKI3_L13},,1c316eca-4942-496b-a982-cb85c6767fcc,1166,2023-10-01
-sad,悲しい,かなしい,,悲しい,ADJECTIVE,I_ADJECTIVE,4,{GENKI3_L13},,9f12c0fc-9080-4b4c-9d51-acaf87ebd1c5,1167,2023-10-01
-strict,厳しい,きびしい,,厳しい,ADJECTIVE,I_ADJECTIVE,4,{GENKI3_L13},,48024766-080a-43b6-bbe1-cc58991f91a6,1168,2023-10-01
-feeling; mood,気分,きぶん,,気分,NOUN,,4,,,10103df2-4cbe-482b-a25d-1d55b4c24a73,1169,2023-10-01
-feel sick,気分が悪い,きぶんがわるい,,気分が悪い,ADJECTIVE,I_ADJECTIVE,,{GENKI3_L13},,8f07aef3-58c8-4694-815c-c7152c0519ef,1170,2023-10-01
-spicy; salty,辛い,からい,,辛い,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L13},{food},5f937099-cf1d-41c4-9e2d-7cd36e22111a,1171,2023-10-01
-bitter,苦い,にがい,,苦い,ADJECTIVE,I_ADJECTIVE,4,,{food},8abb4aeb-b696-4290-8a94-14630ac1d5ba,1172,2023-10-01
-close; near,近い,ちかい,,近い,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L13},,861a0972-c831-4a99-82aa-30ab5a819cd6,1173,2023-10-01
-"various, a variety of, different kinds of",いろいろ,いろいろ,,色々,ADJECTIVE,NA_ADJECTIVE,5,{GENKI3_L13},,11f63620-8188-454c-b9b6-36478a20244e,1174,2023-10-01
-"happiness, good fortune",幸せ,しあわせ,,幸せ,ADJECTIVE,NA_ADJECTIVE,3,{GENKI3_L13},,7c6bc680-4326-4916-8895-cc43e5b57e26,1175,2023-10-01
-"no good, useless; hopeless",だめ,だめ,,駄目,ADJECTIVE,NA_ADJECTIVE,3,{GENKI3_L13},,442e5965-aa4b-4500-a765-e1548527df40,1176,2023-10-01
-to knit,編む,あむ,,編む,VERB,GODAN_VERB,2,{GENKI3_L13},,309bf230-930f-457c-96a5-0020d4d76a9c,1177,2023-10-02
-to cry,泣く,なく,,泣く,VERB,GODAN_VERB,4,{GENKI3_L13},,35f63b3d-6608-4af3-81a7-cf3e63fc7e16,1178,2023-10-02
-"to brush (teeth), to polish",磨く,みがく,,磨く,VERB,GODAN_VERB,5,{GENKI3_L13},,7b6183f1-fb01-4350-85c7-4fb622e24705,1179,2023-10-02
-"to protect, to guard; to keep, to abide",守る,まもる,,守る,VERB,GODAN_VERB,3,,,32d78cdf-4dc3-41c7-80eb-eaee4bf8c4ea,1180,2023-10-02
-to keep a promise,約束を守る,やくそくをまもる,,約束を守る,VERB,GODAN_VERB,,{GENKI3_L13},,ee3af869-e859-4ef8-8896-9bdbf2fc3b24,1181,2023-10-02
-to be moved/touched by,感動する,かんどうする,,感動する,VERB,SURU_VERB,3,{GENKI3_L13},,b41f80d3-b894-45c0-a37e-7242e7a6e7c0,1182,2023-10-02
-...kilograms; ...kilometers,〜キロ,〜きろ,,,SUFFIX,,5,{GENKI3_L13},,4391ef17-6775-4ad5-92f7-1bd8c97c6994,1183,2023-10-02
-my name is ...,〜と申します,〜ともうします,,〜と申します,EXPRESSION,,,{GENKI3_L13},,e25af6b3-39fc-4cda-a4e2-c6cf0223a167,1184,2023-10-02
-"particularly, especially",特に,とくに,,特に,ADVERB,,1,{GENKI3_L13},,de095c51-ceca-40bd-8bc2-1fa4ba6d8eb4,1185,2023-10-02
-one day,一日,いちにち,,一日,NOUN,,,{GENKI3_L13},"{time,counter}",40b73558-cffa-4240-9074-c55417eee57f,1186,2023-10-02
-two days,二日,ふつか,,二日,NOUN,,,{GENKI3_L13},"{time,counter}",e5efafeb-bcce-4f3d-b968-0d26a0dc3790,1187,2023-10-02
-three days,三日,みっか,,三日,NOUN,,,{GENKI3_L13},"{time,counter}",d4e6437a-5da1-4fa2-bb82-a1a39be9ace1,1188,2023-10-02
-four days,四日,よっか,,四日,NOUN,,,{GENKI3_L13},"{time,counter}",f2ecda3d-93d3-4a74-88e6-fe4c816792a8,1189,2023-10-02
-five days,五日,いつか,,五日,NOUN,,,{GENKI3_L13},"{time,counter}",24c06129-2f73-4fd8-9b2a-fa6dc8309bec,1190,2023-10-02
-six days,六日,むいか,,六日,NOUN,,,{GENKI3_L13},"{time,counter}",9aa76259-1b94-4f3a-bc4d-f11867a5ea02,1191,2023-10-02
-seven days,七日,なのか,,七日,NOUN,,,{GENKI3_L13},"{time,counter}",3b6793f2-af6c-48ad-9d46-7bf82a7c2efe,1192,2023-10-02
-eight days,八日,ようか,,八日,NOUN,,,{GENKI3_L13},"{time,counter}",08094ea3-5e6d-4f87-9285-14af84b44904,1193,2023-10-02
-nine days,九日,ここのか,,九日,NOUN,,,{GENKI3_L13},"{time,counter}",2e662286-dd1f-400d-863f-25cd87582fa4,1194,2023-10-02
-ten days,十日,とおか,,十日,NOUN,,,{GENKI3_L13},"{time,counter}",265cedfc-cd44-4a21-93b2-4bf28f98509a,1195,2023-10-02
-Merry Christmas,メリークリスマス,めりいくりすます,,,INTERJECTION,,,,,4cefc19c-e2d4-4259-829f-1589769f28af,1196,2023-10-05
-Merry Christmas (casual),メリクリ,めりくり,,,INTERJECTION,,,,,3783e4b5-b647-45f6-9948-a03cc7672c21,1197,2023-10-05
+...too much,〜すぎる,〜すぎる,,〜過ぎる,VERB,ICHIDAN_VERB,4,{GENKI3_L12},,792b7884-fa13-4581-8a7e-abb3aec2146b,1108,2023-11-12
+"road, path, street; route",道,みち,,道,NOUN,,5,,{roads},d62c6268-6138-471d-becc-7d7796aac610,1109,2023-08-19
+bridge,橋,はし,,橋,NOUN,,5,,{roads},26a6add0-0043-4dd2-ab3b-6db454a5cd8b,1110,2023-08-19
+road; highway,道路,どうろ,,道路,NOUN,,3,,{roads},85ac9d74-a276-443f-9a2a-eca1bfc7e972,1111,2023-08-19
+freeway; expressway,高速道路,こうそくどうろ,,高速道路,NOUN,,,,{roads},8884b984-cfcb-4537-b6ef-9ea08955506d,1112,2023-08-19
+traffic light; signal,信号,しんごう,,信号,NOUN,,3,,{roads},c959e600-2c26-4884-bfee-700dc412720d,1113,2023-08-19
+traffic circle; roundabout,ロータリー,ろおたりい,,,NOUN,,,,{roads},103cb65d-49a0-455a-ba6a-e134d430d946,1114,2023-08-19
+straight ahead; direct (route),まっすぐ,まっすぐ,,真っ直ぐ,NOUN,,5,,{roads},8c1d005f-3d35-4e4c-852c-3c45e5119617,1115,2023-08-19
+corner; edge,角,かど,,角,NOUN,,5,,,a5b14922-855c-441e-a335-5fdb9209e56f,1116,2023-08-19
+"side (of something, or taking someone's side)",側,がわ,,側,NOUN,,5,,,7686f747-f955-4079-bf34-f23dd9c6fa8e,1117,2023-08-19
+ordinal number suffix,〜目,〜め,,〜目,SUFFIX,,5,,,37a13ec3-c024-4a38-b4de-ad63e1d75b8b,1118,2023-08-19
+"to bend, to curve; to turn",曲がる,まがる,,曲がる,VERB,GODAN_VERB,5,,,e7d2c825-b4a8-47da-9825-fa7db01bf8dd,1119,2023-08-19
+"to cross over, to go across",渡る,わたる,,渡る,VERB,GODAN_VERB,5,,,a118ba7f-e1b5-40e6-97b3-3ffd9a941ee4,1120,2023-08-19
+turn left,左に曲がる,ひだりにまがる,,左に曲がる,EXPRESSION,,,{GENKI3_L06},{directions},70876a31-cbd8-4d8a-9c9f-24daffeab903,1121,2023-08-19
+turn right ,右に曲がる,みぎにまがる,,右に曲がる,EXPRESSION,,,{GENKI3_L06},{directions},681b71c5-6a4d-48d5-abab-8163b3643834,1122,2023-08-19
+go straight ahead,まっすぐ行く,まっすぐいく,,真っ直ぐ行く,EXPRESSION,,,{GENKI3_L06},{directions},2a050671-c33f-454a-93bc-81aef09dc985,1123,2023-08-19
+cross the street,道を渡る,みちおわたる,,道を渡る,EXPRESSION,,,{GENKI3_L06},{directions},694d9251-f941-4423-ae8f-623795994442,1124,2023-08-19
+turn left at the second corner,二つ目の角を左に曲がる,ふたつめのかどおひだりにまがる,,二つ目の角を左に曲がる,EXPRESSION,,,{GENKI3_L06},{directions},11b574a3-d877-4700-8c14-f73f79549d28,1125,2023-08-19
+turn right at the first traffic light,一つ目の信号を右に曲がる,ひとつめのしんごうおみぎにまがる,,一つ目の信号を右に曲がる,EXPRESSION,,,{GENKI3_L06},{directions},20b7ab1e-d446-41ba-83ca-0b8d28b9b93d,1126,2023-08-19
+left side of the street,道の左側,みちのひだりがわ,,道の左側,NOUN,,,{GENKI3_L06},{directions},00e58b4d-a715-410c-afab-08bec93f1274,1127,2023-08-19
+right side of the street,道の右側,みちのみぎがわ,,道の右側,NOUN,,,{GENKI3_L06},{directions},c3b3e9a4-3ace-4b98-9a13-c8f49931c6be,1128,2023-08-19
+deer,鹿,しか,,鹿,NOUN,,,{GENKI3_READER_L06},{animal},8d5224d4-fae7-4c07-bea3-a99ee92a5201,1129,2023-08-19
+dawn,暁,あかつき,,暁,NOUN,,,,,92c80009-73fb-4ad7-85e5-85dc734ebdd8,1130,2023-08-19
+steamed immature soybean dish,枝豆,えだまめ,,枝豆,NOUN,,,,{food},3e3b9c43-a6b3-44b9-91ed-0a7c0713f419,1131,2023-08-19
+sugar,砂糖,さとう,,砂糖,NOUN,,,,{food},75e16084-677e-4356-a7a6-55b5a7acb509,1132,2023-08-19
+stone (liftable),石,いし,,石,NOUN,,,,,ab95ec33-d82d-422a-981d-3897138cf40c,1133,2023-08-19
+prefix for ordinal numbers,第〜,だい〜,,第〜,PREFIX,,1,,,49aedaa1-bdab-4551-84e5-7bc8f3717fcd,1134,2023-08-19
+counter for occurrences,〜回,〜かい,,〜回,COUNTER,,3,{GENKI3_L13},,1e1bf4fd-c4b1-48b5-96ca-b427634e4a92,1135,2023-08-19
+counter for volume of a book counter; rolls of paper,〜巻,〜かん,,〜巻,COUNTER,,,,,fbcbed4b-b36f-4b0a-a4d6-3442c8f335cd,1136,2023-08-19
+"counter for stories, TV episodes, etc",〜話,〜わ,,〜話,COUNTER,,,,,d91afc90-6ea1-4f0f-a88d-5e3db6cdb4ae,1137,2023-08-19
+lesson/chapter counter,〜課,〜か,,〜課,COUNTER,,3,,,c94b72b6-895e-44b1-a422-f33ffdd13e08,1138,2023-09-06
+lesson; company department,課,か,,課,NOUN,,3,,,01b88113-5da4-44b5-88ed-9dd83b4423e7,1139,2023-09-06
+"chapter, section",章,しょう,,章,NOUN,,3,,,c9e049f6-abca-4d42-9317-77227b6321ba,1140,2023-08-19
+book volume one; manga volume one,第１巻,だいいっかん,,第一巻,NOUN,,,,,dd3784df-38c1-4751-86bc-d05a690d5c82,1141,2023-08-19
+television/anime episode one (lit. story number one),第１話,だいいちわ,,第一話,NOUN,,,,,ed38785b-186c-404f-824f-9bc499be075f,1142,2023-08-19
+"first occurence, first time; tv/anime episode one (lit. occurence number one)",第１回,だいいっかい,,第一回,NOUN,,,,,cdf0b243-612d-47aa-85ae-3f785a27065e,1143,2023-08-19
+chapter/section one,第１章,だいいっしょう,,第一章,NOUN,,,,,ef17c3e4-003d-40ad-b6fb-4c0e617c96bc,1144,2023-08-19
+lesson one; company department one,第１課,だいいっか,,第一課,NOUN,,,,,989aff98-06ed-450f-ba46-18dec22384ba,1145,2023-09-06
+adult,大人,おとな,,大人,NOUN,,5,{GENKI3_L13},,1beb4f97-f09f-46ad-86c3-cd7bdfd09150,1146,2023-10-01
+I (formal),私,わたくし,,私,PRONOUN,,,{GENKI3_L13},,fad56bc8-840d-4b06-8551-4fdaaa0eb86d,1147,2023-10-01
+curry,カレー,かれえ,,咖哩,NOUN,,5,{GENKI3_L13},{food},28a11f83-90ae-4e19-a205-b41be20ad72f,1148,2023-10-01
+black tea,紅茶,こうちゃ,,紅茶,NOUN,,5,{GENKI3_L13},{food},e13c86b7-5cde-4fb8-994b-abec2783d466,1149,2023-10-01
+"kimono, traditional dress",着物,きもの,,着物,NOUN,,4,{GENKI3_L13},{clothing},d6fc25ea-75f0-45f4-a5e1-078972da8a70,1150,2023-10-01
+sweater,セーター,せえたあ,,,NOUN,,5,{GENKI3_L13},{clothing},286f3775-7a0e-433a-be70-bb75863c0bd7,1151,2023-10-01
+musical instrument,楽器,がっき,,楽器,NOUN,,2,{GENKI3_L13},{music},98ee6ba8-f451-4235-b337-232b4e21f807,1152,2023-10-01
+karate,空手,からて,,空手,NOUN,,,{GENKI3_L13},{sports},9587795e-675b-40ac-91a3-92e6f75282db,1153,2023-10-01
+golf,ゴルフ,ごるふ,,,NOUN,,,{GENKI3_L13},{sports},32fff803-2d72-407a-98ef-887e8cdb6ac4,1154,2023-10-01
+motorcycle,バイク,ばいく,,,NOUN,,,{GENKI3_L13},{transportation},e319f559-2638-4539-9c5a-c8eb9a67f8d6,1155,2023-10-01
+elephant,象,ぞう,,象,NOUN,,3,{GENKI3_L13},{animal},685cb1a3-3a8c-4282-9493-9496e346bd12,1156,2023-10-01
+foreign language,外国語,がいこくご,,外国語,NOUN,,,{GENKI3_L13},,9421a6d6-b741-4420-a47c-71d3173e0776,1157,2023-10-01
+language,言葉,ことば,,言葉,NOUN,,5,{GENKI3_L13},,5761e779-048f-42e5-bbac-7a886d45065f,1158,2023-10-01
+grammar,文法,ぶんぽう,,文法,NOUN,,4,{GENKI3_L13},,e15354e5-1125-4982-ae84-971eaacd60e4,1159,2023-10-01
+"app, application (computing)",アプリ,あぷり,,,NOUN,,,{GENKI3_L13},,be9bde54-a1ec-436c-8a29-1fee90f6b38c,1160,2023-10-01
+small apartment building; apartment,アパート,あぱあと,,,NOUN,,5,{GENKI3_L13},,26596ea4-c7cd-4e1a-aa8c-0e77f099843a,1161,2023-10-01
+larger apartment building; condominum,マンション,まんしょん,,,NOUN,,2,{GENKI3_L13},,1c1fe474-8207-4ab1-bf81-d20fe8fa58ba,1162,2023-10-01
+(consumer) prices,物価,ぶっか,,物価,NOUN,,3,{GENKI3_L13},,3629ae27-12ba-4e38-a458-82d64e38f3a6,1163,2023-10-01
+advertisements,広告,こうこく,,広告,NOUN,,3,{GENKI3_L13},,fe68e271-6db4-4671-b574-ab8f372589c9,1164,2023-10-01
+"recruitment, taking applications; raising funds",募集,ぼしゅう,,募集,NOUN,,2,{GENKI3_L13},,a7185b72-5b75-4626-8ed7-968e42537401,1165,2023-10-01
+promise; appointment,約束,やくそく,,約束,NOUN,,4,{GENKI3_L13},,5dc48856-8f42-49f9-809d-e9f35f9fe8ba,1166,2023-10-01
+"happy, glad, pleased",嬉しい,うれしい,,嬉しい,ADJECTIVE,I_ADJECTIVE,3,{GENKI3_L13},,1c316eca-4942-496b-a982-cb85c6767fcc,1167,2023-10-01
+sad,悲しい,かなしい,,悲しい,ADJECTIVE,I_ADJECTIVE,4,{GENKI3_L13},,9f12c0fc-9080-4b4c-9d51-acaf87ebd1c5,1168,2023-10-01
+strict,厳しい,きびしい,,厳しい,ADJECTIVE,I_ADJECTIVE,4,{GENKI3_L13},,48024766-080a-43b6-bbe1-cc58991f91a6,1169,2023-10-01
+feeling; mood,気分,きぶん,,気分,NOUN,,4,,,10103df2-4cbe-482b-a25d-1d55b4c24a73,1170,2023-10-01
+feel sick,気分が悪い,きぶんがわるい,,気分が悪い,ADJECTIVE,I_ADJECTIVE,,{GENKI3_L13},,8f07aef3-58c8-4694-815c-c7152c0519ef,1171,2023-10-01
+spicy; salty,辛い,からい,,辛い,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L13},{food},5f937099-cf1d-41c4-9e2d-7cd36e22111a,1172,2023-10-01
+bitter,苦い,にがい,,苦い,ADJECTIVE,I_ADJECTIVE,4,,{food},8abb4aeb-b696-4290-8a94-14630ac1d5ba,1173,2023-10-01
+close; near,近い,ちかい,,近い,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L13},,861a0972-c831-4a99-82aa-30ab5a819cd6,1174,2023-10-01
+"various, a variety of, different kinds of",いろいろ,いろいろ,,色々,ADJECTIVE,NA_ADJECTIVE,5,{GENKI3_L13},,11f63620-8188-454c-b9b6-36478a20244e,1175,2023-10-01
+"happiness, good fortune",幸せ,しあわせ,,幸せ,ADJECTIVE,NA_ADJECTIVE,3,{GENKI3_L13},,7c6bc680-4326-4916-8895-cc43e5b57e26,1176,2023-10-01
+"no good, useless; hopeless",だめ,だめ,,駄目,ADJECTIVE,NA_ADJECTIVE,3,{GENKI3_L13},,442e5965-aa4b-4500-a765-e1548527df40,1177,2023-10-01
+to knit,編む,あむ,,編む,VERB,GODAN_VERB,2,{GENKI3_L13},,309bf230-930f-457c-96a5-0020d4d76a9c,1178,2023-10-02
+to cry,泣く,なく,,泣く,VERB,GODAN_VERB,4,{GENKI3_L13},,35f63b3d-6608-4af3-81a7-cf3e63fc7e16,1179,2023-10-02
+"to brush (teeth), to polish",磨く,みがく,,磨く,VERB,GODAN_VERB,5,{GENKI3_L13},,7b6183f1-fb01-4350-85c7-4fb622e24705,1180,2023-10-02
+"to protect, to guard; to keep, to abide",守る,まもる,,守る,VERB,GODAN_VERB,3,,,32d78cdf-4dc3-41c7-80eb-eaee4bf8c4ea,1181,2023-10-02
+to keep a promise,約束を守る,やくそくをまもる,,約束を守る,VERB,GODAN_VERB,,{GENKI3_L13},,ee3af869-e859-4ef8-8896-9bdbf2fc3b24,1182,2023-10-02
+to be moved/touched by,感動する,かんどうする,,感動する,VERB,SURU_VERB,3,{GENKI3_L13},,b41f80d3-b894-45c0-a37e-7242e7a6e7c0,1183,2023-10-02
+...kilograms; ...kilometers,〜キロ,〜きろ,,,SUFFIX,,5,{GENKI3_L13},,4391ef17-6775-4ad5-92f7-1bd8c97c6994,1184,2023-10-02
+my name is ...,〜と申します,〜ともうします,,〜と申します,EXPRESSION,,,{GENKI3_L13},,e25af6b3-39fc-4cda-a4e2-c6cf0223a167,1185,2023-10-02
+"particularly, especially",特に,とくに,,特に,ADVERB,,1,{GENKI3_L13},,de095c51-ceca-40bd-8bc2-1fa4ba6d8eb4,1186,2023-10-02
+one day,一日,いちにち,,一日,NOUN,,,{GENKI3_L13},"{time,counter}",40b73558-cffa-4240-9074-c55417eee57f,1187,2023-10-02
+two days,二日,ふつか,,二日,NOUN,,,{GENKI3_L13},"{time,counter}",e5efafeb-bcce-4f3d-b968-0d26a0dc3790,1188,2023-10-02
+three days,三日,みっか,,三日,NOUN,,,{GENKI3_L13},"{time,counter}",d4e6437a-5da1-4fa2-bb82-a1a39be9ace1,1189,2023-10-02
+four days,四日,よっか,,四日,NOUN,,,{GENKI3_L13},"{time,counter}",f2ecda3d-93d3-4a74-88e6-fe4c816792a8,1190,2023-10-02
+five days,五日,いつか,,五日,NOUN,,,{GENKI3_L13},"{time,counter}",24c06129-2f73-4fd8-9b2a-fa6dc8309bec,1191,2023-10-02
+six days,六日,むいか,,六日,NOUN,,,{GENKI3_L13},"{time,counter}",9aa76259-1b94-4f3a-bc4d-f11867a5ea02,1192,2023-10-02
+seven days,七日,なのか,,七日,NOUN,,,{GENKI3_L13},"{time,counter}",3b6793f2-af6c-48ad-9d46-7bf82a7c2efe,1193,2023-10-02
+eight days,八日,ようか,,八日,NOUN,,,{GENKI3_L13},"{time,counter}",08094ea3-5e6d-4f87-9285-14af84b44904,1194,2023-10-02
+nine days,九日,ここのか,,九日,NOUN,,,{GENKI3_L13},"{time,counter}",2e662286-dd1f-400d-863f-25cd87582fa4,1195,2023-10-02
+ten days,十日,とおか,,十日,NOUN,,,{GENKI3_L13},"{time,counter}",265cedfc-cd44-4a21-93b2-4bf28f98509a,1196,2023-10-02
+Merry Christmas,メリークリスマス,めりいくりすます,,,INTERJECTION,,,,,4cefc19c-e2d4-4259-829f-1589769f28af,1197,2023-10-05
+Merry Christmas (casual),メリクリ,めりくり,,,INTERJECTION,,,,,3783e4b5-b647-45f6-9948-a03cc7672c21,1198,2023-10-05
