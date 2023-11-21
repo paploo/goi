@@ -17,5 +17,3 @@ internal class VocabularyReader : suspend (Path) -> Result<List<VocabularyCsvRec
             parser.map { VocabularyCsvRecord(it) }
         }
 }
-
-
