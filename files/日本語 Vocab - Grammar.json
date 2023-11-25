@@ -2092,6 +2092,116 @@
     "lesson_codes": ["GENKI3_L10"],
     "tags": []
   },
+  {
+    "COMMENT": "Below is just some initial basic usage. Tofugu has an in depth guide: https://www.tofugu.com/japanese-grammar/question-words/"
+  },
+  {
+    "id": "8b04fdb4-c837-4787-9a77-ccea20b77a04",
+    "title": "〇〇か＿／〇〇＿も",
+    "meaning": "some__/not any__",
+    "how_to_use": [
+      "何か＿ + positive　⟶　something",
+      "何＿も + negative　⟶　not anything",
+      "誰か＿ + positive　⟶　someone",
+      "誰＿も + negative　⟶　not anyone",
+      "どこか＿ + positive　⟶　somewhere",
+      "どこ＿も + negative　⟶　not anywhere",
+      "に, へ, で ⟶ go in underlined position",
+      "は, が, を ⟶ can be omitted"
+    ],
+    "examples": [
+      {
+        "id": "52148959-e4c9-48cd-81d3-720fc0e29685",
+        "meaning": "A: Did you go anywhere?<br/>B: No, I didn't go anywhere.",
+        "text": {
+          "spelling": "Ａ：どこかへ{行|い}きましたか。<br/>Ｂ：いいえ、どこへも{行|い}きませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "c6bb90ce-191f-4320-a3d3-b5ea362ab005",
+        "meaning": "A: Did you see anybody?<br/>B: No, I didn't see anybody.",
+        "text": {
+          "spelling": "Ａ：{誰|だれ}かに{会|あ}いましたか。<br/>Ｂ：いいえ、{誰|だれ}にも{会|あ}いませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "838ea81b-3111-4b8c-875b-322c37193375",
+        "meaning": "A: Did you do anything?<br/>B: No, I didn't do anything.",
+        "text": {
+          "spelling": "Ａ：{何|なに}かましたか。<br/>Ｂ：いいえ、{何|なに}もしませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "d05250b3-2f76-4acf-b4ed-fbb20f832bd5",
+        "meaning": "A: Did you meet anyone at the party?<br/>B: No, I did not meet anyone.",
+        "text": {
+          "spelling": "Ａ：パーティーで{誰|だれ}かに{会|あ}いましたか。<br/>Ｂ：いいえ、{誰|だれ}にも{会|あ}いませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-11-24",
+    "lesson_codes": ["GENKI3_L10"],
+    "tags": []
+  },
+  {
+    "id": "b650b16c-4d67-4b69-aab0-1ac3deac3416",
+    "title": "〜で",
+    "meaning": "Particle for means of transportation and instruments that you use",
+    "how_to_use": [
+      "noun + で"
+    ],
+    "examples": [
+      {
+        "id": "f7c280d7-2700-40d8-babe-364d1b4a1b76",
+        "meaning": "We eat our meals with chopsticks.",
+        "text": {
+          "spelling": "{箸|はし}でご{飯|はん}を{食|た}べます。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "c2c8ee26-0ab5-4b13-8b5f-a10e8e125112",
+        "meaning": "Let's talk in Japanese.",
+        "text": {
+          "spelling": "{日本語|に・ほん・ご}で{話|はな}しましょう。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "0ffd0db7-7e95-45c5-8b88-412fd2f96c9f",
+        "meaning": "I went to the station by bus.",
+        "text": {
+          "spelling": "バスで{駅|えき}まで{行|い}きました。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "c1e9d5a9-c732-4530-97ad-80a305414a99",
+        "meaning": "I saw a movie on TV.",
+        "text": {
+          "spelling": "テレビで{映画|えい・が}を{見|み}ました。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-11-24",
+    "lesson_codes": ["GENKI3_L10"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 11"},
   {"COMMENT": "GENKI LESSON 12"}

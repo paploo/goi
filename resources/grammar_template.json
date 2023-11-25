@@ -32,6 +32,33 @@
       },
       "lesson_codes": ["GENKI3_Lxx"],
       "tags": []
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000000",
+      "meaning": "Example4",
+      "text": {
+        "spelling": "四〇〇"
+      },
+      "lesson_codes": ["GENKI3_Lxx"],
+      "tags": []
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000000",
+      "meaning": "Example5",
+      "text": {
+        "spelling": "五〇〇"
+      },
+      "lesson_codes": ["GENKI3_Lxx"],
+      "tags": []
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000000",
+      "meaning": "Example6",
+      "text": {
+        "spelling": "六〇〇"
+      },
+      "lesson_codes": ["GENKI3_Lxx"],
+      "tags": []
     }
   ],
   "jlpt_level": null,
