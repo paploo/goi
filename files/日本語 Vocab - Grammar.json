@@ -2202,6 +2202,49 @@
     "lesson_codes": ["GENKI3_L10"],
     "tags": []
   },
+  {"COMMENT": "Below is not a formal lesson, but in WB p. 101; last example I constructed after looking up どのぐらい vs どれぐらい, of which in colloquial usage they are usually interchangeable."},
+  {
+    "id": "669a0167-49c4-4c07-aac1-64d4877a9533",
+    "title": "〜から／〜まで",
+    "meaning": "from... / to...",
+    "how_to_use": [
+      "noun + から ⟶ from noun",
+      "noun + まで ⟶ to/until noun"
+    ],
+    "examples": [
+      {
+        "id": "d7b7f0a6-71c1-47b0-a0eb-1ca3ee9c48e0",
+        "meaning": "A: Mary,how do you get from home to North Station?<br/>B: I walk.<br/>A: I see.",
+        "text": {
+          "spelling": "Ａ：メアリーさんは、{家|いえ}から{北駅|きた・えき}までどうやって{行|い}きますか。<br/>Ｂ：{歩|ある}いて{行|い}きます。Ａ：そうですか。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "a6867125-4248-48bb-81a7-5941a5cab996",
+        "meaning": "A: How do you get from North Station to the University?<br/>B: I go by bus.",
+        "text": {
+          "spelling": "Ａ：{北駅|きた・えき}から{大学|だい・がく}までどうやって{行|い}きますか。<br/>Ｂ：バスで{行|い}きます。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "7762073b-f4de-4f4f-b09a-d61d9e5c9b71",
+        "meaning": "A: How long does it take to get to the University?<br/>It takes fifteen minutes.",
+        "text": {
+          "spelling": "Ａ：{大学|だい・がく}まで、どのぐらいかかりますか。<br/>B：{十五分|じゅう・ご・ぶん}かかります。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-11-24",
+    "lesson_codes": ["GENKI3_L10"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 11"},
   {"COMMENT": "GENKI LESSON 12"}
