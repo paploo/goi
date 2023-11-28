@@ -1679,7 +1679,7 @@
         "id": "6f28b5bb-a759-484e-bfc2-337819e68267",
         "meaning": "Q: Did you already memorize your lesson 10 vocabulary?<br/>A: No, I haven't memorized them yet.",
         "text": {
-          "spelling": "Ｑ：もう{十|じゅう}{課|か}の{単語|たん・ご}を{覚|おぼ}えた？<br/>Ａ：ううん、まだ{覚|おぼ}えたいない。"
+          "spelling": "Ｑ：もう{十|じゅう}{課|か}の{単語|たん・ご}を{覚|おぼ}えた？<br/>Ａ：ううん、まだ{覚|おぼ}えていない。"
         },
         "lesson_codes": ["GENKI3_L09"],
         "tags": []
