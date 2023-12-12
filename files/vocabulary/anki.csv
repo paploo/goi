@@ -448,7 +448,7 @@ cf8e1efb-b036-56e8-ad12-5e06f9b26bde,drink(s),飲み物,のみもの,,noun,,5,20
 885a798b-20d9-5279-ba34-8324db75f028,travel; trip; journey,旅行,りょこう,,noun,,5,2022-09-07,443,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l05
 b569a875-d88f-5e2a-b063-0f3f29f06094,sea,海,うみ,,noun,,5,2022-09-07,444,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l05
 b0188056-54cc-55e1-8cbd-418370ed533d,waterway; channel,澪,みお,,noun,,,2022-09-07,445,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-ed499008-cde3-543e-a0d9-693e001b321c,surfing,サーフィン,すうふぃん,,noun,,,2022-09-07,446,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l05
+ed499008-cde3-543e-a0d9-693e001b321c,surfing,サーフィン,さあふぃん,,noun,,,2022-09-07,446,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l05
 fa1bca4b-31a8-5488-a6d9-5b5a3fe927b8,souvenir,お土産,おみやげ,,noun,,4,2022-09-07,447,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l05
 2d402f9c-7727-5394-b6d5-8767371af073,bus,バス,ばす,,noun,,5,2022-09-07,448,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l05
 4c1ba9fa-920a-5646-8869-d84d39e842a3,weather,天気,てんき,,noun,,5,2022-09-07,449,GENKI3_L05,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l05
@@ -1111,169 +1111,172 @@ f09fa12a-9b9b-486d-9094-a639a8624d1c,for the first time,初めて,はじめて,,
 38cff09c-f0dc-4fd8-b223-e426228b6c56,two to three days,二三日,にさんにち,二、三日,noun,,,2023-08-19,1106,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l12
 45ea90e7-b688-470e-852c-d7c18a8a2b23,"besides, in addition, also, moreover",それに,それに,其れに,conjunction,,4,2023-08-19,1107,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,conjunction genki3-l12
 792b7884-fa13-4581-8a7e-abb3aec2146b,...too much,〜すぎる,〜すぎる,〜過ぎる,verb,ichidan verb,4,2023-11-12,1108,GENKI3_L12,〜すぎる,〜すぎた,〜すぎて,,,〜すぎられる,,,,〜すぎます,〜すぎました,,,,〜すぎられます,,,,〜すぎない,〜すぎなかった,〜すぎなくて,,,〜すぎられない,,,,〜すぎません,〜すぎませんでした,,,,〜すぎられません,,,,verb ichidan-verb genki3-l12
-d62c6268-6138-471d-becc-7d7796aac610,"road, path, street; route",道,みち,,noun,,5,2023-08-19,1109,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,roads noun
-26a6add0-0043-4dd2-ab3b-6db454a5cd8b,bridge,橋,はし,,noun,,5,2023-08-19,1110,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,roads noun
-85ac9d74-a276-443f-9a2a-eca1bfc7e972,road; highway,道路,どうろ,,noun,,3,2023-08-19,1111,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,roads noun
-8884b984-cfcb-4537-b6ef-9ea08955506d,freeway; expressway,高速道路,こうそくどうろ,,noun,,,2023-08-19,1112,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,roads noun
-c959e600-2c26-4884-bfee-700dc412720d,traffic light; signal,信号,しんごう,,noun,,3,2023-08-19,1113,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,roads noun
-103cb65d-49a0-455a-ba6a-e134d430d946,traffic circle; roundabout,ロータリー,ろおたりい,,noun,,,2023-08-19,1114,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,roads noun
-8c1d005f-3d35-4e4c-852c-3c45e5119617,straight ahead; direct (route),まっすぐ,まっすぐ,真っ直ぐ,noun,,5,2023-08-19,1115,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,roads noun
-a5b14922-855c-441e-a335-5fdb9209e56f,corner; edge,角,かど,,noun,,5,2023-08-19,1116,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-7686f747-f955-4079-bf34-f23dd9c6fa8e,"side (of something, or taking someone's side)",側,がわ,,noun,,5,2023-08-19,1117,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-37a13ec3-c024-4a38-b4de-ad63e1d75b8b,ordinal number suffix,〜目,〜め,,suffix,,5,2023-08-19,1118,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,suffix
-e7d2c825-b4a8-47da-9825-fa7db01bf8dd,"to bend, to curve; to turn",曲がる,まがる,,verb,godan verb,5,2023-08-19,1119,,曲がる,曲がった,曲がって,,,曲がれる,,,,曲がります,曲がりました,,,,曲がれます,,,,曲がらない,曲がらなかった,曲がらなくて,,,曲がれない,,,,曲がりません,曲がりませんでした,,,,曲がれません,,,,verb godan-verb
-a118ba7f-e1b5-40e6-97b3-3ffd9a941ee4,"to cross over, to go across",渡る,わたる,,verb,godan verb,5,2023-08-19,1120,,渡る,渡った,渡って,,,渡れる,,,,渡ります,渡りました,,,,渡れます,,,,渡らない,渡らなかった,渡らなくて,,,渡れない,,,,渡りません,渡りませんでした,,,,渡れません,,,,verb godan-verb
-70876a31-cbd8-4d8a-9c9f-24daffeab903,turn left,左に曲がる,ひだりにまがる,,expression,,,2023-08-19,1121,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions expression genki3-l06
-681b71c5-6a4d-48d5-abab-8163b3643834,turn right,右に曲がる,みぎにまがる,,expression,,,2023-08-19,1122,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions expression genki3-l06
-2a050671-c33f-454a-93bc-81aef09dc985,go straight ahead,まっすぐ行く,まっすぐいく,真っ直ぐ行く,expression,,,2023-08-19,1123,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions expression genki3-l06
-694d9251-f941-4423-ae8f-623795994442,cross the street,道を渡る,みちおわたる,,expression,,,2023-08-19,1124,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions expression genki3-l06
-11b574a3-d877-4700-8c14-f73f79549d28,turn left at the second corner,二つ目の角を左に曲がる,ふたつめのかどおひだりにまがる,,expression,,,2023-08-19,1125,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions expression genki3-l06
-20b7ab1e-d446-41ba-83ca-0b8d28b9b93d,turn right at the first traffic light,一つ目の信号を右に曲がる,ひとつめのしんごうおみぎにまがる,,expression,,,2023-08-19,1126,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions expression genki3-l06
-00e58b4d-a715-410c-afab-08bec93f1274,left side of the street,道の左側,みちのひだりがわ,,noun,,,2023-08-19,1127,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions noun genki3-l06
-c3b3e9a4-3ace-4b98-9a13-c8f49931c6be,right side of the street,道の右側,みちのみぎがわ,,noun,,,2023-08-19,1128,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions noun genki3-l06
-8d5224d4-fae7-4c07-bea3-a99ee92a5201,deer,鹿,しか,,noun,,,2023-08-19,1129,GENKI3_READER_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,animal noun genki3-reader-l06
-92c80009-73fb-4ad7-85e5-85dc734ebdd8,dawn,暁,あかつき,,noun,,,2023-08-19,1130,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-3e3b9c43-a6b3-44b9-91ed-0a7c0713f419,steamed immature soybean dish,枝豆,えだまめ,,noun,,,2023-08-19,1131,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
-75e16084-677e-4356-a7a6-55b5a7acb509,sugar,砂糖,さとう,,noun,,,2023-08-19,1132,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
-ab95ec33-d82d-422a-981d-3897138cf40c,stone (liftable),石,いし,,noun,,,2023-08-19,1133,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-49aedaa1-bdab-4551-84e5-7bc8f3717fcd,prefix for ordinal numbers,第〜,だい〜,,prefix,,1,2023-08-19,1134,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,prefix
-1e1bf4fd-c4b1-48b5-96ca-b427634e4a92,counter for occurrences,〜回,〜かい,,counter,,3,2023-08-19,1135,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter genki3-l13
-fbcbed4b-b36f-4b0a-a4d6-3442c8f335cd,counter for volume of a book counter; rolls of paper,〜巻,〜かん,,counter,,,2023-08-19,1136,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter
-d91afc90-6ea1-4f0f-a88d-5e3db6cdb4ae,"counter for stories, TV episodes, etc",〜話,〜わ,,counter,,,2023-08-19,1137,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter
-c94b72b6-895e-44b1-a422-f33ffdd13e08,lesson/chapter counter,〜課,〜か,,counter,,3,2023-09-06,1138,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter
-01b88113-5da4-44b5-88ed-9dd83b4423e7,lesson; company department,課,か,,noun,,3,2023-09-06,1139,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-c9e049f6-abca-4d42-9317-77227b6321ba,"chapter, section",章,しょう,,noun,,3,2023-08-19,1140,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-dd3784df-38c1-4751-86bc-d05a690d5c82,book volume one; manga volume one,第１巻,だいいっかん,第一巻,noun,,,2023-08-19,1141,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-ed38785b-186c-404f-824f-9bc499be075f,television/anime episode one (lit. story number one),第１話,だいいちわ,第一話,noun,,,2023-08-19,1142,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-cdf0b243-612d-47aa-85ae-3f785a27065e,"first occurence, first time; tv/anime episode one (lit. occurence number one)",第１回,だいいっかい,第一回,noun,,,2023-08-19,1143,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-ef17c3e4-003d-40ad-b6fb-4c0e617c96bc,chapter/section one,第１章,だいいっしょう,第一章,noun,,,2023-08-19,1144,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-989aff98-06ed-450f-ba46-18dec22384ba,lesson one; company department one,第１課,だいいっか,第一課,noun,,,2023-09-06,1145,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-1beb4f97-f09f-46ad-86c3-cd7bdfd09150,adult,大人,おとな,,noun,,5,2023-10-01,1146,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l13
-fad56bc8-840d-4b06-8551-4fdaaa0eb86d,I (formal),私,わたくし,,pronoun,,,2023-10-01,1147,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pronoun genki3-l13
-28a11f83-90ae-4e19-a205-b41be20ad72f,curry,カレー,かれえ,咖哩,noun,,5,2023-10-01,1148,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun genki3-l13
-e13c86b7-5cde-4fb8-994b-abec2783d466,black tea,紅茶,こうちゃ,,noun,,5,2023-10-01,1149,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun genki3-l13
-d6fc25ea-75f0-45f4-a5e1-078972da8a70,"kimono, traditional dress",着物,きもの,,noun,,4,2023-10-01,1150,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,clothing noun genki3-l13
-286f3775-7a0e-433a-be70-bb75863c0bd7,sweater,セーター,せえたあ,,noun,,5,2023-10-01,1151,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,clothing noun genki3-l13
-98ee6ba8-f451-4235-b337-232b4e21f807,musical instrument,楽器,がっき,,noun,,2,2023-10-01,1152,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,music noun genki3-l13
-9587795e-675b-40ac-91a3-92e6f75282db,karate,空手,からて,,noun,,,2023-10-01,1153,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sports noun genki3-l13
-32fff803-2d72-407a-98ef-887e8cdb6ac4,golf,ゴルフ,ごるふ,,noun,,,2023-10-01,1154,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sports noun genki3-l13
-e319f559-2638-4539-9c5a-c8eb9a67f8d6,motorcycle,バイク,ばいく,,noun,,,2023-10-01,1155,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,transportation noun genki3-l13
-685cb1a3-3a8c-4282-9493-9496e346bd12,elephant,象,ぞう,,noun,,3,2023-10-01,1156,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,animal noun genki3-l13
-9421a6d6-b741-4420-a47c-71d3173e0776,foreign language,外国語,がいこくご,,noun,,,2023-10-01,1157,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l13
-5761e779-048f-42e5-bbac-7a886d45065f,language,言葉,ことば,,noun,,5,2023-10-01,1158,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l13
-e15354e5-1125-4982-ae84-971eaacd60e4,grammar,文法,ぶんぽう,,noun,,4,2023-10-01,1159,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l13
-be9bde54-a1ec-436c-8a29-1fee90f6b38c,"app, application (computing)",アプリ,あぷり,,noun,,,2023-10-01,1160,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l13
-26596ea4-c7cd-4e1a-aa8c-0e77f099843a,small apartment building; apartment,アパート,あぱあと,,noun,,5,2023-10-01,1161,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l13
-1c1fe474-8207-4ab1-bf81-d20fe8fa58ba,larger apartment building; condominum,マンション,まんしょん,,noun,,2,2023-10-01,1162,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l13
-3629ae27-12ba-4e38-a458-82d64e38f3a6,(consumer) prices,物価,ぶっか,,noun,,3,2023-10-01,1163,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l13
-fe68e271-6db4-4671-b574-ab8f372589c9,advertisements,広告,こうこく,,noun,,3,2023-10-01,1164,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l13
-a7185b72-5b75-4626-8ed7-968e42537401,"recruitment, taking applications; raising funds",募集,ぼしゅう,,noun,,2,2023-10-01,1165,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l13
-5dc48856-8f42-49f9-809d-e9f35f9fe8ba,promise; appointment,約束,やくそく,,noun,,4,2023-10-01,1166,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l13
-1c316eca-4942-496b-a982-cb85c6767fcc,"happy, glad, pleased",嬉しい,うれしい,,adjective,i adjective,3,2023-10-01,1167,GENKI3_L13,嬉しい,嬉しかった,嬉しくて,,,,,,,,,,,,,,,,嬉しくない,嬉しくなかった,嬉しくなくて,,,,,,,,,,,,,,,,adjective i-adjective genki3-l13
-9f12c0fc-9080-4b4c-9d51-acaf87ebd1c5,sad,悲しい,かなしい,,adjective,i adjective,4,2023-10-01,1168,GENKI3_L13,悲しい,悲しかった,悲しくて,,,,,,,,,,,,,,,,悲しくない,悲しくなかった,悲しくなくて,,,,,,,,,,,,,,,,adjective i-adjective genki3-l13
-48024766-080a-43b6-bbe1-cc58991f91a6,strict,厳しい,きびしい,,adjective,i adjective,4,2023-10-01,1169,GENKI3_L13,厳しい,厳しかった,厳しくて,,,,,,,,,,,,,,,,厳しくない,厳しくなかった,厳しくなくて,,,,,,,,,,,,,,,,adjective i-adjective genki3-l13
-10103df2-4cbe-482b-a25d-1d55b4c24a73,feeling; mood,気分,きぶん,,noun,,4,2023-10-01,1170,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-8f07aef3-58c8-4694-815c-c7152c0519ef,feel sick,気分が悪い,きぶんがわるい,,adjective,i adjective,,2023-10-01,1171,GENKI3_L13,気分が悪い,気分が悪かった,気分が悪くて,,,,,,,,,,,,,,,,気分が悪くない,気分が悪くなかった,気分が悪くなくて,,,,,,,,,,,,,,,,adjective i-adjective genki3-l13
-5f937099-cf1d-41c4-9e2d-7cd36e22111a,spicy; salty,辛い,からい,,adjective,i adjective,5,2023-10-01,1172,GENKI3_L13,辛い,辛かった,辛くて,,,,,,,,,,,,,,,,辛くない,辛くなかった,辛くなくて,,,,,,,,,,,,,,,,food adjective i-adjective genki3-l13
-8abb4aeb-b696-4290-8a94-14630ac1d5ba,bitter,苦い,にがい,,adjective,i adjective,4,2023-10-01,1173,,苦い,苦かった,苦くて,,,,,,,,,,,,,,,,苦くない,苦くなかった,苦くなくて,,,,,,,,,,,,,,,,food adjective i-adjective
-861a0972-c831-4a99-82aa-30ab5a819cd6,close; near,近い,ちかい,,adjective,i adjective,5,2023-10-01,1174,GENKI3_L13,近い,近かった,近くて,,,,,,,,,,,,,,,,近くない,近くなかった,近くなくて,,,,,,,,,,,,,,,,adjective i-adjective genki3-l13
-11f63620-8188-454c-b9b6-36478a20244e,"various, a variety of, different kinds of",いろいろ,いろいろ,色々,adjective,na adjective,5,2023-10-01,1175,GENKI3_L13,いろいろだ,いろいろだった,いろいろで,,,,,,,,,,,,,,,,いろいろじゃない,いろいろじゃなかった,いろいろではなくて,,,,,,,,,,,,,,,,adjective na-adjective genki3-l13
-7c6bc680-4326-4916-8895-cc43e5b57e26,"happiness, good fortune",幸せ,しあわせ,,adjective,na adjective,3,2023-10-01,1176,GENKI3_L13,幸せだ,幸せだった,幸せで,,,,,,,,,,,,,,,,幸せじゃない,幸せじゃなかった,幸せではなくて,,,,,,,,,,,,,,,,adjective na-adjective genki3-l13
-442e5965-aa4b-4500-a765-e1548527df40,"no good, useless, broken; hopeless",ダメ,だめ,駄目,adjective,na adjective,3,2023-10-01,1177,GENKI3_L13,ダメだ,ダメだった,ダメで,,,,,,,,,,,,,,,,ダメじゃない,ダメじゃなかった,ダメではなくて,,,,,,,,,,,,,,,,adjective na-adjective genki3-l13
-309bf230-930f-457c-96a5-0020d4d76a9c,to knit,編む,あむ,,verb,godan verb,2,2023-10-02,1178,GENKI3_L13,編む,編んだ,編んで,,,編める,,,,編みます,編みました,,,,編めます,,,,編まない,編まなかった,編まなくて,,,編めない,,,,編みません,編みませんでした,,,,編めません,,,,verb godan-verb genki3-l13
-35f63b3d-6608-4af3-81a7-cf3e63fc7e16,to cry,泣く,なく,,verb,godan verb,4,2023-10-02,1179,GENKI3_L13,泣く,泣いた,泣いて,,,泣ける,,,,泣きます,泣きました,,,,泣けます,,,,泣かない,泣かなかった,泣かなくて,,,泣けない,,,,泣きません,泣きませんでした,,,,泣けません,,,,verb godan-verb genki3-l13
-7b6183f1-fb01-4350-85c7-4fb622e24705,"to brush (teeth), to polish",磨く,みがく,,verb,godan verb,5,2023-10-02,1180,GENKI3_L13,磨く,磨いた,磨いて,,,磨ける,,,,磨きます,磨きました,,,,磨けます,,,,磨かない,磨かなかった,磨かなくて,,,磨けない,,,,磨きません,磨きませんでした,,,,磨けません,,,,verb godan-verb genki3-l13
-32d78cdf-4dc3-41c7-80eb-eaee4bf8c4ea,"to protect, to guard; to keep, to abide",守る,まもる,,verb,godan verb,3,2023-10-02,1181,,守る,守った,守って,,,守れる,,,,守ります,守りました,,,,守れます,,,,守らない,守らなかった,守らなくて,,,守れない,,,,守りません,守りませんでした,,,,守れません,,,,verb godan-verb
-ee3af869-e859-4ef8-8896-9bdbf2fc3b24,to keep a promise,約束を守る,やくそくをまもる,,verb,godan verb,,2023-10-02,1182,GENKI3_L13,約束を守る,約束を守った,約束を守って,,,約束を守れる,,,,約束を守ります,約束を守りました,,,,約束を守れます,,,,約束を守らない,約束を守らなかった,約束を守らなくて,,,約束を守れない,,,,約束を守りません,約束を守りませんでした,,,,約束を守れません,,,,verb godan-verb genki3-l13
-b41f80d3-b894-45c0-a37e-7242e7a6e7c0,to be moved/touched by,感動する,かんどうする,,verb,suru verb,3,2023-10-02,1183,GENKI3_L13,感動する,感動した,感動して,,,感動できる,,,,感動します,感動しました,,,,感動できます,,,,感動しない,感動しなかった,感動しなくて,,,感動できない,,,,感動しません,感動しませんでした,,,,感動できません,,,,verb suru-verb genki3-l13
-4391ef17-6775-4ad5-92f7-1bd8c97c6994,...kilograms; ...kilometers,〜キロ,〜きろ,,suffix,,5,2023-10-02,1184,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,suffix genki3-l13
-e25af6b3-39fc-4cda-a4e2-c6cf0223a167,my name is ...,〜と申します,〜ともうします,,expression,,,2023-10-02,1185,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l13
-de095c51-ceca-40bd-8bc2-1fa4ba6d8eb4,"particularly, especially",特に,とくに,,adverb,,1,2023-10-02,1186,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adverb genki3-l13
-40b73558-cffa-4240-9074-c55417eee57f,one day,一日,いちにち,,noun,,,2023-10-02,1187,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter time noun genki3-l13
-e5efafeb-bcce-4f3d-b968-0d26a0dc3790,two days,二日,ふつか,,noun,,,2023-10-02,1188,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter time noun genki3-l13
-d4e6437a-5da1-4fa2-bb82-a1a39be9ace1,three days,三日,みっか,,noun,,,2023-10-02,1189,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter time noun genki3-l13
-f2ecda3d-93d3-4a74-88e6-fe4c816792a8,four days,四日,よっか,,noun,,,2023-10-02,1190,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter time noun genki3-l13
-24c06129-2f73-4fd8-9b2a-fa6dc8309bec,five days,五日,いつか,,noun,,,2023-10-02,1191,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter time noun genki3-l13
-9aa76259-1b94-4f3a-bc4d-f11867a5ea02,six days,六日,むいか,,noun,,,2023-10-02,1192,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter time noun genki3-l13
-3b6793f2-af6c-48ad-9d46-7bf82a7c2efe,seven days,七日,なのか,,noun,,,2023-10-02,1193,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter time noun genki3-l13
-08094ea3-5e6d-4f87-9285-14af84b44904,eight days,八日,ようか,,noun,,,2023-10-02,1194,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter time noun genki3-l13
-2e662286-dd1f-400d-863f-25cd87582fa4,nine days,九日,ここのか,,noun,,,2023-10-02,1195,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter time noun genki3-l13
-265cedfc-cd44-4a21-93b2-4bf28f98509a,ten days,十日,とおか,,noun,,,2023-10-02,1196,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter time noun genki3-l13
-4cefc19c-e2d4-4259-829f-1589769f28af,Merry Christmas,メリークリスマス,めりいくりすます,,interjection,,,2023-10-05,1197,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,interjection
-3783e4b5-b647-45f6-9948-a03cc7672c21,Merry Christmas (casual),メリクリ,めりくり,,interjection,,,2023-10-05,1198,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,interjection
-181478b4-9a22-4426-b724-94df2c2a5e84,New Year,新年,しんえん,,noun,,,2023-11-18,1199,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-8e352f6e-7842-487f-92a6-fe351b8b1b36,to own; to have,持っている,もっている,,verb,ichidan verb,,2023-11-18,1200,,持っている,持っていた,持っていて,,,持っていられる,,,,持っています,持っていました,,,,持っていられます,,,,持っていない,持っていなかった,持っていなくて,,,持っていられない,,,,持っていません,持っていませんでした,,,,持っていられません,,,,verb ichidan-verb
-b4d32d0a-30fc-4fac-808d-128f69dd4290,to sell,売る,うる,,verb,godan verb,5,2023-11-18,1201,GENKI3_L15,売る,売った,売って,,,売れる,,,,売ります,売りました,,,,売れます,,,,売らない,売らなかった,売らなくて,,,売れない,,,,売りません,売りませんでした,,,,売れません,,,,verb godan-verb genki3-l15
-04211c08-138a-4941-835d-6469904d02cb,"unity, solidarity; binding, tying",結束,けっそく,,noun,,1,2023-11-18,1202,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-902e3204-e211-4da7-a9fd-288f30f6d3bd,"back; reverse seid; height, stature",背,せ,,noun,,5,2023-11-18,1203,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-2a6e9fb2-042f-4b5d-a190-829776337ae8,"serious, not joking",マジ,まじ,,adjective,na adjective,,2023-11-18,1204,,マジだ,マジだった,マジで,,,,,,,,,,,,,,,,マジじゃない,マジじゃなかった,マジではなくて,,,,,,,,,,,,,,,,adjective na-adjective
-c2404b29-4cba-4063-a798-b118af1a115d,downtown,町中,まちなか,,noun,,,2023-11-18,1205,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,place noun
-e74bf79e-c945-4d64-b981-601075fe37d6,"harbor, port",港,みなと,,noun,,4,2023-11-18,1206,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,place noun
-b5130048-8edb-40a9-9c53-eb6cdcd6e7b0,bamboo,竹,たけ,,noun,,2,2023-11-18,1207,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-054030ee-33ce-4c8a-b351-46dd79b31fa9,frog,カエル,かえる,蛙,noun,,,2023-11-18,1208,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,animal noun
-776f074f-a248-49d9-9eea-0348640431ee,"crow, raven",鴉,からす,,noun,,,2023-11-18,1209,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,animal noun
-0a9f4857-fbbf-4b4d-a6ad-4cfb93129022,"ice, shaved ice",氷,こおり,,noun,,3,2023-11-18,1210,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
-92541164-0478-4ef9-8eca-45e56a8d1a42,cherry fruit,さくらんぼ,さくらんぼ,桜んぼ,noun,,,2023-11-18,1211,GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun genki3-l10
-4d4d8a79-e4c7-4615-9e6b-123f82cdd124,"crisp, crunchy",サクサク,さくさく,,adverb,,,2023-11-18,1212,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food adverb
-f39f7abe-a6a3-49bf-8f7f-e9b4f51f3500,dango,団子,だんご,,noun,,,2023-11-18,1213,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
-16631071-e36f-4e13-a2e1-45ae32fdc40a,deep fried skewered meat and veggies,串カツ,くしかつ,,noun,,,2023-11-18,1214,GENKI3_READER_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun genki3-reader-l08
-c8fcb654-00d2-4bcf-ba1d-78b1e33ba819,savory panckacke,お好み焼き,おこのみやき,,noun,,,2023-11-18,1215,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
-f6dd6868-21ea-42b0-bd7d-721494b1bfef,dried seaweed,のり,のり,海苔,noun,,,2023-11-18,1216,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
-74eb9b91-73e2-4164-b4ae-961826c9dadf,shellfish,貝類,かいるい,,noun,,,2023-11-18,1217,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
-d7eb8875-cb93-4309-b555-04c2716bceed,shrimp,エビ,えび,海老,noun,,,2023-11-18,1218,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
-5688fb0c-8351-4db7-85c4-1039cda11c49,crab,カニ,かに,蟹,noun,,,2023-11-18,1219,GENKI3_READER_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun genki3-reader-l08
-e76206f2-a22b-4517-9935-631d6d0a99d9,"difference, discrepancy; mistake, error",違い,ちがい,,noun,,3,2023-11-18,1220,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-8ef38715-60fa-4443-9bef-e476483a6d4a,"height, stature",背,せい,,noun,,3,2023-11-18,1221,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-42f9a125-2584-4ce3-82cc-a5df6b816872,"to stop, to cease; to cancel, to abandon",やめる,やめる,止める,verb,ichidan verb,4,2023-11-18,1222,,やめる,やめた,やめて,,,やめられる,,,,やめます,やめました,,,,やめられます,,,,やめない,やめなかった,やめなくて,,,やめられない,,,,やめません,やめませんでした,,,,やめられません,,,,verb ichidan-verb
-60745049-fd2a-4e70-8c8b-0bd618eca679,it can't be helped,しょうがない,しょうがない,仕様がない,expression,,2,2023-11-18,1223,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
-aca7e3d4-f949-4cb6-8ad0-d7255443d2e4,what do I do?; what to do? (usually asking someone else),どうしよう,どうしよう,,expression,,,2023-11-18,1224,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
-1df64f67-6e82-42a9-a25a-9ef2e202f849,I miss you,会いたい,あいたい,,expression,,,2023-11-18,1225,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
-d2e36073-89cf-4072-91bf-e349487a57eb,consultation,相談,そうだん,,noun,,3,2023-11-19,1226,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-8fa2dcd4-0a9d-4d21-87fc-104bf7e42083,"warning; caution; reminder; precaution, looking out for",注意,ちゅうい,,noun,,4,2023-11-19,1227,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-44f7ea33-e1f9-4f21-8ab5-081217de31c3,wife; your wife; his wife; married lady,奥さん,おくさん,,noun,,5,2023-11-19,1228,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,family noun genki3-l14
-9c3cbdeb-8dae-4804-a6cf-2f7344c3a592,your husband; her husband,ご主人,ごしゅじん,,noun,,4,2023-11-19,1229,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,family noun genki3-l14
-194d1a5a-175b-4c27-a5ae-62093e09d0e4,master; my lord,ご主人様,ごしゅじんさま,御主人様,noun,,,2023-11-19,1230,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
-07d4bc56-883f-42e7-9791-161854d206ff,partner,パートナー,ぱあとなあ,,noun,,,2023-11-19,1231,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,family noun genki3-l14
-b00d842e-2262-4a79-baab-bb543a76bab0,uncle; middle-aged man,おじさん,おじさん,,noun,,2,2023-11-19,1232,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,family noun genki3-l14
-af5ec97f-72c9-4a4a-9dab-c4955339640e,aunt; middle-aged woman,おばさん,おばさん,,noun,,5,2023-11-19,1233,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,family noun genki3-l14
-9c72c652-98e9-4f53-9baa-082c3348ca24,landlord; landlady,大家さん,おおやさん,,noun,,,2023-11-19,1234,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l14
-b1532ec0-7fcf-40bc-a13c-461263c3c794,everyone; all of you,皆さん,みなさん,,noun,,5,2023-11-19,1235,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun genki3-l14
-3dce8fbf-18b2-404d-a32f-092bec23b952,chocolate,チョコレート,ちょこれえと,,noun,,,2023-11-19,1236,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun genki3-l14
-86bb3714-3138-42ec-bf0a-7dd971049a4c,sweatshirt,トレーナー,とれえなあ,,noun,,,2023-11-19,1237,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,clothes noun genki3-l14
-8debbbce-0e93-4b08-b8b5-9ca09def17ce,shirt,シャツ,しゃつ,,noun,,5,2023-11-19,1238,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,clothes noun genki3-l14
-9dc339c7-05e7-4c76-aadb-e4250fafb1a3,necktie,ネクタイ,ねくたい,,noun,,5,2023-11-19,1239,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,clothes noun genki3-l14
-4d52e03f-ec2a-48e9-83d3-beb051b3c760,winter scarf,マフラー,まふらあ,,noun,,2,2023-11-19,1240,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,clothes noun genki3-l14
-f3a61406-f690-4044-b319-c6382affa2a4,(finger) ring,指輪,ゆびわ,,noun,,4,2023-11-19,1241,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l14
-96f6c9d3-17e0-4889-a401-78e612e190ab,pencil,鉛筆,えんぴつ,,noun,,5,2023-11-19,1242,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l14
-8ca6e348-19f0-4304-b13c-2fa4003cc13c,stuffed animal,ぬいぐるみ,ぬいぐるみ,縫いぐるみ,noun,,,2023-11-19,1243,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l14
-dbf90a2a-bc7b-4637-8218-43505762e304,comic book,漫画,まんが,,noun,,4,2023-11-19,1244,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l14
-d84f47ca-1c25-483f-9f35-dfbbd646609b,cosmetics,化粧品,けしょうひん,,noun,,,2023-11-19,1245,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l14
-1eb73772-7031-4e1a-b793-dbf7168b2190,radio,ラジオ,らじお,,noun,,,2023-11-19,1246,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l14
-ef62dbea-b0d3-47c1-8441-7806f4efd36b,plate; dish,お皿,おさら,,noun,,5,2023-11-19,1247,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l14
-03613b74-e11c-4179-9dff-7152e3fb09b7,"return gift, return favor; payback",お返し,おかえし,,noun,,,2023-11-19,1248,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l14
-0d15c4f8-0b69-4e6b-a354-1203ab4f3c7b,résumé,履歴書,りれきしょ,,noun,,3,2023-11-19,1249,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l14
-5109f2fc-f961-4504-a7b0-a8040ae4e961,Christmas,クリスマス,くりすます,,noun,,,2023-11-19,1250,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l14
-177345d4-d442-426a-bd7d-9dc4dc2f13ce,Valentine's Day,バレンタインデー,ばれんたいんでえ,,noun,,,2023-11-19,1251,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l14
-09bdbdf4-da91-4d41-8fab-687c041ab595,White Day (reciprocal Valentine's),ホワイトデー,ほわいとでえ,,noun,,,2023-11-19,1252,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l14
-ee4fc0a5-ff05-4161-9de9-ef3b5bab0852,fashionable; stylish,おしゃれ,おしゃれ,お洒落,adjective,na adjective,2,2023-11-20,1253,GENKI3_L14,おしゃれだ,おしゃれだった,おしゃれで,,,,,,,,,,,,,,,,おしゃれじゃない,おしゃれじゃなかった,おしゃれではなくて,,,,,,,,,,,,,,,,adjective na-adjective genki3-l14
-2060f877-8267-4619-9a0e-a96f56fbaa4a,stingy; cheap,ケチ,けち,,adjective,na adjective,3,2023-11-21,1254,GENKI3_L14,ケチだ,ケチだった,ケチで,,,,,,,,,,,,,,,,ケチじゃない,ケチじゃなかった,ケチではなくて,,,,,,,,,,,,,,,,adjective na-adjective genki3-l14
-83863f03-00f0-4942-8622-65e0b62cbba6,to send a thing; to escort a person,送る,おくる,,verb,godan verb,4,2023-11-22,1255,GENKI3_L14,送る,送った,送って,,,送れる,,,,送ります,送りました,,,,送れます,,,,送らない,送らなかった,送らなくて,,,送れない,,,,送りません,送りませんでした,,,,送れません,,,,verb godan-verb genki3-l14
-f34ab9c9-5bd6-4597-87e9-64ef893505c8,"to look good (on somebody); to suit, to match",似合う,にあう,,verb,godan verb,3,2023-11-23,1256,GENKI3_L14,似合う,似合った,似合って,,,似合える,,,,似合います,似合いました,,,,似合えます,,,,似合わない,似合わなかった,似合わなくて,,,似合えない,,,,似合いません,似合いませんでした,,,,似合えません,,,,verb godan-verb genki3-l14
-2f896f1a-2f09-4498-918a-7b571527fe24,to give up,諦める,あきらめる,,verb,ichidan verb,3,2023-11-24,1257,GENKI3_L14,諦める,諦めた,諦めて,,,諦められる,,,,諦めます,諦めました,,,,諦められます,,,,諦めない,諦めなかった,諦めなくて,,,諦められない,,,,諦めません,諦めませんでした,,,,諦められません,,,,verb ichidan-verb genki3-l14
-a509882c-c0bf-4bfc-ad07-36e6decab348,to give (to others),あげる,あげる,上げる,verb,ichidan verb,5,2023-11-25,1258,GENKI3_L14,あげる,あげた,あげて,,,あげられる,,,,あげます,あげました,,,,あげられます,,,,あげない,あげなかった,あげなくて,,,あげられない,,,,あげません,あげませんでした,,,,あげられません,,,,verb ichidan-verb genki3-l14
-d5aa3086-c7df-4301-91e3-83ba327ec3f2,to give (me); to let one have,くれる,くれる,呉れる,verb,ichidan verb,4,2023-11-26,1259,GENKI3_L14,くれる,くれた,くれて,,,くれられる,,,,くれます,くれました,,,,くれられます,,,,くれない,くれなかった,くれなくて,,,くれられない,,,,くれません,くれませんでした,,,,くれられません,,,,verb ichidan-verb genki3-l14
-5f0d2825-593f-4d61-9477-871d62448db7,to be made; to be built​,できる,できる,出来る,verb,ichidan verb,5,2023-11-27,1260,GENKI3_L14,できる,できた,できて,,,できられる,,,,できます,できました,,,,できられます,,,,できない,できなかった,できなくて,,,できられない,,,,できません,できませんでした,,,,できられません,,,,verb ichidan-verb genki3-l14
-7c5df768-bd8d-4e68-b375-fcd69f95e788,to consult,相談する,そうだんする,,verb,suru verb,,2023-11-28,1261,GENKI3_L14,相談する,相談した,相談して,,,相談できる,,,,相談します,相談しました,,,,相談できます,,,,相談しない,相談しなかった,相談しなくて,,,相談できない,,,,相談しません,相談しませんでした,,,,相談できません,,,,verb suru-verb genki3-l14
-be856243-8f6c-457a-adef-b2ede5a1e693,to give warning; to watch out,注意する,ちゅういする,,verb,suru verb,,2023-11-29,1262,GENKI3_L14,注意する,注意した,注意して,,,注意できる,,,,注意します,注意しました,,,,注意できます,,,,注意しない,注意しなかった,注意しなくて,,,注意できない,,,,注意しません,注意しませんでした,,,,注意できません,,,,verb suru-verb genki3-l14
-e4d2aef4-a6a6-4019-bdd9-facea015cc76,to propose marriage,プロポーズする,ぷろぽおずする,,verb,suru verb,,2023-11-30,1263,GENKI3_L14,プロポーズする,プロポーズした,プロポーズして,,,プロポーズできる,,,,プロポーズします,プロポーズしました,,,,プロポーズできます,,,,プロポーズしない,プロポーズしなかった,プロポーズしなくて,,,プロポーズできない,,,,プロポーズしません,プロポーズしませんでした,,,,プロポーズできません,,,,verb suru-verb genki3-l14
-2ef0506a-9030-4d03-b096-6e7facfcf0f9,this sort of; this kind of; like this,こんな〜,こんな〜,,pre noun adjectival,,5,2023-11-30,1264,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pre-noun-adjectival genki3-l14
-842585a9-4a4e-4b16-b186-3a0663bbf687,that sort of; that kind of; like that,そんな〜,そんな〜,,pre noun adjectival,,4,2023-11-30,1265,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pre-noun-adjectival
-f7bef170-2ae0-4cc1-ae97-2e6de80160fe,thas over there sort of; that over there kind of; like that over there,あんな〜,あんな〜,,pre noun adjectival,,4,2023-11-30,1266,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pre-noun-adjectival
-774758cd-73b1-49c2-a097-ae9e8004c292,what kind of; what sort of,どんな〜,どんな〜,,pre noun adjectival,,3,2023-11-30,1267,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pre-noun-adjectival
-940ca614-48dd-4fa7-ae15-b668e3ff9c6c,"quickly, hurriedly; suddenly",急に,きゅうに,,adverb,,3,2023-11-30,1268,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adverb genki3-l14
-71870f61-c2c1-4cec-974c-1ad056c618b7,"come along (encourage others); all right, here goes (indicates resolve); I'm not sure​, uh (indicates hesitation)",さあ,さあ,,expression,,5,2023-11-30,1269,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l14
-a89a9342-a6c2-4ac2-b7c1-084880a34c6b,what should I do?; what am I supposed to do? (usually asking myself),どうしたらいい,どうしたらいい,どうしたら良い,expression,,,2023-11-30,1270,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l14
-f1e04508-6952-4070-b534-3bfa83336da0,counter for bound books,〜冊,〜さつ,,counter,,1,2023-11-30,1271,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter genki3-l14
-fccd9718-46c6-4ae7-b8c0-75403f9af57e,"counter for machines, equipment",〜台,〜だい,,counter,,3,2023-11-30,1272,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter genki3-l14
-9085fa14-563e-44fc-b44a-e2944b5ec6fb,counter for smaller animals,〜匹,〜ひき,,counter,,3,2023-11-30,1273,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter genki3-l14
-45b9cab5-68ce-47f3-ae66-0ddce7ca03fc,"counter for long, cylindrical things; counter for goals",〜本,〜ほん,,counter,,5,2023-11-30,1274,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter genki3-l14
+75fe3e76-a8e1-42a7-bc09-05fc2d88d53e,must... / is necessary... (written),〜なければいけません,〜なければいけません,,expression,,,2023-12-12,1109,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l12
+5a1efa65-9289-4b3c-a9c2-e0d05a3b23ff,must... / is necessary... (colloquial),〜なきゃいけません,〜なきゃいけません,,expression,,,2023-12-12,1110,GENKI3_L12,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l12
+d62c6268-6138-471d-becc-7d7796aac610,"road, path, street; route",道,みち,,noun,,5,2023-08-19,1111,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,roads noun
+26a6add0-0043-4dd2-ab3b-6db454a5cd8b,bridge,橋,はし,,noun,,5,2023-08-19,1112,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,roads noun
+85ac9d74-a276-443f-9a2a-eca1bfc7e972,road; highway,道路,どうろ,,noun,,3,2023-08-19,1113,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,roads noun
+8884b984-cfcb-4537-b6ef-9ea08955506d,freeway; expressway,高速道路,こうそくどうろ,,noun,,,2023-08-19,1114,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,roads noun
+c959e600-2c26-4884-bfee-700dc412720d,traffic light; signal,信号,しんごう,,noun,,3,2023-08-19,1115,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,roads noun
+103cb65d-49a0-455a-ba6a-e134d430d946,traffic circle; roundabout,ロータリー,ろおたりい,,noun,,,2023-08-19,1116,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,roads noun
+8c1d005f-3d35-4e4c-852c-3c45e5119617,straight ahead; direct (route),まっすぐ,まっすぐ,真っ直ぐ,noun,,5,2023-08-19,1117,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,roads noun
+a5b14922-855c-441e-a335-5fdb9209e56f,corner; edge,角,かど,,noun,,5,2023-08-19,1118,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+7686f747-f955-4079-bf34-f23dd9c6fa8e,"side (of something, or taking someone's side)",側,がわ,,noun,,5,2023-08-19,1119,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+37a13ec3-c024-4a38-b4de-ad63e1d75b8b,ordinal number suffix,〜目,〜め,,suffix,,5,2023-08-19,1120,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,suffix
+e7d2c825-b4a8-47da-9825-fa7db01bf8dd,"to bend, to curve; to turn",曲がる,まがる,,verb,godan verb,5,2023-08-19,1121,,曲がる,曲がった,曲がって,,,曲がれる,,,,曲がります,曲がりました,,,,曲がれます,,,,曲がらない,曲がらなかった,曲がらなくて,,,曲がれない,,,,曲がりません,曲がりませんでした,,,,曲がれません,,,,verb godan-verb
+a118ba7f-e1b5-40e6-97b3-3ffd9a941ee4,"to cross over, to go across",渡る,わたる,,verb,godan verb,5,2023-08-19,1122,,渡る,渡った,渡って,,,渡れる,,,,渡ります,渡りました,,,,渡れます,,,,渡らない,渡らなかった,渡らなくて,,,渡れない,,,,渡りません,渡りませんでした,,,,渡れません,,,,verb godan-verb
+70876a31-cbd8-4d8a-9c9f-24daffeab903,turn left,左に曲がる,ひだりにまがる,,expression,,,2023-08-19,1123,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions expression genki3-l06
+681b71c5-6a4d-48d5-abab-8163b3643834,turn right,右に曲がる,みぎにまがる,,expression,,,2023-08-19,1124,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions expression genki3-l06
+2a050671-c33f-454a-93bc-81aef09dc985,go straight ahead,まっすぐ行く,まっすぐいく,真っ直ぐ行く,expression,,,2023-08-19,1125,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions expression genki3-l06
+694d9251-f941-4423-ae8f-623795994442,cross the street,道を渡る,みちおわたる,,expression,,,2023-08-19,1126,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions expression genki3-l06
+11b574a3-d877-4700-8c14-f73f79549d28,turn left at the second corner,二つ目の角を左に曲がる,ふたつめのかどおひだりにまがる,,expression,,,2023-08-19,1127,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions expression genki3-l06
+20b7ab1e-d446-41ba-83ca-0b8d28b9b93d,turn right at the first traffic light,一つ目の信号を右に曲がる,ひとつめのしんごうおみぎにまがる,,expression,,,2023-08-19,1128,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions expression genki3-l06
+00e58b4d-a715-410c-afab-08bec93f1274,left side of the street,道の左側,みちのひだりがわ,,noun,,,2023-08-19,1129,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions noun genki3-l06
+c3b3e9a4-3ace-4b98-9a13-c8f49931c6be,right side of the street,道の右側,みちのみぎがわ,,noun,,,2023-08-19,1130,GENKI3_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,directions noun genki3-l06
+8d5224d4-fae7-4c07-bea3-a99ee92a5201,deer,鹿,しか,,noun,,,2023-08-19,1131,GENKI3_READER_L06,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,animal noun genki3-reader-l06
+92c80009-73fb-4ad7-85e5-85dc734ebdd8,dawn,暁,あかつき,,noun,,,2023-08-19,1132,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+3e3b9c43-a6b3-44b9-91ed-0a7c0713f419,steamed immature soybean dish,枝豆,えだまめ,,noun,,,2023-08-19,1133,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
+75e16084-677e-4356-a7a6-55b5a7acb509,sugar,砂糖,さとう,,noun,,,2023-08-19,1134,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
+ab95ec33-d82d-422a-981d-3897138cf40c,stone (liftable),石,いし,,noun,,,2023-08-19,1135,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+49aedaa1-bdab-4551-84e5-7bc8f3717fcd,prefix for ordinal numbers,第〜,だい〜,,prefix,,1,2023-08-19,1136,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,prefix
+1e1bf4fd-c4b1-48b5-96ca-b427634e4a92,counter for occurrences,〜回,〜かい,,counter,,3,2023-08-19,1137,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter genki3-l13
+fbcbed4b-b36f-4b0a-a4d6-3442c8f335cd,counter for volume of a book counter; rolls of paper,〜巻,〜かん,,counter,,,2023-08-19,1138,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter
+d91afc90-6ea1-4f0f-a88d-5e3db6cdb4ae,"counter for stories, TV episodes, etc",〜話,〜わ,,counter,,,2023-08-19,1139,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter
+c94b72b6-895e-44b1-a422-f33ffdd13e08,lesson/chapter counter,〜課,〜か,,counter,,3,2023-09-06,1140,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter
+01b88113-5da4-44b5-88ed-9dd83b4423e7,lesson; company department,課,か,,noun,,3,2023-09-06,1141,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+c9e049f6-abca-4d42-9317-77227b6321ba,"chapter, section",章,しょう,,noun,,3,2023-08-19,1142,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+dd3784df-38c1-4751-86bc-d05a690d5c82,book volume one; manga volume one,第１巻,だいいっかん,第一巻,noun,,,2023-08-19,1143,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+ed38785b-186c-404f-824f-9bc499be075f,television/anime episode one (lit. story number one),第１話,だいいちわ,第一話,noun,,,2023-08-19,1144,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+cdf0b243-612d-47aa-85ae-3f785a27065e,"first occurence, first time; tv/anime episode one (lit. occurence number one)",第１回,だいいっかい,第一回,noun,,,2023-08-19,1145,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+ef17c3e4-003d-40ad-b6fb-4c0e617c96bc,chapter/section one,第１章,だいいっしょう,第一章,noun,,,2023-08-19,1146,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+989aff98-06ed-450f-ba46-18dec22384ba,lesson one; company department one,第１課,だいいっか,第一課,noun,,,2023-09-06,1147,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+1beb4f97-f09f-46ad-86c3-cd7bdfd09150,adult,大人,おとな,,noun,,5,2023-10-01,1148,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l13
+fad56bc8-840d-4b06-8551-4fdaaa0eb86d,I (formal),私,わたくし,,pronoun,,,2023-10-01,1149,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pronoun genki3-l13
+28a11f83-90ae-4e19-a205-b41be20ad72f,curry,カレー,かれえ,咖哩,noun,,5,2023-10-01,1150,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun genki3-l13
+e13c86b7-5cde-4fb8-994b-abec2783d466,black tea,紅茶,こうちゃ,,noun,,5,2023-10-01,1151,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun genki3-l13
+d6fc25ea-75f0-45f4-a5e1-078972da8a70,"kimono, traditional dress",着物,きもの,,noun,,4,2023-10-01,1152,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,clothing noun genki3-l13
+286f3775-7a0e-433a-be70-bb75863c0bd7,sweater,セーター,せえたあ,,noun,,5,2023-10-01,1153,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,clothing noun genki3-l13
+98ee6ba8-f451-4235-b337-232b4e21f807,musical instrument,楽器,がっき,,noun,,2,2023-10-01,1154,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,music noun genki3-l13
+9587795e-675b-40ac-91a3-92e6f75282db,karate,空手,からて,,noun,,,2023-10-01,1155,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sports noun genki3-l13
+32fff803-2d72-407a-98ef-887e8cdb6ac4,golf,ゴルフ,ごるふ,,noun,,,2023-10-01,1156,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sports noun genki3-l13
+e319f559-2638-4539-9c5a-c8eb9a67f8d6,motorcycle,バイク,ばいく,,noun,,,2023-10-01,1157,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,transportation noun genki3-l13
+685cb1a3-3a8c-4282-9493-9496e346bd12,elephant,象,ぞう,,noun,,3,2023-10-01,1158,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,animal noun genki3-l13
+9421a6d6-b741-4420-a47c-71d3173e0776,foreign language,外国語,がいこくご,,noun,,,2023-10-01,1159,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l13
+5761e779-048f-42e5-bbac-7a886d45065f,language,言葉,ことば,,noun,,5,2023-10-01,1160,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l13
+e15354e5-1125-4982-ae84-971eaacd60e4,grammar,文法,ぶんぽう,,noun,,4,2023-10-01,1161,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l13
+be9bde54-a1ec-436c-8a29-1fee90f6b38c,"app, application (computing)",アプリ,あぷり,,noun,,,2023-10-01,1162,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l13
+26596ea4-c7cd-4e1a-aa8c-0e77f099843a,small apartment building; apartment,アパート,あぱあと,,noun,,5,2023-10-01,1163,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l13
+1c1fe474-8207-4ab1-bf81-d20fe8fa58ba,larger apartment building; condominum,マンション,まんしょん,,noun,,2,2023-10-01,1164,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l13
+3629ae27-12ba-4e38-a458-82d64e38f3a6,(consumer) prices,物価,ぶっか,,noun,,3,2023-10-01,1165,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l13
+fe68e271-6db4-4671-b574-ab8f372589c9,advertisements,広告,こうこく,,noun,,3,2023-10-01,1166,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l13
+a7185b72-5b75-4626-8ed7-968e42537401,"recruitment, taking applications; raising funds",募集,ぼしゅう,,noun,,2,2023-10-01,1167,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l13
+5dc48856-8f42-49f9-809d-e9f35f9fe8ba,promise; appointment,約束,やくそく,,noun,,4,2023-10-01,1168,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l13
+1c316eca-4942-496b-a982-cb85c6767fcc,"happy, glad, pleased",嬉しい,うれしい,,adjective,i adjective,3,2023-10-01,1169,GENKI3_L13,嬉しい,嬉しかった,嬉しくて,,,,,,,,,,,,,,,,嬉しくない,嬉しくなかった,嬉しくなくて,,,,,,,,,,,,,,,,adjective i-adjective genki3-l13
+9f12c0fc-9080-4b4c-9d51-acaf87ebd1c5,sad,悲しい,かなしい,,adjective,i adjective,4,2023-10-01,1170,GENKI3_L13,悲しい,悲しかった,悲しくて,,,,,,,,,,,,,,,,悲しくない,悲しくなかった,悲しくなくて,,,,,,,,,,,,,,,,adjective i-adjective genki3-l13
+48024766-080a-43b6-bbe1-cc58991f91a6,strict,厳しい,きびしい,,adjective,i adjective,4,2023-10-01,1171,GENKI3_L13,厳しい,厳しかった,厳しくて,,,,,,,,,,,,,,,,厳しくない,厳しくなかった,厳しくなくて,,,,,,,,,,,,,,,,adjective i-adjective genki3-l13
+10103df2-4cbe-482b-a25d-1d55b4c24a73,feeling; mood,気分,きぶん,,noun,,4,2023-10-01,1172,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+8f07aef3-58c8-4694-815c-c7152c0519ef,feel sick,気分が悪い,きぶんがわるい,,adjective,i adjective,,2023-10-01,1173,GENKI3_L13,気分が悪い,気分が悪かった,気分が悪くて,,,,,,,,,,,,,,,,気分が悪くない,気分が悪くなかった,気分が悪くなくて,,,,,,,,,,,,,,,,adjective i-adjective genki3-l13
+5f937099-cf1d-41c4-9e2d-7cd36e22111a,spicy; salty,辛い,からい,,adjective,i adjective,5,2023-10-01,1174,GENKI3_L13,辛い,辛かった,辛くて,,,,,,,,,,,,,,,,辛くない,辛くなかった,辛くなくて,,,,,,,,,,,,,,,,food adjective i-adjective genki3-l13
+8abb4aeb-b696-4290-8a94-14630ac1d5ba,bitter,苦い,にがい,,adjective,i adjective,4,2023-10-01,1175,,苦い,苦かった,苦くて,,,,,,,,,,,,,,,,苦くない,苦くなかった,苦くなくて,,,,,,,,,,,,,,,,food adjective i-adjective
+861a0972-c831-4a99-82aa-30ab5a819cd6,close; near,近い,ちかい,,adjective,i adjective,5,2023-10-01,1176,GENKI3_L13,近い,近かった,近くて,,,,,,,,,,,,,,,,近くない,近くなかった,近くなくて,,,,,,,,,,,,,,,,adjective i-adjective genki3-l13
+11f63620-8188-454c-b9b6-36478a20244e,"various, a variety of, different kinds of",いろいろ,いろいろ,色々,adjective,na adjective,5,2023-10-01,1177,GENKI3_L13,いろいろだ,いろいろだった,いろいろで,,,,,,,,,,,,,,,,いろいろじゃない,いろいろじゃなかった,いろいろではなくて,,,,,,,,,,,,,,,,adjective na-adjective genki3-l13
+7c6bc680-4326-4916-8895-cc43e5b57e26,"happiness, good fortune",幸せ,しあわせ,,adjective,na adjective,3,2023-10-01,1178,GENKI3_L13,幸せだ,幸せだった,幸せで,,,,,,,,,,,,,,,,幸せじゃない,幸せじゃなかった,幸せではなくて,,,,,,,,,,,,,,,,adjective na-adjective genki3-l13
+442e5965-aa4b-4500-a765-e1548527df40,"no good, useless, broken; hopeless",ダメ,だめ,駄目,adjective,na adjective,3,2023-10-01,1179,GENKI3_L13,ダメだ,ダメだった,ダメで,,,,,,,,,,,,,,,,ダメじゃない,ダメじゃなかった,ダメではなくて,,,,,,,,,,,,,,,,adjective na-adjective genki3-l13
+309bf230-930f-457c-96a5-0020d4d76a9c,to knit,編む,あむ,,verb,godan verb,2,2023-10-02,1180,GENKI3_L13,編む,編んだ,編んで,,,編める,,,,編みます,編みました,,,,編めます,,,,編まない,編まなかった,編まなくて,,,編めない,,,,編みません,編みませんでした,,,,編めません,,,,verb godan-verb genki3-l13
+35f63b3d-6608-4af3-81a7-cf3e63fc7e16,to cry,泣く,なく,,verb,godan verb,4,2023-10-02,1181,GENKI3_L13,泣く,泣いた,泣いて,,,泣ける,,,,泣きます,泣きました,,,,泣けます,,,,泣かない,泣かなかった,泣かなくて,,,泣けない,,,,泣きません,泣きませんでした,,,,泣けません,,,,verb godan-verb genki3-l13
+7b6183f1-fb01-4350-85c7-4fb622e24705,"to brush (teeth), to polish",磨く,みがく,,verb,godan verb,5,2023-10-02,1182,GENKI3_L13,磨く,磨いた,磨いて,,,磨ける,,,,磨きます,磨きました,,,,磨けます,,,,磨かない,磨かなかった,磨かなくて,,,磨けない,,,,磨きません,磨きませんでした,,,,磨けません,,,,verb godan-verb genki3-l13
+32d78cdf-4dc3-41c7-80eb-eaee4bf8c4ea,"to protect, to guard; to keep, to abide",守る,まもる,,verb,godan verb,3,2023-10-02,1183,,守る,守った,守って,,,守れる,,,,守ります,守りました,,,,守れます,,,,守らない,守らなかった,守らなくて,,,守れない,,,,守りません,守りませんでした,,,,守れません,,,,verb godan-verb
+ee3af869-e859-4ef8-8896-9bdbf2fc3b24,to keep a promise,約束を守る,やくそくをまもる,,verb,godan verb,,2023-10-02,1184,GENKI3_L13,約束を守る,約束を守った,約束を守って,,,約束を守れる,,,,約束を守ります,約束を守りました,,,,約束を守れます,,,,約束を守らない,約束を守らなかった,約束を守らなくて,,,約束を守れない,,,,約束を守りません,約束を守りませんでした,,,,約束を守れません,,,,verb godan-verb genki3-l13
+b41f80d3-b894-45c0-a37e-7242e7a6e7c0,to be moved/touched by,感動する,かんどうする,,verb,suru verb,3,2023-10-02,1185,GENKI3_L13,感動する,感動した,感動して,,,感動できる,,,,感動します,感動しました,,,,感動できます,,,,感動しない,感動しなかった,感動しなくて,,,感動できない,,,,感動しません,感動しませんでした,,,,感動できません,,,,verb suru-verb genki3-l13
+4391ef17-6775-4ad5-92f7-1bd8c97c6994,...kilograms; ...kilometers,〜キロ,〜きろ,,suffix,,5,2023-10-02,1186,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,suffix genki3-l13
+e25af6b3-39fc-4cda-a4e2-c6cf0223a167,my name is ...,〜と申します,〜ともうします,,expression,,,2023-10-02,1187,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l13
+de095c51-ceca-40bd-8bc2-1fa4ba6d8eb4,"particularly, especially",特に,とくに,,adverb,,1,2023-10-02,1188,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adverb genki3-l13
+40b73558-cffa-4240-9074-c55417eee57f,one day,一日,いちにち,,noun,,,2023-10-02,1189,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter time noun genki3-l13
+e5efafeb-bcce-4f3d-b968-0d26a0dc3790,two days,二日,ふつか,,noun,,,2023-10-02,1190,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter time noun genki3-l13
+d4e6437a-5da1-4fa2-bb82-a1a39be9ace1,three days,三日,みっか,,noun,,,2023-10-02,1191,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter time noun genki3-l13
+f2ecda3d-93d3-4a74-88e6-fe4c816792a8,four days,四日,よっか,,noun,,,2023-10-02,1192,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter time noun genki3-l13
+24c06129-2f73-4fd8-9b2a-fa6dc8309bec,five days,五日,いつか,,noun,,,2023-10-02,1193,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter time noun genki3-l13
+9aa76259-1b94-4f3a-bc4d-f11867a5ea02,six days,六日,むいか,,noun,,,2023-10-02,1194,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter time noun genki3-l13
+3b6793f2-af6c-48ad-9d46-7bf82a7c2efe,seven days,七日,なのか,,noun,,,2023-10-02,1195,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter time noun genki3-l13
+08094ea3-5e6d-4f87-9285-14af84b44904,eight days,八日,ようか,,noun,,,2023-10-02,1196,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter time noun genki3-l13
+2e662286-dd1f-400d-863f-25cd87582fa4,nine days,九日,ここのか,,noun,,,2023-10-02,1197,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter time noun genki3-l13
+265cedfc-cd44-4a21-93b2-4bf28f98509a,ten days,十日,とおか,,noun,,,2023-10-02,1198,GENKI3_L13,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter time noun genki3-l13
+4cefc19c-e2d4-4259-829f-1589769f28af,Merry Christmas,メリークリスマス,めりいくりすます,,interjection,,,2023-10-05,1199,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,interjection
+3783e4b5-b647-45f6-9948-a03cc7672c21,Merry Christmas (casual),メリクリ,めりくり,,interjection,,,2023-10-05,1200,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,interjection
+181478b4-9a22-4426-b724-94df2c2a5e84,New Year,新年,しんえん,,noun,,,2023-11-18,1201,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+8e352f6e-7842-487f-92a6-fe351b8b1b36,to own; to have,持っている,もっている,,verb,ichidan verb,,2023-11-18,1202,,持っている,持っていた,持っていて,,,持っていられる,,,,持っています,持っていました,,,,持っていられます,,,,持っていない,持っていなかった,持っていなくて,,,持っていられない,,,,持っていません,持っていませんでした,,,,持っていられません,,,,verb ichidan-verb
+b4d32d0a-30fc-4fac-808d-128f69dd4290,to sell,売る,うる,,verb,godan verb,5,2023-11-18,1203,GENKI3_L15,売る,売った,売って,,,売れる,,,,売ります,売りました,,,,売れます,,,,売らない,売らなかった,売らなくて,,,売れない,,,,売りません,売りませんでした,,,,売れません,,,,verb godan-verb genki3-l15
+04211c08-138a-4941-835d-6469904d02cb,"unity, solidarity; binding, tying",結束,けっそく,,noun,,1,2023-11-18,1204,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+902e3204-e211-4da7-a9fd-288f30f6d3bd,"back; reverse side; height, stature",背,せ,,noun,,5,2023-11-18,1205,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+2a6e9fb2-042f-4b5d-a190-829776337ae8,"serious, not joking",マジ,まじ,,adjective,na adjective,,2023-11-18,1206,,マジだ,マジだった,マジで,,,,,,,,,,,,,,,,マジじゃない,マジじゃなかった,マジではなくて,,,,,,,,,,,,,,,,adjective na-adjective
+5ff855a7-1e69-432f-aec0-3a2aa2205884,seriously?!; really?!,マジで,まじで,,expression,,,2023-12-10,1207,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
+c2404b29-4cba-4063-a798-b118af1a115d,downtown,町中,まちなか,,noun,,,2023-11-18,1208,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,place noun
+e74bf79e-c945-4d64-b981-601075fe37d6,"harbor, port",港,みなと,,noun,,4,2023-11-18,1209,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,place noun
+b5130048-8edb-40a9-9c53-eb6cdcd6e7b0,bamboo,竹,たけ,,noun,,2,2023-11-18,1210,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+054030ee-33ce-4c8a-b351-46dd79b31fa9,frog,カエル,かえる,蛙,noun,,,2023-11-18,1211,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,animal noun
+776f074f-a248-49d9-9eea-0348640431ee,"crow, raven",鴉,からす,,noun,,,2023-11-18,1212,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,animal noun
+0a9f4857-fbbf-4b4d-a6ad-4cfb93129022,"ice, shaved ice",氷,こおり,,noun,,3,2023-11-18,1213,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
+92541164-0478-4ef9-8eca-45e56a8d1a42,cherry fruit,さくらんぼ,さくらんぼ,桜んぼ,noun,,,2023-11-18,1214,GENKI3_L10,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun genki3-l10
+4d4d8a79-e4c7-4615-9e6b-123f82cdd124,"crisp, crunchy",サクサク,さくさく,,adverb,,,2023-11-18,1215,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food adverb
+f39f7abe-a6a3-49bf-8f7f-e9b4f51f3500,dango,団子,だんご,,noun,,,2023-11-18,1216,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
+16631071-e36f-4e13-a2e1-45ae32fdc40a,deep fried skewered meat and veggies,串カツ,くしかつ,,noun,,,2023-11-18,1217,GENKI3_READER_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun genki3-reader-l08
+c8fcb654-00d2-4bcf-ba1d-78b1e33ba819,savory panckacke,お好み焼き,おこのみやき,,noun,,,2023-11-18,1218,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
+f6dd6868-21ea-42b0-bd7d-721494b1bfef,dried seaweed,のり,のり,海苔,noun,,,2023-11-18,1219,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
+74eb9b91-73e2-4164-b4ae-961826c9dadf,shellfish,貝類,かいるい,,noun,,,2023-11-18,1220,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
+d7eb8875-cb93-4309-b555-04c2716bceed,shrimp,エビ,えび,海老,noun,,,2023-11-18,1221,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
+5688fb0c-8351-4db7-85c4-1039cda11c49,crab,カニ,かに,蟹,noun,,,2023-11-18,1222,GENKI3_READER_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun genki3-reader-l08
+e76206f2-a22b-4517-9935-631d6d0a99d9,"difference, discrepancy; mistake, error",違い,ちがい,,noun,,3,2023-11-18,1223,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+8ef38715-60fa-4443-9bef-e476483a6d4a,"height, stature",背,せい,,noun,,3,2023-11-18,1224,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+42f9a125-2584-4ce3-82cc-a5df6b816872,"to stop, to cease; to cancel, to abandon",やめる,やめる,止める,verb,ichidan verb,4,2023-11-18,1225,,やめる,やめた,やめて,,,やめられる,,,,やめます,やめました,,,,やめられます,,,,やめない,やめなかった,やめなくて,,,やめられない,,,,やめません,やめませんでした,,,,やめられません,,,,verb ichidan-verb
+60745049-fd2a-4e70-8c8b-0bd618eca679,it can't be helped,しょうがない,しょうがない,仕様がない,expression,,2,2023-11-18,1226,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
+aca7e3d4-f949-4cb6-8ad0-d7255443d2e4,what do I do?; what to do? (usually asking someone else),どうしよう,どうしよう,,expression,,,2023-11-18,1227,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
+1df64f67-6e82-42a9-a25a-9ef2e202f849,I miss you,会いたい,あいたい,,expression,,,2023-11-18,1228,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
+d2e36073-89cf-4072-91bf-e349487a57eb,consultation,相談,そうだん,,noun,,3,2023-11-19,1229,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+8fa2dcd4-0a9d-4d21-87fc-104bf7e42083,"warning; caution; reminder; precaution, looking out for",注意,ちゅうい,,noun,,4,2023-11-19,1230,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+44f7ea33-e1f9-4f21-8ab5-081217de31c3,wife; your wife; his wife; married lady,奥さん,おくさん,,noun,,5,2023-11-19,1231,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,family noun genki3-l14
+9c3cbdeb-8dae-4804-a6cf-2f7344c3a592,your husband; her husband,ご主人,ごしゅじん,,noun,,4,2023-11-19,1232,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,family noun genki3-l14
+194d1a5a-175b-4c27-a5ae-62093e09d0e4,master; my lord,ご主人様,ごしゅじんさま,御主人様,noun,,,2023-11-19,1233,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+07d4bc56-883f-42e7-9791-161854d206ff,partner,パートナー,ぱあとなあ,,noun,,,2023-11-19,1234,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,family noun genki3-l14
+b00d842e-2262-4a79-baab-bb543a76bab0,uncle; middle-aged man,おじさん,おじさん,,noun,,2,2023-11-19,1235,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,family noun genki3-l14
+af5ec97f-72c9-4a4a-9dab-c4955339640e,aunt; middle-aged woman,おばさん,おばさん,,noun,,5,2023-11-19,1236,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,family noun genki3-l14
+9c72c652-98e9-4f53-9baa-082c3348ca24,landlord; landlady,大家さん,おおやさん,,noun,,,2023-11-19,1237,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l14
+b1532ec0-7fcf-40bc-a13c-461263c3c794,everyone; all of you,皆さん,みなさん,,noun,,5,2023-11-19,1238,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun genki3-l14
+3dce8fbf-18b2-404d-a32f-092bec23b952,chocolate,チョコレート,ちょこれえと,,noun,,,2023-11-19,1239,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun genki3-l14
+86bb3714-3138-42ec-bf0a-7dd971049a4c,sweatshirt,トレーナー,とれえなあ,,noun,,,2023-11-19,1240,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,clothes noun genki3-l14
+8debbbce-0e93-4b08-b8b5-9ca09def17ce,shirt,シャツ,しゃつ,,noun,,5,2023-11-19,1241,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,clothes noun genki3-l14
+9dc339c7-05e7-4c76-aadb-e4250fafb1a3,necktie,ネクタイ,ねくたい,,noun,,5,2023-11-19,1242,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,clothes noun genki3-l14
+4d52e03f-ec2a-48e9-83d3-beb051b3c760,winter scarf,マフラー,まふらあ,,noun,,2,2023-11-19,1243,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,clothes noun genki3-l14
+f3a61406-f690-4044-b319-c6382affa2a4,(finger) ring,指輪,ゆびわ,,noun,,4,2023-11-19,1244,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l14
+96f6c9d3-17e0-4889-a401-78e612e190ab,pencil,鉛筆,えんぴつ,,noun,,5,2023-11-19,1245,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l14
+8ca6e348-19f0-4304-b13c-2fa4003cc13c,stuffed animal,ぬいぐるみ,ぬいぐるみ,縫いぐるみ,noun,,,2023-11-19,1246,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l14
+dbf90a2a-bc7b-4637-8218-43505762e304,comic book,漫画,まんが,,noun,,4,2023-11-19,1247,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l14
+d84f47ca-1c25-483f-9f35-dfbbd646609b,cosmetics,化粧品,けしょうひん,,noun,,,2023-11-19,1248,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l14
+1eb73772-7031-4e1a-b793-dbf7168b2190,radio,ラジオ,らじお,,noun,,,2023-11-19,1249,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l14
+ef62dbea-b0d3-47c1-8441-7806f4efd36b,plate; dish,お皿,おさら,,noun,,5,2023-11-19,1250,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l14
+03613b74-e11c-4179-9dff-7152e3fb09b7,"return gift, return favor; payback",お返し,おかえし,,noun,,,2023-11-19,1251,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l14
+0d15c4f8-0b69-4e6b-a354-1203ab4f3c7b,résumé,履歴書,りれきしょ,,noun,,3,2023-11-19,1252,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l14
+5109f2fc-f961-4504-a7b0-a8040ae4e961,Christmas,クリスマス,くりすます,,noun,,,2023-11-19,1253,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l14
+177345d4-d442-426a-bd7d-9dc4dc2f13ce,Valentine's Day,バレンタインデー,ばれんたいんでえ,,noun,,,2023-11-19,1254,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l14
+09bdbdf4-da91-4d41-8fab-687c041ab595,White Day (reciprocal Valentine's),ホワイトデー,ほわいとでえ,,noun,,,2023-11-19,1255,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l14
+ee4fc0a5-ff05-4161-9de9-ef3b5bab0852,fashionable; stylish,おしゃれ,おしゃれ,お洒落,adjective,na adjective,2,2023-11-20,1256,GENKI3_L14,おしゃれだ,おしゃれだった,おしゃれで,,,,,,,,,,,,,,,,おしゃれじゃない,おしゃれじゃなかった,おしゃれではなくて,,,,,,,,,,,,,,,,adjective na-adjective genki3-l14
+2060f877-8267-4619-9a0e-a96f56fbaa4a,stingy; cheap,ケチ,けち,,adjective,na adjective,3,2023-11-21,1257,GENKI3_L14,ケチだ,ケチだった,ケチで,,,,,,,,,,,,,,,,ケチじゃない,ケチじゃなかった,ケチではなくて,,,,,,,,,,,,,,,,adjective na-adjective genki3-l14
+83863f03-00f0-4942-8622-65e0b62cbba6,to send a thing; to escort a person,送る,おくる,,verb,godan verb,4,2023-11-22,1258,GENKI3_L14,送る,送った,送って,,,送れる,,,,送ります,送りました,,,,送れます,,,,送らない,送らなかった,送らなくて,,,送れない,,,,送りません,送りませんでした,,,,送れません,,,,verb godan-verb genki3-l14
+f34ab9c9-5bd6-4597-87e9-64ef893505c8,"to look good (on somebody); to suit, to match",似合う,にあう,,verb,godan verb,3,2023-11-23,1259,GENKI3_L14,似合う,似合った,似合って,,,似合える,,,,似合います,似合いました,,,,似合えます,,,,似合わない,似合わなかった,似合わなくて,,,似合えない,,,,似合いません,似合いませんでした,,,,似合えません,,,,verb godan-verb genki3-l14
+2f896f1a-2f09-4498-918a-7b571527fe24,to give up,諦める,あきらめる,,verb,ichidan verb,3,2023-11-24,1260,GENKI3_L14,諦める,諦めた,諦めて,,,諦められる,,,,諦めます,諦めました,,,,諦められます,,,,諦めない,諦めなかった,諦めなくて,,,諦められない,,,,諦めません,諦めませんでした,,,,諦められません,,,,verb ichidan-verb genki3-l14
+a509882c-c0bf-4bfc-ad07-36e6decab348,to give (to others),あげる,あげる,上げる,verb,ichidan verb,5,2023-11-25,1261,GENKI3_L14,あげる,あげた,あげて,,,あげられる,,,,あげます,あげました,,,,あげられます,,,,あげない,あげなかった,あげなくて,,,あげられない,,,,あげません,あげませんでした,,,,あげられません,,,,verb ichidan-verb genki3-l14
+d5aa3086-c7df-4301-91e3-83ba327ec3f2,to give (me); to let one have,くれる,くれる,呉れる,verb,ichidan verb,4,2023-11-26,1262,GENKI3_L14,くれる,くれた,くれて,,,くれられる,,,,くれます,くれました,,,,くれられます,,,,くれない,くれなかった,くれなくて,,,くれられない,,,,くれません,くれませんでした,,,,くれられません,,,,verb ichidan-verb genki3-l14
+5f0d2825-593f-4d61-9477-871d62448db7,to be made; to be built​,できる,できる,出来る,verb,ichidan verb,5,2023-11-27,1263,GENKI3_L14,できる,できた,できて,,,できられる,,,,できます,できました,,,,できられます,,,,できない,できなかった,できなくて,,,できられない,,,,できません,できませんでした,,,,できられません,,,,verb ichidan-verb genki3-l14
+7c5df768-bd8d-4e68-b375-fcd69f95e788,to consult,相談する,そうだんする,,verb,suru verb,,2023-11-28,1264,GENKI3_L14,相談する,相談した,相談して,,,相談できる,,,,相談します,相談しました,,,,相談できます,,,,相談しない,相談しなかった,相談しなくて,,,相談できない,,,,相談しません,相談しませんでした,,,,相談できません,,,,verb suru-verb genki3-l14
+be856243-8f6c-457a-adef-b2ede5a1e693,to give warning; to watch out,注意する,ちゅういする,,verb,suru verb,,2023-11-29,1265,GENKI3_L14,注意する,注意した,注意して,,,注意できる,,,,注意します,注意しました,,,,注意できます,,,,注意しない,注意しなかった,注意しなくて,,,注意できない,,,,注意しません,注意しませんでした,,,,注意できません,,,,verb suru-verb genki3-l14
+e4d2aef4-a6a6-4019-bdd9-facea015cc76,to propose marriage,プロポーズする,ぷろぽおずする,,verb,suru verb,,2023-11-30,1266,GENKI3_L14,プロポーズする,プロポーズした,プロポーズして,,,プロポーズできる,,,,プロポーズします,プロポーズしました,,,,プロポーズできます,,,,プロポーズしない,プロポーズしなかった,プロポーズしなくて,,,プロポーズできない,,,,プロポーズしません,プロポーズしませんでした,,,,プロポーズできません,,,,verb suru-verb genki3-l14
+2ef0506a-9030-4d03-b096-6e7facfcf0f9,this sort of; this kind of; like this,こんな〜,こんな〜,,pre noun adjectival,,5,2023-11-30,1267,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pre-noun-adjectival genki3-l14
+842585a9-4a4e-4b16-b186-3a0663bbf687,that sort of; that kind of; like that,そんな〜,そんな〜,,pre noun adjectival,,4,2023-11-30,1268,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pre-noun-adjectival
+f7bef170-2ae0-4cc1-ae97-2e6de80160fe,thas over there sort of; that over there kind of; like that over there,あんな〜,あんな〜,,pre noun adjectival,,4,2023-11-30,1269,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pre-noun-adjectival
+774758cd-73b1-49c2-a097-ae9e8004c292,what kind of; what sort of,どんな〜,どんな〜,,pre noun adjectival,,3,2023-11-30,1270,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pre-noun-adjectival
+940ca614-48dd-4fa7-ae15-b668e3ff9c6c,"quickly, hurriedly; suddenly",急に,きゅうに,,adverb,,3,2023-11-30,1271,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adverb genki3-l14
+71870f61-c2c1-4cec-974c-1ad056c618b7,"come along (encourage others); all right, here goes (indicates resolve); I'm not sure​, uh (indicates hesitation)",さあ,さあ,,expression,,5,2023-11-30,1272,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l14
+a89a9342-a6c2-4ac2-b7c1-084880a34c6b,what should I do?; what am I supposed to do? (usually asking myself),どうしたらいい,どうしたらいい,どうしたら良い,expression,,,2023-11-30,1273,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l14
+f1e04508-6952-4070-b534-3bfa83336da0,counter for bound books,〜冊,〜さつ,,counter,,1,2023-11-30,1274,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter genki3-l14
+fccd9718-46c6-4ae7-b8c0-75403f9af57e,"counter for machines, equipment",〜台,〜だい,,counter,,3,2023-11-30,1275,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter genki3-l14
+9085fa14-563e-44fc-b44a-e2944b5ec6fb,counter for smaller animals,〜匹,〜ひき,,counter,,3,2023-11-30,1276,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter genki3-l14
+45b9cab5-68ce-47f3-ae66-0ddce7ca03fc,"counter for long, cylindrical things; counter for goals",〜本,〜ほん,,counter,,5,2023-11-30,1277,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter genki3-l14
