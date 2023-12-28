@@ -2387,6 +2387,67 @@
     "lesson_codes": ["GENKI3_L11"],
     "tags": []
   },
+  {
+    "id": "bf1b4164-2102-4e58-99d1-56fc1d2d0d9c",
+    "title": "〜たり〜たりする",
+    "meaning": "do such things as this and that",
+    "how_to_use": [
+      "verb (short, past) + り + verb (short, past) + り + する",
+      "tense of する is overall tense",
+      "verb (short, past) + り + verb (short, past) + り + helping verb (with overall tense)"
+    ],
+    "examples": [
+      {
+        "id": "90ae0fed-56cf-4ac8-bbe9-bfcd82106fa3",
+        "meaning": "In Osaka, I will do such things as shopping and eating dinner.",
+        "text": {
+          "spelling": "{大阪|おお・さか}で{買|か}い{物|もの}をしたり、{晩御飯|ばん・ご・はん}を{食|た}べたりします。"
+        },
+        "lesson_codes": ["GENKI3_L11"],
+        "tags": []
+      },
+      {
+        "id": "245905d2-459d-46e0-869c-d8cb469577a4",
+        "meaning": "Over the weekend, I studied and talked with my friends, among other things.",
+        "text": {
+          "spelling": "{週末|しゅう・まつ}は、{勉強|べん・きょう}したり、{友達|とも・だち}と{話|はな}したりしました。"
+        },
+        "lesson_codes": ["GENKI3_L11"],
+        "tags": []
+      },
+      {
+        "id": "027d4e68-c179-49d8-85b4-b130ffa4160a",
+        "meaning": "I like dancing, listening to music, and so forth.",
+        "text": {
+          "spelling": "{踊|おど}ったり、{音楽|おん・がく}を{聞|き}いたりするのが{好|す}きです。"
+        },
+        "lesson_codes": ["GENKI3_L11"],
+        "tags": []
+      },
+      {
+        "id": "9bf4cb64-fa39-4fbf-b916-1a9f3cb9d494",
+        "meaning": "This weekend, I want to climb a mountain, go to a hot spring, et cetera.",
+        "text": {
+          "spelling": "{今週|こん・しゅう}の{週末|しゅう・まつ}、{山|やま}に{登|のぼ}ったり、{温泉|おん・せん}に{行|い}ったりしたいです。"
+        },
+        "lesson_codes": ["GENKI3_L11"],
+        "tags": []
+      },
+      {
+        "id": "b5127b81-7d33-4415-8164-cda55d51875d",
+        "meaning": "At the dormitory, you must not smoke, drink beer, et cetera.",
+        "text": {
+          "spelling": "{寮|りょう}でタバコを{吸|す}ったり、ビールを{飲|の}んだりしてはいけません。"
+        },
+        "lesson_codes": ["GENKI3_L11"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-12-27",
+    "lesson_codes": ["GENKI3_L11"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 12"}
 ]
