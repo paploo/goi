@@ -2448,6 +2448,58 @@
     "lesson_codes": ["GENKI3_L11"],
     "tags": []
   },
+  {
+    "id": "d99d7c80-eb8c-4ed8-8709-3c6cc62c0fb7",
+    "title": "〜ことがある",
+    "meaning": "to have the experience of...",
+    "how_to_use": [
+      "verb (short, past, affirmative) + ことがある",
+      "verb (short, past, affirmative) + ことがありますか",
+      "When answering question, use either just あります/ありません or the whole verbal complex."
+    ],
+    "examples": [
+      {
+        "id": "051e9497-b8e8-46e8-be99-055d6e7cad71",
+        "meaning": "I have had the experience of climbing Mt. Fuji.",
+        "text": {
+          "spelling": "{富士山|ふ・じ・さん}に{登|のぼ}ったことがあります。"
+        },
+        "lesson_codes": ["GENKI3_L11"],
+        "tags": []
+      },
+      {
+        "id": "12892d5d-ff1c-4c30-acf4-b9ae097710f5",
+        "meaning": "Takeshi has never been absent from class (in his life).",
+        "text": {
+          "spelling": "たけしさんは{授業|じゅ・ぎょう}を{休|やす}んだことがありません。"
+        },
+        "lesson_codes": ["GENKI3_L11"],
+        "tags": []
+      },
+      {
+        "id": "defd14a0-d57c-411e-ab2e-9cef8968e6f5",
+        "meaning": "A: Have you ever been to Europe?<br/>B: Yes, I have.",
+        "text": {
+          "spelling": "Ａ：ヨーロッパに{行|い}ったことがありますか。<br/>Ｂ：はい、あります。"
+        },
+        "lesson_codes": ["GENKI3_L11"],
+        "tags": []
+      },
+      {
+        "id": "a2d8dc4e-3122-4857-a016-bd2a88d64d51",
+        "meaning": "A: Have you ever had the experience of owning a pet, such as a cat or dog?<br/>B: Yes, I have had the experience of owning a cat.",
+        "text": {
+          "spelling": "Ａ：{猫|ねこ}や{犬|いぬ}を{飼|か}ったことがありますか。<br/>Ｂ：はい、{猫|ねこ}を{飼|か}ったことがあります。"
+        },
+        "lesson_codes": ["GENKI3_L11"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-12-27",
+    "lesson_codes": ["GENKI3_L11"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 12"}
 ]
