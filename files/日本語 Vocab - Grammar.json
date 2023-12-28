@@ -287,7 +287,7 @@
     "title": "ＡにＢがいます",
     "meaning": "There is/are B at A (animate)",
     "how_to_use": [
-      "place + に + thing + が + あいます"
+      "place + に + thing + が + います"
     ],
     "examples": [
       {
@@ -2132,7 +2132,7 @@
         "id": "838ea81b-3111-4b8c-875b-322c37193375",
         "meaning": "A: Did you do anything?<br/>B: No, I didn't do anything.",
         "text": {
-          "spelling": "Ａ：{何|なに}かましたか。<br/>Ｂ：いいえ、{何|なに}もしませんでした。"
+          "spelling": "Ａ：{何|なに}かしtましたか。<br/>Ｂ：いいえ、{何|なに}もしませんでした。"
         },
         "lesson_codes": ["GENKI3_L10"],
         "tags": []
@@ -2247,5 +2247,146 @@
   },
 
   {"COMMENT": "GENKI LESSON 11"},
+  {
+    "id": "acfe362d-4c4b-4223-8fb5-c6059debc79d",
+    "title": "〜たいです",
+    "meaning": "I want to...",
+    "how_to_use": [
+      "verb stem + たいです",
+      "を ⟶ が or を for a direct object",
+      "たい conjugates as an い-adjective"
+    ],
+    "examples": [
+      {
+        "id": "7e8b78cb-ac43-4855-b629-0313bd3df012",
+        "meaning": "I want to see a film this weekend.<br/>I want to go to China Someday.",
+        "text": {
+          "spelling": "{今度|こん・ど}の{週末|しゅう・まつ}は、{映画|えい・が}を{見|み}たいです。<br/>いつか{中国|ちゅう・ごく}に{行|い}きたいです。"
+        },
+        "lesson_codes": ["GENKI3_L11"],
+        "tags": []
+      },
+      {
+        "id": "d8959192-1b66-4f35-b92d-660ac98c927e",
+        "meaning": "A: What kind of place was it?<br/>B: There were a lot of people and it was lively.",
+        "text": {
+          "spelling": "Ａ：どんな{所|ところ}でしたか。<br/>Ｂ：{人|ひと}がたくさんいて、{賑|にぎ}やかでした。"
+        },
+        "lesson_codes": ["GENKI3_L11"],
+        "tags": []
+      },
+      {
+        "id": "460135a1-53aa-42dc-80c7-4295fcf16aa1",
+        "meaning": "I don't want to see that person.",
+        "text": {
+          "spelling": "あの{人|ひと}には{会|あ}いたくないです。"
+        },
+        "lesson_codes": ["GENKI3_L11"],
+        "tags": []
+      },
+      {
+        "id": "3ee9b6ae-fccc-4a89-970b-b7c1fd34a088",
+        "meaning": "I wanted to buy a boxed lunch, therefore I went to a convenience store.",
+        "text": {
+          "spelling": "お{弁当|べん・とう}が{買|か}いたかったから、コンビニに{行|い}きました。"
+        },
+        "lesson_codes": ["GENKI3_L11"],
+        "tags": []
+      },
+      {
+        "id": "464b552c-027b-4967-b7d6-5b9f6418f5a3",
+        "meaning": "When I was a child, I didn't want to play with toy trains.",
+        "text": {
+          "spelling": "{子供|こ・ども}の{時|とき}、おもちゃの{電車|でん・しゃ}で{遊|あそ}びたくなかったです。"
+        },
+        "lesson_codes": ["GENKI3_L11"],
+        "tags": []
+      },
+      {
+        "id": "ab3f3543-7c3f-48dd-99c9-23981f88c2d5",
+        "meaning": "A: When you were a child, what did you want to become? B: I wanted to become a singer.",
+        "text": {
+          "spelling": "Ａ：{子供|こ・ども}の{時|とき}、{何|なに}になりたかったですか。Ｂ：{歌手|か・しゅ}になりたかったです。"
+        },
+        "lesson_codes": ["GENKI3_L11"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-12-27",
+    "lesson_codes": ["GENKI3_L11"],
+    "tags": []
+  },
+  {
+    "id": "128ef1ac-0962-4f18-960d-de55736c8c8d",
+    "title": "〜たいと思っています",
+    "meaning": "I have wanted to...",
+    "how_to_use": [
+      "verb stem + たいと言っています"
+    ],
+    "examples": [
+      {
+        "id": "b890d5b7-942e-404f-b806-77ca8773557a",
+        "meaning": "I've wanted to study abroad",
+        "text": {
+          "spelling": "{留学|りゅう・がく}したいと{思|おも}っています。"
+        },
+        "lesson_codes": ["GENKI3_L11"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-12-27",
+    "lesson_codes": ["GENKI3_L11"],
+    "tags": []
+  },
+  {
+    "id": "df1c3d58-629f-4e0f-ab3d-613f0d21ddd3",
+    "title": "〜たいと言っていました",
+    "meaning": "they said they wanted to...",
+    "how_to_use": [
+      "verb stem + たいと言っていました"
+    ],
+    "examples": [
+      {
+        "id": "dcc87073-7ee9-4e42-b671-bbffe0df3a03",
+        "meaning": "Nadeshiko said she wanted to go to Fujinomiya.",
+        "text": {
+          "spelling": "なでしこさんは{富士宮|ふじのみや}に{行|い}きたいと{言|い}っていました。"
+        },
+        "lesson_codes": ["GENKI3_L11"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-12-27",
+    "lesson_codes": ["GENKI3_L11"],
+    "tags": []
+  },
+  {
+    "id": "52eb91b8-1e17-4e9e-8811-73cd17a6be4b",
+    "title": "〜たがっています",
+    "meaning": "(It seems) they want to...",
+    "how_to_use": [
+      "verb stem + 〜たがっています",
+      "たがる conjugates as godan verb"
+    ],
+    "examples": [
+      {
+        "id": "c000166a-9943-4aa5-9e7b-cb9966ee6518",
+        "meaning": "(It seems) Mary wants to wear a kimono.",
+        "text": {
+          "spelling": "メアリーさんは{着物|き・もの}を{着|き}たがっています。"
+        },
+        "lesson_codes": ["GENKI3_L11"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-12-27",
+    "lesson_codes": ["GENKI3_L11"],
+    "tags": []
+  },
+
   {"COMMENT": "GENKI LESSON 12"}
 ]
