@@ -2500,6 +2500,56 @@
     "lesson_codes": ["GENKI3_L11"],
     "tags": []
   },
+  {
+    "id": "e756d1d7-69d1-4729-bb3c-c0d796e272b8",
+    "title": "ＡやＢ",
+    "meaning": "A and B, for example",
+    "how_to_use": [
+      "verb + ませんか"
+    ],
+    "examples": [
+      {
+        "id": "41dff3dc-6197-4bad-b8b1-d7c6d0d7f3ba",
+        "meaning": "I went to Kyoto and Nara (an maybe other places as well).",
+        "text": {
+          "spelling": "{京都|きょう・と}や{奈良|な・ら}に{行|い}きました。"
+        },
+        "lesson_codes": ["GENKI3_L11"],
+        "tags": []
+      },
+      {
+        "id": "ad4e089d-109d-40c4-aa39-5840de906482",
+        "meaning": "A: Among singers, who do you like?<br/>B: I like Lisa Loeb and Towana (among others).",
+        "text": {
+          "spelling": "Ａ: {歌手|か・しゅ}の{中|なか}で、{誰|だれ}が{好|す}きですか。<br/>Ｂ：リサ・ローブやトワナが{好|す}きです。"
+        },
+        "lesson_codes": ["GENKI3_L11"],
+        "tags": []
+      },
+      {
+        "id": "f7530728-7862-4548-a7d9-9f7290588971",
+        "meaning": "A: What kind of Japanese food have you eaten?<br/>B: I have had the experience of eating Tuna Sashimi and Tonkatsu Ramen, among others.",
+        "text": {
+          "spelling": "マグロの{刺身|さし・み}や{豚骨|とん・こつ}らーめんを{食|た}べたことがあります。"
+        },
+        "lesson_codes": ["GENKI3_L11"],
+        "tags": []
+      },
+      {
+        "id": "671c6d0a-2737-4808-a71b-393a88388307",
+        "meaning": "A: Among famous people, who would you like to meet?<br/>B: I'd like to meet Dr. Plait and Inori Minase.",
+        "text": {
+          "spelling": "Ａ：{有名人|ゆう・めい・じん}の{中|なか}で、{誰|だれ}に{会|あ}いたいですか。<br/>Ｂ：フィル・プレイトや{水瀬|みな・せ}いのりに{会|あ}いたいです。"
+        },
+        "lesson_codes": ["GENKI3_L11"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-12-27",
+    "lesson_codes": ["GENKI3_L11"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 12"}
 ]
