@@ -2132,7 +2132,7 @@
         "id": "838ea81b-3111-4b8c-875b-322c37193375",
         "meaning": "A: Did you do anything?<br/>B: No, I didn't do anything.",
         "text": {
-          "spelling": "Ａ：{何|なに}かしtましたか。<br/>Ｂ：いいえ、{何|なに}もしませんでした。"
+          "spelling": "Ａ：{何|なに}かしましたか。<br/>Ｂ：いいえ、{何|なに}もしませんでした。"
         },
         "lesson_codes": ["GENKI3_L10"],
         "tags": []
@@ -2505,12 +2505,12 @@
     "title": "ＡやＢ",
     "meaning": "A and B, for example",
     "how_to_use": [
-      "verb + ませんか"
+      "noun + や + noun"
     ],
     "examples": [
       {
         "id": "41dff3dc-6197-4bad-b8b1-d7c6d0d7f3ba",
-        "meaning": "I went to Kyoto and Nara (an maybe other places as well).",
+        "meaning": "I went to Kyoto and Nara (and maybe other places as well).",
         "text": {
           "spelling": "{京都|きょう・と}や{奈良|な・ら}に{行|い}きました。"
         },
