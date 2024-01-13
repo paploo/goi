@@ -1273,7 +1273,7 @@ be856243-8f6c-457a-adef-b2ede5a1e693,to give warning; to watch out,注意する,
 e4d2aef4-a6a6-4019-bdd9-facea015cc76,to propose marriage,プロポーズする,ぷろぽおずする,,verb,suru verb,,2023-11-30,1268,GENKI3_L14,プロポーズする,プロポーズした,プロポーズして,,,プロポーズできる,,,,プロポーズします,プロポーズしました,,,,プロポーズできます,,,,プロポーズしない,プロポーズしなかった,プロポーズしなくて,,,プロポーズできない,,,,プロポーズしません,プロポーズしませんでした,,,,プロポーズできません,,,,verb suru-verb genki3-l14
 2ef0506a-9030-4d03-b096-6e7facfcf0f9,this sort of; this kind of; like this,こんな〜,こんな〜,,pre noun adjectival,,5,2023-11-30,1269,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pre-noun-adjectival genki3-l14
 842585a9-4a4e-4b16-b186-3a0663bbf687,that sort of; that kind of; like that,そんな〜,そんな〜,,pre noun adjectival,,4,2023-11-30,1270,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pre-noun-adjectival
-f7bef170-2ae0-4cc1-ae97-2e6de80160fe,thas over there sort of; that over there kind of; like that over there,あんな〜,あんな〜,,pre noun adjectival,,4,2023-11-30,1271,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pre-noun-adjectival
+f7bef170-2ae0-4cc1-ae97-2e6de80160fe,that over there sort of; that over there kind of; like that over there,あんな〜,あんな〜,,pre noun adjectival,,4,2023-11-30,1271,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pre-noun-adjectival
 774758cd-73b1-49c2-a097-ae9e8004c292,what kind of; what sort of,どんな〜,どんな〜,,pre noun adjectival,,3,2023-11-30,1272,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,pre-noun-adjectival
 940ca614-48dd-4fa7-ae15-b668e3ff9c6c,"quickly, hurriedly; suddenly",急に,きゅうに,,adverb,,3,2023-11-30,1273,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adverb genki3-l14
 71870f61-c2c1-4cec-974c-1ad056c618b7,"come along (encourage others); all right, here goes (indicates resolve); I'm not sure​, uh (indicates hesitation)",さあ,さあ,,expression,,5,2023-11-30,1274,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression genki3-l14
@@ -1282,3 +1282,25 @@ f1e04508-6952-4070-b534-3bfa83336da0,counter for bound books,〜冊,〜さつ,,c
 fccd9718-46c6-4ae7-b8c0-75403f9af57e,"counter for machines, equipment",〜台,〜だい,,counter,,3,2023-11-30,1277,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter genki3-l14
 9085fa14-563e-44fc-b44a-e2944b5ec6fb,counter for smaller animals,〜匹,〜ひき,,counter,,3,2023-11-30,1278,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter genki3-l14
 45b9cab5-68ce-47f3-ae66-0ddce7ca03fc,"counter for long, cylindrical things; counter for goals",〜本,〜ほん,,counter,,5,2023-11-30,1279,GENKI3_L14,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter genki3-l14
+b537e501-77d1-4468-a8ed-90e532a95221,"flavor, taste",味,あじ,,noun,,4,2024-01-05,1280,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
+f51426b8-eb1a-4baa-8cc8-e99747f45f23,next time,次回,じかい,,noun,,,2024-01-05,1281,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+de9ff021-b298-436c-bb05-77c422736fc3,fortune slip (usually from Shrine),おみくじ,おみくじ,御神籤,noun,,,2024-01-05,1282,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,shinto noun
+a331ce91-2a3e-4d91-8b8f-2d6518acdfb8,offering (e.g. to the gods),供物,くもつ,,noun,,,2024-01-05,1283,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,shinto noun
+4c49e628-4c5e-464a-abd1-1011edab8cfa,monetary offering,賽銭,さいせん,,noun,,,2024-01-05,1284,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,shinto noun
+f44f1f7d-7903-433c-b4ba-6603e499f0b6,offertory box,賽銭箱,さいせんばこ,,noun,,,2024-01-05,1285,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,shinto noun
+3ebb455a-2246-4989-9287-b8b5be01f258,head priest,宮司,ぐうじ,,noun,,,2024-01-05,1286,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,shinto noun
+326db96c-1d3a-46b6-a285-b5239f9fd8a0,monthly festival,月次祭,つきなみさい,,noun,,,2024-01-05,1287,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,shinto noun
+2bdb1c2a-df6d-4ed0-807c-96dc9d554adb,divine messenger,神使,しんし,,noun,,,2024-01-05,1288,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,shinto noun
+209dbbca-bc6b-4848-a3cf-dd28824d1ca6,divine messenger of kami (esp. an animal messenger),神の神使,かみのしんし,,expression,,,2024-01-05,1289,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,shinto expression
+0b5534be-afc6-4647-92e6-70cc169b3500,heavy (in weight or feeling),重い,おもい,,adjective,i adjective,5,2024-01-05,1290,,重い,重かった,重くて,,,,,,,,,,,,,,,,重くない,重くなかった,重くなくて,,,,,,,,,,,,,,,,adjective i-adjective
+3ba2593f-1990-47c0-a4fa-52733bc03e0c,light (not heavy),軽い,かるい,,adjective,i adjective,5,2024-01-05,1291,,軽い,軽かった,軽くて,,,,,,,,,,,,,,,,軽くない,軽くなかった,軽くなくて,,,,,,,,,,,,,,,,adjective i-adjective
+24f31db2-7d01-484a-8f2b-9156831fbe45,magic,魔法,まほう,,noun,,,2024-01-05,1292,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+5f76ca2d-3702-4218-b41c-8cf82f8a611e,bamboo shoot,タケノコ,たけのこ,竹の子,noun,,,2024-01-05,1293,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+3ea023a8-48b9-426d-8309-002717edce89,shooting star,流れ星,ながれぼし,,noun,,,2024-01-05,1294,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+316d8f66-20ee-4ac9-b735-0d84d7db6fec,satellite (artificial),人工衛星,じんこうえいせい,,noun,,,2024-01-05,1295,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+3a7cbf45-2cae-4f03-9da9-efe8fd9861c8,"continuation, rest (of story, work)",続き,つずき,,noun,,3,2024-01-05,1296,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+3116af78-9e97-49cf-9062-a82f5bc2e1de,fruits and vegetables; produce,青果,せいか,,noun,,,2024-01-05,1297,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
+907baebd-4d24-4bdd-a3b2-ebc331c4a752,meatball (Asian style),肉団子,にくだんご,,noun,,,2024-01-05,1298,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
+621446d5-9855-4fef-90d2-13e4572df9a8,meatball (Western style),ミートボール,みいとぼおる,,noun,,,2024-01-05,1299,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
+4c278d19-17a3-490e-8ca4-363b6b3bec68,clam,アサリ,あさり,浅蜊,noun,,,2024-01-05,1300,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
+ff9d824a-5d3b-4e42-8ab0-d21fd6a62d09,oyster,カキ,かき,牡蠣,noun,,,2024-01-05,1301,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
