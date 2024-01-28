@@ -1065,6 +1065,15 @@
         },
         "lesson_codes": ["GENKI3_L07"],
         "tags": []
+      },
+      {
+        "id": "d8959192-1b66-4f35-b92d-660ac98c927e",
+        "meaning": "A: What kind of place was it?<br/>B: There were a lot of people and it was lively.",
+        "text": {
+          "spelling": "Ａ：どんな{所|ところ}でしたか。<br/>Ｂ：{人|ひと}がたくさんいて、{賑|にぎ}やかでした。"
+        },
+        "lesson_codes": ["GENKI3_L11"],
+        "tags": []
       }
     ],
     "jlpt_level": null,
@@ -2267,15 +2276,6 @@
         "tags": []
       },
       {
-        "id": "d8959192-1b66-4f35-b92d-660ac98c927e",
-        "meaning": "A: What kind of place was it?<br/>B: There were a lot of people and it was lively.",
-        "text": {
-          "spelling": "Ａ：どんな{所|ところ}でしたか。<br/>Ｂ：{人|ひと}がたくさんいて、{賑|にぎ}やかでした。"
-        },
-        "lesson_codes": ["GENKI3_L11"],
-        "tags": []
-      },
-      {
         "id": "460135a1-53aa-42dc-80c7-4295fcf16aa1",
         "meaning": "I don't want to see that person.",
         "text": {
@@ -2322,7 +2322,7 @@
     "title": "〜たいと思っています",
     "meaning": "I have wanted to...",
     "how_to_use": [
-      "verb stem + たいと言っています"
+      "verb stem + たいと思っています"
     ],
     "examples": [
       {
