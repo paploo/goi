@@ -37,7 +37,7 @@ office; company,会社,かいしゃ,,会社,NOUN,,5,"{DUO_02_03,DUO_U07,GENKI3_L
 school,学校,がっこう,,学校,NOUN,,5,"{DUO_02_03,DUO_U07}","{place,school}",25f93b07-dc04-553a-8794-329cc907dbe5,36,2022-04-24
 elementary school,小学,しょうがく,,小学,NOUN,,,"{DUO_02_05,DUO_U08}","{place,school}",37eba762-70cf-5c5c-b689-621f26c1ee5f,37,2022-04-24
 middle school,中学,ちゅうがく,,中学,NOUN,,3,"{DUO_02_05,DUO_U08}","{place,school}",99cdf9f9-df8c-5d7a-9ea1-a7c003c9f289,38,2022-04-24
-foreigner,外国人,がいこくじん,,外国人,NOUN,,5,"{DUO_02_05,DUO_U08}",{person},947e6f87-e4fe-5b27-9bd3-215e8b1fc71a,39,2022-04-24
+foreigner,外国人,がいこくじん,,外国人,NOUN,,5,"{DUO_02_05,DUO_U08,GENKI3_L15}",{person},947e6f87-e4fe-5b27-9bd3-215e8b1fc71a,39,2022-04-24
 to live; to reside; to inhabit,住む,すむ,,住む,VERB,GODAN_VERB,5,"{DUO_02_05,DUO_U08,GENKI3_L07}",,dd191fac-e29b-5262-b2a6-f9f2875a4a3f,40,2022-04-24
 Kyoto,京都,きょうと,,京都,PROPER_NOUN,,,"{DUO_02_05,DUO_U08,GENKI3_L03}","{city,place}",fc82f2ac-3b17-582f-9259-7200e1430824,41,2022-04-24
 Osaka,大阪,おおさか,,大阪,PROPER_NOUN,,,"{DUO_02_05,DUO_U08}","{city,place}",15c5fee6-dda7-5d40-b7fd-382d97a28b9c,42,2022-04-24
@@ -263,11 +263,11 @@ room,部屋,へや,,部屋,NOUN,,5,"{DUO_02_04,DUO_U07,GENKI3_L05}",{home},f6d9d
 bath(tub),風呂,ふろ,,風呂,NOUN,,5,"{DUO_02_04,DUO_U07}",{home},f31e6384-d4e9-4a67-b12e-e08cddfdba29,262,2022-05-30
 bedroom,寝室,しんしつ,,寝室,NOUN,,,"{DUO_02_04,DUO_U07}",{home},0079d5eb-c8e1-4f3b-9105-51054a2c0b8a,263,2022-05-30
 window,窓,まど,,窓,NOUN,,5,"{DUO_02_04,DUO_U07,GENKI3_L06}",{home},b04ef471-2292-4ca7-a470-4829fb116b8a,264,2022-05-30
-yard; garden,庭,にわ,,庭,NOUN,,5,"{DUO_02_04,DUO_U07}",{home},c08c0aff-7835-4c0a-a560-cd8e627c3a90,265,2022-05-30
+yard; garden,庭,にわ,,庭,NOUN,,5,"{DUO_02_04,DUO_U07,GENKI3_L15}",{home},c08c0aff-7835-4c0a-a560-cd8e627c3a90,265,2022-05-30
 chair,椅子,いす,,椅子,NOUN,,5,"{DUO_02_04,DUO_U07,GENKI3_L04}",{home},9e935991-a6f7-4383-b8a0-9376d7af8298,266,2022-05-30
 sofa,ソファー,そふぁあ,,,NOUN,,3,"{DUO_02_04,DUO_U07}",{home},2f7263b8-e1dd-4c09-94d0-7ad22fe82a5b,267,2022-05-30
 desk,机,つくえ,,机,NOUN,,5,"{DUO_02_04,DUO_U07,GENKI3_L04}",{home},068b1a67-d6a5-4790-a264-febfbccc06c2,268,2022-05-30
-pet,ペット,ぺっと,,,NOUN,,5,"{DUO_02_04,DUO_U07}",{animal},7361012a-f230-444c-babe-48449c5bc79d,269,2022-05-30
+pet,ペット,ぺっと,,,NOUN,,5,"{DUO_02_04,DUO_U07,GENKI3_L15}",{animal},7361012a-f230-444c-babe-48449c5bc79d,269,2022-05-30
 dog,犬,いぬ,,犬,NOUN,,5,"{DUO_02_04,DUO_U07,GENKI3_L04}",{animal},f9f3b546-f023-4b35-9db2-068f8143c41e,270,2022-05-30
 cat,猫,ねこ,,猫,NOUN,,5,"{DUO_02_04,DUO_U07,GENKI3_L04}",{animal},5399ca2c-f192-40b6-9b69-28dc1de577c8,271,2022-05-30
 bird,鳥,とり,,鳥,NOUN,,5,"{DUO_02_04,DUO_U07}",{animal},f5b2d28f-d519-4138-a9d0-5c99b82d09af,272,2022-05-30
@@ -326,7 +326,7 @@ sunny,晴れ,はれ,,晴れ,NOUN,,5,"{DUO_01_03,DUO_U02,GENKI3_L08}",{weather},a
 outside,外,そと,,外,NOUN,,5,"{DUO_01_03,DUO_U02}",,05f754d9-f497-54db-9340-cea898b0ff28,325,2022-08-12
 fermented soybeans,納豆,なっとう,,納豆,NOUN,,,"{DUO_01_04,DUO_U02}",{food},3cae06c0-447c-5b59-b04b-4c5036c5ce20,326,2022-08-12
 wind; breeze; draft,風,かぜ,,風,NOUN,,5,"{DUO_01_04,DUO_U02}",,1a0c8160-c588-508a-bcbc-c3bf3bdbb0fe,327,2022-08-12
-map,地図,ちず,,地図,NOUN,,5,"{DUO_01_04,DUO_U02}",,86e894b7-ebf2-5e8e-991e-54ebd19f764d,328,2022-08-12
+map,地図,ちず,,地図,NOUN,,5,"{DUO_01_04,DUO_U02,GENKI3_L15}",,86e894b7-ebf2-5e8e-991e-54ebd19f764d,328,2022-08-12
 fruit,果物,くだもの,,果物,NOUN,,5,"{DUO_01_04,DUO_U02,GENKI3_L05}",{food},7f320ae8-3952-5727-a45e-4c5535a79533,329,2022-08-12
 ticket (transport),切符,きっぷ,,切符,NOUN,,5,"{DUO_01_04,DUO_U02,GENKI3_L12}",{transportation},efc7ae30-059c-5579-9e95-1e53594af9ed,330,2022-08-12
 game,ゲーム,げえむ,,,NOUN,,3,{GENKI3_L04},{activity},038bec1a-765f-42b2-905d-28004fd829a3,331,2022-08-10
@@ -501,7 +501,7 @@ lonely; solitary,寂しい,さびしい,,寂しい,ADJECTIVE,I_ADJECTIVE,4,{GENK
 mouth is lonely,口寂しい,くちさびしい,,口寂しい,ADJECTIVE,I_ADJECTIVE,,,,aa063477-ef31-4780-9af0-85bc0daccbcf,500,2022-10-06
 tidal wave,津波,つなみ,,津波,NOUN,,1,,,9602b36a-fef2-58f6-a53a-84283766c73d,501,2022-09-17
 typhoon,台風,たいふう,,台風,NOUN,,4,,,18483a29-02d3-5d72-be2f-2e865c5689a1,502,2022-09-17
-earthquake,地震,じしん,,地震,NOUN,,4,,,932265f2-4f7c-5f7d-b31d-cb211276ae8d,503,2022-09-17
+earthquake,地震,じしん,,地震,NOUN,,4,{GENKI3_L15},,932265f2-4f7c-5f7d-b31d-cb211276ae8d,503,2022-09-17
 lake,湖,みずうみ,,湖,NOUN,,4,,,890ba235-9527-4fe0-91bd-93629049bfb9,504,2022-10-09
 lake (place suffix),〜湖,〜こ,,〜湖,SUFFIX,,,,,4a460208-8302-4310-ad5a-1bddeaa9f6ed,505,2022-10-09
 "rice (husked, uncooked)",米,こめ,,米,NOUN,,4,,{food},61d1e705-cff1-4878-80a3-79621573e4d0,506,2022-10-09
@@ -537,7 +537,7 @@ princess,姫,ひめ,,姫,NOUN,,,,,b08173f1-4500-4da6-81ee-cd7421bb3686,535,2022-
 good; excellent; fine; agreeable,良い,よい,,良い,ADJECTIVE,I_ADJECTIVE,5,,,bd75e0c9-27e6-4f6f-803f-bb0ee9236290,536,2022-10-30
 want to do; would like to...,〜たい,〜たい,,,AUXILIARY_ADJECTIVE,I_ADJECTIVE,,{GENKI3_L11},,e00b722d-5ec2-43b3-b972-157994823148,537,2022-10-31
 fireworks,花火,はなび,,花火,NOUN,,2,,,3bdf59a1-7f82-4e77-851b-462abfece32e,538,2022-11-03
-dictionary,辞書,じしょ,,辞書,NOUN,,5,,,8c2f94a9-ba53-4f55-931d-ca84f5264280,539,2022-11-06
+dictionary,辞書,じしょ,,辞書,NOUN,,5,{GENKI3_L15},,8c2f94a9-ba53-4f55-931d-ca84f5264280,539,2022-11-06
 "dictionary (formal, expansive)",辞典,じてん,,辞典,NOUN,,4,,,0840f9a3-9712-4e33-9280-6e652015cc1f,540,2022-11-06
 encyclopedia,事典,じてん,,事典,NOUN,,,,,7793dcc0-cdf5-4844-bf94-17ccfaffd08d,541,2022-11-06
 word,単語,たんご,,単語,NOUN,,3,{GENKI3_L09},,7651476c-6696-4e43-bc7b-ee17b7029ba3,542,2022-11-06
@@ -811,7 +811,7 @@ Association of Shinto Shrines,神社本庁,じんじゃほんちょう,,神社�
 "bank, coast, shore",岸,きし,,岸,NOUN,,3,,,2323b300-d4fe-405b-bb9d-10c86544e3f0,810,2023-03-15
 island,島,しま,,島,NOUN,,4,,,c27cfb12-eff1-4e43-8c08-af5e8f6e626b,811,2023-03-15
 tree sparrow; talkative person,雀,すずめ,,雀,NOUN,,,,{animal},ce40c01d-3012-4e6c-a30c-1d713b6c5975,812,2023-03-15
-recommendation,勧め,すすめ,,勧め,NOUN,,1,,,134a2253-5954-4e19-a073-4c02df6569cd,813,2023-03-15
+recommendation,ススメ,すすめ,,勧め,NOUN,,1,,,134a2253-5954-4e19-a073-4c02df6569cd,813,2023-03-15
 to recommend,勧める,すすめる,,勧める,VERB,ICHIDAN_VERB,3,,,4c3d54e9-ef5c-47c9-996e-4d2666457085,814,2023-03-15
 to broadcast; to stream,配信する,はいしんする,,配信する,VERB,SURU_VERB,,,,067d1d04-ee44-4f2f-9686-68fbfa850cee,815,2023-03-15
 "stupid, idiot",バカ,ばか,,馬鹿,NOUN,,3,,,5880c940-57b7-43df-b20e-50a14522d46d,816,2023-03-15
@@ -1120,7 +1120,7 @@ traffic circle; roundabout,ロータリー,ろおたりい,,,NOUN,,,,{roads},103
 straight ahead; direct (route),まっすぐ,まっすぐ,,真っ直ぐ,NOUN,,5,,{roads},8c1d005f-3d35-4e4c-852c-3c45e5119617,1119,2023-08-19
 corner; edge,角,かど,,角,NOUN,,5,,,a5b14922-855c-441e-a335-5fdb9209e56f,1120,2023-08-19
 "side (of something, or taking someone's side)",側,がわ,,側,NOUN,,5,,,7686f747-f955-4079-bf34-f23dd9c6fa8e,1121,2023-08-19
-ordinal number suffix,〜目,〜め,,〜目,SUFFIX,,5,,,37a13ec3-c024-4a38-b4de-ad63e1d75b8b,1122,2023-08-19
+ordinal number suffix,〜目,〜め,,〜目,SUFFIX,,5,{GENKI3_L15},,37a13ec3-c024-4a38-b4de-ad63e1d75b8b,1122,2023-08-19
 "to bend, to curve; to turn",曲がる,まがる,,曲がる,VERB,GODAN_VERB,5,,,e7d2c825-b4a8-47da-9825-fa7db01bf8dd,1123,2023-08-19
 "to cross over, to go across",渡る,わたる,,渡る,VERB,GODAN_VERB,5,,,a118ba7f-e1b5-40e6-97b3-3ffd9a941ee4,1124,2023-08-19
 turn left,左に曲がる,ひだりにまがる,,左に曲がる,EXPRESSION,,,{GENKI3_L06},{directions},70876a31-cbd8-4d8a-9c9f-24daffeab903,1125,2023-08-19
@@ -1281,7 +1281,7 @@ counter for smaller animals,〜匹,〜ひき,,〜匹,COUNTER,,3,{GENKI3_L14},,90
 "flavor, taste",味,あじ,,味,NOUN,,4,,{food},b537e501-77d1-4468-a8ed-90e532a95221,1280,2024-01-05
 next time,次回,じかい,,次回,NOUN,,,,,f51426b8-eb1a-4baa-8cc8-e99747f45f23,1281,2024-01-05
 fortune slip (usually from Shrine),おみくじ,おみくじ,,御神籤,NOUN,,,,{shinto},de9ff021-b298-436c-bb05-77c422736fc3,1282,2024-01-05
-offering (e.g. to the gods),供物,くもつ,,,NOUN,,,,{shinto},a331ce91-2a3e-4d91-8b8f-2d6518acdfb8,1283,2024-01-05
+a religious offering,供物,くもつ,,,NOUN,,,,{shinto},a331ce91-2a3e-4d91-8b8f-2d6518acdfb8,1283,2024-01-05
 monetary offering,賽銭,さいせん,,賽銭,NOUN,,,,{shinto},4c49e628-4c5e-464a-abd1-1011edab8cfa,1284,2024-01-05
 offertory box,賽銭箱,さいせんばこ,,賽銭箱,NOUN,,,,{shinto},f44f1f7d-7903-433c-b4ba-6603e499f0b6,1285,2024-01-05
 head priest,宮司,ぐうじ,,宮司,NOUN,,,,{shinto},3ebb455a-2246-4989-9287-b8b5be01f258,1286,2024-01-05
@@ -1294,9 +1294,56 @@ magic,魔法,まほう,,魔法,NOUN,,,,,24f31db2-7d01-484a-8f2b-9156831fbe45,129
 bamboo shoot,タケノコ,たけのこ,,竹の子,NOUN,,,,,5f76ca2d-3702-4218-b41c-8cf82f8a611e,1293,2024-01-05
 shooting star,流れ星,ながれぼし,,流れ星,NOUN,,,,,3ea023a8-48b9-426d-8309-002717edce89,1294,2024-01-05
 satellite (artificial),人工衛星,じんこうえいせい,,人工衛星,NOUN,,,,,316d8f66-20ee-4ac9-b735-0d84d7db6fec,1295,2024-01-05
-"continuation, rest (of story, work)",続き,つずき,,続き,NOUN,,3,,,3a7cbf45-2cae-4f03-9da9-efe8fd9861c8,1296,2024-01-05
+"continuation, rest (of story, work)",続き,つづき,,続き,NOUN,,3,,,3a7cbf45-2cae-4f03-9da9-efe8fd9861c8,1296,2024-01-05
 fruits and vegetables; produce,青果,せいか,,青果,NOUN,,,,{food},3116af78-9e97-49cf-9062-a82f5bc2e1de,1297,2024-01-05
 meatball (Asian style),肉団子,にくだんご,,肉団子,NOUN,,,,{food},907baebd-4d24-4bdd-a3b2-ebc331c4a752,1298,2024-01-05
 meatball (Western style),ミートボール,みいとぼおる,,,NOUN,,,,{food},621446d5-9855-4fef-90d2-13e4572df9a8,1299,2024-01-05
 clam,アサリ,あさり,,浅蜊,NOUN,,,,{food},4c278d19-17a3-490e-8ca4-363b6b3bec68,1300,2024-01-05
 oyster,カキ,かき,,牡蠣,NOUN,,,,{food},ff9d824a-5d3b-4e42-8ab0-d21fd6a62d09,1301,2024-01-05
+soba,そば,そば,,蕎麦,NOUN,,2,{GENKI3_L15},{food},8579f6ba-d19a-45b6-aac9-94fd045f1202,1302,2024-01-28
+painting; picture; drawing,絵,え,,絵,NOUN,,5,{GENKI3_L15},,68bf18fb-6819-4eca-a4e4-5da03a16afcd,1303,2024-01-28
+furniture,家具,かぐ,,家具,NOUN,,3,{GENKI3_L15},,480faf2f-59da-4a22-bac1-cafda5fd5f4c,1304,2024-01-28
+battery,電池,でんち,,電池,NOUN,,2,{GENKI3_L15},,0961e5c0-d0e9-46a5-9b1e-8424b6056c03,1305,2024-01-28
+jacket,ジャケット,じあけっと,,,NOUN,,,{GENKI3_L15},,81692edc-47d3-4bf2-90ed-4a87dbb942ae,1306,2024-01-28
+discount coupon,割引券,わりびきけん,,割引券,NOUN,,,{GENKI3_L15},,c57f40f5-d425-4cde-b373-606519b59cec,1307,2024-01-28
+internet (formal),インターネット,いんたあねっと,,,NOUN,,,{GENKI3_L15},,d20f1348-6c52-412f-842e-9d88b0be0479,1308,2024-01-28
+internet (colloquial),ネット,ねっと,,,NOUN,,,{GENKI3_L15},,9d183bf3-5cf1-46a6-9c11-760552ffb7fb,1309,2024-01-28
+insurance,保険,ほけん,,保険,NOUN,,1,{GENKI3_L15},,e4067920-a7d9-4f89-a983-11b7d283064e,1310,2024-01-28
+tax,税金,ぜいきん,,税金,NOUN,,3,{GENKI3_L15},,b00755c6-c350-4c9a-b0a0-d542971a4b4b,1311,2024-01-28
+classroom,教室,きょうしつ,,教室,NOUN,,5,{GENKI3_L15},,9f38d0f7-c038-439c-b94f-17ac2b8314e1,1312,2024-01-28
+building,建物,たてもの,,建物,NOUN,,5,{GENKI3_L15},,c019b1da-d807-47b0-b19a-808c1bfaca0e,1313,2024-01-28
+swimming pool,プール,ぷうる,,,NOUN,,5,{GENKI3_L15},,0eafbe7c-f8cf-40a7-aefd-19c48e19520a,1314,2024-01-28
+movie theater,映画館,えいがかん,,映画館,NOUN,,5,{GENKI3_L15},,def1b8e5-3efc-406d-a2d9-5c0fbc37ceda,1315,2024-01-28
+Japanese inn,旅館,りょかん,,旅館,NOUN,,4,{GENKI3_L15},,cea8809e-1680-4c86-8b5b-f8305799254c,1316,2024-01-28
+volunteer,ボランティア,ぼらんてぃあ,,,NOUN,,,{GENKI3_L15},,0b68e1a8-dbcf-404e-9f29-4bb4e09fe2ca,1317,2024-01-28
+activity,活動,かつどう,,活動,NOUN,,3,{GENKI3_L15},,0f1b24ce-51e5-43f2-bb28-b6c31bc4c654,1318,2024-01-28
+experience,経験,けいけん,,経験,NOUN,,3,{GENKI3_L15},,0dab3e6f-9a54-49a5-a00b-d60b08254277,1319,2024-01-28
+social custom; habit,習慣,しゅうかん,,習慣,NOUN,,4,{GENKI3_L15},,33f94bf7-fe1b-46c1-8a43-6f366a036d46,1320,2024-01-28
+deadline,締切,しめきり,,締切,NOUN,,2,{GENKI3_L15},,66cd13a0-3479-4f34-bc8b-36aee252b4cf,1321,2024-01-28
+schedule; plan,予定,よてい,,予定,NOUN,,4,{GENKI3_L15},,ca7855c9-d31b-4d3f-b33b-b36582d26dcd,1322,2024-01-28
+graduation ceremony,卒業式,そつぎょうしき,,卒業式,NOUN,,,{GENKI3_L15},,25cbeee4-c65b-458e-8f6e-b982cf613bbe,1323,2024-01-28
+wedding,結婚式,けっこんしき,,結婚式,NOUN,,,{GENKI3_L15},,c5895d9c-8017-452c-ba6e-a96455716af8,1324,2024-01-28
+announcement; statement,発表,はっぴょう,,発表,NOUN,,3,{GENKI3_L15},,0906131a-71da-4af5-b4a5-7955e41f2dde,1325,2024-01-28
+to lower; to drop-off; to withdraw (money),下ろす,おろす,,下ろす,VERB,GODAN_VERB,3,{GENKI3_L15},,27b8b77c-f08f-49d0-b521-76578408b0fb,1326,2024-01-28
+to draw; to pain,描く,かく,えがく,描く,VERB,GODAN_VERB,3,{GENKI3_L15},,f120cb24-ab34-4f64-956c-31707fcff251,1327,2024-01-28
+to look for,探す,さがす,,,VERB,GODAN_VERB,4,{GENKI3_L15},,653bba04-49ca-4d42-81e2-a1d987444e6b,1328,2024-01-28
+to invite,誘う,さそう,,,VERB,GODAN_VERB,3,{GENKI3_L15},,983ca461-eec2-4cfd-ac1b-be0adfeef676,1329,2024-01-28
+to chat,しゃべる,しゃべる,,喋る,VERB,GODAN_VERB,3,{GENKI3_L15},,551011fb-215c-4669-b46d-58a75ee4bb71,1330,2024-01-28
+to date (someone); to keep company with,付き合う,つきあう,,付き合う,VERB,GODAN_VERB,2,{GENKI3_L15},,21836973-6ba5-4050-8e27-133aeea62af3,1331,2024-01-28
+to arrive,着く,つく,,着く,VERB,GODAN_VERB,5,{GENKI3_L15},,fd9f2bb0-0398-44c3-a99a-77da81fc9c8b,1332,2024-01-28
+to buy insurance,保険に入る,ほけんにはいる,,保険に入る,VERB,GODAN_VERB,,{GENKI3_L15},,51f66861-1b1f-4812-ae6c-34330eff219e,1333,2024-01-28
+to be cautious/careful,気をつける,きをつける,,気を付ける,VERB,ICHIDAN_VERB,2,{GENKI3_L15},,6499fcbd-e588-4012-b05e-c5af5f904e55,1334,2024-01-28
+to look into (a matter),調べる,しらべる,,調べる,VERB,ICHIDAN_VERB,4,{GENKI3_L15},,2c9af605-0a34-479b-8a97-9ad96891da94,1335,2024-01-28
+to be visible,見える,みえる,,見える,VERB,ICHIDAN_VERB,4,{GENKI3_L15},,b1d7d455-1d58-4472-b0c2-03f6c30ba0e6,1336,2024-01-28
+to decide on (an item),〜にする,〜にする,,,VERB,SURU_VERB,5,{GENKI3_L15},,1e6c6273-33f5-4fad-9751-da0af440034b,1337,2024-01-28
+to do sightseeing,観光する,かんこうする,,観光する,VERB,SURU_VERB,3,{GENKI3_L15},,c2c2caaf-3e25-4fa1-8791-5646fa8030ab,1338,2024-01-28
+to reserve,予約する,よやくする,,予約する,VERB,SURU_VERB,4,{GENKI3_L15},,f3def64f-18c8-4b0c-961b-0196e2b972ff,1339,2024-01-28
+to participate,参加する,さんかする,,参加する,VERB,SURU_VERB,3,{GENKI3_L15},,124418f3-604e-47bf-af79-51991846de6c,1340,2024-01-28
+to graduate (from),卒業する,そつぎょうする,,卒業する,VERB,SURU_VERB,4,{GENKI3_L15},,cc822609-2d4e-4cd3-b7c5-171da16fd205,1341,2024-01-28
+to make a presentation,発表する,はっぴょうする,,発表する,VERB,SURU_VERB,3,{GENKI3_L15},,d4a0a46f-35ba-4b01-aa48-053f2803cf56,1342,2024-01-28
+...but; ...so,〜けど,〜けど,,,CONJUNCTION,,4,{GENKI3_L15},,7cd29581-620c-497e-b48a-ce73210af296,1343,2024-01-28
+"first day (e.g. at work, school); day one",１日目,いちにちめ,,一日目,NOUN,,,{GENKI3_L15},,baa1fbf9-5a29-45bb-b87a-0000e8043c02,1344,2024-01-28
+all day long,一日中,いちにちじゅう,,一日中,ADVERB,,,{GENKI3_L15},,53ec0b69-8181-4361-9a14-85901f434e21,1345,2024-01-28
+recently,最近,さいきん,,最近,NOUN,,4,{GENKI3_L15},,e24ffcde-2a6b-4464-832a-56b5d0843abf,1346,2024-01-28
+"one more time, once more, again",もう一度,もういちど,,もう一度,EXPRESSION,,5,{GENKI3_L15},,6eced20d-51d2-4d82-91b5-b2c5d53db5c7,1347,2024-01-28
+cannot wait; to look forward to it,楽しみです,たのしみです,,楽しみです,EXPRESSION,,,{GENKI3_L15},,4715f972-7730-4479-a078-77de313406ac,1348,2024-01-28
