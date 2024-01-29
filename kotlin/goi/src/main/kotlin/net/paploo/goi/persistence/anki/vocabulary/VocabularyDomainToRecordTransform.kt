@@ -68,6 +68,7 @@ internal class VocabularyDomainToRecordTransform : (Vocabulary) -> Result<Vocabu
             positivePlainPassive = null,
             positivePlainCausative = null,
             positivePlainImperative = null,
+            positivePlainVolitional = Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Volitional).buildFrom(vocab),
             positivePolitePresent = Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Present).buildFrom(vocab),
             positivePolitePast = Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Past).buildFrom(vocab),
             positivePoliteTe = Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Te).buildFrom(vocab),
@@ -77,6 +78,7 @@ internal class VocabularyDomainToRecordTransform : (Vocabulary) -> Result<Vocabu
             positivePolitePassive = null,
             positivePoliteCausative = null,
             positivePoliteImperative = null,
+            positivePoliteVolitional = null,
             negativePlainPresent = Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Present).buildFrom(vocab),
             negativePlainPast = Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Past).buildFrom(vocab),
             negativePlainTe = Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Te).buildFrom(vocab),
@@ -86,6 +88,7 @@ internal class VocabularyDomainToRecordTransform : (Vocabulary) -> Result<Vocabu
             negativePlainPassive = null,
             negativePlainCausative = null,
             negativePlainImperative = null,
+            negativePlainVolitional = null,
             negativePolitePresent = Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Present).buildFrom(vocab),
             negativePolitePast = Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Past).buildFrom(vocab),
             negativePoliteTe = Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Te).buildFrom(vocab),
@@ -95,6 +98,7 @@ internal class VocabularyDomainToRecordTransform : (Vocabulary) -> Result<Vocabu
             negativePolitePassive = null,
             negativePoliteCausative = null,
             negativePoliteImperative = null,
+            negativePoliteVolitional = null,
         )
 
     private fun Conjugation.Inflection.buildFrom(vocab: Vocabulary): String? =

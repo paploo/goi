@@ -5,8 +5,8 @@
   }
 </script>
 
-{{#positive_plain_potential}}
-<p class='instruction'>🇯🇵→🎉<span class="blue-badge">𝚽</span></p>
+{{#positive_plain_volitional}}
+<p class='instruction'>🇯🇵→🎉🍻</p>
 <p class='word-type'>{{conjugation_kind}}</p>
 <div id="kanji" onclick="swapElem('kanji', 'furigana');">
     <p class='large'>{{preferred_spelling}}</p>
@@ -14,15 +14,15 @@
 <div id="furigana" style='display:none' onclick="swapElem('furigana', 'kanji');">
     <p class='large'><ruby>{{preferred_spelling}}<rt>{{phonetic_spelling}}</rt></ruby></p>
 </div>
-<p class='conjugation-directive casual'>🎉<span class="blue-badge">𝚽</span><br/>Positive Plain Potential</p>
-{{/positive_plain_potential}}
+<p class='conjugation-directive casual'>🎉🍻<br/>Positive Plain Volitional</p>
+{{/positive_plain_volitional}}
 ```
 {{FrontSide}}
 
 <hr id=answer>
 
-<p class='answer'>{{positive_plain_potential}}</p>
+<p class='answer'>{{positive_plain_volitional}}</p>
 
 <p class='detail-info'>📕 {{definition}}</p>
 
-<p>{{tts ja_JP:positive_plain_potential}}</p>
+<p>{{tts ja_JP:positive_plain_volitional}}</p>
