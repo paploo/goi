@@ -27,6 +27,8 @@ class KuruVerbInflectorTest : DescribeSpec({
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Potential) shouldInflectAs "持ってこられない"
         Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Potential) shouldInflectAs "持ってこられます"
         Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Potential) shouldInflectAs "持ってこられません"
+
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Volitional) shouldInflectAs "持ってこよう"
     }
 
     describeInflector("Kuru Verb Inflector", KuruVerbInflector.default, "持って来る") {
@@ -47,6 +49,8 @@ class KuruVerbInflectorTest : DescribeSpec({
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Potential) shouldInflectAs "持ってこられない"
         Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Potential) shouldInflectAs "持ってこられます"
         Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Potential) shouldInflectAs "持ってこられません"
+
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Volitional) shouldInflectAs "持ってこよう"
     }
 
 })

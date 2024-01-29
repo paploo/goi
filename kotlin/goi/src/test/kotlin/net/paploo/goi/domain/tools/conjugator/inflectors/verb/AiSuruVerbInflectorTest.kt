@@ -27,6 +27,8 @@ class AiSuruVerbInflectorTest : DescribeSpec({
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Potential) shouldInflectAs "愛できない"
         Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Potential) shouldInflectAs "愛できます"
         Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Potential) shouldInflectAs "愛できません"
+
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Volitional) shouldInflectAs "愛しよう"
     }
 
 })

@@ -73,3 +73,4 @@ INSERT INTO vocabulary.conjugation_form (code, label, sort_rank) VALUES ('POTENT
 INSERT INTO vocabulary.conjugation_form (code, label, sort_rank) VALUES ('PASSIVE', 'Passive', 7);
 INSERT INTO vocabulary.conjugation_form (code, label, sort_rank) VALUES ('CAUSATIVE', 'Causative', 8);
 INSERT INTO vocabulary.conjugation_form (code, label, sort_rank) VALUES ('IMPERATIVE', 'Imperative', 9);
+INSERT INTO vocabulary.conjugation_form (code, label, sort_rank) VALUES ('VOLITIONAL', 'Volitional', 10);

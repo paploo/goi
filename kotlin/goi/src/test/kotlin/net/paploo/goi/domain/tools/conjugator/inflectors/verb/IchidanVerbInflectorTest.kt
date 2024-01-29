@@ -29,6 +29,8 @@ class IchidanVerbInflectorTest : DescribeSpec({
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Potential) shouldInflectAs "食べられない"
         Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Potential) shouldInflectAs "食べられます"
         Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Potential) shouldInflectAs "食べられません"
+
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Volitional) shouldInflectAs "食べよう"
     }
 
     describe("Illegal Value") {

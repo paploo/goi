@@ -27,6 +27,8 @@ class IkuVerbInflectorTest : DescribeSpec({
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Potential) shouldInflectAs "行けない"
         Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Potential) shouldInflectAs "行けます"
         Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Potential) shouldInflectAs "行けません"
+
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Volitional) shouldInflectAs "行こう"
     }
 
     describeInflector("Iku Verb Inflector", IkuVerbInflector.default, "持っていく") {
@@ -47,6 +49,8 @@ class IkuVerbInflectorTest : DescribeSpec({
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Potential) shouldInflectAs "持っていけない"
         Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Potential) shouldInflectAs "持っていけます"
         Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Potential) shouldInflectAs "持っていけません"
+
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Volitional) shouldInflectAs "持っていこう"
     }
 
 })

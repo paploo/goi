@@ -50,6 +50,8 @@ abstract class StandardVerbInflector : VerbInflector {
         Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Potential) -> positivePolitePotential
         Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Potential) -> negativePolitePotential
 
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Volitional) -> positivePlainVolitional
+
         else -> null
     }
 

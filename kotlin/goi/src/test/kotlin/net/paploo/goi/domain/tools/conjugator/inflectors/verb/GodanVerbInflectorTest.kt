@@ -30,6 +30,8 @@ class GodanVerbInflectorTest : DescribeSpec({
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Potential) shouldInflectAs "会えない"
         Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Potential) shouldInflectAs "会えます"
         Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Potential) shouldInflectAs "会えません"
+
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Volitional) shouldInflectAs "会おう"
     }
 
     //ku
@@ -51,6 +53,8 @@ class GodanVerbInflectorTest : DescribeSpec({
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Potential) shouldInflectAs "聞けない"
         Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Potential) shouldInflectAs "聞けます"
         Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Potential) shouldInflectAs "聞けません"
+
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Volitional) shouldInflectAs "聞こう"
     }
 
     //gu
@@ -72,6 +76,8 @@ class GodanVerbInflectorTest : DescribeSpec({
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Potential) shouldInflectAs "急げない"
         Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Potential) shouldInflectAs "急げます"
         Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Potential) shouldInflectAs "急げません"
+
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Volitional) shouldInflectAs "急ごう"
     }
 
     //su
@@ -93,6 +99,8 @@ class GodanVerbInflectorTest : DescribeSpec({
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Potential) shouldInflectAs "話せない"
         Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Potential) shouldInflectAs "話せます"
         Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Potential) shouldInflectAs "話せません"
+
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Volitional) shouldInflectAs "話そう"
     }
 
     //tsu
@@ -114,6 +122,8 @@ class GodanVerbInflectorTest : DescribeSpec({
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Potential) shouldInflectAs "待てない"
         Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Potential) shouldInflectAs "待てます"
         Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Potential) shouldInflectAs "待てません"
+
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Volitional) shouldInflectAs "待とう"
     }
 
     //nu
@@ -135,6 +145,8 @@ class GodanVerbInflectorTest : DescribeSpec({
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Potential) shouldInflectAs "死ねない"
         Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Potential) shouldInflectAs "死ねます"
         Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Potential) shouldInflectAs "死ねません"
+
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Volitional) shouldInflectAs "死のう"
     }
 
     //bu
@@ -156,6 +168,8 @@ class GodanVerbInflectorTest : DescribeSpec({
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Potential) shouldInflectAs "飛べない"
         Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Potential) shouldInflectAs "飛べます"
         Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Potential) shouldInflectAs "飛べません"
+
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Volitional) shouldInflectAs "飛ぼう"
     }
 
     //mu
@@ -177,6 +191,8 @@ class GodanVerbInflectorTest : DescribeSpec({
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Potential) shouldInflectAs "薬を飲めない"
         Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Potential) shouldInflectAs "薬を飲めます"
         Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Potential) shouldInflectAs "薬を飲めません"
+
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Volitional) shouldInflectAs "薬を飲もう"
     }
 
     //ru
@@ -198,6 +214,8 @@ class GodanVerbInflectorTest : DescribeSpec({
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Potential) shouldInflectAs "頑張れない"
         Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Potential) shouldInflectAs "頑張れます"
         Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Potential) shouldInflectAs "頑張れません"
+
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Volitional) shouldInflectAs "頑張ろう"
     }
 
     describe("Illegal Values") {

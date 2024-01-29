@@ -22,6 +22,8 @@ class AruVerbInflector : StandardVerbInflector() {
 
     override val positivePlainPotential = Rewriter.replace(validEndingsRegex, "ありえる")
 
+    override val positivePlainVolitional: Rewriter = Rewriter.replace(validEndingsRegex, "あろう")
+
     companion object {
         val default: AruVerbInflector = AruVerbInflector()
     }

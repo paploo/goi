@@ -22,6 +22,8 @@ class SuruVerbInflector : StandardVerbInflector() {
 
     override val positivePlainPotential = Rewriter.replace(validEndingsRegex, "できる")
 
+    override val positivePlainVolitional = Rewriter.replace(validEndingsRegex, "しよう")
+
     companion object {
         val default: SuruVerbInflector = SuruVerbInflector()
     }

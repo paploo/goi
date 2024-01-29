@@ -34,6 +34,7 @@ data class Conjugation(
             Passive,
             Causative,
             Imperative,
+            Volitional,
         }
 
         companion object {
