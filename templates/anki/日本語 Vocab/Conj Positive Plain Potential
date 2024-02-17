@@ -14,7 +14,7 @@
 <div id="furigana" style='display:none' onclick="swapElem('furigana', 'kanji');">
     <p class='large'><ruby>{{preferred_spelling}}<rt>{{phonetic_spelling}}</rt></ruby></p>
 </div>
-<p class='conjugation-directive casual'>🎉<span class="blue-badge">𝚽</span><br/>Positive Plain Potential</p>
+<p class='conjugation-directive potential'>🎉<span class="blue-badge">𝚽</span><br/>Positive Plain Potential</p>
 {{/positive_plain_potential}}
 ```
 {{FrontSide}}
