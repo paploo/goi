@@ -2559,8 +2559,8 @@
     "how_to_use": [
       "verb (short form) + んです",
       "い-adj + んです",
-      "な-adj + なんです",
-      "noun + なんです",
+      "な-adj + な + んです",
+      "noun + な + んです",
       "〜のです written means same thing but is stylistically more formal",
       "Conjugate the verb/adjective to match tense."
     ],
@@ -2632,8 +2632,8 @@
     "how_to_use": [
       "verb (short form) + んですか",
       "い-adj + んですか",
-      "な-adj + なんですか",
-      "noun + なんですか",
+      "な-adj + な + んですか",
+      "noun + な + んですか",
       "Often paired with どうして (why) and どうした (what has happened)",
       "Use が instead of は with どうしたんですか"
     ],
@@ -2695,6 +2695,77 @@
     ],
     "jlpt_level": null,
     "date_added": "2024-02-18",
+    "lesson_codes": ["GENKI3_L12"],
+    "tags": []
+  },
+  {
+    "id": "e007254a-59f0-4ec3-8a0b-41fbd0684148",
+    "title": "〜すぎる",
+    "meaning": "too much; to excess (negative connotation and complaining)",
+    "how_to_use": [
+      "verb (stem) + すぎる",
+      "adjective (stem) + すぎる",
+      "conjugate すぎる as ichidan verb",
+      "has negative connotation; consider とても or すごく"
+    ],
+    "examples": [
+      {
+        "id": "e6f5635b-5b8c-4b16-a069-157fa499ceea",
+        "meaning": "This book is too expensive.",
+        "text": {
+          "spelling": "この{本|ほん}は{高|たか}すぎます。"
+        },
+        "lesson_codes": ["GENKI3_L12"],
+        "tags": []
+      },
+      {
+        "id": "9f327666-e8d2-4807-aed6-19af4cf32990",
+        "meaning": "This town is too quiet.",
+        "text": {
+          "spelling": "この{町|まち}は{静|しず}かすぎます。"
+        },
+        "lesson_codes": ["GENKI3_L12"],
+        "tags": []
+      },
+      {
+        "id": "be4c9c52-586d-46dc-ae32-3934d916f862",
+        "meaning": "I got up too early.<br/>My Mom talks too much.<br/>You must not eat too much.",
+        "text": {
+          "spelling": "{早|はや}く{起|お}きすぎました。<br/>{母|はは}は{話|は}しすぎます。<br/>{食|た}べすぎてはいけません。"
+        },
+        "lesson_codes": ["GENKI3_L12"],
+        "tags": []
+      },
+      {
+        "id": "d8369036-71ea-4092-910e-f00c38e78ef2",
+        "meaning": "Today it's too cold, therefore I don't want to go to school.",
+        "text": {
+          "spelling": "{今日|きょう}は{寒|さむ}すぎるから、{学校|がっ・こう}に{行|い}きたくないです。"
+        },
+        "lesson_codes": ["GENKI3_L12"],
+        "tags": []
+      },
+      {
+        "id": "4ee27ced-ab2b-4976-ad76-1d3f33ac1196",
+        "meaning": "I was too nervous, therefore I got a headache<br/>(I was too nervous, therefore my head became painful.)",
+        "text": {
+          "spelling": "{緊張|きん・ちょう}しすぎたから、{頭|あたま}が{痛|いた}くなりました。"
+        },
+        "lesson_codes": ["GENKI3_L12"],
+        "tags": []
+      },
+      {
+        "id": "e3f12eba-d190-4fe9-950c-098bc09e1fbc",
+        "meaning": "I'm sorry, I said a bit too much.",
+        "text": {
+          "spelling": "ごめんなさい、{少|すこ}し{言|い}いすぎました。"
+        },
+        "lesson_codes": ["JLPT_SENSEI_GRAMMAR_N5"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-02-19",
     "lesson_codes": ["GENKI3_L12"],
     "tags": []
   },
