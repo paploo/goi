@@ -2769,6 +2769,66 @@
     "lesson_codes": ["GENKI3_L12"],
     "tags": []
   },
+  {
+    "id": "378369fc-6878-447d-b11c-e30a360ec005",
+    "title": "〜方がいいです",
+    "meaning": "Give Advice: It is better (for you)",
+    "how_to_use": [
+      "verb (short, past present) + 方がいいです ⟶ It is better",
+      "verb (short, present negative) + 方がいいです ⟶ It is better not..."
+    ],
+    "examples": [
+      {
+        "id": "dc5ff471-e68f-4317-87a3-6cae17a5e641",
+        "meaning": "You'd better eat more vegetables.",
+        "text": {
+          "spelling": "もっと{野菜|や・さい}を{食|た}べた{方|ほう}がいいですよ。"
+        },
+        "lesson_codes": ["GENKI3_L12"],
+        "tags": []
+      },
+      {
+        "id": "fa479884-9432-4879-9916-f907f3a0625f",
+        "meaning": "It is better not to skip classes.",
+        "text": {
+          "spelling": "{授業|じゅ・ぎょう}を{休|やす}まない{方|ほう}がいいですよ。"
+        },
+        "lesson_codes": ["GENKI3_L12"],
+        "tags": []
+      },
+      {
+        "id": "1f40adba-b48d-43fc-a4b4-7807a78734c7",
+        "meaning": "You'd better call your mother more.",
+        "text": {
+          "spelling": "お{母|かあ}さんにもっと{電話|でん・わ}した{方|ほう}がいいですよ。"
+        },
+        "lesson_codes": ["GENKI3_L12"],
+        "tags": []
+      },
+      {
+        "id": "0cdaf7a0-d24d-409a-a2a9-6d553e455798",
+        "meaning": "You'd better not eat too much.",
+        "text": {
+          "spelling": "{食|た}べすぎない{方|ほう}がいいですよ。"
+        },
+        "lesson_codes": ["GENKI3_L12"],
+        "tags": []
+      },
+      {
+        "id": "66d1c1b0-6f6f-44bb-9562-573340302aac",
+        "meaning": "A: When I have a cold, what should I not do?<br/>(When you have a cold, what is better not to do?)<br/>B: You'd better drink water often.",
+        "text": {
+          "spelling": "Ａ：{風邪|かぜ}の{時|とき}、{何|なに}をしない{方|ほう}がいいですか。<br/>Ｂ：{水|みず}をよく{飲|の}んだ{方|ほう}がいいですよ。"
+        },
+        "lesson_codes": ["GENKI3_L12"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-02-21",
+    "lesson_codes": ["GENKI3_L12"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 13"},
   {"COMMENT": "GENKI LESSON 14"},
