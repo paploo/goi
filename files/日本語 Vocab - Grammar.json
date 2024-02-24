@@ -2829,6 +2829,76 @@
     "lesson_codes": ["GENKI3_L12"],
     "tags": []
   },
+  {
+    "id": "42986145-a13f-49b5-904a-e6f610ddb20f",
+    "title": "Ｒので、Ｓ。",
+    "meaning": "S, because R. (formal)<br/>R; therefore S. (formal)",
+    "how_to_use": [
+      "reason (verb short) + ので + situation",
+      "reason (な-adj) + な + ので + situation",
+      "reason (noun) + な + ので + situation"
+    ],
+    "examples": [
+      {
+        "id": "3c47e905-de8b-4fdd-bfc0-79e80bc0b43b",
+        "meaning": "My Japanese has improved because I always speak Japanese<br/>(I always speak Japanese, therefore my Japanese has improved.)",
+        "text": {
+          "spelling": "いつも{日本語|に・ほん・ご}で{話|はな}すので、{日本語|に・ほん・ご}が{上手|じょうず}にありました。"
+        },
+        "lesson_codes": ["GENKI3_L12"],
+        "tags": []
+      },
+      {
+        "id": "70519e21-59e4-474d-8fa1-972c2bfbc7ba",
+        "meaning": "I did not sleep last night because I had a lot of homework.<br/>(I had a lot of homework, therefore I did not sleep last night.)",
+        "text": {
+          "spelling": "{宿題|しゅく・だい}がたくさんあったので、{昨日|きのう}の{夜|よる}、{寝|ね}ませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L12"],
+        "tags": []
+      },
+      {
+        "id": "27e18af5-86f8-4346-94e8-4d368a054f1e",
+        "meaning": "I do not like that person because he is mean.<br/>(That person is mean, therefore I don't like him.)",
+        "text": {
+          "spelling": "その{人|ひと}は{意地悪|い・じ・わる}なので、{嫌|きら}いです。"
+        },
+        "lesson_codes": ["GENKI3_L12"],
+        "tags": []
+      },
+      {
+        "id": "e46f6442-ae19-43a5-a3d3-f60744681c78",
+        "meaning": "Banks are closed because today is a Sunday.<br/>(Today is a Sunday, therefore the banks are closed.)",
+        "text": {
+          "spelling": "{今日|きょう}は{日曜日|にち・よう・び}なので、{銀行|ぎん・こう}は{休|やす}みでう。"
+        },
+        "lesson_codes": ["GENKI3_L12"],
+        "tags": []
+      },
+      {
+        "id": "92fce58c-17a0-4b55-8b93-eb7647c2cc94",
+        "meaning": "I don't have money because I paid the electric bill (fee).<br/>(Because I paid the electric bill fee, I don't have money.)",
+        "text": {
+          "spelling": "{電気代|でん・き・だい}を{払|はら}ったので、お{金|かね}がありません。"
+        },
+        "lesson_codes": ["GENKI3_L12"],
+        "tags": []
+      },
+      {
+        "id": "23f4093c-d861-4f70-bfe7-f7859054c1ea",
+        "meaning": "I don't want to do anything because I have a hangover.<br/>I have a hangover, therefore I don't want to do anything.",
+        "text": {
+          "spelling": "{二日酔|ふつ・か・よ}いなので、{何|なに}もしたくないです。"
+        },
+        "lesson_codes": ["GENKI3_L12"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-02-23",
+    "lesson_codes": ["GENKI3_L12"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 13"},
   {"COMMENT": "GENKI LESSON 14"},
