@@ -39,7 +39,7 @@ class DistributedApplication : Application<List<String>> {
     private fun parseArgs(args: List<String>): Result<Args<*>> =
         when(val command = args.firstOrNull()?.pascalCase()) {
             "Pipeline" -> parsePipelineArgs(args.drop(1))
-            "Template" -> parseTemplateArgs(args.drop(1))
+            "Template" -> parseTemplateArgs(args.drop(0))
             null -> throw IllegalArgumentException("Expected the first argument to be a command, e.g. 'pipeline'")
             else -> throw IllegalArgumentException("Unknown command '$command' on argument list $args")
         }

@@ -1,33 +1,40 @@
 package net.paploo.goi.application
 
+import net.paploo.goi.common.extensions.flatMap
 import net.paploo.goi.common.extensions.sequenceToResult
 import net.paploo.goi.domain.data.common.FuriganaString
 import net.paploo.goi.domain.tools.furiganatemplate.transformers.AnkiTemplateTransformer
 import org.apache.commons.csv.CSVFormat
 import org.apache.commons.csv.CSVPrinter
-import java.io.OutputStream
-import java.io.PrintWriter
-import java.io.StringWriter
+import java.io.*
 
 class FuriganaTemplateApplication(
     configBuilder: Configuration.() -> Unit = {}
 ) : Application<List<String>> {
 
     data class Configuration(
-        var io: OutputStream = System.out,
+        var inIo: InputStream = System.`in`,
+        var outIo: OutputStream = System.out,
         var delimiter: String = ","
     )
 
     private val config: Configuration = Configuration().apply(configBuilder)
 
     override suspend fun invoke(args: List<String>): Result<Unit> =
-        PrintWriter(config.io).use { writer ->
+        PrintWriter(config.outIo).use { writer ->
             writer.print(toRow(headers))
-            args.map { string ->
-                process(string).onSuccess {
-                    writer.print(toRow(it))
-                }
-            }.sequenceToResult().map { Unit }
+            getLines(args).flatMap { lines ->
+                lines.map { line ->
+                    process(line).onSuccess {
+                        writer.print(toRow(it))
+                    }
+                }.sequenceToResult()
+            }.map { Unit }
+        }
+
+    private fun getLines(args: List<String>): Result<List<String>> =
+        Result.runCatching {
+            BufferedReader(InputStreamReader(config.inIo)).readLines()
         }
 
     private fun process(templateString: String): Result<List<String?>> =
