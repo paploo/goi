@@ -18,6 +18,7 @@ plugins {
     antlr
     id("nu.studer.jooq") version "8.2.1"
     id("com.adarshr.test-logger") version "3.2.0"
+    id("application")
 }
 
 group = "net.paploo"

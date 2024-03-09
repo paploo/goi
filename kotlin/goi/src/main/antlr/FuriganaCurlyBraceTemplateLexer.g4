@@ -19,7 +19,7 @@ GROUP_PART_SEPARATOR: '|' -> pushMode(RUBY_TEXT_MODE);
 //https://en.wikipedia.org/wiki/CJK_Unified_Ideographs_(Unicode_block)
 CJK_CHAR: '\u4E00' .. '\u9FFF' | '々'; //CJK Ideographs; does not include kana or fixed width forms; treat 々 as an ideograph since it is used as such.
 //https://en.wikipedia.org/wiki/Halfwidth_and_Fullwidth_Forms_(Unicode_block)
-FULL_WIDTH_ALAPHANUMERIC_CHAR: '\uFF10' .. '\uFF3A';
+FULL_WIDTH_ALAPHANUMERIC_CHAR: '\uFF10' .. '\uFF3A' | '＆'; //Cheat in ＆ since it can be used in 'word' position.
 HIRAGANA_CHAR: '\u3040' .. '\u309F';
 KATAKANA_CHAR: '\u30A0' .. '\u30FF';
 GROUP_INVALID_CHAR: .; //If no other rule matches, this will catch the input to make it more handlable.

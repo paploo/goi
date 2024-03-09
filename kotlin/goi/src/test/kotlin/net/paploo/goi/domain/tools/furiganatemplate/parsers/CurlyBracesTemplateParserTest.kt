@@ -128,6 +128,22 @@ class CurlyBracesTemplateParserTest : DescribeSpec({
         )
     }
 
+    it("should allow full-width numbers, letters and punctuation in japanese text") {
+        val template = FuriganaTemplate.CurlyBraces("{２|に}{＆|アンド}{Ｊ|ジェー}")
+
+        val result = parser(template)
+
+        val expectedTree = FuriganaParseTree(
+            elements = listOf(
+                FuriganaParseTree.Element.RubyText("２", "に"),
+                FuriganaParseTree.Element.RubyText("＆", "アンド"),
+                FuriganaParseTree.Element.RubyText("Ｊ", "ジェー"),
+            )
+        )
+
+        result shouldBe Result.success(expectedTree)
+    }
+
     it("should allow romaji in ruby text") {
         val template = FuriganaTemplate.CurlyBraces("〜て{は|wa}いけません")
 
@@ -150,10 +166,38 @@ class CurlyBracesTemplateParserTest : DescribeSpec({
         result.shouldBeFailure<FuriganaTemplateParseException>()
     }
 
-    it("should not allow katakana in a ruby phonetic spelling") {
+    it("should not allow katakana in a japanese text") {
         val template = FuriganaTemplate.CurlyBraces("{カメラ|かめら}")
         val result = parser(template)
         result.shouldBeFailure<FuriganaTemplateParseException>()
+    }
+
+    it("should allow katakana in ruby text") {
+        val template = FuriganaTemplate.CurlyBraces("{時|ジ}")
+
+        val result = parser(template)
+
+        val expectedTree = FuriganaParseTree(
+            elements = listOf(
+                FuriganaParseTree.Element.RubyText("時", "ジ")
+            )
+        )
+
+        result shouldBe Result.success(expectedTree)
+    }
+
+    it("should allow chounpu in ruby text") {
+        val template = FuriganaTemplate.CurlyBraces("{拉麺|ラーメン}")
+
+        val result = parser(template)
+
+        val expectedTree = FuriganaParseTree(
+            elements = listOf(
+                FuriganaParseTree.Element.RubyText("拉麺", "ラーメン")
+            )
+        )
+
+        result shouldBe Result.success(expectedTree)
     }
 
 })
