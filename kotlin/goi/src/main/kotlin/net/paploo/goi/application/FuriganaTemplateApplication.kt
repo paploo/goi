@@ -1,71 +1,83 @@
 package net.paploo.goi.application
 
+import net.paploo.goi.common.extensions.append
 import net.paploo.goi.common.extensions.flatMap
 import net.paploo.goi.common.extensions.sequenceToResult
-import net.paploo.goi.domain.data.common.FuriganaString
-import net.paploo.goi.domain.tools.furiganatemplate.transformers.AnkiTemplateTransformer
-import org.apache.commons.csv.CSVFormat
-import org.apache.commons.csv.CSVPrinter
-import java.io.*
+import net.paploo.goi.common.util.TimerLog
+import net.paploo.goi.pipeline.template.TemplatePipeline
+import net.paploo.goi.pipeline.template.exporter.CSVTemplateExporter
+import net.paploo.goi.pipeline.template.importer.FileListTemplateImporter
+import java.nio.file.Path
+import kotlin.io.path.Path
+import kotlin.io.path.absolute
 
 class FuriganaTemplateApplication(
     configBuilder: Configuration.() -> Unit = {}
-) : Application<List<String>> {
+) : BaseApplication<FuriganaTemplateApplication.Configuration, List<String>, FuriganaTemplateApplication.Environment>() {
 
     data class Configuration(
-        var inIo: InputStream = System.`in`,
-        var outIo: OutputStream = System.out,
-        var delimiter: String = ","
+        var filesDirectory: Path = Path(".", "files").absolute()
     )
 
-    private val config: Configuration = Configuration().apply(configBuilder)
+    data class Environment(
+        val pipeline: TemplatePipeline
+    )
 
-    override suspend fun invoke(args: List<String>): Result<Unit> =
-        PrintWriter(config.outIo).use { writer ->
-            writer.print(toRow(headers))
-            getLines(args).flatMap { lines ->
-                lines.map { line ->
-                    process(line).onSuccess {
-                        writer.print(toRow(it))
-                    }
-                }.sequenceToResult()
+    override val config: Configuration = Configuration().apply(configBuilder)
+
+    override suspend fun invokeEnvironment(environment: Environment): Result<Unit> =
+        Result.success(
+            TimerLog("Pipeline furigana template")
+        ).flatMap { timer ->
+            val startMark = timer.mark("Starting pipeline")
+            val result = environment.pipeline()
+            val endMark = timer.mark("Completed pipeline with success=${result.isSuccess}")
+
+            result.onFailure {
+                logger.error("FAILURE: $it", it)
+            }.onSuccess {
+                val rate = it.size.toDouble() / (endMark.delta - startMark.delta).toMillis().toDouble() * 1000.0
+                logger.info("SUCCESS: records processed: ${it.size}, time was ${endMark.delta.toMillis()} ms, rate was $rate rec/sec")
+            }.also {
+                logger.info(timer.formatted())
             }.map { Unit }
         }
 
-    private fun getLines(args: List<String>): Result<List<String>> =
+    override suspend fun setupEnvironment(args: List<String>, config: Configuration): Result<Environment> =
         Result.runCatching {
-            BufferedReader(InputStreamReader(config.inIo)).readLines()
-        }
-
-    private fun process(templateString: String): Result<List<String?>> =
-        Result.runCatching {
-            FuriganaString.fromCurlyBraces(templateString)
-        }.mapCatching { furiganaString ->
-            listOf(
-                templateString,
-                furiganaString.preferredSpelling.value,
-                furiganaString.phoneticSpelling?.value,
-                furiganaString.transform(AnkiTemplateTransformer.default).getOrNull()?.templateString
+            Environment(
+                pipeline = TemplatePipeline(pipelineConfig(config.filesDirectory))
             )
         }
 
-    private val headers: List<String> =
-        listOf("template", "preferred", "phonetic", "anki")
 
-    private fun toRow(values: List<String?>): String =
-            StringWriter().use { writer ->
-                CSVPrinter(writer, csvFormat).use { csvPrinter ->
-                    csvPrinter.printRecord(values)
-                }
+    override suspend fun teardownEnvironment(environment: Environment): Result<Unit> =
+        Result.success(Unit)
 
-                writer.toString()
-            }
-
-    private val csvFormat: CSVFormat = CSVFormat.Builder
-        .create(CSVFormat.RFC4180)
-        .setRecordSeparator("\n") //Use UNIX LF instead of RFC4180 specified CRLF
-        .setDelimiter(config.delimiter) //The field delimeter (comma for CSV)
-        .setNullString("") //Make sure nulls render as empty fields.
-        .build()
+    private fun pipelineConfig(
+        filesDirectory: Path
+    ): TemplatePipeline.Configuration =
+        TemplatePipeline.Configuration(
+            importer = FileListTemplateImporter(
+                FileListTemplateImporter.Config(
+                    filePath = filesDirectory append Path("furigana_template.txt")
+                )
+            ),
+            transformers = emptyList(),
+            exporters = listOf(
+                CSVTemplateExporter(
+                    CSVTemplateExporter.Config(
+                        filePath = filesDirectory append Path("furigana_template", "furigana_values.csv"),
+                        format = CSVTemplateExporter.Config.Format.CSV
+                    )
+                ),
+                CSVTemplateExporter(
+                    CSVTemplateExporter.Config(
+                        filePath = filesDirectory append Path("furigana_template", "furigana_values.tsv"),
+                        format = CSVTemplateExporter.Config.Format.TSV
+                    )
+                )
+            )
+        )
 
 }

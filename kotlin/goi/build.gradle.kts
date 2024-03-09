@@ -65,11 +65,6 @@ application {
     mainClass.set("MainKt")
 }
 
-//Allows piping standard in into application run.
-tasks.withType<JavaExec>() {
-    standardInput = System.`in`
-}
-
 
 // ANTLR
 
