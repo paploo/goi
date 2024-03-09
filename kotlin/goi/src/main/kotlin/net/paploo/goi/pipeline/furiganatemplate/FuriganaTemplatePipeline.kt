@@ -1,4 +1,4 @@
-package net.paploo.goi.pipeline.template
+package net.paploo.goi.pipeline.furiganatemplate
 
 import net.paploo.goi.domain.data.common.FuriganaString
 import net.paploo.goi.pipeline.core.BasePipeline
@@ -6,7 +6,7 @@ import net.paploo.goi.pipeline.core.Exporter
 import net.paploo.goi.pipeline.core.Importer
 import net.paploo.goi.pipeline.core.Transformer
 
-class TemplatePipeline(
+class FuriganaTemplatePipeline(
     config: Configuration
 ) : BasePipeline<List<FuriganaString>>() {
 

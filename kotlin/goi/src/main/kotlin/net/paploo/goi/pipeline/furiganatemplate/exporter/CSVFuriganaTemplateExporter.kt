@@ -1,4 +1,4 @@
-package net.paploo.goi.pipeline.template.exporter
+package net.paploo.goi.pipeline.furiganatemplate.exporter
 
 import net.paploo.goi.common.extensions.mapFailure
 import net.paploo.goi.domain.data.common.FuriganaString
@@ -12,7 +12,7 @@ import java.io.PrintWriter
 import java.io.StringWriter
 import java.nio.file.Path
 
-class CSVTemplateExporter (
+class CSVFuriganaTemplateExporter (
     val config: Config
 ) : Exporter<List<FuriganaString>> {
 

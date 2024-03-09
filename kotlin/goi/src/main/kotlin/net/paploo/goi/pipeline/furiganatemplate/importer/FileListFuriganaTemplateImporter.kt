@@ -1,4 +1,4 @@
-package net.paploo.goi.pipeline.template.importer
+package net.paploo.goi.pipeline.furiganatemplate.importer
 
 import net.paploo.goi.domain.data.common.FuriganaString
 import net.paploo.goi.pipeline.core.Context
@@ -6,7 +6,7 @@ import net.paploo.goi.pipeline.core.Importer
 import java.nio.file.Path
 import kotlin.io.path.readLines
 
-class FileListTemplateImporter(
+class FileListFuriganaTemplateImporter(
     val config: Config
 ) : Importer<List<FuriganaString>> {
 

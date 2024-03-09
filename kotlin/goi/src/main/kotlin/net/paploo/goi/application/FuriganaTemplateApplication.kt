@@ -2,11 +2,10 @@ package net.paploo.goi.application
 
 import net.paploo.goi.common.extensions.append
 import net.paploo.goi.common.extensions.flatMap
-import net.paploo.goi.common.extensions.sequenceToResult
 import net.paploo.goi.common.util.TimerLog
-import net.paploo.goi.pipeline.template.TemplatePipeline
-import net.paploo.goi.pipeline.template.exporter.CSVTemplateExporter
-import net.paploo.goi.pipeline.template.importer.FileListTemplateImporter
+import net.paploo.goi.pipeline.furiganatemplate.FuriganaTemplatePipeline
+import net.paploo.goi.pipeline.furiganatemplate.exporter.CSVFuriganaTemplateExporter
+import net.paploo.goi.pipeline.furiganatemplate.importer.FileListFuriganaTemplateImporter
 import java.nio.file.Path
 import kotlin.io.path.Path
 import kotlin.io.path.absolute
@@ -20,7 +19,7 @@ class FuriganaTemplateApplication(
     )
 
     data class Environment(
-        val pipeline: TemplatePipeline
+        val pipeline: FuriganaTemplatePipeline
     )
 
     override val config: Configuration = Configuration().apply(configBuilder)
@@ -46,7 +45,7 @@ class FuriganaTemplateApplication(
     override suspend fun setupEnvironment(args: List<String>, config: Configuration): Result<Environment> =
         Result.runCatching {
             Environment(
-                pipeline = TemplatePipeline(pipelineConfig(config.filesDirectory))
+                pipeline = FuriganaTemplatePipeline(pipelineConfig(config.filesDirectory))
             )
         }
 
@@ -56,25 +55,25 @@ class FuriganaTemplateApplication(
 
     private fun pipelineConfig(
         filesDirectory: Path
-    ): TemplatePipeline.Configuration =
-        TemplatePipeline.Configuration(
-            importer = FileListTemplateImporter(
-                FileListTemplateImporter.Config(
+    ): FuriganaTemplatePipeline.Configuration =
+        FuriganaTemplatePipeline.Configuration(
+            importer = FileListFuriganaTemplateImporter(
+                FileListFuriganaTemplateImporter.Config(
                     filePath = filesDirectory append Path("furigana_template.txt")
                 )
             ),
             transformers = emptyList(),
             exporters = listOf(
-                CSVTemplateExporter(
-                    CSVTemplateExporter.Config(
+                CSVFuriganaTemplateExporter(
+                    CSVFuriganaTemplateExporter.Config(
                         filePath = filesDirectory append Path("furigana_template", "furigana_values.csv"),
-                        format = CSVTemplateExporter.Config.Format.CSV
+                        format = CSVFuriganaTemplateExporter.Config.Format.CSV
                     )
                 ),
-                CSVTemplateExporter(
-                    CSVTemplateExporter.Config(
+                CSVFuriganaTemplateExporter(
+                    CSVFuriganaTemplateExporter.Config(
                         filePath = filesDirectory append Path("furigana_template", "furigana_values.tsv"),
-                        format = CSVTemplateExporter.Config.Format.TSV
+                        format = CSVFuriganaTemplateExporter.Config.Format.TSV
                     )
                 )
             )
