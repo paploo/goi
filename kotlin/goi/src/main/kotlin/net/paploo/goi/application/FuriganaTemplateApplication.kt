@@ -10,6 +10,10 @@ import java.nio.file.Path
 import kotlin.io.path.Path
 import kotlin.io.path.absolute
 
+/**
+ * TODO: Re-write into the existing PipelineApplication as a template action?
+ *       If so, also move the logic of the helpers into the persistence layer.
+ */
 class FuriganaTemplateApplication(
     configBuilder: Configuration.() -> Unit = {}
 ) : BaseApplication<FuriganaTemplateApplication.Configuration, List<String>, FuriganaTemplateApplication.Environment>() {
