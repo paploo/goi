@@ -17,7 +17,7 @@ mode GROUP_MODE;
 NATIVE_GROUP_END: '}' -> popMode;
 GROUP_PART_SEPARATOR: '|' -> pushMode(RUBY_TEXT_MODE);
 //https://en.wikipedia.org/wiki/CJK_Unified_Ideographs_(Unicode_block)
-CJK_CHAR: '\u4E00' .. '\u9FFF' | '々'; //CJK Ideographs; does not include kana or fixed width forms; treat 々 as an ideograph since it is used as such.
+CJK_CHAR: '\u4E00' .. '\u9FFF' | '々' | 'ヶ' | '〇'; //CJK Ideographs; does not include kana or fixed width forms; treat 々 as an ideograph since it is used as such.
 //https://en.wikipedia.org/wiki/Halfwidth_and_Fullwidth_Forms_(Unicode_block)
 FULL_WIDTH_ALAPHANUMERIC_CHAR: '\uFF10' .. '\uFF3A' | '＆'; //Cheat in ＆ since it can be used in 'word' position.
 HIRAGANA_CHAR: '\u3040' .. '\u309F';
