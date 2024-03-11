@@ -35,7 +35,7 @@ class CSVFuriganaTemplateExporter (
                 furiganaStrings.mapIndexed { index, furiganaString ->
                     println(furiganaString)
                     val rowValues = toRow(furiganaString).mapFailure { th ->
-                        IllegalArgumentException("Error on entry number ${index+1} for $furiganaString: $th", th)
+                        IllegalArgumentException("Error on entry number ${index+1}: $th", th)
                     }.getOrThrow()
                     writer.print(writeRow(rowValues))
                 }
