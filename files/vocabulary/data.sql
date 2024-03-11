@@ -12528,12 +12528,12 @@ insert into "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 insert into "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") values ('7bf2d96d-d17c-5cc3-af89-36d19b7f7beb', '054030ee-33ce-4c8a-b351-46dd79b31fa9', 'HIRAGANA', 'かえる');
 insert into "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") values ('b2f937fa-11ba-5cc2-be3d-fe79f6d1a81b', '054030ee-33ce-4c8a-b351-46dd79b31fa9', 'KANJI', '蛙');
 insert into "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id", "conjugation_set_id") values ('054030ee-33ce-4c8a-b351-46dd79b31fa9', '6c0e153d-2cdc-52ce-8cbe-152bb91c6df4', '97be42bc-0783-5149-9ee6-e94c74c027c0', '7bf2d96d-d17c-5cc3-af89-36d19b7f7beb', null, 'b2f937fa-11ba-5cc2-be3d-fe79f6d1a81b', null);
--- 鴉 | crow, raven --;
+-- カラス | crow, raven --;
 insert into "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "date_added", "tags") values ('776f074f-a248-49d9-9eea-0348640431ee', 'NOUN', null, null, 1216, date '2023-11-18', cast('{"animal"}' as varchar[]));
 insert into "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") values ('96d869f1-86f3-56d2-a722-a6669bd7a8ab', '776f074f-a248-49d9-9eea-0348640431ee', 1, 'crow, raven');
-insert into "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") values ('c8a6f7ef-6d18-5ba1-90dd-8a02121609a4', '776f074f-a248-49d9-9eea-0348640431ee', 'KANJI', '鴉');
+insert into "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") values ('c8a6f7ef-6d18-5ba1-90dd-8a02121609a4', '776f074f-a248-49d9-9eea-0348640431ee', 'KATAKANA', 'カラス');
 insert into "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") values ('146a17a7-5f27-5f10-a0ad-cd3f67c0c36a', '776f074f-a248-49d9-9eea-0348640431ee', 'HIRAGANA', 'からす');
-insert into "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") values ('b1d96cdf-e426-50ac-adf1-4f66b37fcb57', '776f074f-a248-49d9-9eea-0348640431ee', 'KANJI', '鴉');
+insert into "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") values ('b1d96cdf-e426-50ac-adf1-4f66b37fcb57', '776f074f-a248-49d9-9eea-0348640431ee', 'KANJI', '烏');
 insert into "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id", "conjugation_set_id") values ('776f074f-a248-49d9-9eea-0348640431ee', '96d869f1-86f3-56d2-a722-a6669bd7a8ab', 'c8a6f7ef-6d18-5ba1-90dd-8a02121609a4', '146a17a7-5f27-5f10-a0ad-cd3f67c0c36a', null, 'b1d96cdf-e426-50ac-adf1-4f66b37fcb57', null);
 -- 氷 | ice, shaved ice --;
 insert into "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "date_added", "tags") values ('0a9f4857-fbbf-4b4d-a6ad-4cfb93129022', 'NOUN', null, 3, 1217, date '2023-11-18', cast('{"food"}' as varchar[]));
