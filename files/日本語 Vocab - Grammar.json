@@ -2899,6 +2899,77 @@
     "lesson_codes": ["GENKI3_L12"],
     "tags": []
   },
+  {
+    "id": "00000000-0000-0000-0000-000000000000",
+    "title": "〜なければいけません／〜なきゃいけません",
+    "meaning": "I must...; I have to...",
+    "how_to_use": [
+      "verb (short negative) + なかればいけません ⟶ formal/written",
+      "verb (short negative) + なきゃいけません ⟶ informal",
+      "verb (short negative) + なきゃ ⟶ casual",
+      "Use なかればいけませんでした/なきゃいけませんでした for past tense, e.g. 'had to'"
+    ],
+    "examples": [
+      {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "meaning": "I have to study, because there will be an exam.",
+        "text": {
+          "spelling": "試験があるから、勉強しなければいけません。<br/>試験があるから、勉強しなきゃいけません。"
+        },
+        "lesson_codes": ["GENKI3_Lxx"],
+        "tags": []
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "meaning": "I had to get up at six this morning.",
+        "text": {
+          "spelling": "今朝は、六時に起きなきゃいけませんでした。"
+        },
+        "lesson_codes": ["GENKI3_Lxx"],
+        "tags": []
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "meaning": "I must clean the room, because my girlfriend is coming.",
+        "text": {
+          "spelling": "彼女が来るから、下野を掃除しなきゃ。"
+        },
+        "lesson_codes": ["GENKI3_Lxx"],
+        "tags": []
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "meaning": "Tomorrow, I have class from 9 o'clock; therefore I have to get up early.",
+        "text": {
+          "spelling": "明日は九時から授業があるので、早く起きなければいけません。"
+        },
+        "lesson_codes": ["GENKI3_Lxx"],
+        "tags": []
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "meaning": "I had to do my Japanese language homework.",
+        "text": {
+          "spelling": "日本語の宿題をしなければいけませんでした。<br/>日本語の宿題をしなきゃいけませんでした。"
+        },
+        "lesson_codes": ["GENKI3_Lxx"],
+        "tags": []
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "meaning": "This weekend, what must you do?",
+        "text": {
+          "spelling": "今週の週末、何をしなければいけませんか。"
+        },
+        "lesson_codes": ["GENKI3_Lxx"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "1970-01-01",
+    "lesson_codes": ["GENKI3_Lxx"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 13"},
   {"COMMENT": "GENKI LESSON 14"},
