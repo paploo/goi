@@ -2900,7 +2900,7 @@
     "tags": []
   },
   {
-    "id": "00000000-0000-0000-0000-000000000000",
+    "id": "b21accc1-6696-489c-a88e-50712eaf08e1",
     "title": "〜なければいけません／〜なきゃいけません",
     "meaning": "I must...; I have to...",
     "how_to_use": [
@@ -2911,63 +2911,63 @@
     ],
     "examples": [
       {
-        "id": "00000000-0000-0000-0000-000000000000",
+        "id": "cfe7afc1-90ca-4a58-8062-cd10d5fa5413",
         "meaning": "I have to study, because there will be an exam.",
         "text": {
-          "spelling": "試験があるから、勉強しなければいけません。<br/>試験があるから、勉強しなきゃいけません。"
+          "spelling": "{試験|し・けん}があるから、{勉強|べん・きょう}しなければいけません。<br/>{試験|し・けん}があるから、{勉強|べん・きょう}しなきゃいけません。"
         },
-        "lesson_codes": ["GENKI3_Lxx"],
+        "lesson_codes": ["GENKI3_L12"],
         "tags": []
       },
       {
-        "id": "00000000-0000-0000-0000-000000000000",
+        "id": "0c73799d-4255-4472-9312-b2c04dc9f03a",
         "meaning": "I had to get up at six this morning.",
         "text": {
-          "spelling": "今朝は、六時に起きなきゃいけませんでした。"
+          "spelling": "{今朝|けさ}は、{六|ろく}{時|じ}に{起|お}きなきゃいけませんでした。"
         },
-        "lesson_codes": ["GENKI3_Lxx"],
+        "lesson_codes": ["GENKI3_L12"],
         "tags": []
       },
       {
-        "id": "00000000-0000-0000-0000-000000000000",
+        "id": "c882b706-972b-4f28-b0dd-30bc2ae8dc84",
         "meaning": "I must clean the room, because my girlfriend is coming.",
         "text": {
-          "spelling": "彼女が来るから、下野を掃除しなきゃ。"
+          "spelling": "{彼女|かの・じょ}が{来|く}るから、{部屋|へ・や}を{掃除|そう・じ}しなきゃ。"
         },
-        "lesson_codes": ["GENKI3_Lxx"],
+        "lesson_codes": ["GENKI3_L12"],
         "tags": []
       },
       {
-        "id": "00000000-0000-0000-0000-000000000000",
+        "id": "552affcd-de62-4778-adda-825996ab197e",
         "meaning": "Tomorrow, I have class from 9 o'clock; therefore I have to get up early.",
         "text": {
-          "spelling": "明日は九時から授業があるので、早く起きなければいけません。"
+          "spelling": "{明日|あ・した}は{九|く}{時|じ}から{授業|じゅ・ぎょう}があるので、{早|はや}く{起|お}きなければいけません。"
         },
-        "lesson_codes": ["GENKI3_Lxx"],
+        "lesson_codes": ["GENKI3_L12"],
         "tags": []
       },
       {
-        "id": "00000000-0000-0000-0000-000000000000",
+        "id": "8f7a9329-9e92-4aa4-ba02-ff0c8b6069c8",
         "meaning": "I had to do my Japanese language homework.",
         "text": {
-          "spelling": "日本語の宿題をしなければいけませんでした。<br/>日本語の宿題をしなきゃいけませんでした。"
+          "spelling": "{日本語|に・ほん・ご}の{宿題|しゅく・だい}をしなければいけませんでした。<br/>{日本語|に・ほん・ご}の{宿題|しゅく・だい}をしなきゃいけませんでした。"
         },
-        "lesson_codes": ["GENKI3_Lxx"],
+        "lesson_codes": ["GENKI3_L12"],
         "tags": []
       },
       {
-        "id": "00000000-0000-0000-0000-000000000000",
+        "id": "abd26a19-2e99-492d-882f-60657b665eea",
         "meaning": "This weekend, what must you do?",
         "text": {
-          "spelling": "今週の週末、何をしなければいけませんか。"
+          "spelling": "{今週|こん・しゅう}の{週末|しゅう・まつ}、{何|なに}をしなければいけませんか。"
         },
-        "lesson_codes": ["GENKI3_Lxx"],
+        "lesson_codes": ["GENKI3_L12"],
         "tags": []
       }
     ],
     "jlpt_level": null,
-    "date_added": "1970-01-01",
-    "lesson_codes": ["GENKI3_Lxx"],
+    "date_added": "2024-03-23",
+    "lesson_codes": ["GENKI3_L12"],
     "tags": []
   },
 
