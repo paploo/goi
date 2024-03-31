@@ -2304,9 +2304,9 @@
       },
       {
         "id": "ab3f3543-7c3f-48dd-99c9-23981f88c2d5",
-        "meaning": "A: When you were a child, what did you want to become? B: I wanted to become a singer.",
+        "meaning": "A: When you were a child, what did you want to become?<br/>B: I wanted to become a singer.",
         "text": {
-          "spelling": "Ａ：{子供|こ・ども}の{時|とき}、{何|なに}になりたかったですか。Ｂ：{歌手|か・しゅ}になりたかったです。"
+          "spelling": "Ａ：{子供|こ・ども}の{時|とき}、{何|なに}になりたかったですか。<br/>Ｂ：{歌手|か・しゅ}になりたかったです。"
         },
         "lesson_codes": ["GENKI3_L11"],
         "tags": []
@@ -2818,7 +2818,7 @@
         "id": "66d1c1b0-6f6f-44bb-9562-573340302aac",
         "meaning": "A: When I have a cold, what should I not do?<br/>(When you have a cold, what is better not to do?)<br/>B: You'd better drink water often.",
         "text": {
-          "spelling": "Ａ：{風邪|かぜ}の{時|とき}、{何|なに}をしない{方|ほう}がいいですか。<br/>Ｂ：{水|みず}をよく{飲|の}んだ{方|ほう}がいいですよ。"
+          "spelling": "Ａ：{風邪|かぜ}の{時|とき}、{何|なに}をした{方|ほう}がいいですか。<br/>Ｂ：{水|みず}をよく{飲|の}んだ{方|ほう}がいいですよ。"
         },
         "lesson_codes": ["GENKI3_L12"],
         "tags": []
@@ -2904,9 +2904,9 @@
     "title": "〜なければいけません／〜なきゃいけません",
     "meaning": "I must...; I have to...",
     "how_to_use": [
-      "verb (short negative) + なかればいけません ⟶ formal/written",
-      "verb (short negative) + なきゃいけません ⟶ informal",
-      "verb (short negative) + なきゃ ⟶ casual",
+      "verb (short negative, drop い) + かればいけません ⟶ formal/written",
+      "verb (short negative, drop い) + きゃいけません ⟶ informal",
+      "verb (short negative, drop い) + きゃ ⟶ casual",
       "Use なかればいけませんでした/なきゃいけませんでした for past tense, e.g. 'had to'"
     ],
     "examples": [
@@ -2957,11 +2957,11 @@
       },
       {
         "id": "abd26a19-2e99-492d-882f-60657b665eea",
-        "meaning": "This weekend, what must you do?",
+        "meaning": "This weekend, what must you do?<br/>I have to do my best.",
         "text": {
-          "spelling": "{今週|こん・しゅう}の{週末|しゅう・まつ}、{何|なに}をしなければいけませんか。"
+          "spelling": "{今週|こん・しゅう}の{週末|しゅう・まつ}、{何|なに}をしなければいけませんか。<br/>{私|わたし}は{頑張|がんば}らなければいけない。"
         },
-        "lesson_codes": ["GENKI3_L12"],
+        "lesson_codes": ["GENKI3_L12", "JLPT_SENSEI_GRAMMAR_N4"],
         "tags": []
       }
     ],
