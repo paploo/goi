@@ -260,7 +260,7 @@
         "id": "49ec76a6-272e-4749-acb8-e46d0617bedd",
         "meaning": "There's a McDonald's Over There.",
         "text": {
-          "spelling": "あぞこにマクドナルドがあります。",
+          "spelling": "あそこにマクドナルドがあります。",
           "phonetic_spelling": null
         },
         "lesson_codes": ["GENKI3_L04"],
@@ -2985,7 +2985,7 @@
         "id": "0b422d37-49cc-48c8-90a4-f3ee434a19d9",
         "meaning": "Have I told you about this already?",
         "text": {
-          "spelling": "これ、もう話したでしょうか。"
+          "spelling": "これ、もう{話|はな}したでしょうか。"
         },
         "lesson_codes": ["GENKI3_L12"],
         "tags": []
@@ -2994,7 +2994,7 @@
         "id": "5cd828ae-801e-42a2-8547-6b6a32d1e391",
         "meaning": "Would you say that it will be warm next week?",
         "text": {
-          "spelling": "来週はあったかいでしょうか。"
+          "spelling": "{来週|らい・しゅう}はあったかいでしょうか。"
         },
         "lesson_codes": ["GENKI3_L12"],
         "tags": []
@@ -3003,7 +3003,7 @@
         "id": "acb91b3d-bf51-4bd7-a76d-dbba20c030c6",
         "meaning": "Is a tomato a vegetable (maybe)?",
         "text": {
-          "spelling": "トマトは野菜でしょうか。"
+          "spelling": "トマトは{野菜|や・さい}でしょうか。"
         },
         "lesson_codes": ["GENKI3_L12"],
         "tags": []
@@ -3012,7 +3012,7 @@
         "id": "ecf1cee5-ad90-4644-8578-03dbcbb52025",
         "meaning": "Does he/she have many friends?",
         "text": {
-          "spelling": "友達がたくさんいるでしょうか。"
+          "spelling": "{友達|とも・だち}がたくさんいるでしょうか。"
         },
         "lesson_codes": ["GENKI3_L12"],
         "tags": []
@@ -3021,7 +3021,7 @@
         "id": "215f99d7-40be-4f81-b86f-972c8fc8a367",
         "meaning": "When will class (probably) start?",
         "text": {
-          "spelling": "授業はいつ始めるでしょうか。"
+          "spelling": "{授業|じゅ・ぎょう}はいつ{始|はじ}めるでしょうか。"
         },
         "lesson_codes": ["GENKI3_L12"],
         "tags": []
@@ -3030,7 +3030,7 @@
         "id": "84b27d6f-99ab-4553-99cd-30689affc32d",
         "meaning": "It would (probably) be better to bring medicine?",
         "text": {
-          "spelling": "薬を持って行った方がいいでしょうか。"
+          "spelling": "{薬|くすり}を{持|も}って{行|い}った{方|ほう}がいいでしょうか。"
         },
         "lesson_codes": ["GENKI3_L12"],
         "tags": []
@@ -3057,7 +3057,7 @@
         "id": "d21ef2ea-9dfd-4df1-b3de-5889b9acca53",
         "meaning": "I bet it will not be cold tomorrow.",
         "text": {
-          "spelling": "多分明日は寒くないでしょう。"
+          "spelling": "{多分|た・ぶん}{明日|あした}は{寒|さむ}くないでしょう。"
         },
         "lesson_codes": ["GENKI3_L12"],
         "tags": []
@@ -3066,7 +3066,7 @@
         "id": "3302cb48-9469-4f8f-aac4-4a98424f8bba",
         "meaning": "It will probably rain tomorrow.",
         "text": {
-          "spelling": "明日は雨がふるでしょう。"
+          "spelling": "{明日|あした}は{雨|あめ}がふるでしょう。"
         },
         "lesson_codes": ["JLPT_SENSEI_GRAMMAR_N5"],
         "tags": []
@@ -3075,7 +3075,7 @@
         "id": "808e59fd-c2b9-457f-8370-0328d74c69ea",
         "meaning": "I assume the test is not going to be difficult.",
         "text": {
-          "spelling": "テストは難しくないでしょう。"
+          "spelling": "テストは{難|むずか}しくないでしょう。"
         },
         "lesson_codes": ["TOFUGU_DESHOU"],
         "tags": []
@@ -3084,7 +3084,7 @@
         "id": "a2b03de5-83fd-4d4a-9490-acb0c7f65cd7",
         "meaning": "(I assume) she is cute.",
         "text": {
-          "spelling": "彼女は可愛いでしょう。"
+          "spelling": "{彼女|かの・じょ}は{可愛|か・わい}いでしょう。"
         },
         "lesson_codes": ["TOFUGU_DESHOU"],
         "tags": []
@@ -3093,7 +3093,7 @@
         "id": "8caf8b4a-bb8c-4ce0-af99-b50f16582dcb",
         "meaning": "How are they? They're good, huh?<br/>(e.g. after giving a friend cookies)",
         "text": {
-          "spelling": "どう？美味しいでしょう？"
+          "spelling": "どう？{美味|おい}しいでしょう？"
         },
         "lesson_codes": ["TOFUGU_DESHOU"],
         "tags": []
