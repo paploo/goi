@@ -3106,6 +3106,119 @@
   },
 
   {"COMMENT": "GENKI LESSON 13"},
+  {
+    "id": "235440b0-4755-4201-84fb-1172bcfbe16c",
+    "title": "〜れる",
+    "meaning": "potential: can, has the ability to do, or is possible",
+    "how_to_use": [
+      "ichidan verb (stem) + られる",
+      "godan verb: -u ⟶ -eru",
+      "conjugates as ichidan verb"
+    ],
+    "examples": [
+      {
+        "id": "e707c310-cf41-4f9f-a718-818c7f361848",
+        "meaning": "I can speak Japanese.",
+        "text": {
+          "spelling": "{私|わたし}は{日本語|に・ほん・ご}が{話|はな}せます。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "b4113f65-8b6e-4945-913d-2a61bd919e39",
+        "meaning": "(The truth is) I cannot swim.",
+        "text": {
+          "spelling": "{私|わたし}は{泳|およ}げないんです。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "f4bf7c5b-bafd-487c-967a-d2be40364364",
+        "meaning": "Because it rained, ee could not got to the beach.",
+        "text": {
+          "spelling": "{雨|あめ}が{降|ふ}ったので、{海|うみ}にいけませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "5d31612e-8251-498c-9a11-c9bc0dd5454d",
+        "meaning": "Because I am afraid of the water, I cannot swim.",
+        "text": {
+          "spelling": "{水|みず}が{怖|こわ}いので、{泳|およ}げません。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "00171cd5-bdb9-4c61-a933-ba2495d481ea",
+        "meaning": "Because I have a cold, I cannot go to school.",
+        "text": {
+          "spelling": "{風邪|かぜ}を{引|ひ}いているので、{明日|あした}{学校|がっ・こう}に{行|い}けません。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "7221a18e-a8a2-43be-b9d4-0a8cd5b5b844",
+        "meaning": "Because I'm hungry, I can eat a lot.",
+        "text": {
+          "spelling": "お{腹|なか}が{空|す}いているので、たくさん{食|た}べられます。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-04-17",
+    "lesson_codes": ["GENKI3_L13"],
+    "tags": []
+  },
+  {
+    "id": "135d54ce-443f-4865-bd85-d92f5fb03df1",
+    "title": "〜ことができる",
+    "meaning": "can do...; be able to do...",
+    "how_to_use": [
+      "verb (short) + ことができる",
+      "Usually same meaning as ordinary potential form (but preferred in written)"
+    ],
+    "examples": [
+      {
+        "id": "ec23639f-dd65-4382-8703-3af909ebf658",
+        "meaning": "Mary can play the guitar",
+        "text": {
+          "spelling": "マリーさんはギターを{弾|ひ}くことがてきます。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "1055309d-3caf-42f7-9424-dbbb2f8243b7",
+        "meaning": "You cannot keep dogs in this apartment.",
+        "text": {
+          "spelling": "このアパートでは{犬|いぬ}を{飼|か}うことができません。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "d95ccf3d-cd1b-494e-8779-d0bc1fec04b5",
+        "meaning": "Can you eat natto?",
+        "text": {
+          "spelling": "{納豆|なっ・とう}を{食|た}べることがてきますか。"
+        },
+        "lesson_codes": ["JLPT_SENSEI_GRAMMAR_N4"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": 4,
+    "date_added": "2024-04-17",
+    "lesson_codes": ["GENKI3_L13"],
+    "tags": []
+  },
+
   {"COMMENT": "GENKI LESSON 14"},
   {"COMMENT": "GENKI LESSON 15"},
   {"COMMENT": "GENKI LESSON 16"},
