@@ -403,7 +403,7 @@ cd548aa6-54f8-5f0a-b55f-c0fcf26dbc2a,salt,塩,しお,,noun,,5,2022-08-12,397,,,,
 f9253f00-8203-5dc9-89f5-a39b4d3d9d55,chopsticks,お箸,おはし,,noun,,5,2022-08-20,398,GENKI3_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food kitchen noun genki3-l08
 ca8b76ff-0345-5367-855a-fd69329898a6,(some) more; longer; further,もっと,もっと,,adverb,,5,2022-08-12,399,GENKI3_L11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,adverb genki3-l11
 fa69ee4d-ab8a-5daf-8701-abab724eaade,geek; nerd,オタク,おたく,,noun,,,2022-08-12,400,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,slang noun
-3953151e-3280-5665-8c64-1bfabbedcdd2,hot water; hot bath; hot spring,湯,ゆ,,noun,,4,2022-08-12,401,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,water noun
+3953151e-3280-5665-8c64-1bfabbedcdd2,hot water; hot bath; hot spring,湯,ゆ,,noun,,4,2022-08-12,401,GENKI3_L17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,water noun genki3-l17
 8c842dec-6e97-54b7-ad74-2408c4b88677,hot spring,温泉,おんせん,,noun,,2,2022-08-12,402,GENKI3_L11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l11
 c30f6fb9-5695-5c83-80b8-6ff6fa07ce2e,to stop moving; to come to a stop,止まる,とまる,,verb,godan verb,5,2022-09-02,403,,止まる,止まった,止まって,,,止まれる,,,,止まろう,止まります,止まりました,,,,止まれます,,,,,止まらない,止まらなかった,止まらなくて,,,止まれない,,,,,止まりません,止まりませんでした,,,,止まれません,,,,,verb godan-verb
 461f8d91-ff08-5cf0-a0a9-891008b85589,stop (on road signage),止まれ,とまれ,,expression,,,2022-08-12,404,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,transportation expression
@@ -631,7 +631,7 @@ ab2654c4-b1ce-42b2-9e8e-1885ff4b567e,"um, er, well; no (informal)",ううん,う
 72520738-32e4-463f-90fa-3fc467b6c1cf,"eh?, what?, oh?",え,え,,interjection,,,2022-12-24,626,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,interjection
 f6710348-4b06-4aad-a443-d1e151651a37,"to fall (of rain, snow, ash); to beam in (of sun or moon light)",降る,ふる,,verb,godan verb,5,2022-12-26,627,,降る,降った,降って,,,降れる,,,,降ろう,降ります,降りました,,,,降れます,,,,,降らない,降らなかった,降らなくて,,,降れない,,,,,降りません,降りませんでした,,,,降れません,,,,,weather verb godan-verb
 ecb6ce90-dc84-4036-82e8-f38536f49638,"to say; to name, to call",言う,いう,,verb,godan verb,5,2022-12-26,628,GENKI3_L08,言う,言った,言って,,,言える,,,,言おう,言います,言いました,,,,言えます,,,,,言わない,言わなかった,言わなくて,,,言えない,,,,,言いません,言いませんでした,,,,言えません,,,,,verb godan-verb genki3-l08
-b5bf3815-355e-43ea-8a27-73d546ac818e,paper,紙,かみ,,noun,,5,2022-12-26,629,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+b5bf3815-355e-43ea-8a27-73d546ac818e,paper,紙,かみ,,noun,,5,2022-12-26,629,GENKI3_L17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l17
 d688e5d6-0cea-436b-b796-a2f7f2928b0f,cross mark; × (incorrect),罰点,ばってん,,noun,,,2022-12-26,630,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 7e5656f4-f427-44aa-a4c4-3ebb119b3900,circle; ○ (correct mark),丸,まる,,noun,,3,2022-12-26,631,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 d864756e-dd31-48ab-8c50-b5c574c88f8f,"plump, chubby; 〇〇 (placeholder)",丸々,まるまる,,noun,,1,2022-12-26,632,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
@@ -1002,7 +1002,7 @@ e0a9b4b4-c306-4aa1-b4db-d1076f9d1655,and then; thus; and now,そして,そして
 3557c897-fba9-41e2-908e-290dfa8d191d,"points, marks, goals; goods, items, articles of clothing, works of art",〜点,〜てん,,counter,,4,2023-07-03,997,GENKI3_L11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter genki3-l11
 f1b9a6ca-5697-4282-a448-8e5c55f2744b,occupation; profession,職業,しょくぎょう,,noun,,3,2023-07-03,998,GENKI3_L11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l11
 e7bf6b63-5094-492d-89b8-b2961baa4de7,to (seem) eager to; to want to; to be anxious to,たがる,たがる,,verb,godan verb,,2023-12-27,999,GENKI3_L11,たがる,たがった,たがって,,,たがれる,,,,たがろう,たがります,たがりました,,,,たがれます,,,,,たがらない,たがらなかった,たがらなくて,,,たがれない,,,,,たがりません,たがりませんでした,,,,たがれません,,,,,verb godan-verb genki3-l11
-5cb53511-43d8-486a-84e3-59634041e85a,dormitory; hostel,寮,りょう,,noun,,2,2023-12-27,1000,GENKI3_L11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l11
+5cb53511-43d8-486a-84e3-59634041e85a,dormitory; hostel,寮,りょう,,noun,,2,2023-12-27,1000,GENKI3_L11 GENKI3_L17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l11 genki3-l17
 8294c160-3a00-45fc-98eb-231285167793,writer,作家,さっか,,noun,,,2023-07-03,1001,GENKI3_L11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,occupation noun genki3-l11
 e8c02599-6c71-4dff-a977-0e2e3b8902f2,journalist,ジャーナリスト,じゃあなりすと,,noun,,,2023-07-03,1002,GENKI3_L11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,occupation noun genki3-l11
 1a45f321-4093-4b6a-8c2c-23b8a76b74b3,police officer,警察官,けいさつかん,,noun,,,2023-07-03,1003,GENKI3_L11,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,occupation noun genki3-l11
@@ -1229,7 +1229,7 @@ f6dd6868-21ea-42b0-bd7d-721494b1bfef,dried seaweed,のり,のり,海苔,noun,,,2
 74eb9b91-73e2-4164-b4ae-961826c9dadf,shellfish,貝類,かいるい,,noun,,,2023-11-18,1224,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
 d7eb8875-cb93-4309-b555-04c2716bceed,shrimp,エビ,えび,海老,noun,,,2023-11-18,1225,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun
 5688fb0c-8351-4db7-85c4-1039cda11c49,crab,カニ,かに,蟹,noun,,,2023-11-18,1226,GENKI3_READER_L08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,food noun genki3-reader-l08
-e76206f2-a22b-4517-9935-631d6d0a99d9,"difference, discrepancy; mistake, error",違い,ちがい,,noun,,3,2023-11-18,1227,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+e76206f2-a22b-4517-9935-631d6d0a99d9,"difference, discrepancy; mistake, error",違い,ちがい,,noun,,3,2023-11-18,1227,GENKI3_L17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l17
 8ef38715-60fa-4443-9bef-e476483a6d4a,"height, stature",背,せい,,noun,,3,2023-11-18,1228,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
 42f9a125-2584-4ce3-82cc-a5df6b816872,"to stop, to cease; to cancel, to abandon",やめる,やめる,止める,verb,ichidan verb,4,2023-11-18,1229,,やめる,やめた,やめて,,,やめられる,,,,やめよう,やめます,やめました,,,,やめられます,,,,,やめない,やめなかった,やめなくて,,,やめられない,,,,,やめません,やめませんでした,,,,やめられません,,,,,verb ichidan-verb
 60745049-fd2a-4e70-8c8b-0bd618eca679,it can't be helped,しょうがない,しょうがない,仕様がない,expression,,2,2023-11-18,1230,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,expression
@@ -1443,3 +1443,31 @@ d35ae236-d6cc-48ed-a97a-199e4332ad17,October,１０月,じゅうがつ,十月,no
 d5a5bbe0-aa3b-4e97-adcd-c95363ca37dd,November,１１月,じゅういちがつ,十一月,noun,,,2024-03-10,1438,TOFUGU_DATE_AND_TIME,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,month noun tofugu-date-and-time
 d7d96ea8-d6b0-43c6-9b92-8829a651769c,December,１２月,じゅうにがつ,十二月,noun,,,2024-03-10,1439,TOFUGU_DATE_AND_TIME,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,month noun tofugu-date-and-time
 2c7167c3-80ec-4e90-b630-973314e8ded3,which month(s),何月,なんがつ,,noun,,,2024-03-10,1440,TOFUGU_DATE_AND_TIME,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,month noun tofugu-date-and-time
+58e1086e-7a6d-4cf5-8840-e62139721c96,"counter for cupfulls, bowlfulls",〜杯,〜はい,杯,counter,,,2024-04-17,1441,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,counter
+0678e154-d168-40a4-9526-3e88b9bbf470,one glass/bowl,１杯,いっぱい,一杯,noun,,,2024-04-17,1442,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+fbf33bb3-f11a-44d4-a59f-b9962f0efe07,two glasses/bowls,２杯,にはい,二杯,noun,,,2024-04-17,1443,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+da782139-dc10-4ba4-b003-5e915cba3e4e,three glasses/bowls,３杯,さんばい,三杯,noun,,,2024-04-17,1444,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun
+faff99b4-bfdd-49ba-8783-8517d19b30a9,tomorrow (formal),明日,あす,,noun,,5,2024-04-17,1445,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,time noun
+a70f8cb4-4093-4dbc-9739-4b40f2a8aa52,baby,赤ちゃん,あかちゃん,,noun,,4,2024-04-17,1446,GENKI3_L17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l17
+897f454d-bee9-4a54-bc0b-198f1fba9e21,"guest, visitor; client, customer",お客さん,おきゃくさん,,noun,,,2024-04-17,1447,GENKI3_L17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l17
+68c8f088-6bce-4f40-81b1-11b70f288a2c,prime minister,首相,しゅしょう,,noun,,3,2024-04-17,1448,GENKI3_L17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l17
+f032cc5c-8cf2-4de1-b384-733cd7333827,slaryman; ofice worker,サラリーマン,さらりいまん,,noun,,2,2024-04-17,1449,GENKI3_L17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l17
+9826d4e3-dc14-48af-a9b5-8c2b361d9b0c,salary,給料,きゅうりょう,,noun,,3,2024-04-17,1450,GENKI3_L17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l17
+f08b30ba-0663-4d88-844f-6fa39fea131c,overtime work,残業,ざんぎょう,,noun,,,2024-04-17,1451,GENKI3_L17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l17
+273a3f80-ebe7-4818-9ab1-0e90e1ab3191,panda,パンダ,ぱんだ,,noun,,,2024-04-17,1452,GENKI3_L17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l17
+6e780542-efd4-467f-9ec4-467cd72fd4e4,contact lenses (long),コンタクトレンズ,こんたくとれんず,,noun,,,2024-04-17,1453,GENKI3_L17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l17
+1d79ef11-95fa-4267-b8a4-27c22a10faed,contact lenses (short),コンタクト,こんたくと,,noun,,1,2024-04-17,1454,GENKI3_L17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l17
+de736952-8035-4dc0-aa5d-0b03ddfe2469,"beard, mustache; whiskers (person, cat); feelers (insect)",ひげ,ひげ,髭,noun,,4,2024-04-17,1455,GENKI3_L17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l17
+c6e8b35c-0f4a-460c-bad7-e5df8efdb828,boots,ブーツ,ぶうつ,,noun,,1,2024-04-17,1456,GENKI3_L17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l17
+74993f65-9c98-47f9-bb1f-41ccfc9519a6,lock; key,鍵,かぎ,,noun,,5,2024-04-17,1457,GENKI3_L17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l17
+d04297bd-2468-4fd8-a66c-4837f0fa323b,lottery,宝くじ,たからくじ,,noun,,,2024-04-17,1458,GENKI3_L17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l17
+f9ef8c23-e4d6-4ae0-a479-e0980d4ffa83,spoon,スプーン,すぷうん,,noun,,5,2024-04-17,1459,GENKI3_L17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l17
+69241f79-148d-4cbc-96e0-89b07ea75564,microwave oven,電子レンジ,でんしれんじ,,noun,,,2024-04-17,1460,GENKI3_L17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l17
+528d082b-bb74-4d87-bf52-9675a4e49461,heater,ヒーター,ひいたあ,,noun,,,2024-04-17,1461,GENKI3_L17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l17
+fab11b0b-0312-41ff-9639-e3726677f89d,news,ニュース,にゅうす,,noun,,5,2024-04-17,1462,GENKI3_L17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l17
+0bffeb28-eff0-4d14-9fa8-c04b223e78e8,fire,火事,かじ,,noun,,4,2024-04-17,1463,GENKI3_L17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l17
+1fe85680-508d-4701-97c0-5b941efa3337,travel agency,旅行会社,りょこうがいしゃ,,noun,,,2024-04-17,1464,GENKI3_L17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l17
+5d726562-4603-4d2e-a0fc-1008bff65129,shopping mall,ショップングモール,しょっぷんぐもおる,,noun,,,2024-04-17,1465,GENKI3_L17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l17
+67eaa20c-3e34-4e34-8504-70143d9a2f20,secret,秘密,ひみつ,,noun,,3,2024-04-17,1466,GENKI3_L17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l17
+96a95b09-888e-4116-9f02-e91ee367d6fd,preparation,準備,じゅんび,,noun,,3,2024-04-17,1467,GENKI3_L17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l17
+46c75861-8268-42ea-9018-200d5c2e8fd5,oneself,自分,じぶん,,noun,,5,2024-04-17,1468,GENKI3_L17,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,noun genki3-l17
