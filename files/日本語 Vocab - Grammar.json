@@ -3218,6 +3218,76 @@
     "lesson_codes": ["GENKI3_L13"],
     "tags": []
   },
+  {
+    "id": "683c8a48-61f0-435a-8e18-f48afee220e3",
+    "title": "〜し",
+    "meaning": "multiple reasons for situation",
+    "how_to_use": [
+      "(reason 1)し、(reason 2)し、(situation)。",
+      "(situation)。(reason 1)し、(reason 2)し。",
+      "(one reason of many)し、(situation)。"
+    ],
+    "examples": [
+      {
+        "id": "cbf99a77-5c99-4bbc-8889-98db0110de75",
+        "meaning": "Because Japanese is interesting, and our teacher is good, I really like my Japanese class.",
+        "text": {
+          "spelling": "{日本語|に・ほん・ご}は{面白|おも・しろ}いし、{先生|せん・せい}はいいし、{私|わたし}は{日本語|に・ほん・ご}の{授業|じゅ・ぎょう}が{大|だい}{好|す}きです。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "7fcf8c9f-0b39-4496-a499-50d6df791a5f",
+        "meaning": "Life in this city is easygoing. Things are inexpensive, for one thing",
+        "text": {
+          "spelling": "{物価|ぶっ・か}が{安|やす}いし、この{町|まち}の{生活|せい・かつ}は{楽|らく}です"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "114b145a-7a0a-4c03-9fd4-3d90fad86844",
+        "meaning": "Professor Yamashita is a great teacher. He is good at teaching, and he is kind.",
+        "text": {
+          "spelling": "{山下|やま・した}{先生|せん・せい}はいい{先生|せん・せい}です。{教|おし}えるのが{上手|じょう・ず}たし、{親切|しん・せつ}だし。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "8bfffa8f-0ed9-468d-874d-a765617571af",
+        "meaning": "Because I was able to enter the university, and I have many friends, I am happy now.",
+        "text": {
+          "spelling": "{大学|だい・がく}に{入|はい}れたし、{友達|とも・だち}がたくさんいるし、{今|いま}{幸|しあわ}せです。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "0c54ba42-1ebd-4be8-901c-400a197e926c",
+        "meaning": "A: Between summer and winter, which is your favorite?<br/>B: Winter is my favorite. I like snow and I can ski.",
+        "text": {
+          "spelling": "A；{夏|なつ}と{冬|ふゆ}どちらが{好|す}きですか。<br/>Ｂ：{冬|ふゆ}の{方|ほう}が{好|す}きです。{雪|ゆき}が{好|す}きだし、スキーができるし。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "e047c006-9568-4da8-a8bd-7be0a0a5195a",
+        "meaning": "A: Are you busy right now?<br/>B: Yes. I have a lot of homework and I have to write a report.",
+        "text": {
+          "spelling": "Ａ：{今|いま}、{忙|いそが}しいですか。<br>Ｂ：はい。{宿題|しゅく・だい}がたくさんあるし、レポートを{書|か}かなきゃいけないし。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-04-18",
+    "lesson_codes": ["GENKI3_L13"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 14"},
   {"COMMENT": "GENKI LESSON 15"},
