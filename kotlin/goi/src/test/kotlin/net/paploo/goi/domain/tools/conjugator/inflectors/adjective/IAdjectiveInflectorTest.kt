@@ -10,7 +10,7 @@ import net.paploo.goi.domain.tools.conjugator.describeInflector
 class IAdjectiveInflectorTest : DescribeSpec({
 
     // A multi-character normal I-Adjective
-    describeInflector("いい Adjective Inflector", IAdjectiveInflector.default, "面白い") {
+    describeInflector("い Adjective Inflector", IAdjectiveInflector.default, "面白い") {
         Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Present) shouldInflectAs "面白い"
         Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Past) shouldInflectAs "面白かった"
         Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Te) shouldInflectAs "面白くて"
@@ -19,12 +19,12 @@ class IAdjectiveInflectorTest : DescribeSpec({
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Past) shouldInflectAs "面白くなかった"
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Te) shouldInflectAs "面白くなくて"
 
-        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalTara) shouldInflectAs "todo"
-        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalTara) shouldInflectAs "todo"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalTara) shouldInflectAs "面白かったら"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalTara) shouldInflectAs "面白くなかったら"
     }
 
     //良い is an I-Adjective
-    describeInflector("いい Adjective Inflector", IAdjectiveInflector.default, "良い") {
+    describeInflector("い Adjective Inflector", IAdjectiveInflector.default, "良い") {
         Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Present) shouldInflectAs "良い"
         Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Past) shouldInflectAs "良かった"
         Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Te) shouldInflectAs "良くて"
@@ -33,12 +33,12 @@ class IAdjectiveInflectorTest : DescribeSpec({
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Past) shouldInflectAs "良くなかった"
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Te) shouldInflectAs "良くなくて"
 
-        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalTara) shouldInflectAs "todo"
-        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalTara) shouldInflectAs "todo"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalTara) shouldInflectAs "良かったら"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalTara) shouldInflectAs "良くなかったら"
     }
 
     //かわいい is n I-Adjective
-    describeInflector("いい Adjective Inflector", IAdjectiveInflector.default, "かわいい") {
+    describeInflector("い Adjective Inflector", IAdjectiveInflector.default, "かわいい") {
         Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Present) shouldInflectAs "かわいい"
         Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Past) shouldInflectAs "かわいかった"
         Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Te) shouldInflectAs "かわいくて"
@@ -47,8 +47,8 @@ class IAdjectiveInflectorTest : DescribeSpec({
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Past) shouldInflectAs "かわいくなかった"
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Te) shouldInflectAs "かわいくなくて"
 
-        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalTara) shouldInflectAs "todo"
-        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalTara) shouldInflectAs "todo"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalTara) shouldInflectAs "かわいかったら"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalTara) shouldInflectAs "かわいくなかったら"
     }
 
 })
