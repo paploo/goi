@@ -19,6 +19,9 @@ interface AdjectiveInflector : Inflector {
     val negativePlainPast: Rewriter
     val negativePlainTe: Rewriter
 
+    val positivePlainTaraConditional: Rewriter
+    val negativePlainTaraConditional: Rewriter
+
     companion object {
 
         val supportedInflections: Set<Conjugation.Inflection> = setOf(
@@ -29,6 +32,9 @@ interface AdjectiveInflector : Inflector {
             Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Present),
             Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Past),
             Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Te),
+
+            Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalTara),
+            Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalTara),
         )
 
     }

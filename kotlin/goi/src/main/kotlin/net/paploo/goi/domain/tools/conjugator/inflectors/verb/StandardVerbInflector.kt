@@ -30,6 +30,18 @@ abstract class StandardVerbInflector : VerbInflector {
         positivePlainPotential + IchidanVerbInflector.default.negativePolitePresent
     }
 
+    override val positivePlainTaraConditional: Rewriter by lazy {
+        positivePlainPast + Rewriter { Result.success(it + "ら") }
+    }
+
+    override val negativePlainTaraConditional: Rewriter by lazy {
+        negativePlainPast + Rewriter { Result.success(it + "ら") }
+    }
+
+    override val positivePoliteTaraConditional: Rewriter by lazy {
+        positivePolitePast + Rewriter { Result.success(it + "ら") }
+    }
+
     override fun invoke(inflection: Conjugation.Inflection): Rewriter? = when (inflection) {
         Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Present) -> positivePlainPresent
         Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Past) -> positivePlainPast
@@ -51,6 +63,10 @@ abstract class StandardVerbInflector : VerbInflector {
         Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Potential) -> negativePolitePotential
 
         Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Volitional) -> positivePlainVolitional
+
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalTara) -> positivePlainTaraConditional
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalTara) -> negativePlainTaraConditional
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.ConditionalTara) -> positivePoliteTaraConditional
 
         else -> null
     }

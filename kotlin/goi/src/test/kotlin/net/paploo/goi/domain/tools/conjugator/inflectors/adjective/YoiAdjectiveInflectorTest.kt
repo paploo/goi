@@ -18,6 +18,9 @@ class YoiAdjectiveInflectorTest : DescribeSpec({
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Present) shouldInflectAs "頭がよくない"
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Past) shouldInflectAs "頭がよくなかった"
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Te) shouldInflectAs "頭がよくなくて"
+
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalTara) shouldInflectAs "todo"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalTara) shouldInflectAs "todo"
     }
 
     // The base yoi adjective
@@ -29,6 +32,9 @@ class YoiAdjectiveInflectorTest : DescribeSpec({
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Present) shouldInflectAs "よくない"
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Past) shouldInflectAs "よくなかった"
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Te) shouldInflectAs "よくなくて"
+
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalTara) shouldInflectAs "todo"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalTara) shouldInflectAs "todo"
     }
 
 })

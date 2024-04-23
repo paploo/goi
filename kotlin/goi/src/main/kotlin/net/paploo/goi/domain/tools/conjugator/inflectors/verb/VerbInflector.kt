@@ -32,6 +32,10 @@ interface VerbInflector : Inflector {
 
     val positivePlainVolitional: Rewriter
 
+    val positivePlainTaraConditional: Rewriter
+    val negativePlainTaraConditional: Rewriter
+    val positivePoliteTaraConditional: Rewriter
+
     companion object {
 
         val supportedInflections: Set<Conjugation.Inflection> = setOf(
@@ -55,6 +59,10 @@ interface VerbInflector : Inflector {
             Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Potential),
 
             Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Volitional),
+
+            Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalTara),
+            Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalTara),
+            Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.ConditionalTara),
         )
 
     }
