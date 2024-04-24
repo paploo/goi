@@ -24,9 +24,9 @@ class CopulaVerbInflectorTest : DescribeSpec({
         Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Present) shouldInflectAs "じゃないです"
         Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Past) shouldInflectAs "じゃないかったです"
 
-        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalTara) shouldInflectAs "todo"
-        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalTara) shouldInflectAs "todo"
-        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.ConditionalTara) shouldInflectAs "todo"
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalTara) shouldInflectAs "だったら"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalTara) shouldInflectAs "じゃなかったら"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.ConditionalTara) shouldInflectAs "でしたら"
     }
 
 })

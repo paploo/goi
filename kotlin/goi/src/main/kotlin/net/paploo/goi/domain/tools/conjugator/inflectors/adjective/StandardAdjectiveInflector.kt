@@ -7,6 +7,8 @@ import net.paploo.goi.domain.tools.conjugator.plus
 
 abstract class StandardAdjectiveInflector : AdjectiveInflector {
 
+    // Fill in 〜たら rules from https://www.tofugu.com/japanese-grammar/conditional-form-tara/
+
     override val positivePlainTaraConditional: Rewriter by lazy {
         positivePlainPast + Rewriter { Result.success(it + "ら") }
     }

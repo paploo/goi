@@ -25,10 +25,11 @@ abstract class StandardVerbInflector : VerbInflector {
         positivePlainPotential + IchidanVerbInflector.default.positivePolitePresent
     }
 
-
     override val negativePolitePotential: Rewriter by lazy {
         positivePlainPotential + IchidanVerbInflector.default.negativePolitePresent
     }
+
+    // Fill in 〜たら rules from https://www.tofugu.com/japanese-grammar/conditional-form-tara/
 
     override val positivePlainTaraConditional: Rewriter by lazy {
         positivePlainPast + Rewriter { Result.success(it + "ら") }
