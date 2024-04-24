@@ -6,6 +6,7 @@ import net.paploo.goi.domain.data.vocabulary.Conjugation.Inflection.Politeness
 import net.paploo.goi.domain.data.vocabulary.Conjugation.Inflection.Form
 import net.paploo.goi.domain.tools.conjugator.Inflector
 import net.paploo.goi.domain.tools.conjugator.Rewriter
+import net.paploo.goi.domain.tools.conjugator.plus
 
 class CopulaVerbInflector : Inflector {
 
@@ -23,6 +24,10 @@ class CopulaVerbInflector : Inflector {
 
         Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Present) -> negativePolitePresent
         Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Past) -> negativePolitePast
+
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalTara) -> positivePlainTaraConditional
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalTara) -> negativePlainTaraConditional
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.ConditionalTara) -> positivePoliteTaraConditional
 
         else -> null
     }
@@ -43,6 +48,17 @@ class CopulaVerbInflector : Inflector {
     val negativePolitePresent: Rewriter = Rewriter.replace(validEndingsRegex, "じゃないです")
     val negativePolitePast: Rewriter = Rewriter.replace(validEndingsRegex, "じゃないかったです")
 
+    // Fill in 〜たら rules from https://www.tofugu.com/japanese-grammar/conditional-form-tara/
+
+    val positivePlainTaraConditional: Rewriter =
+        positivePlainPast + Rewriter { Result.success(it + "ら") }
+
+    val negativePlainTaraConditional: Rewriter =
+        negativePlainPast + Rewriter { Result.success(it + "ら") }
+
+    val positivePoliteTaraConditional: Rewriter =
+        positivePolitePast + Rewriter { Result.success(it + "ら") }
+
     companion object {
         val default: CopulaVerbInflector = CopulaVerbInflector()
 
@@ -61,6 +77,10 @@ class CopulaVerbInflector : Inflector {
 
             Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Present),
             Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Past),
+
+            Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalTara),
+            Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalTara),
+            Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.ConditionalTara),
         )
 
     }

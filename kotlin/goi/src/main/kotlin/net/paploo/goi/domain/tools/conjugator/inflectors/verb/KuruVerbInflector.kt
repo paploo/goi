@@ -10,7 +10,7 @@ import net.paploo.goi.domain.tools.conjugator.Rewriter
  * 2. Preserve the kanji form if used.
  *
  * While the second is more correct for literary needs, the former is more useful for my purposes,
- * namely making flashcards.
+ * namely making flashcards, where drilling the phonetics are more important.
  *
  * TODO: Have an enum class Mode, handle both modes, but make converting to kana the default
  */
