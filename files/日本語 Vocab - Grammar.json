@@ -3291,6 +3291,187 @@
     "lesson_codes": ["GENKI3_L13"],
     "tags": []
   },
+  {
+    "id": "40f32528-f85c-4d34-ada9-f59c7a7f1c81",
+    "title": "〜そうです",
+    "meaning": "it looks like...",
+    "how_to_use": [
+      "い-adj (stem) + そうです",
+      "な-adj + そうです",
+      "verb (stem) + そうです",
+      "いい ⟶ 良さそうです"
+    ],
+    "examples": [
+      {
+        "id": "4c89a5e3-6eaa-4f7f-91df-9b4e80860167",
+        "meaning": "This apple looks delicious.",
+        "text": {
+          "spelling": "このリンゴは{美味|おい}しそうです。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "5c3984a7-c24d-4600-b2c4-550618d5fee0",
+        "meaning": "Mary looks like she is doing well.",
+        "text": {
+          "spelling": "メアリーさんは{元気|げん・き}そうてした。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "1478b9dd-9687-4b89-af11-5898d6f45d9f",
+        "meaning": "It looks like the weather will be fine tomorrow",
+        "text": {
+          "spelling": "{明日|あした}は{天気|てん・き}が{良|よ}さそうです。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "a12c0e10-c136-4b20-918b-8a8256192dc0",
+        "meaning": "This dog looks like it is smart.",
+        "text": {
+          "spelling": "この{犬|いぬ}は{頭|あたま}が{良|よ}さそうです。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "fdc9ad4e-9aa7-4cec-b98d-447415adaa9d",
+        "meaning": "It looks like this sweater is washable at home.",
+        "text": {
+          "spelling": "このセーターは{家|いえ}で{洗|あら}えそうです。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "01705611-9c98-4c94-8607-337bb80990db",
+        "meaning": "It looks like it will rain.",
+        "text": {
+          "spelling": "{雨|あめ}が{降|ふ}りそうです"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-04-24",
+    "lesson_codes": ["GENKI3_L13"],
+    "tags": []
+  },
+  {
+    "id": "1ed875a5-8206-4e16-b632-1321df17ad56",
+    "title": "〜なさそうです",
+    "meaning": "it does not look like...",
+    "how_to_use": [
+      "〜ない ⟶ 〜なさそうです",
+      "negate 〜そうです to 〜そうじゃないです"
+    ],
+    "examples": [
+      {
+        "id": "072b0a5b-e062-4c58-9aae-344e59f58563",
+        "meaning": "This book does not look difficult.",
+        "text": {
+          "spelling": "この{本|ほん}は{難|むずか}しくなそうです。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "204940de-5a14-4cd5-8335-e14b9b4d2419",
+        "meaning": "It does not look like Sora is good at tennis.",
+        "text": {
+          "spelling": "ソラさんはテニスが{上手|じょうず}じゃなさそうです。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "e4b974c8-24a2-40c5-b910-27b82e8301ec",
+        "meaning": "It does not look like it will rain.",
+        "text": {
+          "spelling": "{雨|あめ}が{降|ふ}らなさそうです。"
+        },
+        "lesson_codes": [],
+        "tags": []
+      },
+      {
+        "id": "e4d9daa0-35c7-40e5-b6a7-88b0d7ea6287",
+        "meaning": "his book does not look difficult",
+        "text": {
+          "spelling": "この{本|ほん}は{難|むずか}しそうじゃないです。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "04a8a350-0322-4692-b0f4-f624586dc8a4",
+        "meaning": "It does not look like Sora is good at tennis.",
+        "text": {
+          "spelling": "ソラさんはテニスが{上手|じょうず}そうじゃないです。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "8f3f33c4-dafd-4b16-933b-6b2df045d85c",
+        "meaning": "It does not look like it will rain.",
+        "text": {
+          "spelling": "{雨|あめ}が{降|ふ}りそうじゃないです。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-04-24",
+    "lesson_codes": ["GENKI3_L13"],
+    "tags": []
+  },
+  {
+    "id": "7483ce22-3fa6-4dcd-8bda-868c8104c37a",
+    "title": "ＡそうなＮ",
+    "meaning": "A-looking N",
+    "how_to_use": [
+      "adjective + そう ⟶ な-adj"
+    ],
+    "examples": [
+      {
+        "id": "5bc126f4-ce57-4344-ab1f-f9f74a12bf47",
+        "meaning": "She is wearing a warm-looking sweater.",
+        "text": {
+          "spelling": "{暖|あたた}かそうなセーターを{着|き}ています。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "fe57e4d6-9a0d-4e1e-99ee-fa33fbc177f9",
+        "meaning": "That is a smart-looking dog, eh?",
+        "text": {
+          "spelling": "{頭|あたま}が{良|よ}さそうな{犬|いぬ}ですね。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "938b811d-9c80-4149-bd0d-0b63b33a39d3",
+        "meaning": "That is an lively-looking kid, eh?",
+        "text": {
+          "spelling": "{元気|げん・き}そうな{子供|こ・ども}ですね。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-04-24",
+    "lesson_codes": ["GENKI3_L13"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 14"},
   {"COMMENT": "GENKI LESSON 15"},
