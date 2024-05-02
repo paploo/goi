@@ -2997,7 +2997,7 @@
         "id": "5cd828ae-801e-42a2-8547-6b6a32d1e391",
         "meaning": "Would you say that it will be warm next week?",
         "text": {
-          "spelling": "{来週|らい・しゅう}はあったかいでしょうか。"
+          "spelling": "{来週|らい・しゅう}は{暖|あたた}かいでしょうか。"
         },
         "lesson_codes": ["GENKI3_L12"],
         "tags": []
@@ -3069,7 +3069,7 @@
         "id": "3302cb48-9469-4f8f-aac4-4a98424f8bba",
         "meaning": "It will probably rain tomorrow.",
         "text": {
-          "spelling": "{明日|あした}は{雨|あめ}がふるでしょう。"
+          "spelling": "{明日|あした}は{雨|あめ}が{降|ふ}るでしょう。"
         },
         "lesson_codes": ["JLPT_SENSEI_GRAMMAR_N5"],
         "tags": []
@@ -3139,9 +3139,9 @@
       },
       {
         "id": "f4bf7c5b-bafd-487c-967a-d2be40364364",
-        "meaning": "Because it rained, ee could not got to the beach.",
+        "meaning": "Because it rained, we could not got to the beach.",
         "text": {
-          "spelling": "{雨|あめ}が{降|ふ}ったので、{海|うみ}にいけませんでした。"
+          "spelling": "{雨|あめ}が{降|ふ}ったので、{海|うみ}に{行|い}けませんでした。"
         },
         "lesson_codes": ["GENKI3_L13"],
         "tags": []
@@ -3192,7 +3192,7 @@
         "id": "ec23639f-dd65-4382-8703-3af909ebf658",
         "meaning": "Mary can play the guitar",
         "text": {
-          "spelling": "マリーさんはギターを{弾|ひ}くことがてきます。"
+          "spelling": "マリーさんはギターを{弾|ひ}くことができます。"
         },
         "lesson_codes": ["GENKI3_L13"],
         "tags": []
@@ -3210,7 +3210,7 @@
         "id": "d95ccf3d-cd1b-494e-8779-d0bc1fec04b5",
         "meaning": "Can you eat natto?",
         "text": {
-          "spelling": "{納豆|なっ・とう}を{食|た}べることがてきますか。"
+          "spelling": "{納豆|なっ・とう}を{食|た}べることができますか。"
         },
         "lesson_codes": ["JLPT_SENSEI_GRAMMAR_N4"],
         "tags": []
@@ -3469,6 +3469,74 @@
     ],
     "jlpt_level": null,
     "date_added": "2024-04-24",
+    "lesson_codes": ["GENKI3_L13"],
+    "tags": []
+  },
+  {
+    "id": "dedb9dde-3d23-4004-adce-6d90a3c7915e",
+    "title": "〜てみる",
+    "meaning": "doing something tentatively / trying something",
+    "how_to_use": [
+      "verb (て-form) + みる"
+    ],
+    "examples": [
+      {
+        "id": "c8258ae1-3898-44a6-b036-605568b47131",
+        "meaning": "I did not know the kanji, so I tried asking a Japanese friend of mine.",
+        "text": {
+          "spelling": "{漢字|かん・じ}が{分|わ}からなかったので、{日本|に・ほん}{人|じん}の{友達|とも・だち}に{聞|き}いてみました。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "0c3359fc-1a3a-421a-aafb-b730612c5b7f",
+        "meaning": "A: This book was interesting.<br/>B: Okay, I will take a look at it.",
+        "text": {
+          "spelling": "Ａ：この{本|ほん}、{面白|おも・しろ}かったですよ。<br/>Ｂ：じゃあ、{読|よ}んでみます。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "b34e0315-3a15-4998-94f3-a30a04c1a7cf",
+        "meaning": "A: That karate teacher is really good at teaching.<br/>B: Well then, I will try going to their karate class.",
+        "text": {
+          "spelling": "Ａ：あの{空手|から・て}の{先生|せん・せい}は{教|おし}えるのがとても{上手|じょうず}ですよ。<br/>B：じゃあ、{空手|から・て}のクラスに{行|い}ってみます。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "3cd356f1-8523-4378-b515-31c3d1257cf1",
+        "meaning": "A: In Japan, what do you want to try doing?<br/>B: I want to try going to Akihabara.",
+        "text": {
+          "spelling": "{日本|に・ほん}で{何|なに}をしてみたいですか。<br/>{秋葉原|あき・は・ばら}に{行|い}ってみたいです。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "64fc707b-6796-46a6-9452-e428f6620090",
+        "meaning": "When you were a child, what did you want try doing?",
+        "text": {
+          "spelling": "{子供|こ・ども}の{時|とき}、{何|なに}がしてみたかったですか。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "19571f53-e235-49fa-845b-5311189002f3",
+        "meaning": "A: Korean food is spicy and very delicious!<br/>B: Okay, I will try eating it.",
+        "text": {
+          "spelling": "Ａ：{韓国|かん・こく}の{料理|りょう・り}は{辛|から}くて、とても{美味|おい}しですよ。<br/>Ｂ：じゃあ、{食|た}べてみます。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-05-01",
     "lesson_codes": ["GENKI3_L13"],
     "tags": []
   },
