@@ -3315,7 +3315,7 @@
         "id": "5c3984a7-c24d-4600-b2c4-550618d5fee0",
         "meaning": "Mary looks like she is doing well.",
         "text": {
-          "spelling": "メアリーさんは{元気|げん・き}そうてした。"
+          "spelling": "メアリーさんは{元気|げん・き}そうでした。"
         },
         "lesson_codes": ["GENKI3_L13"],
         "tags": []
@@ -3375,7 +3375,7 @@
         "id": "072b0a5b-e062-4c58-9aae-344e59f58563",
         "meaning": "This book does not look difficult.",
         "text": {
-          "spelling": "この{本|ほん}は{難|むずか}しくなそうです。"
+          "spelling": "この{本|ほん}は{難|むずか}しくなさそうです。"
         },
         "lesson_codes": ["GENKI3_L13"],
         "tags": []
