@@ -3253,7 +3253,7 @@
         "id": "114b145a-7a0a-4c03-9fd4-3d90fad86844",
         "meaning": "Professor Yamashita is a great teacher. He is good at teaching, and he is kind.",
         "text": {
-          "spelling": "{山下|やま・した}{先生|せん・せい}はいい{先生|せん・せい}です。{教|おし}えるのが{上手|じょう・ず}たし、{親切|しん・せつ}だし。"
+          "spelling": "{山下|やま・した}{先生|せん・せい}はいい{先生|せん・せい}です。{教|おし}えるのが{上手|じょう・ず}だし、{親切|しん・せつ}だし。"
         },
         "lesson_codes": ["GENKI3_L13"],
         "tags": []
@@ -3436,7 +3436,8 @@
     "title": "ＡそうなＮ",
     "meaning": "A-looking N",
     "how_to_use": [
-      "adjective + そう ⟶ な-adj"
+      "adjective + そう ⟶ な-adj",
+      "Note: いい ⟶ 良さそう"
     ],
     "examples": [
       {
@@ -3537,6 +3538,75 @@
     ],
     "jlpt_level": null,
     "date_added": "2024-05-01",
+    "lesson_codes": ["GENKI3_L13"],
+    "tags": []
+  },
+  {
+    "id": "442ed314-aa52-47ae-a180-e46770aaba16",
+    "title": "ＮならＰ",
+    "meaning": "predicate Y only applies to noun X",
+    "how_to_use": [
+      "noun + なら + predicate",
+      "noun + なら + predicate (positive) + が、 + noun (contrast) + は + predicate (negative)"
+    ],
+    "examples": [
+      {
+        "id": "d3435fbc-9173-40d0-9fa8-850aacdce32c",
+        "meaning": "A: Have you ever been to Brazil?<br/>B: I've been to Chile, but never to Brazil.",
+        "text": {
+          "spelling": "Ａ：ブラジルに{行|い}ったことがありますか。<br/>Ｂ：チリなら{行|い}ったことがありますが、ブラジルは{行|い}ったことがありません"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "d4d7fc87-6c5b-4c48-a87e-7b034c0c7881",
+        "meaning": "A: Can you read Japanese?<br/>B: If it is (written) in hiragana, yes",
+        "text": {
+          "spelling": "Ａ：{日本語|に・ほん・ご}が{読|よ}めますか。<br/>B：ひらがななら{読|よ}めます。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "0ce7ec89-28cc-45da-b433-754244aa804a",
+        "meaning": "A: Do you want to buy a motorcycle?<br/>B: I want to buy a car, but I do not want to buy a bike.",
+        "text": {
+          "spelling": "Ａ：バイクが{買|か}いたいてすか。<br/>Ｂ：{車|くるま}から{買|か}いたいですが、バイクは{買|か}いたいくないです。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "49c91a91-7c3b-4754-8b81-539231de2652",
+        "meaning": "A: Can you play sports?<br/>B: I can play tennis (but not other sports).",
+        "text": {
+          "spelling": "Ａ：スポーツができますか。<br/>Ｂ：テニスならできます。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "b7ef8604-ef57-47f4-86cc-5b673ab973d6",
+        "meaning": "A: Can you lend me money?<br/>I can lend you ¥5000 (but no more).",
+        "text": {
+          "spelling": "Ａ：お{金|かね}が{貸|か}せますか。<br/>Ｂ：{五千円|ご・せん・えん}なら{貸|か}せます。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "71a6dd0d-4136-480f-ad74-aa3d10ff1f89",
+        "meaning": "A: Are you free on Saturday?<br/>B: I am free on Sunday, but not on Saturday.",
+        "text": {
+          "spelling": "Ａ：{土曜日|ど・よう・び}は{暇|ひま}ですか。<br/>Ｂ：{日曜日|にち・よう・び}なら{暇|ひま}ですが、{土曜日|ど・よう・び}は{暇|ひま}じゃないです。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-05-13",
     "lesson_codes": ["GENKI3_L13"],
     "tags": []
   },
