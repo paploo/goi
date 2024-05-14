@@ -3610,6 +3610,66 @@
     "lesson_codes": ["GENKI3_L13"],
     "tags": []
   },
+  {
+    "id": "20a6a948-7846-4d1e-ab36-931859fbd8dc",
+    "title": "ＰにＦ",
+    "meaning": "F per P",
+    "how_to_use": [
+      "period + に + frequency",
+      "Period can be greater than one"
+    ],
+    "examples": [
+      {
+        "id": "9ef887bf-cfb4-409f-85b7-e7ca319763de",
+        "meaning": "I shampoo three times a week.",
+        "text": {
+          "spelling": "{私|わたし}は{一週間|いっ・しゅう・かん}に{３回髪|さん・かい・かみ}を{洗|あら}います。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "66308422-0f0d-4667-8a18-4f28573bca39",
+        "meaning": "I play games for about three hours a day.",
+        "text": {
+          "spelling": "{一日|いちにち}に{３時間|さんじかん}ぐらいゲームをします。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "e1b78190-fd99-41ce-a5bf-d79aa9523bce",
+        "meaning": "I work part-time three or four days a moth.",
+        "text": {
+          "spelling": "{一ヶ月|いっ・か・げつ}に{三日|みっ・か}が{四日|よっ・か}、アルバイトをします。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "aaa37086-fefc-45a3-b3f1-70f9e49ac18a",
+        "meaning": "My older sister plays golf twice a month.",
+        "text": {
+          "spelling": "{姉|あね}は{１ヶ月|いっ・か・げつ}に{２回|に・かい}ゴルフをします。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "281080bb-727e-4243-9437-84c07b54e0b2",
+        "meaning": "I take a bath twice per six weeks.",
+        "text": {
+          "spelling": "{私|わたし}は{６週間|ろく・しゅう・かん}に{２回|に・かい}お{風呂|ふろ}に{入|はい}る。"
+        },
+        "lesson_codes": [],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-05-13",
+    "lesson_codes": ["GENKI3_L13"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 14"},
   {"COMMENT": "GENKI LESSON 15"},
