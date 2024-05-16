@@ -243,7 +243,7 @@ little quantity; few,少し,すこし,,少し,ADVERB,,5,,,8640d0ab-1efc-5b18-a49
 "again, once more; also, too, as well",また,また,,又,ADVERB,,5,,,ecb81156-ea05-44c8-bea0-9e5c199c1c4b,242,2022-08-08
 bye; see you again later,またね,またね,,,INTERJECTION,,,,,820e130a-a772-413e-a754-d1a0021bbcf5,243,2022-08-08
 bye; see you,じゃね,じゃあね,じゃね,,INTERJECTION,,,,,82223749-3af6-4348-b0f0-a0addad0ddf2,244,2022-08-08
-"congratulations, well done, best wishes",おめでとう,おめでとう,,,INTERJECTION,,3,,,f64a8d64-a48c-5f1e-b7f0-e9e805646472,245,2022-08-08
+"congratulations, well done, best wishes",おめでとう,おめでとう,,,INTERJECTION,,3,{GENKI3_L17},,f64a8d64-a48c-5f1e-b7f0-e9e805646472,245,2022-08-08
 to persist; to do one's best; to keep at it,頑張る,がんばる,,頑張る,VERB,GODAN_VERB,,{GENKI3_L13},,a8f00f2e-c5dc-58d6-8225-376fbd35544f,246,2022-08-12
 like,好き,すき,,好き,ADJECTIVE,NA_ADJECTIVE,5,"{DUO_01_02,DUO_U01}",,dbecb5a9-82dd-5c17-ba84-c7887cf58ce8,247,2022-08-12
 thump-thump; to beat fast,ドキドキ,どきどき,,,ADVERB,,2,,,9723a3d5-9c7a-5674-a377-5d5c1220438d,248,2022-08-12
@@ -380,7 +380,7 @@ alone,一人で,ひとりで,,一人で,EXPRESSION,,,{GENKI3_L04},,0839c0a5-e217
 hello? (phone),もしもし,もしもし,,,EXPRESSION,,,{GENKI3_L04},,82698354-a810-410e-a0c2-e2e9e391e7bc,379,2022-08-10
 right,右,みぎ,,右,NOUN,,5,{GENKI3_L04},{location},83d209ab-6760-5b3f-945c-f82a55d9bcc1,380,2022-08-10
 left,左,ひだり,,左,NOUN,,5,{GENKI3_L04},{location},92a12133-28d1-5327-b9b9-db5c7d58fcdb,381,2022-08-10
-in front; before,前,まえ,,前,NOUN,,5,{GENKI3_L04},{location},8c4152ae-6000-57f5-8244-ac48a99f7e20,382,2022-08-10
+in front; before,前,まえ,,前,NOUN,,5,"{GENKI3_L04,GENKI3_L17}",{location},8c4152ae-6000-57f5-8244-ac48a99f7e20,382,2022-08-10
 in back; behind,後ろ,うしろ,,後ろ,NOUN,,5,{GENKI3_L04},{location},5abdcbf7-54bd-541a-be8b-e2aac1a36bf2,383,2022-08-10
 inside,中,なか,,中,NOUN,,5,{GENKI3_L04},{location},e37a40e2-6a4c-5046-9054-71bd174159cf,384,2022-08-10
 on,上,うえ,,上,NOUN,,5,{GENKI3_L04},{location},b7339af2-316c-551b-a5da-cb03d2ef2392,385,2022-08-10
@@ -672,7 +672,7 @@ not ... anything (+ negative),何も,なにも,,何も,EXPRESSION,,3,{GENKI3_L07
 not particularly; nothing in particular,別に,べつに,,別に,ADVERB,,3,{GENKI3_L07},,fe322488-4642-45ac-acfa-cbe0563d3f08,671,2023-01-16
 if you like,よかったら,よかったら,,良かったら,EXPRESSION,,,{GENKI3_L07},,41e2eb76-ea86-488c-97fd-9d8fef5b82ad,672,2023-01-16
 japanese cherry birch,梓,あずさ,,梓,NOUN,,,,,42154f3f-434e-4655-8aac-184d8144e666,673,2023-01-19
-as expected; sure enough,やっぱり,やっぱり,,矢っ張り,ADVERB,,2,,,edfe69b6-7431-4fc2-8a9f-9c44e0debd05,674,2023-01-19
+as expected; sure enough; after all,やっぱり,やっぱり,,矢っ張り,ADVERB,,2,{GENKI3_L17},,edfe69b6-7431-4fc2-8a9f-9c44e0debd05,674,2023-01-19
 bullet train,新幹線,しんかんせん,,新幹線,NOUN,,2,{GENKI3_L10},{transportation},a236594c-f447-4dc4-9aa4-782b76c2e325,675,2023-01-24
 "clump, cluster, lump",塊,かたまり,,塊,NOUN,,2,,,eac4900c-87dd-47d2-b598-42fff868832f,676,2023-01-24
 "soul, spirit",魂,たましい,,魂,NOUN,,,,,3b615b81-5f7d-4672-8756-51bdfddc95a5,677,2023-01-24
@@ -1477,15 +1477,36 @@ a little; a few,少ない,すくない,,少ない,ADJECTIVE,I_ADJECTIVE,5,{GENKI
 inconvenient; to have a scheduling conflict,都合が悪い,すごうがわるい,,都合が悪い,ADJECTIVE,I_ADJECTIVE,,{GENKI3_L17},,5770bfa9-de79-4857-b930-37c98fa65c8d,1476,2024-05-02
 strong,強い,つよい,,強い,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L17},,7bd01dc0-08a1-43ef-ac8c-352303df5cb4,1477,2024-05-02
 worst,最悪,さいあく,,最悪,ADJECTIVE,NA_ADJECTIVE,,{GENKI3_L17},,f4258d78-9d5a-4845-bd87-d0720661b0d7,1478,2024-05-02
-to choose; to select,選ぶ,えらぶ,,選ぶ,VERB,GODAN_VERB,4,,,fadfd983-1046-4c64-bacc-c56fe5a24a80,1479,2024-05-02
-to boil water,お湯を沸かす,おゆをわかす,,お湯を沸かす,VERB,GODAN_VERB,4,,,b481c7ae-0404-4a38-bd52-fb12877992b2,1480,2024-05-02
-to comb one's hair,髪をとかす,かみをとかす,,髪を梳かす,VERB,GODAN_VERB,,,,29f9f703-da28-484e-9538-e83e8b5215c6,1481,2024-05-02
-to shave one's beard,ひげを剃る,ひげをそる,,ひげを剃る,VERB,GODAN_VERB,,,,13b38db1-1896-4f4f-b507-ddfc44554dce,1482,2024-05-02
-"to take off (clothes, shoes); to undress",脱ぐ,ぬぐ,,脱ぐ,VERB,GODAN_VERB,5,,,df74c685-1642-49d7-b4e9-16bcb20748be,1483,2024-05-02
-to be crowded,混む,こむ,,混む,VERB,GODAN_VERB,4,,,79d77040-b7f5-4546-8504-ea1eed93d3ea,1484,2024-05-02
-to win a lottery,宝くじに当たる,たからくじにあたる,,宝くじに当たる,VERB,GODAN_VERB,,,,ae0baa98-fdad-4aee-ab42-b02ffe1e5e42,1485,2024-05-02
-"to make tea, coffee, etc",淹れる,いれる,,淹れる,VERB,ICHIDAN_VERB,,,,70ddc8bc-ff03-43c6-ae43-f72a0eeb1354,1486,2024-05-02
-to be born,生まれる,うまれる,,生まれる,VERB,ICHIDAN_VERB,5,,,6c54ad38-8e43-4d04-a26d-618e4a67df0f,1487,2024-05-02
-to lock,鍵をかける,かぎをかける,,鍵をかける,VERB,ICHIDAN_VERB,,,,c20dcc54-e33c-493b-8758-8b1d1f05e947,1488,2024-05-02
-to be sufficeint; to be enough,足りる,たりる,,足りる,VERB,ICHIDAN_VERB,4,,,a5b80486-b190-4513-94e4-e1e858ae3fd1,1489,2024-05-02
-to get used to,慣れる,なれる,,慣れる,VERB,ICHIDAN_VERB,4,,,0cf8f24c-d75f-45bd-a187-31e291e8423e,1490,2024-05-02
+to choose; to select,選ぶ,えらぶ,,選ぶ,VERB,GODAN_VERB,4,{GENKI3_L17},,fadfd983-1046-4c64-bacc-c56fe5a24a80,1479,2024-05-02
+to boil water,お湯を沸かす,おゆをわかす,,お湯を沸かす,VERB,GODAN_VERB,4,{GENKI3_L17},,b481c7ae-0404-4a38-bd52-fb12877992b2,1480,2024-05-02
+to comb one's hair,髪をとかす,かみをとかす,,髪を梳かす,VERB,GODAN_VERB,,{GENKI3_L17},,29f9f703-da28-484e-9538-e83e8b5215c6,1481,2024-05-02
+to shave one's beard,ひげを剃る,ひげをそる,,ひげを剃る,VERB,GODAN_VERB,,{GENKI3_L17},,13b38db1-1896-4f4f-b507-ddfc44554dce,1482,2024-05-02
+"to take off (clothes, shoes); to undress",脱ぐ,ぬぐ,,脱ぐ,VERB,GODAN_VERB,5,{GENKI3_L17},,df74c685-1642-49d7-b4e9-16bcb20748be,1483,2024-05-02
+to be crowded,混む,こむ,,混む,VERB,GODAN_VERB,4,{GENKI3_L17},,79d77040-b7f5-4546-8504-ea1eed93d3ea,1484,2024-05-02
+to win a lottery,宝くじに当たる,たからくじにあたる,,宝くじに当たる,VERB,GODAN_VERB,,{GENKI3_L17},,ae0baa98-fdad-4aee-ab42-b02ffe1e5e42,1485,2024-05-02
+"to make tea, coffee, etc",淹れる,いれる,,入れる,VERB,ICHIDAN_VERB,,{GENKI3_L17},,70ddc8bc-ff03-43c6-ae43-f72a0eeb1354,1486,2024-05-02
+to be born,生まれる,うまれる,,生まれる,VERB,ICHIDAN_VERB,5,{GENKI3_L17},,6c54ad38-8e43-4d04-a26d-618e4a67df0f,1487,2024-05-02
+to lock,鍵をかける,かぎをかける,,鍵をかける,VERB,ICHIDAN_VERB,,{GENKI3_L17},,c20dcc54-e33c-493b-8758-8b1d1f05e947,1488,2024-05-02
+to be sufficeint; to be enough,足りる,たりる,,足りる,VERB,ICHIDAN_VERB,4,{GENKI3_L17},,a5b80486-b190-4513-94e4-e1e858ae3fd1,1489,2024-05-02
+to get used to,慣れる,なれる,,慣れる,VERB,ICHIDAN_VERB,4,{GENKI3_L17},,0cf8f24c-d75f-45bd-a187-31e291e8423e,1490,2024-05-02
+to compare; to make a comparison,比べる,くらべる,,比べる,VERB,ICHIDAN_VERB,4,,,ed3c1014-8c37-4210-ba3d-6df42b537448,1491,2024-05-15
+to pray,お祈りする,おいのりする,,お祈りする,VERB,SURU_VERB,,{GENKI3_L17},,6a29b241-a8b3-4c8f-9fe7-1d52f7f6a52c,1492,2024-05-15
+to put makeup on,化粧する,けしょうする,,化粧する,VERB,SURU_VERB,3,{GENKI3_L17},,2bf67bf6-d74f-45c5-b9f1-8ac610c02a1a,1493,2024-05-15
+to get a full-time job,就職する,しゅうしょくする,,就職する,VERB,SURU_VERB,3,{GENKI3_L17},,c948f7e7-7029-4131-a184-039834134e34,1494,2024-05-15
+to get a divorce,離婚する,りこんする,,離婚する,VERB,SURU_VERB,3,{GENKI3_L17},,e5fcd6e9-fddb-4aff-b11e-8030d1806a5f,1495,2024-05-15
+"to wear small itmes (necktie, watch, etc)",する,する,,,VERB,SURU_VERB,5,{GENKI3_L17},,f572fbae-19db-47a1-9cd0-218ac72c8fc4,1496,2024-05-15
+"very, considerably, extremely",ずいぶん,ずいぶん,,随分,ADVERB,,3,{GENKI3_L17},,5e0850d1-0577-4301-8793-a4f7bfc60074,1497,2024-05-15
+for example,例えば,たとえば,,例えば,ADVERB,,4,{GENKI3_L17},,f515bc0a-09c7-41f5-a8ae-3d6be513932c,1498,2024-05-15
+compared with...,〜に比べて,〜にくらべて,,〜に比べて,EXPRESSION,,,{GENKI3_L17},,3420494f-0533-45f4-b3d7-d72a632d3a5e,1499,2024-05-15
+according to (someone)...,〜によると,〜によると,,〜に依ると,EXPRESSION,,,{GENKI3_L17},,362e4d55-6ac9-435d-880d-4aac91b3eafc,1500,2024-05-15
+I wonder... (casual),〜かな,〜かな,,〜かな,EXPRESSION,,,{GENKI3_L17},,a7c03b1d-47d6-40c8-8cbe-fd788dcc9e49,1501,2024-05-15
+"I wonder... (casual, emphasized)",〜かなあ,〜かなあ,,〜かなあ,EXPRESSION,,,{GENKI3_L17},,4f6ed605-9b42-4778-b5fe-3c0caeb7ac13,1502,2024-05-15
+I see (casual); is that so?,そうか,そうか,,そうか,EXPRESSION,,,{GENKI3_L17},,66abaa93-653e-4173-829c-0924f65626e0,1503,2024-05-15
+tear (from eye),涙,なみだ,,涙,NOUN,,3,{GENKI3_READER_L12},,1b8e4840-eedb-496e-9023-dae70e758434,1504,2024-05-15
+the old days,昔,むかし,,昔,NOUN,,4,{GENKI3_READER_L13},,0d2c779a-527d-44a2-8efe-7868105d3e92,1505,2024-05-15
+embarrassing; (to feel) embarrassed,恥ずかしい,はずかしい,,恥ずかしい,ADJECTIVE,I_ADJECTIVE,4,{GENKI3_READER_L13},,c24166c6-8bf8-48de-9ec7-697882ab56f4,1506,2024-05-15
+to think about; to consider,考える,かんがえる,,考える,VERB,ICHIDAN_VERB,4,{GENKI3_READER_L13},,8aa2d467-3d50-4ec9-ab1c-33317b1bc2dc,1507,2024-05-15
+insect,虫,むし,,むし,NOUN,,4,,,452ff08f-a65e-49e2-a7e7-b174ddd7e8c1,1508,2024-05-15
+spider,くも,くも,,蜘蛛,NOUN,,,,,f4e38e7c-dcd3-4789-9a18-321115fa2681,1509,2024-05-15
+what's the matter?,どうしたの,どうしたの,,,EXPRESSION,,,,,3d493ffa-df60-432d-9678-dbfda33c1d22,1510,2024-05-15
+Do you have an English menu?,英語のメニューはありますか,えいごの めにゅうは ありますか,,英語のメニューはありますか,EXPRESSION,,,,,6e7db8ab-0ba1-43a3-a6ae-0b61a3737863,1511,2024-05-15

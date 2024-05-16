@@ -41,30 +41,53 @@ insert into source.lesson (code, lesson_code, source_code, label, section_number
 insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L02', 'L02', 'GENKI3_WORKBOOK', 'Shopping (Workbook)', 2, null);
 insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L03', 'L03', 'GENKI3_WORKBOOK', 'Making a Date (Workbook)', 3, null);
 insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L04', 'L04', 'GENKI3_WORKBOOK', 'The First Date (Workbook)', 4, null);
-insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L05', 'L05', 'GENKI3_WORKBOOK', 'A Trip to Okinawa (Workbook)', 4, null);
-insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L06', 'L06', 'GENKI3_WORKBOOK', 'A Day in Robert''s Life (Workbook)', 4, null);
-insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L07', 'L07', 'GENKI3_WORKBOOK', 'Family Picture (Workbook)', 4, null);
-insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L08', 'L08', 'GENKI3_WORKBOOK', 'Barbecue (Workbook)', 4, null);
-insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L09', 'L09', 'GENKI3_WORKBOOK', 'Kabuki (Workbook)', 4, null);
-insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L10', 'L10', 'GENKI3_WORKBOOK', 'Winter Vacation Plans (Workbook)', 4, null);
-insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L11', 'L11', 'GENKI3_WORKBOOK', 'After the Vacation (Workbook)', 4, null);
-insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L12', 'L12', 'GENKI3_WORKBOOK', 'Feeling Ill (Workbook)', 4, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L05', 'L05', 'GENKI3_WORKBOOK', 'A Trip to Okinawa (Workbook)', 5, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L06', 'L06', 'GENKI3_WORKBOOK', 'A Day in Robert''s Life (Workbook)', 6, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L07', 'L07', 'GENKI3_WORKBOOK', 'Family Picture (Workbook)', 7, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L08', 'L08', 'GENKI3_WORKBOOK', 'Barbecue (Workbook)', 8, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L09', 'L09', 'GENKI3_WORKBOOK', 'Kabuki (Workbook)', 9, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L10', 'L10', 'GENKI3_WORKBOOK', 'Winter Vacation Plans (Workbook)', 10, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L11', 'L11', 'GENKI3_WORKBOOK', 'After the Vacation (Workbook)', 11, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L12', 'L12', 'GENKI3_WORKBOOK', 'Feeling Ill (Workbook)', 12, null);
+
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L13', 'L13', 'GENKI3_WORKBOOK', 'Looking for a Part-time Job (Workbook)', 13, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L14', 'L14', 'GENKI3_WORKBOOK', 'Valentine''s Day (Workbook)', 14, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L15', 'L15', 'GENKI3_WORKBOOK', 'A trip to Nagano (Workbook)', 15, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L16', 'L16', 'GENKI3_WORKBOOK', 'Lost and Found (Workbook)', 16, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L17', 'L17', 'GENKI3_WORKBOOK', 'Grumble and Gossip (Workbook)', 17, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L18', 'L18', 'GENKI3_WORKBOOK', 'John''s Part-time Job (Workbook)', 18, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L19', 'L19', 'GENKI3_WORKBOOK', 'Meeting the Boss (Workbook)', 19, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L20', 'L20', 'GENKI3_WORKBOOK', 'Mary Goes Shopping (Workbook)', 20, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L21', 'L21', 'GENKI3_WORKBOOK', 'Burglar (Workbook)', 21, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L22', 'L22', 'GENKI3_WORKBOOK', 'Education in Japan (Workbook)', 22, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_WORKBOOK_L23', 'L23', 'GENKI3_WORKBOOK', 'Good-bye (Workbook)', 23, null);
 
 insert into source.source (code, label) values ('GENKI3_READER', 'Genki, 3rd Ed Readers');
 
-insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L00', 'L00', 'GENKI3_READER', 'Greetings and Numbers (Reader)', 0, null);
-insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L01', 'L01', 'GENKI3_READER', 'New Friends (Reader)', 1, null);
-insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L02', 'L02', 'GENKI3_READER', 'Shopping (Reader)', 2, null);
-insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L03', 'L03', 'GENKI3_READER', 'Making a Date (Reader)', 3, null);
-insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L04', 'L04', 'GENKI3_READER', 'The First Date (Reader)', 4, null);
-insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L05', 'L05', 'GENKI3_READER', 'A Trip to Okinawa (Reader)', 4, null);
-insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L06', 'L06', 'GENKI3_READER', 'A Day in Robert''s Life (Reader)', 4, null);
-insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L07', 'L07', 'GENKI3_READER', 'Family Picture (Reader)', 4, null);
-insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L08', 'L08', 'GENKI3_READER', 'Barbecue (Reader)', 4, null);
-insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L09', 'L09', 'GENKI3_READER', 'Kabuki (Reader)', 4, null);
-insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L10', 'L10', 'GENKI3_READER', 'Winter Vacation Plans (Reader)', 4, null);
-insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L11', 'L11', 'GENKI3_READER', 'After the Vacation (Reader)', 4, null);
-insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L12', 'L12', 'GENKI3_READER', 'Feeling Ill (Reader)', 4, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L01', 'L01', 'GENKI3_READER', 'Mary''s Friends / Nice To Meet You (Reader)', 1, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L02', 'L02', 'GENKI3_READER', 'Sakura University / 100-Yen Shop (Reader)', 2, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L03', 'L03', 'GENKI3_READER', 'Today''s Sunday / Welcome Home (Reader)', 3, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L04', 'L04', 'GENKI3_READER', 'Takeshi''s Weekend / Robert''s Golden Week (Reader)', 4, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L05', 'L05', 'GENKI3_READER', 'A Trip to Okinawa / Animal Islands (Reader)', 5, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L06', 'L06', 'GENKI3_READER', 'Class Trip to Nara / Bazaar (Reader)', 6, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L07', 'L07', 'GENKI3_READER', 'Sora''s Cat / I Hate Cram School (Reader)', 7, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L08', 'L08', 'GENKI3_READER', 'Let''s Go Fishing / Dotonbori, Osaka (Reader)', 8, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L09', 'L09', 'GENKI3_READER', 'Cherry Blossom Viewing / The School Restroom (Reader)', 9, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L10', 'L10', 'GENKI3_READER', 'Mary Goes to a Sumo Tournament / Uday''s Winter Break (Reader)', 10, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L11', 'L11', 'GENKI3_READER', 'Robert''s Big Brother / Yui''s Dream (Reader)', 11, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L12', 'L12', 'GENKI3_READER', 'John Hunts for an Apartment / Mary is Homesick (Reader)', 12, null);
+
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L13', 'L13', 'GENKI3_READER', 'Hot Springs in Oita / Robert Joins a Club (Reader)', 13, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L14', 'L14', 'GENKI3_READER', 'Apples and Brothers / Let''s Make Wishes in Kyoto (Reader)', 14, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L15', 'L15', 'GENKI3_READER', 'The Girl Wearing a Mask / History and Cluture of Kanazawa (Reader)', 15, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L16', 'L16', 'GENKI3_READER', 'Snow Monkeys / Tales of Hikoichi (Reader)', 16, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L17', 'L17', 'GENKI3_READER', 'The Teacher''s Pocket Watch / History of Kabuki (Reader)', 17, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L18', 'L18', 'GENKI3_READER', 'Phone Calls from Merry / Mr. Future (Reader)', 18, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L19', 'L19', 'GENKI3_READER', 'The Girl with a Bowl on Her Head / Japan''s Fascinating Yokai (Reader)', 19, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L20', 'L20', 'GENKI3_READER', 'Yufuin: A Small Town with Big Dreams / Kappa Stories (Reader)', 20, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L21', 'L21', 'GENKI3_READER', 'The Dog Temple / The God of Death (Reader)', 21, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L22', 'L22', 'GENKI3_READER', 'The Moneky''s Paw / The Legend of Kibi no Makibi (Reader)', 22, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L23', 'L23', 'GENKI3_READER', 'The Granny Dumping Mountain / Yanase Takashi and Anpanman (Reader)', 23, null);
 
 
 
