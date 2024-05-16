@@ -3544,7 +3544,7 @@
   {
     "id": "442ed314-aa52-47ae-a180-e46770aaba16",
     "title": "ＮならＰ",
-    "meaning": "predicate Y only applies to noun X",
+    "meaning": "predicate P only applies to noun N",
     "how_to_use": [
       "noun + なら + predicate",
       "noun + なら + predicate (positive) + が、 + noun (contrast) + は + predicate (negative)"
@@ -3639,7 +3639,7 @@
       },
       {
         "id": "e1b78190-fd99-41ce-a5bf-d79aa9523bce",
-        "meaning": "I work part-time three or four days a moth.",
+        "meaning": "I work part-time three or four days a month.",
         "text": {
           "spelling": "{一ヶ月|いっ・か・げつ}に{三日|みっ・か}が{四日|よっ・か}、アルバイトをします。"
         },
