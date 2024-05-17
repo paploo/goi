@@ -3733,7 +3733,39 @@
     "lesson_codes": ["GENKI3_L14"],
     "tags": []
   },
-
+  {
+    "id": "a3226ad4-0eab-4bb2-9378-c5269be97d5c",
+    "title": "ＰはＮが欲しいと言っています<br/>ＰはＮが欲しいでしょう",
+    "meaning": "(Person) wants N",
+    "how_to_use": [
+      "person + は + noun + 欲しい + と言っています",
+      "person + は + noun + 欲しい + でしょう"
+    ],
+    "examples": [
+      {
+        "id": "0d526186-3d37-49d1-9d7e-d8a2a21423d3",
+        "meaning": "Yasmin says she wants a new phone.",
+        "text": {
+          "spelling": "ヤスミンさんは{新|あたら}しいスマホが{欲|ほ}しいと{言|い}っています。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "ac123ab2-6279-48ce-9d05-38abfe82934b",
+        "meaning": "Azusa probably doesn't want a stuffed animal.",
+        "text": {
+          "spelling": "{梓|あずさ}さんはぬいぐるみが{欲|ほ}しくないでしょう。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-05-16",
+    "lesson_codes": ["GENKI3_L14"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 15"},
   {"COMMENT": "GENKI LESSON 16"},
