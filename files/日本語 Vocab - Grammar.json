@@ -3672,6 +3672,69 @@
   },
 
   {"COMMENT": "GENKI LESSON 14"},
+  {
+    "id": "f132b1f1-1660-4206-8eec-164438e9f3d1",
+    "title": "Ｎが欲しい",
+    "meaning": "(I) want N",
+    "how_to_use": [
+      "noun + が + 欲しい",
+      "noun + が + 欲しくない",
+      "noun + は + 欲しくない"
+    ],
+    "examples": [
+      {
+        "id": "7080910a-7ccb-4cb5-99e5-8cf40e6e20da",
+        "meaning": "I want a good grade.",
+        "text": {
+          "spelling": "いい{成績|せいせき}が{欲|ほ}しいです。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "a69c7cdb-f1a1-48d4-b92b-6f33bc90e258",
+        "meaning": "When I was young, I wanted a Pokémon game.",
+        "text": {
+          "spelling": "{子供|こ・ども}の{時|とき}、ポケモンのゲームが{欲|ほ}しかったです。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "b8f6faad-2f49-4c4d-b235-d6286edac9d3",
+        "meaning": "A: Do you want a present?<br/>B: No, I don't (want).",
+        "text": {
+          "spelling": "Ａ：プレゼントが{欲|ほ}しい？<br/>Ｂ：ううん、{欲|ほ}しくない。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "abaa1011-a1b9-4996-a596-8d070aa8299d",
+        "meaning": "When I was young, I did not want an instrument.",
+        "text": {
+          "spelling": "{子供|こ・ども}の{時|とき}、{楽器|がっ・き}が{欲|ほ}しくなかったです。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "b622d86d-a1c1-457e-8879-84fba8caf0ea",
+        "meaning": "A: This upcoming birthday, what do you want? Why?<br/>I want a new camera because the current one is old and big.",
+        "text": {
+          "spelling": "Ａ：{今度|こん・ど}の{誕生日|たん・じょう・び}に{何|なに}が{欲|ほ}しいですか。とうしてですか。<br/>{新|あたら}しいカメラが{欲|ほ}しいです。{今|いま}のは{古|ふる}くて{大|おお}きいですから。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-05-16",
+    "lesson_codes": ["GENKI3_L14"],
+    "tags": []
+  },
+
+
   {"COMMENT": "GENKI LESSON 15"},
   {"COMMENT": "GENKI LESSON 16"},
   {"COMMENT": "GENKI LESSON 17"},
