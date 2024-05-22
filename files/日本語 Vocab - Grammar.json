@@ -3675,7 +3675,7 @@
   {
     "id": "f132b1f1-1660-4206-8eec-164438e9f3d1",
     "title": "Ｎが欲しい",
-    "meaning": "(I) want N",
+    "meaning": "(I) want (to possess) N",
     "how_to_use": [
       "noun + が + 欲しい",
       "noun + が + 欲しくない",
@@ -3726,7 +3726,15 @@
         },
         "lesson_codes": ["GENKI3_L14"],
         "tags": []
-      }
+      },
+      {
+        "id": "fa01f8c1-a8db-4888-9f5f-86347b05c7ef",
+        "meaning": "A: Time or money, which do you want more? Why?<br/>I want time more. You can't buy happiness.",
+        "text": {
+          "spelling": "Ａ：{時間|じ・かん}とお{金|かね}とどちらが{欲|ほ}しいですか。どうしてですか。<br/>Ｂ：{時間|じ・かん}の{方|ほう}が{欲|ほ}しいです。{幸|しあわ}せを{買|か}えませんから。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []      }
     ],
     "jlpt_level": null,
     "date_added": "2024-05-16",
@@ -3736,7 +3744,7 @@
   {
     "id": "a3226ad4-0eab-4bb2-9378-c5269be97d5c",
     "title": "ＰはＮが欲しいと言っています<br/>ＰはＮが欲しいでしょう",
-    "meaning": "(Person) wants N",
+    "meaning": "(Person) wants (to possess) N",
     "how_to_use": [
       "person + は + noun + 欲しい + と言っています",
       "person + は + noun + 欲しい + でしょう"
@@ -3763,6 +3771,80 @@
     ],
     "jlpt_level": null,
     "date_added": "2024-05-16",
+    "lesson_codes": ["GENKI3_L14"],
+    "tags": []
+  },
+  {
+    "id": "be1c7e15-84c8-4b9e-bb7f-dd61a0404163",
+    "title": "〜かもしれません<br/>〜かもしれない<br/>〜かも",
+    "meaning": "Maybe...",
+    "how_to_use": [
+      "verb (short) + かもしれません",
+      "noun + かもしれません",
+      "な-adj + かもしれません",
+      "い-adj + かもしれません",
+      "〜かもしれない ⟶ casual",
+      "〜かも ⟶ casual",
+      "(Do not put だ after noun, but other conjugations are used)"
+    ],
+    "examples": [
+      {
+        "id": "71ee25fc-e40d-4cfb-9cf1-b0c2745aafbe",
+        "meaning": "It may rain tomorrow.",
+        "text": {
+          "spelling": "{明日|あした}は{雨|あめ}が{降|ふ}るかもしれません。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "9ea19e50-ed8c-4f1c-9f1d-fa3b754f9fee",
+        "meaning": "Suzuki is perhaps taller than Tanaka",
+        "text": {
+          "spelling": "{田中|た・なか}さんより、{鈴木|すず・き}さんの{方|ほう}が{背|せ}が{高|たか}いかもしれない。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "46096a66-5b4d-40bc-8789-1bf602955b04",
+        "meaning": "The weather may not be good tomorrow.",
+        "text": {
+          "spelling": "{明日|あした}は{天気|てん・き}がよくないかも。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "6cc832a0-5c1c-47b3-9c1d-1cf1994214be",
+        "meaning": "Robert may have been a bully when he was a kid.",
+        "text": {
+          "spelling": "ロバートさんは、{子供|こ・ども}の{時|とき}、{意地悪|い・じ・わる}だったかもしれません。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "a161a3ae-1375-48a9-a24c-6533c48811c0",
+        "meaning": "It might be a cat.<br/>It might've been a cat.",
+        "text": {
+          "spelling": "{猫|ねこ}がもしれない。<br/>{猫|ねこ}だったかもしれない。"
+        },
+        "lesson_codes": ["TOFUGU_KAMOSHIRENAI"],
+        "tags": []
+      },
+      {
+        "id": "93a4f2d5-d48a-4e39-abc4-a3a976bd4a18",
+        "meaning": "Professor Yamashita may not like dogs.",
+        "text": {
+          "spelling": "{山下|やま・した}{先生|せん・せい}は{犬|いぬ}が{嫌|きら}いかもしれません。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-05-21",
     "lesson_codes": ["GENKI3_L14"],
     "tags": []
   },
