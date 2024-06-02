@@ -3271,7 +3271,7 @@
         "id": "0c54ba42-1ebd-4be8-901c-400a197e926c",
         "meaning": "A: Between summer and winter, which is your favorite?<br/>B: Winter is my favorite. I like snow and I can ski.",
         "text": {
-          "spelling": "A；{夏|なつ}と{冬|ふゆ}どちらが{好|す}きですか。<br/>Ｂ：{冬|ふゆ}の{方|ほう}が{好|す}きです。{雪|ゆき}が{好|す}きだし、スキーができるし。"
+          "spelling": "A：{夏|なつ}と{冬|ふゆ}どちらが{好|す}きですか。<br/>Ｂ：{冬|ふゆ}の{方|ほう}が{好|す}きです。{雪|ゆき}が{好|す}きだし、スキーができるし。"
         },
         "lesson_codes": ["GENKI3_L13"],
         "tags": []
@@ -3641,7 +3641,7 @@
         "id": "e1b78190-fd99-41ce-a5bf-d79aa9523bce",
         "meaning": "I work part-time three or four days a month.",
         "text": {
-          "spelling": "{一ヶ月|いっ・か・げつ}に{三日|みっ・か}が{四日|よっ・か}、アルバイトをします。"
+          "spelling": "{一ヶ月|いっ・か・げつ}に{三日|みっ・か}か{四日|よっ・か}、アルバイトをします。"
         },
         "lesson_codes": ["GENKI3_L13"],
         "tags": []
