@@ -1530,3 +1530,30 @@ dark; gloomy,暗い,くらい,,暗い,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L18},,2521
 precious; important,大切,たいせつ,,大切,ADJECTIVE,NA_ADJECTIVE,5,{GENKI3_L18},,14946d76-b78d-4e25-bba7-e094dd0c5e63,1529,2024-06-02
 anxious; worried,不安,ふあん,,不安,ADJECTIVE,NA_ADJECTIVE,3,{GENKI3_L18},,3b16f6e7-cde7-44a0-9061-c00363fc25a7,1530,2024-06-02
 impossible; unreasonable,無理,むり,,無理,ADJECTIVE,NA_ADJECTIVE,4,{GENKI3_L18},,6f2a9f53-70ee-4746-8bdf-64efce546a7b,1531,2024-06-02
+to be opened; to unseal,開く,あく,,開く,VERB,GODAN_VERB,4,{GENKI3_L18},,7f12e716-4b66-4e9f-a0b1-955a2edb77d4,1532,2024-06-02
+to be shut; to be closed,閉まる,しまる,,閉まる,VERB,GODAN_VERB,5,{GENKI3_L18},,7fe02ca6-be26-4c81-97ba-8e39d714f1dc,1533,2024-06-02
+to apologize,謝る,あやまる,,謝る,VERB,GODAN_VERB,4,{GENKI3_L18},,bb7afc3c-1ffd-427d-a176-b831f9762cf1,1534,2024-06-02
+to press; to push,押す,おす,,押す,VERB,GODAN_VERB,5,{GENKI3_L18},,7d3dd895-8263-43fa-bba1-7460a23b5d4d,1535,2024-06-02
+to drop (something),落とす,おとす,,落とす,VERB,GODAN_VERB,4,{GENKI3_L18},,8779aecc-90a8-4d47-a478-d461e1640912,1536,2024-06-02
+water boils; water is boiling,お湯が沸く,おゆがわく,,お湯が沸く,VERB,GODAN_VERB,4,{GENKI3_L18},,1d8a60ef-0f01-4001-83c9-0586d6ea736e,1537,2024-06-02
+to fall down,転ぶ,ころぶ,,転ぶ,VERB,GODAN_VERB,3,{GENKI3_L18},,850600b6-56fe-45cd-a6f6-cfa7f42c2482,1538,2024-06-02
+to break (something),壊す,こわす,,壊す,VERB,GODAN_VERB,4,{GENKI3_L18},,88e8c77c-80f5-462c-9808-51a918b1cfe3,1539,2024-06-02
+to bloom,咲く,さく,,咲く,VERB,GODAN_VERB,5,{GENKI3_L18},,870d246d-ac50-488b-8fc8-4405410e2c2b,1540,2024-06-02
+to ask (a favor),頼む,たのむ,,頼む,VERB,GODAN_VERB,5,{GENKI3_L18},,a18ca20e-da4d-446a-94b8-601843516a1a,1541,2024-06-02
+(something) turns on,つく,つく,,点く,VERB,GODAN_VERB,2,{GENKI3_L18},,f26e3da7-2300-4e40-8d4c-b552c765d3d1,1542,2024-06-02
+"to make dirty, to contaminate; to dishonor, to defile",汚す,よごす,,汚す,VERB,GODAN_VERB,2,{GENKI3_L18},,ec53e9dc-ebd4-4474-a75a-3fc81a2beb72,1543,2024-06-02
+(something) drops,落ちる,おちる,,落ちる,VERB,ICHIDAN_VERB,4,{GENKI3_L18},,5a37d355-dd6d-4876-917c-e601fdfe7e42,1544,2024-06-02
+to tidy up,片付ける,かたづける,,片付ける,VERB,ICHIDAN_VERB,4,{GENKI3_L18},,6af63133-e522-438d-beff-2804e658725c,1545,2024-06-02
+(something) goes off,消える,きえる,,消える,VERB,ICHIDAN_VERB,5,{GENKI3_L18},,d1f88de1-7148-4371-8a28-b8bcf681081f,1546,2024-06-02
+(something) breaks,壊れる,こわれる,,壊れる,VERB,ICHIDAN_VERB,4,{GENKI3_L18},,26ddef5f-1028-47f8-8429-f7f10a508cbb,1547,2024-06-02
+to become dirty,汚れる,よごれる,,汚れる,VERB,ICHIDAN_VERB,4,{GENKI3_L18},,a90cde12-102d-4d10-817f-50478f18796e,1548,2024-06-02
+to place an order,注文する,ちゅうもんする,,注文する,VERB,SURU_VERB,3,{GENKI3_L18},,102b0ca8-8db1-4fa1-bffd-8199fac99643,1549,2024-06-02
+right away; at once,今すぐ,いますぐ,,今すぐ,ADVERB,,,{GENKI3_L18},,b7400629-52e8-46e2-bd6f-ce151406c65d,1550,2024-06-02
+by (time/date),までに,までに,,迄に,ADVERB,,,{GENKI3_L18},,2acb9e8c-a57e-4ed6-b7f0-cf38a8c2ab36,1551,2024-06-02
+really,本当に,ほんとうに,,本当に,ADVERB,,,{GENKI3_L18},,28346985-639b-4fab-aaaa-b59e9f5edaae,1552,2024-06-02
+"first of all, to begin with",まず,まず,,先ず,ADVERB,,3,"{GENKI3_READER_L13,GENKI3_L18}",,2883dcab-0ea2-4e4e-9234-202fa3256009,1553,2024-06-02
+"last, final, most recent",最後,さいご,,さいご,NOUN,,4,{GENKI3_READER_L13},,28c97749-4a08-4a9f-91b1-35ba4faad10e,1554,2024-06-02
+thanks to...,おかげで,おかげで,,お陰で,EXPRESSION,,,{GENKI3_L18},,7453629b-f9a2-48b1-91f1-e10cf3b29192,1555,2024-06-02
+it seems; probably,〜でしょう,〜でしょう,,,EXPRESSION,,,{GENKI3_L12},,546baf22-9008-41ea-b3fc-82f3f1abf153,1556,2024-06-02
+it seems; probably (short form),〜たろう,〜たろう,,,EXPRESSION,,,{GENKI3_L18},,eee07bd7-9b73-4edf-a0c6-0bdb785e9cd2,1557,2024-06-02
+pardon me for leaving first (lit. I'm leaving ahead of you),お先に失礼します,おさきにしつれいします,,,EXPRESSION,,,{GENKI3_L18},,de5707cb-0a2d-4a5e-bba8-c8708fa0730a,1558,2024-06-02
