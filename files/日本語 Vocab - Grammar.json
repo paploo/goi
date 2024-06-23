@@ -1486,7 +1486,7 @@
       },
       {
         "id": "903c5e17-7b19-4a4d-95e1-d85f6c5711ad",
-        "meaning": "I don't think last week's exam was difficult.<br>(lit., I think last week's exam was not difficult.)",
+        "meaning": "I don't think last week's exam was difficult.<br/>(lit., I think last week's exam was not difficult.)",
         "text": {
           "spelling": "{先週|せん・しゅう}の{試験|し・けん}は{難|むずか}しくなかったと{思|おも}います。"
         },
@@ -2817,7 +2817,7 @@
       },
       {
         "id": "66d1c1b0-6f6f-44bb-9562-573340302aac",
-        "meaning": "A: When I have a cold, what should I not do?<br/>(When you have a cold, what is better not to do?)<br/>B: You'd better drink water often.",
+        "meaning": "A: When I have a cold, what should I do?<br/>(When you have a cold, what is better to do?)<br/>B: You'd better drink water often.",
         "text": {
           "spelling": "Ａ：{風邪|かぜ}の{時|とき}、{何|なに}をした{方|ほう}がいいですか。<br/>Ｂ：{水|みず}をよく{飲|の}んだ{方|ほう}がいいですよ。"
         },
@@ -3280,7 +3280,7 @@
         "id": "e047c006-9568-4da8-a8bd-7be0a0a5195a",
         "meaning": "A: Are you busy right now?<br/>B: Yes. I have a lot of homework and I have to write a report.",
         "text": {
-          "spelling": "Ａ：{今|いま}、{忙|いそが}しいですか。<br>Ｂ：はい。{宿題|しゅく・だい}がたくさんあるし、レポートを{書|か}かなきゃいけないし。"
+          "spelling": "Ａ：{今|いま}、{忙|いそが}しいですか。<br/>Ｂ：はい。{宿題|しゅく・だい}がたくさんあるし、レポートを{書|か}かなきゃいけないし。"
         },
         "lesson_codes": ["GENKI3_L13"],
         "tags": []
@@ -3964,6 +3964,75 @@
     ],
     "jlpt_level": null,
     "date_added": "2024-05-28",
+    "lesson_codes": ["GENKI3_L14"],
+    "tags": []
+  },
+  {
+    "id": "7650ae69-cbd6-4434-afbd-364400b95301",
+    "title": "〜たらどうですか",
+    "meaning": "why don't you...<br/>(to convey advice or recommendation)",
+    "how_to_use": [
+      "verb (short, past) + らどうですか",
+      "May sound disapproving/criticising in tone if unsolicited"
+    ],
+    "examples": [
+      {
+        "id": "07abd509-ab77-41c6-aab5-6fcfe677d073",
+        "meaning": "How about taking some medicine?",
+        "text": {
+          "spelling": "{薬|くすり}お{飲|の}んだらどうですか。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "43716a07-94a8-4854-baa7-55aaf9c028b5",
+        "meaning": "Why don't you study harder?",
+        "text": {
+          "spelling": "もっと{勉強|べん・きょう}したらどう。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "57f61c6c-5d1c-4b3c-9657-07458d70aa58",
+        "meaning": "A: Because you have a fever, you maybe have a cold.<br/>Why don't you stay (exist) at home?",
+        "text": {
+          "spelling": "Ａ：{熱|ねつ}があるので、{風邪|かぜ}かもしれません。<br/>Ｂ：うちにいたらどうですか。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "61b2bbd4-efcf-45dd-9d99-29cb0ffe034b",
+        "meaning": "A: I want to work at a Japanese company.<br/>B: Why don't you send a resume to the company?",
+        "text": {
+          "spelling": "Ａ：{日本|に・ほん}の{会社|かい・しゃ}で{働|はたら}きたいんです。<br/>Ｂ：{会社|かい・しゃ}に{履歴書|り・れき・しょ}を{送|おく}ったらどうですか。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "9f3b9b47-984b-4426-a12a-5c287caee059",
+        "meaning": "A: I lost my wallet (what should I do)<br/>B: Why don't you go to the police?",
+        "text": {
+          "spelling": "Ａ：{財布|さい・ふ}をなくしたんです。<br/>Ｂ：{警察|けい・さつ}に{行|い}ったらどうですか。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "cb002d30-0bb9-4129-bcac-7ca47d0988eb",
+        "meaning": "A: What's wrong?<br/>B: Japanese class is too difficulty.<br/>A: Why don't you try consulting with the teacher?<br/>B: I will do that. Thank you.",
+        "text": {
+          "spelling": "Ａ：どうしたんですか。<br/>Ｂ：{日本語|に・ほん・ご}の{授業|じゅ・ぎょう}が{難|むずか}しすぎるんです。<br/>Ａ：{先生|せん・せい}に{相談|そう・だん}したらどうですか。<br/>Ｂ：そうします。ありがとうございます。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-06-22",
     "lesson_codes": ["GENKI3_L14"],
     "tags": []
   },
