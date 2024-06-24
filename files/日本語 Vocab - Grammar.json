@@ -3906,7 +3906,7 @@
         "id": "db7b9224-fd84-4ba4-8f6f-7a503f408821",
         "meaning": "Of the presents until now, what present was most expensive looking? Who gave it to you?<br/>B: A computer. Dad gave it to me.",
         "text": {
-          "spelling": "Ａ：{今|いま}までのプレゼントの{中|なか}で、{一番|いち・ばん}たかそうなプレゼントは{何|なん}ですか。{誰|だれ}がくれましたか。<br/>Ｂ：パソキンです。{父|ちち}がくれました。"
+          "spelling": "Ａ：{今|いま}までのプレゼントの{中|なか}で、{一番|いち・ばん}{高|たか}そうなプレゼントは{何|なん}ですか。{誰|だれ}がくれましたか。<br/>Ｂ：パソコンです。{父|ちち}がくれました。"
         },
         "lesson_codes": ["GENKI3_L14"],
         "tags": []
