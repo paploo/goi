@@ -1546,7 +1546,7 @@ to ask (a favor),頼む,たのむ,,頼む,VERB,GODAN_VERB,,5,{GENKI3_L18},,a18ca
 to tidy up,片付ける,かたづける,,片付ける,VERB,ICHIDAN_VERB,,4,{GENKI3_L18},,6af63133-e522-438d-beff-2804e658725c,1545,2024-06-02
 (something) goes off,消える,きえる,,消える,VERB,ICHIDAN_VERB,,5,{GENKI3_L18},,d1f88de1-7148-4371-8a28-b8bcf681081f,1546,2024-06-02
 (something) breaks,壊れる,こわれる,,壊れる,VERB,ICHIDAN_VERB,,4,{GENKI3_L18},,26ddef5f-1028-47f8-8429-f7f10a508cbb,1547,2024-06-02
-to become dirty,汚れる,よごれる,,汚れる,VERB,ICHIDAN_VERB,,4,{GENKI3_L18},,a90cde12-102d-4d10-817f-50478f18796e,1548,2024-06-02
+(something) becomes dirty,汚れる,よごれる,,汚れる,VERB,ICHIDAN_VERB,,4,{GENKI3_L18},,a90cde12-102d-4d10-817f-50478f18796e,1548,2024-06-02
 to place an order,注文する,ちゅうもんする,,注文する,VERB,SURU_VERB,,3,{GENKI3_L18},,102b0ca8-8db1-4fa1-bffd-8199fac99643,1549,2024-06-02
 right away; at once,今すぐ,いますぐ,,今すぐ,ADVERB,,,,{GENKI3_L18},,b7400629-52e8-46e2-bd6f-ce151406c65d,1550,2024-06-02
 by (time/date),までに,までに,,迄に,ADVERB,,,,{GENKI3_L18},,2acb9e8c-a57e-4ed6-b7f0-cf38a8c2ab36,1551,2024-06-02
@@ -1576,3 +1576,5 @@ until now; so far,今まで,いままで,,今まで,ADVERB,,,,{GENKI3_WORKBOOK_L
 from now,今から,いまから,,今から,ADVERB,,,,,,5c2a191f-dbae-42d7-9784-b253a3569023,1575,2024-07-01
 feels good,気持ちがいい,きもちがいい,,気持ちがいい,EXPRESSION,,,,{GENKI3_READER_L13},,d4d39dbb-118b-4c28-8e9d-1ecf3bba7094,1576,2024-07-01
 good looking,ようさそう,ようさそう,,良さそう,ADJECTIVE,NA_ADJECTIVE,,,,,d172cc9f-a703-4b16-b680-3613ef12dbd0,1577,2024-07-01
+to make a mistake,間違える,まちがえる,,間違える,VERB,ICHIDAN_VERB,TRANSITIVE,4,{GENKI3_READER_L13},,66cc7983-986c-4974-b0e4-a7abc7acda76,1578,2024-07-01
+why don't you... (conveys recommendation),〜たらどうですか,〜たらどうですか,,,EXPRESSION,,,,{GENKI3_L14},,9942821e-62fb-4968-81bb-cf98009fedbd,1579,2024-07-04
