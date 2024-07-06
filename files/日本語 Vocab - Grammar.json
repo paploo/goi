@@ -4036,6 +4036,148 @@
     "lesson_codes": ["GENKI3_L14"],
     "tags": []
   },
+  {
+    "id": "8a2afd45-2de3-4060-96f3-c7d55028a136",
+    "title": "ＮがＣ",
+    "meaning": "A count C, of noun N",
+    "how_to_use": [
+      "noun + が + number",
+      "noun + を + number"
+    ],
+    "examples": [
+      {
+        "id": "86decf1d-33f9-4095-b2ba-f0a08962021f",
+        "meaning": "THere are three cats in our house.",
+        "text": {
+          "spelling": "{私|わたし}のうちには{猫|ねこ}が{三匹|さん・びき}います。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "42b00b6e-0d06-40fe-8f8c-bdcfaf59c763",
+        "meaning": "We bought two umbrellas.",
+        "text": {
+          "spelling": "{傘|かさ}を{日本|に・ほん}{買|か}いました。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-07-05",
+    "lesson_codes": ["GENKI3_L14"],
+    "tags": []
+  },
+  {
+    "id": "324fc6fd-bac5-4bb7-9cf7-8719c2bd1baf",
+    "title": "Ｎも",
+    "meaning": "as many as N",
+    "how_to_use": [
+      "number + も"
+    ],
+    "examples": [
+      {
+        "id": "eddf8c11-3ba0-4f6e-b30d-0032c42f9452",
+        "meaning": "My mother owns as many as three cats.",
+        "text": {
+          "spelling": "{私|わたし}の{母|はは}は{猫|ねこ}を{三匹|さん・びき}も{飼|か}っています。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "e6dafe29-694a-47d8-93ab-e0e8debdb12e",
+        "meaning": "As many as twenty students showed up at the party yesterday.",
+        "text": {
+          "spelling": "{昨日|きのう}のパーティーには{学生|がく・せい}が{２０人|に・じゅう・にん}も{来|き}ました。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "aeda22b9-b913-4efa-add8-9ba54151728d",
+        "meaning": "Mary has three part-time jobs.",
+        "text": {
+          "spelling": "メアリーさんはアルバイトが{三|みっ}つもあります。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "b980a23b-a934-42fc-9f13-2f49b187bae0",
+        "meaning": "A: Yesterday, how many hours did you spend studying Japanese?<br/>B: (I spent) 5 hours doing it.",
+        "text": {
+          "spelling": "Ａ：{昨日|きのう}{何|なん}{時間|じ・かん}{日本語|に・ほん・ご}を{勉強|べん・きょう}しましたか。<br/>Ｂ：{５|ご}{時間|じ・かん}もしました。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-07-05",
+    "lesson_codes": ["GENKI3_L14"],
+    "tags": []
+  },
+  {
+    "id": "6d0ab9b7-815c-431e-b6f0-20b247fc3d09",
+    "title": "ＮしかＶない",
+    "meaning": "as few as N",
+    "how_to_use": [
+      "number + しか + verb (negative)"
+    ],
+    "examples": [
+      {
+        "id": "759d83a2-a548-488d-9bc6-5fb9acc57ca2",
+        "meaning": "I have only one Japanese book.",
+        "text": {
+          "spelling": "{私|わたし}は{日本語|に・ほん・ご}の{本|ほん}を{一冊|いっ・さつ}しか{持|も}っていません。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "40188a7e-fa5b-4c42-84cf-91e024d0f827",
+        "meaning": "There are only two computers in this company.",
+        "text": {
+          "spelling": "この{会社|かい・しゃ}にはパソコンが{二台|に・だい}しかありません。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "a9287de9-e417-4569-be9e-050ca6888bc7",
+        "meaning": "John slept as few as four hours yesterday.",
+        "text": {
+          "spelling": "ジョンさんは{昨日|きのう}{４時間|よん・じ・かん}しか{寝|ね}ませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "0ac6d6f7-51f6-4117-913c-6e374a800908",
+        "meaning": "Bocchi has only one friend.",
+        "text": {
+          "spelling": "ぼっちちゃんは{友達|ともだち}が{一人|ひとり}しかいません。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "5d8a7e17-8f72-4e4e-b1f4-d583d5687141",
+        "meaning": "A: This semester, how many times have you been late?<b>As few as once, I've been late.",
+        "text": {
+          "spelling": "Ａ：{今学期|こん・がっ・き}、{何回|なん・かい}{遅刻|ち・こく}しましたか。<br/>Ｂ：{１回|いっ・かい}しか{遅刻|ち・こく}しませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-07-05",
+    "lesson_codes": ["GENKI3_L14"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 15"},
   {"COMMENT": "GENKI LESSON 16"},
