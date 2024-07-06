@@ -17689,9 +17689,9 @@ insert into "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code"
 insert into "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") values ('77b39bf7-602f-5b27-bec4-27742ef98e0d', '49c7c950-e0df-434a-8b66-62b4b387f777', 'HIRAGANA', 'だれも');
 insert into "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") values ('10819666-d77f-5abe-8a6e-2090011e2c46', '49c7c950-e0df-434a-8b66-62b4b387f777', 'KANJI', '誰も');
 insert into "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id", "conjugation_set_id") values ('49c7c950-e0df-434a-8b66-62b4b387f777', 'ed24459a-d1af-5e66-b986-b7ebb7158bd9', '6d01b541-0894-5bbc-b68e-59c7e7890484', '77b39bf7-602f-5b27-bec4-27742ef98e0d', null, '10819666-d77f-5abe-8a6e-2090011e2c46', null);
--- どこか | somwhere --;
+-- どこか | somewhere --;
 insert into "vocabulary"."vocabulary" ("id", "word_class_code", "conjugation_kind_code", "jlpt_level", "row_num", "date_added", "tags") values ('94333ca4-32f1-4699-982a-17e04f728635', 'NOUN', null, 3, 1565, date '2024-07-01', cast('{}' as varchar[]));
-insert into "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") values ('1b396b9e-241c-56c9-b7d0-e2b0cba6797b', '94333ca4-32f1-4699-982a-17e04f728635', 1, 'somwhere');
+insert into "vocabulary"."definition" ("id", "vocabulary_id", "sort_rank", "value") values ('1b396b9e-241c-56c9-b7d0-e2b0cba6797b', '94333ca4-32f1-4699-982a-17e04f728635', 1, 'somewhere');
 insert into "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") values ('f609aa02-45fc-54f7-83fa-72adb62270e9', '94333ca4-32f1-4699-982a-17e04f728635', 'HIRAGANA', 'どこか');
 insert into "vocabulary"."spelling" ("id", "vocabulary_id", "spelling_kind_code", "value") values ('e827665e-0248-5738-8bcd-136121baf0aa', '94333ca4-32f1-4699-982a-17e04f728635', 'HIRAGANA', 'どこか');
 insert into "vocabulary"."linkages" ("vocabulary_id", "preferred_definition_id", "preferred_spelling_id", "phonetic_spelling_id", "alt_phonetic_spelling_id", "kanji_spelling_id", "conjugation_set_id") values ('94333ca4-32f1-4699-982a-17e04f728635', '1b396b9e-241c-56c9-b7d0-e2b0cba6797b', 'f609aa02-45fc-54f7-83fa-72adb62270e9', 'e827665e-0248-5738-8bcd-136121baf0aa', null, null, null);
