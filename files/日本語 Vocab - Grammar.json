@@ -3828,7 +3828,7 @@
         "id": "a161a3ae-1375-48a9-a24c-6533c48811c0",
         "meaning": "It might be a cat.<br/>It might've been a cat.",
         "text": {
-          "spelling": "{猫|ねこ}がもしれない。<br/>{猫|ねこ}だったかもしれない。"
+          "spelling": "{猫|ねこ}かもしれない。<br/>{猫|ねこ}だったかもしれない。"
         },
         "lesson_codes": ["TOFUGU_KAMOSHIRENAI"],
         "tags": []
@@ -4038,7 +4038,7 @@
   },
   {
     "id": "8a2afd45-2de3-4060-96f3-c7d55028a136",
-    "title": "ＮがＣ",
+    "title": "ＮがＣ<br/>ＮをＣ",
     "meaning": "A count C, of noun N",
     "how_to_use": [
       "noun + が + number",
@@ -4058,7 +4058,7 @@
         "id": "42b00b6e-0d06-40fe-8f8c-bdcfaf59c763",
         "meaning": "We bought two umbrellas.",
         "text": {
-          "spelling": "{傘|かさ}を{日本|に・ほん}{買|か}いました。"
+          "spelling": "{傘|かさ}を{二本|に・ほん}{買|か}いました。"
         },
         "lesson_codes": ["GENKI3_L14"],
         "tags": []
@@ -4175,6 +4175,111 @@
     ],
     "jlpt_level": null,
     "date_added": "2024-07-05",
+    "lesson_codes": ["GENKI3_L14"],
+    "tags": []
+  },
+  {
+    "id": "0e91e596-e242-4d77-a106-02f14ec60ca7",
+    "title": "①　〜できる",
+    "meaning": "can do / be good at / do well",
+    "how_to_use": [
+      "clause + できる"
+    ],
+    "examples": [
+      {
+        "id": "05719729-2110-42d7-99c6-e1d0d1ca2af7",
+        "meaning": "I am capable in Japanese.",
+        "text": {
+          "spelling": "{日本語|に・ほん・ご}ができます。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "5c0a1175-d16f-43df-98d0-e84ebbdf75cb",
+        "meaning": "He can't ski.",
+        "text": {
+          "spelling": "{彼|かれ}はスキーができません。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "b936ddaf-65ff-4b53-90c7-4ed6ae986b0c",
+        "meaning": "I didn't do well on the exam.",
+        "text": {
+          "spelling": "テストであまりできませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-07-17",
+    "lesson_codes": ["GENKI3_L14"],
+    "tags": []
+  },
+  {
+    "id": "9390bbf7-0b6c-4662-8aaf-f1a61557ee96",
+    "title": "②　〜できる",
+    "meaning": "be completed / be finished",
+    "how_to_use": [
+      "clause + できる"
+    ],
+    "examples": [
+      {
+        "id": "4c23dc8c-92c4-4640-8247-537ee1f210a2",
+        "meaning": "Dinner is ready.",
+        "text": {
+          "spelling": "{晩|ばん}ご{飯|はん}ができましたよ。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "45e0ab3b-ee48-4501-9c1e-23d4dd06c60d",
+        "meaning": "Is your homework done yet?",
+        "text": {
+          "spelling": "{宿題|しゅく・だい}はできましたか。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-07-17",
+    "lesson_codes": ["GENKI3_L14"],
+    "tags": []
+  },
+  {
+    "id": "62c89496-dbe6-425d-9b4d-c8d411085577",
+    "title": "③　〜できる",
+    "meaning": "appear / come into existence / be made",
+    "how_to_use": [
+      "clause + できる"
+    ],
+    "examples": [
+      {
+        "id": "b3c580c6-8b6f-43ce-acb6-66dc51f8a396",
+        "meaning": "A new store has opened.",
+        "text": {
+          "spelling": "{新|あたら}しい{店|みせ}ができました。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "2ef8af2d-90a0-4a9c-8a50-440b397b2d3d",
+        "meaning": "I have made many friends.",
+        "text": {
+          "spelling": "{友達|とも・だち}がたくさんできました。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-07-17",
     "lesson_codes": ["GENKI3_L14"],
     "tags": []
   },
