@@ -90,7 +90,7 @@ literature,文学,ぶんがく,,文学,NOUN,,,4,{GENKI3_L01},{school_major},f41b
 history,歴史,れきし,,歴史,NOUN,,,4,{GENKI3_L01},{school_major},0d91d253-e394-572c-a6c4-37e20ed0f603,89,2022-04-24
 physics,物理,ぶつり,,物理,NOUN,,,3,{GENKI3_L01},{school_major},a9d318d5-97e8-5990-916c-fd300d951e2c,90,2022-04-24
 doctor,医者,いしゃ,,医者,NOUN,,,5,"{GENKI3_L01,GENKI3_L10}",{occupation},45983eaf-745d-5a47-bd34-aa09444736a4,91,2022-04-24
-office worker,会社員,かいしゃいん,,会社員,NOUN,,,,"{GENKI3_L01, GENKI3_L08}",{occupation},b01b2de0-f80a-587a-99bb-8e7e2157feec,92,2022-04-24
+office worker,会社員,かいしゃいん,,会社員,NOUN,,,,"{GENKI3_L01,GENKI3_L08}",{occupation},b01b2de0-f80a-587a-99bb-8e7e2157feec,92,2022-04-24
 nurse,看護師,かんごし,,看護師,NOUN,,,4,"{GENKI3_L01,GENKI3_L11}",{occupation},a2bb0866-9ce3-5b9a-bc60-49b48a40e40f,93,2022-04-24
 high school student,高校生,こうこうせい,,高校生,NOUN,,,4,{GENKI3_L01},"{occupation,school}",c511ec54-4f00-5426-89ef-ee1558ccfb60,94,2022-04-24
 housewife,主婦,しゅふ,,主婦,NOUN,,,3,{GENKI3_L01},{occupation},7d3f6d4b-fd98-5a19-ba56-b7c707092305,95,2022-04-24
@@ -865,7 +865,7 @@ practice; training; drill,練習,れんしゅう,,練習,NOUN,,,5,,,a9c39bb4-3d9
 to practice,練習する,れんしゅうする,,練習する,VERB,SURU_VERB,,,{GENKI3_L10},,203a6c9a-842e-44b0-9537-07063601d6ef,864,2023-04-26
 best,一番,いちばん,,一番,ADVERB,,,5,{GENKI3_L10},,8804ca48-efe4-45f7-8be6-3fb660bbbec1,865,2023-04-29
 "which way, which one (of two alternatives) (casual)",どっち,どっち,,何方,PRONOUN,,,5,{GENKI3_L10},,804f67a3-7fd8-4877-ba0a-8103681e41d9,866,2023-04-29
-"which way, which one (of two alternatives) (formal)",どちら,どちら,,何方,PRONOUN,,,,{GENKI3_L10},,4d214d3e-3112-4281-bd01-e756b7ed432c,867,2023-04-29
+"which way, which one (of two alternatives) (formal)",どちら,どちら,,何方,PRONOUN,,,5,{GENKI3_L10},,4d214d3e-3112-4281-bd01-e756b7ed432c,867,2023-04-29
 early; soon,早く,はやく,,早く,ADVERB,,,,{GENKI3_L10},,31328661-0617-40c5-b98b-af7682e3570f,868,2023-04-29
 quickly; switfly; rapidly; fast,速く,はやく,,速く,ADVERB,,,,{GENKI3_L10},,0b901f00-f8cd-4000-9f7f-76944ace8b64,869,2023-04-29
 to come by walking,歩いてくる,あるいてくる,,歩いて来る,VERB,KURU_VERB,,,{GENKI3_L10},,378460aa-24ff-4394-916e-c8da937bba0a,870,2023-09-05
@@ -973,7 +973,7 @@ school term; semester,学期,がっき,,学期,NOUN,,,3,,,0be77f69-d50e-4fb2-954
 this semester,今学期,こんがっき,,今学期,NOUN,,,,{GENKI3_L11},,48be761c-f3e2-4fbb-a1f8-4e8ee77c540e,972,2023-07-02
 next semester,来学期,らいがっき,,来学期,NOUN,,,,{GENKI3_L11},,e7a79762-f1af-4f33-9107-83e5b5dcfae5,973,2023-07-02
 class (日本語),授業,じゅぎょう,,授業,NOUN,,,,{GENKI3_L11},,3e8327f4-15aa-4b3d-abf7-a829e3a65e14,974,2023-07-02
-this person (polite); this direction (close to speaker),こちら,こちら,,,NOUN,,,5,{GENKI3_L11},,af768c63-9bc3-4e89-923d-3dbc00220155,975,2023-07-02
+this person (polite); this direction (close to speaker),こちら,こちら,,,NOUN,,,5,"{GENKI3_L11,GENKI3_L19}",,af768c63-9bc3-4e89-923d-3dbc00220155,975,2023-07-02
 lie; fib,嘘,うそ,,嘘,NOUN,,,3,,,a42549ab-ad28-43d4-beea-9cd7caf76f12,976,2023-07-02
 to tell a lie,嘘をつく,うそをつく,,嘘をつく,VERB,GODAN_VERB,,,{GENKI3_L11},,6c6c2da8-3c03-409c-8494-4e08aa346954,977,2023-07-02
 to become hungry,お腹が空く,おなかがすく,,お腹が空く,VERB,GODAN_VERB,,,{GENKI3_L11},,592b876f-7c27-4c6f-a920-2167341a3b17,978,2023-07-02
@@ -1033,7 +1033,7 @@ tooth; teeth,歯,は,,歯,NOUN,,,5,"{GENKI3_L07,GENKI3_L12}",{body},8a4f2e48-5fe
 neck,首,くび,,首,NOUN,,,4,{GENKI3_L07},{body},3be29c6d-912f-48e9-b293-2c7a6eb898cb,1032,2023-07-03
 shoulder,肩,かた,,肩,NOUN,,,3,{GENKI3_L07},{body},8255a2b7-e385-4ec4-a4d7-35f38e2f0abc,1033,2023-07-03
 chest; breast,胸,むね,,胸,NOUN,,,3,{GENKI3_L07},{body},4c4c2094-26cd-4d7b-aa3e-fd878e8454dd,1034,2023-07-03
-"belly, abdomen; stomach",おなか,おなか,,お腹,NOUN,,,5,"{GENKI3_L07, GENKI3_L12}",{body},0ebf2f5c-501b-435a-9000-6fb879b2ea4a,1035,2023-07-03
+"belly, abdomen; stomach",おなか,おなか,,お腹,NOUN,,,5,"{GENKI3_L07,GENKI3_L12}",{body},0ebf2f5c-501b-435a-9000-6fb879b2ea4a,1035,2023-07-03
 bottom; buttocks,お尻,おしり,,お尻,NOUN,,,,{GENKI3_L07},{body},455ae01a-7072-4ced-b164-8b976350920d,1036,2023-07-03
 astronomical observatory,天文台,てんもんだい,,天文台,NOUN,,,,,,11716149-5f93-46fe-8159-642ec14db49b,1037,2023-07-26
 after school,放課後,ほうかご,,放課後,NOUN,,,,,,f514c41e-7583-4314-964b-85e98ef768a9,1038,2023-07-26
@@ -1366,7 +1366,7 @@ to go to bed,就寝する,しゅうしんする,,就寝する,VERB,SURU_VERB,,,,
 full moon (poetic),望月,もちずき,,望月,NOUN,,,,,,7ec45cda-2f2d-4007-8265-3e3d6dcd9543,1365,2024-02-25
 family's cat,うちの猫,うちのねこ,,家の猫,NOUN,,,,,,eb4845c7-a2ce-4340-a637-45e03a5aa250,1366,2024-02-25
 I'm hungry,お腹ペコペコ,おなかぺこぺこ,,お腹ペコペコ,EXPRESSION,,,,,{food},b90caea6-51e7-493f-9ee1-759aec2eb60d,1367,2024-02-25
-department head; club/team head,部長,ぶちょう,,部長,NOUN,,,4,,,36048fac-1e15-40a6-9be8-3459dd74f335,1368,2024-02-25
+department head; club/team head,部長,ぶちょう,,部長,NOUN,,,4,{GENKI3_L19},,36048fac-1e15-40a6-9be8-3459dd74f335,1368,2024-02-25
 celebration; congratulatory gift,お祝い,おいわい,,お祝い,NOUN,,,3,,,28890f13-7615-4f31-9dbd-4efe5d22cecd,1369,2024-02-25
 jealousy; roasted rice cake,やきもち,やきもち,,焼き餅,NOUN,,,,,{food},ef4cb54a-5055-4ee1-af31-52527e22f69b,1370,2024-02-25
 arrow,矢,や,,矢,NOUN,,,1,,,5e1edb0d-5997-46cd-b870-3d278bbf129c,1371,2024-02-25
@@ -1578,3 +1578,19 @@ feels good,気持ちがいい,きもちがいい,,気持ちがいい,EXPRESSION,
 good looking,ようさそう,ようさそう,,良さそう,ADJECTIVE,NA_ADJECTIVE,,,,,d172cc9f-a703-4b16-b680-3613ef12dbd0,1577,2024-07-01
 to make a mistake,間違える,まちがえる,,間違える,VERB,ICHIDAN_VERB,TRANSITIVE,4,{GENKI3_READER_L13},,66cc7983-986c-4974-b0e4-a7abc7acda76,1578,2024-07-01
 why don't you... (conveys recommendation),〜たらどうですか,〜たらどうですか,,,EXPRESSION,,,,{GENKI3_L14},,9942821e-62fb-4968-81bb-cf98009fedbd,1579,2024-07-04
+wife (polite),奥様,おくさま,,奥様,NOUN,,,,{GENKI3_READER_L19},,f29d0d55-2911-4d19-aa36-e4eb4c21ba82,1580,2024-07-28
+child (polite),お子さん,おこさん,,お子さん,NOUN,,,,{GENKI3_READER_L19},,7495d2bc-398a-48ba-9d03-968284aadca6,1581,2024-07-28
+junior high school student,中学生,ちゅうがくせい,,,NOUN,,,,{GENKI3_READER_L19},,494b8d12-1099-4d50-b414-36b48b08bd78,1582,2024-07-28
+business trip,出張,しゅっちょう,,出張,NOUN,,,2,{GENKI3_READER_L19},,07666f81-dfdd-4855-a95e-02bd30a4fc31,1583,2024-07-28
+honorific language,敬語,けいご,,敬語,NOUN,,,2,{GENKI3_READER_L19},,8085d062-3589-4ffe-aca7-94a98d3fddc2,1584,2024-07-28
+where (polite),どちら,どちら,,何方,PRONOUN,,,5,{GENKI3_READER_L19},,6c57c52b-8d02-4f84-a46f-0ea9782b5656,1585,2024-07-28
+expression of gratitude; thanks,お礼,おれい,,お礼,NOUN,,,5,{GENKI3_READER_L19},,3e1c4321-b8c9-4496-8daf-1483160e38af,1586,2024-07-28
+a kind; a sort; category,種類,しゅるい,,種類,NOUN,,,3,{GENKI3_READER_L19},,8c978803-1609-4e34-bbb2-5c74bcf67e58,1587,2024-07-28
+talk; story,話し,はなし,,話し,NOUN,,,5,{GENKI3_READER_L19},,42232e1a-eefe-4843-bb7b-21440adec44c,1588,2024-07-28
+"worry, sorrow, anguish",悩み,なやみ,,悩み,NOUN,,,1,{GENKI3_READER_L19},,782eeb93-8bab-4c74-9e75-2078127605f8,1589,2024-07-28
+mistake; accident,間違い,まちがい,,間違い,NOUN,,,1,{GENKI3_READER_L19},,4ae9fc59-2329-4d2b-804a-68b2cb36589a,1590,2024-07-28
+personality,性格,せいかく,,性格,NOUN,,,3,{GENKI3_READER_L19},,3e58619f-70ee-4611-a806-e8a2c3392dc8,1591,2024-07-28
+lazy person,怠け者,なまけもの,,怠け者,NOUN,,,,{GENKI3_READER_L19},,5549e770-3e6a-4533-9c79-77e04547d2ae,1592,2024-07-28
+shy person,恥ずかしがり屋,はずかしがりや,,恥ずかしがり屋,NOUN,,,,{GENKI3_READER_L19},,0ba3aae2-f31e-4406-a398-d41b1fa8a88c,1593,2024-07-28
+be on good/close terms; to get along well,仲がいい,なかがいい,,仲がいい,ADJECTIVE,I_ADJECTIVE,,,{GENKI3_READER_L19},,835b0621-23e6-4ad0-8cb1-b87c452f731a,1594,2024-07-28
+"serious, sober, diligent",真面目,まじめ,,真面目,ADJECTIVE,NA_ADJECTIVE,,3,{GENKI3_READER_L19},,9dd88f56-dc1f-4d31-a6b0-2a8b72833e57,1595,2024-07-28

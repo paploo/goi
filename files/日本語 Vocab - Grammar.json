@@ -4285,6 +4285,76 @@
   },
 
   {"COMMENT": "GENKI LESSON 15"},
+  {
+    "id": "c83bf5df-9dea-47e4-8411-31b44818ab42",
+    "title": "〜よう",
+    "meaning": "volitional: let's...<br/>(casual ましょう)",
+    "how_to_use": [
+      "ichidan verb (stem) + よう",
+      "godan verb: -u ⟶ -oo"
+    ],
+    "examples": [
+      {
+        "id": "ab8adb6a-9105-43cb-94d7-56c0017a4df8",
+        "meaning": "A: We won't have any classes tomorrow. Lets go somewhere this evening.<br/>B: Sounds good. Let's do so.",
+        "text": {
+          "spelling": "Ａ：{明日|あした}は{授業|じゅ・ぎょう}がないから、{今晩|こん・ばん}どこかにいこう。<br/>Ｂ：いいね。そうしよう。"
+        },
+        "lesson_codes": ["GENKI3_L15"],
+        "tags": []
+      },
+      {
+        "id": "700b4e7d-a3cc-4099-a0b5-1e2b7fc33192",
+        "meaning": "A: Shall I lend you a hand?<br/>B: No, I'm doing okay.",
+        "text": {
+          "spelling": "Ａ：{手伝|て・っだ}おうか。<br/>Ｂ：ううん。{大丈夫|だい・じょう・ぶ}。"
+        },
+        "lesson_codes": ["GENKI3_L15"],
+        "tags": []
+      },
+      {
+        "id": "23cf3136-e230-4f4f-a6fe-aed825dcc7d6",
+        "meaning": "A: When shall we meet again?<br/>B: How about Saturaday next week?",
+        "text": {
+          "spelling": "Ａ：{今度|こん・ど}、いつ{会|あ}おうか。<br/>B：{来週|らい・しゅう}の{土曜日|ど・よう・び}はどう？"
+        },
+        "lesson_codes": ["GENKI3_L15"],
+        "tags": []
+      },
+      {
+        "id": "46736c37-f75c-4a45-b976-6ee48fcc56bc",
+        "meaning": "A: Let's eat at a restaurant tonight.<br/>B: Sounds good. Let's amke a reservation, shall we?",
+        "text": {
+          "spelling": "Ａ：{今晩|こん・ばん}レストランで{食|た}べよう。<br/>Ｂ：いいね。{予約|よ・やく}しようか。<br/>Ａ：そうだね。"
+        },
+        "lesson_codes": ["GENKI3_L15"],
+        "tags": []
+      },
+      {
+        "id": "c08644d0-6696-4219-8c51-84852a77f545",
+        "meaning": "A: Let's invite Yui too.<br/>B: Sounds great.",
+        "text": {
+          "spelling": "Ａ：{唯|ゆい}さんも{誘|さそ}おう。<br/>Ｂ：いいよ。"
+        },
+        "lesson_codes": ["GENKI3_L15"],
+        "tags": []
+      },
+      {
+        "id": "719e66b8-b4a9-47cd-9dbf-886f6eac178c",
+        "meaning": "A: Shall shall we go [there]?<br/>B: Let's go [there] by train.",
+        "text": {
+          "spelling": "Ａ：どうやって{行|い}こうか。<br/>Ｂ：{電車|でんしゃ}で{行|い}こう。"
+        },
+        "lesson_codes": ["GENKI3_L15"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-07-29",
+    "lesson_codes": ["GENKI3_L15"],
+    "tags": []
+  },
+
   {"COMMENT": "GENKI LESSON 16"},
   {"COMMENT": "GENKI LESSON 17"},
   {"COMMENT": "GENKI LESSON 18"},
