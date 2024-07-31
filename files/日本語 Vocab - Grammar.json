@@ -4354,6 +4354,106 @@
     "lesson_codes": ["GENKI3_L15"],
     "tags": []
   },
+  {
+    "id": "255b5117-c1d3-4726-85cd-82f934e6d4e9",
+    "title": "ＶＬ + と思っています",
+    "meaning": "Talking about our resolutions; something we have already decided to do.",
+    "how_to_use": [
+      "verb (volitional) + と思っています"
+    ],
+    "examples": [
+      {
+        "id": "94e05d61-9926-4c81-b88f-2076d3fa5805",
+        "meaning": "I've decided to study Japanese for three hours every day.",
+        "text": {
+          "spelling": "{毎日|まい・にち}{三時間|さん・じ・かん}{日本語|に・ほん・ご}を{勉強|べん・きょう}しようと{思|おも}っています。"
+        },
+        "lesson_codes": ["GENKI3_L15"],
+        "tags": []
+      },
+      {
+        "id": "7706b218-5e2b-470e-915a-39ab0238dc92",
+        "meaning": "A:You got ¥100,000 from your parents? What are you using it for?<br/>B: I am going on a trip. (decision already made)",
+        "text": {
+          "spelling": "Ａ：{両親|りょう・しん}から{十万円|じゅう・まん・えん}もらったんですか。{何|なに}に{使|つか}うんですか。<br/>Ｂ：{旅行|りょ・こう}に{行|い}こうと{思|おも}っています。"
+        },
+        "lesson_codes": ["GENKI3_L15"],
+        "tags": []
+      },
+      {
+        "id": "564365a5-b46e-47f0-9da9-f07eecef7f91",
+        "meaning": "I might become sick in the future, so I've decided to pay taxes.",
+        "text": {
+          "spelling": "{将来|しょう・らい}{病気|びょう・き}になるかもしれないので、{保険|ほ・けん}に{入|はい}ろうと{思|おも}っています。"
+        },
+        "lesson_codes": ["GENKI3_L15"],
+        "tags": []
+      },
+      {
+        "id": "cec9d9c7-8ddc-41ad-a20a-f6e34fdf9d6c",
+        "meaning": "I don't have money, so I have decided to borrow money from my parents.",
+        "text": {
+          "spelling": "お{金|かね}がないので、{両親|りょう・しん}にお{金|かね}を{借|か}りようと{思|おも}っています。"
+        },
+        "lesson_codes": ["GENKI3_L15"],
+        "tags": []
+      },
+      {
+        "id": "b550884d-d18d-4df9-b9fe-7a3cbbd14d72",
+        "meaning": "A: What do you intend to do for the next holiday?<br/>B: My friends are coming, so with my friends, I've decided to go various places.",
+        "text": {
+          "spelling": "Ａ：{今度|こん・ど}の{休|やす}みに{何|なに}をしようと{思|おも}っていますか。<br/>Ｂ：{友達|とも・だち}が{来|く}るので、{友達|とも・だち}と{色々|いろ・いろ}な{所|ところ}に{行|い}こうと{思|おも}っています。"
+        },
+        "lesson_codes": ["GENKI3_L15"],
+        "tags": []
+      },
+      {
+        "id": "7c30bb92-dd8f-409a-b336-300a82428fe6",
+        "meaning": "I always eat too many sweets, so this year I've decided to eat more vegetables. And then, about 3 times a week, I've decided to exercise.",
+        "text": {
+          "spelling": "いつもお{菓子|か・し}を{食|た}べすぎろので、{今年|こ・とし}はもっと{野菜|や・さい}を{食|た}べようと{思|おも}っています。それから、{１週間|いっ・しゅう・かん}に{３回|さん・かい}ぐらい{運動|うん・どう}しようと{思|おも}っています。"
+        },
+        "lesson_codes": ["GENKI3_L15"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-07-30",
+    "lesson_codes": ["GENKI3_L15"],
+    "tags": []
+  },
+  {
+    "id": "97234b9f-a79b-4214-a9f4-4ebe57e019b9",
+    "title": "ＶＬ + と思います",
+    "meaning": "to suggest a decision is being made on the spot",
+    "how_to_use": [
+      "verb (volitional) + と思います"
+    ],
+    "examples": [
+      {
+        "id": "ac79566b-d425-49bd-bd44-0b450ee2806b",
+        "meaning": "I will give you 100,000 yen. What will you use it for?<br/>I will go on a trip. (decision made on the spot)",
+        "text": {
+          "spelling": "Ａ：{十万円|じゅう・まん・えん}あげましょう。{何|なに}に{使|つか}いますか。<br/>Ｂ：{旅行|りょ・こう}に{行|い}こうと{思|おも}います。"
+        },
+        "lesson_codes": ["GENKI3_L15"],
+        "tags": []
+      },
+      {
+        "id": "36629d58-559f-4302-96ce-f80a1a6889e5",
+        "meaning": "I will/intend to work for a Japanese company.",
+        "text": {
+          "spelling": "{日本|に・ほん}の{会社|かい・しゃ}で{働|はたら}こうと{思|おも}います。"
+        },
+        "lesson_codes": ["GENKI3_L15"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-07-30",
+    "lesson_codes": ["GENKI3_L15"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 16"},
   {"COMMENT": "GENKI LESSON 17"},
