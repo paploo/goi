@@ -4165,7 +4165,7 @@
       },
       {
         "id": "5d8a7e17-8f72-4e4e-b1f4-d583d5687141",
-        "meaning": "A: This semester, how many times have you been late?<b>As few as once, I've been late.",
+        "meaning": "A: This semester, how many times have you been late?<br/>B: As few as once, I've been late.",
         "text": {
           "spelling": "Ａ：{今学期|こん・がっ・き}、{何回|なん・かい}{遅刻|ち・こく}しましたか。<br/>Ｂ：{１回|いっ・かい}しか{遅刻|ち・こく}しませんでした。"
         },
@@ -4451,6 +4451,76 @@
     ],
     "jlpt_level": null,
     "date_added": "2024-07-30",
+    "lesson_codes": ["GENKI3_L15"],
+    "tags": []
+  },
+  {
+    "id": "ef2282a7-7e4d-421a-92eb-8c1f82b5ec0b",
+    "title": "〜ておく",
+    "meaning": "in preparation for...",
+    "how_to_use": [
+      "verb (て form) + おく",
+      "verb (て form without て) + とく",
+      "verb (て form) + 置く"
+    ],
+    "examples": [
+      {
+        "id": "76895aef-2a73-4303-9c8f-ca04ba4b2255",
+        "meaning": "Since there will be an exam tomorrow, I will study for it tonight.",
+        "text": {
+          "spelling": "{明日|あした}{試験|し・けん}があるので、{今晩|こん・ばん}{勉強|べん・きょう}しておきます。"
+        },
+        "lesson_codes": ["GENKI3_L15"],
+        "tags": []
+      },
+      {
+        "id": "401939e5-f57a-43fd-8d0e-a694ae4930eb",
+        "meaning": "Because my friends are coming, I have to clean the room.",
+        "text": {
+          "spelling": "{友達|とも・だち}が{来|く}るから、{部屋|へ・や}を{掃除|そう・じ}しておかなきゃいけません。"
+        },
+        "lesson_codes": ["GENKI3_L15"],
+        "tags": []
+      },
+      {
+        "id": "2afd4c42-d93b-44a8-8847-9199b26dc42a",
+        "meaning": "I will make a hotel resvervation in advance.",
+        "text": {
+          "spelling": "ホテルを{予約|よ・やく}しとくね。"
+        },
+        "lesson_codes": ["GENKI3_L15"],
+        "tags": []
+      },
+      {
+        "id": "4f3938a8-6093-48d0-8443-006f39f7062d",
+        "meaning": "Because I'm going to Tokyo by train, I will check the time of the train.",
+        "text": {
+          "spelling": "{電車|でん・しゃ}で{東京|とう・きょう}に{行|い}くので、{電車|でん・しゃ}の{時間|じ・かん}を{調|しら}べておきます。"
+        },
+        "lesson_codes": ["GENKI3_L15"],
+        "tags": []
+      },
+      {
+        "id": "bfca4b71-f808-44a8-81fc-59282625a4a0",
+        "meaning": "A: Next time's vacation you will climb Mt. Fuji. What must you do to prepare?<br/>B: I must buy warm clothes in preparation.",
+        "text": {
+          "spelling": "Ａ：{今度|こん・ど}の{休|やす}みに{富士山|ふ・じ・さん}に{登|のぼ}ります。{何|なに}をしておかなければいけませんか。<br/>Ｂ：{暖|あたた}かい{服|ふく}を{買|か}っておかなければいけません。"
+        },
+        "lesson_codes": ["GENKI3_L15"],
+        "tags": []
+      },
+      {
+        "id": "802befcf-55c8-4fff-8103-f05c93d1003c",
+        "meaning": "Soon you will be going on a trip to a foreign country. What must you do to prepare?",
+        "text": {
+          "spelling": "もうすぐ{海外|かい・がい}{旅行|りょ・こう}に{行|い}きます。{何|なに}をしておかなければいけませんか。"
+        },
+        "lesson_codes": ["GENKI3_L15"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-07-31",
     "lesson_codes": ["GENKI3_L15"],
     "tags": []
   },
