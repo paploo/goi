@@ -358,8 +358,8 @@ Tuesday,火曜日,かようび,,火曜日,NOUN,,,5,{GENKI3_L04},{time},a7f63c04-
 Wednesday,水曜日,すいようび,,水曜日,NOUN,,,5,{GENKI3_L04},{time},b7290a17-b80a-4663-84b4-fb97c53ac10e,357,2022-08-10
 Thursday,木曜日,もくようび,,木曜日,NOUN,,,5,{GENKI3_L04},{time},29385baf-a573-49a4-b4b5-0119dae49df3,358,2022-08-10
 Friday,金曜日,きんようび,,金曜日,NOUN,,,5,{GENKI3_L04},{time},1ecc5944-6007-4a9f-8153-41e50842b67a,359,2022-08-10
-there exists... (animate),いる,いる,,,VERB,ICHIDAN_VERB,,5,{GENKI3_L04},{to_be_verb},8728a06a-1e5b-436b-939a-b1d96a7d9f79,360,2022-08-10
-there is... (inanimate),ある,ある,,,VERB,ARU_VERB,,5,{GENKI3_L04},{to_be_verb},a4025eed-7054-4b18-b8ce-c90bc7ed6b00,361,2022-08-10
+there exists... (animate),いる,いる,,居る,VERB,ICHIDAN_VERB,,5,{GENKI3_L04},{to_be_verb},8728a06a-1e5b-436b-939a-b1d96a7d9f79,360,2022-08-10
+there is... (inanimate),ある,ある,,有る,VERB,ARU_VERB,,5,{GENKI3_L04},{to_be_verb},a4025eed-7054-4b18-b8ce-c90bc7ed6b00,361,2022-08-10
 to meet; to see a person,会う,あう,,会う,VERB,GODAN_VERB,,5,{GENKI3_L04},,a7c68ed2-5f08-4411-9030-42347f7d571f,362,2022-08-10
 to buy; to purchase,買う,かう,,買う,VERB,GODAN_VERB,,5,{GENKI3_L04},,1e617d48-2df2-4c74-b732-89783d176db9,363,2022-08-10
 to write,書く,かく,,書く,VERB,GODAN_VERB,,5,{GENKI3_L04},,1629794a-84d2-44f3-b05b-89bcb817152a,364,2022-08-10
@@ -858,7 +858,7 @@ sleepy,眠い,ねむい,,眠い,ADJECTIVE,I_ADJECTIVE,,4,{GENKI3_L10},,f42f94a4-
 easy; simple,簡単,かんたん,,簡単,ADJECTIVE,NA_ADJECTIVE,,,{GENKI3_L10},,81e11edb-19be-4773-8a8f-39db8b1d2671,857,2023-04-24
 to take (amount of time/money),かかる,かかる,,掛かる,VERB,GODAN_VERB,,5,{GENKI3_L10},,65dbd026-a83b-4189-afcf-a0497a15ede9,858,2023-04-26
 "to stay (at a hotel, etc)",泊まる,とまる,,泊まる,VERB,GODAN_VERB,,4,{GENKI3_L10},,0d56f3f4-4e79-45ed-944d-c095551fd422,859,2023-04-26
-"to decide, to choose",決める,きめる,,決める,VERB,ICHIDAN_VERB,,4,{GENKI3_L10},,4e47dcc0-5e58-4e59-87ed-3b2e6a445c7d,860,2023-04-26
+"to decide (something), to choose (something)",決める,きめる,,決める,VERB,ICHIDAN_VERB,,4,{GENKI3_L10},,4e47dcc0-5e58-4e59-87ed-3b2e6a445c7d,860,2023-04-26
 to chill out; to stay home and do nothing,ゴロゴロする,ごろごろする,,,VERB,SURU_VERB,,,{GENKI3_L10},,24b50bc6-55c9-42c4-86bb-34d2353d4ee3,861,2023-04-26
 to travel,旅行する,りょこうする,,旅行する,VERB,SURU_VERB,,,{GENKI3_L10},,55fbdf7e-551e-4455-a7ed-d67c29b04894,862,2023-04-26
 practice; training; drill,練習,れんしゅう,,練習,NOUN,,,5,,,a9c39bb4-3d9b-40d1-964f-f80abb1f0f51,863,2023-04-26
@@ -1260,7 +1260,7 @@ Valentine's Day,バレンタインデー,ばれんたいんでえ,,,NOUN,,,,{GEN
 White Day (reciprocal Valentine's),ホワイトデー,ほわいとでえ,,,NOUN,,,,{GENKI3_L14},,09bdbdf4-da91-4d41-8fab-687c041ab595,1259,2023-11-19
 fashionable; stylish,おしゃれ,おしゃれ,,お洒落,ADJECTIVE,NA_ADJECTIVE,,2,{GENKI3_L14},,ee4fc0a5-ff05-4161-9de9-ef3b5bab0852,1260,2023-11-20
 stingy; cheap,ケチ,けち,,,ADJECTIVE,NA_ADJECTIVE,,3,{GENKI3_L14},,2060f877-8267-4619-9a0e-a96f56fbaa4a,1261,2023-11-21
-to send a thing; to escort a person,送る,おくる,,送る,VERB,GODAN_VERB,,4,{GENKI3_L14},,83863f03-00f0-4942-8622-65e0b62cbba6,1262,2023-11-22
+to send a thing; to escort a person,送る,おくる,,送る,VERB,GODAN_VERB,,4,"{GENKI3_L14,GENKI3_L19}",,83863f03-00f0-4942-8622-65e0b62cbba6,1262,2023-11-22
 "to look good (on somebody); to suit, to match",似合う,にあう,,似合う,VERB,GODAN_VERB,,3,{GENKI3_L14},,f34ab9c9-5bd6-4597-87e9-64ef893505c8,1263,2023-11-23
 to give up,諦める,あきらめる,,諦める,VERB,ICHIDAN_VERB,,3,{GENKI3_L14},,2f896f1a-2f09-4498-918a-7b571527fe24,1264,2023-11-24
 to give (to others),あげる,あげる,,上げる,VERB,ICHIDAN_VERB,,5,{GENKI3_L14},,a509882c-c0bf-4bfc-ad07-36e6decab348,1265,2023-11-25
@@ -1530,8 +1530,8 @@ dark; gloomy,暗い,くらい,,暗い,ADJECTIVE,I_ADJECTIVE,,5,{GENKI3_L18},,252
 precious; important,大切,たいせつ,,大切,ADJECTIVE,NA_ADJECTIVE,,5,{GENKI3_L18},,14946d76-b78d-4e25-bba7-e094dd0c5e63,1529,2024-06-02
 anxious; worried,不安,ふあん,,不安,ADJECTIVE,NA_ADJECTIVE,,3,{GENKI3_L18},,3b16f6e7-cde7-44a0-9061-c00363fc25a7,1530,2024-06-02
 impossible; unreasonable,無理,むり,,無理,ADJECTIVE,NA_ADJECTIVE,,4,{GENKI3_L18},,6f2a9f53-70ee-4746-8bdf-64efce546a7b,1531,2024-06-02
-to be opened; to open; to unseal,開く,あく,,開く,VERB,GODAN_VERB,,4,{GENKI3_L18},,7f12e716-4b66-4e9f-a0b1-955a2edb77d4,1532,2024-06-02
-to be shut; to be closed,閉まる,しまる,,閉まる,VERB,GODAN_VERB,,5,{GENKI3_L18},,7fe02ca6-be26-4c81-97ba-8e39d714f1dc,1533,2024-06-02
+(something) opens,開く,あく,,開く,VERB,GODAN_VERB,,4,{GENKI3_L18},,7f12e716-4b66-4e9f-a0b1-955a2edb77d4,1532,2024-06-02
+(something) shuts or closes,閉まる,しまる,,閉まる,VERB,GODAN_VERB,,5,{GENKI3_L18},,7fe02ca6-be26-4c81-97ba-8e39d714f1dc,1533,2024-06-02
 to apologize,謝る,あやまる,,謝る,VERB,GODAN_VERB,,4,{GENKI3_L18},,bb7afc3c-1ffd-427d-a176-b831f9762cf1,1534,2024-06-02
 to press; to push,押す,おす,,押す,VERB,GODAN_VERB,,5,{GENKI3_L18},,7d3dd895-8263-43fa-bba1-7460a23b5d4d,1535,2024-06-02
 to drop (something),落とす,おとす,,落とす,VERB,GODAN_VERB,,4,{GENKI3_L18},,8779aecc-90a8-4d47-a478-d461e1640912,1536,2024-06-02
@@ -1598,3 +1598,15 @@ lazy person,怠け者,なまけもの,,怠け者,NOUN,,,,{GENKI3_READER_L19},,55
 shy person,恥ずかしがり屋,はずかしがりや,,恥ずかしがり屋,NOUN,,,,{GENKI3_READER_L19},,0ba3aae2-f31e-4406-a398-d41b1fa8a88c,1597,2024-07-28
 be on good/close terms; to get along well,仲がいい,なかがいい,,仲がいい,ADJECTIVE,I_ADJECTIVE,,,{GENKI3_READER_L19},,835b0621-23e6-4ad0-8cb1-b87c452f731a,1598,2024-07-28
 "serious, sober, diligent",真面目,まじめ,,真面目,ADJECTIVE,NA_ADJECTIVE,,3,{GENKI3_READER_L19},,9dd88f56-dc1f-4d31-a6b0-2a8b72833e57,1599,2024-07-28
+行く・来る・いる （敬語）,いらっしゃる,いらっしゃる,,,VERB,GODAN_VERB,,4,{GENKI3_READER_L19},,c865476f-76d3-4ae0-b1b6-d68bd70ddb8e,1600,2024-08-05
+食べる・飲む（敬語）,召し上がる,めしあがる,,召し上がる,VERB,GODAN_VERB,,4,{GENKI3_READER_L19},,e7fd9e79-6a60-4402-b756-5b2f2fc5bd16,1601,2024-08-05
+呉れる（敬語）,下さる,くださる,,下さる,VERB,GODAN_VERB,,3,{GENKI3_READER_L19},,ae803f19-cac8-4853-b281-6e01db882644,1602,2024-08-05
+する（敬語）,なさる,なさる,,為さる,VERB,GODAN_VERB,,4,{GENKI3_READER_L19},,059066ab-6a12-45fb-8ee7-752c1eaa26db,1603,2024-08-05
+寝る（敬語）,お休みになる,おやすみになる,,お休みになる,VERB,GODAN_VERB,,,{GENKI3_READER_L19},,cf7fc5d3-f79b-497d-a7d0-a5c33e5f7a91,1604,2024-08-05
+言う（敬語）,おっしゃる,おっしゃる,,仰る,VERB,GODAN_VERB,,4,{GENKI3_READER_L19},,28c97dc8-1a2d-4f38-8e18-658b9fa2f2b1,1605,2024-08-05
+〜ている（敬語）,〜ていらっしゃる,〜ていらっしゃる,,,VERB,GODAN_VERB,,,{GENKI3_READER_L19},,d87411c1-69b7-4606-b2e4-43f0a6d3b0c2,1606,2024-08-05
+to get angry,怒る,おこる,,怒る,VERB,GODAN_VERB,,4,{GENKI3_READER_L19},,f084400f-900f-4d79-9703-240785d3e0f4,1607,2024-08-05
+(something) is decided; to be decided,決まる,きまる,,決まる,VERB,GODAN_VERB,,4,{GENKI3_READER_L19},,85a239f8-cec1-4f72-b7f4-2a89b0f88510,1608,2024-08-05
+to call (one's name); to summon (a doctor); to invite,呼ぶ,よぶ,,呼ぶ,VERB,GODAN_VERB,,5,{GENKI3_READER_L19},,59b4ef6b-9e08-4896-9012-b28d479a6f32,1609,2024-08-05
+to move (to another place to live),引っ越す,ひっこす,,引っ越す,VERB,GODAN_VERB,,4,{GENKI3_READER_L19},,2539e840-e8a3-4b8a-988e-25bcda2ff8c4,1610,2024-08-05
+to stop by,寄る,よる,,寄る,VERB,GODAN_VERB,,4,{GENKI3_READER_L19},,f7bbf7b2-d3ff-45bf-94c0-5eef8d169f8e,1611,2024-08-05

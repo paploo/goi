@@ -3973,6 +3973,7 @@
     "meaning": "why don't you...<br/>(to convey advice or recommendation)",
     "how_to_use": [
       "verb (short, past) + らどうですか",
+      "verb (short, past) + らどう",
       "May sound disapproving/criticising in tone if unsolicited"
     ],
     "examples": [
@@ -3989,7 +3990,7 @@
         "id": "43716a07-94a8-4854-baa7-55aaf9c028b5",
         "meaning": "Why don't you study harder?",
         "text": {
-          "spelling": "もっと{勉強|べん・きょう}したらどう。"
+          "spelling": "もっと{勉強|べん・きょう}したらどう？"
         },
         "lesson_codes": ["GENKI3_L14"],
         "tags": []
