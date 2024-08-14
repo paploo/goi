@@ -4525,6 +4525,75 @@
     "lesson_codes": ["GENKI3_L15"],
     "tags": []
   },
+  {
+    "id": "746f1712-ac8e-4f9e-aae5-30fc75b10412",
+    "title": "ＳＮ",
+    "meaning": "Using a sentence to qualify a noun",
+    "how_to_use": [
+      "qualifier sentence (short verb) + noun",
+      "When subject is in qualifier, use が instead of は"
+    ],
+    "examples": [
+      {
+        "id": "6b92d7f4-c423-4d56-a611-e254eff70f91",
+        "meaning": "This is a book that my girlfriend gave me on my birthday last year.",
+        "text": {
+          "spelling": "これは<u>{去年|きょ・ねん}の{誕生日|たん・じょう・び}に{彼女|かの・じょ}がくれた</u>{本|ほん}です。"
+        },
+        "lesson_codes": ["GENKI3_L15"],
+        "tags": []
+      },
+      {
+        "id": "f7bbf714-22eb-4875-82d3-8293d75a8f45",
+        "meaning": "My father gave me a book that Haruki Murakami wrote.",
+        "text": {
+          "spelling": "{父|ちち}が<u>{村上|むら・かみ}{春樹|はる・き}が{書|か}いた</u>{本|ほん}をくれました。"
+        },
+        "lesson_codes": ["GENKI3_L15"],
+        "tags": []
+      },
+      {
+        "id": "01ec31c1-b127-40ab-aff5-7a6cabcc5bf0",
+        "meaning": "私が一番感動した映画は「君の名は」です。",
+        "text": {
+          "spelling": "<u>{私|わたし}が{一番|いち・ばん}{感動|かん・どう}した</u>{映画|えい・が}は「{君|きみ}の{名|な}は」です。"
+        },
+        "lesson_codes": ["GENKI3_L15"],
+        "tags": []
+      },
+      {
+        "id": "be0c8ca6-c804-4dd5-afc6-6e3dbcd97ac5",
+        "meaning": "A: What kind of friend do you want?<br>B: A friend who doesn't lie.",
+        "text": {
+          "spelling": "Ａ：どんな{友達|とも・だち}が{欲|ほしい}しいてすか。<br/>Ｂ：<u>{嘘|うそ}をつかない</u>{友達|とも・だち}が{欲|ほしい}しいです。"
+        },
+        "lesson_codes": ["GENKI3_L15"],
+        "tags": []
+      },
+      {
+        "id": "eedf8a60-4690-4709-a28a-4ba22762b0d9",
+        "meaning": "This is the mountain that I climbed last year.",
+        "text": {
+          "spelling": "これは<u>{私|わたし}が{去年|きょ・ねん}{登|のぼ}った</u>{山|やま}です。"
+        },
+        "lesson_codes": ["GENKI3_L15"],
+        "tags": []
+      },
+      {
+        "id": "f6df5eaf-8ff7-4346-b44a-709085cb9b98",
+        "meaning": "A: You are going to Tokyo. WHere would you like to visit? Why?<br/>B: I want to visit Shibuya; because I want to a picture with Hachiko.",
+        "text": {
+          "spelling": "Ａ：{東京|とう・きょう}に{行|い}きます。{観光|かんこう}したい{所|ところ}はどこですか。どうしてですか。<br/>Ｂ：{観光|かんこう}したい{所|ところ}は、{渋谷|しぶ・や}です。ハチ{公|こう}と{一緒|いっ・しょ}に{写真|しゃ・しん}を{撮|と}りたいからです。"
+        },
+        "lesson_codes": ["GENKI3_L15"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-08-13",
+    "lesson_codes": ["GENKI3_L15"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 16"},
   {"COMMENT": "GENKI LESSON 17"},

@@ -1,7 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Pipeline (Vocabulary)" type="JetRunConfigurationType">
     <option name="MAIN_CLASS_NAME" value="MainKt" />
-    <module name="net.paploo.goi.main" />
+    <module name="goi.main" />
     <option name="PROGRAM_PARAMETERS" value="pipeline vocabulary" />
     <shortenClasspath name="NONE" />
     <method v="2">
