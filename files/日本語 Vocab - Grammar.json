@@ -4594,6 +4594,48 @@
     "lesson_codes": ["GENKI3_L15"],
     "tags": []
   },
+  {
+    "id": "c115b537-b11e-447b-b9e4-f4d55a78acf8",
+    "title": "〜予定です",
+    "meaning": "is scheduled to take place",
+    "how_to_use": [
+      "verb (short present) + 予定です",
+      "verb (short negative) + 予定です"
+    ],
+    "examples": [
+      {
+        "id": "7b9a61a3-06e4-4902-a07a-7bafc67744cb",
+        "meaning": "I am scheduled to go to Korea this coming weekend.",
+        "text": {
+          "spelling": "{私|わたし}は{今度|こん・ど}の{週末|しゅう.まつ}に{韓国|かん.こく}に{行|い}く{予定|よ.てい}です。"
+        },
+        "lesson_codes": ["GENKI3_L15"],
+        "tags": []
+      },
+      {
+        "id": "4e4b510d-e261-4231-9038-23e3f73ec073",
+        "meaning": "My big brother is scheduled to get married this September.",
+        "text": {
+          "spelling": "{兄|あに}は{九月|く・がつ}に{結婚|けっ・こん}する{予定|よ.てい}です。"
+        },
+        "lesson_codes": ["GENKI3_L15"],
+        "tags": []
+      },
+      {
+        "id": "23770413-3b86-4f13-aa9b-481b381c5be7",
+        "meaning": "I am not planning to come to school tomorrow.",
+        "text": {
+          "spelling": "あたしは{学校|がっこう}に{来|こ}ない{予定|よ.てい}です。"
+        },
+        "lesson_codes": ["GENKI3_L15"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-08-14",
+    "lesson_codes": ["GENKI3_L15"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 16"},
   {"COMMENT": "GENKI LESSON 17"},
