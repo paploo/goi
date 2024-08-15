@@ -204,7 +204,7 @@ today,今日,きょう,,今日,NOUN,,,5,{GENKI3_L03},{time},a4dbf3ac-a372-58a7-b
 morning,朝,あさ,,朝,NOUN,,,5,{GENKI3_L03},{time},b415c8ff-d8fb-5e40-9a89-ed5fa1997831,203,2022-07-24
 this evening; tonight,今晩,こんばん,,今晩,NOUN,,,5,{GENKI3_L03},{time},e872c853-3159-56b7-834e-066e364a5782,204,2022-07-24
 every day,毎日,まいにち,,毎日,NOUN,,,5,{GENKI3_L03},{time},7ec8469c-ee0f-5a33-9f9f-e025e6cffdd0,205,2022-07-24
-every morning,毎朝,まいあさ,,毎朝,NOUN,,,5,"{DUO_02_03,DUO_U07}",{time},1efcd811-18f8-5b64-be29-9f46fbef3286,206,2022-07-24
+every morning,毎朝,まいあさ,,毎朝,NOUN,,,5,"{DUO_02_03,DUO_U07,GENKI3_L19}",{time},1efcd811-18f8-5b64-be29-9f46fbef3286,206,2022-07-24
 every night,毎晩,まいばん,,毎晩,NOUN,,,5,{GENKI3_L03},{time},9e1ccd85-e76b-559b-9c13-ac2202a04849,207,2022-07-24
 weekend,週末,しゅうまつ,,週末,NOUN,,,,{GENKI3_L03},{time},788e64aa-46ee-574d-aad9-83c8b56bc40a,208,2022-07-24
 Saturday,土曜日,どようび,,土曜日,NOUN,,,5,{GENKI3_L03},{time},f7d20fe3-57b3-5e6d-85f6-5b54b0ba7088,209,2022-07-24
@@ -1578,7 +1578,7 @@ feels good,気持ちがいい,きもちがいい,,気持ちがいい,EXPRESSION,
 good looking,ようさそう,ようさそう,,良さそう,ADJECTIVE,NA_ADJECTIVE,,,,,d172cc9f-a703-4b16-b680-3613ef12dbd0,1577,2024-07-01
 to make a mistake,間違える,まちがえる,,間違える,VERB,ICHIDAN_VERB,TRANSITIVE,4,{GENKI3_READER_L13},,66cc7983-986c-4974-b0e4-a7abc7acda76,1578,2024-07-01
 why don't you... (conveys recommendation),〜たらどうですか,〜たらどうですか,,,EXPRESSION,,,,{GENKI3_L14},,9942821e-62fb-4968-81bb-cf98009fedbd,1579,2024-07-04
-welcome (informal),ようこそ,ようこそ,,,EXPRESSION,,,,,,dbf03566-67c9-436c-9a3f-9f2818c3062c,1580,2024-07-31
+welcome (informal),ようこそ,ようこそ,,,EXPRESSION,,,,{GENKI3_READER_L19},,dbf03566-67c9-436c-9a3f-9f2818c3062c,1580,2024-07-31
 to put down; to set down; to place; to put,おく,おく,,置く,VERB,GODAN_VERB,,5,,,37fb1652-33a1-4c68-b948-50c9bbe1d253,1581,2024-07-31
 to do something in advance,〜おく,〜おく,,〜置く,VERB,GODAN_VERB,,5,{GENKI3_L15},{auxiliary},7db0cf68-70b1-4fa4-908b-d2983037ace8,1582,2024-07-31
 "foreign, abroad, overseas",海外,かいがい,,海外,NOUN,,,3,{GENKI3_L15},,581c9e4c-b0f7-48f4-9ffd-241f495306f2,1583,2024-07-31
@@ -1618,3 +1618,11 @@ to treat/invite (someone) to a meal,ごちそうする,ごちそうする,,ご�
 to hold back for the time being; to refrain from,遠慮する,えんりょする,,遠慮する,VERB,SURU_VERB,,4,{GENKI3_READER_L19},,3683a261-4cf1-468d-afdb-f0abe8b49a5b,1617,2024-08-12
 to invite someone (to an event/place),招待する,しょうたいする,,招待する,VERB,SURU_VERB,,3,{GENKI3_READER_L19},,5f342a2c-2ca5-4e1e-b116-a6fb740fc784,1618,2024-08-12
 to have a talk,話をする,はなしをする,,話をする,VERB,SURU_VERB,,,{GENKI3_READER_L19},,b83f1ce9-5b68-4726-a551-7442f5506aa0,1619,2024-08-12
+the day before yesterday,一昨日,おととい,,一昨日,NOUN,,,5,{GENKI3_READER_L19},,2ee83af9-c65c-4a7c-a14a-23df4e959e9a,1620,2024-08-14
+then; therefore,それで,それで,,,CONJUNCTION,,,4,{GENKI3_READER_L19},,ef0f200d-2161-4645-af33-16eb6d935505,1621,2024-08-14
+why (formal/poetic どうして),なぜ,なぜ,,,ADVERB,,,5,{GENKI3_READER_L19},,ae6fba59-1e97-493a-9837-6e2a018b501a,1622,2024-08-14
+in fact; originally,本当は,ほんとうは,,本当は,EXPRESSION,,,,{GENKI3_READER_L19},,78a20618-e7df-4fa2-b21f-e52172d635c5,1623,2024-08-14
+still,まだ,まだ,,,ADVERB,,,5,{GENKI3_READER_L19},,5d14cc6a-d248-4d9c-b4dd-2547ebd67573,1624,2024-08-14
+a few seconds; a small quantity,少々,しょうしょう,,少々,ADVERB,,,3,{GENKI3_READER_L19},,e0109bd3-df5c-47e3-9fc4-1d219a855e66,1625,2024-08-14
+counter for people reserving seats,〜名様,〜めいさま,,〜名様,COUNTER,,,,{GENKI3_READER_L19},,5d6462e8-3e7a-4104-b351-776017b9c78d,1626,2024-08-14
+please give my regards to...,よろしくお伝えください,よろしくおつたえください,,よろしくお伝えください,EXPRESSION,,,,{GENKI3_READER_L19},,d0065c83-e20b-4acb-be9f-7c9d53c9d094,1627,2024-08-14
