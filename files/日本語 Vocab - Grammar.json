@@ -319,7 +319,7 @@
       "noun + は + noun + の + 中 + です",
       "noun + は + noun + の + 上 + です",
       "noun + は + noun + の + 下 + です",
-      "noun + は + noun + の + 違く + です",
+      "noun + は + noun + の + 近く + です",
       "noun + は + noun + の + 隣 + です"
     ],
     "examples": [
@@ -3478,7 +3478,7 @@
     "title": "〜てみる",
     "meaning": "doing something tentatively / trying something",
     "how_to_use": [
-      "verb (て-form) + みる"
+      "verb (て form) + みる"
     ],
     "examples": [
       {
@@ -4342,7 +4342,7 @@
       },
       {
         "id": "719e66b8-b4a9-47cd-9dbf-886f6eac178c",
-        "meaning": "A: Shall shall we go [there]?<br/>B: Let's go [there] by train.",
+        "meaning": "A: How shall we go [there]?<br/>B: Let's go [there] by train.",
         "text": {
           "spelling": "Ａ：どうやって{行|い}こうか。<br/>Ｂ：{電車|でんしゃ}で{行|い}こう。"
         },
@@ -4383,7 +4383,7 @@
       },
       {
         "id": "564365a5-b46e-47f0-9da9-f07eecef7f91",
-        "meaning": "I might become sick in the future, so I've decided to pay taxes.",
+        "meaning": "I might become sick in the future, so I've decided to get insurance.",
         "text": {
           "spelling": "{将来|しょう・らい}{病気|びょう・き}になるかもしれないので、{保険|ほ・けん}に{入|はい}ろうと{思|おも}っています。"
         },
@@ -4554,7 +4554,7 @@
       },
       {
         "id": "01ec31c1-b127-40ab-aff5-7a6cabcc5bf0",
-        "meaning": "私が一番感動した映画は「君の名は」です。",
+        "meaning": "The movie that moved me most is <i>Your Name</i>.",
         "text": {
           "spelling": "<u>{私|わたし}が{一番|いち・ばん}{感動|かん・どう}した</u>{映画|えい・が}は「{君|きみ}の{名|な}は」です。"
         },
@@ -4638,6 +4638,211 @@
   },
 
   {"COMMENT": "GENKI LESSON 16"},
+  {
+    "id": "6cd3346b-bae2-4d8b-8316-878f0aea7509",
+    "title": "〜てあげる",
+    "meaning": "Somebody does something for somebody else (e.g. as a favor)<br/>I do something for you (e.g. as a favor)",
+    "how_to_use": [
+      "verb (て form) + あげる",
+      "does no change basic meaning; implies 'on demand' or as a 'favor action'",
+      "nouns referring to beneficiary use whatever particle the main verb calls for."
+    ],
+    "examples": [
+      {
+        "id": "d397765f-a898-48ed-bdb1-dd5da2dda7c8",
+        "meaning": "I (generously) lent my sister money (to help her out).",
+        "text": {
+          "spelling": "{私|わたし}は{妹|いもうと}にお{金|かね}を{貸|か}してあげました。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "67d7a341-dd77-4302-af9f-f41dda1c58ac",
+        "meaning": "Natsumi (kindly) took Hotaru Ichijou to the station (because she'd be lost if left all by herself).",
+        "text": {
+          "spelling": "{夏海|なつ・み}げさんは{一条|いち・じょう}{蛍|ほたる}さんを{駅|えき}に{連|つ}れて{行|い}ってあげました。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "6434e9a8-a7cc-454d-b687-5b6fd3e842d7",
+        "meaning": "I (kindly) took a grandma to the station",
+        "text": {
+          "spelling": "おばあさんを{駅|えき}に{連|つ}れて{行|い}ってあげました。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "9807b2f2-c314-4127-af71-c609f19523b4",
+        "meaning": "A: When your friend is feeling depressed, what do you do for them?<br/>B: I (help them by) treating them to a meal.",
+        "text": {
+          "spelling": "Ａ：{友達|とも・だち}が{落|お}ち{込|こ}んでいる{時|とき}、{友達|とも・だち}に{何|なに}をしてあげますか。<br/>Ｂ：ご{飯|はん}を{奢|おご}ってあげます。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "3cc868ee-c855-4a49-bb46-3e81dd16b62c",
+        "meaning": "Since my family will come to Japan, I will show them around Kyoto.",
+        "text": {
+          "spelling": "{家族|か・ぞく}が{日本|に・ほん}に{来|く}るので、（{私|わたし}は）{京都|きょう・と}を{案内|あん・ない}してあげます。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-09-03",
+    "lesson_codes": ["GENKI3_L16"],
+    "tags": []
+  },
+  {
+    "id": "19c5e6c0-f03e-4415-bca0-ce2cedb40396",
+    "title": "〜てくれる",
+    "meaning": "somebody does something for me",
+    "how_to_use": [
+      "verb (て form) + くれる",
+      "does no change basic meaning; implies on demand or as a favor action",
+      "nouns referring to beneficiary (when present) use whatever particle the main verb calls for."
+    ],
+    "examples": [
+      {
+        "id": "422987d3-c86e-487a-bb68-6717991ba0b1",
+        "meaning": "A friend helps me with my homework (for which I am grateful).",
+        "text": {
+          "spelling": "{友達|とも・だち}が{宿題|しゅく・だい}を{手伝|て・つだ}ってくれます。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "cb257f99-53c4-4547-a3e1-fe0f6e69d2df",
+        "meaning": "A relative sent me apples (I should ber so lucky.)",
+        "text": {
+          "spelling": "{親戚|しん・せき}がりんごを{送|おく}ってくれました。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "4c14a6de-ff00-4174-aa18-bda63bb7c05d",
+        "meaning": "My teacher (helped me out having) wrote me a letter of recommendation.",
+        "text": {
+          "spelling": "{先生|せん・せい}が{推薦状|すい・せん・じょう}を{書|か}いてくれました。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "c1065d09-50f3-477e-96d2-116e25c76c43",
+        "meaning": "(As a favor) my older sister sometimes lends me her car.",
+        "text": {
+          "spelling": "{姉|あね}は{時々|とき・どき}（{私|わたし}に）{車|くるま}を{貸|か}してくれます。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-09-04",
+    "lesson_codes": ["GENKI3_L16"],
+    "tags": []
+  },
+  {
+    "id": "1bd236d1-f260-4af4-b39d-3d684ec248b0",
+    "title": "〜てもらう",
+    "meaning": "get, persuade, or arrange for somebody to do something for me",
+    "how_to_use": [
+      "(私 + は）+ benefactor + に + sentence (て form) + もらう"
+    ],
+    "examples": [
+      {
+        "id": "31b92d75-de37-4391-816e-59b08a096af0",
+        "meaning": "I got my friend to help me with my homework.",
+        "text": {
+          "spelling": "{私|わたし}は{友達|とも・だち}に{宿題|しゅく・だい}を{手伝|て・っだ}ってもらいました。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "ef2dea3e-ef6f-48f5-bd0c-8ba2b930aa13",
+        "meaning": "I got my older sister to sometimes lend me her car.",
+        "text": {
+          "spelling": "（{私|わたし}は）{時々|とき・どき}{姉|あね}に{車|くるま}を{貸|か}してもらいます。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "520ce4fc-8c8d-4608-8bd3-c358cbc5cb65",
+        "meaning": "I got my friend to translate to English.",
+        "text": {
+          "spelling": "{友達|とも・だち}に{英語|えい・ご}に{訳|やく}してもらいました。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "955e1dc7-db35-4eba-85bb-614e3c49c03f",
+        "meaning": "I got my friend to treat me to dinner.",
+        "text": {
+          "spelling": "（{私|わたし}は）{友達|とも・だち}に{晩|ばん}ご{飯|はん}を{奢|おご}ってもらいました。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "a3b5f60f-47e9-47ab-bee8-7cb058fa29bc",
+        "meaning": "A: When you are lonely, who do you want to do what for you?<br/>B: I want my friends to call me.",
+        "text": {
+          "spelling": "Ａ：{寂|さび}しい{時|とき}、{誰|だれ}に{何|なに}をしてもらいたいですか。<br/>{友達|とも・だち}に{電話|でん・わ}してもらいたい。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-09-04",
+    "lesson_codes": ["GENKI3_L16"],
+    "tags": []
+  },
+  {
+    "id": "0097dd84-d584-44ba-8075-de406ece08af",
+    "title": "〜のために",
+    "meaning": "Doing somebody a favor (when verb has no place for beneficiary)",
+    "how_to_use": [
+      "noun + の + ために + verb"
+    ],
+    "examples": [
+      {
+        "id": "8912ae37-d11f-4490-a6f8-6114dcde6460",
+        "meaning": "I went shopping for Mio.",
+        "text": {
+          "spelling": "{私|わたし}は{澪|みお}さんのために{買|か}い{物|もの}に{行|い}きました<br/>(cf. {私|わたし}は{買|か}い{物|もの}に{行|い}きました。)"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "e0e74a19-d040-4e1f-9bac-8845a3115983",
+        "meaning": "Ken cleand the room for me.",
+        "text": {
+          "spelling": "けんさんが{私|わたし}のために{部屋|へ・や}を{掃除|そう・じ}してくれました。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-09-03",
+    "lesson_codes": ["GENKI3_L16"],
+    "tags": []
+  },
+
   {"COMMENT": "GENKI LESSON 17"},
   {"COMMENT": "GENKI LESSON 18"},
   {"COMMENT": "GENKI LESSON 19"},
