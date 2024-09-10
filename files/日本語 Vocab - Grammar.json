@@ -4485,7 +4485,7 @@
       },
       {
         "id": "2afd4c42-d93b-44a8-8847-9199b26dc42a",
-        "meaning": "I will make a hotel resvervation in advance.",
+        "meaning": "I will make a hotel reservation in advance.",
         "text": {
           "spelling": "ホテルを{予約|よ・やく}しとくね。"
         },
@@ -4839,6 +4839,83 @@
     ],
     "jlpt_level": null,
     "date_added": "2024-09-03",
+    "lesson_codes": ["GENKI3_L16"],
+    "tags": []
+  },
+  {
+    "id": "939f1825-94e0-45dc-9e58-7f18b2e8e61a",
+    "title": "〜手いただけませんか",
+    "meaning": "Making a request (for a favor)",
+    "how_to_use": [
+      "verb (て form) + いただけませんか (polite)",
+      "verb (て form) + くれませんか",
+      "verb (て form) + くれない？ (casual)",
+      "Fuller lest of variants, from polite to casual:",
+      "〜ていただけませんか (いただける, potential verb for いただく)",
+      "〜てくださいませんか (下さる)",
+      "〜てもらえませんか (もらえる, potential verb for もらう)",
+      "〜てくれませんか (くれる)",
+      "〜てもらえない？ (もらえる, short form)",
+      "〜てくれいない？ (くれる, short form)"
+    ],
+    "examples": [
+      {
+        "id": "9429cb27-365e-4205-8cc9-c27e1bc72b81",
+        "meaning": "Would you lend me a hand?",
+        "text": {
+          "spelling": "{手伝|て・つだ}っていただけませんか。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "b08e973a-f736-4c9c-ac57-af8e9a5e350e",
+        "meaning": "Will you wait for a second?",
+        "text": {
+          "spelling": "ちょっと{待|ま}ってくれませんか。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "b6364f79-1348-405a-83b4-61500409958c",
+        "meaning": "Pick that thing up (and pass it to me), will you?",
+        "text": {
+          "spelling": "それ{取|と}ってくれない？"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "39e597a6-e7e1-42b9-9369-87875ab7744e",
+        "meaning": "(<i>to your host family</i>) Would you wake me up at 7 o'clock tomorrow?",
+        "text": {
+          "spelling": "{明日|あした}{七時|しち・じ}に{起|お}こしてくれませんか。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "be04593a-9973-4d4f-ae7f-d86322131dce",
+        "meaning": "(<i>to your professor</i>) Can you translate this into English?",
+        "text": {
+          "spelling": "これを{英語|えい・ご}に{訳|やく}していただけませんか。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "b193ebae-9336-40a7-b930-834b68dd0918",
+        "meaning": "You: Would you give me my money back?<br/>Friend: Sorry. Wait until next week. (Because) I don't have any money right now.",
+        "text": {
+          "spelling": "あなた：お{金|かね}を{返|かえ}してくれない？<br/>{友達|とも・だち}：ごめん。{来週|らい・しゅう}まで{待|ま}って。{今|いま}、お{金|かね}がないんだ。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-09-09",
     "lesson_codes": ["GENKI3_L16"],
     "tags": []
   },
