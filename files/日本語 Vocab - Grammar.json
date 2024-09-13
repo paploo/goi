@@ -4980,76 +4980,58 @@
     "tags": []
   },
   {
-    "id": "00000000-0000-0000-0000-000000000000",
+    "id": "67eb606b-72a8-4854-b93c-e0d7c87296bd",
     "title": "〜といいんですが",
     "meaning": "I hope... (for myself)",
     "how_to_use": [
       "verb (short present) + と + いいんですねが (polite)",
       "verb (short present) + と + いいんだけど (casual)"
-    ],,
+    ],
     "examples": [
       {
-        "id": "00000000-0000-0000-0000-000000000000",
-        "meaning": "Example1",
+        "id": "a00259c9-78d3-4fc5-8469-78f95029cb2b",
+        "meaning": "I am hoping that the exam is easy.",
         "text": {
-          "spelling": "一〇〇"
+          "spelling": "{試験|し・けん}が{優|やさ}しいといいんですが。"
         },
-        "lesson_codes": ["GENKI3_Lxx"],
+        "lesson_codes": ["GENKI3_L16"],
         "tags": []
       },
       {
-        "id": "00000000-0000-0000-0000-000000000000",
-        "meaning": "Example2",
+        "id": "81040f79-acdd-41a4-9f18-398a5740c6ce",
+        "meaning": "There is an exam tomorrow morning. I hope I do not oversleep.",
         "text": {
-          "spelling": "二〇〇"
+          "spelling": "{明日|あした}の{朝|あさ}、{試験|し・けん}があります。{朝寝坊|あさ・ね・ぼう}しないといいんですが。"
         },
-        "lesson_codes": ["GENKI3_Lxx"],
+        "lesson_codes": ["GENKI3_L16"],
         "tags": []
       },
       {
-        "id": "00000000-0000-0000-0000-000000000000",
-        "meaning": "Example3",
+        "id": "fe8920e7-3bac-4047-989e-74c867f092f5",
+        "meaning": "I have to give a presentation tomorrow. I hope I will not be too nervous.",
         "text": {
-          "spelling": "明日、発表しないればいけません。緊張しすぎないといんですが。"
+          "spelling": "{明日|あした}、{発表|はっ・ぴょう}しないればいけません。{緊張|きん・ちょう}しすぎないといいんだけど。"
         },
-        "lesson_codes": ["GENKI3_Lxx"],
+        "lesson_codes": ["GENKI3_L16"],
         "tags": []
       },
       {
-        "id": "00000000-0000-0000-0000-000000000000",
-        "meaning": "Example4",
+        "id": "dbe04b0f-30ec-419a-ae40-bd62607d030f",
+        "meaning": "We are planning on having a barbecue. I hope it does not rain.",
         "text": {
-          "spelling": "四〇〇"
+          "spelling": "バーベキューをするつもりです。{雨|あめ}が{降|ふ}らないといいんですが。"
         },
-        "lesson_codes": ["GENKI3_Lxx"],
-        "tags": []
-      },
-      {
-        "id": "00000000-0000-0000-0000-000000000000",
-        "meaning": "Example5",
-        "text": {
-          "spelling": "五〇〇"
-        },
-        "lesson_codes": ["GENKI3_Lxx"],
-        "tags": []
-      },
-      {
-        "id": "00000000-0000-0000-0000-000000000000",
-        "meaning": "Example6",
-        "text": {
-          "spelling": "六〇〇"
-        },
-        "lesson_codes": ["GENKI3_Lxx"],
+        "lesson_codes": ["GENKI3_L16"],
         "tags": []
       }
     ],
     "jlpt_level": null,
-    "date_added": "1970-01-01",
-    "lesson_codes": ["GENKI3_Lxx"],
+    "date_added": "2024-09-12",
+    "lesson_codes": ["GENKI3_L16"],
     "tags": []
   },
   {
-    "id": "00000000-0000-0000-0000-000000000000",
+    "id": "43fa5160-a6e2-4aef-b7c1-46014d9bd99a",
     "title": "Ｖ（potential）+ といいんですが",
     "meaning": "I hope <i>to do</i>...",
     "how_to_use": [
@@ -5058,63 +5040,36 @@
     ],
     "examples": [
       {
-        "id": "00000000-0000-0000-0000-000000000000",
-        "meaning": "Example1",
+        "id": "5bb895ab-8f6e-40a3-a3bc-74962d7e96de",
+        "meaning": "I am hoping to go to college.",
         "text": {
-          "spelling": "一〇〇"
+          "spelling": "{大学|だい・がく}に{行|い}けるといいんですが。"
         },
-        "lesson_codes": ["GENKI3_Lxx"],
+        "lesson_codes": ["GENKI3_L16"],
         "tags": []
       },
       {
-        "id": "00000000-0000-0000-0000-000000000000",
-        "meaning": "Example2",
+        "id": "c255b71f-a032-4604-b936-24ac6ae35952",
+        "meaning": "I hope I can catch the eight o'clock train.",
         "text": {
-          "spelling": "二〇〇"
+          "spelling": "{８時|はち・じ}の{電車|でん・しゃ}に{乗|の}れるといいんだけど。"
         },
-        "lesson_codes": ["GENKI3_Lxx"],
+        "lesson_codes": ["GENKI3_L16"],
         "tags": []
       },
       {
-        "id": "00000000-0000-0000-0000-000000000000",
-        "meaning": "Example3",
+        "id": "ce53ccc9-21db-4d80-b930-ec76a7e40440",
+        "meaning": "I want to go to graduate school. I hope I can receive a scholarship.",
         "text": {
-          "spelling": "三〇〇"
+          "spelling": "{大覚院|だい・がく・いん}に{行|い}きたいです。{奨学金|しょう・がく・きん}がもらえるといいんですが。"
         },
-        "lesson_codes": ["GENKI3_Lxx"],
-        "tags": []
-      },
-      {
-        "id": "00000000-0000-0000-0000-000000000000",
-        "meaning": "Example4",
-        "text": {
-          "spelling": "四〇〇"
-        },
-        "lesson_codes": ["GENKI3_Lxx"],
-        "tags": []
-      },
-      {
-        "id": "00000000-0000-0000-0000-000000000000",
-        "meaning": "Example5",
-        "text": {
-          "spelling": "五〇〇"
-        },
-        "lesson_codes": ["GENKI3_Lxx"],
-        "tags": []
-      },
-      {
-        "id": "00000000-0000-0000-0000-000000000000",
-        "meaning": "Example6",
-        "text": {
-          "spelling": "六〇〇"
-        },
-        "lesson_codes": ["GENKI3_Lxx"],
+        "lesson_codes": ["GENKI3_L16"],
         "tags": []
       }
     ],
     "jlpt_level": null,
-    "date_added": "1970-01-01",
-    "lesson_codes": ["GENKI3_Lxx"],
+    "date_added": "2024-09-12",
+    "lesson_codes": ["GENKI3_L16"],
     "tags": []
   },
 
