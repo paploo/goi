@@ -4625,7 +4625,7 @@
         "id": "23770413-3b86-4f13-aa9b-481b381c5be7",
         "meaning": "I am not planning to come to school tomorrow.",
         "text": {
-          "spelling": "あたしは{学校|がっこう}に{来|こ}ない{予定|よ.てい}です。"
+          "spelling": "{明日|あした}は{学校|がっこう}に{来|こ}ない{予定|よ.てい}です。"
         },
         "lesson_codes": ["GENKI3_L15"],
         "tags": []
@@ -4661,7 +4661,7 @@
         "id": "67d7a341-dd77-4302-af9f-f41dda1c58ac",
         "meaning": "Natsumi (kindly) took Hotaru Ichijou to the station (because she'd be lost if left all by herself).",
         "text": {
-          "spelling": "{夏海|なつ・み}げさんは{一条|いち・じょう}{蛍|ほたる}さんを{駅|えき}に{連|つ}れて{行|い}ってあげました。"
+          "spelling": "{夏海|なつ・み}さんは{一条|いち・じょう}{蛍|ほたる}さんを{駅|えき}に{連|つ}れて{行|い}ってあげました。"
         },
         "lesson_codes": ["GENKI3_L16"],
         "tags": []
@@ -4917,6 +4917,204 @@
     "jlpt_level": null,
     "date_added": "2024-09-09",
     "lesson_codes": ["GENKI3_L16"],
+    "tags": []
+  },
+  {
+    "id": "9c7bf747-f9ef-4046-9f58-eee10d77c8b8",
+    "title": "〜といいですね",
+    "meaning": "I hope... (for you/them)",
+    "how_to_use": [
+      "verb (short present) + と + いいですね (polite)",
+      "verb (short present) + と + いいね (casual)"
+    ],
+    "examples": [
+      {
+        "id": "4e8f062a-439e-4263-869f-7c11627c9869",
+        "meaning": "I hope you find a good part-time job.",
+        "text": {
+          "spelling": "いいアルバイトが{見|み}つかるといいですね。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "7f8bce50-b668-49d6-9131-d58288ff61bb",
+        "meaning": "I hope it doesn't rain.",
+        "text": {
+          "spelling": "{雨|あめ}が{降|ふ}らないといいね。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "5ce24f61-e479-4cb9-bce0-4874b2184a26",
+        "meaning": "Friend: Next year I plan to study abroad.<br/>You: I hope you get to have various experiences.",
+        "text": {
+          "spelling": "{友達|とも・だち}：{来年|らい・ねん}{留学|りゅう・がく}する{予定|よ・てい}です。<br/>あなた：{色々|いろ・いろ}な{経験|けい・けん}ができるといいですね。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "68330ffd-9a0d-4477-be1d-d3f46947e884",
+        "meaning": "Friend： My cat is sick.<br/>You: I hope (the cat) becomes better soon.",
+        "text": {
+          "spelling": "{友達|とも・だち}：{私|わたし}の{猫|ねこ}が{病気|びょう・き}なんです。<br/>あなた：{早|はや}くよくなるといいですね。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "f3666a45-9f66-4a7a-b0be-36f4fd675162",
+        "meaning": "Friend: Tomorrow is my birthday.<br/>You: I hope you get lots of presents.",
+        "text": {
+          "spelling": "{友達|とも・だち}：{明日|あした}は{私|わたし}の{誕生日|たん・じょう・び}なんです。<br/>あなた：プレゼントがたくさんもらえるといいね。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-09-11",
+    "lesson_codes": ["GENKI3_L16"],
+    "tags": []
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000000",
+    "title": "〜といいんですが",
+    "meaning": "I hope... (for myself)",
+    "how_to_use": [
+      "verb (short present) + と + いいんですねが (polite)",
+      "verb (short present) + と + いいんだけど (casual)"
+    ],,
+    "examples": [
+      {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "meaning": "Example1",
+        "text": {
+          "spelling": "一〇〇"
+        },
+        "lesson_codes": ["GENKI3_Lxx"],
+        "tags": []
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "meaning": "Example2",
+        "text": {
+          "spelling": "二〇〇"
+        },
+        "lesson_codes": ["GENKI3_Lxx"],
+        "tags": []
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "meaning": "Example3",
+        "text": {
+          "spelling": "明日、発表しないればいけません。緊張しすぎないといんですが。"
+        },
+        "lesson_codes": ["GENKI3_Lxx"],
+        "tags": []
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "meaning": "Example4",
+        "text": {
+          "spelling": "四〇〇"
+        },
+        "lesson_codes": ["GENKI3_Lxx"],
+        "tags": []
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "meaning": "Example5",
+        "text": {
+          "spelling": "五〇〇"
+        },
+        "lesson_codes": ["GENKI3_Lxx"],
+        "tags": []
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "meaning": "Example6",
+        "text": {
+          "spelling": "六〇〇"
+        },
+        "lesson_codes": ["GENKI3_Lxx"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "1970-01-01",
+    "lesson_codes": ["GENKI3_Lxx"],
+    "tags": []
+  },
+  {
+    "id": "00000000-0000-0000-0000-000000000000",
+    "title": "Ｖ（potential）+ といいんですが",
+    "meaning": "I hope <i>to do</i>...",
+    "how_to_use": [
+      "verb (potential) + と + いいんですが",
+      "verb (potential) + と + いいんだけど"
+    ],
+    "examples": [
+      {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "meaning": "Example1",
+        "text": {
+          "spelling": "一〇〇"
+        },
+        "lesson_codes": ["GENKI3_Lxx"],
+        "tags": []
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "meaning": "Example2",
+        "text": {
+          "spelling": "二〇〇"
+        },
+        "lesson_codes": ["GENKI3_Lxx"],
+        "tags": []
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "meaning": "Example3",
+        "text": {
+          "spelling": "三〇〇"
+        },
+        "lesson_codes": ["GENKI3_Lxx"],
+        "tags": []
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "meaning": "Example4",
+        "text": {
+          "spelling": "四〇〇"
+        },
+        "lesson_codes": ["GENKI3_Lxx"],
+        "tags": []
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "meaning": "Example5",
+        "text": {
+          "spelling": "五〇〇"
+        },
+        "lesson_codes": ["GENKI3_Lxx"],
+        "tags": []
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "meaning": "Example6",
+        "text": {
+          "spelling": "六〇〇"
+        },
+        "lesson_codes": ["GENKI3_Lxx"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "1970-01-01",
+    "lesson_codes": ["GENKI3_Lxx"],
     "tags": []
   },
 
