@@ -212,6 +212,7 @@ insert into source.lesson (code, lesson_code, source_code, label, section_number
 insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number, url, description) values ('TOFUGU_DATE_AND_TIME', 'DATE_AND_TIME', 'TOFUGU', 'Date and Time', null, null, 'https://www.tofugu.com/japanese-grammar/date-and-time/', null);
 insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number, url, description) values ('TOFUGU_DESHOU', 'DESHOU', 'TOFUGU', 'でしょう', null, null, 'https://www.tofugu.com/japanese-grammar/deshou/', null);
 insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number, url, description) values ('TOFUGU_KAMOSHIRENAI', 'KAMOSHIRENAI', 'TOFUGU', '〜かもしれない follows a sentence and expresses "uncertainty"', null, null, 'https://www.tofugu.com/japanese-grammar/kamoshirenai/', null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number, url, description) values ('TOFUGU_ADJECTIVE_SUFFIX_SA', 'ADJECTIVE_SUFFIX_SA', 'TOFUGU', 'Adjective さ (Objective Nouns)"', null, null, 'https://www.tofugu.com/japanese-grammar/adjective-suffix-sa/', null);
 
 --
 -- JLPT 先生
