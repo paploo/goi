@@ -581,7 +581,7 @@ to close (something),閉める,しめる,,閉める,VERB,ICHIDAN_VERB,,5,{GENKI3
 to teach; to instruct,教える,おしえる,,教える,VERB,ICHIDAN_VERB,,5,{GENKI3_L06},,41e541a0-d1dc-4abd-995a-18c2cfb23671,580,2022-11-07
 to forget; to leave behind,忘れる,わすれる,,忘れる,VERB,ICHIDAN_VERB,,5,{GENKI3_L06},,d94d586d-e5e5-4d9f-8ef7-1520f3d714cf,581,2022-11-07
 to get off; to descend,降りる,おりる,,降りる,VERB,ICHIDAN_VERB,,5,{GENKI3_L06},,e876fbbd-05cd-49a3-995a-2002ec68b841,582,2022-11-07
-to borrow,借りる,かりる,,借りる,VERB,ICHIDAN_VERB,,5,{GENKI3_L06},,78be3afb-da4b-4e78-b019-39ba138f1c33,583,2022-11-07
+to borrow; to rent/hire,借りる,かりる,,借りる,VERB,ICHIDAN_VERB,,5,{GENKI3_L06},,78be3afb-da4b-4e78-b019-39ba138f1c33,583,2022-11-07
 to bask; to bathe in; to be flooded with,浴びる,あびる,,浴びる,VERB,ICHIDAN_VERB,,5,,,313659a3-3ae2-4a49-b5c0-bfb840178eab,584,2022-11-07
 to take a shower,シャワーを浴びる,しゃわあをあびる,,シャワーを浴びる,VERB,ICHIDAN_VERB,,,{GENKI3_L06},,ff59504a-164b-44a8-b108-aed6d9525249,585,2022-11-07
 to turn on (light),つける,つける,,点ける,VERB,ICHIDAN_VERB,,2,{GENKI3_L06},,c586dd61-02b7-4f20-aa46-b9af2ea9d555,586,2022-11-07
@@ -1638,3 +1638,11 @@ hundred thousand,１０万,じゅうまん,,十万,NOUN,,,,,{number},9ca59506-88
 million,１００万,ひゃくまん,,百万,NOUN,,,,,{number},efff3a1d-9719-4396-82d5-f501c462da81,1637,2024-09-16
 ten million,１０００万,せんまん,,千万,NOUN,,,,,{number},08ba8113-e09e-4fe2-8db4-c74685aa3a91,1638,2024-09-16
 hundred million,１億,いちおく,,一億,NOUN,,,,,{number},9d3472b2-66c7-45f6-b8b9-0f8458a4c21b,1639,2024-09-16
+voice,声,こえ,,声,NOUN,,,5,,,93104d38-ac46-4e37-be35-cdb8134b9e82,1640,2024-09-18
+confession (e.g. to a crime; to love),告白,こくはく,,告白,NOUN,,,1,,,76005fa7-aab1-4483-bb01-9d378fbb980a,1641,2024-09-18
+making a request for a favor (polite),〜ていただけませんか,〜ていただけませんか,,,EXPRESSION,,,,{GENKI3_L16},,8e20aea8-60ba-4829-80f8-a33d2058fa2d,1642,2024-09-18
+making a request for a favor,〜てくれませんか,〜てくれませんか,,,EXPRESSION,,,,{GENKI3_L16},,f931dfdd-5118-4143-9397-2b45ad9c23d8,1643,2024-09-18
+deep (phsyical); profound,深い,ふかい,,深い,ADJECTIVE,I_ADJECTIVE,,4,,,b3e1d5e8-18f5-419b-9f4c-f3512ae34210,1644,2024-09-18
+shallow (physical); superficial ,浅い,あさい,,浅い,ADJECTIVE,I_ADJECTIVE,,4,,,4d73ef78-b2d6-424b-9daf-8050194556fd,1645,2024-09-18
+"confirmation, verification, review, check",確認,かくにん,,確認,NOUN,,,3,,,2e94d28c-5738-40be-99a7-552d521f2e12,1646,2024-09-18
+to measure,測る,はかる,,計る,VERB,GODAN_VERB,,3,,,a2066c8c-af30-43bc-9389-b77048fd9335,1647,2024-09-18
