@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/db/db.iml" filepath="$PROJECT_DIR$/db/db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/files/files.iml" filepath="$PROJECT_DIR$/files/files.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resources/resources.iml" filepath="$PROJECT_DIR$/resources/resources.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ruby.iml" filepath="$PROJECT_DIR$/.idea/modules/ruby.iml" />
+      <module fileurl="file://$PROJECT_DIR$/templates/templates.iml" filepath="$PROJECT_DIR$/templates/templates.iml" />
     </modules>
   </component>
 </project>
