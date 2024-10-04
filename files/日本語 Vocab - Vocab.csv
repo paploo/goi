@@ -1672,7 +1672,7 @@ mysterious,不思議,ふしぎ,,不思議,ADJECTIVE,NA_ADJECTIVE,,3,{GENKI3_L20}
 食べる・飲む・もらう（謙譲語）,頂く,いただく,,頂く,VERB,GODAN_VERB,,3,{GENKI3_L20},{kenkoujo},02af0a78-119f-4f0d-b50d-5145cb69b0ad,1671,2024-09-28
 ある（謙譲語）,ござる,ござる,,御座る,VERB,ARU_SPECIAL_CLASS_VERB,,,{GENKI3_L20},{kenkoujo},10e2319d-1f4a-4e89-a85e-f021c28808ee,1672,2024-09-28
 〜ている（謙譲語）,〜ておる,〜ておる,,,VERB,GODAN_VERB,,,{GENKI3_L20},{kenkoujo},161ee0d6-8897-401f-8f24-258bb5906f61,1673,2024-09-28
-〜てす（謙譲語）,〜でござる,〜でござる,,,VERB,GODAN_VERB,,,{GENKI3_L20},{kenkoujo},1f7c1e15-31b3-45a0-9b35-04a2134551a3,1674,2024-09-28
+〜てす（謙譲語）,〜でござる,〜でござる,,,VERB,ARU_SPECIAL_CLASS_VERB,,,{GENKI3_L20},{kenkoujo},1f7c1e15-31b3-45a0-9b35-04a2134551a3,1674,2024-09-28
 あげる（謙譲語）,差し上げる,さしあげる,,差し上げる,VERB,ICHIDAN_VERB,,4,{GENKI3_L20},{kenkoujo},edde1bda-5c7f-4fdc-bc60-03c6cfb61a5e,1675,2024-09-28
 to go back; to return; to come back,戻る,もどる,,戻る,VERB,GODAN_VERB,,4,{GENKI3_L20},,a61ace2b-0279-448f-9ad7-298a263f82d8,1676,2024-09-28
 to convey a message,伝える,つたえる,,伝える,VERB,ICHIDAN_VERB,,4,{GENKI3_L20},,30c022eb-014f-4ca0-a25a-629c049b3979,1677,2024-09-28
