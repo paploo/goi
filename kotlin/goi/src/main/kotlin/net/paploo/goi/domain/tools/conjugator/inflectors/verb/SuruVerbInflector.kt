@@ -27,4 +27,5 @@ class SuruVerbInflector : StandardVerbInflector() {
     companion object {
         val default: SuruVerbInflector = SuruVerbInflector()
     }
+
 }

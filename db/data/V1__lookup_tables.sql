@@ -31,6 +31,7 @@ INSERT INTO vocabulary.conjugation_kind (code, label, word_class_code) VALUES ('
 INSERT INTO vocabulary.conjugation_kind (code, label, word_class_code) VALUES ('KURU_VERB', 'Kuru Verb', 'VERB');
 INSERT INTO vocabulary.conjugation_kind (code, label, word_class_code) VALUES ('IKU_VERB', 'Iku Verb', 'VERB');
 INSERT INTO vocabulary.conjugation_kind (code, label, word_class_code) VALUES ('ARU_VERB', 'Aru Verb', 'VERB');
+INSERT INTO vocabulary.conjugation_kind (code, label, word_class_code) VALUES ('ARU_SPECIAL_CLASS_VERB', 'Aru Special Class Verb', 'VERB');
 INSERT INTO vocabulary.conjugation_kind (code, label, word_class_code) VALUES ('COPULA_VERB', 'Copula Verb', 'VERB');
 INSERT INTO vocabulary.conjugation_kind (code, label, word_class_code) VALUES ('AI_SURU_VERB', 'Ai Suru Verb', 'VERB');
 INSERT INTO vocabulary.conjugation_kind (code, label, word_class_code) VALUES ('IRREGULAR_ADJECTIVE', 'Irregular Adjective', 'ADJECTIVE');

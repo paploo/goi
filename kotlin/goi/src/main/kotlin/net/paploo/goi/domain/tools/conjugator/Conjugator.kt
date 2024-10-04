@@ -57,6 +57,7 @@ class DefaultConjugator : Conjugator {
         Vocabulary.ConjugationKind.KuruVerb -> KuruVerbInflector.default
         Vocabulary.ConjugationKind.IkuVerb -> IkuVerbInflector.default
         Vocabulary.ConjugationKind.AruVerb -> AruVerbInflector.default
+        Vocabulary.ConjugationKind.AruSpecialClassVerb -> AruSpecialClassVerbInflector.default
         Vocabulary.ConjugationKind.CopulaVerb -> CopulaVerbInflector.default
         Vocabulary.ConjugationKind.AiSuruVerb -> AiSuruVerbInflector.default
 

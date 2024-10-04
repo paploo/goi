@@ -1598,95 +1598,96 @@ lazy person,怠け者,なまけもの,,怠け者,NOUN,,,,{GENKI3_L19},,5549e770-
 shy person,恥ずかしがり屋,はずかしがりや,,恥ずかしがり屋,NOUN,,,,{GENKI3_L19},,0ba3aae2-f31e-4406-a398-d41b1fa8a88c,1597,2024-07-28
 be on good/close terms; to get along well,仲がいい,なかがいい,,仲がいい,ADJECTIVE,YOI_ADJECTIVE,,,{GENKI3_L19},,835b0621-23e6-4ad0-8cb1-b87c452f731a,1598,2024-07-28
 "serious, sober, diligent",真面目,まじめ,,真面目,ADJECTIVE,NA_ADJECTIVE,,3,{GENKI3_L19},,9dd88f56-dc1f-4d31-a6b0-2a8b72833e57,1599,2024-07-28
-行く・来る・いる （敬語）,いらっしゃる,いらっしゃる,,,VERB,GODAN_VERB,,4,{GENKI3_L19},,c865476f-76d3-4ae0-b1b6-d68bd70ddb8e,1600,2024-08-05
-食べる・飲む（敬語）,召し上がる,めしあがる,,召し上がる,VERB,GODAN_VERB,,4,{GENKI3_L19},,e7fd9e79-6a60-4402-b756-5b2f2fc5bd16,1601,2024-08-05
-呉れる（敬語）,下さる,くださる,,下さる,VERB,GODAN_VERB,,3,{GENKI3_L19},,ae803f19-cac8-4853-b281-6e01db882644,1602,2024-08-05
-する（敬語）,なさる,なさる,,為さる,VERB,GODAN_VERB,,4,{GENKI3_L19},,059066ab-6a12-45fb-8ee7-752c1eaa26db,1603,2024-08-05
-寝る（敬語）,お休みになる,おやすみになる,,お休みになる,VERB,GODAN_VERB,,,{GENKI3_L19},,cf7fc5d3-f79b-497d-a7d0-a5c33e5f7a91,1604,2024-08-05
-言う（敬語）,おっしゃる,おっしゃる,,仰る,VERB,GODAN_VERB,,4,{GENKI3_L19},,28c97dc8-1a2d-4f38-8e18-658b9fa2f2b1,1605,2024-08-05
-〜ている（敬語）,〜ていらっしゃる,〜ていらっしゃる,,,VERB,GODAN_VERB,,,{GENKI3_L19},,d87411c1-69b7-4606-b2e4-43f0a6d3b0c2,1606,2024-08-05
-to get angry,怒る,おこる,,怒る,VERB,GODAN_VERB,,4,{GENKI3_L19},,f084400f-900f-4d79-9703-240785d3e0f4,1607,2024-08-05
-(something) is decided; to be decided,決まる,きまる,,決まる,VERB,GODAN_VERB,,4,{GENKI3_L19},,85a239f8-cec1-4f72-b7f4-2a89b0f88510,1608,2024-08-05
-to call (one's name); to summon (a doctor); to invite,呼ぶ,よぶ,,呼ぶ,VERB,GODAN_VERB,,5,{GENKI3_L19},,59b4ef6b-9e08-4896-9012-b28d479a6f32,1609,2024-08-05
-to move (to another place to live),引っ越す,ひっこす,,引っ越す,VERB,GODAN_VERB,,4,{GENKI3_L19},,2539e840-e8a3-4b8a-988e-25bcda2ff8c4,1610,2024-08-05
-to stop by,寄る,よる,,寄る,VERB,GODAN_VERB,,4,{GENKI3_L19},,f7bbf7b2-d3ff-45bf-94c0-5eef8d169f8e,1611,2024-08-05
-to become late; to fall behind schedule,遅れる,おくれる,,遅れる,VERB,ICHIDAN_VERB,,4,{GENKI3_L19},,33071973-fb05-48ae-92d6-45d9d6467687,1612,2024-08-12
-to sit; to support,かける,かける,,掛ける,VERB,ICHIDAN_VERB,,5,{GENKI3_L19},,63dcf322-8ee8-456c-b612-92f963a51f9c,1613,2024-08-12
-to be popular (in terms of romantic interest),モテる,もてる,,,VERB,ICHIDAN_VERB,,,{GENKI3_L19},,acc75b53-f2b3-46bb-8741-1009dd612790,1614,2024-08-12
-to become sunny,晴れる,はれる,,晴れる,VERB,ICHIDAN_VERB,,5,{GENKI3_L19},,29a88a08-5807-4532-b137-78a09bb98378,1615,2024-08-12
-to treat/invite (someone) to a meal,ごちそうする,ごちそうする,,ご馳走する,VERB,SURU_VERB,,4,{GENKI3_L19},,837d9ccb-1952-4224-b3f4-fef9f25f2a00,1616,2024-08-12
-to hold back for the time being; to refrain from,遠慮する,えんりょする,,遠慮する,VERB,SURU_VERB,,4,{GENKI3_L19},,3683a261-4cf1-468d-afdb-f0abe8b49a5b,1617,2024-08-12
-to invite someone (to an event/place),招待する,しょうたいする,,招待する,VERB,SURU_VERB,,3,{GENKI3_L19},,5f342a2c-2ca5-4e1e-b116-a6fb740fc784,1618,2024-08-12
-to have a talk,話をする,はなしをする,,話をする,VERB,SURU_VERB,,,{GENKI3_L19},,b83f1ce9-5b68-4726-a551-7442f5506aa0,1619,2024-08-12
-the day before yesterday,一昨日,おととい,,一昨日,NOUN,,,5,{GENKI3_L19},,2ee83af9-c65c-4a7c-a14a-23df4e959e9a,1620,2024-08-14
-then; therefore,それで,それで,,,CONJUNCTION,,,4,{GENKI3_L19},,ef0f200d-2161-4645-af33-16eb6d935505,1621,2024-08-14
-why (formal/poetic どうして),なぜ,なぜ,,,ADVERB,,,5,{GENKI3_L19},,ae6fba59-1e97-493a-9837-6e2a018b501a,1622,2024-08-14
-in fact; originally,本当は,ほんとうは,,本当は,EXPRESSION,,,,{GENKI3_L19},,78a20618-e7df-4fa2-b21f-e52172d635c5,1623,2024-08-14
-still,まだ,まだ,,,ADVERB,,,5,{GENKI3_L19},,5d14cc6a-d248-4d9c-b4dd-2547ebd67573,1624,2024-08-14
-a few seconds; a small quantity,少々,しょうしょう,,少々,ADVERB,,,3,{GENKI3_L19},,e0109bd3-df5c-47e3-9fc4-1d219a855e66,1625,2024-08-14
-counter for people reserving seats,〜名様,〜めいさま,,〜名様,COUNTER,,,,{GENKI3_L19},,5d6462e8-3e7a-4104-b351-776017b9c78d,1626,2024-08-14
-please give my regards to...,よろしくお伝えください,よろしくおつたえください,,よろしくお伝えください,EXPRESSION,,,,{GENKI3_L19},,d0065c83-e20b-4acb-be9f-7c9d53c9d094,1627,2024-08-14
-(something) is audible,聞こえる,きこえる,,聞こえる,VERB,ICHIDAN_VERB,,4,"{GENKI3_L15,GENKI3_L20}",,81da9f65-6c3a-44be-b6de-b151bd096a1b,1628,2024-09-16
-fountain pen,万年筆,まんねんひつ,,万年筆,NOUN,,,5,,,9334271d-241c-4ef7-9b8c-3857ac01b150,1629,2024-09-16
-anything; everything,何でも,なんでも,,何でも,EXPRESSION,,,3,,,298dee01-388c-4f9a-8d23-fafa73cff5ec,1630,2024-09-16
-the end,おしまい,おしまい,,お終い,NOUN,,,,,,bcb8a3c2-a2ba-42dd-a6ec-1e4b4cfc9128,1631,2024-09-16
-"unusual, rare",珍しい,めずらしい,,珍しい,ADJECTIVE,I_ADJECTIVE,,4,{GENKI3_READER_L14},,6436bb9b-1b93-4071-88fd-27e9e3afcabb,1632,2024-09-16
-one day; on a certain day,ある日,あるひ,,ある日,NOUN,,,,{GENKI3_READER_L14},,908714ef-eabd-4e4f-802a-97d6b4211d82,1633,2024-09-16
-some (certain) place,ある所,あるどころ,,ある所,NOUN,,,,{GENKI3_READER_L14},,93390445-014d-4a90-8334-ec6d5cfaaca8,1634,2024-09-16
-"a certain ..., some ...",ある〜,ある〜,,或る〜,PRE_NOUN_ADJECTIVAL,,,3,,,3cd50257-6f3d-4907-8ce9-6de7f04ceee5,1635,2024-09-16
-hundred thousand,１０万,じゅうまん,,十万,NOUN,,,,,{number},9ca59506-8823-4320-825a-240d1ebf33d2,1636,2024-09-16
-million,１００万,ひゃくまん,,百万,NOUN,,,,,{number},efff3a1d-9719-4396-82d5-f501c462da81,1637,2024-09-16
-ten million,１０００万,せんまん,,千万,NOUN,,,,,{number},08ba8113-e09e-4fe2-8db4-c74685aa3a91,1638,2024-09-16
-hundred million,１億,いちおく,,一億,NOUN,,,,,{number},9d3472b2-66c7-45f6-b8b9-0f8458a4c21b,1639,2024-09-16
-voice,声,こえ,,声,NOUN,,,5,,,93104d38-ac46-4e37-be35-cdb8134b9e82,1640,2024-09-18
-confession (e.g. to a crime; to love),告白,こくはく,,告白,NOUN,,,1,,,76005fa7-aab1-4483-bb01-9d378fbb980a,1641,2024-09-18
-making a request for a favor (polite),〜ていただけませんか,〜ていただけませんか,,,EXPRESSION,,,,{GENKI3_L16},,8e20aea8-60ba-4829-80f8-a33d2058fa2d,1642,2024-09-18
-making a request for a favor,〜てくれませんか,〜てくれませんか,,,EXPRESSION,,,,{GENKI3_L16},,f931dfdd-5118-4143-9397-2b45ad9c23d8,1643,2024-09-18
-deep (phsyical); profound,深い,ふかい,,深い,ADJECTIVE,I_ADJECTIVE,,4,,,b3e1d5e8-18f5-419b-9f4c-f3512ae34210,1644,2024-09-18
-shallow (physical); superficial ,浅い,あさい,,浅い,ADJECTIVE,I_ADJECTIVE,,4,,,4d73ef78-b2d6-424b-9daf-8050194556fd,1645,2024-09-18
-"confirmation, verification, review, check",確認,かくにん,,確認,NOUN,,,3,,,2e94d28c-5738-40be-99a7-552d521f2e12,1646,2024-09-18
-to measure,測る,はかる,,計る,VERB,GODAN_VERB,,3,,,a2066c8c-af30-43bc-9389-b77048fd9335,1647,2024-09-18
-"to confirm, to verify, to review, to check",確認する,かくにんする,,確認する,VERB,SURU_VERB,,,,,e1ea10e4-26d2-41be-824d-f5b21bc77830,1648,2024-09-28
-humble language,謙譲語,けんじょうご,,謙譲語,NOUN,,,,,,6e66df5d-ae21-40ed-8516-b194501afaa6,1649,2024-09-28
-animation,アニメ,あにめ,,,NOUN,,,,{GENKI3_L20},,c340ae80-8802-40fe-8282-b2dbafd97326,1650,2024-09-28
-novel,小説,しゅうせつ,,小説,NOUN,,,4,{GENKI3_L20},,64bc1f0c-257f-4dbe-80c4-116b42588af6,1651,2024-09-28
-hobby; pastime,趣味,しゅみ,,趣味,NOUN,,,4,{GENKI3_L20},,d865d8e0-608e-4066-8a8e-969671482418,1652,2024-09-28
-space alien,宇宙人,うちゅうじん,,宇宙人,NOUN,,,,{GENKI3_L20},,762fde90-44c2-4212-b9e7-c0af37f1352b,1653,2024-09-28
-"(hand, folding) fan",扇子,せんす,,扇子,NOUN,,,2,{GENKI3_L20},,bbf6efc4-36fb-4841-b6e8-713de2cb95c7,1654,2024-09-28
-sneakers,スニーカー,すにいかあ,,,NOUN,,,,{GENKI3_L20},,31c814c5-7862-4477-a4fa-92b948155a85,1655,2024-09-28
-headphones,ヘッドフォン,ヘッドフォン,,,NOUN,,,,{GENKI3_L20},,cc07949f-1193-4e31-a35d-1cef5ae9776c,1656,2024-09-28
-animal,動物,どうぶつ,,動物,NOUN,,,5,{GENKI3_L20},,07f2a99a-60e2-4424-872b-442b9e26f39f,1657,2024-09-28
-that way (polite); that person,あちら,あちら,,彼方,NOUN,,,5,{GENKI3_L20},,8a23748a-338f-4573-b57b-80acaec4ded5,1658,2024-09-28
-our person in charge,係の物,かかりのもの,,係の物,NOUN,,,,{GENKI3_L20},,fe242a1a-fdf3-44ec-9ed8-78b38a89e891,1659,2024-09-28
-(someon's) home/house,お宅,おたく,,お宅,NOUN,,,4,{GENKI3_L20},,23085f2c-991b-4473-84fe-e2d1ca7021e5,1660,2024-09-28
-branch office/store,支店,してん,,支店,NOUN,,,3,{GENKI3_L20},,8ce05311-f412-4493-acb0-0143d9d2ef66,1661,2024-09-28
-Germany,ドイツ,ドイツ,,,NOUN,,,,{GENKI3_L20},,b6513a60-30f2-48ae-82ae-68c716ccbf5a,1662,2024-09-28
-letter; character,字,じ,,字,NOUN,,,4,{GENKI3_L20},,96b8577e-d570-467f-909e-482d4c774f6b,1663,2024-09-28
-sound,音,おと,,音,NOUN,,,4,{GENKI3_L20},,b72f4e3f-9195-4bb9-baee-51c3c32945bd,1664,2024-09-28
-mysterious,不思議,ふしぎ,,不思議,ADJECTIVE,NA_ADJECTIVE,,3,{GENKI3_L20},,7a2e2736-bdf5-4a6d-8ded-7810f0132407,1665,2024-09-28
-いる（謙譲語）,おる,おる,,居る,VERB,GODAN_VERB,,3,{GENKI3_L20},,86bd3ea8-229d-4cfb-8099-f5b05ab43c36,1666,2024-09-28
-行く・来る（謙譲語）,参る,まいる,,参る,VERB,GODAN_VERB,,4,{GENKI3_L20},,4084302e-50ae-4dd6-a1de-05afefd2ae77,1667,2024-09-28
-言う（謙譲語）,申す,もうす,,申す,VERB,GODAN_VERB,,4,{GENKI3_L20},,573282bb-3d95-43fc-97a8-f5da91447dbe,1668,2024-09-28
-する（謙譲語）,致す,いたす,,致す,VERB,GODAN_VERB,,4,{GENKI3_L20},,f8432e9f-66de-4792-a23b-501815f60dc7,1669,2024-09-28
-食べる・飲む・もらう（謙譲語）,頂く,いただく,,頂く,VERB,GODAN_VERB,,3,{GENKI3_L20},,02af0a78-119f-4f0d-b50d-5145cb69b0ad,1670,2024-09-28
-ある（謙譲語）,ござる,ござる,,御座る,VERB,GODAN_VERB,,,{GENKI3_L20},,10e2319d-1f4a-4e89-a85e-f021c28808ee,1671,2024-09-28
-〜ている（謙譲語）,〜ておる,〜ておる,,,VERB,GODAN_VERB,,,{GENKI3_L20},,161ee0d6-8897-401f-8f24-258bb5906f61,1672,2024-09-28
-〜てす（謙譲語）,〜でござる,〜でござる,,,VERB,GODAN_VERB,,,{GENKI3_L20},,1f7c1e15-31b3-45a0-9b35-04a2134551a3,1673,2024-09-28
-あげる（謙譲語）,差し上げる,さしあげる,,差し上げる,VERB,ICHIDAN_VERB,,4,{GENKI3_L20},,edde1bda-5c7f-4fdc-bc60-03c6cfb61a5e,1674,2024-09-28
-to go back; to return; to come back,戻る,もどる,,戻る,VERB,GODAN_VERB,,4,{GENKI3_L20},,a61ace2b-0279-448f-9ad7-298a263f82d8,1675,2024-09-28
-to convey a message,伝える,つたえる,,伝える,VERB,ICHIDAN_VERB,,4,{GENKI3_L20},,30c022eb-014f-4ca0-a25a-629c049b3979,1676,2024-09-28
-to keep (someone) waiting,待たせる,またせる,,待たせる,VERB,ICHIDAN_VERB,,,{GENKI3_L20},,237c293d-2117-46e1-bf38-c8a28db8d2ae,1677,2024-09-28
-to continue,続ける,つづける,,続ける,VERB,ICHIDAN_VERB,,4,{GENKI3_L20},,43ecf331-60a9-4078-9cdf-0c9fa408bd57,1678,2024-09-28
-to exchange (ＸとＹを),交換する,こうかんする,,交換する,VERB,SURU_VERB,,,{GENKI3_L20},,fe8ff6f7-761b-48cc-9e46-dc3826075dc4,1679,2024-09-28
-to return (merchandise),返品する,へんぴんする,,返品する,VERB,SURU_VERB,,,{GENKI3_L20},,7ec5d914-0f96-4313-a7ec-0a5cb49c9da8,1680,2024-09-28
-to lead a life,生活する,せいかつする,,生活する,VERB,SURU_VERB,,,{GENKI3_L20},,da0da9a3-88e6-447d-a73c-d6c7c9012339,1681,2024-09-28
-floor counter,〜階,〜かい,,〜階,COUNTER,,,1,{GENKI3_L20},,5f796f31-0a55-489d-bf5a-d38cbaca4b41,1682,2024-09-28
-first floor; ground floor,一階,いっかい,,一階,NOUN,,,,{GENKI3_L20},,c4db6ac6-0ba5-4c3e-baa9-6b2219b4cb4c,1683,2024-09-28
-"something like..., sort of like...",〜みたいな,〜みたいな,,,EXPRESSION,,,,{GENKI3_L20},,efa0d904-6699-48fa-a70e-20aa8fb714d0,1684,2024-09-28
-well then (polite),では,では,,,CONJUNCTION,,,5,{GENKI3_L20},,3bf0ffbb-6dcf-4241-b2fe-1242808c11c4,1685,2024-09-28
-if possible,できれば,できれば,,出来れば,EXPRESSION,,,,{GENKI3_L20},,7178a0a8-b911-457f-b223-53f7f642c129,1686,2024-09-28
-"indeed, really (very polite)",誠に,まことに,,誠に,ADVERB,,,3,{GENKI3_L20},,289d17e1-33d3-4d92-a417-bb2ce9ac6062,1687,2024-09-28
-if you don't mind; if you like (polite),よろしかったら,よろしかったら,,宜しかったら,EXPRESSION,,,,{GENKI3_L20},,eb81823c-769a-4525-992b-42b5369a3d43,1688,2024-09-28
-Certainly,かしこありました,かしこありました,,,EXPRESSION,,,,{GENKI3_L20},,39b49689-8290-4cfa-9218-bcf97858d401,1689,2024-09-28
-I'm very sorry,失礼しました,しつれいしました,,失礼しました,EXPRESSION,,,,{GENKI3_L20},,ad064487-d3bc-4ef1-bc57-8cc7b6df9cc3,1690,2024-09-28
-You have my apologies (polite),申し訳ありません,もうしわけありません,,申し訳ありません,EXPRESSION,,,,{GENKI3_L20},,1078a366-2adc-4ba6-877d-5409ec926182,1691,2024-09-28
+行く・来る・いる （敬語）,いらっしゃる,いらっしゃる,,,VERB,ARU_SPECIAL_CLASS_VERB,,4,{GENKI3_L19},{keigo},c865476f-76d3-4ae0-b1b6-d68bd70ddb8e,1600,2024-08-05
+食べる・飲む（敬語）,召し上がる,めしあがる,,召し上がる,VERB,GODAN_VERB,,4,{GENKI3_L19},{keigo},e7fd9e79-6a60-4402-b756-5b2f2fc5bd16,1601,2024-08-05
+呉れる（敬語）,下さる,くださる,,下さる,VERB,ARU_SPECIAL_CLASS_VERB,,3,{GENKI3_L19},{keigo},ae803f19-cac8-4853-b281-6e01db882644,1602,2024-08-05
+する（敬語）,なさる,なさる,,為さる,VERB,ARU_SPECIAL_CLASS_VERB,,4,{GENKI3_L19},{keigo},059066ab-6a12-45fb-8ee7-752c1eaa26db,1603,2024-08-05
+寝る（敬語）,お休みになる,おやすみになる,,お休みになる,VERB,GODAN_VERB,,,{GENKI3_L19},{keigo},cf7fc5d3-f79b-497d-a7d0-a5c33e5f7a91,1604,2024-08-05
+見る（敬語）,ご覧にする,ごらんにする,,ご覧にする,VERB,GODAN_VERB,,,{GENKI3_L19},{keigo},93925eff-c22a-44f1-972e-594b0ccb2a9f,1605,2024-10-03
+言う（敬語）,おっしゃる,おっしゃる,,仰る,VERB,ARU_SPECIAL_CLASS_VERB,,4,{GENKI3_L19},{keigo},28c97dc8-1a2d-4f38-8e18-658b9fa2f2b1,1606,2024-08-05
+〜ている（敬語）,〜ていらっしゃる,〜ていらっしゃる,,,VERB,ARU_SPECIAL_CLASS_VERB,,,{GENKI3_L19},{keigo},d87411c1-69b7-4606-b2e4-43f0a6d3b0c2,1607,2024-08-05
+to get angry,怒る,おこる,,怒る,VERB,GODAN_VERB,,4,{GENKI3_L19},,f084400f-900f-4d79-9703-240785d3e0f4,1608,2024-08-05
+(something) is decided; to be decided,決まる,きまる,,決まる,VERB,GODAN_VERB,,4,{GENKI3_L19},,85a239f8-cec1-4f72-b7f4-2a89b0f88510,1609,2024-08-05
+to call (one's name); to summon (a doctor); to invite,呼ぶ,よぶ,,呼ぶ,VERB,GODAN_VERB,,5,{GENKI3_L19},,59b4ef6b-9e08-4896-9012-b28d479a6f32,1610,2024-08-05
+to move (to another place to live),引っ越す,ひっこす,,引っ越す,VERB,GODAN_VERB,,4,{GENKI3_L19},,2539e840-e8a3-4b8a-988e-25bcda2ff8c4,1611,2024-08-05
+to stop by,寄る,よる,,寄る,VERB,GODAN_VERB,,4,{GENKI3_L19},,f7bbf7b2-d3ff-45bf-94c0-5eef8d169f8e,1612,2024-08-05
+to become late; to fall behind schedule,遅れる,おくれる,,遅れる,VERB,ICHIDAN_VERB,,4,{GENKI3_L19},,33071973-fb05-48ae-92d6-45d9d6467687,1613,2024-08-12
+to sit; to support,かける,かける,,掛ける,VERB,ICHIDAN_VERB,,5,{GENKI3_L19},,63dcf322-8ee8-456c-b612-92f963a51f9c,1614,2024-08-12
+to be popular (in terms of romantic interest),モテる,もてる,,,VERB,ICHIDAN_VERB,,,{GENKI3_L19},,acc75b53-f2b3-46bb-8741-1009dd612790,1615,2024-08-12
+to become sunny,晴れる,はれる,,晴れる,VERB,ICHIDAN_VERB,,5,{GENKI3_L19},,29a88a08-5807-4532-b137-78a09bb98378,1616,2024-08-12
+to treat/invite (someone) to a meal,ごちそうする,ごちそうする,,ご馳走する,VERB,SURU_VERB,,4,{GENKI3_L19},,837d9ccb-1952-4224-b3f4-fef9f25f2a00,1617,2024-08-12
+to hold back for the time being; to refrain from,遠慮する,えんりょする,,遠慮する,VERB,SURU_VERB,,4,{GENKI3_L19},,3683a261-4cf1-468d-afdb-f0abe8b49a5b,1618,2024-08-12
+to invite someone (to an event/place),招待する,しょうたいする,,招待する,VERB,SURU_VERB,,3,{GENKI3_L19},,5f342a2c-2ca5-4e1e-b116-a6fb740fc784,1619,2024-08-12
+to have a talk,話をする,はなしをする,,話をする,VERB,SURU_VERB,,,{GENKI3_L19},,b83f1ce9-5b68-4726-a551-7442f5506aa0,1620,2024-08-12
+the day before yesterday,一昨日,おととい,,一昨日,NOUN,,,5,{GENKI3_L19},,2ee83af9-c65c-4a7c-a14a-23df4e959e9a,1621,2024-08-14
+then; therefore,それで,それで,,,CONJUNCTION,,,4,{GENKI3_L19},,ef0f200d-2161-4645-af33-16eb6d935505,1622,2024-08-14
+why (formal/poetic どうして),なぜ,なぜ,,,ADVERB,,,5,{GENKI3_L19},,ae6fba59-1e97-493a-9837-6e2a018b501a,1623,2024-08-14
+in fact; originally,本当は,ほんとうは,,本当は,EXPRESSION,,,,{GENKI3_L19},,78a20618-e7df-4fa2-b21f-e52172d635c5,1624,2024-08-14
+still,まだ,まだ,,,ADVERB,,,5,{GENKI3_L19},,5d14cc6a-d248-4d9c-b4dd-2547ebd67573,1625,2024-08-14
+a few seconds; a small quantity,少々,しょうしょう,,少々,ADVERB,,,3,{GENKI3_L19},,e0109bd3-df5c-47e3-9fc4-1d219a855e66,1626,2024-08-14
+counter for people reserving seats,〜名様,〜めいさま,,〜名様,COUNTER,,,,{GENKI3_L19},,5d6462e8-3e7a-4104-b351-776017b9c78d,1627,2024-08-14
+please give my regards to...,よろしくお伝えください,よろしくおつたえください,,よろしくお伝えください,EXPRESSION,,,,{GENKI3_L19},,d0065c83-e20b-4acb-be9f-7c9d53c9d094,1628,2024-08-14
+(something) is audible,聞こえる,きこえる,,聞こえる,VERB,ICHIDAN_VERB,,4,"{GENKI3_L15,GENKI3_L20}",,81da9f65-6c3a-44be-b6de-b151bd096a1b,1629,2024-09-16
+fountain pen,万年筆,まんねんひつ,,万年筆,NOUN,,,5,,,9334271d-241c-4ef7-9b8c-3857ac01b150,1630,2024-09-16
+anything; everything,何でも,なんでも,,何でも,EXPRESSION,,,3,,,298dee01-388c-4f9a-8d23-fafa73cff5ec,1631,2024-09-16
+the end,おしまい,おしまい,,お終い,NOUN,,,,,,bcb8a3c2-a2ba-42dd-a6ec-1e4b4cfc9128,1632,2024-09-16
+"unusual, rare",珍しい,めずらしい,,珍しい,ADJECTIVE,I_ADJECTIVE,,4,{GENKI3_READER_L14},,6436bb9b-1b93-4071-88fd-27e9e3afcabb,1633,2024-09-16
+one day; on a certain day,ある日,あるひ,,ある日,NOUN,,,,{GENKI3_READER_L14},,908714ef-eabd-4e4f-802a-97d6b4211d82,1634,2024-09-16
+some (certain) place,ある所,あるどころ,,ある所,NOUN,,,,{GENKI3_READER_L14},,93390445-014d-4a90-8334-ec6d5cfaaca8,1635,2024-09-16
+"a certain ..., some ...",ある〜,ある〜,,或る〜,PRE_NOUN_ADJECTIVAL,,,3,,,3cd50257-6f3d-4907-8ce9-6de7f04ceee5,1636,2024-09-16
+hundred thousand,１０万,じゅうまん,,十万,NOUN,,,,,{number},9ca59506-8823-4320-825a-240d1ebf33d2,1637,2024-09-16
+million,１００万,ひゃくまん,,百万,NOUN,,,,,{number},efff3a1d-9719-4396-82d5-f501c462da81,1638,2024-09-16
+ten million,１０００万,せんまん,,千万,NOUN,,,,,{number},08ba8113-e09e-4fe2-8db4-c74685aa3a91,1639,2024-09-16
+hundred million,１億,いちおく,,一億,NOUN,,,,,{number},9d3472b2-66c7-45f6-b8b9-0f8458a4c21b,1640,2024-09-16
+voice,声,こえ,,声,NOUN,,,5,,,93104d38-ac46-4e37-be35-cdb8134b9e82,1641,2024-09-18
+confession (e.g. to a crime; to love),告白,こくはく,,告白,NOUN,,,1,,,76005fa7-aab1-4483-bb01-9d378fbb980a,1642,2024-09-18
+making a request for a favor (polite),〜ていただけませんか,〜ていただけませんか,,,EXPRESSION,,,,{GENKI3_L16},,8e20aea8-60ba-4829-80f8-a33d2058fa2d,1643,2024-09-18
+making a request for a favor,〜てくれませんか,〜てくれませんか,,,EXPRESSION,,,,{GENKI3_L16},,f931dfdd-5118-4143-9397-2b45ad9c23d8,1644,2024-09-18
+deep (phsyical); profound,深い,ふかい,,深い,ADJECTIVE,I_ADJECTIVE,,4,,,b3e1d5e8-18f5-419b-9f4c-f3512ae34210,1645,2024-09-18
+shallow (physical); superficial ,浅い,あさい,,浅い,ADJECTIVE,I_ADJECTIVE,,4,,,4d73ef78-b2d6-424b-9daf-8050194556fd,1646,2024-09-18
+"confirmation, verification, review, check",確認,かくにん,,確認,NOUN,,,3,,,2e94d28c-5738-40be-99a7-552d521f2e12,1647,2024-09-18
+to measure,測る,はかる,,計る,VERB,GODAN_VERB,,3,,,a2066c8c-af30-43bc-9389-b77048fd9335,1648,2024-09-18
+"to confirm, to verify, to review, to check",確認する,かくにんする,,確認する,VERB,SURU_VERB,,,,,e1ea10e4-26d2-41be-824d-f5b21bc77830,1649,2024-09-28
+humble language,謙譲語,けんじょうご,,謙譲語,NOUN,,,,,,6e66df5d-ae21-40ed-8516-b194501afaa6,1650,2024-09-28
+animation,アニメ,あにめ,,,NOUN,,,,{GENKI3_L20},,c340ae80-8802-40fe-8282-b2dbafd97326,1651,2024-09-28
+novel,小説,しょうせつ,,小説,NOUN,,,4,{GENKI3_L20},,64bc1f0c-257f-4dbe-80c4-116b42588af6,1652,2024-09-28
+hobby; pastime,趣味,しゅみ,,趣味,NOUN,,,4,{GENKI3_L20},,d865d8e0-608e-4066-8a8e-969671482418,1653,2024-09-28
+space alien,宇宙人,うちゅうじん,,宇宙人,NOUN,,,,{GENKI3_L20},,762fde90-44c2-4212-b9e7-c0af37f1352b,1654,2024-09-28
+"(hand, folding) fan",扇子,せんす,,扇子,NOUN,,,2,{GENKI3_L20},,bbf6efc4-36fb-4841-b6e8-713de2cb95c7,1655,2024-09-28
+sneakers,スニーカー,すにいかあ,,,NOUN,,,,{GENKI3_L20},,31c814c5-7862-4477-a4fa-92b948155a85,1656,2024-09-28
+headphones,ヘッドフォン,ヘッドフォン,,,NOUN,,,,{GENKI3_L20},,cc07949f-1193-4e31-a35d-1cef5ae9776c,1657,2024-09-28
+animal,動物,どうぶつ,,動物,NOUN,,,5,{GENKI3_L20},,07f2a99a-60e2-4424-872b-442b9e26f39f,1658,2024-09-28
+that way (polite); that person,あちら,あちら,,彼方,NOUN,,,5,{GENKI3_L20},,8a23748a-338f-4573-b57b-80acaec4ded5,1659,2024-09-28
+our person in charge,係の物,かかりのもの,,係の物,NOUN,,,,{GENKI3_L20},,fe242a1a-fdf3-44ec-9ed8-78b38a89e891,1660,2024-09-28
+(someon's) home/house,お宅,おたく,,お宅,NOUN,,,4,{GENKI3_L20},,23085f2c-991b-4473-84fe-e2d1ca7021e5,1661,2024-09-28
+branch office/store,支店,してん,,支店,NOUN,,,3,{GENKI3_L20},,8ce05311-f412-4493-acb0-0143d9d2ef66,1662,2024-09-28
+Germany,ドイツ,ドイツ,,,NOUN,,,,{GENKI3_L20},,b6513a60-30f2-48ae-82ae-68c716ccbf5a,1663,2024-09-28
+letter; character,字,じ,,字,NOUN,,,4,{GENKI3_L20},,96b8577e-d570-467f-909e-482d4c774f6b,1664,2024-09-28
+sound,音,おと,,音,NOUN,,,4,{GENKI3_L20},,b72f4e3f-9195-4bb9-baee-51c3c32945bd,1665,2024-09-28
+mysterious,不思議,ふしぎ,,不思議,ADJECTIVE,NA_ADJECTIVE,,3,{GENKI3_L20},,7a2e2736-bdf5-4a6d-8ded-7810f0132407,1666,2024-09-28
+いる（謙譲語）,おる,おる,,居る,VERB,GODAN_VERB,,3,{GENKI3_L20},{kenkoujo},86bd3ea8-229d-4cfb-8099-f5b05ab43c36,1667,2024-09-28
+行く・来る（謙譲語）,参る,まいる,,参る,VERB,GODAN_VERB,,4,{GENKI3_L20},{kenkoujo},4084302e-50ae-4dd6-a1de-05afefd2ae77,1668,2024-09-28
+言う（謙譲語）,申す,もうす,,申す,VERB,GODAN_VERB,,4,{GENKI3_L20},{kenkoujo},573282bb-3d95-43fc-97a8-f5da91447dbe,1669,2024-09-28
+する（謙譲語）,致す,いたす,,致す,VERB,GODAN_VERB,,4,{GENKI3_L20},{kenkoujo},f8432e9f-66de-4792-a23b-501815f60dc7,1670,2024-09-28
+食べる・飲む・もらう（謙譲語）,頂く,いただく,,頂く,VERB,GODAN_VERB,,3,{GENKI3_L20},{kenkoujo},02af0a78-119f-4f0d-b50d-5145cb69b0ad,1671,2024-09-28
+ある（謙譲語）,ござる,ござる,,御座る,VERB,ARU_SPECIAL_CLASS_VERB,,,{GENKI3_L20},{kenkoujo},10e2319d-1f4a-4e89-a85e-f021c28808ee,1672,2024-09-28
+〜ている（謙譲語）,〜ておる,〜ておる,,,VERB,GODAN_VERB,,,{GENKI3_L20},{kenkoujo},161ee0d6-8897-401f-8f24-258bb5906f61,1673,2024-09-28
+〜てす（謙譲語）,〜でござる,〜でござる,,,VERB,GODAN_VERB,,,{GENKI3_L20},{kenkoujo},1f7c1e15-31b3-45a0-9b35-04a2134551a3,1674,2024-09-28
+あげる（謙譲語）,差し上げる,さしあげる,,差し上げる,VERB,ICHIDAN_VERB,,4,{GENKI3_L20},{kenkoujo},edde1bda-5c7f-4fdc-bc60-03c6cfb61a5e,1675,2024-09-28
+to go back; to return; to come back,戻る,もどる,,戻る,VERB,GODAN_VERB,,4,{GENKI3_L20},,a61ace2b-0279-448f-9ad7-298a263f82d8,1676,2024-09-28
+to convey a message,伝える,つたえる,,伝える,VERB,ICHIDAN_VERB,,4,{GENKI3_L20},,30c022eb-014f-4ca0-a25a-629c049b3979,1677,2024-09-28
+to keep (someone) waiting,待たせる,またせる,,待たせる,VERB,ICHIDAN_VERB,,,{GENKI3_L20},,237c293d-2117-46e1-bf38-c8a28db8d2ae,1678,2024-09-28
+to continue,続ける,つづける,,続ける,VERB,ICHIDAN_VERB,,4,{GENKI3_L20},,43ecf331-60a9-4078-9cdf-0c9fa408bd57,1679,2024-09-28
+to exchange (ＸとＹを),交換する,こうかんする,,交換する,VERB,SURU_VERB,,,{GENKI3_L20},,fe8ff6f7-761b-48cc-9e46-dc3826075dc4,1680,2024-09-28
+to return (merchandise),返品する,へんぴんする,,返品する,VERB,SURU_VERB,,,{GENKI3_L20},,7ec5d914-0f96-4313-a7ec-0a5cb49c9da8,1681,2024-09-28
+to lead a life,生活する,せいかつする,,生活する,VERB,SURU_VERB,,,{GENKI3_L20},,da0da9a3-88e6-447d-a73c-d6c7c9012339,1682,2024-09-28
+floor counter,〜階,〜かい,,〜階,COUNTER,,,1,{GENKI3_L20},,5f796f31-0a55-489d-bf5a-d38cbaca4b41,1683,2024-09-28
+first floor; ground floor,一階,いっかい,,一階,NOUN,,,,{GENKI3_L20},,c4db6ac6-0ba5-4c3e-baa9-6b2219b4cb4c,1684,2024-09-28
+"something like..., sort of like...",〜みたいな,〜みたいな,,,EXPRESSION,,,,{GENKI3_L20},,efa0d904-6699-48fa-a70e-20aa8fb714d0,1685,2024-09-28
+well then (polite),では,では,,,CONJUNCTION,,,5,{GENKI3_L20},,3bf0ffbb-6dcf-4241-b2fe-1242808c11c4,1686,2024-09-28
+if possible,できれば,できれば,,出来れば,EXPRESSION,,,,{GENKI3_L20},,7178a0a8-b911-457f-b223-53f7f642c129,1687,2024-09-28
+"indeed, really (very polite)",誠に,まことに,,誠に,ADVERB,,,3,{GENKI3_L20},,289d17e1-33d3-4d92-a417-bb2ce9ac6062,1688,2024-09-28
+if you don't mind; if you like (polite),よろしかったら,よろしかったら,,宜しかったら,EXPRESSION,,,,{GENKI3_L20},,eb81823c-769a-4525-992b-42b5369a3d43,1689,2024-09-28
+Certainly,かしこありました,かしこありました,,,EXPRESSION,,,,{GENKI3_L20},,39b49689-8290-4cfa-9218-bcf97858d401,1690,2024-09-28
+I'm very sorry,失礼しました,しつれいしました,,失礼しました,EXPRESSION,,,,{GENKI3_L20},,ad064487-d3bc-4ef1-bc57-8cc7b6df9cc3,1691,2024-09-28
+You have my apologies (polite),申し訳ありません,もうしわけありません,,申し訳ありません,EXPRESSION,,,,{GENKI3_L20},,1078a366-2adc-4ba6-877d-5409ec926182,1692,2024-09-28

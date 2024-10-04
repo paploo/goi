@@ -77,6 +77,7 @@ data class Vocabulary(
         KuruVerb(setOf(WordClass.Verb)),
         IkuVerb(setOf(WordClass.Verb)),
         AruVerb(setOf(WordClass.Verb)),
+        AruSpecialClassVerb(setOf(WordClass.Verb)),
         CopulaVerb(setOf(WordClass.Verb)),
         AiSuruVerb(setOf(WordClass.Verb)),
         IAdjective(setOf(WordClass.Adjective, WordClass.AuxiliaryAdjective)),
