@@ -280,7 +280,7 @@ racoon dog,狸,たぬき,,狸,NOUN,,,,,{animal},3ab6c13d-cea6-51c9-8cc8-727dfb40
 "she, her; girlfriend",彼女,かのじょ,,彼女,PRONOUN,,,4,"{DUO_02_07,DUO_U09,GENKI3_L12}",,6432ab47-a4a0-487f-89ad-b37fce084c74,279,2022-08-08
 "him, he; boyfriend",彼,かれ,,彼,PRONOUN,,,4,"{DUO_02_07,DUO_U09,GENKI3_L12}",,794880bc-1fa2-4fb8-9fa0-bd04c175bbee,280,2022-08-08
 "they, them",彼ら,かれら,,彼ら,PRONOUN,,,3,"{DUO_02_07,DUO_U09}",,46260a68-5466-4f70-9b0b-968d8143848f,281,2022-08-08
-"...plural (person, animal)",〜たち,たち,,〜達,SUFFIX,,,,"{DUO_02_07,DUO_U09,GENKI3_L14}",,7592b181-b6f1-41f0-b618-4ae67ab38b21,282,2022-08-08
+"...plural (person, animal)",〜たち,〜たち,,〜達,SUFFIX,,,,"{DUO_02_07,DUO_U09,GENKI3_L14}",,7592b181-b6f1-41f0-b618-4ae67ab38b21,282,2022-08-08
 "I (male, casual)",僕,ぼく,,僕,PRONOUN,,,4,"{DUO_02_07,DUO_U09}",,bd6d533d-c173-49c5-95c7-85fe90dd38a6,283,2022-08-08
 "I (femaie, casual)",あたし,あたし,,,PRONOUN,,,1,{GENKI3_L05},,f6c1721c-c476-5815-8e77-f666aab0b5d7,284,2022-09-07
 we (male casual),僕ら,ぼくら,,僕ら,PRONOUN,,,,,,e2a94266-387e-5b7d-8fb2-fe52967f09a8,285,2022-09-17
@@ -612,15 +612,15 @@ clean water,飲み水,のみみず,,飲み水,NOUN,,,,,{water},3fe12824-389b-42d
 soy sauce,醤油,しょうゆ,,醤油,NOUN,,,5,{GENKI3_L18},{food},089c39bb-7a84-4f28-af32-2b0a214e0e6c,611,2022-11-27
 sweet soy sauce,砂糖醤油,さとうじょうゆ,,砂糖醤油,NOUN,,,,,{food},2e969dcf-cabb-4cee-b446-2990e2dc1f79,612,2022-11-27
 rice cracker w/ sweet soy glaze,ぽたぽた焼,ぽたぽたやき,,ぽたぽた焼,NOUN,,,,,{food},507be1d7-9684-4c55-a7b0-c7747cfad3c2,613,2022-11-27
-it is assuredly that...; can say with confidence that...,〜なんです,なんです,,,AUXILIARY,,,,,,c7af2e91-5b5c-478e-b95c-c4167249c7ff,614,2022-11-27
+it is assuredly that...; can say with confidence that...,〜なんです,〜なんです,,,AUXILIARY,,,,,,c7af2e91-5b5c-478e-b95c-c4167249c7ff,614,2022-11-27
 you (male lang; derogatory),お前,おまえ,,お前,NOUN,,,3,,,6a75dd67-15fc-4ae5-8742-5ab9f037aa1a,615,2022-11-27
 "the following, next",翌〜,よく〜,,翌〜,PREFIX,,,,,,778ba9bb-ce07-4049-98ed-9fa73a5c4ae8,616,2022-12-24
 the following day,翌日,よくじつ,,翌日,NOUN,,,,,,e0221c1c-46d8-41a2-84ad-cfae044d6c0a,617,2022-12-24
 two days later; day after next,翌々日,よくよくじつ,,翌々日,NOUN,,,,,,2149878c-3d6e-4063-821d-7eba07487046,618,2022-12-24
 "origin place (country, city)",出身,しゅっしん,,出身,NOUN,,,3,{GENKI3_L11},,7915563f-ead7-42da-b0cb-143692e31c74,619,2022-12-24
-"people counter (e.g. seating, reservations), formal",〜名,めい,,〜名,COUNTER,,,,,,168c01b9-0da1-457d-9106-23c7522b704a,620,2022-12-24
-...room,〜室,しつ,,〜室,SUFFIX,,,1,,,4819b7d2-e342-4f75-a37c-f310a8897f6c,621,2022-12-24
-...shop,〜屋,や,,〜屋,SUFFIX,,,,{GENKI3_L20},,723f71ed-a490-4215-a2d2-383cb457a9d0,622,2022-12-24
+"people counter (e.g. seating, reservations), formal",〜名,〜めい,,〜名,COUNTER,,,,,,168c01b9-0da1-457d-9106-23c7522b704a,620,2022-12-24
+...room,〜室,〜しつ,,〜室,SUFFIX,,,1,,,4819b7d2-e342-4f75-a37c-f310a8897f6c,621,2022-12-24
+...shop,〜屋,〜や,,〜屋,SUFFIX,,,,{GENKI3_L20},,723f71ed-a490-4215-a2d2-383cb457a9d0,622,2022-12-24
 "fast, quick",速い,はやい,,速い,ADJECTIVE,I_ADJECTIVE,,5,{GENKI3_L07},,08d3f50a-8030-47ad-97a7-afa79f92a71f,623,2022-12-24
 "yeah, yes (informal)",うん,うん,,,INTERJECTION,,,,{GENKI3_L08},,24fca95f-34e4-4585-965e-3a6440e60594,624,2022-12-24
 "um, er, well; no (informal)",ううん,ううん,,,INTERJECTION,,,,{GENKI3_L08},,ab2654c4-b1ce-42b2-9e8e-1885ff4b567e,625,2022-12-29
@@ -667,7 +667,7 @@ to gain weight,太る,ふとる,,太る,VERB,GODAN_VERB,,5,{GENKI3_L07},,0ef4603
 overweight,太っています,ふとっています,,太っています,EXPRESSION,,,,{GENKI3_L07},,1965b2ae-4c4e-4cce-8f27-e323e4f2d5fe,666,2022-12-28
 to lose weight,痩せる,やせる,,痩せる,VERB,ICHIDAN_VERB,,4,{GENKI3_L07},,44794c0c-bc96-4815-b8d1-2bcf7ccb4106,667,2022-12-28
 thin,痩せています,やせています,,痩せています,EXPRESSION,,,,{GENKI3_L07},,2912e4e8-bfc0-4028-aa24-90d1fe929e2b,668,2022-12-28
-...but,〜が,が,,,CONJUNCTION,,,,{GENKI3_L07},,08cb3130-9ccd-48cc-ae70-d4cf06813d70,669,2023-01-16
+...but,〜が,〜が,,,CONJUNCTION,,,,{GENKI3_L07},,08cb3130-9ccd-48cc-ae70-d4cf06813d70,669,2023-01-16
 not ... anything (with negative),何も,なにも,,何も,EXPRESSION,,,3,{GENKI3_L07},,471243c4-6f8b-4475-931f-7e5920c2c681,670,2023-01-16
 not particularly; nothing in particular,別に,べつに,,別に,ADVERB,,,3,{GENKI3_L07},,fe322488-4642-45ac-acfa-cbe0563d3f08,671,2023-01-16
 if you like,よかったら,よかったら,,良かったら,EXPRESSION,,,,{GENKI3_L07},,41e2eb76-ea86-488c-97fd-9d8fef5b82ad,672,2023-01-16
@@ -1521,7 +1521,7 @@ shampoo,シャンプー,しゃんぷう,,,NOUN,,,,{GENKI3_L18},,a5fcbdde-e89e-4e
 candle,ろうそく,ろうそく,,蝋燭,NOUN,,,2,{GENKI3_L18},,a26a57ae-5a9c-40d7-bd06-88dad5ccdf52,1520,2024-06-01
 towel,タオル,たおる,,,NOUN,,,3,{GENKI3_L18},,049702a7-2da1-4036-a1af-34867f8a9b95,1521,2024-06-01
 skirt,スカート,すかあと,,,NOUN,,,5,{GENKI3_L18},,4aac7faf-48de-442d-9296-4cd705a1cad5,1522,2024-06-01
-cell phone,携帯電話,けいたいでんわ,,携帯電話,NOUN,,,1,{GENKI3_L18},,68f49f4c-c490-447f-ab48-bc5389b7c8d5,1523,2024-06-02
+cell phone,携帯,けいたい,,携帯電話,NOUN,,,1,{GENKI3_L18},,68f49f4c-c490-447f-ab48-bc5389b7c8d5,1523,2024-06-02
 rent,家賃,やちん,,家賃,NOUN,,,3,{GENKI3_L18},,602c99a2-348f-40f2-8366-08a0d29a88aa,1524,2024-06-02
 the rest,後,あと,,後,NOUN,,,5,{GENKI3_L18},,ff17280e-7aa5-461c-8560-cff8dab53bed,1525,2024-06-02
 early evening,夕方,ゆうがた,,夕方,NOUN,,,5,{GENKI3_L18},,f0354fed-6ca7-44cf-a6b6-e3178750be67,1526,2024-06-02
@@ -1603,7 +1603,7 @@ be on good/close terms; to get along well,仲がいい,なかがいい,,仲が�
 呉れる（敬語）,下さる,くださる,,下さる,VERB,ARU_SPECIAL_CLASS_VERB,,3,{GENKI3_L19},{keigo},ae803f19-cac8-4853-b281-6e01db882644,1602,2024-08-05
 する（敬語）,なさる,なさる,,為さる,VERB,ARU_SPECIAL_CLASS_VERB,,4,{GENKI3_L19},{keigo},059066ab-6a12-45fb-8ee7-752c1eaa26db,1603,2024-08-05
 寝る（敬語）,お休みになる,おやすみになる,,お休みになる,VERB,GODAN_VERB,,,{GENKI3_L19},{keigo},cf7fc5d3-f79b-497d-a7d0-a5c33e5f7a91,1604,2024-08-05
-見る（敬語）,ご覧にする,ごらんにする,,ご覧にする,VERB,GODAN_VERB,,,{GENKI3_L19},{keigo},93925eff-c22a-44f1-972e-594b0ccb2a9f,1605,2024-10-03
+見る（敬語）,ご覧になる,ごらんになる,,ご覧になる,VERB,GODAN_VERB,,,{GENKI3_L19},{keigo},93925eff-c22a-44f1-972e-594b0ccb2a9f,1605,2024-10-03
 言う（敬語）,おっしゃる,おっしゃる,,仰る,VERB,ARU_SPECIAL_CLASS_VERB,,4,{GENKI3_L19},{keigo},28c97dc8-1a2d-4f38-8e18-658b9fa2f2b1,1606,2024-08-05
 〜ている（敬語）,〜ていらっしゃる,〜ていらっしゃる,,,VERB,ARU_SPECIAL_CLASS_VERB,,,{GENKI3_L19},{keigo},d87411c1-69b7-4606-b2e4-43f0a6d3b0c2,1607,2024-08-05
 to get angry,怒る,おこる,,怒る,VERB,GODAN_VERB,,4,{GENKI3_L19},,f084400f-900f-4d79-9703-240785d3e0f4,1608,2024-08-05
@@ -1672,8 +1672,8 @@ mysterious,不思議,ふしぎ,,不思議,ADJECTIVE,NA_ADJECTIVE,,3,{GENKI3_L20}
 食べる・飲む・もらう（謙譲語）,頂く,いただく,,頂く,VERB,GODAN_VERB,,3,{GENKI3_L20},{kenkoujo},02af0a78-119f-4f0d-b50d-5145cb69b0ad,1671,2024-09-28
 ある（謙譲語）,ござる,ござる,,御座る,VERB,ARU_SPECIAL_CLASS_VERB,,,{GENKI3_L20},{kenkoujo},10e2319d-1f4a-4e89-a85e-f021c28808ee,1672,2024-09-28
 〜ている（謙譲語）,〜ておる,〜ておる,,,VERB,GODAN_VERB,,,{GENKI3_L20},{kenkoujo},161ee0d6-8897-401f-8f24-258bb5906f61,1673,2024-09-28
-〜てす（謙譲語）,〜でござる,〜でござる,,,VERB,ARU_SPECIAL_CLASS_VERB,,,{GENKI3_L20},{kenkoujo},1f7c1e15-31b3-45a0-9b35-04a2134551a3,1674,2024-09-28
-あげる（謙譲語）,差し上げる,さしあげる,,差し上げる,VERB,ICHIDAN_VERB,,4,{GENKI3_L20},{kenkoujo},edde1bda-5c7f-4fdc-bc60-03c6cfb61a5e,1675,2024-09-28
+〜です（謙譲語）,〜でござる,〜でござる,,,VERB,ARU_SPECIAL_CLASS_VERB,,,{GENKI3_L20},{kenkoujo},1f7c1e15-31b3-45a0-9b35-04a2134551a3,1674,2024-09-28
+あげる（謙譲語）,差し上げる,さしあげる,,差し上げる,VERB,ARU_SPECIAL_CLASS_VERB,,4,{GENKI3_L20},{kenkoujo},edde1bda-5c7f-4fdc-bc60-03c6cfb61a5e,1675,2024-09-28
 to go back; to return; to come back,戻る,もどる,,戻る,VERB,GODAN_VERB,,4,{GENKI3_L20},,a61ace2b-0279-448f-9ad7-298a263f82d8,1676,2024-09-28
 to convey a message,伝える,つたえる,,伝える,VERB,ICHIDAN_VERB,,4,{GENKI3_L20},,30c022eb-014f-4ca0-a25a-629c049b3979,1677,2024-09-28
 to keep (someone) waiting,待たせる,またせる,,待たせる,VERB,ICHIDAN_VERB,,,{GENKI3_L20},,237c293d-2117-46e1-bf38-c8a28db8d2ae,1678,2024-09-28
