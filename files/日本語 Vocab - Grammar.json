@@ -4968,7 +4968,7 @@
         "id": "f3666a45-9f66-4a7a-b0be-36f4fd675162",
         "meaning": "Friend: Tomorrow is my birthday.<br/>You: I hope you get lots of presents.",
         "text": {
-          "spelling": "{友達|とも・だち}：{明日|あした}は{私|わたし}の{誕生日|たん・じょう・び}なんです。<br/>あなた：プレゼントがたくさんもらえるといいね。"
+          "spelling": "{友達|とも・だち}：{明日|あした}は{私|わたし}の{誕生日|たん・じょう・び}なんです。<br/>あなた：プレゼントがたくさんもらえるといいですね。"
         },
         "lesson_codes": ["GENKI3_L16"],
         "tags": []
@@ -5010,7 +5010,7 @@
         "id": "fe8920e7-3bac-4047-989e-74c867f092f5",
         "meaning": "I have to give a presentation tomorrow. I hope I will not be too nervous.",
         "text": {
-          "spelling": "{明日|あした}、{発表|はっ・ぴょう}しないればいけません。{緊張|きん・ちょう}しすぎないといいんだけど。"
+          "spelling": "{明日|あした}、{発表|はっ・ぴょう}しなければいけません。{緊張|きん・ちょう}しすぎないといいんだけど。"
         },
         "lesson_codes": ["GENKI3_L16"],
         "tags": []
@@ -5343,7 +5343,7 @@
       },
       {
         "id": "726221d7-97a0-48f7-a062-1959ed9e3a5d",
-        "meaning": "Check the depth (lit., deepness) of the swimming pool.",
+        "meaning": "Check the depth (lit., deepness) of the swimming pool before you get in.",
         "text": {
           "spelling": "プールの<u>{深|ふか}さ</u>を{確認|かくにん}してから{入|は}ろう。"
         },
@@ -5358,6 +5358,81 @@
   },
 
   {"COMMENT": "GENKI LESSON 17"},
+  {
+    "id": "2d74b2f3-9351-4969-975c-3f5f4168e132",
+    "title": "②　〜そうです",
+    "meaning": "I hear that... (hearsay report)",
+    "how_to_use": [
+      "verb + そうです",
+      "い-adj + そうです",
+      "な-adj + そうです",
+      "noun + だ + そうです",
+      "Use original tense and polarity of original utterance, except です ⟶ だ",
+      "そうです itself is invariant, being only そうです and そうだ.",
+      "c.f. adjectives with stem are \"it looks like\" (see ①)"
+    ],
+    "examples": [
+      {
+        "id": "4f926bcd-8283-4264-b8ee-aacec403e1d8",
+        "meaning": "I've heard that their Japanese class is fun.",
+        "text": {
+          "spelling": "{日本語|に・ほん・ご}の{授業|じゅ・ぎょう}は{楽|たの}しいそうです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "ad5c249c-d4db-407a-9cf0-15eabcffdb17",
+        "meaning": "I've heard that their professor is very kind.",
+        "text": {
+          "spelling": "{先生|せん・せい}はとても{親切|しん・せつ}だそうです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "b443fcee-5d58-4788-8817-0040f4d49f04",
+        "meaning": "I've heard that they didn't have a class that day.",
+        "text": {
+          "spelling": "その{日|ひ}は{授業|じゅ・ぎょう}がなかったそうです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "e5a3b620-7aac-45b4-bbdc-ea753f863d3c",
+        "meaning": "I hear my friend's dormitory is not dirty.",
+        "text": {
+          "spelling": "{私|わたし}の{友達|とも・だち}の{寮|りょう}は{汚|きたな}くないそうです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "5d6089b8-1ef7-4bfd-b329-6b39a2a05d21",
+        "meaning": "I hear the movie theater was not crowded.",
+        "text": {
+          "spelling": "{映画館|えい・が・かん}は{混|こ}んでいなかったそうです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "ade6c757-cad0-4582-a267-0c44ddd38def",
+        "meaning": "A: Conerning your classmates, what do you know?<br/>I hear that sally broke-up with their boyfriend.",
+        "text": {
+          "spelling": "Ａ：{同|おな}じクラスの{学生|せん・せい}について{何|なに}か{知|し}っていますか。<br/>Ｂ：はい。サリーさんは{彼|かれ}と{別|わか}れたそうです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-11-12",
+    "lesson_codes": ["GENKI3_L17"],
+    "tags": []
+  },
+
   {"COMMENT": "GENKI LESSON 18"},
   {"COMMENT": "GENKI LESSON 19"},
   {"COMMENT": "GENKI LESSON 20"},
