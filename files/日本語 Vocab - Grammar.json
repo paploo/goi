@@ -5482,6 +5482,61 @@
     "lesson_codes": ["GENKI3_L17"],
     "tags": []
   },
+  {
+    "id": "34f93e5e-381c-41e7-a04f-83f017e84a9a",
+    "title": "〜て",
+    "meaning": "Quote what you have heard (informal 〜そうです)",
+    "how_to_use": [
+      "verb (shortened) + って",
+      "verb (shortened) + って + 行っている",
+      "exact quote + って",
+      "exact quote + って + 行っている",
+      "Note: って ⟶ て after ん",
+      "Note: って is the informal variant of the particle と"
+    ],
+    "examples": [
+      {
+        "id": "bebf136d-3f2d-49be-a2fb-f58bb989791f",
+        "meaning": "Hoshino says he's busy today. She says he has an exam tomorrow.",
+        "text": {
+          "spelling": "{星野|ほし・の}さん、{今日|きょう}は{忙|いそが}しい<u>って</u>。{明日|あした}、{試験|しけん}あるんだ<u>って</u>。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "3580fee4-a30f-4288-ab1c-60520bd67e8e",
+        "meaning": "A: What did Tsumugi Kotobuki say?<br/>B: She said she ate too much chocolate.",
+        "text": {
+          "spelling": "Ａ：{琴吹|こと・ぶき}{紬|つむぎ}さんは{何|なに}<u>て</u>{言|い}ってか？<br/>Ｂ：チョコを{食|た}べすぎた<u>って</u>{言|い}ってた。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "16b8aabd-2e4c-44b0-b6b6-dc0bcc2c58da",
+        "meaning": "Did you see the news? It said the Yen has become high again.",
+        "text": {
+          "spelling": "ニュース{見|み}た？また{円|えん}が{高|たか}くなったって。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "a20f1f0f-fc14-48e2-b743-faa1d7b9dc1f",
+        "meaning": "Did you hear? I hear the teacher is sick.",
+        "text": {
+          "spelling": "{聞|き}いた？{先生|せん・せい}は{病気|びょう・き}だって。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-11-13",
+    "lesson_codes": ["GENKI3_L17"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 18"},
   {"COMMENT": "GENKI LESSON 19"},
