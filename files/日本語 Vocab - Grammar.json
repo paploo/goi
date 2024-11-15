@@ -3851,7 +3851,7 @@
   {
     "id": "706ea9f3-62e6-4604-97bd-34997150f05a",
     "title": "ＡはＢにあげる<br/>ＡはＢにくれる",
-    "meaning": "G gives to R",
+    "meaning": "A gives to B",
     "how_to_use": [
       "giver + は/が + recipient + に + あげる ⟶ moving away, between others",
       "giver + は/が + recipient + に + くれる ⟶ moving closer"
@@ -5534,6 +5534,87 @@
     ],
     "jlpt_level": null,
     "date_added": "2024-11-13",
+    "lesson_codes": ["GENKI3_L17"],
+    "tags": []
+  },
+  {
+    "id": "9a1a1644-2912-47ae-8148-8c3e94f1b327",
+    "title": "〜たら",
+    "meaning": "If/when A, then B",
+    "how_to_use": [
+      "condition + から + result",
+      "Can be used in three ways:",
+      "1. If A, then B (where t<sub>a</sub> ⋜ t<sub>b</sub>)",
+      "2. A <i>probable</i> condition (e.g. when A then B)",
+      "3. A <i>hypothetical</i> condition's result"
+    ],
+    "examples": [
+      {
+        "id": "ca0f7a06-bb4b-4818-94b3-d6c786677961",
+        "meaning": "If and when I go to Japan, I will buy a kimono.",
+        "text": {
+          "spelling": "{日本|に・ほん}に{行|い}ったら、{着物|き・もの}を{買|か}います。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "7613cece-2424-4f32-9d7e-ba020e5b8ce3",
+        "meaning": "If somebody is a Japanese person, then they will probably know this word.",
+        "text": {
+          "spelling": "{日本人|に・ほん・じん}だったら、この{言葉|こと・ば}を{知|し}っているでしょう。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "914ec8d7-8a5e-4c57-a708-ce144e250dfa",
+        "meaning": "When we are done with the homework, let's go out and have some fun.<br/>(lit. when and if the homework is finished, let's go out and have fun.",
+        "text": {
+          "spelling": "{宿題|しゅく・だい}が{終|お}わったら、{遊|あそ}びに{行|い}きましょう。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "88eb1fdb-89e1-4cc7-849d-8e6d403de9b0",
+        "meaning": "If I had a million yen, I would buy a car.",
+        "text": {
+          "spelling": "{１００|ひゃく}{万|まん}{円|えん}あったら、{車|くるま}を{買|か}うんですけど。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "4954e5d8-1b8b-4ee8-b5c2-f02e85333ace",
+        "meaning": "If you are interested in this part-time job, please call me.",
+        "text": {
+          "spelling": "このアルバイトに{興味|きょう・み}があったら、{電話|でん・わ}して{下|くだ}さい。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "c9061a48-30d8-4022-8c83-db912af2a90b",
+        "meaning": "If the weather is not good, we will not go camping.",
+        "text": {
+          "spelling": "{天気|てん・き}が{良|よ}くなかったら、キャンプに{行|い}きません。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "016815b7-a3f3-4fff-b24d-802789ca9660",
+        "meaning": "If I were a cat, I would be asleep all day long.",
+        "text": {
+          "spelling": "{私|わたし}が{猫|ねこ}だったら、{一日中|いち・にち・じゅう}{寝|ね}ているでしょう。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-11-14",
     "lesson_codes": ["GENKI3_L17"],
     "tags": []
   },
