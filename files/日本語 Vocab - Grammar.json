@@ -4299,7 +4299,7 @@
         "id": "ab8adb6a-9105-43cb-94d7-56c0017a4df8",
         "meaning": "A: We won't have any classes tomorrow. Lets go somewhere this evening.<br/>B: Sounds good. Let's do so.",
         "text": {
-          "spelling": "Ａ：{明日|あした}は{授業|じゅ・ぎょう}がないから、{今晩|こん・ばん}どこかにいこう。<br/>Ｂ：いいね。そうしよう。"
+          "spelling": "Ａ：{明日|あした}は{授業|じゅ・ぎょう}がないから、{今晩|こん・ばん}どこかに{行|い}こう。<br/>Ｂ：いいね。そうしよう。"
         },
         "lesson_codes": ["GENKI3_L15"],
         "tags": []
@@ -5484,13 +5484,13 @@
   },
   {
     "id": "34f93e5e-381c-41e7-a04f-83f017e84a9a",
-    "title": "〜て",
+    "title": "〜って",
     "meaning": "Quote what you have heard (informal 〜そうです)",
     "how_to_use": [
       "verb (shortened) + って",
-      "verb (shortened) + って + 行っている",
+      "verb (shortened) + って +　言っている",
       "exact quote + って",
-      "exact quote + って + 行っている",
+      "exact quote + って + 言っている",
       "Note: って ⟶ て after ん",
       "Note: って is the informal variant of the particle と"
     ],
