@@ -5462,7 +5462,7 @@
         "id": "524bac82-3e67-49fd-b498-06501ed6512f",
         "meaning": "According to Kōsaka Reina, tomorrow there is no class.",
         "text": {
-          "spelling": "{高坂|こう・さか}{麗奈|れいな}んによると、{明日|あした}は{授業|じゅ・ぎょう}がないそうです。"
+          "spelling": "{高坂|こう・さか}{麗奈|れいな}さんによると、{明日|あした}は{授業|じゅ・ぎょう}がないそうです。"
         },
         "lesson_codes": ["GENKI3_L17"],
         "tags": []
@@ -5488,7 +5488,7 @@
     "meaning": "Quote what you have heard (informal 〜そうです)",
     "how_to_use": [
       "verb (shortened) + って",
-      "verb (shortened) + って +　言っている",
+      "verb (shortened) + って + 言っている",
       "exact quote + って",
       "exact quote + って + 言っている",
       "Note: って ⟶ て after ん",
@@ -5542,7 +5542,7 @@
     "title": "〜たら",
     "meaning": "If/when A, then B",
     "how_to_use": [
-      "condition + から + result",
+      "condition + たら + result",
       "Can be used in three ways:",
       "1. If A, then B (where t<sub>a</sub> ⋜ t<sub>b</sub>)",
       "2. A <i>probable</i> condition (e.g. when A then B)",

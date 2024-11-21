@@ -643,7 +643,7 @@ cafeteria; dining commons,食堂,しょくどう,,食堂,NOUN,,,5,{GENKI3_L07},,
 department store,デパート,でぱあと,,,NOUN,,,5,{GENKI3_L07},,ede7bbcc-5506-4d37-bbf2-802b22422332,642,2022-12-26
 hair (on the head),髪,かみ,,髪,NOUN,,,5,{GENKI3_L07},{body},fe9c2565-7cc3-4bbe-8c25-6a2302f83953,643,2022-12-26
 glasses,メガネ,めがね,,眼鏡,NOUN,,,5,{GENKI3_L07},,9a7a411c-754d-4e0a-a0ba-0641b5dbec0e,644,2022-12-26
-song,歌,うた,,歌,NOUN,,,5,{GENKI3_L07},,ea726385-922e-4bd4-a05e-85b7ca9d66b7,645,2022-12-26
+song,歌,うた,,歌,NOUN,,,5,{GENKI3_L07},{music},ea726385-922e-4bd4-a05e-85b7ca9d66b7,645,2022-12-26
 club; group with common interests,サークル,さあくる,,,NOUN,,,2,{GENKI3_L07},,74bc8dc3-881d-4428-b957-086adf3e18a2,646,2022-12-26
 car,車,くるま,,車,NOUN,,,5,{GENKI3_L07},{transportation},2e35a029-8475-408a-bf4a-f56b7bd14035,647,2022-12-26
 automobile,自動車,じどうしゃ,,自動車,NOUN,,,5,,{transportation},deb28223-ab48-4a06-a709-fdb7202b3c2b,648,2022-12-26
@@ -762,11 +762,11 @@ essay; composition,作文,さくぶん,,作文,NOUN,,,5,{GENKI3_L09},,6ee0a6e5-b
 exam,試験,しけん,,試験,NOUN,,,4,{GENKI3_L09},,652d34ae-2c67-445c-925a-d1a8aca23f20,761,2023-03-10
 letter,手紙,てがみ,,手紙,NOUN,,,5,{GENKI3_L09},,a79213fe-a7b9-4989-aa85-73fa00237949,762,2023-03-10
 e-mail,メール,めえる,,,NOUN,,,,{GENKI3_L09},,3a5c4261-8b08-4021-af55-a19f1409e63a,763,2023-03-10
-guitar,ギター,ぎたあ,,,NOUN,,,5,{GENKI3_L09},,59017b2b-8226-4224-99e4-60df933d488a,764,2023-03-10
-piano,ピアノ,ぴあの,,,NOUN,,,4,{GENKI3_L09},,fd75b102-e26c-408b-9151-eaa7d41adef8,765,2023-03-10
-bass (e.g. electric),ベース,べえす,,,NOUN,,,,,,a6524d4d-46e9-4be3-9c49-10f3e2f2f512,766,2023-03-10
-"drums, drum kit",ドラム,どらむ,,,NOUN,,,,,,d9bb6ddb-817a-4ce4-820e-333b51261c30,767,2023-03-10
-concert,コンサート,こんさあと,,,NOUN,,,4,{GENKI3_L09},,19d30b02-efe9-41ce-852a-6e996f02f17b,768,2023-03-10
+guitar,ギター,ぎたあ,,,NOUN,,,5,{GENKI3_L09},{music},59017b2b-8226-4224-99e4-60df933d488a,764,2023-03-10
+piano,ピアノ,ぴあの,,,NOUN,,,4,{GENKI3_L09},{music},fd75b102-e26c-408b-9151-eaa7d41adef8,765,2023-03-10
+bass (e.g. electric),ベース,べえす,,,NOUN,,,,,{music},a6524d4d-46e9-4be3-9c49-10f3e2f2f512,766,2023-03-10
+"drums, drum kit",ドラム,どらむ,,,NOUN,,,,,{music},d9bb6ddb-817a-4ce4-820e-333b51261c30,767,2023-03-10
+concert,コンサート,こんさあと,,,NOUN,,,4,{GENKI3_L09},{music},19d30b02-efe9-41ce-852a-6e996f02f17b,768,2023-03-10
 ticket (entertainment),チケット,ちけっと,,,NOUN,,,,{GENKI3_L09},,c9aad9d3-dfe2-465c-a000-476901e1b94a,769,2023-03-10
 traditional Japanese theatre,歌舞伎,かぶき,,歌舞伎,NOUN,,,,{GENKI3_L09},,bbb70bc8-e357-4e83-ace0-6ccbd026b085,770,2023-03-10
 ski,スキー,すきい,,,NOUN,,,3,{GENKI3_L09},,e6692a64-ee00-4ec6-82c4-880096c489c6,771,2023-03-10
@@ -915,7 +915,7 @@ stand; stall; booth; kiosk; shop,売店,ばいてん,,売店,NOUN,,,2,{GENKI3_L1
 stairs,階段,かいだん,,階段,NOUN,,,5,{GENKI3_L10},,2881ef43-dfbc-4019-8566-4b821f8769af,914,2023-04-29
 entrance,入口,いりぐち,,入口,NOUN,,,5,{GENKI3_L10},,3689d8f9-eee4-466a-a652-e0db02f6bfc1,915,2023-04-29
 "switch (method, ideology); transfer (train)",乗り換え,のりかえ,,乗り換え,NOUN,,,2,{GENKI3_L10},,866880a4-d2d7-4901-a589-4ac45ac3580b,916,2023-04-29
-last train,終電,しゅうでん,,終電,NOUN,,,,{GENKI3_L10},{transportation},89a2831d-04d3-431f-bca4-d3ae7787ed2a,917,2023-04-29
+last train,終電,しゅうでん,,終電,NOUN,,,,"{GENKI3_L10,GENKI3_L21}",{transportation},89a2831d-04d3-431f-bca4-d3ae7787ed2a,917,2023-04-29
 Hokkaido Island/Region,北海道,ほっかいどう,,北海道,PROPER_NOUN,,,,,"{place,island}",2e53e69d-300c-4200-bbd1-79e82adb4668,918,2023-04-30
 Honshu Island,本州,ほんしゅう,,本州,PROPER_NOUN,,,,,"{place,island}",267cf451-fb84-443a-a7d7-fc8835e1a424,919,2023-04-30
 Shikoku Island/Region,四国,しこく,,四国,PROPER_NOUN,,,,,"{place,island}",45389128-6dcc-47e8-8c40-39c7e0a90a7e,920,2023-04-30
@@ -924,7 +924,7 @@ Ryukyu Islands,琉球諸島,りゅうきゅしょとう,,琉球諸島,PROPER_NOU
 Harajuku District (colorful youth fashion),原宿,はらじゅく,,原宿,PROPER_NOUN,,,,,"{place,district}",270c14de-ebb1-4771-aa08-7e3439f010ad,923,2023-04-30
 Akihabara District (epicenter for otaku culture),秋葉原,あきはばら,,秋葉原,PROPER_NOUN,,,,,"{place,district}",f109b166-99ad-4784-b13d-a8eaf22deee9,924,2023-04-30
 Shibuya (main shopping district),渋谷,しぶや,,渋谷,PROPER_NOUN,,,,,"{place,district}",4328a4a6-bc1c-4dc2-b99f-66b2cc5216c2,925,2023-04-30
-composition; piece of music; song; track,曲,きょく,,曲,NOUN,,,1,,,c4f7e413-040d-49fa-a1f5-17702d4b5f26,926,2023-04-30
+composition; piece of music; song; track,曲,きょく,,曲,NOUN,,,1,,{music},c4f7e413-040d-49fa-a1f5-17702d4b5f26,926,2023-04-30
 to repeat,リピートする,りぴいとする,,,VERB,SURU_VERB,,,,,c7d4afa9-bcd9-44db-b270-dcc71ccf43c4,927,2023-04-30
 taxi,タクシー,たくしい,,,NOUN,,,5,{GENKI3_L06},{transportation},f8c0d3c4-9ab7-4331-8a62-d33f66eca40c,928,2023-04-30
 "first, new",初,はつ,,初,PREFIX,,,1,,,968de4b8-c431-4980-bb1e-5e0cf792a434,929,2023-04-30
@@ -1503,7 +1503,7 @@ I wonder... (casual),〜かな,〜かな,,〜かな,EXPRESSION,,,,{GENKI3_L17},,
 "I wonder... (casual, emphasized)",〜かなあ,〜かなあ,,〜かなあ,EXPRESSION,,,,{GENKI3_L17},,4f6ed605-9b42-4778-b5fe-3c0caeb7ac13,1502,2024-05-15
 I see (casual); is that so?,そうか,そうか,,そうか,EXPRESSION,,,,{GENKI3_L17},,66abaa93-653e-4173-829c-0924f65626e0,1503,2024-05-15
 tear (from eye),涙,なみだ,,涙,NOUN,,,3,{GENKI3_READER_L12},,1b8e4840-eedb-496e-9023-dae70e758434,1504,2024-05-15
-the old days,昔,むかし,,昔,NOUN,,,4,{GENKI3_READER_L13},,0d2c779a-527d-44a2-8efe-7868105d3e92,1505,2024-05-15
+the old days,昔,むかし,,昔,NOUN,,,4,"{GENKI3_READER_L13,GENKI3_L21}",,0d2c779a-527d-44a2-8efe-7868105d3e92,1505,2024-05-15
 embarrassing; (to feel) embarrassed,恥ずかしい,はずかしい,,恥ずかしい,ADJECTIVE,I_ADJECTIVE,,4,"{GENKI3_READER_L13,GENKI3_L18}",,c24166c6-8bf8-48de-9ec7-697882ab56f4,1506,2024-05-15
 to think about; to consider,考える,かんがえる,,考える,VERB,ICHIDAN_VERB,,4,"{GENKI3_READER_L13,GENKI3_L18}",,8aa2d467-3d50-4ec9-ab1c-33317b1bc2dc,1507,2024-05-15
 insect,虫,むし,,虫,NOUN,,,4,{GENKI3_L18},,452ff08f-a65e-49e2-a7e7-b174ddd7e8c1,1508,2024-05-15
@@ -1699,7 +1699,7 @@ weak,弱い,よわい,,弱い,ADJECTIVE,I_ADJECTIVE,,5,,,cd3abe41-7439-4703-9580
 "continuously, throughout",ずっと,ずっと,,,ADVERB,,,3,,,63266896-d0e5-4a74-b6ce-5b0c3a106225,1698,2024-11-10
 "softly, gently",ふわり,ふわり,,,ADVERB,,,,,,0c0e30cd-bc84-4d09-98f3-e0b5cd3fad82,1699,2024-11-10
 "youth, adolescent",青春,せいしゅん,,青春,NOUN,,,,,,8df4083c-771c-4bd1-94dd-097923a59aff,1700,2024-11-10
-wind ensemble,吹奏楽,すいそうがく,,吹奏楽,NOUN,,,,,,5ec210c6-c81c-4bba-a102-f0584c99d40c,1701,2024-11-10
+wind ensemble,吹奏楽,すいそうがく,,吹奏楽,NOUN,,,,,{music},5ec210c6-c81c-4bba-a102-f0584c99d40c,1701,2024-11-10
 computer programmer,コンピュータプログラマー,こんぴゅうたぷろぐらまあ,,,NOUN,,,,,,77c1b0ad-2ffe-4851-b1ec-2661690b22f6,1702,2024-11-10
 to lose; to be defeated,負ける,まける,,,VERB,ICHIDAN_VERB,,4,,,1ca05864-5aaa-4315-999f-fbf15908c156,1703,2024-11-10
 to trust,信じる,しんじる,,信じる,VERB,ICHIDAN_VERB,,3,,,dfd63003-9519-4ab1-bf8e-f88986234a52,1704,2024-11-10
@@ -1709,3 +1709,20 @@ dragon fly,蜻蛉,とんぼ,,蜻蛉,NOUN,,,,,{animal},f749225e-0615-4cab-81d3-07
 dragon,竜,りゅう,,竜,NOUN,,,,,{animal},70955687-bded-40a8-a7b8-f9db891e535c,1708,2024-11-10
 et cetera,など,など,,,PARTICLE,,,5,{GENKI3_READER_L14},,5c2b0e3d-8acc-43da-be65-3cff447d3e00,1709,2024-11-10
 main hall of a shinto shrine,本殿,ほんでん,,本殿,NOUN,,,,,{shinto},d2dbba5e-08a9-4f05-bdfd-9cbf09bc7cc0,1710,2024-11-10
+"groper, pervert",痴漢,ちかん,,痴漢,NOUN,,,,{GENKI3_L21},,f20a5554-49f3-4bfa-a33a-1235829044cf,1711,2024-11-21
+"thief, burglar",泥棒,どろぼう,,泥棒,NOUN,,,4,{GENKI3_L21},,d101ff63-db0d-4174-9cf5-7dbeec3f8ffd,1712,2024-11-21
+criminal,犯人,はんにん,,犯人,NOUN,,,3,{GENKI3_L21},,4270c289-50e5-4992-ba2f-7210f5a253ce,1713,2024-11-21
+"colleague, coworker",同僚,どうりょう,,同僚,NOUN,,,3,{GENKI3_L21},,6cc472a0-541f-4db6-8762-3932f1178a28,1714,2024-11-21
+busines meeting; conference,会議,かいぎ,,会議,NOUN,,,4,{GENKI3_L21},,79616589-66ec-41e0-89c6-e975f9b3e9e1,1715,2024-11-21
+speech,スピーチ,すぴいち,,,NOUN,,,3,{GENKI3_L21},,eabee63e-1f37-4c79-85dd-9e086392c198,1716,2024-11-21
+mosquito,蚊,か,,蚊,NOUN,,,2,{GENKI3_L21},,cfb9964e-84f3-45c5-be95-c804ca69fcee,1717,2024-11-21
+gasoline,ガソリン,がそりん,,,NOUN,,,4,{GENKI3_L21},,c814ee2a-71a2-4198-b2fa-e4d2b039ddc2,1718,2024-11-21
+poster,ポスター,ぽすたあ,,,NOUN,,,2,{GENKI3_L21},,751dc9e5-6b14-4856-858f-ee425c316ccc,1719,2024-11-21
+complaint,文句,もんく,,文句,NOUN,,,3,{GENKI3_L21},,4af20701-20a3-4032-b4a9-8db435f6fe02,1720,2024-11-21
+absence; not at home,留守,るす,,留守,NOUN,,,4,{GENKI3_L21},,d1f8abf6-9f5b-4561-9bf4-cc8767fc9980,1721,2024-11-21
+politice; police station,警察,けいさつ,,警察,NOUN,,,4,{GENKI3_L21},,a7dfedcd-7f28-4124-ae98-478851eed94b,1722,2024-11-21
+government,政府,せいふ,,政府,NOUN,,,3,{GENKI3_L21},,bc34de51-e514-437a-831f-129e0a0edb82,1723,2024-11-21
+tuition ,授業料,じゅぎょうりょう,,授業料,NOUN,,,,{GENKI3_L21},,daf3139a-0f09-41e4-855d-abaf9c7f49c3,1724,2024-11-21
+factory,工場,こうじょう,,工場,NOUN,,,4,{GENKI3_L21},,ba5f770d-d36a-4096-9285-e9acec1ec326,1725,2024-11-21
+environment,環境,かんきょう,,環境,NOUN,,,3,{GENKI3_L21},,0cb6d94f-1a25-4c64-b96b-8755e8c9db0d,1726,2024-11-21
+things; matters,事,こと,,事,NOUN,,,3,{GENKI3_L21},,fde76ba2-ec6a-4dce-8df9-79a83065bca6,1727,2024-11-21
