@@ -1446,7 +1446,7 @@ two glasses/bowls,２杯,にはい,,二杯,NOUN,,,,,,fbf33bb3-f11a-44d4-a59f-b99
 three glasses/bowls,３杯,さんばい,,三杯,NOUN,,,,,,da782139-dc10-4ba4-b003-5e915cba3e4e,1445,2024-04-17
 tomorrow (formal),明日,あす,,明日,NOUN,,,5,,{time},faff99b4-bfdd-49ba-8783-8517d19b30a9,1446,2024-04-17
 to play (wind instrument),吹く,ふく,,吹く,VERB,GODAN_VERB,,5,{GENKI3_L13},{music},e70cd0fe-1339-478d-b109-813ef7aeb164,1447,2024-04-17
-far away,遠い,とおい,,遠い,ADJECTIVE,I_ADJECTIVE,,5,{GENKI3_READER_L12},,696eccdb-d5f4-41b9-8b7f-ebe6928e665a,1448,2024-04-17
+far away,遠い,とおい,,遠い,ADJECTIVE,I_ADJECTIVE,,5,"{GENKI3_READER_L12,GENKI3_L21}",,696eccdb-d5f4-41b9-8b7f-ebe6928e665a,1448,2024-04-17
 "easy, simple, without trouble, without hardships",楽,らく,,楽,ADJECTIVE,NA_ADJECTIVE,,3,,,6636837d-f8bf-43d2-92fd-39b5cbc97d72,1449,2024-04-18
 baby,赤ちゃん,あかちゃん,,赤ちゃん,NOUN,,,4,{GENKI3_L17},,a70f8cb4-4093-4dbc-9739-4b40f2a8aa52,1450,2024-04-17
 "guest, visitor; client, customer",お客さん,おきゃくさん,,お客さん,NOUN,,,,{GENKI3_L17},,897f454d-bee9-4a54-bc0b-198f1fba9e21,1451,2024-04-17
@@ -1579,7 +1579,7 @@ good looking,ようさそう,ようさそう,,良さそう,ADJECTIVE,NA_ADJECTIV
 to make a mistake,間違える,まちがえる,,間違える,VERB,ICHIDAN_VERB,TRANSITIVE,4,{GENKI3_READER_L13},,66cc7983-986c-4974-b0e4-a7abc7acda76,1578,2024-07-01
 why don't you... (conveys recommendation),〜たらどうですか,〜たらどうですか,,,EXPRESSION,,,,{GENKI3_L14},,9942821e-62fb-4968-81bb-cf98009fedbd,1579,2024-07-04
 welcome (informal),ようこそ,ようこそ,,,EXPRESSION,,,,{GENKI3_L19},,dbf03566-67c9-436c-9a3f-9f2818c3062c,1580,2024-07-31
-to put down; to set down; to place; to put,おく,おく,,置く,VERB,GODAN_VERB,,5,,,37fb1652-33a1-4c68-b948-50c9bbe1d253,1581,2024-07-31
+to put down; to set down; to place; to put,おく,おく,,置く,VERB,GODAN_VERB,,5,{GENKI3_L21},,37fb1652-33a1-4c68-b948-50c9bbe1d253,1581,2024-07-31
 to do something in advance,〜おく,〜おく,,〜置く,VERB,GODAN_VERB,,5,{GENKI3_L15},{auxiliary},7db0cf68-70b1-4fa4-908b-d2983037ace8,1582,2024-07-31
 "foreign, abroad, overseas",海外,かいがい,,海外,NOUN,,,3,{GENKI3_L15},,581c9e4c-b0f7-48f4-9ffd-241f495306f2,1583,2024-07-31
 wife (polite),奥様,おくさま,,奥様,NOUN,,,,{GENKI3_L19},,f29d0d55-2911-4d19-aa36-e4eb4c21ba82,1584,2024-07-28
@@ -1709,20 +1709,24 @@ dragon fly,蜻蛉,とんぼ,,蜻蛉,NOUN,,,,,{animal},f749225e-0615-4cab-81d3-07
 dragon,竜,りゅう,,竜,NOUN,,,,,{animal},70955687-bded-40a8-a7b8-f9db891e535c,1708,2024-11-10
 et cetera,など,など,,,PARTICLE,,,5,{GENKI3_READER_L14},,5c2b0e3d-8acc-43da-be65-3cff447d3e00,1709,2024-11-10
 main hall of a shinto shrine,本殿,ほんでん,,本殿,NOUN,,,,,{shinto},d2dbba5e-08a9-4f05-bdfd-9cbf09bc7cc0,1710,2024-11-10
-"groper, pervert",痴漢,ちかん,,痴漢,NOUN,,,,{GENKI3_L21},,f20a5554-49f3-4bfa-a33a-1235829044cf,1711,2024-11-21
-"thief, burglar",泥棒,どろぼう,,泥棒,NOUN,,,4,{GENKI3_L21},,d101ff63-db0d-4174-9cf5-7dbeec3f8ffd,1712,2024-11-21
-criminal,犯人,はんにん,,犯人,NOUN,,,3,{GENKI3_L21},,4270c289-50e5-4992-ba2f-7210f5a253ce,1713,2024-11-21
-"colleague, coworker",同僚,どうりょう,,同僚,NOUN,,,3,{GENKI3_L21},,6cc472a0-541f-4db6-8762-3932f1178a28,1714,2024-11-21
-busines meeting; conference,会議,かいぎ,,会議,NOUN,,,4,{GENKI3_L21},,79616589-66ec-41e0-89c6-e975f9b3e9e1,1715,2024-11-21
-speech,スピーチ,すぴいち,,,NOUN,,,3,{GENKI3_L21},,eabee63e-1f37-4c79-85dd-9e086392c198,1716,2024-11-21
-mosquito,蚊,か,,蚊,NOUN,,,2,{GENKI3_L21},,cfb9964e-84f3-45c5-be95-c804ca69fcee,1717,2024-11-21
-gasoline,ガソリン,がそりん,,,NOUN,,,4,{GENKI3_L21},,c814ee2a-71a2-4198-b2fa-e4d2b039ddc2,1718,2024-11-21
-poster,ポスター,ぽすたあ,,,NOUN,,,2,{GENKI3_L21},,751dc9e5-6b14-4856-858f-ee425c316ccc,1719,2024-11-21
-complaint,文句,もんく,,文句,NOUN,,,3,{GENKI3_L21},,4af20701-20a3-4032-b4a9-8db435f6fe02,1720,2024-11-21
-absence; not at home,留守,るす,,留守,NOUN,,,4,{GENKI3_L21},,d1f8abf6-9f5b-4561-9bf4-cc8767fc9980,1721,2024-11-21
-politice; police station,警察,けいさつ,,警察,NOUN,,,4,{GENKI3_L21},,a7dfedcd-7f28-4124-ae98-478851eed94b,1722,2024-11-21
-government,政府,せいふ,,政府,NOUN,,,3,{GENKI3_L21},,bc34de51-e514-437a-831f-129e0a0edb82,1723,2024-11-21
-tuition ,授業料,じゅぎょうりょう,,授業料,NOUN,,,,{GENKI3_L21},,daf3139a-0f09-41e4-855d-abaf9c7f49c3,1724,2024-11-21
-factory,工場,こうじょう,,工場,NOUN,,,4,{GENKI3_L21},,ba5f770d-d36a-4096-9285-e9acec1ec326,1725,2024-11-21
-environment,環境,かんきょう,,環境,NOUN,,,3,{GENKI3_L21},,0cb6d94f-1a25-4c64-b96b-8755e8c9db0d,1726,2024-11-21
-things; matters,事,こと,,事,NOUN,,,3,{GENKI3_L21},,fde76ba2-ec6a-4dce-8df9-79a83065bca6,1727,2024-11-21
+"groper, pervert",痴漢,ちかん,,痴漢,NOUN,,,,{GENKI3_L21},,f20a5554-49f3-4bfa-a33a-1235829044cf,1711,2024-11-20
+"thief, burglar",泥棒,どろぼう,,泥棒,NOUN,,,4,{GENKI3_L21},,d101ff63-db0d-4174-9cf5-7dbeec3f8ffd,1712,2024-11-20
+criminal,犯人,はんにん,,犯人,NOUN,,,3,{GENKI3_L21},,4270c289-50e5-4992-ba2f-7210f5a253ce,1713,2024-11-20
+"colleague, coworker",同僚,どうりょう,,同僚,NOUN,,,3,{GENKI3_L21},,6cc472a0-541f-4db6-8762-3932f1178a28,1714,2024-11-20
+busines meeting; conference,会議,かいぎ,,会議,NOUN,,,4,{GENKI3_L21},,79616589-66ec-41e0-89c6-e975f9b3e9e1,1715,2024-11-20
+speech,スピーチ,すぴいち,,,NOUN,,,3,{GENKI3_L21},,eabee63e-1f37-4c79-85dd-9e086392c198,1716,2024-11-20
+mosquito,蚊,か,,蚊,NOUN,,,2,{GENKI3_L21},,cfb9964e-84f3-45c5-be95-c804ca69fcee,1717,2024-11-20
+gasoline,ガソリン,がそりん,,,NOUN,,,4,{GENKI3_L21},,c814ee2a-71a2-4198-b2fa-e4d2b039ddc2,1718,2024-11-20
+poster,ポスター,ぽすたあ,,,NOUN,,,2,{GENKI3_L21},,751dc9e5-6b14-4856-858f-ee425c316ccc,1719,2024-11-20
+complaint,文句,もんく,,文句,NOUN,,,3,{GENKI3_L21},,4af20701-20a3-4032-b4a9-8db435f6fe02,1720,2024-11-20
+absence; not at home,留守,るす,,留守,NOUN,,,4,{GENKI3_L21},,d1f8abf6-9f5b-4561-9bf4-cc8767fc9980,1721,2024-11-20
+politice; police station,警察,けいさつ,,警察,NOUN,,,4,{GENKI3_L21},,a7dfedcd-7f28-4124-ae98-478851eed94b,1722,2024-11-20
+government,政府,せいふ,,政府,NOUN,,,3,{GENKI3_L21},,bc34de51-e514-437a-831f-129e0a0edb82,1723,2024-11-20
+tuition ,授業料,じゅぎょうりょう,,授業料,NOUN,,,,{GENKI3_L21},,daf3139a-0f09-41e4-855d-abaf9c7f49c3,1724,2024-11-20
+factory,工場,こうじょう,,工場,NOUN,,,4,{GENKI3_L21},,ba5f770d-d36a-4096-9285-e9acec1ec326,1725,2024-11-20
+environment,環境,かんきょう,,環境,NOUN,,,3,{GENKI3_L21},,0cb6d94f-1a25-4c64-b96b-8755e8c9db0d,1726,2024-11-20
+things; matters,事,こと,,事,NOUN,,,3,{GENKI3_L21},,fde76ba2-ec6a-4dce-8df9-79a83065bca6,1727,2024-11-20
+"awful, cruel, heartless",ひどい,ひどい,,酷い,ADJECTIVE,I_ADJECTIVE,,4,{GENKI3_L21},,cfeaa6ea-010f-491e-8ff5-1ca3efbd84ac,1728,2024-11-21
+safe,安全,あんぜん,,安全,ADJECTIVE,NA_ADJECTIVE,,4,{GENKI3_L21},,26cbcfa1-9f7c-42ad-b3aa-9088a2e6bdef,1729,2024-11-21
+"absurd, unreasonable; messy, disorganized",めちゃくちゃ,めちゃくちゃ,,滅茶苦茶,ADJECTIVE,NA_ADJECTIVE,,2,{GENKI3_L21},,cf197947-fe60-4292-89e1-22954ccc8bb2,1730,2024-11-21
+"strange, weird, odd, eccentric",変,へん,,変,ADJECTIVE,NA_ADJECTIVE,,4,{GENKI3_L21},,7d7684ad-d63f-4caa-99f7-d8e2e5160a5b,1731,2024-11-21
