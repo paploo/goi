@@ -5618,6 +5618,77 @@
     "lesson_codes": ["GENKI3_L17"],
     "tags": []
   },
+  {
+    "id": "e5aa9148-0a36-45d3-ac5c-0dd29944f903",
+    "title": "〜なくてもいいです<br/>〜なくていい",
+    "meaning": "does not need too...",
+    "how_to_use": [
+      "verb/adj (neg-て) + もいいです (formal)",
+      "verb/adj (neg-て) + もいい (casual)",
+      "verb/adj (neg-て) + いい (more casual)"
+    ],
+    "examples": [
+      {
+        "id": "71e30908-ca8d-43fb-876f-a60ef8e3ef0d",
+        "meaning": "You do not need to take off your shoes.",
+        "text": {
+          "spelling": "{靴|くつ}を{脱|ぬ}がなくてもいいです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "18407a73-58f2-4947-813d-f5db49648f7a",
+        "meaning": "The present does not need to be anything expensive.",
+        "text": {
+          "spelling": "プレゼントは{高|たか}くなくてもいいです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "38f875cd-5246-4b26-a049-18c5d06d4647",
+        "meaning": "I will treat you today. You do not have to pay.",
+        "text": {
+          "spelling": "{今日|きょう}は{奢|おご}ってあげます。{払|はら}わなくてもいいです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "c12375de-3953-478e-b907-880815a8fd2f",
+        "meaning": "Since that hotel is not crowded, we do not need to make a reservation.",
+        "text": {
+          "spelling": "そのホテルは{混|こ}んでいないので、{予約|よ・やく}をしなくてもいいです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "fe2b04f0-b162-4758-9030-529bfbff54c0",
+        "meaning": "At my house, I do not have to do the dishes. My host family's mother does them for me (and I am grateful).",
+        "text": {
+          "spelling": "{私|わたし}は{家|いえ}でお{皿|さら}を{洗|あら}わなくてもいいです。ホストファミリーのお{母|かあ}さんがしてくれます。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "c8bcc6c0-4366-4699-acfa-4de6d45140fc",
+        "meaning": "A: Thank you for lending me your notebook. Shall I return it tomorrow?<br/>No, you do not need to return it until next week.",
+        "text": {
+          "spelling": "Ａ：ノート{貸|か}してくれてありがとう。{明日|あした}{返|かえ}そうか？<br/>Ｂ：ううん、{来週|らい・しゅう}まで{返|かえ}さなくてもいいよ。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-12-23",
+    "lesson_codes": ["GENKI3_L17"],
+    "tags": []
+  },
+
 
   {"COMMENT": "GENKI LESSON 18"},
   {"COMMENT": "GENKI LESSON 19"},
