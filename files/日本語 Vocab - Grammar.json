@@ -5688,6 +5688,76 @@
     "lesson_codes": ["GENKI3_L17"],
     "tags": []
   },
+  {
+    "id": "7f0b7b10-09ab-4ddd-b071-76c958960f47",
+    "title": "〜みたいです",
+    "meaning": "It looks like...",
+    "how_to_use": [
+      "noun + みたいです",
+      "verb (short) + みたいです",
+      "Can use for adjectives, but usually use 〜そうです"
+    ],
+    "examples": [
+      {
+        "id": "41d0ab23-7974-466e-b956-70bba24f81af",
+        "meaning": "My data looks/acts like Colonel Sanders.",
+        "text": {
+          "spelling": "{私|わたし}の{父|ちち}はカーネルオおじさんみたいです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "3ee3a639-7283-490a-8a90-02dc865b8b55",
+        "meaning": "It looks like I have left my wallet at home.",
+        "text": {
+          "spelling": "{財布|さい・ふ}を{忘|わす}れたみたいです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "71ac8ac9-11cd-45c9-ab57-3719c309ad2c",
+        "meaning": "My younger sister cries a lot. She is like a child.",
+        "text": {
+          "spelling": "{妹|いもうと}はよく{泣|な}きます。{子供|こ・ども}みたいです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "d0158cef-aee8-41fd-abe9-277f3980bd2d",
+        "meaning": "It looks like it has rained, doesn't it?",
+        "text": {
+          "spelling": "{雨|あめ}が{降|ふ}ったみたいですね。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "8b4b9e08-d8f1-4901-aad9-61e4aeb64358",
+        "meaning": "It looks like that person did not sleep last night.",
+        "text": {
+          "spelling": "あの{人|ひと}は{昨日|きのう}の{夜|よる}{寝|ね}なかったみたいです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "7a43a459-7a67-4066-a7f7-4f475190ef37",
+        "meaning": "It seems that my friend is not used to life in Japan yet.",
+        "text": {
+          "spelling": "{友達|とも・だち}はまだ{日本|に・ほん}の{生活|せい・かつ}に{慣|な}れていないみたいです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-12-24",
+    "lesson_codes": ["GENKI3_L17"],
+    "tags": []
+  },
 
 
   {"COMMENT": "GENKI LESSON 18"},
