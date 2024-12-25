@@ -5758,7 +5758,107 @@
     "lesson_codes": ["GENKI3_L17"],
     "tags": []
   },
+  {
+    "id": "0d4c9a64-2c8d-4ac2-ac82-f11fc67e13eb",
+    "title": "Ａ前にＢ",
+    "meaning": "Before A, B.",
+    "how_to_use": [
+      "verb (short, present) + 前に + verb"
+    ],
+    "examples": [
+      {
+        "id": "2d495b70-c954-4c1d-ba8d-627f61ce9b01",
+        "meaning": "Before I buy them, I try on jeans.",
+        "text": {
+          "spelling": "ジーンズを{買|か}う{前|まえ}に、{履|は}いてみます。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "7fb4fc7e-61d4-443f-8b27-3ef6aa3e3506",
+        "meaning": "Before I came to Japan, I studied Japanese for one semester.",
+        "text": {
+          "spelling": "{日本|に・ほん}に{来|く}る{前|まえ}に、{一|いち}{学期|がっき}{日本語|に・ほん・ご}を{勉強|べんきょう}しました。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "28d8f7ee-f9db-4caf-b99a-1646adb1125d",
+        "meaning": "Before cooking, I wash my hands.",
+        "text": {
+          "spelling": "{料理|りょう・り}する{前|まえ}に、{手|て}を{洗|あら}います。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "416c2ebb-dd4f-4fbb-8845-433a809a88e4",
+        "meaning": "Before going out, I always watch the weather forecast",
+        "text": {
+          "spelling": "{出|で}かける{前|まえ}に、いつも{天気予報|てん・き・よ・ほう}をみます。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-12-24",
+    "lesson_codes": ["GENKI3_L17"],
+    "tags": []
+  },
+  {
+    "id": "3134c528-d027-47d5-b35c-6ad8793b2680",
+    "title": "ＡてからＢ",
+    "meaning": "After A, B.",
+    "how_to_use": [
+      "verb (te-form) + から"
+    ],
+    "examples": [
+      {
+        "id": "d9cd95ec-b8ae-4d48-8ec1-46e580ff604a",
+        "meaning": "After I studied, I went out.",
+        "text": {
+          "spelling": "{勉強|べん・きょう}してから、{遊|あそ}びに{行|い}きました。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "9bd7d30a-90fb-49e4-8444-bbae28e1189a",
+        "meaning": "After Ms. Inoue has arrived, why don't we start eating?",
+        "text": {
+          "spelling": "{井|い}ノ{上|うえ}さんが{来|き}てから、{食|た}べましょう。"
 
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "2d25b52f-f829-4088-a46f-158b9eaac513",
+        "meaning": "After washing the dishes, I brush my teeth.",
+        "text": {
+          "spelling": "お{皿|さら}を{洗|あら}ってから、{歯|は}を{磨|みが}きます。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "1c1ac6dc-2f01-47a2-a757-20f991d83323",
+        "meaning": "After I graduate, I intend to look for a job.",
+        "text": {
+          "spelling": "{卒業|そつ・ぎょう}してから、{仕事|し・ごと}を{探|さが}すつもりです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-12-24",
+    "lesson_codes": ["GENKI3_L17"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 18"},
   {"COMMENT": "GENKI LESSON 19"},
