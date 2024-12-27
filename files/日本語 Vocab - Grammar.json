@@ -5923,6 +5923,108 @@
     "lesson_codes": ["GENKI3_L18"],
     "tags": []
   },
+  {
+    "id": "fb2f3737-38e2-4d89-9d8e-49f4d83bb445",
+    "title": "〜でしまう",
+    "meaning": "to finish completely<br/>to regrettably do",
+    "how_to_use": [
+      "verb (te-form) + ませんか",
+      "Note: The meanings two meanings are ambiguous, and determined by context."
+    ],
+    "examples": [
+      {
+        "id": "0cfea0f1-f3c6-411d-9855-b00f29fec7f5",
+        "meaning": "I (completely) finished reading the book.",
+        "text": {
+          "spelling": "{本|ほん}を{読|よ}んでしまいました。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "c11b0708-1de6-4a51-8177-97d01ebb7549",
+        "meaning": "I inadvertently left my bag on the train.",
+        "text": {
+          "spelling": "{電車|でん・しゃ}の{中|なか}に{鞄|かばん}を{忘|わす}れてしまいました。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "05bde5e7-bee9-4f86-a4b2-1cb46cac6d43",
+        "meaning": "I already finished writing a paper.",
+        "text": {
+          "spelling": "もうレポートを{書|か}いてしまいました。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "70ff1d76-9e88-4052-9588-1fa8a2b7443c",
+        "meaning": "Since my friend didn't keep her promise, I (regrettably) had a fight.",
+        "text": {
+          "spelling": "{友達|とも・だち}が{約束|やく・そく}を{守|まも}らなかったので、{喧嘩|けん・か}してしまいました。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "8c21615b-8d2d-42ab-9556-15c0a1aecc4c",
+        "meaning": "I broke my father's car, but I (regrettably) broke it.",
+        "text": {
+          "spelling": "{父|ちち}の{車|くるま}を{借|か}りましたが、{壊|こわ}してしまいました。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-12-26",
+    "lesson_codes": ["GENKI3_L18"],
+    "tags": []
+  },
+  {
+    "id": "ebf4802e-1eae-4403-bd51-46103b79f1ee",
+    "title": "〜ちゃう/〜じゃう",
+    "meaning": "to finish completely; to regrettably do<br/>(spoken, informal)",
+    "how_to_use": [
+      "〜てしまう ⟶ 〜ちゃう",
+      "〜でしまう ⟶ 〜じゃう"
+    ],
+    "examples": [
+      {
+        "id": "5d3608e5-f82c-4dc7-84f3-55d2e2568217",
+        "meaning": "I (regrettably) lost my homework!",
+        "text": {
+          "spelling": "{宿題|しゅく・だい}をなくしちゃった。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "b11cdf03-fa5c-4ff8-8f76-847da30ce038",
+        "meaning": "A: There's no milk in the fridge...<br/>B: Sorry. I drank it, completely finishing it off. <i>OR</i> Sorry. I regrettably drank it.",
+        "text": {
+          "spelling": "Ａ：{冷蔵庫|れい・ぞう・こ}の{牛乳|ぎゅう・にゅう}がないんけど……。<br/>Ｂ：ごめん。{飲|の}んじゃった。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "daa7a7f5-cd81-4d43-8c2b-6a974338f6a6",
+        "meaning": "A: The magazine on the desk is also gone.<br/>B: To tell you the truth, I (regrettably) threw them away.",
+        "text": {
+          "spelling": "Ａ：{机|つくえ}の{上|うえ}の{雑誌|ざっ・し}もない。<br/>Ｂ：ごめん。{実|じつ}は{捨|す}てちゃった。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-12-26",
+    "lesson_codes": ["GENKI3_L18"],
+    "tags": []
+  },
 
 
   {"COMMENT": "GENKI LESSON 19"},
