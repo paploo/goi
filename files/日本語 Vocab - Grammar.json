@@ -4625,7 +4625,7 @@
         "id": "23770413-3b86-4f13-aa9b-481b381c5be7",
         "meaning": "I am not planning to come to school tomorrow.",
         "text": {
-          "spelling": "{明日|あした}は{学校|がっこう}に{来|こ}ない{予定|よ.てい}です。"
+          "spelling": "{明日|あした}は{学校|がっ・こう}に{来|こ}ない{予定|よ.てい}です。"
         },
         "lesson_codes": ["GENKI3_L15"],
         "tags": []
@@ -6137,6 +6137,75 @@
         "meaning": "Whenever you fall in a crowded place, it's embarrassing.",
         "text": {
           "spelling": "{人|ひと}がたくさんいる{所|ところ}で{転|ころ}ぶと、{恥|は}ずかしくなります。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-12-27",
+    "lesson_codes": ["GENKI3_L18"],
+    "tags": []
+  },
+  {
+    "id": "fdeb200b-f829-4b5c-b696-c9bcbc565c62",
+    "title": "Ａなから、Ｂ",
+    "meaning": "A while B<br/>A at the same time as B",
+    "how_to_use": [
+      "verb (stem) + ながら + verb",
+      "Both actions must be performed by the same person"
+    ],
+    "examples": [
+      {
+        "id": "be4851ff-9d34-474a-91b4-3fd2e11009a6",
+        "meaning": "I always listen to music while studying Japanese.",
+        "text": {
+          "spelling": "{私|わたし}はいつも{音楽|おん・がく}を{聞|き}きながら{日本語|に・ほん・ご}を{勉強|べん・きょう}します。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "2fe14594-3cc0-4993-a11a-d65a696e0c5c",
+        "meaning": "Fumino Furuhashi is singing a song while doing laundry.",
+        "text": {
+          "spelling": "{古橋|ふる・はし}{文乃|ふみ・の}さんは{歌|うた}を{歌|うた}いながら{洗濯|せんたく}しています。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "24ecf426-da64-4144-af59-8cd857934e13",
+        "meaning": "Part-time working while going to school is not easy.",
+        "text": {
+          "spelling": "アルバイトをしながら{学校|がっ・こう}に{行|い}くのは{大変|たい・へん}です。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "6028101b-228a-481d-92a4-c0458cf3cfdb",
+        "meaning": "Ms. Takemoto, while laughing, showed me the picture.",
+        "text": {
+          "spelling": "{武元|たけ・もと}さんは{笑|わら}いながら{写真|しゃ・しん}を{見|み}せてくれました。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "51f690d6-93a1-43b0-87a2-6575de1ddeb9",
+        "meaning": "You better not walk and eat at the same time.<br/>(lit. walking while eating, it would be better not to do.)",
+        "text": {
+          "spelling": "{歩|ある}きながら{食|た}べない{方|ほう}がいいですよ。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "29415f63-fc34-45bd-9a79-bb8ffb4967af",
+        "meaning": "I often listen to music while driving",
+        "text": {
+          "spelling": "{音楽|おん・がく}を{聞|き}きながら、よく{運転|うん・てん}します。"
         },
         "lesson_codes": ["GENKI3_L18"],
         "tags": []
