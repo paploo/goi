@@ -6025,6 +6025,128 @@
     "lesson_codes": ["GENKI3_L18"],
     "tags": []
   },
+  {
+    "id": "b597e03b-4402-40e9-b2a6-62aa21253df7",
+    "title": "ＰとＲ",
+    "meaning": "Whenever P happens, R happens too",
+    "how_to_use": [
+      "predicate clause (short, present) + と + result clause",
+      "Sometimes used to describe a cause-effect relationship between events",
+      "The result <u>must follow</u> the event described in the predicate."
+    ],
+    "examples": [
+      {
+        "id": "4af1259c-9296-48bb-a97a-df9ee186e5cc",
+        "meaning": "Whenever I talk with that person, I feel uplifted.",
+        "text": {
+          "spelling": "{私|わたし}はその{人|ひと}と{話|はな}すと{元気|げん・き}になる。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "e19f8f88-c648-48ec-936d-251cbc5e7408",
+        "meaning": "Whenever the streets are crowded, it takes longer to get there.",
+        "text": {
+          "spelling": "{道|みち}が{混|こ}んでいると{時間|じ・かん}がかかる。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "a4f162b3-bc81-4a32-ba12-5334d3c29a50",
+        "meaning": "When I was young, whenever winter arrived, I caught a cold.",
+        "text": {
+          "spelling": "{私|わたし}は{子供|こ・ども}の{時|とき}、{冬|ふゆ}になると{風邪|か・ぜ}を{引|ひ}きました"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "2851d11d-bdc2-4823-9f04-eba3ae13f5e1",
+        "meaning": "Whenever I get nervous, I get thirsty.",
+        "text": {
+          "spelling": "{緊張|きん・ちょう}すると、{喉|のど}が{渇|かわ}きます。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-12-27",
+    "lesson_codes": ["GENKI3_L18"],
+    "tags": []
+  },
+  {
+    "id": "a58249a4-06c3-45ce-b026-33a73eecbbf5",
+    "title": "ＰとＡになる",
+    "meaning": "Whenever P happens, something becomes A",
+    "how_to_use": [
+      "predicate clause (short, present) + と + result clause + adjective + に/く + なる",
+      "Sometimes used to describe a cause-effect relationship between events",
+      "The result <u>must follow</u> the event described in the predicate."
+    ],
+    "examples": [
+      {
+        "id": "9060b52a-32be-4857-b5eb-98cf12676f15",
+        "meaning": "If Mary goes back home, we will become sad/lonely.",
+        "text": {
+          "spelling": "メアリーさんが{国|くに}に{帰|かえ}ると{寂|さび}しくなります。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "cf977382-568b-42df-bafa-f31326d79893",
+        "meaning": "Whenever fall arrives, trees turn red.",
+        "text": {
+          "spelling": "{秋|あき}になると{木|き}が{赤|あか}くなります。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "f207ae3a-4dbe-480c-b275-9b4bdefd21f1",
+        "meaning": "Whenever night comes, the town becomes quiet.",
+        "text": {
+          "spelling": "{夜|よる}になると{町|まち}が{静|しず}かになります。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "225dae80-f417-4572-aecc-d5133675781a",
+        "meaning": "Whenever a response doesn't come from a friend, I get uneasy.",
+        "text": {
+          "spelling": "{友達|ともだち}から{返事|へんじ}が{来|こ}ないと、{不安|ふ・あん}になります。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "7b53d4f2-b614-4e07-8742-db01a73f8b01",
+        "meaning": "When spring comes, cherry blossoms bloom.",
+        "text": {
+          "spelling": "{春|はる}が{来|くる}ると、{桜|さくら}が{咲|さ}きます。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "0423ed89-6d89-48b8-876c-8724e251070a",
+        "meaning": "Whenever you fall in a crowded place, it's embarrassing.",
+        "text": {
+          "spelling": "{人|ひと}がたくさんいる{所|ところ}で{転|ころ}ぶと、{恥|は}ずかしくなります。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-12-27",
+    "lesson_codes": ["GENKI3_L18"],
+    "tags": []
+  },
 
 
   {"COMMENT": "GENKI LESSON 19"},
