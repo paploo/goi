@@ -3294,7 +3294,7 @@
   {
     "id": "40f32528-f85c-4d34-ada9-f59c7a7f1c81",
     "title": "①　〜そうです",
-    "meaning": "it looks like...",
+    "meaning": "it looks like... (adjective/verb)",
     "how_to_use": [
       "い-adj (stem) + そうです",
       "な-adj + そうです",
@@ -5691,7 +5691,7 @@
   {
     "id": "7f0b7b10-09ab-4ddd-b071-76c958960f47",
     "title": "〜みたいです",
-    "meaning": "It looks like...",
+    "meaning": "It looks like... (noun/verb)",
     "how_to_use": [
       "noun + みたいです",
       "verb (short) + みたいです",
@@ -5768,7 +5768,7 @@
     "examples": [
       {
         "id": "2d495b70-c954-4c1d-ba8d-627f61ce9b01",
-        "meaning": "Before I buy them, I try on jeans.",
+        "meaning": "Before I buy jeans, I try them on.",
         "text": {
           "spelling": "ジーンズを{買|か}う{前|まえ}に、{履|は}いてみます。"
         },
@@ -5861,6 +5861,70 @@
   },
 
   {"COMMENT": "GENKI LESSON 18"},
+  {
+    "id": "08474944-2cb3-494b-944c-88c3e71020cc",
+    "title": "(in)transitive verb + ている",
+    "meaning": "activities (transitive) and changes (intransitive)",
+    "how_to_use": [
+      "verb (transitive/他動詞) + ている ⟶ activity, action in progress",
+      "verb (intransitive/自動詞) + ている ⟶ change, result state",
+      "transitive ⟺ 他動詞 (lit. other-verb)",
+      "intransitive ⟺ 自動詞 (lit. self-verb)"
+    ],
+    "examples": [
+      {
+        "id": "700d6ee8-107f-4be6-bf6f-85592a76a546",
+        "meaning": "Transitive: Sora is talking with a friend right now.",
+        "text": {
+          "spelling": "{他動詞|た・どう・し}：ソラさんは{今|いま}、{友達|とも・だち}と{話|はな}しています。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "198400bd-aba6-4dd7-903c-8f3966e5fd35",
+        "meaning": "Intransitive: Professor Yamashita is married.",
+        "text": {
+          "spelling": "{自動詞|じ・どう・し}：{山中|やま・なか}{先生|せん・せい}は{結婚|けっこん}しています。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "f9ac08ed-b611-496f-801c-b80d28ff0ca1",
+        "meaning": "T: Kuroe Mayu is opening the windows.<br/>I: The windows are open.",
+        "text": {
+          "spelling": "{他動詞|た・どう・し}：{黒江|くろ・え}{真由|ま・ゆ}さんは{窓|まど}を{開|あ}けています。<br/>{自動詞|じ・どう・し}：{窓|まど}が{開|あ}いています。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "bfbf7cc9-4a85-4d76-be11-4ab4b3957fe5",
+        "meaning": "T: Ms. Aharen is turning the light off.<br/>I: The light is off.",
+        "text": {
+          "spelling": "{他動詞|た・どう・し}：{阿波連|あ・は・れん}さんは{電気|でん・き}を{消|け}しています。<br/>{自動詞|じ・どう・し}：{電気|でん・き}は{消|き}えています。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "53bb3c04-f577-4e49-9bb1-eb0b8e778c19",
+        "meaning": "T: Godzilla is destroying the city.<br/>I: This computer is broken.",
+        "text": {
+          "spelling": "{他動詞|た・どう・し}：ゴジラが{町|まち}を{壊|こわ}しています。<br/>{自動詞|じ・どう・し}：このパソコンは{壊|こわ}れています。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-12-26",
+    "lesson_codes": ["GENKI3_L18"],
+    "tags": []
+  },
+
+
   {"COMMENT": "GENKI LESSON 19"},
   {"COMMENT": "GENKI LESSON 20"},
   {"COMMENT": "GENKI LESSON 21"},
