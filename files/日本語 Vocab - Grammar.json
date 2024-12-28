@@ -2910,7 +2910,7 @@
       "verb (short negative, drop い) + きゃいけません ⟶ informal",
       "verb (short negative, drop い) + きゃいけない ⟶ informal",
       "verb (short negative, drop い) + きゃ ⟶ casual",
-      "Use なかればいけませんでした/なきゃいけませんでした for past tense, e.g. 'had to'"
+      "Use なければいけませんでした/なきゃいけませんでした for past tense, e.g. 'had to'"
     ],
     "examples": [
       {
@@ -6206,6 +6206,127 @@
         "meaning": "I often listen to music while driving",
         "text": {
           "spelling": "{音楽|おん・がく}を{聞|き}きながら、よく{運転|うん・てん}します。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-12-27",
+    "lesson_codes": ["GENKI3_L18"],
+    "tags": []
+  },
+  {
+    "id": "f8a7d609-b489-4554-9ce4-03efb9320cc6",
+    "title": "〜ばよかったです<br/>〜なければよかったです",
+    "meaning": "I should have done...<br/>I should have not done...",
+    "how_to_use": [
+      "verb (eba) + よかった ⟶ I should have done...",
+      "verb (short negative, drop い) + かればよかった ⟶ I should not have done..."
+    ],
+    "examples": [
+      {
+        "id": "ccdf847d-a91b-448d-99ed-0581925ff407",
+        "meaning": "I wish I had told her that I loved her.",
+        "text": {
+          "spelling": "あの{時|とき}、「{愛|あい}している」と{言|い}えばよかったです。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "6f33deb1-abf9-43bc-9bfb-ba63d2843973",
+        "meaning": "I wish that I had not broken up with her.",
+        "text": {
+          "spelling": "{彼女|かの・じょ}と{別|わか}れなければよかったです。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "f6c7851c-2c00-4d79-b993-41a6c3a2eab0",
+        "meaning": "I regrettably lost my father's precious watch. I should have been more careful.",
+        "text": {
+          "spelling": "{父|ちち}の{大切|たいせつ}な{時計|とけい}をなくしてしまったんです。もっと{気|き}をつければよかったです。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "a7684f46-5397-4c89-8c80-ac4ba9db3138",
+        "meaning": "I bought a refrigerator, however right away it completely broke. I should not have bought a cheap one.",
+        "text": {
+          "spelling": "{冷蔵庫|れい・ぞう・こ}を{買|か}いましたが、すぐ{壊|こわ}れてしまいました。{安|や}いのを{買|か}わなければよかったです。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "fe5dc7e5-d689-4586-a957-d4cbc8672248",
+        "meaning": "A: During your childhood, what do you think you wished you did?<br/>B: I think I wished I practiced piano more.",
+        "text": {
+          "spelling": "Ａ：{子供|こ・ども}の{時|とき}、{何|なに}をすればよかったと{思|おも}いますか。<br/>Ｂ：もっとピアノを{練習|れん・しゅう}すればよかったと{思|おも}います。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "d7552493-aa1e-4a27-b908-0debef0c643c",
+        "meaning": "I wish I had not read in the car.",
+        "text": {
+          "spelling": "{車|くるま}の{中|なか}でを{読|よ}まなければよかったです"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-12-27",
+    "lesson_codes": ["GENKI3_L18"],
+    "tags": []
+  },
+  {
+    "id": "82b2673d-814c-4b50-b85a-f3efdb02ca67",
+    "title": "おかげで",
+    "meaning": "expression of gratitude (thanks to)",
+    "how_to_use": [
+      "noun + の + おかげ + で",
+      "noun + の + おかげ + です",
+      "おかげさまで"
+    ],
+    "examples": [
+      {
+        "id": "0d8aa0ad-d178-4369-a242-7721f6f40980",
+        "meaning": "Thanks to the map my friend drew, I didn't get lost.",
+        "text": {
+          "spelling": "{友達|とも・だち}が{書|き}いてくれた{地図|ちず}のおかげで{道|みち}に{迷|まよ}わなかった。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "fbae78e1-0192-4be9-8215-70420c08b57c",
+        "meaning": "Teacher: Congratulations on your graduation.<br/>Student: Professor, I owe it to you.",
+        "text": {
+          "spelling": "{先生|せん・せい}：{卒業|そつぎょう}おめでとう。<br/>{学生|がくせい}：{先生|せん・せい}のおかげです。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "30c57caf-e32d-43c4-9498-8398a2e7ee72",
+        "meaning": "A: How are you?<br/>B: I'm fine (thanks to you).",
+        "text": {
+          "spelling": "Ａ：{元気|げん・き}ですか。<br/>Ｂ：ええ、おかげさまで。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "7f3f105b-92f3-4a5f-85f2-763f9d2e2a18",
+        "meaning": "A: Have you gotten used to the job?<br/>B: Yes, thanks to you, I've mostly gotten used to it.",
+        "text": {
+          "spelling": "Ａ：{仕事|し・ごと}に{慣|な}れましたか。<br/>ええ、おかげさまで、だいぶ{慣|な}れました。"
         },
         "lesson_codes": ["GENKI3_L18"],
         "tags": []
