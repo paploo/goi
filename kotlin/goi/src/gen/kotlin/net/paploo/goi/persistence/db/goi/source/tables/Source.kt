@@ -4,19 +4,26 @@
 package net.paploo.goi.persistence.db.goi.source.tables
 
 
-import java.util.function.Function
+import kotlin.collections.Collection
 
+import net.paploo.goi.persistence.db.goi.source.keys.LESSON__LESSON_SOURCE_CODE_FKEY
 import net.paploo.goi.persistence.db.goi.source.keys.SOURCE_PKEY
+import net.paploo.goi.persistence.db.goi.source.tables.Lesson.LessonPath
 import net.paploo.goi.persistence.db.goi.source.tables.records.SourceRecord
 
+import org.jooq.Condition
 import org.jooq.Field
 import org.jooq.ForeignKey
+import org.jooq.InverseForeignKey
 import org.jooq.Name
+import org.jooq.Path
+import org.jooq.PlainSQL
+import org.jooq.QueryPart
 import org.jooq.Record
-import org.jooq.Records
-import org.jooq.Row4
+import org.jooq.SQL
 import org.jooq.Schema
-import org.jooq.SelectField
+import org.jooq.Select
+import org.jooq.Stringly
 import org.jooq.Table
 import org.jooq.TableField
 import org.jooq.TableOptions
@@ -33,19 +40,23 @@ import org.jooq.impl.TableImpl
 @Suppress("UNCHECKED_CAST")
 open class Source(
     alias: Name,
-    child: Table<out Record>?,
-    path: ForeignKey<out Record, SourceRecord>?,
+    path: Table<out Record>?,
+    childPath: ForeignKey<out Record, SourceRecord>?,
+    parentPath: InverseForeignKey<out Record, SourceRecord>?,
     aliased: Table<SourceRecord>?,
-    parameters: Array<Field<*>?>?
+    parameters: Array<Field<*>?>?,
+    where: Condition?
 ): TableImpl<SourceRecord>(
     alias,
     net.paploo.goi.persistence.db.goi.source.Source.SOURCE,
-    child,
     path,
+    childPath,
+    parentPath,
     aliased,
     parameters,
     DSL.comment(""),
-    TableOptions.table()
+    TableOptions.table(),
+    where,
 ) {
     companion object {
 
@@ -80,8 +91,9 @@ open class Source(
      */
     val DESCRIPTION: TableField<SourceRecord, String?> = createField(DSL.name("description"), SQLDataType.CLOB, this, "")
 
-    private constructor(alias: Name, aliased: Table<SourceRecord>?): this(alias, null, null, aliased, null)
-    private constructor(alias: Name, aliased: Table<SourceRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, aliased, parameters)
+    private constructor(alias: Name, aliased: Table<SourceRecord>?): this(alias, null, null, null, aliased, null, null)
+    private constructor(alias: Name, aliased: Table<SourceRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, null, aliased, parameters, null)
+    private constructor(alias: Name, aliased: Table<SourceRecord>?, where: Condition?): this(alias, null, null, null, aliased, null, where)
 
     /**
      * Create an aliased <code>source.source</code> table reference
@@ -98,12 +110,39 @@ open class Source(
      */
     constructor(): this(DSL.name("source"), null)
 
-    constructor(child: Table<out Record>, key: ForeignKey<out Record, SourceRecord>): this(Internal.createPathAlias(child, key), child, key, SOURCE_, null)
+    constructor(path: Table<out Record>, childPath: ForeignKey<out Record, SourceRecord>?, parentPath: InverseForeignKey<out Record, SourceRecord>?): this(Internal.createPathAlias(path, childPath, parentPath), path, childPath, parentPath, SOURCE_, null, null)
+
+    /**
+     * A subtype implementing {@link Path} for simplified path-based joins.
+     */
+    open class SourcePath : Source, Path<SourceRecord> {
+        constructor(path: Table<out Record>, childPath: ForeignKey<out Record, SourceRecord>?, parentPath: InverseForeignKey<out Record, SourceRecord>?): super(path, childPath, parentPath)
+        private constructor(alias: Name, aliased: Table<SourceRecord>): super(alias, aliased)
+        override fun `as`(alias: String): SourcePath = SourcePath(DSL.name(alias), this)
+        override fun `as`(alias: Name): SourcePath = SourcePath(alias, this)
+        override fun `as`(alias: Table<*>): SourcePath = SourcePath(alias.qualifiedName, this)
+    }
     override fun getSchema(): Schema? = if (aliased()) null else net.paploo.goi.persistence.db.goi.source.Source.SOURCE
     override fun getPrimaryKey(): UniqueKey<SourceRecord> = SOURCE_PKEY
+
+    private lateinit var _lesson: LessonPath
+
+    /**
+     * Get the implicit to-many join path to the <code>source.lesson</code>
+     * table
+     */
+    fun lesson(): LessonPath {
+        if (!this::_lesson.isInitialized)
+            _lesson = LessonPath(this, null, LESSON__LESSON_SOURCE_CODE_FKEY.inverseKey)
+
+        return _lesson;
+    }
+
+    val lesson: LessonPath
+        get(): LessonPath = lesson()
     override fun `as`(alias: String): Source = Source(DSL.name(alias), this)
     override fun `as`(alias: Name): Source = Source(alias, this)
-    override fun `as`(alias: Table<*>): Source = Source(alias.getQualifiedName(), this)
+    override fun `as`(alias: Table<*>): Source = Source(alias.qualifiedName, this)
 
     /**
      * Rename this table
@@ -118,21 +157,55 @@ open class Source(
     /**
      * Rename this table
      */
-    override fun rename(name: Table<*>): Source = Source(name.getQualifiedName(), null)
-
-    // -------------------------------------------------------------------------
-    // Row4 type methods
-    // -------------------------------------------------------------------------
-    override fun fieldsRow(): Row4<String?, String?, String?, String?> = super.fieldsRow() as Row4<String?, String?, String?, String?>
+    override fun rename(name: Table<*>): Source = Source(name.qualifiedName, null)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(from: (String?, String?, String?, String?) -> U): SelectField<U> = convertFrom(Records.mapping(from))
+    override fun where(condition: Condition?): Source = Source(qualifiedName, if (aliased()) this else null, condition)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Class,
-     * Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(toType: Class<U>, from: (String?, String?, String?, String?) -> U): SelectField<U> = convertFrom(toType, Records.mapping(from))
+    override fun where(conditions: Collection<Condition>): Source = where(DSL.and(conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(vararg conditions: Condition?): Source = where(DSL.and(*conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(condition: Field<Boolean?>?): Source = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(condition: SQL): Source = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String): Source = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg binds: Any?): Source = where(DSL.condition(condition, *binds))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg parts: QueryPart): Source = where(DSL.condition(condition, *parts))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereExists(select: Select<*>): Source = where(DSL.exists(select))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereNotExists(select: Select<*>): Source = where(DSL.notExists(select))
 }

@@ -5,8 +5,8 @@ package net.paploo.goi.persistence.db.goi.kanji.tables
 
 
 import java.util.UUID
-import java.util.function.Function
 
+import kotlin.collections.Collection
 import kotlin.collections.List
 
 import net.paploo.goi.persistence.db.goi.kanji.Kanji
@@ -17,21 +17,24 @@ import net.paploo.goi.persistence.db.goi.kanji.indexes.KANJI_CHARACTER_ON_READIN
 import net.paploo.goi.persistence.db.goi.kanji.keys.KANJI_CHARACTER_PKEY
 import net.paploo.goi.persistence.db.goi.kanji.tables.records.KanjiCharacterRecord
 
+import org.jooq.Condition
 import org.jooq.Field
 import org.jooq.ForeignKey
 import org.jooq.Index
+import org.jooq.InverseForeignKey
 import org.jooq.Name
+import org.jooq.PlainSQL
+import org.jooq.QueryPart
 import org.jooq.Record
-import org.jooq.Records
-import org.jooq.Row11
+import org.jooq.SQL
 import org.jooq.Schema
-import org.jooq.SelectField
+import org.jooq.Select
+import org.jooq.Stringly
 import org.jooq.Table
 import org.jooq.TableField
 import org.jooq.TableOptions
 import org.jooq.UniqueKey
 import org.jooq.impl.DSL
-import org.jooq.impl.Internal
 import org.jooq.impl.SQLDataType
 import org.jooq.impl.TableImpl
 
@@ -42,19 +45,23 @@ import org.jooq.impl.TableImpl
 @Suppress("UNCHECKED_CAST")
 open class KanjiCharacter(
     alias: Name,
-    child: Table<out Record>?,
-    path: ForeignKey<out Record, KanjiCharacterRecord>?,
+    path: Table<out Record>?,
+    childPath: ForeignKey<out Record, KanjiCharacterRecord>?,
+    parentPath: InverseForeignKey<out Record, KanjiCharacterRecord>?,
     aliased: Table<KanjiCharacterRecord>?,
-    parameters: Array<Field<*>?>?
+    parameters: Array<Field<*>?>?,
+    where: Condition?
 ): TableImpl<KanjiCharacterRecord>(
     alias,
     Kanji.KANJI,
-    child,
     path,
+    childPath,
+    parentPath,
     aliased,
     parameters,
     DSL.comment(""),
-    TableOptions.table()
+    TableOptions.table(),
+    where,
 ) {
     companion object {
 
@@ -87,22 +94,22 @@ open class KanjiCharacter(
     /**
      * The column <code>kanji.kanji_character.meanings</code>.
      */
-    val MEANINGS: TableField<KanjiCharacterRecord, Array<String?>?> = createField(DSL.name("meanings"), SQLDataType.CLOB.nullable(false).array(), this, "")
+    val MEANINGS: TableField<KanjiCharacterRecord, Array<String?>?> = createField(DSL.name("meanings"), SQLDataType.CLOB.array().nullable(false), this, "")
 
     /**
      * The column <code>kanji.kanji_character.on_readings</code>.
      */
-    val ON_READINGS: TableField<KanjiCharacterRecord, Array<String?>?> = createField(DSL.name("on_readings"), SQLDataType.CLOB.nullable(false).defaultValue(DSL.field(DSL.raw("'{}'::text[]"), SQLDataType.CLOB)).array(), this, "")
+    val ON_READINGS: TableField<KanjiCharacterRecord, Array<String?>?> = createField(DSL.name("on_readings"), SQLDataType.CLOB.array().nullable(false).defaultValue(DSL.field(DSL.raw("'{}'::text[]"), SQLDataType.CLOB.array())), this, "")
 
     /**
      * The column <code>kanji.kanji_character.kun_readings</code>.
      */
-    val KUN_READINGS: TableField<KanjiCharacterRecord, Array<String?>?> = createField(DSL.name("kun_readings"), SQLDataType.CLOB.nullable(false).defaultValue(DSL.field(DSL.raw("'{}'::text[]"), SQLDataType.CLOB)).array(), this, "")
+    val KUN_READINGS: TableField<KanjiCharacterRecord, Array<String?>?> = createField(DSL.name("kun_readings"), SQLDataType.CLOB.array().nullable(false).defaultValue(DSL.field(DSL.raw("'{}'::text[]"), SQLDataType.CLOB.array())), this, "")
 
     /**
      * The column <code>kanji.kanji_character.nanori_readings</code>.
      */
-    val NANORI_READINGS: TableField<KanjiCharacterRecord, Array<String?>?> = createField(DSL.name("nanori_readings"), SQLDataType.CLOB.nullable(false).defaultValue(DSL.field(DSL.raw("'{}'::text[]"), SQLDataType.CLOB)).array(), this, "")
+    val NANORI_READINGS: TableField<KanjiCharacterRecord, Array<String?>?> = createField(DSL.name("nanori_readings"), SQLDataType.CLOB.array().nullable(false).defaultValue(DSL.field(DSL.raw("'{}'::text[]"), SQLDataType.CLOB.array())), this, "")
 
     /**
      * The column <code>kanji.kanji_character.stroke_count</code>.
@@ -124,8 +131,9 @@ open class KanjiCharacter(
      */
     val FREQUENCY_RANKING: TableField<KanjiCharacterRecord, Int?> = createField(DSL.name("frequency_ranking"), SQLDataType.INTEGER, this, "")
 
-    private constructor(alias: Name, aliased: Table<KanjiCharacterRecord>?): this(alias, null, null, aliased, null)
-    private constructor(alias: Name, aliased: Table<KanjiCharacterRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, aliased, parameters)
+    private constructor(alias: Name, aliased: Table<KanjiCharacterRecord>?): this(alias, null, null, null, aliased, null, null)
+    private constructor(alias: Name, aliased: Table<KanjiCharacterRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, null, aliased, parameters, null)
+    private constructor(alias: Name, aliased: Table<KanjiCharacterRecord>?, where: Condition?): this(alias, null, null, null, aliased, null, where)
 
     /**
      * Create an aliased <code>kanji.kanji_character</code> table reference
@@ -141,14 +149,12 @@ open class KanjiCharacter(
      * Create a <code>kanji.kanji_character</code> table reference
      */
     constructor(): this(DSL.name("kanji_character"), null)
-
-    constructor(child: Table<out Record>, key: ForeignKey<out Record, KanjiCharacterRecord>): this(Internal.createPathAlias(child, key), child, key, KANJI_CHARACTER, null)
     override fun getSchema(): Schema? = if (aliased()) null else Kanji.KANJI
     override fun getIndexes(): List<Index> = listOf(KANJI_CHARACTER_CHARACTER_IDX, KANJI_CHARACTER_KUN_READINGS_IDX, KANJI_CHARACTER_MEANINGS_IDX, KANJI_CHARACTER_ON_READINGS_IDX)
     override fun getPrimaryKey(): UniqueKey<KanjiCharacterRecord> = KANJI_CHARACTER_PKEY
     override fun `as`(alias: String): KanjiCharacter = KanjiCharacter(DSL.name(alias), this)
     override fun `as`(alias: Name): KanjiCharacter = KanjiCharacter(alias, this)
-    override fun `as`(alias: Table<*>): KanjiCharacter = KanjiCharacter(alias.getQualifiedName(), this)
+    override fun `as`(alias: Table<*>): KanjiCharacter = KanjiCharacter(alias.qualifiedName, this)
 
     /**
      * Rename this table
@@ -163,21 +169,55 @@ open class KanjiCharacter(
     /**
      * Rename this table
      */
-    override fun rename(name: Table<*>): KanjiCharacter = KanjiCharacter(name.getQualifiedName(), null)
-
-    // -------------------------------------------------------------------------
-    // Row11 type methods
-    // -------------------------------------------------------------------------
-    override fun fieldsRow(): Row11<UUID?, String?, Int?, Array<String?>?, Array<String?>?, Array<String?>?, Array<String?>?, Int?, Int?, Int?, Int?> = super.fieldsRow() as Row11<UUID?, String?, Int?, Array<String?>?, Array<String?>?, Array<String?>?, Array<String?>?, Int?, Int?, Int?, Int?>
+    override fun rename(name: Table<*>): KanjiCharacter = KanjiCharacter(name.qualifiedName, null)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(from: (UUID?, String?, Int?, Array<String?>?, Array<String?>?, Array<String?>?, Array<String?>?, Int?, Int?, Int?, Int?) -> U): SelectField<U> = convertFrom(Records.mapping(from))
+    override fun where(condition: Condition?): KanjiCharacter = KanjiCharacter(qualifiedName, if (aliased()) this else null, condition)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Class,
-     * Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(toType: Class<U>, from: (UUID?, String?, Int?, Array<String?>?, Array<String?>?, Array<String?>?, Array<String?>?, Int?, Int?, Int?, Int?) -> U): SelectField<U> = convertFrom(toType, Records.mapping(from))
+    override fun where(conditions: Collection<Condition>): KanjiCharacter = where(DSL.and(conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(vararg conditions: Condition?): KanjiCharacter = where(DSL.and(*conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(condition: Field<Boolean?>?): KanjiCharacter = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(condition: SQL): KanjiCharacter = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String): KanjiCharacter = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg binds: Any?): KanjiCharacter = where(DSL.condition(condition, *binds))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg parts: QueryPart): KanjiCharacter = where(DSL.condition(condition, *parts))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereExists(select: Select<*>): KanjiCharacter = where(DSL.exists(select))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereNotExists(select: Select<*>): KanjiCharacter = where(DSL.notExists(select))
 }

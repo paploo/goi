@@ -4,20 +4,27 @@
 package net.paploo.goi.persistence.db.goi.vocabulary.tables
 
 
-import java.util.function.Function
+import kotlin.collections.Collection
 
 import net.paploo.goi.persistence.db.goi.vocabulary.Vocabulary
 import net.paploo.goi.persistence.db.goi.vocabulary.keys.CONJUGATION_CHARGE_PKEY
+import net.paploo.goi.persistence.db.goi.vocabulary.keys.CONJUGATION__CONJUGATION_CHARGE_CODE_FKEY
+import net.paploo.goi.persistence.db.goi.vocabulary.tables.Conjugation.ConjugationPath
 import net.paploo.goi.persistence.db.goi.vocabulary.tables.records.ConjugationChargeRecord
 
+import org.jooq.Condition
 import org.jooq.Field
 import org.jooq.ForeignKey
+import org.jooq.InverseForeignKey
 import org.jooq.Name
+import org.jooq.Path
+import org.jooq.PlainSQL
+import org.jooq.QueryPart
 import org.jooq.Record
-import org.jooq.Records
-import org.jooq.Row3
+import org.jooq.SQL
 import org.jooq.Schema
-import org.jooq.SelectField
+import org.jooq.Select
+import org.jooq.Stringly
 import org.jooq.Table
 import org.jooq.TableField
 import org.jooq.TableOptions
@@ -34,19 +41,23 @@ import org.jooq.impl.TableImpl
 @Suppress("UNCHECKED_CAST")
 open class ConjugationCharge(
     alias: Name,
-    child: Table<out Record>?,
-    path: ForeignKey<out Record, ConjugationChargeRecord>?,
+    path: Table<out Record>?,
+    childPath: ForeignKey<out Record, ConjugationChargeRecord>?,
+    parentPath: InverseForeignKey<out Record, ConjugationChargeRecord>?,
     aliased: Table<ConjugationChargeRecord>?,
-    parameters: Array<Field<*>?>?
+    parameters: Array<Field<*>?>?,
+    where: Condition?
 ): TableImpl<ConjugationChargeRecord>(
     alias,
     Vocabulary.VOCABULARY,
-    child,
     path,
+    childPath,
+    parentPath,
     aliased,
     parameters,
     DSL.comment(""),
-    TableOptions.table()
+    TableOptions.table(),
+    where,
 ) {
     companion object {
 
@@ -76,8 +87,9 @@ open class ConjugationCharge(
      */
     val SORT_RANK: TableField<ConjugationChargeRecord, Int?> = createField(DSL.name("sort_rank"), SQLDataType.INTEGER.nullable(false), this, "")
 
-    private constructor(alias: Name, aliased: Table<ConjugationChargeRecord>?): this(alias, null, null, aliased, null)
-    private constructor(alias: Name, aliased: Table<ConjugationChargeRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, aliased, parameters)
+    private constructor(alias: Name, aliased: Table<ConjugationChargeRecord>?): this(alias, null, null, null, aliased, null, null)
+    private constructor(alias: Name, aliased: Table<ConjugationChargeRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, null, aliased, parameters, null)
+    private constructor(alias: Name, aliased: Table<ConjugationChargeRecord>?, where: Condition?): this(alias, null, null, null, aliased, null, where)
 
     /**
      * Create an aliased <code>vocabulary.conjugation_charge</code> table
@@ -96,12 +108,39 @@ open class ConjugationCharge(
      */
     constructor(): this(DSL.name("conjugation_charge"), null)
 
-    constructor(child: Table<out Record>, key: ForeignKey<out Record, ConjugationChargeRecord>): this(Internal.createPathAlias(child, key), child, key, CONJUGATION_CHARGE, null)
+    constructor(path: Table<out Record>, childPath: ForeignKey<out Record, ConjugationChargeRecord>?, parentPath: InverseForeignKey<out Record, ConjugationChargeRecord>?): this(Internal.createPathAlias(path, childPath, parentPath), path, childPath, parentPath, CONJUGATION_CHARGE, null, null)
+
+    /**
+     * A subtype implementing {@link Path} for simplified path-based joins.
+     */
+    open class ConjugationChargePath : ConjugationCharge, Path<ConjugationChargeRecord> {
+        constructor(path: Table<out Record>, childPath: ForeignKey<out Record, ConjugationChargeRecord>?, parentPath: InverseForeignKey<out Record, ConjugationChargeRecord>?): super(path, childPath, parentPath)
+        private constructor(alias: Name, aliased: Table<ConjugationChargeRecord>): super(alias, aliased)
+        override fun `as`(alias: String): ConjugationChargePath = ConjugationChargePath(DSL.name(alias), this)
+        override fun `as`(alias: Name): ConjugationChargePath = ConjugationChargePath(alias, this)
+        override fun `as`(alias: Table<*>): ConjugationChargePath = ConjugationChargePath(alias.qualifiedName, this)
+    }
     override fun getSchema(): Schema? = if (aliased()) null else Vocabulary.VOCABULARY
     override fun getPrimaryKey(): UniqueKey<ConjugationChargeRecord> = CONJUGATION_CHARGE_PKEY
+
+    private lateinit var _conjugation: ConjugationPath
+
+    /**
+     * Get the implicit to-many join path to the
+     * <code>vocabulary.conjugation</code> table
+     */
+    fun conjugation(): ConjugationPath {
+        if (!this::_conjugation.isInitialized)
+            _conjugation = ConjugationPath(this, null, CONJUGATION__CONJUGATION_CHARGE_CODE_FKEY.inverseKey)
+
+        return _conjugation;
+    }
+
+    val conjugation: ConjugationPath
+        get(): ConjugationPath = conjugation()
     override fun `as`(alias: String): ConjugationCharge = ConjugationCharge(DSL.name(alias), this)
     override fun `as`(alias: Name): ConjugationCharge = ConjugationCharge(alias, this)
-    override fun `as`(alias: Table<*>): ConjugationCharge = ConjugationCharge(alias.getQualifiedName(), this)
+    override fun `as`(alias: Table<*>): ConjugationCharge = ConjugationCharge(alias.qualifiedName, this)
 
     /**
      * Rename this table
@@ -116,21 +155,55 @@ open class ConjugationCharge(
     /**
      * Rename this table
      */
-    override fun rename(name: Table<*>): ConjugationCharge = ConjugationCharge(name.getQualifiedName(), null)
-
-    // -------------------------------------------------------------------------
-    // Row3 type methods
-    // -------------------------------------------------------------------------
-    override fun fieldsRow(): Row3<String?, String?, Int?> = super.fieldsRow() as Row3<String?, String?, Int?>
+    override fun rename(name: Table<*>): ConjugationCharge = ConjugationCharge(name.qualifiedName, null)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(from: (String?, String?, Int?) -> U): SelectField<U> = convertFrom(Records.mapping(from))
+    override fun where(condition: Condition?): ConjugationCharge = ConjugationCharge(qualifiedName, if (aliased()) this else null, condition)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Class,
-     * Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(toType: Class<U>, from: (String?, String?, Int?) -> U): SelectField<U> = convertFrom(toType, Records.mapping(from))
+    override fun where(conditions: Collection<Condition>): ConjugationCharge = where(DSL.and(conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(vararg conditions: Condition?): ConjugationCharge = where(DSL.and(*conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(condition: Field<Boolean?>?): ConjugationCharge = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(condition: SQL): ConjugationCharge = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String): ConjugationCharge = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg binds: Any?): ConjugationCharge = where(DSL.condition(condition, *binds))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg parts: QueryPart): ConjugationCharge = where(DSL.condition(condition, *parts))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereExists(select: Select<*>): ConjugationCharge = where(DSL.exists(select))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereNotExists(select: Select<*>): ConjugationCharge = where(DSL.notExists(select))
 }

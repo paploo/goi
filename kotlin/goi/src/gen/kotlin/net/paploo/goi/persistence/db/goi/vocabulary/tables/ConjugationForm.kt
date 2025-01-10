@@ -4,20 +4,27 @@
 package net.paploo.goi.persistence.db.goi.vocabulary.tables
 
 
-import java.util.function.Function
+import kotlin.collections.Collection
 
 import net.paploo.goi.persistence.db.goi.vocabulary.Vocabulary
 import net.paploo.goi.persistence.db.goi.vocabulary.keys.CONJUGATION_FORM_PKEY
+import net.paploo.goi.persistence.db.goi.vocabulary.keys.CONJUGATION__CONJUGATION_FORM_CODE_FKEY
+import net.paploo.goi.persistence.db.goi.vocabulary.tables.Conjugation.ConjugationPath
 import net.paploo.goi.persistence.db.goi.vocabulary.tables.records.ConjugationFormRecord
 
+import org.jooq.Condition
 import org.jooq.Field
 import org.jooq.ForeignKey
+import org.jooq.InverseForeignKey
 import org.jooq.Name
+import org.jooq.Path
+import org.jooq.PlainSQL
+import org.jooq.QueryPart
 import org.jooq.Record
-import org.jooq.Records
-import org.jooq.Row3
+import org.jooq.SQL
 import org.jooq.Schema
-import org.jooq.SelectField
+import org.jooq.Select
+import org.jooq.Stringly
 import org.jooq.Table
 import org.jooq.TableField
 import org.jooq.TableOptions
@@ -34,19 +41,23 @@ import org.jooq.impl.TableImpl
 @Suppress("UNCHECKED_CAST")
 open class ConjugationForm(
     alias: Name,
-    child: Table<out Record>?,
-    path: ForeignKey<out Record, ConjugationFormRecord>?,
+    path: Table<out Record>?,
+    childPath: ForeignKey<out Record, ConjugationFormRecord>?,
+    parentPath: InverseForeignKey<out Record, ConjugationFormRecord>?,
     aliased: Table<ConjugationFormRecord>?,
-    parameters: Array<Field<*>?>?
+    parameters: Array<Field<*>?>?,
+    where: Condition?
 ): TableImpl<ConjugationFormRecord>(
     alias,
     Vocabulary.VOCABULARY,
-    child,
     path,
+    childPath,
+    parentPath,
     aliased,
     parameters,
     DSL.comment(""),
-    TableOptions.table()
+    TableOptions.table(),
+    where,
 ) {
     companion object {
 
@@ -76,8 +87,9 @@ open class ConjugationForm(
      */
     val SORT_RANK: TableField<ConjugationFormRecord, Int?> = createField(DSL.name("sort_rank"), SQLDataType.INTEGER.nullable(false), this, "")
 
-    private constructor(alias: Name, aliased: Table<ConjugationFormRecord>?): this(alias, null, null, aliased, null)
-    private constructor(alias: Name, aliased: Table<ConjugationFormRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, aliased, parameters)
+    private constructor(alias: Name, aliased: Table<ConjugationFormRecord>?): this(alias, null, null, null, aliased, null, null)
+    private constructor(alias: Name, aliased: Table<ConjugationFormRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, null, aliased, parameters, null)
+    private constructor(alias: Name, aliased: Table<ConjugationFormRecord>?, where: Condition?): this(alias, null, null, null, aliased, null, where)
 
     /**
      * Create an aliased <code>vocabulary.conjugation_form</code> table
@@ -96,12 +108,39 @@ open class ConjugationForm(
      */
     constructor(): this(DSL.name("conjugation_form"), null)
 
-    constructor(child: Table<out Record>, key: ForeignKey<out Record, ConjugationFormRecord>): this(Internal.createPathAlias(child, key), child, key, CONJUGATION_FORM, null)
+    constructor(path: Table<out Record>, childPath: ForeignKey<out Record, ConjugationFormRecord>?, parentPath: InverseForeignKey<out Record, ConjugationFormRecord>?): this(Internal.createPathAlias(path, childPath, parentPath), path, childPath, parentPath, CONJUGATION_FORM, null, null)
+
+    /**
+     * A subtype implementing {@link Path} for simplified path-based joins.
+     */
+    open class ConjugationFormPath : ConjugationForm, Path<ConjugationFormRecord> {
+        constructor(path: Table<out Record>, childPath: ForeignKey<out Record, ConjugationFormRecord>?, parentPath: InverseForeignKey<out Record, ConjugationFormRecord>?): super(path, childPath, parentPath)
+        private constructor(alias: Name, aliased: Table<ConjugationFormRecord>): super(alias, aliased)
+        override fun `as`(alias: String): ConjugationFormPath = ConjugationFormPath(DSL.name(alias), this)
+        override fun `as`(alias: Name): ConjugationFormPath = ConjugationFormPath(alias, this)
+        override fun `as`(alias: Table<*>): ConjugationFormPath = ConjugationFormPath(alias.qualifiedName, this)
+    }
     override fun getSchema(): Schema? = if (aliased()) null else Vocabulary.VOCABULARY
     override fun getPrimaryKey(): UniqueKey<ConjugationFormRecord> = CONJUGATION_FORM_PKEY
+
+    private lateinit var _conjugation: ConjugationPath
+
+    /**
+     * Get the implicit to-many join path to the
+     * <code>vocabulary.conjugation</code> table
+     */
+    fun conjugation(): ConjugationPath {
+        if (!this::_conjugation.isInitialized)
+            _conjugation = ConjugationPath(this, null, CONJUGATION__CONJUGATION_FORM_CODE_FKEY.inverseKey)
+
+        return _conjugation;
+    }
+
+    val conjugation: ConjugationPath
+        get(): ConjugationPath = conjugation()
     override fun `as`(alias: String): ConjugationForm = ConjugationForm(DSL.name(alias), this)
     override fun `as`(alias: Name): ConjugationForm = ConjugationForm(alias, this)
-    override fun `as`(alias: Table<*>): ConjugationForm = ConjugationForm(alias.getQualifiedName(), this)
+    override fun `as`(alias: Table<*>): ConjugationForm = ConjugationForm(alias.qualifiedName, this)
 
     /**
      * Rename this table
@@ -116,21 +155,55 @@ open class ConjugationForm(
     /**
      * Rename this table
      */
-    override fun rename(name: Table<*>): ConjugationForm = ConjugationForm(name.getQualifiedName(), null)
-
-    // -------------------------------------------------------------------------
-    // Row3 type methods
-    // -------------------------------------------------------------------------
-    override fun fieldsRow(): Row3<String?, String?, Int?> = super.fieldsRow() as Row3<String?, String?, Int?>
+    override fun rename(name: Table<*>): ConjugationForm = ConjugationForm(name.qualifiedName, null)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(from: (String?, String?, Int?) -> U): SelectField<U> = convertFrom(Records.mapping(from))
+    override fun where(condition: Condition?): ConjugationForm = ConjugationForm(qualifiedName, if (aliased()) this else null, condition)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Class,
-     * Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(toType: Class<U>, from: (String?, String?, Int?) -> U): SelectField<U> = convertFrom(toType, Records.mapping(from))
+    override fun where(conditions: Collection<Condition>): ConjugationForm = where(DSL.and(conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(vararg conditions: Condition?): ConjugationForm = where(DSL.and(*conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(condition: Field<Boolean?>?): ConjugationForm = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(condition: SQL): ConjugationForm = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String): ConjugationForm = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg binds: Any?): ConjugationForm = where(DSL.condition(condition, *binds))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg parts: QueryPart): ConjugationForm = where(DSL.condition(condition, *parts))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereExists(select: Select<*>): ConjugationForm = where(DSL.exists(select))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereNotExists(select: Select<*>): ConjugationForm = where(DSL.notExists(select))
 }
