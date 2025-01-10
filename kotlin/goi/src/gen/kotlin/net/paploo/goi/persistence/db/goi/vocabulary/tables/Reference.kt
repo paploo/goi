@@ -5,27 +5,33 @@ package net.paploo.goi.persistence.db.goi.vocabulary.tables
 
 
 import java.util.UUID
-import java.util.function.Function
 
+import kotlin.collections.Collection
 import kotlin.collections.List
 
-import net.paploo.goi.persistence.db.goi.source.tables.Lesson
+import net.paploo.goi.persistence.db.goi.source.tables.Lesson.LessonPath
 import net.paploo.goi.persistence.db.goi.vocabulary.Vocabulary
 import net.paploo.goi.persistence.db.goi.vocabulary.indexes.REFERENCE_LESSON_CODE_IDX
 import net.paploo.goi.persistence.db.goi.vocabulary.indexes.REFERENCE_VOCABULARY_ID_LESSON_CODE_IDX
 import net.paploo.goi.persistence.db.goi.vocabulary.keys.REFERENCE__REFERENCE_LESSON_CODE_FKEY
 import net.paploo.goi.persistence.db.goi.vocabulary.keys.REFERENCE__REFERENCE_VOCABULARY_ID_FKEY
+import net.paploo.goi.persistence.db.goi.vocabulary.tables.Vocabulary.VocabularyPath
 import net.paploo.goi.persistence.db.goi.vocabulary.tables.records.ReferenceRecord
 
+import org.jooq.Condition
 import org.jooq.Field
 import org.jooq.ForeignKey
 import org.jooq.Index
+import org.jooq.InverseForeignKey
 import org.jooq.Name
+import org.jooq.Path
+import org.jooq.PlainSQL
+import org.jooq.QueryPart
 import org.jooq.Record
-import org.jooq.Records
-import org.jooq.Row2
+import org.jooq.SQL
 import org.jooq.Schema
-import org.jooq.SelectField
+import org.jooq.Select
+import org.jooq.Stringly
 import org.jooq.Table
 import org.jooq.TableField
 import org.jooq.TableOptions
@@ -41,19 +47,23 @@ import org.jooq.impl.TableImpl
 @Suppress("UNCHECKED_CAST")
 open class Reference(
     alias: Name,
-    child: Table<out Record>?,
-    path: ForeignKey<out Record, ReferenceRecord>?,
+    path: Table<out Record>?,
+    childPath: ForeignKey<out Record, ReferenceRecord>?,
+    parentPath: InverseForeignKey<out Record, ReferenceRecord>?,
     aliased: Table<ReferenceRecord>?,
-    parameters: Array<Field<*>?>?
+    parameters: Array<Field<*>?>?,
+    where: Condition?
 ): TableImpl<ReferenceRecord>(
     alias,
     Vocabulary.VOCABULARY,
-    child,
     path,
+    childPath,
+    parentPath,
     aliased,
     parameters,
     DSL.comment(""),
-    TableOptions.table()
+    TableOptions.table(),
+    where,
 ) {
     companion object {
 
@@ -78,8 +88,9 @@ open class Reference(
      */
     val LESSON_CODE: TableField<ReferenceRecord, String?> = createField(DSL.name("lesson_code"), SQLDataType.VARCHAR.nullable(false), this, "")
 
-    private constructor(alias: Name, aliased: Table<ReferenceRecord>?): this(alias, null, null, aliased, null)
-    private constructor(alias: Name, aliased: Table<ReferenceRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, aliased, parameters)
+    private constructor(alias: Name, aliased: Table<ReferenceRecord>?): this(alias, null, null, null, aliased, null, null)
+    private constructor(alias: Name, aliased: Table<ReferenceRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, null, aliased, parameters, null)
+    private constructor(alias: Name, aliased: Table<ReferenceRecord>?, where: Condition?): this(alias, null, null, null, aliased, null, where)
 
     /**
      * Create an aliased <code>vocabulary.reference</code> table reference
@@ -96,43 +107,55 @@ open class Reference(
      */
     constructor(): this(DSL.name("reference"), null)
 
-    constructor(child: Table<out Record>, key: ForeignKey<out Record, ReferenceRecord>): this(Internal.createPathAlias(child, key), child, key, REFERENCE, null)
+    constructor(path: Table<out Record>, childPath: ForeignKey<out Record, ReferenceRecord>?, parentPath: InverseForeignKey<out Record, ReferenceRecord>?): this(Internal.createPathAlias(path, childPath, parentPath), path, childPath, parentPath, REFERENCE, null, null)
+
+    /**
+     * A subtype implementing {@link Path} for simplified path-based joins.
+     */
+    open class ReferencePath : Reference, Path<ReferenceRecord> {
+        constructor(path: Table<out Record>, childPath: ForeignKey<out Record, ReferenceRecord>?, parentPath: InverseForeignKey<out Record, ReferenceRecord>?): super(path, childPath, parentPath)
+        private constructor(alias: Name, aliased: Table<ReferenceRecord>): super(alias, aliased)
+        override fun `as`(alias: String): ReferencePath = ReferencePath(DSL.name(alias), this)
+        override fun `as`(alias: Name): ReferencePath = ReferencePath(alias, this)
+        override fun `as`(alias: Table<*>): ReferencePath = ReferencePath(alias.qualifiedName, this)
+    }
     override fun getSchema(): Schema? = if (aliased()) null else Vocabulary.VOCABULARY
     override fun getIndexes(): List<Index> = listOf(REFERENCE_LESSON_CODE_IDX, REFERENCE_VOCABULARY_ID_LESSON_CODE_IDX)
-    override fun getReferences(): List<ForeignKey<ReferenceRecord, *>> = listOf(REFERENCE__REFERENCE_VOCABULARY_ID_FKEY, REFERENCE__REFERENCE_LESSON_CODE_FKEY)
+    override fun getReferences(): List<ForeignKey<ReferenceRecord, *>> = listOf(REFERENCE__REFERENCE_LESSON_CODE_FKEY, REFERENCE__REFERENCE_VOCABULARY_ID_FKEY)
 
-    private lateinit var _vocabulary: net.paploo.goi.persistence.db.goi.vocabulary.tables.Vocabulary
-    private lateinit var _lesson: Lesson
+    private lateinit var _lesson: LessonPath
+
+    /**
+     * Get the implicit join path to the <code>source.lesson</code> table.
+     */
+    fun lesson(): LessonPath {
+        if (!this::_lesson.isInitialized)
+            _lesson = LessonPath(this, REFERENCE__REFERENCE_LESSON_CODE_FKEY, null)
+
+        return _lesson;
+    }
+
+    val lesson: LessonPath
+        get(): LessonPath = lesson()
+
+    private lateinit var _vocabulary: VocabularyPath
 
     /**
      * Get the implicit join path to the <code>vocabulary.vocabulary</code>
      * table.
      */
-    fun vocabulary(): net.paploo.goi.persistence.db.goi.vocabulary.tables.Vocabulary {
+    fun vocabulary(): VocabularyPath {
         if (!this::_vocabulary.isInitialized)
-            _vocabulary = net.paploo.goi.persistence.db.goi.vocabulary.tables.Vocabulary(this, REFERENCE__REFERENCE_VOCABULARY_ID_FKEY)
+            _vocabulary = VocabularyPath(this, REFERENCE__REFERENCE_VOCABULARY_ID_FKEY, null)
 
         return _vocabulary;
     }
 
-    val vocabulary: net.paploo.goi.persistence.db.goi.vocabulary.tables.Vocabulary
-        get(): net.paploo.goi.persistence.db.goi.vocabulary.tables.Vocabulary = vocabulary()
-
-    /**
-     * Get the implicit join path to the <code>source.lesson</code> table.
-     */
-    fun lesson(): Lesson {
-        if (!this::_lesson.isInitialized)
-            _lesson = Lesson(this, REFERENCE__REFERENCE_LESSON_CODE_FKEY)
-
-        return _lesson;
-    }
-
-    val lesson: Lesson
-        get(): Lesson = lesson()
+    val vocabulary: VocabularyPath
+        get(): VocabularyPath = vocabulary()
     override fun `as`(alias: String): Reference = Reference(DSL.name(alias), this)
     override fun `as`(alias: Name): Reference = Reference(alias, this)
-    override fun `as`(alias: Table<*>): Reference = Reference(alias.getQualifiedName(), this)
+    override fun `as`(alias: Table<*>): Reference = Reference(alias.qualifiedName, this)
 
     /**
      * Rename this table
@@ -147,21 +170,55 @@ open class Reference(
     /**
      * Rename this table
      */
-    override fun rename(name: Table<*>): Reference = Reference(name.getQualifiedName(), null)
-
-    // -------------------------------------------------------------------------
-    // Row2 type methods
-    // -------------------------------------------------------------------------
-    override fun fieldsRow(): Row2<UUID?, String?> = super.fieldsRow() as Row2<UUID?, String?>
+    override fun rename(name: Table<*>): Reference = Reference(name.qualifiedName, null)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(from: (UUID?, String?) -> U): SelectField<U> = convertFrom(Records.mapping(from))
+    override fun where(condition: Condition?): Reference = Reference(qualifiedName, if (aliased()) this else null, condition)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Class,
-     * Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(toType: Class<U>, from: (UUID?, String?) -> U): SelectField<U> = convertFrom(toType, Records.mapping(from))
+    override fun where(conditions: Collection<Condition>): Reference = where(DSL.and(conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(vararg conditions: Condition?): Reference = where(DSL.and(*conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(condition: Field<Boolean?>?): Reference = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(condition: SQL): Reference = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String): Reference = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg binds: Any?): Reference = where(DSL.condition(condition, *binds))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg parts: QueryPart): Reference = where(DSL.condition(condition, *parts))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereExists(select: Select<*>): Reference = where(DSL.exists(select))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereNotExists(select: Select<*>): Reference = where(DSL.notExists(select))
 }

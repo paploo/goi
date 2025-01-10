@@ -5,8 +5,8 @@ package net.paploo.goi.persistence.db.goi.vocabulary.tables
 
 
 import java.util.UUID
-import java.util.function.Function
 
+import kotlin.collections.Collection
 import kotlin.collections.List
 
 import net.paploo.goi.persistence.db.goi.vocabulary.Vocabulary
@@ -15,17 +15,23 @@ import net.paploo.goi.persistence.db.goi.vocabulary.indexes.DEFINITION_VOCABULAR
 import net.paploo.goi.persistence.db.goi.vocabulary.indexes.DEFINITION_VOCABULARY_ID_ID_IDX
 import net.paploo.goi.persistence.db.goi.vocabulary.keys.DEFINITION_PKEY
 import net.paploo.goi.persistence.db.goi.vocabulary.keys.DEFINITION__DEFINITION_VOCABULARY_ID_FKEY
+import net.paploo.goi.persistence.db.goi.vocabulary.tables.Vocabulary.VocabularyPath
 import net.paploo.goi.persistence.db.goi.vocabulary.tables.records.DefinitionRecord
 
+import org.jooq.Condition
 import org.jooq.Field
 import org.jooq.ForeignKey
 import org.jooq.Index
+import org.jooq.InverseForeignKey
 import org.jooq.Name
+import org.jooq.Path
+import org.jooq.PlainSQL
+import org.jooq.QueryPart
 import org.jooq.Record
-import org.jooq.Records
-import org.jooq.Row4
+import org.jooq.SQL
 import org.jooq.Schema
-import org.jooq.SelectField
+import org.jooq.Select
+import org.jooq.Stringly
 import org.jooq.Table
 import org.jooq.TableField
 import org.jooq.TableOptions
@@ -42,19 +48,23 @@ import org.jooq.impl.TableImpl
 @Suppress("UNCHECKED_CAST")
 open class Definition(
     alias: Name,
-    child: Table<out Record>?,
-    path: ForeignKey<out Record, DefinitionRecord>?,
+    path: Table<out Record>?,
+    childPath: ForeignKey<out Record, DefinitionRecord>?,
+    parentPath: InverseForeignKey<out Record, DefinitionRecord>?,
     aliased: Table<DefinitionRecord>?,
-    parameters: Array<Field<*>?>?
+    parameters: Array<Field<*>?>?,
+    where: Condition?
 ): TableImpl<DefinitionRecord>(
     alias,
     Vocabulary.VOCABULARY,
-    child,
     path,
+    childPath,
+    parentPath,
     aliased,
     parameters,
     DSL.comment(""),
-    TableOptions.table()
+    TableOptions.table(),
+    where,
 ) {
     companion object {
 
@@ -89,8 +99,9 @@ open class Definition(
      */
     val VALUE: TableField<DefinitionRecord, String?> = createField(DSL.name("value"), SQLDataType.CLOB.nullable(false), this, "")
 
-    private constructor(alias: Name, aliased: Table<DefinitionRecord>?): this(alias, null, null, aliased, null)
-    private constructor(alias: Name, aliased: Table<DefinitionRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, aliased, parameters)
+    private constructor(alias: Name, aliased: Table<DefinitionRecord>?): this(alias, null, null, null, aliased, null, null)
+    private constructor(alias: Name, aliased: Table<DefinitionRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, null, aliased, parameters, null)
+    private constructor(alias: Name, aliased: Table<DefinitionRecord>?, where: Condition?): this(alias, null, null, null, aliased, null, where)
 
     /**
      * Create an aliased <code>vocabulary.definition</code> table reference
@@ -107,30 +118,41 @@ open class Definition(
      */
     constructor(): this(DSL.name("definition"), null)
 
-    constructor(child: Table<out Record>, key: ForeignKey<out Record, DefinitionRecord>): this(Internal.createPathAlias(child, key), child, key, DEFINITION, null)
+    constructor(path: Table<out Record>, childPath: ForeignKey<out Record, DefinitionRecord>?, parentPath: InverseForeignKey<out Record, DefinitionRecord>?): this(Internal.createPathAlias(path, childPath, parentPath), path, childPath, parentPath, DEFINITION, null, null)
+
+    /**
+     * A subtype implementing {@link Path} for simplified path-based joins.
+     */
+    open class DefinitionPath : Definition, Path<DefinitionRecord> {
+        constructor(path: Table<out Record>, childPath: ForeignKey<out Record, DefinitionRecord>?, parentPath: InverseForeignKey<out Record, DefinitionRecord>?): super(path, childPath, parentPath)
+        private constructor(alias: Name, aliased: Table<DefinitionRecord>): super(alias, aliased)
+        override fun `as`(alias: String): DefinitionPath = DefinitionPath(DSL.name(alias), this)
+        override fun `as`(alias: Name): DefinitionPath = DefinitionPath(alias, this)
+        override fun `as`(alias: Table<*>): DefinitionPath = DefinitionPath(alias.qualifiedName, this)
+    }
     override fun getSchema(): Schema? = if (aliased()) null else Vocabulary.VOCABULARY
     override fun getIndexes(): List<Index> = listOf(DEFINITION_VALUE_IDX, DEFINITION_VOCABULARY_ID_ID_IDX, DEFINITION_VOCABULARY_ID_IDX)
     override fun getPrimaryKey(): UniqueKey<DefinitionRecord> = DEFINITION_PKEY
     override fun getReferences(): List<ForeignKey<DefinitionRecord, *>> = listOf(DEFINITION__DEFINITION_VOCABULARY_ID_FKEY)
 
-    private lateinit var _vocabulary: net.paploo.goi.persistence.db.goi.vocabulary.tables.Vocabulary
+    private lateinit var _vocabulary: VocabularyPath
 
     /**
      * Get the implicit join path to the <code>vocabulary.vocabulary</code>
      * table.
      */
-    fun vocabulary(): net.paploo.goi.persistence.db.goi.vocabulary.tables.Vocabulary {
+    fun vocabulary(): VocabularyPath {
         if (!this::_vocabulary.isInitialized)
-            _vocabulary = net.paploo.goi.persistence.db.goi.vocabulary.tables.Vocabulary(this, DEFINITION__DEFINITION_VOCABULARY_ID_FKEY)
+            _vocabulary = VocabularyPath(this, DEFINITION__DEFINITION_VOCABULARY_ID_FKEY, null)
 
         return _vocabulary;
     }
 
-    val vocabulary: net.paploo.goi.persistence.db.goi.vocabulary.tables.Vocabulary
-        get(): net.paploo.goi.persistence.db.goi.vocabulary.tables.Vocabulary = vocabulary()
+    val vocabulary: VocabularyPath
+        get(): VocabularyPath = vocabulary()
     override fun `as`(alias: String): Definition = Definition(DSL.name(alias), this)
     override fun `as`(alias: Name): Definition = Definition(alias, this)
-    override fun `as`(alias: Table<*>): Definition = Definition(alias.getQualifiedName(), this)
+    override fun `as`(alias: Table<*>): Definition = Definition(alias.qualifiedName, this)
 
     /**
      * Rename this table
@@ -145,21 +167,55 @@ open class Definition(
     /**
      * Rename this table
      */
-    override fun rename(name: Table<*>): Definition = Definition(name.getQualifiedName(), null)
-
-    // -------------------------------------------------------------------------
-    // Row4 type methods
-    // -------------------------------------------------------------------------
-    override fun fieldsRow(): Row4<UUID?, UUID?, Int?, String?> = super.fieldsRow() as Row4<UUID?, UUID?, Int?, String?>
+    override fun rename(name: Table<*>): Definition = Definition(name.qualifiedName, null)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(from: (UUID?, UUID?, Int?, String?) -> U): SelectField<U> = convertFrom(Records.mapping(from))
+    override fun where(condition: Condition?): Definition = Definition(qualifiedName, if (aliased()) this else null, condition)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Class,
-     * Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(toType: Class<U>, from: (UUID?, UUID?, Int?, String?) -> U): SelectField<U> = convertFrom(toType, Records.mapping(from))
+    override fun where(conditions: Collection<Condition>): Definition = where(DSL.and(conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(vararg conditions: Condition?): Definition = where(DSL.and(*conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(condition: Field<Boolean?>?): Definition = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(condition: SQL): Definition = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String): Definition = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg binds: Any?): Definition = where(DSL.condition(condition, *binds))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg parts: QueryPart): Definition = where(DSL.condition(condition, *parts))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereExists(select: Select<*>): Definition = where(DSL.exists(select))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereNotExists(select: Select<*>): Definition = where(DSL.notExists(select))
 }

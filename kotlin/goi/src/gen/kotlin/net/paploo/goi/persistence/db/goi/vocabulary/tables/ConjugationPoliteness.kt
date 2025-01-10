@@ -4,20 +4,27 @@
 package net.paploo.goi.persistence.db.goi.vocabulary.tables
 
 
-import java.util.function.Function
+import kotlin.collections.Collection
 
 import net.paploo.goi.persistence.db.goi.vocabulary.Vocabulary
 import net.paploo.goi.persistence.db.goi.vocabulary.keys.CONJUGATION_POLITENESS_PKEY
+import net.paploo.goi.persistence.db.goi.vocabulary.keys.CONJUGATION__CONJUGATION_POLITENESS_CODE_FKEY
+import net.paploo.goi.persistence.db.goi.vocabulary.tables.Conjugation.ConjugationPath
 import net.paploo.goi.persistence.db.goi.vocabulary.tables.records.ConjugationPolitenessRecord
 
+import org.jooq.Condition
 import org.jooq.Field
 import org.jooq.ForeignKey
+import org.jooq.InverseForeignKey
 import org.jooq.Name
+import org.jooq.Path
+import org.jooq.PlainSQL
+import org.jooq.QueryPart
 import org.jooq.Record
-import org.jooq.Records
-import org.jooq.Row3
+import org.jooq.SQL
 import org.jooq.Schema
-import org.jooq.SelectField
+import org.jooq.Select
+import org.jooq.Stringly
 import org.jooq.Table
 import org.jooq.TableField
 import org.jooq.TableOptions
@@ -34,19 +41,23 @@ import org.jooq.impl.TableImpl
 @Suppress("UNCHECKED_CAST")
 open class ConjugationPoliteness(
     alias: Name,
-    child: Table<out Record>?,
-    path: ForeignKey<out Record, ConjugationPolitenessRecord>?,
+    path: Table<out Record>?,
+    childPath: ForeignKey<out Record, ConjugationPolitenessRecord>?,
+    parentPath: InverseForeignKey<out Record, ConjugationPolitenessRecord>?,
     aliased: Table<ConjugationPolitenessRecord>?,
-    parameters: Array<Field<*>?>?
+    parameters: Array<Field<*>?>?,
+    where: Condition?
 ): TableImpl<ConjugationPolitenessRecord>(
     alias,
     Vocabulary.VOCABULARY,
-    child,
     path,
+    childPath,
+    parentPath,
     aliased,
     parameters,
     DSL.comment(""),
-    TableOptions.table()
+    TableOptions.table(),
+    where,
 ) {
     companion object {
 
@@ -77,8 +88,9 @@ open class ConjugationPoliteness(
      */
     val SORT_RANK: TableField<ConjugationPolitenessRecord, Int?> = createField(DSL.name("sort_rank"), SQLDataType.INTEGER.nullable(false), this, "")
 
-    private constructor(alias: Name, aliased: Table<ConjugationPolitenessRecord>?): this(alias, null, null, aliased, null)
-    private constructor(alias: Name, aliased: Table<ConjugationPolitenessRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, aliased, parameters)
+    private constructor(alias: Name, aliased: Table<ConjugationPolitenessRecord>?): this(alias, null, null, null, aliased, null, null)
+    private constructor(alias: Name, aliased: Table<ConjugationPolitenessRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, null, aliased, parameters, null)
+    private constructor(alias: Name, aliased: Table<ConjugationPolitenessRecord>?, where: Condition?): this(alias, null, null, null, aliased, null, where)
 
     /**
      * Create an aliased <code>vocabulary.conjugation_politeness</code> table
@@ -97,12 +109,39 @@ open class ConjugationPoliteness(
      */
     constructor(): this(DSL.name("conjugation_politeness"), null)
 
-    constructor(child: Table<out Record>, key: ForeignKey<out Record, ConjugationPolitenessRecord>): this(Internal.createPathAlias(child, key), child, key, CONJUGATION_POLITENESS, null)
+    constructor(path: Table<out Record>, childPath: ForeignKey<out Record, ConjugationPolitenessRecord>?, parentPath: InverseForeignKey<out Record, ConjugationPolitenessRecord>?): this(Internal.createPathAlias(path, childPath, parentPath), path, childPath, parentPath, CONJUGATION_POLITENESS, null, null)
+
+    /**
+     * A subtype implementing {@link Path} for simplified path-based joins.
+     */
+    open class ConjugationPolitenessPath : ConjugationPoliteness, Path<ConjugationPolitenessRecord> {
+        constructor(path: Table<out Record>, childPath: ForeignKey<out Record, ConjugationPolitenessRecord>?, parentPath: InverseForeignKey<out Record, ConjugationPolitenessRecord>?): super(path, childPath, parentPath)
+        private constructor(alias: Name, aliased: Table<ConjugationPolitenessRecord>): super(alias, aliased)
+        override fun `as`(alias: String): ConjugationPolitenessPath = ConjugationPolitenessPath(DSL.name(alias), this)
+        override fun `as`(alias: Name): ConjugationPolitenessPath = ConjugationPolitenessPath(alias, this)
+        override fun `as`(alias: Table<*>): ConjugationPolitenessPath = ConjugationPolitenessPath(alias.qualifiedName, this)
+    }
     override fun getSchema(): Schema? = if (aliased()) null else Vocabulary.VOCABULARY
     override fun getPrimaryKey(): UniqueKey<ConjugationPolitenessRecord> = CONJUGATION_POLITENESS_PKEY
+
+    private lateinit var _conjugation: ConjugationPath
+
+    /**
+     * Get the implicit to-many join path to the
+     * <code>vocabulary.conjugation</code> table
+     */
+    fun conjugation(): ConjugationPath {
+        if (!this::_conjugation.isInitialized)
+            _conjugation = ConjugationPath(this, null, CONJUGATION__CONJUGATION_POLITENESS_CODE_FKEY.inverseKey)
+
+        return _conjugation;
+    }
+
+    val conjugation: ConjugationPath
+        get(): ConjugationPath = conjugation()
     override fun `as`(alias: String): ConjugationPoliteness = ConjugationPoliteness(DSL.name(alias), this)
     override fun `as`(alias: Name): ConjugationPoliteness = ConjugationPoliteness(alias, this)
-    override fun `as`(alias: Table<*>): ConjugationPoliteness = ConjugationPoliteness(alias.getQualifiedName(), this)
+    override fun `as`(alias: Table<*>): ConjugationPoliteness = ConjugationPoliteness(alias.qualifiedName, this)
 
     /**
      * Rename this table
@@ -117,21 +156,55 @@ open class ConjugationPoliteness(
     /**
      * Rename this table
      */
-    override fun rename(name: Table<*>): ConjugationPoliteness = ConjugationPoliteness(name.getQualifiedName(), null)
-
-    // -------------------------------------------------------------------------
-    // Row3 type methods
-    // -------------------------------------------------------------------------
-    override fun fieldsRow(): Row3<String?, String?, Int?> = super.fieldsRow() as Row3<String?, String?, Int?>
+    override fun rename(name: Table<*>): ConjugationPoliteness = ConjugationPoliteness(name.qualifiedName, null)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(from: (String?, String?, Int?) -> U): SelectField<U> = convertFrom(Records.mapping(from))
+    override fun where(condition: Condition?): ConjugationPoliteness = ConjugationPoliteness(qualifiedName, if (aliased()) this else null, condition)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Class,
-     * Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(toType: Class<U>, from: (String?, String?, Int?) -> U): SelectField<U> = convertFrom(toType, Records.mapping(from))
+    override fun where(conditions: Collection<Condition>): ConjugationPoliteness = where(DSL.and(conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(vararg conditions: Condition?): ConjugationPoliteness = where(DSL.and(*conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(condition: Field<Boolean?>?): ConjugationPoliteness = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(condition: SQL): ConjugationPoliteness = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String): ConjugationPoliteness = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg binds: Any?): ConjugationPoliteness = where(DSL.condition(condition, *binds))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg parts: QueryPart): ConjugationPoliteness = where(DSL.condition(condition, *parts))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereExists(select: Select<*>): ConjugationPoliteness = where(DSL.exists(select))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereNotExists(select: Select<*>): ConjugationPoliteness = where(DSL.notExists(select))
 }

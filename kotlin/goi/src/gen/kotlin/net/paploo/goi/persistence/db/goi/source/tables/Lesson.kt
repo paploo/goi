@@ -4,28 +4,39 @@
 package net.paploo.goi.persistence.db.goi.source.tables
 
 
-import java.util.function.Function
-
+import kotlin.collections.Collection
 import kotlin.collections.List
 
+import net.paploo.goi.persistence.db.goi.grammar.keys.EXAMPLE_REFERENCE__EXAMPLE_REFERENCE_LESSON_CODE_FKEY
+import net.paploo.goi.persistence.db.goi.grammar.keys.RULE_REFERENCE__RULE_REFERENCE_LESSON_CODE_FKEY
+import net.paploo.goi.persistence.db.goi.grammar.tables.ExampleReference.ExampleReferencePath
+import net.paploo.goi.persistence.db.goi.grammar.tables.RuleReference.RuleReferencePath
 import net.paploo.goi.persistence.db.goi.source.Source
 import net.paploo.goi.persistence.db.goi.source.indexes.LESSON_SECTION_NUMBER_SUBSECTION_NUMBER_IDX
 import net.paploo.goi.persistence.db.goi.source.indexes.LESSON_SOURCE_CODE_IDX
 import net.paploo.goi.persistence.db.goi.source.indexes.LESSON_SOURCE_CODE_LESSON_CODE_IDX
 import net.paploo.goi.persistence.db.goi.source.keys.LESSON_PKEY
 import net.paploo.goi.persistence.db.goi.source.keys.LESSON__LESSON_SOURCE_CODE_FKEY
+import net.paploo.goi.persistence.db.goi.source.tables.Source.SourcePath
 import net.paploo.goi.persistence.db.goi.source.tables.records.LessonRecord
+import net.paploo.goi.persistence.db.goi.vocabulary.keys.REFERENCE__REFERENCE_LESSON_CODE_FKEY
+import net.paploo.goi.persistence.db.goi.vocabulary.tables.Reference.ReferencePath
 
 import org.jooq.Check
+import org.jooq.Condition
 import org.jooq.Field
 import org.jooq.ForeignKey
 import org.jooq.Index
+import org.jooq.InverseForeignKey
 import org.jooq.Name
+import org.jooq.Path
+import org.jooq.PlainSQL
+import org.jooq.QueryPart
 import org.jooq.Record
-import org.jooq.Records
-import org.jooq.Row8
+import org.jooq.SQL
 import org.jooq.Schema
-import org.jooq.SelectField
+import org.jooq.Select
+import org.jooq.Stringly
 import org.jooq.Table
 import org.jooq.TableField
 import org.jooq.TableOptions
@@ -42,19 +53,23 @@ import org.jooq.impl.TableImpl
 @Suppress("UNCHECKED_CAST")
 open class Lesson(
     alias: Name,
-    child: Table<out Record>?,
-    path: ForeignKey<out Record, LessonRecord>?,
+    path: Table<out Record>?,
+    childPath: ForeignKey<out Record, LessonRecord>?,
+    parentPath: InverseForeignKey<out Record, LessonRecord>?,
     aliased: Table<LessonRecord>?,
-    parameters: Array<Field<*>?>?
+    parameters: Array<Field<*>?>?,
+    where: Condition?
 ): TableImpl<LessonRecord>(
     alias,
     Source.SOURCE,
-    child,
     path,
+    childPath,
+    parentPath,
     aliased,
     parameters,
     DSL.comment(""),
-    TableOptions.table()
+    TableOptions.table(),
+    where,
 ) {
     companion object {
 
@@ -109,8 +124,9 @@ open class Lesson(
      */
     val DESCRIPTION: TableField<LessonRecord, String?> = createField(DSL.name("description"), SQLDataType.CLOB, this, "")
 
-    private constructor(alias: Name, aliased: Table<LessonRecord>?): this(alias, null, null, aliased, null)
-    private constructor(alias: Name, aliased: Table<LessonRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, aliased, parameters)
+    private constructor(alias: Name, aliased: Table<LessonRecord>?): this(alias, null, null, null, aliased, null, null)
+    private constructor(alias: Name, aliased: Table<LessonRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, null, aliased, parameters, null)
+    private constructor(alias: Name, aliased: Table<LessonRecord>?, where: Condition?): this(alias, null, null, null, aliased, null, where)
 
     /**
      * Create an aliased <code>source.lesson</code> table reference
@@ -127,32 +143,91 @@ open class Lesson(
      */
     constructor(): this(DSL.name("lesson"), null)
 
-    constructor(child: Table<out Record>, key: ForeignKey<out Record, LessonRecord>): this(Internal.createPathAlias(child, key), child, key, LESSON, null)
+    constructor(path: Table<out Record>, childPath: ForeignKey<out Record, LessonRecord>?, parentPath: InverseForeignKey<out Record, LessonRecord>?): this(Internal.createPathAlias(path, childPath, parentPath), path, childPath, parentPath, LESSON, null, null)
+
+    /**
+     * A subtype implementing {@link Path} for simplified path-based joins.
+     */
+    open class LessonPath : Lesson, Path<LessonRecord> {
+        constructor(path: Table<out Record>, childPath: ForeignKey<out Record, LessonRecord>?, parentPath: InverseForeignKey<out Record, LessonRecord>?): super(path, childPath, parentPath)
+        private constructor(alias: Name, aliased: Table<LessonRecord>): super(alias, aliased)
+        override fun `as`(alias: String): LessonPath = LessonPath(DSL.name(alias), this)
+        override fun `as`(alias: Name): LessonPath = LessonPath(alias, this)
+        override fun `as`(alias: Table<*>): LessonPath = LessonPath(alias.qualifiedName, this)
+    }
     override fun getSchema(): Schema? = if (aliased()) null else Source.SOURCE
     override fun getIndexes(): List<Index> = listOf(LESSON_SECTION_NUMBER_SUBSECTION_NUMBER_IDX, LESSON_SOURCE_CODE_IDX, LESSON_SOURCE_CODE_LESSON_CODE_IDX)
     override fun getPrimaryKey(): UniqueKey<LessonRecord> = LESSON_PKEY
     override fun getReferences(): List<ForeignKey<LessonRecord, *>> = listOf(LESSON__LESSON_SOURCE_CODE_FKEY)
 
-    private lateinit var _source: net.paploo.goi.persistence.db.goi.source.tables.Source
+    private lateinit var _source: SourcePath
 
     /**
      * Get the implicit join path to the <code>source.source</code> table.
      */
-    fun source(): net.paploo.goi.persistence.db.goi.source.tables.Source {
+    fun source(): SourcePath {
         if (!this::_source.isInitialized)
-            _source = net.paploo.goi.persistence.db.goi.source.tables.Source(this, LESSON__LESSON_SOURCE_CODE_FKEY)
+            _source = SourcePath(this, LESSON__LESSON_SOURCE_CODE_FKEY, null)
 
         return _source;
     }
 
-    val source: net.paploo.goi.persistence.db.goi.source.tables.Source
-        get(): net.paploo.goi.persistence.db.goi.source.tables.Source = source()
+    val source: SourcePath
+        get(): SourcePath = source()
+
+    private lateinit var _exampleReference: ExampleReferencePath
+
+    /**
+     * Get the implicit to-many join path to the
+     * <code>grammar.example_reference</code> table
+     */
+    fun exampleReference(): ExampleReferencePath {
+        if (!this::_exampleReference.isInitialized)
+            _exampleReference = ExampleReferencePath(this, null, EXAMPLE_REFERENCE__EXAMPLE_REFERENCE_LESSON_CODE_FKEY.inverseKey)
+
+        return _exampleReference;
+    }
+
+    val exampleReference: ExampleReferencePath
+        get(): ExampleReferencePath = exampleReference()
+
+    private lateinit var _ruleReference: RuleReferencePath
+
+    /**
+     * Get the implicit to-many join path to the
+     * <code>grammar.rule_reference</code> table
+     */
+    fun ruleReference(): RuleReferencePath {
+        if (!this::_ruleReference.isInitialized)
+            _ruleReference = RuleReferencePath(this, null, RULE_REFERENCE__RULE_REFERENCE_LESSON_CODE_FKEY.inverseKey)
+
+        return _ruleReference;
+    }
+
+    val ruleReference: RuleReferencePath
+        get(): RuleReferencePath = ruleReference()
+
+    private lateinit var _reference: ReferencePath
+
+    /**
+     * Get the implicit to-many join path to the
+     * <code>vocabulary.reference</code> table
+     */
+    fun reference(): ReferencePath {
+        if (!this::_reference.isInitialized)
+            _reference = ReferencePath(this, null, REFERENCE__REFERENCE_LESSON_CODE_FKEY.inverseKey)
+
+        return _reference;
+    }
+
+    val reference: ReferencePath
+        get(): ReferencePath = reference()
     override fun getChecks(): List<Check<LessonRecord>> = listOf(
         Internal.createCheck(this, DSL.name("lesson_check"), "(((code)::text = concat(source_code, '_', lesson_code)))", true)
     )
     override fun `as`(alias: String): Lesson = Lesson(DSL.name(alias), this)
     override fun `as`(alias: Name): Lesson = Lesson(alias, this)
-    override fun `as`(alias: Table<*>): Lesson = Lesson(alias.getQualifiedName(), this)
+    override fun `as`(alias: Table<*>): Lesson = Lesson(alias.qualifiedName, this)
 
     /**
      * Rename this table
@@ -167,21 +242,55 @@ open class Lesson(
     /**
      * Rename this table
      */
-    override fun rename(name: Table<*>): Lesson = Lesson(name.getQualifiedName(), null)
-
-    // -------------------------------------------------------------------------
-    // Row8 type methods
-    // -------------------------------------------------------------------------
-    override fun fieldsRow(): Row8<String?, String?, String?, String?, Int?, Int?, String?, String?> = super.fieldsRow() as Row8<String?, String?, String?, String?, Int?, Int?, String?, String?>
+    override fun rename(name: Table<*>): Lesson = Lesson(name.qualifiedName, null)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(from: (String?, String?, String?, String?, Int?, Int?, String?, String?) -> U): SelectField<U> = convertFrom(Records.mapping(from))
+    override fun where(condition: Condition?): Lesson = Lesson(qualifiedName, if (aliased()) this else null, condition)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Class,
-     * Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(toType: Class<U>, from: (String?, String?, String?, String?, Int?, Int?, String?, String?) -> U): SelectField<U> = convertFrom(toType, Records.mapping(from))
+    override fun where(conditions: Collection<Condition>): Lesson = where(DSL.and(conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(vararg conditions: Condition?): Lesson = where(DSL.and(*conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(condition: Field<Boolean?>?): Lesson = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(condition: SQL): Lesson = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String): Lesson = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg binds: Any?): Lesson = where(DSL.condition(condition, *binds))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg parts: QueryPart): Lesson = where(DSL.condition(condition, *parts))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereExists(select: Select<*>): Lesson = where(DSL.exists(select))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereNotExists(select: Select<*>): Lesson = where(DSL.notExists(select))
 }

@@ -5,8 +5,8 @@ package net.paploo.goi.persistence.db.goi.vocabulary.tables
 
 
 import java.util.UUID
-import java.util.function.Function
 
+import kotlin.collections.Collection
 import kotlin.collections.List
 
 import net.paploo.goi.persistence.db.goi.vocabulary.Vocabulary
@@ -14,17 +14,25 @@ import net.paploo.goi.persistence.db.goi.vocabulary.indexes.CONJUGATION_SET_VOCA
 import net.paploo.goi.persistence.db.goi.vocabulary.indexes.CONJUGATION_SET_VOCABULARY_ID_ID_IDX
 import net.paploo.goi.persistence.db.goi.vocabulary.keys.CONJUGATION_SET_PKEY
 import net.paploo.goi.persistence.db.goi.vocabulary.keys.CONJUGATION_SET__CONJUGATION_SET_VOCABULARY_ID_FKEY
+import net.paploo.goi.persistence.db.goi.vocabulary.keys.CONJUGATION__CONJUGATION_CONJUGATION_SET_ID_FKEY
+import net.paploo.goi.persistence.db.goi.vocabulary.tables.Conjugation.ConjugationPath
+import net.paploo.goi.persistence.db.goi.vocabulary.tables.Vocabulary.VocabularyPath
 import net.paploo.goi.persistence.db.goi.vocabulary.tables.records.ConjugationSetRecord
 
+import org.jooq.Condition
 import org.jooq.Field
 import org.jooq.ForeignKey
 import org.jooq.Index
+import org.jooq.InverseForeignKey
 import org.jooq.Name
+import org.jooq.Path
+import org.jooq.PlainSQL
+import org.jooq.QueryPart
 import org.jooq.Record
-import org.jooq.Records
-import org.jooq.Row2
+import org.jooq.SQL
 import org.jooq.Schema
-import org.jooq.SelectField
+import org.jooq.Select
+import org.jooq.Stringly
 import org.jooq.Table
 import org.jooq.TableField
 import org.jooq.TableOptions
@@ -41,19 +49,23 @@ import org.jooq.impl.TableImpl
 @Suppress("UNCHECKED_CAST")
 open class ConjugationSet(
     alias: Name,
-    child: Table<out Record>?,
-    path: ForeignKey<out Record, ConjugationSetRecord>?,
+    path: Table<out Record>?,
+    childPath: ForeignKey<out Record, ConjugationSetRecord>?,
+    parentPath: InverseForeignKey<out Record, ConjugationSetRecord>?,
     aliased: Table<ConjugationSetRecord>?,
-    parameters: Array<Field<*>?>?
+    parameters: Array<Field<*>?>?,
+    where: Condition?
 ): TableImpl<ConjugationSetRecord>(
     alias,
     Vocabulary.VOCABULARY,
-    child,
     path,
+    childPath,
+    parentPath,
     aliased,
     parameters,
     DSL.comment(""),
-    TableOptions.table()
+    TableOptions.table(),
+    where,
 ) {
     companion object {
 
@@ -78,8 +90,9 @@ open class ConjugationSet(
      */
     val VOCABULARY_ID: TableField<ConjugationSetRecord, UUID?> = createField(DSL.name("vocabulary_id"), SQLDataType.UUID.nullable(false), this, "")
 
-    private constructor(alias: Name, aliased: Table<ConjugationSetRecord>?): this(alias, null, null, aliased, null)
-    private constructor(alias: Name, aliased: Table<ConjugationSetRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, aliased, parameters)
+    private constructor(alias: Name, aliased: Table<ConjugationSetRecord>?): this(alias, null, null, null, aliased, null, null)
+    private constructor(alias: Name, aliased: Table<ConjugationSetRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, null, aliased, parameters, null)
+    private constructor(alias: Name, aliased: Table<ConjugationSetRecord>?, where: Condition?): this(alias, null, null, null, aliased, null, where)
 
     /**
      * Create an aliased <code>vocabulary.conjugation_set</code> table reference
@@ -96,30 +109,57 @@ open class ConjugationSet(
      */
     constructor(): this(DSL.name("conjugation_set"), null)
 
-    constructor(child: Table<out Record>, key: ForeignKey<out Record, ConjugationSetRecord>): this(Internal.createPathAlias(child, key), child, key, CONJUGATION_SET, null)
+    constructor(path: Table<out Record>, childPath: ForeignKey<out Record, ConjugationSetRecord>?, parentPath: InverseForeignKey<out Record, ConjugationSetRecord>?): this(Internal.createPathAlias(path, childPath, parentPath), path, childPath, parentPath, CONJUGATION_SET, null, null)
+
+    /**
+     * A subtype implementing {@link Path} for simplified path-based joins.
+     */
+    open class ConjugationSetPath : ConjugationSet, Path<ConjugationSetRecord> {
+        constructor(path: Table<out Record>, childPath: ForeignKey<out Record, ConjugationSetRecord>?, parentPath: InverseForeignKey<out Record, ConjugationSetRecord>?): super(path, childPath, parentPath)
+        private constructor(alias: Name, aliased: Table<ConjugationSetRecord>): super(alias, aliased)
+        override fun `as`(alias: String): ConjugationSetPath = ConjugationSetPath(DSL.name(alias), this)
+        override fun `as`(alias: Name): ConjugationSetPath = ConjugationSetPath(alias, this)
+        override fun `as`(alias: Table<*>): ConjugationSetPath = ConjugationSetPath(alias.qualifiedName, this)
+    }
     override fun getSchema(): Schema? = if (aliased()) null else Vocabulary.VOCABULARY
     override fun getIndexes(): List<Index> = listOf(CONJUGATION_SET_VOCABULARY_ID_ID_IDX, CONJUGATION_SET_VOCABULARY_ID_IDX)
     override fun getPrimaryKey(): UniqueKey<ConjugationSetRecord> = CONJUGATION_SET_PKEY
     override fun getReferences(): List<ForeignKey<ConjugationSetRecord, *>> = listOf(CONJUGATION_SET__CONJUGATION_SET_VOCABULARY_ID_FKEY)
 
-    private lateinit var _vocabulary: net.paploo.goi.persistence.db.goi.vocabulary.tables.Vocabulary
+    private lateinit var _vocabulary: VocabularyPath
 
     /**
      * Get the implicit join path to the <code>vocabulary.vocabulary</code>
      * table.
      */
-    fun vocabulary(): net.paploo.goi.persistence.db.goi.vocabulary.tables.Vocabulary {
+    fun vocabulary(): VocabularyPath {
         if (!this::_vocabulary.isInitialized)
-            _vocabulary = net.paploo.goi.persistence.db.goi.vocabulary.tables.Vocabulary(this, CONJUGATION_SET__CONJUGATION_SET_VOCABULARY_ID_FKEY)
+            _vocabulary = VocabularyPath(this, CONJUGATION_SET__CONJUGATION_SET_VOCABULARY_ID_FKEY, null)
 
         return _vocabulary;
     }
 
-    val vocabulary: net.paploo.goi.persistence.db.goi.vocabulary.tables.Vocabulary
-        get(): net.paploo.goi.persistence.db.goi.vocabulary.tables.Vocabulary = vocabulary()
+    val vocabulary: VocabularyPath
+        get(): VocabularyPath = vocabulary()
+
+    private lateinit var _conjugation: ConjugationPath
+
+    /**
+     * Get the implicit to-many join path to the
+     * <code>vocabulary.conjugation</code> table
+     */
+    fun conjugation(): ConjugationPath {
+        if (!this::_conjugation.isInitialized)
+            _conjugation = ConjugationPath(this, null, CONJUGATION__CONJUGATION_CONJUGATION_SET_ID_FKEY.inverseKey)
+
+        return _conjugation;
+    }
+
+    val conjugation: ConjugationPath
+        get(): ConjugationPath = conjugation()
     override fun `as`(alias: String): ConjugationSet = ConjugationSet(DSL.name(alias), this)
     override fun `as`(alias: Name): ConjugationSet = ConjugationSet(alias, this)
-    override fun `as`(alias: Table<*>): ConjugationSet = ConjugationSet(alias.getQualifiedName(), this)
+    override fun `as`(alias: Table<*>): ConjugationSet = ConjugationSet(alias.qualifiedName, this)
 
     /**
      * Rename this table
@@ -134,21 +174,55 @@ open class ConjugationSet(
     /**
      * Rename this table
      */
-    override fun rename(name: Table<*>): ConjugationSet = ConjugationSet(name.getQualifiedName(), null)
-
-    // -------------------------------------------------------------------------
-    // Row2 type methods
-    // -------------------------------------------------------------------------
-    override fun fieldsRow(): Row2<UUID?, UUID?> = super.fieldsRow() as Row2<UUID?, UUID?>
+    override fun rename(name: Table<*>): ConjugationSet = ConjugationSet(name.qualifiedName, null)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(from: (UUID?, UUID?) -> U): SelectField<U> = convertFrom(Records.mapping(from))
+    override fun where(condition: Condition?): ConjugationSet = ConjugationSet(qualifiedName, if (aliased()) this else null, condition)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Class,
-     * Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(toType: Class<U>, from: (UUID?, UUID?) -> U): SelectField<U> = convertFrom(toType, Records.mapping(from))
+    override fun where(conditions: Collection<Condition>): ConjugationSet = where(DSL.and(conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(vararg conditions: Condition?): ConjugationSet = where(DSL.and(*conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(condition: Field<Boolean?>?): ConjugationSet = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(condition: SQL): ConjugationSet = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String): ConjugationSet = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg binds: Any?): ConjugationSet = where(DSL.condition(condition, *binds))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg parts: QueryPart): ConjugationSet = where(DSL.condition(condition, *parts))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereExists(select: Select<*>): ConjugationSet = where(DSL.exists(select))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereNotExists(select: Select<*>): ConjugationSet = where(DSL.notExists(select))
 }

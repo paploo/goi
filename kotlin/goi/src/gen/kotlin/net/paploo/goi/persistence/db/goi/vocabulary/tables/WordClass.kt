@@ -4,20 +4,29 @@
 package net.paploo.goi.persistence.db.goi.vocabulary.tables
 
 
-import java.util.function.Function
+import kotlin.collections.Collection
 
 import net.paploo.goi.persistence.db.goi.vocabulary.Vocabulary
+import net.paploo.goi.persistence.db.goi.vocabulary.keys.CONJUGATION_KIND__CONJUGATION_KIND_WORD_CLASS_CODE_FKEY
+import net.paploo.goi.persistence.db.goi.vocabulary.keys.VOCABULARY__VOCABULARY_WORD_CLASS_CODE_FKEY
 import net.paploo.goi.persistence.db.goi.vocabulary.keys.WORD_CLASS_PKEY
+import net.paploo.goi.persistence.db.goi.vocabulary.tables.ConjugationKind.ConjugationKindPath
+import net.paploo.goi.persistence.db.goi.vocabulary.tables.Vocabulary.VocabularyPath
 import net.paploo.goi.persistence.db.goi.vocabulary.tables.records.WordClassRecord
 
+import org.jooq.Condition
 import org.jooq.Field
 import org.jooq.ForeignKey
+import org.jooq.InverseForeignKey
 import org.jooq.Name
+import org.jooq.Path
+import org.jooq.PlainSQL
+import org.jooq.QueryPart
 import org.jooq.Record
-import org.jooq.Records
-import org.jooq.Row2
+import org.jooq.SQL
 import org.jooq.Schema
-import org.jooq.SelectField
+import org.jooq.Select
+import org.jooq.Stringly
 import org.jooq.Table
 import org.jooq.TableField
 import org.jooq.TableOptions
@@ -34,19 +43,23 @@ import org.jooq.impl.TableImpl
 @Suppress("UNCHECKED_CAST")
 open class WordClass(
     alias: Name,
-    child: Table<out Record>?,
-    path: ForeignKey<out Record, WordClassRecord>?,
+    path: Table<out Record>?,
+    childPath: ForeignKey<out Record, WordClassRecord>?,
+    parentPath: InverseForeignKey<out Record, WordClassRecord>?,
     aliased: Table<WordClassRecord>?,
-    parameters: Array<Field<*>?>?
+    parameters: Array<Field<*>?>?,
+    where: Condition?
 ): TableImpl<WordClassRecord>(
     alias,
     Vocabulary.VOCABULARY,
-    child,
     path,
+    childPath,
+    parentPath,
     aliased,
     parameters,
     DSL.comment(""),
-    TableOptions.table()
+    TableOptions.table(),
+    where,
 ) {
     companion object {
 
@@ -71,8 +84,9 @@ open class WordClass(
      */
     val LABEL: TableField<WordClassRecord, String?> = createField(DSL.name("label"), SQLDataType.CLOB.nullable(false), this, "")
 
-    private constructor(alias: Name, aliased: Table<WordClassRecord>?): this(alias, null, null, aliased, null)
-    private constructor(alias: Name, aliased: Table<WordClassRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, aliased, parameters)
+    private constructor(alias: Name, aliased: Table<WordClassRecord>?): this(alias, null, null, null, aliased, null, null)
+    private constructor(alias: Name, aliased: Table<WordClassRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, null, aliased, parameters, null)
+    private constructor(alias: Name, aliased: Table<WordClassRecord>?, where: Condition?): this(alias, null, null, null, aliased, null, where)
 
     /**
      * Create an aliased <code>vocabulary.word_class</code> table reference
@@ -89,12 +103,55 @@ open class WordClass(
      */
     constructor(): this(DSL.name("word_class"), null)
 
-    constructor(child: Table<out Record>, key: ForeignKey<out Record, WordClassRecord>): this(Internal.createPathAlias(child, key), child, key, WORD_CLASS, null)
+    constructor(path: Table<out Record>, childPath: ForeignKey<out Record, WordClassRecord>?, parentPath: InverseForeignKey<out Record, WordClassRecord>?): this(Internal.createPathAlias(path, childPath, parentPath), path, childPath, parentPath, WORD_CLASS, null, null)
+
+    /**
+     * A subtype implementing {@link Path} for simplified path-based joins.
+     */
+    open class WordClassPath : WordClass, Path<WordClassRecord> {
+        constructor(path: Table<out Record>, childPath: ForeignKey<out Record, WordClassRecord>?, parentPath: InverseForeignKey<out Record, WordClassRecord>?): super(path, childPath, parentPath)
+        private constructor(alias: Name, aliased: Table<WordClassRecord>): super(alias, aliased)
+        override fun `as`(alias: String): WordClassPath = WordClassPath(DSL.name(alias), this)
+        override fun `as`(alias: Name): WordClassPath = WordClassPath(alias, this)
+        override fun `as`(alias: Table<*>): WordClassPath = WordClassPath(alias.qualifiedName, this)
+    }
     override fun getSchema(): Schema? = if (aliased()) null else Vocabulary.VOCABULARY
     override fun getPrimaryKey(): UniqueKey<WordClassRecord> = WORD_CLASS_PKEY
+
+    private lateinit var _conjugationKind: ConjugationKindPath
+
+    /**
+     * Get the implicit to-many join path to the
+     * <code>vocabulary.conjugation_kind</code> table
+     */
+    fun conjugationKind(): ConjugationKindPath {
+        if (!this::_conjugationKind.isInitialized)
+            _conjugationKind = ConjugationKindPath(this, null, CONJUGATION_KIND__CONJUGATION_KIND_WORD_CLASS_CODE_FKEY.inverseKey)
+
+        return _conjugationKind;
+    }
+
+    val conjugationKind: ConjugationKindPath
+        get(): ConjugationKindPath = conjugationKind()
+
+    private lateinit var _vocabulary: VocabularyPath
+
+    /**
+     * Get the implicit to-many join path to the
+     * <code>vocabulary.vocabulary</code> table
+     */
+    fun vocabulary(): VocabularyPath {
+        if (!this::_vocabulary.isInitialized)
+            _vocabulary = VocabularyPath(this, null, VOCABULARY__VOCABULARY_WORD_CLASS_CODE_FKEY.inverseKey)
+
+        return _vocabulary;
+    }
+
+    val vocabulary: VocabularyPath
+        get(): VocabularyPath = vocabulary()
     override fun `as`(alias: String): WordClass = WordClass(DSL.name(alias), this)
     override fun `as`(alias: Name): WordClass = WordClass(alias, this)
-    override fun `as`(alias: Table<*>): WordClass = WordClass(alias.getQualifiedName(), this)
+    override fun `as`(alias: Table<*>): WordClass = WordClass(alias.qualifiedName, this)
 
     /**
      * Rename this table
@@ -109,21 +166,55 @@ open class WordClass(
     /**
      * Rename this table
      */
-    override fun rename(name: Table<*>): WordClass = WordClass(name.getQualifiedName(), null)
-
-    // -------------------------------------------------------------------------
-    // Row2 type methods
-    // -------------------------------------------------------------------------
-    override fun fieldsRow(): Row2<String?, String?> = super.fieldsRow() as Row2<String?, String?>
+    override fun rename(name: Table<*>): WordClass = WordClass(name.qualifiedName, null)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(from: (String?, String?) -> U): SelectField<U> = convertFrom(Records.mapping(from))
+    override fun where(condition: Condition?): WordClass = WordClass(qualifiedName, if (aliased()) this else null, condition)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Class,
-     * Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(toType: Class<U>, from: (String?, String?) -> U): SelectField<U> = convertFrom(toType, Records.mapping(from))
+    override fun where(conditions: Collection<Condition>): WordClass = where(DSL.and(conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(vararg conditions: Condition?): WordClass = where(DSL.and(*conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(condition: Field<Boolean?>?): WordClass = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(condition: SQL): WordClass = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String): WordClass = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg binds: Any?): WordClass = where(DSL.condition(condition, *binds))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg parts: QueryPart): WordClass = where(DSL.condition(condition, *parts))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereExists(select: Select<*>): WordClass = where(DSL.exists(select))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereNotExists(select: Select<*>): WordClass = where(DSL.notExists(select))
 }

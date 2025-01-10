@@ -6,25 +6,42 @@ package net.paploo.goi.persistence.db.goi.vocabulary.tables
 
 import java.time.LocalDate
 import java.util.UUID
-import java.util.function.Function
 
+import kotlin.collections.Collection
 import kotlin.collections.List
 
 import net.paploo.goi.persistence.db.goi.vocabulary.indexes.VOCABULARY_TAGS_IDX
+import net.paploo.goi.persistence.db.goi.vocabulary.keys.CONJUGATION_SET__CONJUGATION_SET_VOCABULARY_ID_FKEY
+import net.paploo.goi.persistence.db.goi.vocabulary.keys.DEFINITION__DEFINITION_VOCABULARY_ID_FKEY
+import net.paploo.goi.persistence.db.goi.vocabulary.keys.LINKAGES__LINKAGES_VOCABULARY_ID_FKEY
+import net.paploo.goi.persistence.db.goi.vocabulary.keys.REFERENCE__REFERENCE_VOCABULARY_ID_FKEY
+import net.paploo.goi.persistence.db.goi.vocabulary.keys.SPELLING__SPELLING_VOCABULARY_ID_FKEY
 import net.paploo.goi.persistence.db.goi.vocabulary.keys.VOCABULARY_PKEY
 import net.paploo.goi.persistence.db.goi.vocabulary.keys.VOCABULARY__VOCABULARY_CONJUGATION_KIND_CODE_FKEY
 import net.paploo.goi.persistence.db.goi.vocabulary.keys.VOCABULARY__VOCABULARY_WORD_CLASS_CODE_FKEY
+import net.paploo.goi.persistence.db.goi.vocabulary.tables.ConjugationKind.ConjugationKindPath
+import net.paploo.goi.persistence.db.goi.vocabulary.tables.ConjugationSet.ConjugationSetPath
+import net.paploo.goi.persistence.db.goi.vocabulary.tables.Definition.DefinitionPath
+import net.paploo.goi.persistence.db.goi.vocabulary.tables.Linkages.LinkagesPath
+import net.paploo.goi.persistence.db.goi.vocabulary.tables.Reference.ReferencePath
+import net.paploo.goi.persistence.db.goi.vocabulary.tables.Spelling.SpellingPath
+import net.paploo.goi.persistence.db.goi.vocabulary.tables.WordClass.WordClassPath
 import net.paploo.goi.persistence.db.goi.vocabulary.tables.records.VocabularyRecord
 
+import org.jooq.Condition
 import org.jooq.Field
 import org.jooq.ForeignKey
 import org.jooq.Index
+import org.jooq.InverseForeignKey
 import org.jooq.Name
+import org.jooq.Path
+import org.jooq.PlainSQL
+import org.jooq.QueryPart
 import org.jooq.Record
-import org.jooq.Records
-import org.jooq.Row7
+import org.jooq.SQL
 import org.jooq.Schema
-import org.jooq.SelectField
+import org.jooq.Select
+import org.jooq.Stringly
 import org.jooq.Table
 import org.jooq.TableField
 import org.jooq.TableOptions
@@ -41,19 +58,23 @@ import org.jooq.impl.TableImpl
 @Suppress("UNCHECKED_CAST")
 open class Vocabulary(
     alias: Name,
-    child: Table<out Record>?,
-    path: ForeignKey<out Record, VocabularyRecord>?,
+    path: Table<out Record>?,
+    childPath: ForeignKey<out Record, VocabularyRecord>?,
+    parentPath: InverseForeignKey<out Record, VocabularyRecord>?,
     aliased: Table<VocabularyRecord>?,
-    parameters: Array<Field<*>?>?
+    parameters: Array<Field<*>?>?,
+    where: Condition?
 ): TableImpl<VocabularyRecord>(
     alias,
     net.paploo.goi.persistence.db.goi.vocabulary.Vocabulary.VOCABULARY,
-    child,
     path,
+    childPath,
+    parentPath,
     aliased,
     parameters,
     DSL.comment(""),
-    TableOptions.table()
+    TableOptions.table(),
+    where,
 ) {
     companion object {
 
@@ -101,10 +122,11 @@ open class Vocabulary(
     /**
      * The column <code>vocabulary.vocabulary.tags</code>.
      */
-    val TAGS: TableField<VocabularyRecord, Array<String?>?> = createField(DSL.name("tags"), SQLDataType.VARCHAR.nullable(false).defaultValue(DSL.field(DSL.raw("'{}'::character varying[]"), SQLDataType.VARCHAR)).array(), this, "")
+    val TAGS: TableField<VocabularyRecord, Array<String?>?> = createField(DSL.name("tags"), SQLDataType.VARCHAR.array().nullable(false).defaultValue(DSL.field(DSL.raw("'{}'::character varying[]"), SQLDataType.VARCHAR.array())), this, "")
 
-    private constructor(alias: Name, aliased: Table<VocabularyRecord>?): this(alias, null, null, aliased, null)
-    private constructor(alias: Name, aliased: Table<VocabularyRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, aliased, parameters)
+    private constructor(alias: Name, aliased: Table<VocabularyRecord>?): this(alias, null, null, null, aliased, null, null)
+    private constructor(alias: Name, aliased: Table<VocabularyRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, null, aliased, parameters, null)
+    private constructor(alias: Name, aliased: Table<VocabularyRecord>?, where: Condition?): this(alias, null, null, null, aliased, null, where)
 
     /**
      * Create an aliased <code>vocabulary.vocabulary</code> table reference
@@ -121,45 +143,137 @@ open class Vocabulary(
      */
     constructor(): this(DSL.name("vocabulary"), null)
 
-    constructor(child: Table<out Record>, key: ForeignKey<out Record, VocabularyRecord>): this(Internal.createPathAlias(child, key), child, key, VOCABULARY_, null)
+    constructor(path: Table<out Record>, childPath: ForeignKey<out Record, VocabularyRecord>?, parentPath: InverseForeignKey<out Record, VocabularyRecord>?): this(Internal.createPathAlias(path, childPath, parentPath), path, childPath, parentPath, VOCABULARY_, null, null)
+
+    /**
+     * A subtype implementing {@link Path} for simplified path-based joins.
+     */
+    open class VocabularyPath : Vocabulary, Path<VocabularyRecord> {
+        constructor(path: Table<out Record>, childPath: ForeignKey<out Record, VocabularyRecord>?, parentPath: InverseForeignKey<out Record, VocabularyRecord>?): super(path, childPath, parentPath)
+        private constructor(alias: Name, aliased: Table<VocabularyRecord>): super(alias, aliased)
+        override fun `as`(alias: String): VocabularyPath = VocabularyPath(DSL.name(alias), this)
+        override fun `as`(alias: Name): VocabularyPath = VocabularyPath(alias, this)
+        override fun `as`(alias: Table<*>): VocabularyPath = VocabularyPath(alias.qualifiedName, this)
+    }
     override fun getSchema(): Schema? = if (aliased()) null else net.paploo.goi.persistence.db.goi.vocabulary.Vocabulary.VOCABULARY
     override fun getIndexes(): List<Index> = listOf(VOCABULARY_TAGS_IDX)
     override fun getPrimaryKey(): UniqueKey<VocabularyRecord> = VOCABULARY_PKEY
-    override fun getReferences(): List<ForeignKey<VocabularyRecord, *>> = listOf(VOCABULARY__VOCABULARY_WORD_CLASS_CODE_FKEY, VOCABULARY__VOCABULARY_CONJUGATION_KIND_CODE_FKEY)
+    override fun getReferences(): List<ForeignKey<VocabularyRecord, *>> = listOf(VOCABULARY__VOCABULARY_CONJUGATION_KIND_CODE_FKEY, VOCABULARY__VOCABULARY_WORD_CLASS_CODE_FKEY)
 
-    private lateinit var _wordClass: WordClass
-    private lateinit var _conjugationKind: ConjugationKind
-
-    /**
-     * Get the implicit join path to the <code>vocabulary.word_class</code>
-     * table.
-     */
-    fun wordClass(): WordClass {
-        if (!this::_wordClass.isInitialized)
-            _wordClass = WordClass(this, VOCABULARY__VOCABULARY_WORD_CLASS_CODE_FKEY)
-
-        return _wordClass;
-    }
-
-    val wordClass: WordClass
-        get(): WordClass = wordClass()
+    private lateinit var _conjugationKind: ConjugationKindPath
 
     /**
      * Get the implicit join path to the
      * <code>vocabulary.conjugation_kind</code> table.
      */
-    fun conjugationKind(): ConjugationKind {
+    fun conjugationKind(): ConjugationKindPath {
         if (!this::_conjugationKind.isInitialized)
-            _conjugationKind = ConjugationKind(this, VOCABULARY__VOCABULARY_CONJUGATION_KIND_CODE_FKEY)
+            _conjugationKind = ConjugationKindPath(this, VOCABULARY__VOCABULARY_CONJUGATION_KIND_CODE_FKEY, null)
 
         return _conjugationKind;
     }
 
-    val conjugationKind: ConjugationKind
-        get(): ConjugationKind = conjugationKind()
+    val conjugationKind: ConjugationKindPath
+        get(): ConjugationKindPath = conjugationKind()
+
+    private lateinit var _wordClass: WordClassPath
+
+    /**
+     * Get the implicit join path to the <code>vocabulary.word_class</code>
+     * table.
+     */
+    fun wordClass(): WordClassPath {
+        if (!this::_wordClass.isInitialized)
+            _wordClass = WordClassPath(this, VOCABULARY__VOCABULARY_WORD_CLASS_CODE_FKEY, null)
+
+        return _wordClass;
+    }
+
+    val wordClass: WordClassPath
+        get(): WordClassPath = wordClass()
+
+    private lateinit var _conjugationSet: ConjugationSetPath
+
+    /**
+     * Get the implicit to-many join path to the
+     * <code>vocabulary.conjugation_set</code> table
+     */
+    fun conjugationSet(): ConjugationSetPath {
+        if (!this::_conjugationSet.isInitialized)
+            _conjugationSet = ConjugationSetPath(this, null, CONJUGATION_SET__CONJUGATION_SET_VOCABULARY_ID_FKEY.inverseKey)
+
+        return _conjugationSet;
+    }
+
+    val conjugationSet: ConjugationSetPath
+        get(): ConjugationSetPath = conjugationSet()
+
+    private lateinit var _definition: DefinitionPath
+
+    /**
+     * Get the implicit to-many join path to the
+     * <code>vocabulary.definition</code> table
+     */
+    fun definition(): DefinitionPath {
+        if (!this::_definition.isInitialized)
+            _definition = DefinitionPath(this, null, DEFINITION__DEFINITION_VOCABULARY_ID_FKEY.inverseKey)
+
+        return _definition;
+    }
+
+    val definition: DefinitionPath
+        get(): DefinitionPath = definition()
+
+    private lateinit var _linkages: LinkagesPath
+
+    /**
+     * Get the implicit to-many join path to the
+     * <code>vocabulary.linkages</code> table
+     */
+    fun linkages(): LinkagesPath {
+        if (!this::_linkages.isInitialized)
+            _linkages = LinkagesPath(this, null, LINKAGES__LINKAGES_VOCABULARY_ID_FKEY.inverseKey)
+
+        return _linkages;
+    }
+
+    val linkages: LinkagesPath
+        get(): LinkagesPath = linkages()
+
+    private lateinit var _reference: ReferencePath
+
+    /**
+     * Get the implicit to-many join path to the
+     * <code>vocabulary.reference</code> table
+     */
+    fun reference(): ReferencePath {
+        if (!this::_reference.isInitialized)
+            _reference = ReferencePath(this, null, REFERENCE__REFERENCE_VOCABULARY_ID_FKEY.inverseKey)
+
+        return _reference;
+    }
+
+    val reference: ReferencePath
+        get(): ReferencePath = reference()
+
+    private lateinit var _spelling: SpellingPath
+
+    /**
+     * Get the implicit to-many join path to the
+     * <code>vocabulary.spelling</code> table
+     */
+    fun spelling(): SpellingPath {
+        if (!this::_spelling.isInitialized)
+            _spelling = SpellingPath(this, null, SPELLING__SPELLING_VOCABULARY_ID_FKEY.inverseKey)
+
+        return _spelling;
+    }
+
+    val spelling: SpellingPath
+        get(): SpellingPath = spelling()
     override fun `as`(alias: String): Vocabulary = Vocabulary(DSL.name(alias), this)
     override fun `as`(alias: Name): Vocabulary = Vocabulary(alias, this)
-    override fun `as`(alias: Table<*>): Vocabulary = Vocabulary(alias.getQualifiedName(), this)
+    override fun `as`(alias: Table<*>): Vocabulary = Vocabulary(alias.qualifiedName, this)
 
     /**
      * Rename this table
@@ -174,21 +288,55 @@ open class Vocabulary(
     /**
      * Rename this table
      */
-    override fun rename(name: Table<*>): Vocabulary = Vocabulary(name.getQualifiedName(), null)
-
-    // -------------------------------------------------------------------------
-    // Row7 type methods
-    // -------------------------------------------------------------------------
-    override fun fieldsRow(): Row7<UUID?, String?, String?, Int?, Int?, LocalDate?, Array<String?>?> = super.fieldsRow() as Row7<UUID?, String?, String?, Int?, Int?, LocalDate?, Array<String?>?>
+    override fun rename(name: Table<*>): Vocabulary = Vocabulary(name.qualifiedName, null)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(from: (UUID?, String?, String?, Int?, Int?, LocalDate?, Array<String?>?) -> U): SelectField<U> = convertFrom(Records.mapping(from))
+    override fun where(condition: Condition?): Vocabulary = Vocabulary(qualifiedName, if (aliased()) this else null, condition)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Class,
-     * Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(toType: Class<U>, from: (UUID?, String?, String?, Int?, Int?, LocalDate?, Array<String?>?) -> U): SelectField<U> = convertFrom(toType, Records.mapping(from))
+    override fun where(conditions: Collection<Condition>): Vocabulary = where(DSL.and(conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(vararg conditions: Condition?): Vocabulary = where(DSL.and(*conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(condition: Field<Boolean?>?): Vocabulary = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(condition: SQL): Vocabulary = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String): Vocabulary = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg binds: Any?): Vocabulary = where(DSL.condition(condition, *binds))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg parts: QueryPart): Vocabulary = where(DSL.condition(condition, *parts))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereExists(select: Select<*>): Vocabulary = where(DSL.exists(select))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereNotExists(select: Select<*>): Vocabulary = where(DSL.notExists(select))
 }

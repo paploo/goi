@@ -4,20 +4,27 @@
 package net.paploo.goi.persistence.db.goi.vocabulary.tables
 
 
-import java.util.function.Function
+import kotlin.collections.Collection
 
 import net.paploo.goi.persistence.db.goi.vocabulary.Vocabulary
 import net.paploo.goi.persistence.db.goi.vocabulary.keys.SPELLING_KIND_PKEY
+import net.paploo.goi.persistence.db.goi.vocabulary.keys.SPELLING__SPELLING_SPELLING_KIND_CODE_FKEY
+import net.paploo.goi.persistence.db.goi.vocabulary.tables.Spelling.SpellingPath
 import net.paploo.goi.persistence.db.goi.vocabulary.tables.records.SpellingKindRecord
 
+import org.jooq.Condition
 import org.jooq.Field
 import org.jooq.ForeignKey
+import org.jooq.InverseForeignKey
 import org.jooq.Name
+import org.jooq.Path
+import org.jooq.PlainSQL
+import org.jooq.QueryPart
 import org.jooq.Record
-import org.jooq.Records
-import org.jooq.Row2
+import org.jooq.SQL
 import org.jooq.Schema
-import org.jooq.SelectField
+import org.jooq.Select
+import org.jooq.Stringly
 import org.jooq.Table
 import org.jooq.TableField
 import org.jooq.TableOptions
@@ -34,19 +41,23 @@ import org.jooq.impl.TableImpl
 @Suppress("UNCHECKED_CAST")
 open class SpellingKind(
     alias: Name,
-    child: Table<out Record>?,
-    path: ForeignKey<out Record, SpellingKindRecord>?,
+    path: Table<out Record>?,
+    childPath: ForeignKey<out Record, SpellingKindRecord>?,
+    parentPath: InverseForeignKey<out Record, SpellingKindRecord>?,
     aliased: Table<SpellingKindRecord>?,
-    parameters: Array<Field<*>?>?
+    parameters: Array<Field<*>?>?,
+    where: Condition?
 ): TableImpl<SpellingKindRecord>(
     alias,
     Vocabulary.VOCABULARY,
-    child,
     path,
+    childPath,
+    parentPath,
     aliased,
     parameters,
     DSL.comment(""),
-    TableOptions.table()
+    TableOptions.table(),
+    where,
 ) {
     companion object {
 
@@ -71,8 +82,9 @@ open class SpellingKind(
      */
     val LABEL: TableField<SpellingKindRecord, String?> = createField(DSL.name("label"), SQLDataType.CLOB.nullable(false), this, "")
 
-    private constructor(alias: Name, aliased: Table<SpellingKindRecord>?): this(alias, null, null, aliased, null)
-    private constructor(alias: Name, aliased: Table<SpellingKindRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, aliased, parameters)
+    private constructor(alias: Name, aliased: Table<SpellingKindRecord>?): this(alias, null, null, null, aliased, null, null)
+    private constructor(alias: Name, aliased: Table<SpellingKindRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, null, aliased, parameters, null)
+    private constructor(alias: Name, aliased: Table<SpellingKindRecord>?, where: Condition?): this(alias, null, null, null, aliased, null, where)
 
     /**
      * Create an aliased <code>vocabulary.spelling_kind</code> table reference
@@ -89,12 +101,39 @@ open class SpellingKind(
      */
     constructor(): this(DSL.name("spelling_kind"), null)
 
-    constructor(child: Table<out Record>, key: ForeignKey<out Record, SpellingKindRecord>): this(Internal.createPathAlias(child, key), child, key, SPELLING_KIND, null)
+    constructor(path: Table<out Record>, childPath: ForeignKey<out Record, SpellingKindRecord>?, parentPath: InverseForeignKey<out Record, SpellingKindRecord>?): this(Internal.createPathAlias(path, childPath, parentPath), path, childPath, parentPath, SPELLING_KIND, null, null)
+
+    /**
+     * A subtype implementing {@link Path} for simplified path-based joins.
+     */
+    open class SpellingKindPath : SpellingKind, Path<SpellingKindRecord> {
+        constructor(path: Table<out Record>, childPath: ForeignKey<out Record, SpellingKindRecord>?, parentPath: InverseForeignKey<out Record, SpellingKindRecord>?): super(path, childPath, parentPath)
+        private constructor(alias: Name, aliased: Table<SpellingKindRecord>): super(alias, aliased)
+        override fun `as`(alias: String): SpellingKindPath = SpellingKindPath(DSL.name(alias), this)
+        override fun `as`(alias: Name): SpellingKindPath = SpellingKindPath(alias, this)
+        override fun `as`(alias: Table<*>): SpellingKindPath = SpellingKindPath(alias.qualifiedName, this)
+    }
     override fun getSchema(): Schema? = if (aliased()) null else Vocabulary.VOCABULARY
     override fun getPrimaryKey(): UniqueKey<SpellingKindRecord> = SPELLING_KIND_PKEY
+
+    private lateinit var _spelling: SpellingPath
+
+    /**
+     * Get the implicit to-many join path to the
+     * <code>vocabulary.spelling</code> table
+     */
+    fun spelling(): SpellingPath {
+        if (!this::_spelling.isInitialized)
+            _spelling = SpellingPath(this, null, SPELLING__SPELLING_SPELLING_KIND_CODE_FKEY.inverseKey)
+
+        return _spelling;
+    }
+
+    val spelling: SpellingPath
+        get(): SpellingPath = spelling()
     override fun `as`(alias: String): SpellingKind = SpellingKind(DSL.name(alias), this)
     override fun `as`(alias: Name): SpellingKind = SpellingKind(alias, this)
-    override fun `as`(alias: Table<*>): SpellingKind = SpellingKind(alias.getQualifiedName(), this)
+    override fun `as`(alias: Table<*>): SpellingKind = SpellingKind(alias.qualifiedName, this)
 
     /**
      * Rename this table
@@ -109,21 +148,55 @@ open class SpellingKind(
     /**
      * Rename this table
      */
-    override fun rename(name: Table<*>): SpellingKind = SpellingKind(name.getQualifiedName(), null)
-
-    // -------------------------------------------------------------------------
-    // Row2 type methods
-    // -------------------------------------------------------------------------
-    override fun fieldsRow(): Row2<String?, String?> = super.fieldsRow() as Row2<String?, String?>
+    override fun rename(name: Table<*>): SpellingKind = SpellingKind(name.qualifiedName, null)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(from: (String?, String?) -> U): SelectField<U> = convertFrom(Records.mapping(from))
+    override fun where(condition: Condition?): SpellingKind = SpellingKind(qualifiedName, if (aliased()) this else null, condition)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Class,
-     * Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(toType: Class<U>, from: (String?, String?) -> U): SelectField<U> = convertFrom(toType, Records.mapping(from))
+    override fun where(conditions: Collection<Condition>): SpellingKind = where(DSL.and(conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(vararg conditions: Condition?): SpellingKind = where(DSL.and(*conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(condition: Field<Boolean?>?): SpellingKind = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(condition: SQL): SpellingKind = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String): SpellingKind = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg binds: Any?): SpellingKind = where(DSL.condition(condition, *binds))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg parts: QueryPart): SpellingKind = where(DSL.condition(condition, *parts))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereExists(select: Select<*>): SpellingKind = where(DSL.exists(select))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereNotExists(select: Select<*>): SpellingKind = where(DSL.notExists(select))
 }

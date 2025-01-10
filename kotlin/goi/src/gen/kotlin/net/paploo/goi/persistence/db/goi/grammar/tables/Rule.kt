@@ -6,20 +6,30 @@ package net.paploo.goi.persistence.db.goi.grammar.tables
 
 import java.time.LocalDate
 import java.util.UUID
-import java.util.function.Function
+
+import kotlin.collections.Collection
 
 import net.paploo.goi.persistence.db.goi.grammar.Grammar
+import net.paploo.goi.persistence.db.goi.grammar.keys.EXAMPLE__EXAMPLE_RULE_ID_FKEY
 import net.paploo.goi.persistence.db.goi.grammar.keys.RULE_PKEY
+import net.paploo.goi.persistence.db.goi.grammar.keys.RULE_REFERENCE__RULE_REFERENCE_RULE_ID_FKEY
+import net.paploo.goi.persistence.db.goi.grammar.tables.Example.ExamplePath
+import net.paploo.goi.persistence.db.goi.grammar.tables.RuleReference.RuleReferencePath
 import net.paploo.goi.persistence.db.goi.grammar.tables.records.RuleRecord
 
+import org.jooq.Condition
 import org.jooq.Field
 import org.jooq.ForeignKey
+import org.jooq.InverseForeignKey
 import org.jooq.Name
+import org.jooq.Path
+import org.jooq.PlainSQL
+import org.jooq.QueryPart
 import org.jooq.Record
-import org.jooq.Records
-import org.jooq.Row10
+import org.jooq.SQL
 import org.jooq.Schema
-import org.jooq.SelectField
+import org.jooq.Select
+import org.jooq.Stringly
 import org.jooq.Table
 import org.jooq.TableField
 import org.jooq.TableOptions
@@ -36,19 +46,23 @@ import org.jooq.impl.TableImpl
 @Suppress("UNCHECKED_CAST")
 open class Rule(
     alias: Name,
-    child: Table<out Record>?,
-    path: ForeignKey<out Record, RuleRecord>?,
+    path: Table<out Record>?,
+    childPath: ForeignKey<out Record, RuleRecord>?,
+    parentPath: InverseForeignKey<out Record, RuleRecord>?,
     aliased: Table<RuleRecord>?,
-    parameters: Array<Field<*>?>?
+    parameters: Array<Field<*>?>?,
+    where: Condition?
 ): TableImpl<RuleRecord>(
     alias,
     Grammar.GRAMMAR,
-    child,
     path,
+    childPath,
+    parentPath,
     aliased,
     parameters,
     DSL.comment(""),
-    TableOptions.table()
+    TableOptions.table(),
+    where,
 ) {
     companion object {
 
@@ -111,10 +125,11 @@ open class Rule(
     /**
      * The column <code>grammar.rule.tags</code>.
      */
-    val TAGS: TableField<RuleRecord, Array<String?>?> = createField(DSL.name("tags"), SQLDataType.VARCHAR.defaultValue(DSL.field(DSL.raw("'{}'::character varying[]"), SQLDataType.VARCHAR)).array(), this, "")
+    val TAGS: TableField<RuleRecord, Array<String?>?> = createField(DSL.name("tags"), SQLDataType.VARCHAR.array().defaultValue(DSL.field(DSL.raw("'{}'::character varying[]"), SQLDataType.VARCHAR.array())), this, "")
 
-    private constructor(alias: Name, aliased: Table<RuleRecord>?): this(alias, null, null, aliased, null)
-    private constructor(alias: Name, aliased: Table<RuleRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, aliased, parameters)
+    private constructor(alias: Name, aliased: Table<RuleRecord>?): this(alias, null, null, null, aliased, null, null)
+    private constructor(alias: Name, aliased: Table<RuleRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, null, aliased, parameters, null)
+    private constructor(alias: Name, aliased: Table<RuleRecord>?, where: Condition?): this(alias, null, null, null, aliased, null, where)
 
     /**
      * Create an aliased <code>grammar.rule</code> table reference
@@ -131,12 +146,55 @@ open class Rule(
      */
     constructor(): this(DSL.name("rule"), null)
 
-    constructor(child: Table<out Record>, key: ForeignKey<out Record, RuleRecord>): this(Internal.createPathAlias(child, key), child, key, RULE, null)
+    constructor(path: Table<out Record>, childPath: ForeignKey<out Record, RuleRecord>?, parentPath: InverseForeignKey<out Record, RuleRecord>?): this(Internal.createPathAlias(path, childPath, parentPath), path, childPath, parentPath, RULE, null, null)
+
+    /**
+     * A subtype implementing {@link Path} for simplified path-based joins.
+     */
+    open class RulePath : Rule, Path<RuleRecord> {
+        constructor(path: Table<out Record>, childPath: ForeignKey<out Record, RuleRecord>?, parentPath: InverseForeignKey<out Record, RuleRecord>?): super(path, childPath, parentPath)
+        private constructor(alias: Name, aliased: Table<RuleRecord>): super(alias, aliased)
+        override fun `as`(alias: String): RulePath = RulePath(DSL.name(alias), this)
+        override fun `as`(alias: Name): RulePath = RulePath(alias, this)
+        override fun `as`(alias: Table<*>): RulePath = RulePath(alias.qualifiedName, this)
+    }
     override fun getSchema(): Schema? = if (aliased()) null else Grammar.GRAMMAR
     override fun getPrimaryKey(): UniqueKey<RuleRecord> = RULE_PKEY
+
+    private lateinit var _example: ExamplePath
+
+    /**
+     * Get the implicit to-many join path to the <code>grammar.example</code>
+     * table
+     */
+    fun example(): ExamplePath {
+        if (!this::_example.isInitialized)
+            _example = ExamplePath(this, null, EXAMPLE__EXAMPLE_RULE_ID_FKEY.inverseKey)
+
+        return _example;
+    }
+
+    val example: ExamplePath
+        get(): ExamplePath = example()
+
+    private lateinit var _ruleReference: RuleReferencePath
+
+    /**
+     * Get the implicit to-many join path to the
+     * <code>grammar.rule_reference</code> table
+     */
+    fun ruleReference(): RuleReferencePath {
+        if (!this::_ruleReference.isInitialized)
+            _ruleReference = RuleReferencePath(this, null, RULE_REFERENCE__RULE_REFERENCE_RULE_ID_FKEY.inverseKey)
+
+        return _ruleReference;
+    }
+
+    val ruleReference: RuleReferencePath
+        get(): RuleReferencePath = ruleReference()
     override fun `as`(alias: String): Rule = Rule(DSL.name(alias), this)
     override fun `as`(alias: Name): Rule = Rule(alias, this)
-    override fun `as`(alias: Table<*>): Rule = Rule(alias.getQualifiedName(), this)
+    override fun `as`(alias: Table<*>): Rule = Rule(alias.qualifiedName, this)
 
     /**
      * Rename this table
@@ -151,21 +209,55 @@ open class Rule(
     /**
      * Rename this table
      */
-    override fun rename(name: Table<*>): Rule = Rule(name.getQualifiedName(), null)
-
-    // -------------------------------------------------------------------------
-    // Row10 type methods
-    // -------------------------------------------------------------------------
-    override fun fieldsRow(): Row10<UUID?, String?, String?, String?, String?, Array<String?>?, Int?, Int?, LocalDate?, Array<String?>?> = super.fieldsRow() as Row10<UUID?, String?, String?, String?, String?, Array<String?>?, Int?, Int?, LocalDate?, Array<String?>?>
+    override fun rename(name: Table<*>): Rule = Rule(name.qualifiedName, null)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(from: (UUID?, String?, String?, String?, String?, Array<String?>?, Int?, Int?, LocalDate?, Array<String?>?) -> U): SelectField<U> = convertFrom(Records.mapping(from))
+    override fun where(condition: Condition?): Rule = Rule(qualifiedName, if (aliased()) this else null, condition)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Class,
-     * Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(toType: Class<U>, from: (UUID?, String?, String?, String?, String?, Array<String?>?, Int?, Int?, LocalDate?, Array<String?>?) -> U): SelectField<U> = convertFrom(toType, Records.mapping(from))
+    override fun where(conditions: Collection<Condition>): Rule = where(DSL.and(conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(vararg conditions: Condition?): Rule = where(DSL.and(*conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(condition: Field<Boolean?>?): Rule = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(condition: SQL): Rule = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String): Rule = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg binds: Any?): Rule = where(DSL.condition(condition, *binds))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg parts: QueryPart): Rule = where(DSL.condition(condition, *parts))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereExists(select: Select<*>): Rule = where(DSL.exists(select))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereNotExists(select: Select<*>): Rule = where(DSL.notExists(select))
 }

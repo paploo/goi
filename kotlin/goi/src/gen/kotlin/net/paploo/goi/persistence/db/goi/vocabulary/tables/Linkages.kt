@@ -5,23 +5,29 @@ package net.paploo.goi.persistence.db.goi.vocabulary.tables
 
 
 import java.util.UUID
-import java.util.function.Function
 
+import kotlin.collections.Collection
 import kotlin.collections.List
 
 import net.paploo.goi.persistence.db.goi.vocabulary.Vocabulary
 import net.paploo.goi.persistence.db.goi.vocabulary.keys.LINKAGES_VOCABULARY_ID_KEY
 import net.paploo.goi.persistence.db.goi.vocabulary.keys.LINKAGES__LINKAGES_VOCABULARY_ID_FKEY
+import net.paploo.goi.persistence.db.goi.vocabulary.tables.Vocabulary.VocabularyPath
 import net.paploo.goi.persistence.db.goi.vocabulary.tables.records.LinkagesRecord
 
+import org.jooq.Condition
 import org.jooq.Field
 import org.jooq.ForeignKey
+import org.jooq.InverseForeignKey
 import org.jooq.Name
+import org.jooq.Path
+import org.jooq.PlainSQL
+import org.jooq.QueryPart
 import org.jooq.Record
-import org.jooq.Records
-import org.jooq.Row7
+import org.jooq.SQL
 import org.jooq.Schema
-import org.jooq.SelectField
+import org.jooq.Select
+import org.jooq.Stringly
 import org.jooq.Table
 import org.jooq.TableField
 import org.jooq.TableOptions
@@ -38,19 +44,23 @@ import org.jooq.impl.TableImpl
 @Suppress("UNCHECKED_CAST")
 open class Linkages(
     alias: Name,
-    child: Table<out Record>?,
-    path: ForeignKey<out Record, LinkagesRecord>?,
+    path: Table<out Record>?,
+    childPath: ForeignKey<out Record, LinkagesRecord>?,
+    parentPath: InverseForeignKey<out Record, LinkagesRecord>?,
     aliased: Table<LinkagesRecord>?,
-    parameters: Array<Field<*>?>?
+    parameters: Array<Field<*>?>?,
+    where: Condition?
 ): TableImpl<LinkagesRecord>(
     alias,
     Vocabulary.VOCABULARY,
-    child,
     path,
+    childPath,
+    parentPath,
     aliased,
     parameters,
     DSL.comment(""),
-    TableOptions.table()
+    TableOptions.table(),
+    where,
 ) {
     companion object {
 
@@ -100,8 +110,9 @@ open class Linkages(
      */
     val CONJUGATION_SET_ID: TableField<LinkagesRecord, UUID?> = createField(DSL.name("conjugation_set_id"), SQLDataType.UUID, this, "")
 
-    private constructor(alias: Name, aliased: Table<LinkagesRecord>?): this(alias, null, null, aliased, null)
-    private constructor(alias: Name, aliased: Table<LinkagesRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, aliased, parameters)
+    private constructor(alias: Name, aliased: Table<LinkagesRecord>?): this(alias, null, null, null, aliased, null, null)
+    private constructor(alias: Name, aliased: Table<LinkagesRecord>?, parameters: Array<Field<*>?>?): this(alias, null, null, null, aliased, parameters, null)
+    private constructor(alias: Name, aliased: Table<LinkagesRecord>?, where: Condition?): this(alias, null, null, null, aliased, null, where)
 
     /**
      * Create an aliased <code>vocabulary.linkages</code> table reference
@@ -118,29 +129,40 @@ open class Linkages(
      */
     constructor(): this(DSL.name("linkages"), null)
 
-    constructor(child: Table<out Record>, key: ForeignKey<out Record, LinkagesRecord>): this(Internal.createPathAlias(child, key), child, key, LINKAGES, null)
+    constructor(path: Table<out Record>, childPath: ForeignKey<out Record, LinkagesRecord>?, parentPath: InverseForeignKey<out Record, LinkagesRecord>?): this(Internal.createPathAlias(path, childPath, parentPath), path, childPath, parentPath, LINKAGES, null, null)
+
+    /**
+     * A subtype implementing {@link Path} for simplified path-based joins.
+     */
+    open class LinkagesPath : Linkages, Path<LinkagesRecord> {
+        constructor(path: Table<out Record>, childPath: ForeignKey<out Record, LinkagesRecord>?, parentPath: InverseForeignKey<out Record, LinkagesRecord>?): super(path, childPath, parentPath)
+        private constructor(alias: Name, aliased: Table<LinkagesRecord>): super(alias, aliased)
+        override fun `as`(alias: String): LinkagesPath = LinkagesPath(DSL.name(alias), this)
+        override fun `as`(alias: Name): LinkagesPath = LinkagesPath(alias, this)
+        override fun `as`(alias: Table<*>): LinkagesPath = LinkagesPath(alias.qualifiedName, this)
+    }
     override fun getSchema(): Schema? = if (aliased()) null else Vocabulary.VOCABULARY
     override fun getUniqueKeys(): List<UniqueKey<LinkagesRecord>> = listOf(LINKAGES_VOCABULARY_ID_KEY)
     override fun getReferences(): List<ForeignKey<LinkagesRecord, *>> = listOf(LINKAGES__LINKAGES_VOCABULARY_ID_FKEY)
 
-    private lateinit var _vocabulary: net.paploo.goi.persistence.db.goi.vocabulary.tables.Vocabulary
+    private lateinit var _vocabulary: VocabularyPath
 
     /**
      * Get the implicit join path to the <code>vocabulary.vocabulary</code>
      * table.
      */
-    fun vocabulary(): net.paploo.goi.persistence.db.goi.vocabulary.tables.Vocabulary {
+    fun vocabulary(): VocabularyPath {
         if (!this::_vocabulary.isInitialized)
-            _vocabulary = net.paploo.goi.persistence.db.goi.vocabulary.tables.Vocabulary(this, LINKAGES__LINKAGES_VOCABULARY_ID_FKEY)
+            _vocabulary = VocabularyPath(this, LINKAGES__LINKAGES_VOCABULARY_ID_FKEY, null)
 
         return _vocabulary;
     }
 
-    val vocabulary: net.paploo.goi.persistence.db.goi.vocabulary.tables.Vocabulary
-        get(): net.paploo.goi.persistence.db.goi.vocabulary.tables.Vocabulary = vocabulary()
+    val vocabulary: VocabularyPath
+        get(): VocabularyPath = vocabulary()
     override fun `as`(alias: String): Linkages = Linkages(DSL.name(alias), this)
     override fun `as`(alias: Name): Linkages = Linkages(alias, this)
-    override fun `as`(alias: Table<*>): Linkages = Linkages(alias.getQualifiedName(), this)
+    override fun `as`(alias: Table<*>): Linkages = Linkages(alias.qualifiedName, this)
 
     /**
      * Rename this table
@@ -155,21 +177,55 @@ open class Linkages(
     /**
      * Rename this table
      */
-    override fun rename(name: Table<*>): Linkages = Linkages(name.getQualifiedName(), null)
-
-    // -------------------------------------------------------------------------
-    // Row7 type methods
-    // -------------------------------------------------------------------------
-    override fun fieldsRow(): Row7<UUID?, UUID?, UUID?, UUID?, UUID?, UUID?, UUID?> = super.fieldsRow() as Row7<UUID?, UUID?, UUID?, UUID?, UUID?, UUID?, UUID?>
+    override fun rename(name: Table<*>): Linkages = Linkages(name.qualifiedName, null)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(from: (UUID?, UUID?, UUID?, UUID?, UUID?, UUID?, UUID?) -> U): SelectField<U> = convertFrom(Records.mapping(from))
+    override fun where(condition: Condition?): Linkages = Linkages(qualifiedName, if (aliased()) this else null, condition)
 
     /**
-     * Convenience mapping calling {@link SelectField#convertFrom(Class,
-     * Function)}.
+     * Create an inline derived table from this table
      */
-    fun <U> mapping(toType: Class<U>, from: (UUID?, UUID?, UUID?, UUID?, UUID?, UUID?, UUID?) -> U): SelectField<U> = convertFrom(toType, Records.mapping(from))
+    override fun where(conditions: Collection<Condition>): Linkages = where(DSL.and(conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(vararg conditions: Condition?): Linkages = where(DSL.and(*conditions))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun where(condition: Field<Boolean?>?): Linkages = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(condition: SQL): Linkages = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String): Linkages = where(DSL.condition(condition))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg binds: Any?): Linkages = where(DSL.condition(condition, *binds))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    @PlainSQL override fun where(@Stringly.SQL condition: String, vararg parts: QueryPart): Linkages = where(DSL.condition(condition, *parts))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereExists(select: Select<*>): Linkages = where(DSL.exists(select))
+
+    /**
+     * Create an inline derived table from this table
+     */
+    override fun whereNotExists(select: Select<*>): Linkages = where(DSL.notExists(select))
 }
