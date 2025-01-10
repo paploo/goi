@@ -5702,7 +5702,7 @@
         "id": "41d0ab23-7974-466e-b956-70bba24f81af",
         "meaning": "My data looks/acts like Colonel Sanders.",
         "text": {
-          "spelling": "{私|わたし}の{父|ちち}はカーネルオおじさんみたいです。"
+          "spelling": "{私|わたし}の{父|ちち}はカーネルおじさんみたいです。"
         },
         "lesson_codes": ["GENKI3_L17"],
         "tags": []
@@ -5883,7 +5883,7 @@
       },
       {
         "id": "198400bd-aba6-4dd7-903c-8f3966e5fd35",
-        "meaning": "Intransitive: Professor Yamashita is married.",
+        "meaning": "Intransitive: Professor Yamanaka is married.",
         "text": {
           "spelling": "{自動詞|じ・どう・し}：{山中|やま・なか}{先生|せん・せい}は{結婚|けっこん}しています。"
         },
@@ -5925,10 +5925,10 @@
   },
   {
     "id": "fb2f3737-38e2-4d89-9d8e-49f4d83bb445",
-    "title": "〜でしまう",
+    "title": "〜てしまう",
     "meaning": "to finish completely<br/>to regrettably do",
     "how_to_use": [
-      "verb (te-form) + ませんか",
+      "verb (te-form) + しまう",
       "Note: The meanings two meanings are ambiguous, and determined by context."
     ],
     "examples": [
