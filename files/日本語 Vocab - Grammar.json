@@ -4412,7 +4412,7 @@
         "id": "7c30bb92-dd8f-409a-b336-300a82428fe6",
         "meaning": "I always eat too many sweets, so this year I've decided to eat more vegetables. And then, about 3 times a week, I've decided to exercise.",
         "text": {
-          "spelling": "いつもお{菓子|か・し}を{食|た}べすぎろので、{今年|こ・とし}はもっと{野菜|や・さい}を{食|た}べようと{思|おも}っています。それから、{１週間|いっ・しゅう・かん}に{３回|さん・かい}ぐらい{運動|うん・どう}しようと{思|おも}っています。"
+          "spelling": "いつもお{菓子|か・し}を{食|た}べすぎるので、{今年|こ・とし}はもっと{野菜|や・さい}を{食|た}べようと{思|おも}っています。それから、{１週間|いっ・しゅう・かん}に{３回|さん・かい}ぐらい{運動|うん・どう}しようと{思|おも}っています。"
         },
         "lesson_codes": ["GENKI3_L15"],
         "tags": []
@@ -4813,7 +4813,7 @@
   {
     "id": "0097dd84-d584-44ba-8075-de406ece08af",
     "title": "〜のために",
-    "meaning": "Doing somebody a favor (when verb has no place for beneficiary)<br/>(for the benefit of)",
+    "meaning": "Doing somebody a favor (when verb has no place for beneficiary)<br/>(for the benefit of...)",
     "how_to_use": [
       "beneficiary + の + ため + に + verb"
     ],
@@ -5497,7 +5497,7 @@
     "examples": [
       {
         "id": "bebf136d-3f2d-49be-a2fb-f58bb989791f",
-        "meaning": "Hoshino says he's busy today. She says he has an exam tomorrow.",
+        "meaning": "Hoshino says he's busy today. He says he has an exam tomorrow.",
         "text": {
           "spelling": "{星野|ほし・の}さん、{今日|きょう}は{忙|いそが}しい<u>って</u>。{明日|あした}、{試験|しけん}あるんだ<u>って</u>。"
         },
@@ -5508,7 +5508,7 @@
         "id": "3580fee4-a30f-4288-ab1c-60520bd67e8e",
         "meaning": "A: What did Tsumugi Kotobuki say?<br/>B: She said she ate too much chocolate.",
         "text": {
-          "spelling": "Ａ：{琴吹|こと・ぶき}{紬|つむぎ}さんは{何|なに}<u>て</u>{言|い}ってか？<br/>Ｂ：チョコを{食|た}べすぎた<u>って</u>{言|い}ってた。"
+          "spelling": "Ａ：{琴吹|こと・ぶき}{紬|つむぎ}さんは{何|なん}<u>て</u>{言|い}ってか？<br/>Ｂ：チョコを{食|た}べすぎた<u>って</u>{言|い}ってた。"
         },
         "lesson_codes": ["GENKI3_L17"],
         "tags": []
@@ -6149,7 +6149,7 @@
   },
   {
     "id": "fdeb200b-f829-4b5c-b696-c9bcbc565c62",
-    "title": "Ａなから、Ｂ",
+    "title": "Ａながら、Ｂ",
     "meaning": "A while B<br/>A at the same time as B",
     "how_to_use": [
       "verb (stem) + ながら + verb",
