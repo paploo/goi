@@ -304,7 +304,7 @@ north,北,きた,,北,NOUN,,,5,{LULI_KANJI_L01},{compass_direction},11d88f21-b92
 south,南,みなみ,,南,NOUN,,,5,{LULI_KANJI_L01},{compass_direction},787954e6-c587-5148-afa9-69de0df5a195,303,2022-08-15
 east,東,ひがし,,東,NOUN,,,5,{LULI_KANJI_L01},{compass_direction},72e6a9e9-44f5-516c-9543-5c0754218c8e,304,2022-08-15
 west,西,にし,,西,NOUN,,,5,{LULI_KANJI_L01},{compass_direction},f01992dc-39c8-5478-97f3-80052a1215f8,305,2022-08-15
-tree; shrub; bush,木,き,,木,NOUN,,,5,{LULI_KANJI_L01},,fbd9dcaa-2454-526e-b8a1-4b4e68fed07a,306,2022-08-15
+tree; shrub; bush,木,き,,木,NOUN,,,5,"{LULI_KANJI_L01,GENKI3_L22}",,fbd9dcaa-2454-526e-b8a1-4b4e68fed07a,306,2022-08-15
 rice field,田,た,,田,NOUN,,,3,{LULI_KANJI_L01},,5fbad03e-b5f7-51ea-998a-d8e68b87a332,307,2022-08-15
 cherry tree; cherry blossom,桜,さくら,,桜,NOUN,,,3,{GENKI3_L18},,4769746e-d143-5e87-bfe8-841622ac2659,308,2022-08-31
 want,欲しい,ほしい,,欲しい,ADJECTIVE,I_ADJECTIVE,,5,"{DUO_01_02,DUO_U01,GENKI3_L14}",,39007001-a5bd-5f32-b00a-41b88d6dcb04,309,2022-08-12
@@ -325,7 +325,7 @@ cloudy,曇り,くもり,,曇り,NOUN,,,5,"{DUO_01_03,DUO_U02,GENKI3_L08}",{weath
 sunny,晴れ,はれ,,晴れ,NOUN,,,5,"{DUO_01_03,DUO_U02,GENKI3_L08}",{weather},a2edc793-e468-5c89-8566-efd896ac302c,324,2022-08-12
 outside,外,そと,,外,NOUN,,,5,"{DUO_01_03,DUO_U02,GENKI3_L18}",,05f754d9-f497-54db-9340-cea898b0ff28,325,2022-08-12
 fermented soybeans,納豆,なっとう,,納豆,NOUN,,,,"{DUO_01_04,DUO_U02}",{food},3cae06c0-447c-5b59-b04b-4c5036c5ce20,326,2022-08-12
-wind; breeze; draft,風,かぜ,,風,NOUN,,,5,"{DUO_01_04,DUO_U02}",,1a0c8160-c588-508a-bcbc-c3bf3bdbb0fe,327,2022-08-12
+wind; breeze; draft,風,かぜ,,風,NOUN,,,5,"{DUO_01_04,DUO_U02,GENKI3_L22}",,1a0c8160-c588-508a-bcbc-c3bf3bdbb0fe,327,2022-08-12
 map,地図,ちず,,地図,NOUN,,,5,"{DUO_01_04,DUO_U02,GENKI3_L15}",,86e894b7-ebf2-5e8e-991e-54ebd19f764d,328,2022-08-12
 fruit,果物,くだもの,,果物,NOUN,,,5,"{DUO_01_04,DUO_U02,GENKI3_L05}",{food},7f320ae8-3952-5727-a45e-4c5535a79533,329,2022-08-12
 ticket (transport),切符,きっぷ,,切符,NOUN,,,5,"{DUO_01_04,DUO_U02,GENKI3_L12}",{transportation},efc7ae30-059c-5579-9e95-1e53594af9ed,330,2022-08-12
@@ -390,8 +390,8 @@ next (to); adjacent,隣,となり,,隣,NOUN,,,5,{GENKI3_L04},{location},9c00bb62
 between,間,あいだ,,間,NOUN,,,5,{GENKI3_L04},{location},5d31fe9a-a3d5-548d-b92c-323392afbb5f,389,2022-08-10
 amazing,すごい,すごい,,凄い,ADJECTIVE,I_ADJECTIVE,,4,{GENKI3_L13},,4f2e177f-cee0-4330-ac19-9c6506a76c9b,390,2022-10-06
 let me see; well; errr; uh,ええと,ええと,,,EXPRESSION,,,2,{GENKI3_L16},,1892e385-4410-4dae-94d6-24b8c84c27a1,391,2022-10-06
-senior colleague,先輩,せんぱい,,先輩,NOUN,,,4,,,e48fb32f-70db-56b6-9be3-882d953469c5,392,2022-09-14
-junior colleague,後輩,こうはい,,後輩,NOUN,,,2,,,576386e2-9779-5938-9822-1c1013726a52,393,2022-09-14
+senior colleague,先輩,せんぱい,,先輩,NOUN,,,4,{GENKI3_L22},,e48fb32f-70db-56b6-9be3-882d953469c5,392,2022-09-14
+junior colleague,後輩,こうはい,,後輩,NOUN,,,2,{GENKI3_L22},,576386e2-9779-5938-9822-1c1013726a52,393,2022-09-14
 rice cracker,煎餅,せんべい,,煎餅,NOUN,,,,,{food},c4fe5291-83a0-5e58-9791-744a785a3d9a,394,2022-08-12
 cake,ケーキ,けえき,,,NOUN,,,4,{GENKI3_L10},{food},e182997f-4799-5c3c-a985-ed126db9687e,395,2022-08-12
 rice ball,お握り,おにぎり,,お握り,NOUN,,,,{GENKI3_L20},{food},676d3eb5-4992-5047-ad16-142df7b8ec38,396,2022-08-12
@@ -824,7 +824,7 @@ to permit; to forgive,許す,ゆるす,,許す,VERB,GODAN_VERB,,3,,,f8a0f61a-c65
 the world,世界,せかい,,世界,NOUN,,,4,{GENKI3_L10},,cbe6d96a-991c-4eeb-a5d3-fbb041d9a450,823,2023-03-26
 universe; cosmos; space,宇宙,うちゅう,,宇宙,NOUN,,,3,,,2bc76c1a-20a2-4469-92fd-fb95ac75b996,824,2023-03-26
 thank you for your hard work,お疲れ様です,おつかれさまです,,お疲れ様です,EXPRESSION,,,,{GENKI3_L18},,0a783648-bd6a-46d0-9aba-2deeec868f67,825,2023-03-26
-noisy; annoying; bossy,うるさい,うるさい,,煩い,ADJECTIVE,I_ADJECTIVE,,5,,,a1a492f9-8352-4745-9a52-68c87b8d905b,826,2023-04-15
+noisy; annoying; bossy,うるさい,うるさい,,煩い,ADJECTIVE,I_ADJECTIVE,,5,{GENKI3_L22},,a1a492f9-8352-4745-9a52-68c87b8d905b,826,2023-04-15
 love letter,ラブレター,らぶれたあ,,ラブレター,NOUN,,,,,,d267cff1-9784-4fbd-b039-dbca6dddab5f,827,2023-04-17
 cow,牛,うし,,牛,NOUN,,,3,,"{animal,food}",c895e9c8-dccc-428d-a5a2-64e81cb1e273,828,2023-04-22
 body; torso,体,からだ,,体,NOUN,,,5,{GENKI3_L13},{body},258af567-d885-4e3f-b2ed-31b6710120d7,829,2023-04-22
@@ -1439,7 +1439,7 @@ October,１０月,じゅうがつ,,十月,NOUN,,,,{TOFUGU_DATE_AND_TIME},{month}
 November,１１月,じゅういちがつ,,十一月 ,NOUN,,,,{TOFUGU_DATE_AND_TIME},{month},d5a5bbe0-aa3b-4e97-adcd-c95363ca37dd,1438,2024-03-10
 December,１２月,じゅうにがつ,,十二月,NOUN,,,,{TOFUGU_DATE_AND_TIME},{month},d7d96ea8-d6b0-43c6-9b92-8829a651769c,1439,2024-03-10
 which month(s),何月,なんがつ,,何月,NOUN,,,,{TOFUGU_DATE_AND_TIME},{month},2c7167c3-80ec-4e90-b630-973314e8ded3,1440,2024-03-10
-"comfort, ease",楽,らく,,楽,NOUN,,,3,,,1ce935a1-a9ae-4942-9e2b-fac302e61617,1441,2024-04-18
+"comfort, ease",楽,らく,,楽,NOUN,,,3,{GENKI3_L22},,1ce935a1-a9ae-4942-9e2b-fac302e61617,1441,2024-04-18
 "counter for cupfulls, bowlfulls",〜杯,〜はい,,〜杯,COUNTER,,,,,,58e1086e-7a6d-4cf5-8840-e62139721c96,1442,2024-04-17
 one glass/bowl,１杯,いっぱい,,一杯,NOUN,,,,,,0678e154-d168-40a4-9526-3e88b9bbf470,1443,2024-04-17
 two glasses/bowls,２杯,にはい,,二杯,NOUN,,,,,,fbf33bb3-f11a-44d4-a59f-b9962f0efe07,1444,2024-04-17
@@ -1704,7 +1704,7 @@ computer programmer,コンピュータプログラマー,こんぴゅうたぷ�
 to lose; to be defeated,負ける,まける,,,VERB,ICHIDAN_VERB,,4,,,1ca05864-5aaa-4315-999f-fbf15908c156,1703,2024-11-10
 to trust; to believe,信じる,しんじる,,信じる,VERB,ICHIDAN_VERB,,3,{GENKI3_L21},,dfd63003-9519-4ab1-bf8e-f88986234a52,1704,2024-11-10
 jellyfish,クラゲ,くらげ,,海月,NOUN,,,,,{animal},cdae1739-505d-48a3-9485-29665a4b3e05,1705,2024-11-10
-monky,猿,さる,,猿,NOUN,,,3,,{animal},4ec047a3-e1d8-4305-a5a9-712fce0115d2,1706,2024-11-10
+monkey,猿,さる,,猿,NOUN,,,3,{GENKI3_L22},{animal},4ec047a3-e1d8-4305-a5a9-712fce0115d2,1706,2024-11-10
 dragon fly,トンボ,とんぼ,,蜻蛉,NOUN,,,,,{animal},f749225e-0615-4cab-81d3-07514c51a506,1707,2024-11-10
 dragon,竜,りゅう,,竜,NOUN,,,,,{animal},70955687-bded-40a8-a7b8-f9db891e535c,1708,2024-11-10
 et cetera,など,など,,,PARTICLE,,,5,{GENKI3_READER_L14},,5c2b0e3d-8acc-43da-be65-3cff447d3e00,1709,2024-11-10
@@ -1713,7 +1713,7 @@ main hall of a shinto shrine,本殿,ほんでん,,本殿,NOUN,,,,,{shinto},d2dbb
 "thief, burglar",泥棒,どろぼう,,泥棒,NOUN,,,4,{GENKI3_L21},,d101ff63-db0d-4174-9cf5-7dbeec3f8ffd,1712,2024-11-20
 criminal,犯人,はんにん,,犯人,NOUN,,,3,{GENKI3_L21},,4270c289-50e5-4992-ba2f-7210f5a253ce,1713,2024-11-20
 "colleague, coworker",同僚,どうりょう,,同僚,NOUN,,,3,{GENKI3_L21},,6cc472a0-541f-4db6-8762-3932f1178a28,1714,2024-11-20
-busines meeting; conference,会議,かいぎ,,会議,NOUN,,,4,{GENKI3_L21},,79616589-66ec-41e0-89c6-e975f9b3e9e1,1715,2024-11-20
+business meeting; conference,会議,かいぎ,,会議,NOUN,,,4,{GENKI3_L21},,79616589-66ec-41e0-89c6-e975f9b3e9e1,1715,2024-11-20
 speech,スピーチ,すぴいち,,,NOUN,,,3,{GENKI3_L21},,eabee63e-1f37-4c79-85dd-9e086392c198,1716,2024-11-20
 mosquito,蚊,か,,蚊,NOUN,,,2,{GENKI3_L21},,cfb9964e-84f3-45c5-be95-c804ca69fcee,1717,2024-11-20
 gasoline,ガソリン,がそりん,,,NOUN,,,4,{GENKI3_L21},,c814ee2a-71a2-4198-b2fa-e4d2b039ddc2,1718,2024-11-20
@@ -1788,3 +1788,27 @@ Reiwa (2019–),令和,れいわ,,令和,NOUN,,,,,{time},589ea7b3-2b0d-49f0-ade2
 transitive (other) verb,他動詞,たどうし,,他動詞,NOUN,,,,,{language},da9b1afb-a924-49ae-9646-665cbe5a8824,1787,2024-12-26
 intransitive (self) verb,自動詞,じどうし,,自動詞,NOUN,,,,,{language},05060bf7-436a-4503-ad0f-ca849c25b117,1788,2024-12-26
 to finish (completely); to close/shutdown; to do accidentally / without meaning to,しまう,しまう,,,VERB,GODAN_VERB,,3,{GENKI3_L18},,e36d6b8f-9445-4588-a6bd-88df2561cd38,1789,2024-12-26
+for the sake of; on behalf of,ために,ために,,為に,CONJUNCTION,,,,{GENKI3_L16},,713b1027-41e9-4d6f-9603-81bf797ec078,1790,2025-02-19
+"while, during",ながら,ながら,,乍ら,PARTICLE,,,,{GENKI3_L18},,314d0d58-5cc2-435a-97dc-51e15557812b,1791,2025-02-19
+よろしくお願いします（謙譲語）,よろしくお願いいたします,よろしくおねがいいたします,,よろしくお願いいたします,EXPRESSION,,,,,,2ac7176d-d8c0-4917-91c5-71cf7b93def7,1792,2025-02-19
+ball,ボール,ぼおる,,,NOUN,,,3,{GENKI3_L22},,ad71bd8b-5b48-4e2a-9a0c-ea1bcb5cd6b6,1793,2025-02-19
+license,免許,めんきょ,,免許,NOUN,,,3,{GENKI3_L22},,44cb09a2-ba2d-49f8-962b-eba938733acf,1794,2025-02-19
+preparation of a lesson,予習,よしゅう,,予習,NOUN,,,4,{GENKI3_L22},,d2cc696d-a7ca-4d6f-aa06-2a8cf1668852,1795,2025-02-19
+review of learned material,復習,ふくしゅう,,復習,NOUN,,,4,{GENKI3_L22},,6b78248a-f641-47d8-ab98-8064eea2e7bc,1796,2025-02-19
+cram school,塾,じゅく,,塾,NOUN,,,1,{GENKI3_L22},,524cc1d9-a927-4c8b-8eb7-1852ce3ae4ce,1797,2025-02-19
+English conversation,英会話,えいかいわ,,英会話,NOUN,,,,{GENKI3_L22},,584ca296-26d4-4474-a5c0-26eac8150eac,1798,2025-02-19
+partner; the other person,相手,あいて,,相手,NOUN,,,3,{GENKI3_L22},,170b0692-9d13-4cd5-a28c-a1e9377fb94d,1799,2025-02-19
+(someone's) daughter (polite),お嬢さん,おじょうさん,,お嬢さん,NOUN,,,4,{GENKI3_L22},,00c1fd38-f385-4fb5-9792-14b81650d2cb,1800,2025-02-19
+God (Shinto),神様,かみさま,,神様,NOUN,,,2,{GENKI3_L22},{shinto},b1694f1f-dca6-4a0e-a0e4-049f539bba51,1801,2025-02-19
+subordinate,部下,ぶか,,部下,NOUN,,,1,{GENKI3_L22},,0dc3d14f-9dd1-4687-9404-5650c948b756,1802,2025-02-19
+reception desk; information desk,受付,うけつけ,,受付,NOUN,,,4,{GENKI3_L22},,ef2ba7ec-28be-4fa1-89d5-2ea412702c7a,1803,2025-02-19
+document,書類,しょるい,,書類,NOUN,,,3,{GENKI3_L22},,e08bbe38-43f6-4d94-ac4b-631d3c4e4216,1804,2025-02-19
+project,プロジェクト,ぷろじぇくと,,,NOUN,,,,{GENKI3_L22},,98e9cdfd-c445-4655-9a29-2bf0f1512960,1805,2025-02-19
+housework,家事,かじ,,家事,NOUN,,,3,{GENKI3_L22},,1611ce87-369f-4bf1-bced-0354fb2adff0,1806,2025-02-19
+Europe,ヨーロッパ,よおろっぱ,,欧羅巴,NOUN,,,3,{GENKI3_L22},{place},52132625-208c-4add-a4bb-cb06d663d823,1807,2025-02-19
+living alone,一人暮らし,ひとりくらし,,一人暮らし,NOUN,,,,{GENKI3_L22},,ad190384-066d-451c-815c-b64e6d559a7f,1808,2025-02-19
+freedom; liberty,自由,じゆう,,自由,NOUN,,,4,{GENKI3_L22},,23cfa9b7-4690-4bc9-b231-0e527c6bece2,1809,2025-02-19
+waste (money),無駄遣い,むだづかい,,無駄遣い,NOUN,,,1,{GENKI3_L22},,5f90456d-157d-41c6-8c64-202a4575c896,1810,2025-02-19
+worried about,心配,しんぱい,,心配,ADJECTIVE,NA_ADJECTIVE,,3,{GENKI3_L22},,331c0f93-8abe-429d-ac14-401e018f3900,1811,2025-02-19
+poor,貧乏,びんぼう,,貧乏,ADJECTIVE,NA_ADJECTIVE,,1,{GENKI3_L22},,d72b2e8a-693a-463f-a4d7-49fc748437be,1812,2025-02-19
+fluent,ペラペラ,ぺらぺら,,,ADJECTIVE,NA_ADJECTIVE,,,{GENKI3_L22},,cedf4f14-816e-436a-8509-bfb267c9a9db,1813,2025-02-19
