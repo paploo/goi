@@ -19,6 +19,9 @@ class YoiAdjectiveInflector : StandardAdjectiveInflector() {
     override val negativePlainPast: Rewriter = Rewriter.replace(validEndingsRegex, "よくなかった")
     override val negativePlainTe: Rewriter = Rewriter.replace(validEndingsRegex, "よくなくて")
 
+    override val positivePlainEbaConditional: Rewriter = Rewriter.replace(validEndingsRegex, "よければ")
+    override val negativePlainEbaConditional: Rewriter = Rewriter.replace(validEndingsRegex, "よくなければ")
+
     companion object {
         val default: YoiAdjectiveInflector = YoiAdjectiveInflector()
     }

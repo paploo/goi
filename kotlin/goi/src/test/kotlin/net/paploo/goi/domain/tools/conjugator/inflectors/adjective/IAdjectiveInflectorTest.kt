@@ -21,6 +21,9 @@ class IAdjectiveInflectorTest : DescribeSpec({
 
         Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalTara) shouldInflectAs "面白かったら"
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalTara) shouldInflectAs "面白くなかったら"
+
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalEba) shouldInflectAs "面白ければ"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalEba) shouldInflectAs "面白くなければ"
     }
 
     //良い is an I-Adjective
@@ -35,6 +38,9 @@ class IAdjectiveInflectorTest : DescribeSpec({
 
         Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalTara) shouldInflectAs "良かったら"
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalTara) shouldInflectAs "良くなかったら"
+
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalEba) shouldInflectAs "良ければ"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalEba) shouldInflectAs "良くなければ"
     }
 
     //かわいい is n I-Adjective
@@ -49,6 +55,9 @@ class IAdjectiveInflectorTest : DescribeSpec({
 
         Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalTara) shouldInflectAs "かわいかったら"
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalTara) shouldInflectAs "かわいくなかったら"
+
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalEba) shouldInflectAs "かわいければ"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalEba) shouldInflectAs "かわいくなければ"
     }
 
 })

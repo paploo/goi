@@ -4,6 +4,7 @@ import net.paploo.goi.domain.data.vocabulary.Conjugation
 import net.paploo.goi.domain.data.vocabulary.Conjugation.Inflection.Charge
 import net.paploo.goi.domain.data.vocabulary.Conjugation.Inflection.Politeness
 import net.paploo.goi.domain.data.vocabulary.Conjugation.Inflection.Form
+import net.paploo.goi.domain.tools.conjugator.GodanRewriteRule
 import net.paploo.goi.domain.tools.conjugator.Rewriter
 import net.paploo.goi.domain.tools.conjugator.plus
 
@@ -43,6 +44,37 @@ abstract class StandardVerbInflector : VerbInflector {
         positivePolitePast + Rewriter { Result.success(it + "ら") }
     }
 
+    // Fill in the 〜ば rules using the existing short forms.
+
+    override val positivePlainEbaConditional: Rewriter by lazy {
+        // Interestingly, almost all verbs (including almost all irregular ones) fit this same godan-based rule.
+        positivePlainPresent + GodanRewriteRule(
+            uRepl = "えば",
+            kuRepl = "けば",
+            guRepl = "げば",
+            suRepl = "せば",
+            tsuRepl = "てば",
+            nuRepl = "ねば",
+            buRepl = "べば",
+            muRepl = "めば",
+            ruRepl = "れば",
+        )
+    }
+
+    override val negativePlainEbaConditional: Rewriter by lazy {
+        negativePlainPresent + Rewriter.replace("(い)$".toRegex(), "ければ")
+    }
+
+    override val positivePlainPassive by lazy { TODO("figure out impl") }
+    override val negativePlainPassive by lazy { TODO("figure out impl") }
+    override val positivePolitePassive by lazy { TODO("figure out impl") }
+    override val negativePolitePassive by lazy { TODO("figure out impl") }
+
+    override val positivePlainCausative by lazy { TODO("figure out impl") }
+    override val negativePlainCausative by lazy { TODO("figure out impl") }
+    override val positivePoliteCausative by lazy { TODO("figure out impl") }
+    override val negativePoliteCausative by lazy { TODO("figure out impl") }
+
     override fun invoke(inflection: Conjugation.Inflection): Rewriter? = when (inflection) {
         Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Present) -> positivePlainPresent
         Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Past) -> positivePlainPast
@@ -70,9 +102,18 @@ abstract class StandardVerbInflector : VerbInflector {
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalTara) -> negativePlainTaraConditional
         Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.ConditionalTara) -> positivePoliteTaraConditional
 
-        //TODO
-//        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalEba) -> positivePlainEbaConditional
-//        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalEba) -> negativePlainEbaConditional
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalEba) -> positivePlainEbaConditional
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalEba) -> negativePlainEbaConditional
+
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Passive) -> positivePlainPassive
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Passive) -> negativePlainPassive
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Passive) ->  positivePolitePassive
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Passive) ->  negativePolitePassive
+
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Causative) -> positivePlainCausative
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Causative) -> negativePlainCausative
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Causative) ->  positivePoliteCausative
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Causative) ->  negativePoliteCausative
 
         else -> null
     }

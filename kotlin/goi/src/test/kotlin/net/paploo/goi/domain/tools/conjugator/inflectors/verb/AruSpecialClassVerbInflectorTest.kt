@@ -33,6 +33,9 @@ class AruSpecialClassVerbInflectorTest : DescribeSpec({
         Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalTara) shouldInflectAs "いらっしゃったら"
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalTara) shouldInflectAs "いらっしゃらなかったら"
         Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.ConditionalTara) shouldInflectAs "いらっしゃいましたら"
+
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalEba) shouldInflectAs "いらっしゃれば"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalEba) shouldInflectAs "いらっしゃらなければ"
     }
 
     //https://www.tanoshiijapanese.com/dictionary/conjugation_details.cfm?entry_id=25762
@@ -61,6 +64,9 @@ class AruSpecialClassVerbInflectorTest : DescribeSpec({
         Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalTara) shouldInflectAs "ござったら"
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalTara) shouldInflectAs "ござらなかったら"
         Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.ConditionalTara) shouldInflectAs "ございましたら"
+
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalEba) shouldInflectAs "ござれば"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalEba) shouldInflectAs "ござらなければ"
     }
 
 })

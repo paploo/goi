@@ -29,10 +29,6 @@ class CopulaVerbInflector : Inflector {
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalTara) -> negativePlainTaraConditional
         Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.ConditionalTara) -> positivePoliteTaraConditional
 
-        //TODO
-//        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalEba) -> positivePlainEbaConditional
-//        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalEba) -> negativePlainEbaConditional
-
         else -> null
     }
 
@@ -85,10 +81,6 @@ class CopulaVerbInflector : Inflector {
             Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalTara),
             Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalTara),
             Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.ConditionalTara),
-
-            //TODO
-//            Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalEba),
-//            Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalEba),
         )
 
     }

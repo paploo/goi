@@ -21,6 +21,9 @@ class NaAdjectiveInflectorTest : DescribeSpec({
 
         Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalTara) shouldInflectAs "好きだったら"
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalTara) shouldInflectAs "好きじゃなかったら"
+
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalEba) shouldInflectAs "好きであれば"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalEba) shouldInflectAs "好きではなければ"
     }
 
 })

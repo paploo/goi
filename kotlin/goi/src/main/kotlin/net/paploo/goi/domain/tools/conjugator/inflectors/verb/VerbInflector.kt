@@ -38,20 +38,18 @@ interface VerbInflector : Inflector {
     val positivePoliteTaraConditional: Rewriter
     //val negativePoliteTaraConditional: Rewriter //Not usually used [https://www.tofugu.com/japanese-grammar/conditional-form-tara/]
 
-    //TODO
-//    val positivePlainEbaConditional: Rewriter
-//    val negativePlainEbaConditional: Rewriter
+    val positivePlainEbaConditional: Rewriter
+    val negativePlainEbaConditional: Rewriter
 
-    //TODO
-//    val positivePlainPassive: Rewriter
-//    val negativePlainPassive: Rewriter
-//    val positivePolitePassive: Rewriter
-//    val negativePolitePassive: Rewriter
-//
-//    val positivePlainCausative: Rewriter
-//    val negativePlainCausative: Rewriter
-//    val positivePoliteCausative: Rewriter
-//    val negativePoliteCausative: Rewriter
+    val positivePlainPassive: Rewriter
+    val negativePlainPassive: Rewriter
+    val positivePolitePassive: Rewriter
+    val negativePolitePassive: Rewriter
+
+    val positivePlainCausative: Rewriter
+    val negativePlainCausative: Rewriter
+    val positivePoliteCausative: Rewriter
+    val negativePoliteCausative: Rewriter
 
     companion object {
 
@@ -82,20 +80,18 @@ interface VerbInflector : Inflector {
             Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalTara),
             Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.ConditionalTara),
 
-            //TODO:
-//            Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalEba),
-//            Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalEba),
+            Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalEba),
+            Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalEba),
 
-            //TODO
-//            Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Passive),
-//            Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Passive),
-//            Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Passive),
-//            Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Passive),
-//
-//            Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Causative),
-//            Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Causative),
-//            Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Causative),
-//            Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Causative),
+            Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Passive),
+            Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Passive),
+            Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Passive),
+            Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Passive),
+
+            Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Causative),
+            Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Causative),
+            Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Causative),
+            Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Causative),
         )
 
     }

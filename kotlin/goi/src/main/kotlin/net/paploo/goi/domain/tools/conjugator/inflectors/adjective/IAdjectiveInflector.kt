@@ -14,6 +14,9 @@ class IAdjectiveInflector : StandardAdjectiveInflector() {
     override val negativePlainPast: Rewriter = Rewriter.replace(validEndingsRegex, "くなかった")
     override val negativePlainTe: Rewriter = Rewriter.replace(validEndingsRegex, "くなくて")
 
+    override val positivePlainEbaConditional: Rewriter = Rewriter.replace(validEndingsRegex, "ければ")
+    override val negativePlainEbaConditional: Rewriter = Rewriter.replace(validEndingsRegex, "くなければ")
+
     companion object {
         val default: IAdjectiveInflector = IAdjectiveInflector()
     }

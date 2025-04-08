@@ -22,9 +22,8 @@ interface AdjectiveInflector : Inflector {
     val positivePlainTaraConditional: Rewriter
     val negativePlainTaraConditional: Rewriter
 
-    //TODO
-//    val positivePlainEbaConditional: Rewriter
-//    val negativePlainEbaConditional: Rewriter
+    val positivePlainEbaConditional: Rewriter
+    val negativePlainEbaConditional: Rewriter
 
     companion object {
 
@@ -40,9 +39,8 @@ interface AdjectiveInflector : Inflector {
             Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalTara),
             Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalTara),
 
-            //TODO
-//            Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalEba),
-//            Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalEba),
+            Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalEba),
+            Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalEba),
         )
 
     }

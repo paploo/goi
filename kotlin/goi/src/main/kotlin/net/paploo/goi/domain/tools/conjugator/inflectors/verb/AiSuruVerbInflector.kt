@@ -27,6 +27,8 @@ class AiSuruVerbInflector : StandardVerbInflector() {
     override val positivePlainVolitional = suruVerbInflector.positivePlainVolitional
     override val positivePoliteVolitional = suruVerbInflector.positivePoliteVolitional
 
+    override val negativePlainEbaConditional: Rewriter = suruVerbInflector.negativePlainPresent + Rewriter.replace("(い)$".toRegex(), "ければ")
+
 
     companion object {
         val default: AiSuruVerbInflector = AiSuruVerbInflector()
