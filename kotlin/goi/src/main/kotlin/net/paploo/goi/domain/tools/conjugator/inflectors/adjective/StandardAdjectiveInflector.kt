@@ -17,6 +17,8 @@ abstract class StandardAdjectiveInflector : AdjectiveInflector {
         negativePlainPast + Rewriter { Result.success(it + "ら") }
     }
 
+
+
     override fun invoke(inflection: Conjugation.Inflection): Rewriter? = when (inflection) {
         Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Present) -> positivePlainPresent
         Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Past) -> positivePlainPast
@@ -28,6 +30,10 @@ abstract class StandardAdjectiveInflector : AdjectiveInflector {
 
         Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalTara) -> positivePlainTaraConditional
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalTara) -> negativePlainTaraConditional
+
+        //TODO
+//        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.ConditionalEba) -> positivePlainEbaConditional
+//        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.ConditionalEba) -> negativePlainEbaConditional
 
         else -> null
     }

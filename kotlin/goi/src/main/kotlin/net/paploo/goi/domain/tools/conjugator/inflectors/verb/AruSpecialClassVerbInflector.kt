@@ -1,5 +1,6 @@
 package net.paploo.goi.domain.tools.conjugator.inflectors.verb
 
+import net.paploo.goi.domain.tools.conjugator.GodanRewriteRule
 import net.paploo.goi.domain.tools.conjugator.Rewriter
 
 /**
@@ -28,7 +29,9 @@ class AruSpecialClassVerbInflector : StandardVerbInflector() {
 
     override val positivePlainPotential = Rewriter.replace(validEndingsRegex, "れる")
 
-    override val positivePlainVolitional: Rewriter = Rewriter.replace(validEndingsRegex, "ろう")
+    override val positivePlainVolitional = Rewriter.replace(validEndingsRegex, "ろう")
+    override val positivePoliteVolitional = Rewriter.replace(validEndingsRegex, "いましょう")
+
 
     companion object {
         val default: AruSpecialClassVerbInflector = AruSpecialClassVerbInflector()

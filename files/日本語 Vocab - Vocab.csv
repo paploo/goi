@@ -491,7 +491,7 @@ counter for flat objects,〜枚,〜まい,,〜枚,COUNTER,,,1,{GENKI3_L05},,acbf
 grass,草,くさ,,草,NOUN,,,4,,,705836bd-ede4-4766-b461-1b31b77670ce,490,2022-10-18
 rock (too big to lift),岩,いわ,,岩,NOUN,,,3,,,3cdcdc1a-12df-4976-99f0-790caea5bb4e,491,2022-10-18
 snow,雪,ゆき,,雪,NOUN,,,5,{GENKI3_L08},,1c37cf6a-0658-475d-a9c8-a4ea52137029,492,2022-10-18
-Ms. (girl),〜ちゃん,ちゃん,,,SUFFIX,,,4,,,c0e4b32f-1310-43d5-af64-b603c84c9f3a,493,2022-10-25
+Ms. (girl),〜ちゃん,ちゃん,,,SUFFIX,,,4,{GENKI3_L22},,c0e4b32f-1310-43d5-af64-b603c84c9f3a,493,2022-10-25
 Mr. (boy),〜君,くん,,君,SUFFIX,,,4,{GENKI3_L14},,0671d3cc-dfba-4f30-8782-69ceb2c757d7,494,2022-10-25
 Mr/Miss (honorific),〜様,さま,,様,SUFFIX,,,1,,,74cc48bc-dd21-4277-9f73-9d16c7e69fe9,495,2022-10-25
 (my) dad,父,ちち,,父,NOUN,,,,{GENKI3_L07},,685db54c-3d62-4fb2-b18e-28bfdf659461,496,2022-10-25
@@ -817,7 +817,7 @@ to recommend,勧める,すすめる,,勧める,VERB,ICHIDAN_VERB,,3,,,4c3d54e9-e
 to broadcast; to stream,配信する,はいしんする,,配信する,VERB,SURU_VERB,,,,,067d1d04-ee44-4f2f-9686-68fbfa850cee,816,2023-03-15
 "stupid, idiot",バカ,ばか,,馬鹿,NOUN,,,3,,,5880c940-57b7-43df-b20e-50a14522d46d,817,2023-03-15
 "damn-it, shit; poop",クソ,くそ,,糞,NOUN,,,,,,54b9a327-ed0f-4041-a7d7-6ecb15ee1f19,818,2023-03-15
-to save; to rescue,助ける,たすける,,助ける,VERB,ICHIDAN_VERB,,3,{GENKI3_L18},,d1ccb87e-aa3d-47c3-b60f-577a3edaf86d,819,2023-03-15
+to save; to rescue,助ける,たすける,,助ける,VERB,ICHIDAN_VERB,,3,"{GENKI3_L18,GENKI3_L22}",,d1ccb87e-aa3d-47c3-b60f-577a3edaf86d,819,2023-03-15
 to permit; to forgive,許す,ゆるす,,許す,VERB,GODAN_VERB,,3,,,f8a0f61a-c65e-46d6-bb20-321c33dc09dd,820,2023-03-15
 "to take, to grab; to pass",取る,とる,,取る,VERB,GODAN_VERB,,5,,,e2844136-7055-4e0b-a2f0-7579807c0ecc,821,2023-03-24
 "to touch, to feel",触る,さわる,,触る,VERB,GODAN_VERB,,4,{GENKI3_L21},,5e6c7b7f-ea17-49ce-b5d7-200698c08384,822,2023-03-26
@@ -1696,12 +1696,12 @@ national/public holiday,祝日,しゅくじつ,,祝日,NOUN,,,2,,,bba677c6-992b-
 without,なし,なし,,無し,NOUN,,,3,,,e81d709a-66b7-4cd3-bed2-6f142cea2f5c,1695,2024-11-10
 list,リスト,リスト,,,NOUN,,,,,,0eec63aa-51e9-4dcc-bea0-0916a4d22ea6,1696,2024-11-10
 weak,弱い,よわい,,弱い,ADJECTIVE,I_ADJECTIVE,,5,,,cd3abe41-7439-4703-9580-0693bb16aff2,1697,2024-11-10
-"continuously, throughout",ずっと,ずっと,,,ADVERB,,,3,,,63266896-d0e5-4a74-b6ce-5b0c3a106225,1698,2024-11-10
-"softly, gently",ふわり,ふわり,,,ADVERB,,,,,,0c0e30cd-bc84-4d09-98f3-e0b5cd3fad82,1699,2024-11-10
+"continuously, throughout; for a long time, all the time",ずっと,ずっと,,,ADVERB,,,3,{GENKI3_L22},,63266896-d0e5-4a74-b6ce-5b0c3a106225,1698,2024-11-10
+\,ふわり,ふわり,,,ADVERB,,,,,,0c0e30cd-bc84-4d09-98f3-e0b5cd3fad82,1699,2024-11-10
 "youth, adolescent",青春,せいしゅん,,青春,NOUN,,,,,,8df4083c-771c-4bd1-94dd-097923a59aff,1700,2024-11-10
 wind ensemble,吹奏楽,すいそうがく,,吹奏楽,NOUN,,,,,{music},5ec210c6-c81c-4bba-a102-f0584c99d40c,1701,2024-11-10
 computer programmer,コンピュータプログラマー,こんぴゅうたぷろぐらまあ,,,NOUN,,,,,,77c1b0ad-2ffe-4851-b1ec-2661690b22f6,1702,2024-11-10
-to lose; to be defeated,負ける,まける,,,VERB,ICHIDAN_VERB,,4,,,1ca05864-5aaa-4315-999f-fbf15908c156,1703,2024-11-10
+to lose; to be defeated,負ける,まける,,,VERB,ICHIDAN_VERB,,4,{GENKI3_L22},,1ca05864-5aaa-4315-999f-fbf15908c156,1703,2024-11-10
 to trust; to believe,信じる,しんじる,,信じる,VERB,ICHIDAN_VERB,,3,{GENKI3_L21},,dfd63003-9519-4ab1-bf8e-f88986234a52,1704,2024-11-10
 jellyfish,クラゲ,くらげ,,海月,NOUN,,,,,{animal},cdae1739-505d-48a3-9485-29665a4b3e05,1705,2024-11-10
 monkey,猿,さる,,猿,NOUN,,,3,{GENKI3_L22},{animal},4ec047a3-e1d8-4305-a5a9-712fce0115d2,1706,2024-11-10
@@ -1806,9 +1806,45 @@ document,書類,しょるい,,書類,NOUN,,,3,{GENKI3_L22},,e08bbe38-43f6-4d94-a
 project,プロジェクト,ぷろじぇくと,,,NOUN,,,,{GENKI3_L22},,98e9cdfd-c445-4655-9a29-2bf0f1512960,1805,2025-02-19
 housework,家事,かじ,,家事,NOUN,,,3,{GENKI3_L22},,1611ce87-369f-4bf1-bced-0354fb2adff0,1806,2025-02-19
 Europe,ヨーロッパ,よおろっぱ,,欧羅巴,NOUN,,,3,{GENKI3_L22},{place},52132625-208c-4add-a4bb-cb06d663d823,1807,2025-02-19
-living alone,一人暮らし,ひとりくらし,,一人暮らし,NOUN,,,,{GENKI3_L22},,ad190384-066d-451c-815c-b64e6d559a7f,1808,2025-02-19
+living alone,一人暮らし,ひとりぐらし,,一人暮らし,NOUN,,,,{GENKI3_L22},,ad190384-066d-451c-815c-b64e6d559a7f,1808,2025-02-19
 freedom; liberty,自由,じゆう,,自由,NOUN,,,4,{GENKI3_L22},,23cfa9b7-4690-4bc9-b231-0e527c6bece2,1809,2025-02-19
 waste (money),無駄遣い,むだづかい,,無駄遣い,NOUN,,,1,{GENKI3_L22},,5f90456d-157d-41c6-8c64-202a4575c896,1810,2025-02-19
-worried about,心配,しんぱい,,心配,ADJECTIVE,NA_ADJECTIVE,,3,{GENKI3_L22},,331c0f93-8abe-429d-ac14-401e018f3900,1811,2025-02-19
-poor,貧乏,びんぼう,,貧乏,ADJECTIVE,NA_ADJECTIVE,,1,{GENKI3_L22},,d72b2e8a-693a-463f-a4d7-49fc748437be,1812,2025-02-19
-fluent,ペラペラ,ぺらぺら,,,ADJECTIVE,NA_ADJECTIVE,,,{GENKI3_L22},,cedf4f14-816e-436a-8509-bfb267c9a9db,1813,2025-02-19
+"plan, project, schedule",計画,けいかく,,計画,NOUN,,,3,,,ddba5800-6647-4211-a8c9-2c47d205c22e,1811,2025-03-09
+worried about,心配,しんぱい,,心配,ADJECTIVE,NA_ADJECTIVE,,3,{GENKI3_L22},,331c0f93-8abe-429d-ac14-401e018f3900,1812,2025-02-19
+poor,貧乏,びんぼう,,貧乏,ADJECTIVE,NA_ADJECTIVE,,1,{GENKI3_L22},,d72b2e8a-693a-463f-a4d7-49fc748437be,1813,2025-02-19
+fluent,ペラペラ,ぺらぺら,,,ADJECTIVE,NA_ADJECTIVE,,,{GENKI3_L22},,cedf4f14-816e-436a-8509-bfb267c9a9db,1814,2025-02-19
+the wind blows,風が吹く,かぜがふく,,風が吹く,VERB,GODAN_VERB,,,{GENKI3_L22},,5ab6a799-d8c0-4cb4-9975-703a7846081e,1815,2025-03-09
+to make a photocopy,コピーを取る,こぴいをとる,,コピーを取る,VERB,GODAN_VERB,,,{GENKI3_L22},,1ef8fb48-2d09-4ef4-8025-def941dd2857,1816,2025-03-09
+to carry,運ぶ,はこぶ,,運ぶ,VERB,GODAN_VERB,,4,{GENKI3_L22},,9bce71f1-864f-4a84-a89e-99ced73944de,1817,2025-03-09
+to pick up (something),拾う,ひろう,,拾う,VERB,GODAN_VERB,,4,{GENKI3_L22},,e81c361e-fd1b-4fab-83e1-1cb6de2da07b,1818,2025-03-09
+to leave (someone/something) alone; to neglect,放っておく,ほうっておく,,放っておく,VERB,GODAN_VERB,,,{GENKI3_L22},,62e127f3-3945-44de-b832-e5da53fef08b,1819,2025-03-09
+to be in time (for),間に合う,まにあう,,間に合う,VERB,GODAN_VERB,,4,{GENKI3_L22},,128fc631-20ea-4e9d-b941-3c87877a50ed,1820,2025-03-09
+to win,勝つ,かつ,,勝つ,VERB,GODAN_VERB,,4,{GENKI3_L22},,8781a989-a640-4dc6-bcb6-834255cbc5b0,1821,2025-03-09
+"to recieve (impersonal); to take/undergo (e.g. surgery, an exam))",受ける,うける,,受ける,VERB,ICHIDAN_VERB,,4,{GENKI3_L22},,93972b7a-5b47-4fb3-8c82-fef735b10929,1822,2025-03-09
+to make plans,計画を立てる,けいかくをたてる,,計画を立てる,VERB,ICHIDAN_VERB,,,{GENKI3_L22},,31d6bc6a-16f3-4844-a251-5836f597fc7e,1823,2025-03-09
+"to raise, to rear, to bring up",育てる,そだてる,,育てる,VERB,ICHIDAN_VERB,,4,{GENKI3_L22},,00a0ead1-11fa-441e-acab-edf3b1226d6b,1824,2025-03-09
+to request help,お願いする,おねがいする,,お願いする,VERB,SURU_VERB,,,{GENKI3_L22},,d6663cdf-650f-4f74-8573-8ccacee3658d,1825,2025-03-09
+to agree,賛成する,さんせいする,,賛成する,VERB,SURU_VERB,,3,{GENKI3_L22},,738ca596-760a-4ceb-a54d-f1a2bf6d4d75,1826,2025-03-09
+to oppose; to object to,反対する,はんたいする,,反対する,VERB,SURU_VERB,,4,{GENKI3_L22},,d70ea4f5-37be-4c21-8844-bfc98e6a9c9f,1827,2025-03-09
+to fail; to be unsuccessful,失敗する,しっぱいする,,失敗する,VERB,SURU_VERB,,4,{GENKI3_L22},,467eb723-8f06-491c-9f3c-dac5843a3001,1828,2025-03-09
+to stay up all night,徹夜する,てつやする,,徹夜する,VERB,SURU_VERB,,3,{GENKI3_L22},,e7d43af5-0f1e-43c0-9685-1c02b4956f3b,1829,2025-03-09
+to transalte (source と target に),翻訳する,ほんやくする,,翻訳する,VERB,SURU_VERB,,4,{GENKI3_L22},,5a3f9bd3-c28d-4983-9566-105fcc75b333,1830,2025-03-09
+"like this, in this way",こんな風に,こんなふうに,,こんな風に,ADVERB,,,,{GENKI3_L22},,6da66029-4a8f-42c0-ad5f-49fe28ece5df,1831,2025-03-09
+freely,自由に,じゆうに,,自由に,ADVERB,,,,{GENKI3_L22},,ee887abd-c3ae-4d1b-a008-3a37d64baf98,1832,2025-03-09
+definitely,絶対に,ぜったいに,,絶対に,ADVERB,,,,{GENKI3_L22},,5a9526e4-493e-410d-9270-e22551f51214,1833,2025-03-09
+"many times over, often, repeatedly",何度も,なんども,,何度も,ADVERB,,,,{GENKI3_L22},,d0f9cc78-4f78-4508-b911-7ca301be3b3c,1834,2025-03-09
+a little more,もう少し,もうすこし,,もう少し,EXPRESSION,,,,{GENKI3_L22},,50090208-6ee0-46d4-a717-4041ccb01ed5,1835,2025-03-09
+"...for example, ...such as",〜とか,〜とか,,,PARTICLE,,,,{GENKI3_L22},,f092388a-f666-473b-8b72-b55d21b61e39,1836,2025-03-09
+"I don't thinks so., this is incorrect.",そんなことない,そんなことない,そんなことはない,そんな事ない,EXPRESSION,,,,{GENKI3_L22},,d9aa7d8d-53c2-4fe2-81d3-e07de45db6ff,1837,2025-03-09
+many...,多くの〜,おおくの〜,,多くの〜,PREFIX,,,,{GENKI3_L22},,2f04efed-e477-4d3c-b7b8-97b8f5852436,1838,2025-03-09
+perhaps; if I'm not mistaken,もしかして,もしかして,,若しかして,ADVERB,,,1,,,276c0441-4d98-4014-a145-1107daa3ba54,1839,2025-03-09
+"also, in addition to (e.g. order append)",あと、,あと、,,後、,ADVERB,,,5,,,d151ea35-1758-47df-8572-175875b433cb,1840,2025-03-09
+"double, twice (as much)",倍,ばい,,倍,NOUN,,,4,,,1914d192-c2f0-4db4-b96a-69e12bd74bb2,1841,2025-03-09
+"times as much, -fold; 1-in-n",〜倍,〜ばい,,〜倍,COUNTER,,,4,,,1bb4c66c-1bbc-420d-9d40-0ca6d9057ba0,1842,2025-03-09
+raised offerings,献選,けんせん,,献選,NOUN,,,,,{shinto},ec3f36de-f150-40e1-aa70-9e627b1e3d2b,1843,2025-03-09
+lowered offerings,撤饌,てっせん,,撤饌,NOUN,,,,,{shinto},d2b1db08-9e3b-422b-82eb-b1aa65b37ddf,1844,2025-03-09
+"counter for recieved emails, SMSs, etc; counter for accounts (web, email, etc)",〜件,〜けん,,〜件,COUNTER,,,,,,85654c5b-15bb-44e1-bbf0-5bad00d11e98,1845,2025-03-09
+"flow (of things, people, or time)",流れ,ながれ,,流れ,NOUN,,,,,,d82a94bd-efa3-451b-9901-28e41030260e,1846,2025-03-09
+easy to do (psychologically)...,〜やすい,〜やすい,,〜易い,SUFFIX,,,,{GENKI3_L20},,6dc0f26a-17c4-41e9-8740-615102150458,1847,2025-03-09
+difficult to do (psychologically)...,〜にくい,〜にくい,,〜難い,SUFFIX,,,,{GENKI3_L20},,dc2ec3d9-5502-40d3-91e0-766c0f0fbcbc,1848,2025-03-09
+"surly, certainly; I agree, that's true",確かに,たしかに,,確かに,ADVERB,,,,,,4878016f-0cd1-4cc1-99bf-0f1a9074933e,1849,2025-03-09

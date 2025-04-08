@@ -69,13 +69,13 @@ class GodanVerbInflector : StandardVerbInflector() {
         ruRepl = "らなくて",
     )
 
-    override val positivePolitePresent = GodanRewriteRule.iColumnWithSuffix("ます")
+    override val positivePolitePresent = GodanRewriteRule.stemWithSuffix("ます")
 
-    override val positivePolitePast = GodanRewriteRule.iColumnWithSuffix("ました")
+    override val positivePolitePast = GodanRewriteRule.stemWithSuffix("ました")
 
-    override val negativePolitePresent = GodanRewriteRule.iColumnWithSuffix("ません")
+    override val negativePolitePresent = GodanRewriteRule.stemWithSuffix("ません")
 
-    override val negativePolitePast = GodanRewriteRule.iColumnWithSuffix("ませんでした")
+    override val negativePolitePast = GodanRewriteRule.stemWithSuffix("ませんでした")
 
     override val positivePlainPotential = GodanRewriteRule(
         uRepl = "える",
@@ -89,7 +89,7 @@ class GodanVerbInflector : StandardVerbInflector() {
         ruRepl = "れる",
     )
 
-    override val positivePlainVolitional: Rewriter = GodanRewriteRule(
+    override val positivePlainVolitional = GodanRewriteRule(
         uRepl = "おう",
         kuRepl = "こう",
         guRepl = "ごう",
@@ -100,6 +100,8 @@ class GodanVerbInflector : StandardVerbInflector() {
         muRepl = "もう",
         ruRepl = "ろう",
     )
+
+    override val positivePoliteVolitional = GodanRewriteRule.stemWithSuffix("ましょう")
 
     companion object {
         val validDictionaryEndings: List<String> = listOf("う", "く", "ぐ", "す", "つ", "ぬ", "ぶ", "む", "る")

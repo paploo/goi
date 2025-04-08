@@ -1,5 +1,6 @@
 package net.paploo.goi.domain.tools.conjugator.inflectors.verb
 
+import net.paploo.goi.domain.tools.conjugator.GodanRewriteRule
 import net.paploo.goi.domain.tools.conjugator.Rewriter
 import net.paploo.goi.domain.tools.conjugator.plus
 
@@ -23,7 +24,9 @@ class AiSuruVerbInflector : StandardVerbInflector() {
 
     override val positivePlainPotential: Rewriter = suruVerbInflector.positivePlainPotential
 
-    override val positivePlainVolitional: Rewriter = suruVerbInflector.positivePlainVolitional
+    override val positivePlainVolitional = suruVerbInflector.positivePlainVolitional
+    override val positivePoliteVolitional = suruVerbInflector.positivePoliteVolitional
+
 
     companion object {
         val default: AiSuruVerbInflector = AiSuruVerbInflector()

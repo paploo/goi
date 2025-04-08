@@ -90,10 +90,11 @@ class GodanRewriteRule(
     companion object {
 
         /**
-         *  e.g. 話す goes to 話します, 話しません, etc, moving the s-row to the i-column but having a different (uniform)
-         *  suffix across the different inflections; this gives an easy way to build those.
+         *  Makes a RewriteRule that is the stem form plus a suffix.
+         *
+         *  No suffix would yield the stem itself.
          *  **/
-        fun iColumnWithSuffix(suffix: String): GodanRewriteRule = GodanRewriteRule(
+        fun stemWithSuffix(suffix: String): GodanRewriteRule = GodanRewriteRule(
             uRepl = "い$suffix",
             kuRepl = "き$suffix",
             guRepl = "ぎ$suffix",
