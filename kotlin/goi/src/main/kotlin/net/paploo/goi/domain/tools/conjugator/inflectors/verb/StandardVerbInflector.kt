@@ -18,6 +18,8 @@ import net.paploo.goi.domain.tools.conjugator.plus
  */
 abstract class StandardVerbInflector : VerbInflector {
 
+    // Potential forms conjugate like a regular ichidan verb
+
     override val negativePlainPotential: Rewriter by lazy {
         positivePlainPotential + IchidanVerbInflector.default.negativePlainPresent
     }
@@ -65,10 +67,19 @@ abstract class StandardVerbInflector : VerbInflector {
         negativePlainPresent + Rewriter.replace("(い)$".toRegex(), "ければ")
     }
 
-    override val positivePlainPassive by lazy { TODO("figure out impl") }
-    override val negativePlainPassive by lazy { TODO("figure out impl") }
-    override val positivePolitePassive by lazy { TODO("figure out impl") }
-    override val negativePolitePassive by lazy { TODO("figure out impl") }
+    // Passive forms conjugate like a regular ichidan verb
+
+    override val negativePlainPassive by lazy {
+        positivePlainPassive + IchidanVerbInflector.default.negativePlainPresent
+    }
+
+    override val positivePolitePassive by lazy {
+        positivePlainPassive + IchidanVerbInflector.default.positivePolitePresent
+    }
+
+    override val negativePolitePassive by lazy {
+        positivePlainPassive + IchidanVerbInflector.default.negativePolitePresent
+    }
 
     override val positivePlainCausative by lazy { TODO("figure out impl") }
     override val negativePlainCausative by lazy { TODO("figure out impl") }

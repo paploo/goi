@@ -103,6 +103,18 @@ class GodanVerbInflector : StandardVerbInflector() {
 
     override val positivePoliteVolitional = GodanRewriteRule.stemWithSuffix("ましょう")
 
+    override val positivePlainPassive = GodanRewriteRule(
+        uRepl = "われる",
+        kuRepl = "かれる",
+        guRepl = "がれる",
+        suRepl = "される",
+        tsuRepl = "たれる",
+        nuRepl = "なれる",
+        buRepl = "ばれる",
+        muRepl = "まれる",
+        ruRepl = "られる",
+    )
+
     companion object {
         val validDictionaryEndings: List<String> = listOf("う", "く", "ぐ", "す", "つ", "ぬ", "ぶ", "む", "る")
 
