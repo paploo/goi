@@ -77,6 +77,11 @@ class SuruVerbInflectorTest : DescribeSpec({
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Passive) shouldInflectAs "洗濯されない"
         Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Passive) shouldInflectAs "洗濯されます"
         Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Passive) shouldInflectAs "洗濯されません"
+
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Causative) shouldInflectAs "洗濯させる"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Causative) shouldInflectAs "洗濯させない"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Causative) shouldInflectAs "洗濯させます"
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Causative) shouldInflectAs "洗濯させません"
     }
 
 })

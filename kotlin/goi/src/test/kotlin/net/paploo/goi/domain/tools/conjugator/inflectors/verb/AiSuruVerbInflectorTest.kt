@@ -42,6 +42,11 @@ class AiSuruVerbInflectorTest : DescribeSpec({
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Passive) shouldInflectAs "愛されない"
         Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Passive) shouldInflectAs "愛されます"
         Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Passive) shouldInflectAs "愛されません"
+
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Causative) shouldInflectAs "愛させる"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Causative) shouldInflectAs "愛させない"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Causative) shouldInflectAs "愛させます"
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Causative) shouldInflectAs "愛させません"
     }
 
 })

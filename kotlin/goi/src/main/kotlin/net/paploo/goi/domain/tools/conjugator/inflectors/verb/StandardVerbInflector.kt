@@ -81,10 +81,18 @@ abstract class StandardVerbInflector : VerbInflector {
         positivePlainPassive + IchidanVerbInflector.default.negativePolitePresent
     }
 
-    override val positivePlainCausative by lazy { TODO("figure out impl") }
-    override val negativePlainCausative by lazy { TODO("figure out impl") }
-    override val positivePoliteCausative by lazy { TODO("figure out impl") }
-    override val negativePoliteCausative by lazy { TODO("figure out impl") }
+    override val negativePlainCausative by lazy {
+        positivePlainCausative + IchidanVerbInflector.default.negativePlainPresent
+    }
+
+    override val positivePoliteCausative by lazy {
+        positivePlainCausative + IchidanVerbInflector.default.positivePolitePresent
+    }
+
+    override val negativePoliteCausative by lazy {
+        positivePlainCausative + IchidanVerbInflector.default.negativePolitePresent
+    }
+
 
     override fun invoke(inflection: Conjugation.Inflection): Rewriter? = when (inflection) {
         Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Present) -> positivePlainPresent

@@ -27,6 +27,8 @@ class IkuVerbInflector : StandardVerbInflector() {
 
     override val positivePlainPassive = Rewriter.replace(validEndingsRegex, "$1かれる")
 
+    override val positivePlainCausative = Rewriter.replace(validEndingsRegex, "$1かせる")
+
     companion object {
         val default: IkuVerbInflector = IkuVerbInflector()
     }

@@ -39,6 +39,8 @@ class KuruVerbInflector : StandardVerbInflector() {
 
     override val positivePlainPassive = Rewriter.replace(validEndingsRegex, "こられる")
 
+    override val positivePlainCausative = Rewriter.replace(validEndingsRegex, "こさせる")
+
     companion object {
         val default: KuruVerbInflector = KuruVerbInflector()
     }

@@ -115,6 +115,18 @@ class GodanVerbInflector : StandardVerbInflector() {
         ruRepl = "られる",
     )
 
+    override val positivePlainCausative = GodanRewriteRule(
+        uRepl = "わせる",
+        kuRepl = "かせる",
+        guRepl = "がせる",
+        suRepl = "させる",
+        tsuRepl = "たせる",
+        nuRepl = "なせる",
+        buRepl = "ばせる",
+        muRepl = "ませる",
+        ruRepl = "らせる",
+    )
+
     companion object {
         val validDictionaryEndings: List<String> = listOf("う", "く", "ぐ", "す", "つ", "ぬ", "ぶ", "む", "る")
 

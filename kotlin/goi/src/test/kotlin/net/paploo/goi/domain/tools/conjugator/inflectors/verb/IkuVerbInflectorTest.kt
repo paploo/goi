@@ -42,6 +42,11 @@ class IkuVerbInflectorTest : DescribeSpec({
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Passive) shouldInflectAs "行かれない"
         Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Passive) shouldInflectAs "行かれます"
         Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Passive) shouldInflectAs "行かれません"
+
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Causative) shouldInflectAs "行かせる"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Causative) shouldInflectAs "行かせない"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Causative) shouldInflectAs "行かせます"
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Causative) shouldInflectAs "行かせません"
     }
 
     describeInflector("Iku Verb Inflector", IkuVerbInflector.default, "持っていく") {
@@ -77,6 +82,11 @@ class IkuVerbInflectorTest : DescribeSpec({
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Passive) shouldInflectAs "持っていかれない"
         Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Passive) shouldInflectAs "持っていかれます"
         Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Passive) shouldInflectAs "持っていかれません"
+
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Causative) shouldInflectAs "持っていかせる"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Causative) shouldInflectAs "持っていかせない"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Causative) shouldInflectAs "持っていかせます"
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Causative) shouldInflectAs "持っていかせません"
     }
 
 })

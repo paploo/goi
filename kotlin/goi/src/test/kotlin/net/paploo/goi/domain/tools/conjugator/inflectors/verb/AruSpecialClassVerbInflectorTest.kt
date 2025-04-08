@@ -41,6 +41,11 @@ class AruSpecialClassVerbInflectorTest : DescribeSpec({
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Passive) shouldInflectAs "いらっしゃられない"
         Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Passive) shouldInflectAs "いらっしゃられます"
         Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Passive) shouldInflectAs "いらっしゃられません"
+
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Causative) shouldInflectAs "いらっしゃらせる"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Causative) shouldInflectAs "いらっしゃらせない"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Causative) shouldInflectAs "いらっしゃらせます"
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Causative) shouldInflectAs "いらっしゃらせません"
     }
 
     //https://www.tanoshiijapanese.com/dictionary/conjugation_details.cfm?entry_id=25762
@@ -77,6 +82,11 @@ class AruSpecialClassVerbInflectorTest : DescribeSpec({
         Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Passive) shouldInflectAs "ござられない"
         Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Passive) shouldInflectAs "ござられます"
         Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Passive) shouldInflectAs "ござられません"
+
+        Conjugation.Inflection(Charge.Positive, Politeness.Plain, Form.Causative) shouldInflectAs "ござらせる"
+        Conjugation.Inflection(Charge.Negative, Politeness.Plain, Form.Causative) shouldInflectAs "ござらせない"
+        Conjugation.Inflection(Charge.Positive, Politeness.Polite, Form.Causative) shouldInflectAs "ござらせます"
+        Conjugation.Inflection(Charge.Negative, Politeness.Polite, Form.Causative) shouldInflectAs "ござらせません"
     }
 
 })

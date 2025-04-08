@@ -30,6 +30,8 @@ class AiSuruVerbInflector : StandardVerbInflector() {
 
     override val positivePlainPassive: Rewriter = suruVerbInflector.positivePlainPassive
 
+    override val positivePlainCausative: Rewriter = suruVerbInflector.positivePlainCausative
+
     companion object {
         val default: AiSuruVerbInflector = AiSuruVerbInflector()
     }

@@ -33,6 +33,8 @@ class AruSpecialClassVerbInflector : StandardVerbInflector() {
 
     override val positivePlainPassive = Rewriter.replace(validEndingsRegex, "られる")
 
+    override val positivePlainCausative = Rewriter.replace(validEndingsRegex, "らせる")
+
 
     companion object {
         val default: AruSpecialClassVerbInflector = AruSpecialClassVerbInflector()

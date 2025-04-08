@@ -27,6 +27,8 @@ class IchidanVerbInflector : StandardVerbInflector() {
 
     override val positivePlainPassive = Rewriter.replace(validEndingsRegex, "られる")
 
+    override val positivePlainCausative = Rewriter.replace(validEndingsRegex, "させる")
+
     companion object {
         val default: IchidanVerbInflector = IchidanVerbInflector()
     }
