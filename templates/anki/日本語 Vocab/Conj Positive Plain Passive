@@ -31,4 +31,4 @@
 
 <p class='detail-info'>📕 {{definition}}</p>
 
-<p>{{tts ja_JP:positive_plain_volitional}}</p>
+<p>{{tts ja_JP:positive_plain_passive}}</p>
