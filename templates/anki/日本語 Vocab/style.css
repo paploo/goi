@@ -1,9 +1,9 @@
 .card {
-    font-family: helvetica, arial, sans-serif;
-    font-size: 20px;
-    text-align: center;
-    color: black;
-    background-color: black;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	color: black;
+	background-color: black;
 }
 
 .instruction {
@@ -11,7 +11,11 @@
 }
 
 .large {
-	font-size: 150%
+	font-size: 150%;
+}
+
+.small {
+	font-size: 75%;
 }
 
 .conjugation-directive {
@@ -19,12 +23,12 @@
 }
 
 .conjugation-directive.formal {
-  //background: rgba(128, 128, 128, 0.05);
+//background: rgba(128, 128, 128, 0.05);
 	color: rgba(128, 128, 128);
 }
 
 .conjugation-directive.casual {
-  //background: rgba(0, 0, 255, 0.05);
+//background: rgba(0, 0, 255, 0.05);
 	color: rgba(128, 128, 255);
 }
 
@@ -47,11 +51,11 @@
 }
 
 .detail-info {
-  font-size: 15px;
+	font-size: 15px;
 }
 
 .grey-badge {
-  border: 1pt solid white;
+	border: 1pt solid white;
 	background: grey;
 	color: white;
 }
@@ -59,5 +63,11 @@
 .blue-badge {
 	border: 1pt solid white;
 	background: rgba(128, 128, 255);
+	color: white;
+}
+
+.purple-badge {
+	border: 1pt solid white;
+	background: rgba(128, 0, 255);
 	color: white;
 }
