@@ -22,9 +22,9 @@
 	</div>
 
 		<p>
-		{{tts ja_JP:kanji:example_6_text}}
+		{{tts ja_JP speed=0.75:kanji:example_6_text}}
 		{{#example_6_text_phonetic}}
-			| {{tts ja_JP:example_6_text_phonetic}}
+			| {{tts ja_JP speed=0.75:example_6_text_phonetic}}
 		{{/example_6_text_phonetic}}
 	</p>
 </div>
