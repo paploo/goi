@@ -2311,6 +2311,15 @@
         },
         "lesson_codes": ["GENKI3_L11"],
         "tags": []
+      },
+      {
+        "id": "f93204ba-cb12-4f84-8b2c-f7a7abb75839",
+        "meaning": "At this time, who would you thank? What would you like to say?",
+        "text": {
+          "spelling": "{今|いま}、{誰|だれ}にお{礼|れい}を{言|い}いたいですか。{何|なに}と{言|い}いたいですか。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
       }
     ],
     "jlpt_level": null,
@@ -6687,6 +6696,116 @@
           "spelling": "{日本語|に・ほん・ご}の{勉強|べん・きょう}をやめなくてよかったです。"
         },
         "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-04-12",
+    "lesson_codes": ["GENKI3_L19"],
+    "tags": []
+  },
+  {
+    "id": "61d4a5e2-77ec-4b28-af8b-f79e9899d880",
+    "title": "〜はずです",
+    "meaning": "I believe it is true or likely the case that...",
+    "how_to_use": [
+      "verb (short) + はず + です",
+      "い-adj + はず + です",
+      "な-adj + な + はず + です",
+      "noun + の + はず + です"
+    ],
+    "examples": [
+      {
+        "id": "63a0e12d-7a33-451b-bfdb-136c2b37453b",
+        "meaning": "Because today is Sunday, the bank must be closed, I believe.",
+        "text": {
+          "spelling": "{今日|きょう}は{日曜日|にち・よう・び}だから、{銀行|ぎん・こう}は{閉|し}まっているはずです。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "1daef17d-6acc-4a60-818e-da7773d07e34",
+        "meaning": "The report is not due tomorrow, I believe.",
+        "text": {
+          "spelling": "レポートの{締|し}め{切|き}りは{明日|あした}じゃない{は|ha}ずです。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "6682efd9-c326-4625-a294-93a245fd1c33",
+        "meaning": "Last week I was supposed to receive a phone cal last week, but I did not.",
+        "text": {
+          "spelling": "{先週|せん・しゅう}{電話|でん・わ}をもらう{は|ha}ずでしたが、{電話|でん・わ}がありませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "ecd386ff-1ad0-43aa-aec0-30fc5b6c534c",
+        "meaning": "Canada is larger than the United States, I believe.",
+        "text": {
+          "spelling": "カナダはアメリカより{大|おお}{は|ha}ずです。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "bc3b437b-9612-41cb-885d-c3e425ab291c",
+        "meaning": "Because about 30 minutes ago I saw Ms Chiaki Oogaki, she is coming I, believe.",
+        "text": {
+          "spelling": "{三十分|さん・じゅう・ぶん}ぐらい{前|まえ}に{大垣|おお・がき}{千明|ち・あき}さんを{見|み}たので、{来|く}るはずです。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-04-12",
+    "lesson_codes": ["GENKI3_L19"],
+    "tags": []
+  },
+  {
+    "id": "fe3051f8-53f6-4223-a128-39bdd8d1cbf8",
+    "title": "〜はずがありません",
+    "meaning": "It cannot be / is impossible that...",
+    "how_to_use": [
+      "verb (short) + はず + が + ない",
+      "い-adj + はず + が + ない",
+      "な-adj + な + はず + が + ない",
+      "noun + の + はず + が + ない",
+      "verb (short) + はず + が + ありません",
+      "い-adj + はず + が + ありません",
+      "な-adj + な + はず + が + ありません",
+      "noun + の + はず + が + ありません"
+    ],
+    "examples": [
+      {
+        "id": "0522ddf1-3c5b-4583-8fc8-bb1a72e87b4a",
+        "meaning": "I cannot imagine that he would tell a lie.",
+        "text": {
+          "spelling": "{彼|かれ}が{嘘|うそ}をつく{は|ha}ずがありません。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "74d46f4c-02bf-490c-9f4b-b6cb7c4ccde8",
+        "meaning": "He would never say such a thing.",
+        "text": {
+          "spelling": "{彼|かれ}はそんなことを{言|い}う{は|ha}ずがない。"
+        },
+        "lesson_codes": ["JLPT_SENSEI_GRAMMAR_N4"],
+        "tags": []
+      },
+      {
+        "id": "7a840a91-8bab-47fc-9428-24bca3ad4518",
+        "meaning": "That kind of large portion is impossible to eat all of.",
+        "text": {
+          "spelling": "そんな{大|おお}きな{量|りょう}を{全部|ぜん・ぶ}{食|た}べられる{は|ha}ずがない。"
+        },
+        "lesson_codes": ["JLPT_SENSEI_GRAMMAR_N4"],
         "tags": []
       }
     ],
