@@ -371,7 +371,7 @@ about (approximate measurment),〜ぐらい,〜ぐらい,〜くらい,,SUFFIX,,1
 excuse me,すみません,すみません,,,EXPRESSION,,3,,,9ec6f020-0166-4d80-a938-070eeb78cc05,370,2022-08-10,,,,,,,,,,,,,,,,,
 sorry,ごめん,ごめん,,,INTERJECTION,,2,{GENKI3_L16},,7d011295-e767-462a-85a9-8f5fab4883b8,371,2022-08-10,,,,,,,,,,,,,,,,,
 I'm deeply sorry sorry,ごめんなさい,ごめんなさい,,,EXPRESSION,,3,{GENKI3_L04},,46ba5ddd-9d1f-4bc0-982e-a67e7bb4b307,372,2022-08-10,,,,,,,,,,,,,,,,,
-and then; after that,それから,それから,,,EXPRESSION,,5,{GENKI3_L04},,7ded3290-23fd-4091-83c5-560563afeed3,373,2022-08-10,,,,,,,,,,,,,,,,,
+and then; after that (to add an item that comes later in time or importance),それから,それから,,,EXPRESSION,,5,{GENKI3_L04},,7ded3290-23fd-4091-83c5-560563afeed3,373,2022-08-10,,,,,,,,,,,,,,,,,
 so; therefore,だから,だから,,,CONJUNCTION,,4,{GENKI3_L04},,3fd6bcdf-d9e5-4cc9-8aab-46e121e4c86a,374,2022-08-10,,,,,,,,,,,,,,,,,
 many; a lot,たくさん,たくさん,,沢山,NOUN,,5,{GENKI3_L04},,10eece8b-4102-41c5-9532-e62246da60e2,375,2022-08-10,,,,,,,,,,,,,,,,,
 together with (a person); and,〜と,と,,,CONJUNCTION,,3,{GENKI3_L04},,d097a029-96a6-4cfe-936e-9f815b368de3,376,2022-08-10,,,,,,,,,,,,,,,,,
@@ -731,7 +731,7 @@ everyone together,みんなで,みんなで,,,EXPRESSION,,,{GENKI3_L08},,b27a1f3
 regrettable; unfortunate; disappointing,残念,ざんねん,,残念,ADJECTIVE,NA_ADJECTIVE,4,,,5c792e43-8635-48d7-a0a4-3b5af1c3bf96,730,2023-02-19,,残念だ,残念だった,残念で,残念じゃない,残念じゃなかった,残念ではなくて,,,,,,,,,,
 that's too bad,残念ですね,ざんねんですね,,残念ですね,EXPRESSION,,,{GENKI3_L08},,6aa50375-3e4d-46ce-9a88-09501febd9b8,731,2023-02-19,,,,,,,,,,,,,,,,,
 not ... yet (+ negative),まだ,まだ,,,ADVERB,,5,{GENKI3_L08},,dbedc438-5674-47f4-a171-ef277fae0184,732,2023-02-19,,,,,,,,,,,,,,,,,
-...degrees (temperature),度,ど,,度,SUFFIX,,,{GENKI3_L08},,ea6d72df-50ce-4316-807c-5858cc6dc65a,733,2023-02-19,,,,,,,,,,,,,,,,,
+...degrees (temperature),〜度,〜ど,,〜度,SUFFIX,,,{GENKI3_L08},,ea6d72df-50ce-4316-807c-5858cc6dc65a,733,2023-02-19,,,,,,,,,,,,,,,,,
 how,どう,どう,,,ADVERB,,5,{GENKI3_L08},,447a857a-0361-4b99-9432-0373a77ca6bb,734,2023-02-19,,,,,,,,,,,,,,,,,
 please don't...,〜ないでください,〜ないでください,,〜ないで下さい,EXPRESSION,,,{GENKI3_L08},,ada80dca-0de5-44a9-b8ac-b53ff19bbc7b,735,2024-02-26,,,,,,,,,,,,,,,,,
 perfect day (weather),日和,びより,,日和,NOUN,,,,,f40b78a6-8934-455e-9e9c-307709705c6e,736,2023-02-22,,,,,,,,,,,,,,,,,
@@ -884,9 +884,9 @@ or,か,か,,,PARTICLE,,,{GENKI3_L10},,7d0c7190-fb04-441e-8a78-857a16fe07e1,880,2
 "intention, plan",つもり,つもり,,積もり,NOUN,,4,{GENKI3_L10},,f6651eec-9b60-4d97-b1d0-6cb6915b3720,883,2023-11-05,,,,,,,,,,,,,,,,,
 why; what for,なんで,なんで,,何で,ADVERB,,3,,,3209125c-afca-486b-b0d7-391f20b5f345,884,2023-04-29,,,,,,,,,,,,,,,,,
 shinto priest,神主,かんぬし,,神主,NOUN,,,,{shinto},c942e182-f690-4c46-9e11-2ae83120c8ed,885,2023-04-30,,,,,,,,,,,,,,,,,
-prefecture (suffix),県,けん,,県,SUFFIX,,,,,12146f64-e2de-4a1e-9541-192a0e4dc5e6,886,2023-04-30,,,,,,,,,,,,,,,,,
-city (suffix),市,し,,市,SUFFIX,,4,,{place},3573411a-4d94-45e3-998b-066f962612b7,887,2023-04-30,,,,,,,,,,,,,,,,,
-district; city (Tokyo),区,く,,区,SUFFIX,,1,,{place},cf8afcfe-d115-43ad-b5ea-0367a2b6385c,888,2023-04-30,,,,,,,,,,,,,,,,,
+prefecture (suffix),〜県,〜けん,,〜県,SUFFIX,,,,,12146f64-e2de-4a1e-9541-192a0e4dc5e6,886,2023-04-30,,,,,,,,,,,,,,,,,
+city (suffix),〜市,〜し,,〜市,SUFFIX,,4,,{place},3573411a-4d94-45e3-998b-066f962612b7,887,2023-04-30,,,,,,,,,,,,,,,,,
+district; city (Tokyo),〜区,〜く,,〜区,SUFFIX,,1,,{place},cf8afcfe-d115-43ad-b5ea-0367a2b6385c,888,2023-04-30,,,,,,,,,,,,,,,,,
 Nagoya,名古屋,なごや,,名古屋,PROPER_NOUN,,,,"{city,place}",4ba91101-b220-44b8-bf33-65d4f9c3bac9,889,2023-04-30,,,,,,,,,,,,,,,,,
 Sapporo,札幌,さっぽろ,,札幌,PROPER_NOUN,,,,"{city,place}",3032182f-fcd7-4c7e-ac36-cc5eeb8f3307,890,2023-04-30,,,,,,,,,,,,,,,,,
 Kobe,神戸,こうべ,,神戸,PROPER_NOUN,,,,"{city,place}",e9cf27db-ca75-4dfd-86c2-c50f210024c7,891,2023-04-30,,,,,,,,,,,,,,,,,
@@ -900,8 +900,8 @@ Okinawa,沖縄,おきなわ,,沖縄,PROPER_NOUN,,,,"{place,prefecture}",2ce36340
 local (train),普通,ふつう,,普通,NOUN,,4,{GENKI3_L10},,65584362-ca9d-4896-b001-ad4d57608f73,899,2023-04-29,,,,,,,,,,,,,,,,,
 "hurrying (to somewhere), rushing; express (train)",急行,きゅうこう,,急行,NOUN,,4,{GENKI3_L10},{transportation},52c14f46-d973-4b99-a029-71d04f1b585b,900,2023-04-29,,,,,,,,,,,,,,,,,
 super express (train),特急,とっきゅう,,特急,NOUN,,4,{GENKI3_L10},{transportation},73e29d1e-7eae-4bc8-bd09-ae0d53c64fdc,901,2023-04-29,,,,,,,,,,,,,,,,,
-"district, area; service area (train)",方面,ほうめん,,方面,SUFFIX,,2,{GENKI3_L10},{transportation},6ee359fa-54db-451a-b2ab-3b70d6ef098e,902,2023-04-29,,,,,,,,,,,,,,,,,
-train car number,号車,ごうしゃ,,号車,SUFFIX,,,{GENKI3_L10},{transportation},90b315aa-b052-4791-ae5c-821640511f13,903,2023-04-29,,,,,,,,,,,,,,,,,
+"district, area; service area (train)",〜方面,〜ほうめん,,〜方面,SUFFIX,,2,{GENKI3_L10},{transportation},6ee359fa-54db-451a-b2ab-3b70d6ef098e,902,2023-04-29,,,,,,,,,,,,,,,,,
+train car number,〜号車,〜ごうしゃ,,〜号車,SUFFIX,,,{GENKI3_L10},{transportation},90b315aa-b052-4791-ae5c-821640511f13,903,2023-04-29,,,,,,,,,,,,,,,,,
 boarding ticket,乗車券,じょうしゃけん,,乗車券,NOUN,,,{GENKI3_L10},{transportation},660bade2-d475-4fcc-a09e-1b47235d072a,904,2023-04-29,,,,,,,,,,,,,,,,,
 general admission seat,自由席,じゆうせき,,自由席,NOUN,,,{GENKI3_L10},{transportation},f8eb1de4-0b64-4645-9997-11df34ce972a,905,2023-04-29,,,,,,,,,,,,,,,,,
 reserved seat,指定席,していせき,,指定席,NOUN,,,{GENKI3_L10},{transportation},9673793f-c1e9-417f-828d-e3fa6ff0da3a,906,2023-04-29,,,,,,,,,,,,,,,,,
@@ -927,7 +927,7 @@ Shibuya (main shopping district),渋谷,しぶや,,渋谷,PROPER_NOUN,,,,"{distr
 composition; piece of music; song; track,曲,きょく,,曲,NOUN,,1,,{music},c4f7e413-040d-49fa-a1f5-17702d4b5f26,926,2023-04-30,,,,,,,,,,,,,,,,,
 to repeat,リピートする,りぴいとする,,,VERB,SURU_VERB,,,,c7d4afa9-bcd9-44db-b270-dcc71ccf43c4,927,2023-04-30,,リピートする,リピートした,リピートして,リピートしない,リピートしなかった,リピートしなくて,リピートします,リピートしました,,リピートしません,リピートしませんでした,,リピートできる,リピートできない,リピートできます,リピートできません
 taxi,タクシー,たくしい,,,NOUN,,5,{GENKI3_L06},{transportation},f8c0d3c4-9ab7-4331-8a62-d33f66eca40c,928,2023-04-30,,,,,,,,,,,,,,,,,
-"first, new",初,はつ,,初,PREFIX,,1,,,968de4b8-c431-4980-bb1e-5e0cf792a434,929,2023-04-30,,,,,,,,,,,,,,,,,
+"first, new",初〜,はつ〜,,初〜,PREFIX,,1,,,968de4b8-c431-4980-bb1e-5e0cf792a434,929,2023-04-30,,,,,,,,,,,,,,,,,
 twenty years old,２０歳,はたち,,二十歳,NOUN,,5,,,fe356748-c690-4460-8235-a5974b3926e0,930,2023-04-30,,,,,,,,,,,,,,,,,
 rank; place (suffix),〜位,〜い,,〜位,COUNTER,,,,,93a28b67-c33a-4944-83f7-e110a77e5177,931,2023-04-30,,,,,,,,,,,,,,,,,
 wisteria,藤,ふじ,,藤,NOUN,,,,,0ab4f8ef-d54e-4151-9dcf-e7fa2f712c1c,932,2023-04-30,,,,,,,,,,,,,,,,,
@@ -993,7 +993,7 @@ to be late (for an appointment),遅刻する,ちこくする,,遅刻する,VERB,
 to study abroad,留学する,りゅうがくする,,留学する,VERB,SURU_VERB,,{GENKI3_L11},,bc200bab-e165-4d52-ac80-21df0cdc81aa,992,2023-07-03,,留学する,留学した,留学して,留学しない,留学しなかった,留学しなくて,留学します,留学しました,,留学しません,留学しませんでした,,留学できる,留学できない,留学できます,留学できません
 its has been a long time,久しぶり,ひさしぶり,,久しぶり,EXPRESSION,,4,{GENKI3_L11},,f7cf7d34-eb0c-45c5-8ad2-cd1aca907ce8,993,2023-07-03,,,,,,,,,,,,,,,,,
 okay; so-so,まあまあ,まあまあ,,,EXPRESSION,,2,{GENKI3_L11},,1ff15b2f-0c82-4d2d-b47c-14e607c93f10,994,2023-07-03,,,,,,,,,,,,,,,,,
-and then; thus; and now,そして,そして,,而して,CONJUNCTION,,5,{GENKI3_L11},,e0a9b4b4-c306-4aa1-b4db-d1076f9d1655,995,2023-07-03,,,,,,,,,,,,,,,,,
+and in addition (to say something notable),そして,そして,,而して,CONJUNCTION,,5,{GENKI3_L11},,e0a9b4b4-c306-4aa1-b4db-d1076f9d1655,995,2023-07-03,,,,,,,,,,,,,,,,,
 "dot, mark; grade, score; point (game); decimal point",点,てん,,てん,NOUN,,4,,,5b183f8c-2f54-4b9c-a2c7-ed5939c492e5,996,2023-07-03,,,,,,,,,,,,,,,,,
 "points, marks, goals; goods, items, articles of clothing, works of art",〜点,〜てん,,〜点,COUNTER,,4,{GENKI3_L11},,3557c897-fba9-41e2-908e-290dfa8d191d,997,2023-07-03,,,,,,,,,,,,,,,,,
 occupation; profession,職業,しょくぎょう,,職業,NOUN,,3,{GENKI3_L11},,f1b9a6ca-5697-4282-a448-8e5c55f2744b,998,2023-07-03,,,,,,,,,,,,,,,,,
@@ -1324,7 +1324,7 @@ volunteer,ボランティア,ぼらんてぃあ,,,NOUN,,,{GENKI3_L15},,0b68e1a8-
 activity,活動,かつどう,,活動,NOUN,,3,{GENKI3_L15},,0f1b24ce-51e5-43f2-bb28-b6c31bc4c654,1323,2024-01-28,,,,,,,,,,,,,,,,,
 experience,経験,けいけん,,経験,NOUN,,3,{GENKI3_L15},,0dab3e6f-9a54-49a5-a00b-d60b08254277,1324,2024-01-28,,,,,,,,,,,,,,,,,
 social custom; habit,習慣,しゅうかん,,習慣,NOUN,,4,{GENKI3_L15},,33f94bf7-fe1b-46c1-8a43-6f366a036d46,1325,2024-01-28,,,,,,,,,,,,,,,,,
-deadline,締切,しめきり,,締切,NOUN,,2,{GENKI3_L15},,66cd13a0-3479-4f34-bc8b-36aee252b4cf,1326,2024-01-28,,,,,,,,,,,,,,,,,
+deadline,締め切り,しめきり,,締切,NOUN,,2,{GENKI3_L15},,66cd13a0-3479-4f34-bc8b-36aee252b4cf,1326,2024-01-28,,,,,,,,,,,,,,,,,
 schedule; plan,予定,よてい,,予定,NOUN,,4,{GENKI3_L15},,ca7855c9-d31b-4d3f-b33b-b36582d26dcd,1327,2024-01-28,,,,,,,,,,,,,,,,,
 graduation ceremony,卒業式,そつぎょうしき,,卒業式,NOUN,,,{GENKI3_L15},,25cbeee4-c65b-458e-8f6e-b982cf613bbe,1328,2024-01-28,,,,,,,,,,,,,,,,,
 wedding,結婚式,けっこんしき,,結婚式,NOUN,,,{GENKI3_L15},,c5895d9c-8017-452c-ba6e-a96455716af8,1329,2024-01-28,,,,,,,,,,,,,,,,,
@@ -1615,12 +1615,12 @@ to become late; to fall behind schedule,遅れる,おくれる,,遅れる,VERB,I
 to sit; to support,かける,かける,,掛ける,VERB,ICHIDAN_VERB,5,{GENKI3_L19},,63dcf322-8ee8-456c-b612-92f963a51f9c,1614,2024-08-12,,かける,かけた,かけて,かけない,かけなかった,かけなくて,かけます,かけました,,かけません,かけませんでした,,かけられる,かけられない,かけられます,かけられません
 to be popular (in terms of romantic interest),モテる,もてる,,,VERB,ICHIDAN_VERB,,{GENKI3_L19},,acc75b53-f2b3-46bb-8741-1009dd612790,1615,2024-08-12,,モテる,モテた,モテて,モテない,モテなかった,モテなくて,モテます,モテました,,モテません,モテませんでした,,モテられる,モテられない,モテられます,モテられません
 to become sunny,晴れる,はれる,,晴れる,VERB,ICHIDAN_VERB,5,{GENKI3_L19},,29a88a08-5807-4532-b137-78a09bb98378,1616,2024-08-12,,晴れる,晴れた,晴れて,晴れない,晴れなかった,晴れなくて,晴れます,晴れました,,晴れません,晴れませんでした,,晴れられる,晴れられない,晴れられます,晴れられません
-to treat/invite (someone) to a meal,ごちそうする,ごちそうする,,ご馳走する,VERB,SURU_VERB,4,{GENKI3_L19},,837d9ccb-1952-4224-b3f4-fef9f25f2a00,1617,2024-08-12,,ごちそうする,ごちそうした,ごちそうして,ごちそうしない,ごちそうしなかった,ごちそうしなくて,ごちそうします,ごちそうしました,,ごちそうしません,ごちそうしませんでした,,ごちそうできる,ごちそうできない,ごちそうできます,ごちそうできません
+to treat/invite (someone) to a meal,ご馳走する,ごちそうする,,御馳走する,VERB,SURU_VERB,4,{GENKI3_L19},,837d9ccb-1952-4224-b3f4-fef9f25f2a00,1617,2024-08-12,,ご馳走する,ご馳走した,ご馳走して,ご馳走しない,ご馳走しなかった,ご馳走しなくて,ご馳走します,ご馳走しました,,ご馳走しません,ご馳走しませんでした,,ご馳走できる,ご馳走できない,ご馳走できます,ご馳走できません
 to hold back for the time being; to refrain from,遠慮する,えんりょする,,遠慮する,VERB,SURU_VERB,4,{GENKI3_L19},,3683a261-4cf1-468d-afdb-f0abe8b49a5b,1618,2024-08-12,,遠慮する,遠慮した,遠慮して,遠慮しない,遠慮しなかった,遠慮しなくて,遠慮します,遠慮しました,,遠慮しません,遠慮しませんでした,,遠慮できる,遠慮できない,遠慮できます,遠慮できません
 to invite someone (to an event/place),招待する,しょうたいする,,招待する,VERB,SURU_VERB,3,{GENKI3_L19},,5f342a2c-2ca5-4e1e-b116-a6fb740fc784,1619,2024-08-12,,招待する,招待した,招待して,招待しない,招待しなかった,招待しなくて,招待します,招待しました,,招待しません,招待しませんでした,,招待できる,招待できない,招待できます,招待できません
 to have a talk,話をする,はなしをする,,話をする,VERB,SURU_VERB,,{GENKI3_L19},,b83f1ce9-5b68-4726-a551-7442f5506aa0,1620,2024-08-12,,話をする,話をした,話をして,話をしない,話をしなかった,話をしなくて,話をします,話をしました,,話をしません,話をしませんでした,,話をできる,話をできない,話をできます,話をできません
 the day before yesterday,一昨日,おととい,,一昨日,NOUN,,5,{GENKI3_L19},,2ee83af9-c65c-4a7c-a14a-23df4e959e9a,1621,2024-08-14,,,,,,,,,,,,,,,,,
-then; therefore,それで,それで,,,CONJUNCTION,,4,{GENKI3_L19},,ef0f200d-2161-4645-af33-16eb6d935505,1622,2024-08-14,,,,,,,,,,,,,,,,,
+and therefore (to introduce the consequence of what comes before it),それで,それで,,,CONJUNCTION,,4,{GENKI3_L19},,ef0f200d-2161-4645-af33-16eb6d935505,1622,2024-08-14,,,,,,,,,,,,,,,,,
 why (formal/poetic どうして),なぜ,なぜ,,,ADVERB,,5,{GENKI3_L19},,ae6fba59-1e97-493a-9837-6e2a018b501a,1623,2024-08-14,,,,,,,,,,,,,,,,,
 in fact; originally,本当は,ほんとうは,,本当は,EXPRESSION,,,{GENKI3_L19},,78a20618-e7df-4fa2-b21f-e52172d635c5,1624,2024-08-14,,,,,,,,,,,,,,,,,
 still,まだ,まだ,,,ADVERB,,5,{GENKI3_L19},,5d14cc6a-d248-4d9c-b4dd-2547ebd67573,1625,2024-08-14,,,,,,,,,,,,,,,,,
@@ -1659,7 +1659,7 @@ headphones,ヘッドフォン,ヘッドフォン,,,NOUN,,,{GENKI3_L20},,cc07949f
 animal,動物,どうぶつ,,動物,NOUN,,5,{GENKI3_L20},,07f2a99a-60e2-4424-872b-442b9e26f39f,1658,2024-09-28,,,,,,,,,,,,,,,,,
 that way (polite); that person,あちら,あちら,,彼方,NOUN,,5,{GENKI3_L20},,8a23748a-338f-4573-b57b-80acaec4ded5,1659,2024-09-28,,,,,,,,,,,,,,,,,
 our person in charge,係の物,かかりのもの,,係の物,NOUN,,,{GENKI3_L20},,fe242a1a-fdf3-44ec-9ed8-78b38a89e891,1660,2024-09-28,,,,,,,,,,,,,,,,,
-(someon's) home/house,お宅,おたく,,お宅,NOUN,,4,{GENKI3_L20},,23085f2c-991b-4473-84fe-e2d1ca7021e5,1661,2024-09-28,,,,,,,,,,,,,,,,,
+(someone's) home/house (polite),お宅,おたく,,お宅,NOUN,,4,{GENKI3_L20},,23085f2c-991b-4473-84fe-e2d1ca7021e5,1661,2024-09-28,,,,,,,,,,,,,,,,,
 branch office/store,支店,してん,,支店,NOUN,,3,{GENKI3_L20},,8ce05311-f412-4493-acb0-0143d9d2ef66,1662,2024-09-28,,,,,,,,,,,,,,,,,
 Germany,ドイツ,ドイツ,,,NOUN,,,{GENKI3_L20},,b6513a60-30f2-48ae-82ae-68c716ccbf5a,1663,2024-09-28,,,,,,,,,,,,,,,,,
 letter; character,字,じ,,字,NOUN,,4,{GENKI3_L20},,96b8577e-d570-467f-909e-482d4c774f6b,1664,2024-09-28,,,,,,,,,,,,,,,,,
@@ -1820,7 +1820,7 @@ to pick up (something),拾う,ひろう,,拾う,VERB,GODAN_VERB,4,{GENKI3_L22},,
 to leave (someone/something) alone; to neglect,放っておく,ほうっておく,,放っておく,VERB,GODAN_VERB,,{GENKI3_L22},,62e127f3-3945-44de-b832-e5da53fef08b,1819,2025-03-09,,放っておく,放っておいた,放っておいて,放っておかない,放っておかなかった,放っておかなくて,放っておきます,放っておきました,,放っておきません,放っておきませんでした,,放っておける,放っておけない,放っておけます,放っておけません
 to be in time (for),間に合う,まにあう,,間に合う,VERB,GODAN_VERB,4,{GENKI3_L22},,128fc631-20ea-4e9d-b941-3c87877a50ed,1820,2025-03-09,,間に合う,間に合った,間に合って,間に合わない,間に合わなかった,間に合わなくて,間に合います,間に合いました,,間に合いません,間に合いませんでした,,間に合える,間に合えない,間に合えます,間に合えません
 to win,勝つ,かつ,,勝つ,VERB,GODAN_VERB,4,{GENKI3_L22},,8781a989-a640-4dc6-bcb6-834255cbc5b0,1821,2025-03-09,,勝つ,勝った,勝って,勝たない,勝たなかった,勝たなくて,勝ちます,勝ちました,,勝ちません,勝ちませんでした,,勝てる,勝てない,勝てます,勝てません
-"to recieve (impersonal); to take/undergo (e.g. surgery, an exam))",受ける,うける,,受ける,VERB,ICHIDAN_VERB,4,{GENKI3_L22},,93972b7a-5b47-4fb3-8c82-fef735b10929,1822,2025-03-09,,受ける,受けた,受けて,受けない,受けなかった,受けなくて,受けます,受けました,,受けません,受けませんでした,,受けられる,受けられない,受けられます,受けられません
+"to recieve (impersonal); to take/undergo (e.g. surgery, an exam)",受ける,うける,,受ける,VERB,ICHIDAN_VERB,4,{GENKI3_L22},,93972b7a-5b47-4fb3-8c82-fef735b10929,1822,2025-03-09,,受ける,受けた,受けて,受けない,受けなかった,受けなくて,受けます,受けました,,受けません,受けませんでした,,受けられる,受けられない,受けられます,受けられません
 to make plans,計画を立てる,けいかくをたてる,,計画を立てる,VERB,ICHIDAN_VERB,,{GENKI3_L22},,31d6bc6a-16f3-4844-a251-5836f597fc7e,1823,2025-03-09,,計画を立てる,計画を立てた,計画を立てて,計画を立てない,計画を立てなかった,計画を立てなくて,計画を立てます,計画を立てました,,計画を立てません,計画を立てませんでした,,計画を立てられる,計画を立てられない,計画を立てられます,計画を立てられません
 "to raise, to rear, to bring up",育てる,そだてる,,育てる,VERB,ICHIDAN_VERB,4,{GENKI3_L22},,00a0ead1-11fa-441e-acab-edf3b1226d6b,1824,2025-03-09,,育てる,育てた,育てて,育てない,育てなかった,育てなくて,育てます,育てました,,育てません,育てませんでした,,育てられる,育てられない,育てられます,育てられません
 to request help,お願いする,おねがいする,,お願いする,VERB,SURU_VERB,,{GENKI3_L22},,d6663cdf-650f-4f74-8573-8ccacee3658d,1825,2025-03-09,,お願いする,お願いした,お願いして,お願いしない,お願いしなかった,お願いしなくて,お願いします,お願いしました,,お願いしません,お願いしませんでした,,お願いできる,お願いできない,お願いできます,お願いできません
