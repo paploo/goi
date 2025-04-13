@@ -6619,6 +6619,75 @@
         },
         "lesson_codes": ["GENKI3_L19"],
         "tags": []
+      },
+      {
+        "id": "a9cc517b-1106-4389-ba44-bd5e77e33ea9",
+        "meaning": "Thank you for being a good fiend.",
+        "text": {
+          "spelling": "いい{友達|とも・だち}でいてくれてありがとう。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-04-12",
+    "lesson_codes": ["GENKI3_L19"],
+    "tags": []
+  },
+  {
+    "id": "ab92becb-40ca-4a7f-8445-cfb0e9714643",
+    "title": "〜てよかったです<br/>〜なくてよかったです",
+    "meaning": "I am glad that I did.../...was the case<br/>I am glad that I didn't.../...was not the case",
+    "how_to_use": [
+      "verb (て form) + よかったです",
+      "verb (neg て form) + よかったです"
+    ],
+    "examples": [
+      {
+        "id": "aacca6d2-ac1c-4663-8087-940614650397",
+        "meaning": "I'm glad that I have studied Japanese.",
+        "text": {
+          "spelling": "{日本語|に・ほん・ご}と{勉強|べん・きょう}してよかったです。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "a86e5fdb-7459-42f3-9e84-25b41e150f84",
+        "meaning": "I'm glad that Marry became well.",
+        "text": {
+          "spelling": "メアリーさんが{元気|げん・き}になってよかったです。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "7821009e-9193-4a07-8047-f33f0742aca0",
+        "meaning": "I'm glad that I had not become late for the appointment.",
+        "text": {
+          "spelling": "{約束|やく・そく}の{時|じ}に{送|おく}れなくてよかったです。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "626aba4d-d6e1-41c5-a1a3-d65e673e3c72",
+        "meaning": "I am glad it became sunny today.",
+        "text": {
+          "spelling": "{今日|きょう}{晴|は}れてよかったです。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "12f67a82-b03a-4dac-82cb-bed2a63a3c9c",
+        "meaning": "I am glad that I did not quit (my) Japanese studies.",
+        "text": {
+          "spelling": "{日本語|に・ほん・ご}の{勉強|べん・きょう}をやめなくてよかったです。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
       }
     ],
     "jlpt_level": null,
