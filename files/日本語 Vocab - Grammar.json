@@ -6814,6 +6814,49 @@
     "lesson_codes": ["GENKI3_L19"],
     "tags": []
   },
+  {
+    "id": "1d323322-e6fc-433e-ac51-114eeea34b88",
+    "title": "それで・そして・それから",
+    "meaning": "and therefore (to introduce the consequence of what comes before it)<br/>and in addition (to say something notable)<br/>and then (to add an item that comes later in time or in the order of importance",
+    "how_to_use": [
+      "それで ⟶ and therefore (to introduce the consequence of what comes before it)",
+      "そして ⟶ and in addition (to say something notable)",
+      "それから ⟶ and then (to add an item that comes later in time or in the order of importance"
+    ],
+    "examples": [
+      {
+        "id": "56481938-edcf-4945-aa03-636af0c53618",
+        "meaning": "Trains didn't come. Therefore, I was late for class.",
+        "text": {
+          "spelling": "{電車|でん・しゃ}が{来|き}ませんでした。それで、{遅刻|ち・こく}しました。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "21aa0908-9472-437b-95d9-3146ffb5802b",
+        "meaning": "Sora speaks Korean and English. And believe it or note, Japanese too.",
+        "text": {
+          "spelling": "ソラさんは{韓国語|かん・こく・ご}と{英語|えい・ご}が{話|はな}せます。そして、{日本語|に・ほん・ご}も{話|はな}せます。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "e344edaa-7b8c-4a8c-ba77-f1e26caef9e1",
+        "meaning": "I went to Kyoto and Nara. And then I also went to Osaka.",
+        "text": {
+          "spelling": "{京都|きょう・と}と{奈良|な・ら}に{行|い}きました。それから、{大阪|おお・さか}にも{行|い}きました。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-04-12",
+    "lesson_codes": ["GENKI3_L19"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 20"},
   {"COMMENT": "GENKI LESSON 21"},
