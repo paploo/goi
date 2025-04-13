@@ -6561,7 +6561,68 @@
       }
     ],
     "jlpt_level": null,
-    "date_added": "2024-04-10",
+    "date_added": "2025-04-10",
+    "lesson_codes": ["GENKI3_L19"],
+    "tags": []
+  },
+  {
+    "id": "b89a9699-18a1-4334-8d37-f17249f4b2f0",
+    "title": "〜てくれてありがとう",
+    "meaning": "Thank you for doing...",
+    "how_to_use": [
+      "verb (て form) + くれてありがとう ⟶ casual",
+      "verb (て form) + くださってありがとうございました ⟶ honorific",
+      "verb (て form) + くださってありがとうございます ⟶ honorific/ongoing"
+    ],
+    "examples": [
+      {
+        "id": "ee3603f6-1afe-4ada-99b2-5e66e06a197b",
+        "meaning": "Thank you for helping me out.",
+        "text": {
+          "spelling": "{手伝|てつ・だ}ってくれてありがとう。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "90921954-da1d-4bdd-a674-c62711d536ff",
+        "meaning": "Thank you for writing a letter of recommendation for me.",
+        "text": {
+          "spelling": "{推薦状|すい・せん・じょう}を{書|き}いてくださってありがとうございました。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "d7f6ae51-2792-4a3b-a10c-175478f20001",
+        "meaning": "Thank you for your kind instructions.",
+        "text": {
+          "spelling": "いつも{親切|しん・せつ}に{教|おし}えてくださってありがとうございます。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "cc23932b-978b-42ff-8719-1e42e097697e",
+        "meaning": "(To a friend): Thank you for driving me home.",
+        "text": {
+          "spelling": "{家|いえ}まで{送|おく}ってくれてありがとう。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "b2b8793f-82cc-419d-85c8-83317f6d4e9c",
+        "meaning": "(To your boss): Thank you for treating me to dinner.",
+        "text": {
+          "spelling": "{晩|ばん}ご{飯|はん}をご{馳走|ち・そう}してくださってありがとうございました。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-04-12",
     "lesson_codes": ["GENKI3_L19"],
     "tags": []
   },
