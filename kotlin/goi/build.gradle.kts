@@ -145,6 +145,8 @@ jooq {
                     }
                     generate.apply {
                         isFluentSetters = true
+                        isKotlinNotNullRecordAttributes = true //Generate with proper nullability
+                        isKotlinDefaultedNullableRecordAttributes = false //In constructor, don't default nullables as null
                     }
                     target.apply {
                         packageName = "net.paploo.goi.persistence.db.goi"
