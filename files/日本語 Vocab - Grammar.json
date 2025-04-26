@@ -6485,7 +6485,7 @@
         "id": "cb3f4ead-8e1e-452c-a780-ab595a06675f",
         "meaning": "Have you ever read this magazine?",
         "text": {
-          "spelling": "この{雑誌|ざっ・し}を{読|よ}みになったことがりますか。"
+          "spelling": "この{雑誌|ざっ・し}をお{読|よ}みになったことがりますか。"
         },
         "lesson_codes": ["GENKI3_L19"],
         "tags": []
@@ -6657,7 +6657,7 @@
         "id": "aacca6d2-ac1c-4663-8087-940614650397",
         "meaning": "I'm glad that I have studied Japanese.",
         "text": {
-          "spelling": "{日本語|に・ほん・ご}と{勉強|べん・きょう}してよかったです。"
+          "spelling": "{日本語|に・ほん・ご}を{勉強|べん・きょう}してよかったです。"
         },
         "lesson_codes": ["GENKI3_L19"],
         "tags": []
