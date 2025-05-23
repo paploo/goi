@@ -3990,7 +3990,7 @@
         "id": "07abd509-ab77-41c6-aab5-6fcfe677d073",
         "meaning": "How about taking some medicine?",
         "text": {
-          "spelling": "{薬|くすり}お{飲|の}んだらどうですか。"
+          "spelling": "{薬|くすり}を{飲|の}んだらどうですか。"
         },
         "lesson_codes": ["GENKI3_L14"],
         "tags": []
@@ -6604,7 +6604,7 @@
       },
       {
         "id": "d7f6ae51-2792-4a3b-a10c-175478f20001",
-        "meaning": "Thank you for your kind instructions.",
+        "meaning": "Thank you for always kindly teaching me.",
         "text": {
           "spelling": "いつも{親切|しん・せつ}に{教|おし}えてくださってありがとうございます。"
         },
