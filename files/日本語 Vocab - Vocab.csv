@@ -35,15 +35,15 @@ Mr./Ms.,〜さん,〜さん,,,SUFFIX,,,1,{GENKI3_L01},{person},c26e8356-f73a-5dd
 of course,もちろん,もちろん,,勿論,ADVERB,,,3,"{DUO_02_03,DUO_U07,GENKI3_L07}",,146b7705-d9cd-511f-988c-5b2cc7661b75,34,2022-04-24
 office; company,会社,かいしゃ,,会社,NOUN,,,5,"{DUO_02_03,DUO_U07,GENKI3_L07}",{place},8bedfb60-1599-58b0-9568-5e72b8cf6b7e,35,2022-04-24
 school,学校,がっこう,,学校,NOUN,,,5,"{DUO_02_03,DUO_U07}","{place,school}",25f93b07-dc04-553a-8794-329cc907dbe5,36,2022-04-24
-elementary school,小学,しょうがく,,小学,NOUN,,,,"{DUO_02_05,DUO_U08}","{place,school}",37eba762-70cf-5c5c-b689-621f26c1ee5f,37,2022-04-24
-middle school,中学,ちゅうがく,,中学,NOUN,,,3,"{DUO_02_05,DUO_U08}","{place,school}",99cdf9f9-df8c-5d7a-9ea1-a7c003c9f289,38,2022-04-24
+elementary school (abbreviation),小学,しょうがく,,小学,NOUN,,,,"{DUO_02_05,DUO_U08}","{place,school}",37eba762-70cf-5c5c-b689-621f26c1ee5f,37,2022-04-24
+middle school (abbreviation),中学,ちゅうがく,,中学,NOUN,,,3,"{DUO_02_05,DUO_U08}","{place,school}",99cdf9f9-df8c-5d7a-9ea1-a7c003c9f289,38,2022-04-24
 foreigner,外国人,がいこくじん,,外国人,NOUN,,,5,"{DUO_02_05,DUO_U08,GENKI3_L15}",{person},947e6f87-e4fe-5b27-9bd3-215e8b1fc71a,39,2022-04-24
 to live; to reside; to inhabit,住む,すむ,,住む,VERB,GODAN_VERB,,5,"{DUO_02_05,DUO_U08,GENKI3_L07}",,dd191fac-e29b-5262-b2a6-f9f2875a4a3f,40,2022-04-24
 Kyoto,京都,きょうと,,京都,PROPER_NOUN,,,,"{DUO_02_05,DUO_U08,GENKI3_L03}","{city,place}",fc82f2ac-3b17-582f-9259-7200e1430824,41,2022-04-24
 Osaka,大阪,おおさか,,大阪,PROPER_NOUN,,,,"{DUO_02_05,DUO_U08}","{city,place}",15c5fee6-dda7-5d40-b7fd-382d97a28b9c,42,2022-04-24
 Tokyo,東京,とおきょう,,東京,PROPER_NOUN,,,,"{DUO_02_05,DUO_U08}","{city,place}",39458010-a5eb-5b13-b054-4cc458702c56,43,2022-04-24
 to say; to be called; name,申す,もうす,,申す,VERB,GODAN_VERB,,4,"{DUO_02_05,DUO_U08}",,091d6d9c-5d19-51f5-bc28-3b5281042464,44,2022-04-24
-"to differ, to disagree; to be wrong",違う,ちがう,,違う,VERB,GODAN_VERB,,5,,,b7d078d1-235f-4462-b052-453aa5f6dfcf,45,2022-08-10
+"to differ, to disagree; to be wrong",違う,ちがう,,違う,VERB,GODAN_VERB,,5,{GENKI3_L23},,b7d078d1-235f-4462-b052-453aa5f6dfcf,45,2022-08-10
 That is not right (this is wrong),違います,ちがいます,,違います,EXPRESSION,,,,"{DUO_02_05,DUO_U08}",,6e44df4a-4366-5c1a-86af-87a4e5f61fc6,46,2022-04-24
 What is the difference?,違いは何ですか,ちがいはなんですか,,違いは何ですか,EXPRESSION,,,,"{DUO_02_05,DUO_U08}",,7748dd60-2126-5e30-a5b6-39596a0e25e4,47,2022-04-24
 Now,今,いま,,今,NOUN,,,5,"{DUO_02_02,DUO_U06,GENKI3_L01}",{time},dce3fe6a-497c-54b2-a121-df6767084258,48,2022-04-24
@@ -483,7 +483,7 @@ to do; to perform; to play (a game),やる,やる,,,VERB,GODAN_VERB,,1,{GENKI3_L
 to go out,出かける,でかける,,出かける,VERB,ICHIDAN_VERB,,5,{GENKI3_L05},,87f65ff6-cc11-5ed3-ae0f-91cd20cf2c32,482,2022-09-07
 exit,出口,でぐち,,出口,NOUN,,,5,{GENKI3_L10},,6debd947-e8ba-512e-8457-8bf0e7ea9e5b,483,2022-09-07
 together (with); at the same time;,一緒に,いっしょに,,一緒に,ADVERB,,,,{GENKI3_L05},,3121a086-d388-5e2d-87ea-42928a70bdb2,484,2022-09-07
-extremely,すごく,すごく,,凄く,ADVERB,,,,{GENKI3_L05},,0dbac8fa-7de5-557b-a950-da804909a322,485,2022-09-07
+"very, immensely, extremely",すごく,すごく,,凄く,ADVERB,,,,{GENKI3_L05},,0dbac8fa-7de5-557b-a950-da804909a322,485,2022-09-07
 very,とても,とても,,,ADVERB,,,5,{GENKI3_L05},,49100de9-fba3-596c-a2d2-d7d268716d82,486,2022-09-07
 what kind of...,どんな,どんな,,,PRE_NOUN_ADJECTIVAL,,,3,{GENKI3_L05},,a7e30acf-baa9-5c69-b41d-b344f631a8a6,487,2022-09-07
 lets...,〜ましょう,〜ましょう,,,SUFFIX,,,,{GENKI3_L05},,17cbc2b7-df6c-4861-b402-d65d6e964e35,488,2022-11-13
@@ -523,7 +523,7 @@ to fly; to soar,飛ぶ,とぶ,,,VERB,GODAN_VERB,,5,{SATORI_AKIKO},,66b9dcc9-149e
 Seattle,シアトル,しあとる,,,PROPER_NOUN,,,,{SATORI_AKIKO},"{city,place}",9e9f9643-20da-4b45-81cf-6529c352b762,522,2022-10-28
 airport,空港,くうこう,,空港,NOUN,,,4,"{SATORI_AKIKO,GENKI3_L13}",{place},9faa758c-5112-402d-8ef9-fd45059aac84,523,2022-10-28
 some time ago; just now,さっき,さっき,,,NOUN,,,4,{SATORI_AKIKO},,462fbcf0-f756-490d-badd-58bbaad4b8a9,524,2022-10-28
-evening meal; dinner,夕食,ゆうしょく,,夕食,NOUN,,,,{SATORI_AKIKO},{food},573b3e35-e29b-43d9-897a-f1ae85712b8f,525,2022-10-28
+evening meal; dinner,夕食,ゆうしょく,,夕食,NOUN,,,,"{SATORI_AKIKO,GENKI3_L23}",{food},573b3e35-e29b-43d9-897a-f1ae85712b8f,525,2022-10-28
 together,一緒,いっしょ,,一緒,ADVERB,,,5,{SATORI_AKIKO},,cef0ee5e-ff0d-41de-a8e1-795266b6e565,526,2022-10-28
 common carp,鯉,こい,,鯉,NOUN,,,,,{animal},40181bee-9f80-4458-b950-5a03ad5c696b,527,2022-10-30
 romantic love,恋,こい,,恋,NOUN,,,3,,,c45eae5d-011d-4200-9dd7-be3ec1c2bf51,528,2022-10-30
@@ -912,7 +912,7 @@ selling area; sales counter,売り場,うりば,,売り場,NOUN,,,4,,,9eb6c8d5-5
 ticket gate,改札,かいさつ,,改札,NOUN,,,2,{GENKI3_L10},{transportation},536d9be3-e575-46e6-be2e-2aee83ec2e56,911,2023-04-29
 platform (train),ホーム,ほおむ,,,NOUN,,,3,{GENKI3_L10},{transportation},2ba30cd0-9bc7-4be5-85df-ede5d0b4e685,912,2023-04-29
 stand; stall; booth; kiosk; shop,売店,ばいてん,,売店,NOUN,,,2,{GENKI3_L10},,f9087879-1bef-483a-86ea-c261d471a33d,913,2023-04-29
-stairs,階段,かいだん,,階段,NOUN,,,5,{GENKI3_L10},,2881ef43-dfbc-4019-8566-4b821f8769af,914,2023-04-29
+stairs,階段,かいだん,,階段,NOUN,,,5,"{GENKI3_L10,GENKI3_L23}",,2881ef43-dfbc-4019-8566-4b821f8769af,914,2023-04-29
 entrance,入口,いりぐち,,入口,NOUN,,,5,{GENKI3_L10},,3689d8f9-eee4-466a-a652-e0db02f6bfc1,915,2023-04-29
 "switch (method, ideology); transfer (train)",乗り換え,のりかえ,,乗り換え,NOUN,,,2,{GENKI3_L10},,866880a4-d2d7-4901-a589-4ac45ac3580b,916,2023-04-29
 last train,終電,しゅうでん,,終電,NOUN,,,,"{GENKI3_L10,GENKI3_L21}",{transportation},89a2831d-04d3-431f-bca4-d3ae7787ed2a,917,2023-04-29
@@ -1270,7 +1270,7 @@ to consult,相談する,そうだんする,,相談する,VERB,SURU_VERB,,,{GENKI
 to give warning; to watch out,注意する,ちゅういする,,注意する,VERB,SURU_VERB,,,{GENKI3_L14},,be856243-8f6c-457a-adef-b2ede5a1e693,1269,2023-11-29
 to propose marriage,プロポーズする,ぷろぽおずする,,,VERB,SURU_VERB,,,{GENKI3_L14},,e4d2aef4-a6a6-4019-bdd9-facea015cc76,1270,2023-11-30
 this sort of; this kind of; like this,こんな〜,こんな〜,,,PRE_NOUN_ADJECTIVAL,,,5,{GENKI3_L14},,2ef0506a-9030-4d03-b096-6e7facfcf0f9,1271,2023-11-30
-that sort of; that kind of; like that,そんな〜,そんな〜,,,PRE_NOUN_ADJECTIVAL,,,4,,,842585a9-4a4e-4b16-b186-3a0663bbf687,1272,2023-11-30
+that sort of; that kind of; like that,そんな〜,そんな〜,,,PRE_NOUN_ADJECTIVAL,,,4,{GENKI3_L23},,842585a9-4a4e-4b16-b186-3a0663bbf687,1272,2023-11-30
 that over there sort of; that over there kind of; like that over there,あんな〜,あんな〜,,,PRE_NOUN_ADJECTIVAL,,,4,,,f7bef170-2ae0-4cc1-ae97-2e6de80160fe,1273,2023-11-30
 what kind of; what sort of,どんな〜,どんな〜,,,PRE_NOUN_ADJECTIVAL,,,3,,,774758cd-73b1-49c2-a097-ae9e8004c292,1274,2023-11-30
 "quickly, hurriedly; suddenly",急に,きゅうに,,急に,ADVERB,,,3,{GENKI3_L14},,940ca614-48dd-4fa7-ae15-b668e3ff9c6c,1275,2023-11-30
@@ -1569,7 +1569,7 @@ mathematics,数学,すうがく,,数学,NOUN,,,4,,,156eb7a9-53b7-45b4-99fd-17299
 shelf,棚,たな,,棚,NOUN,,,4,,,20e6b45f-56a0-4b9c-b596-5d69101d2249,1568,2024-07-01
 What should we do?,どうしましょうか,どうしましょうか,,,EXPRESSION,,,,,,554e9cf9-59fd-4a37-bada-76e2143e233c,1569,2024-07-01
 swimsuit,水着,みずぎ,,水着,NOUN,,,,{GENKI3_READER_L13},,1c11ec96-e688-4607-adf0-83eca32ac1d7,1570,2024-07-01
-to answer,答える,こたえる,,答える,VERB,ICHIDAN_VERB,,5,,,3d9cd054-fa48-416b-a5fe-acd9e3d3927b,1571,2024-07-01
+to answer,答える,こたえる,,答える,VERB,ICHIDAN_VERB,,5,{GENKI3_L23},,3d9cd054-fa48-416b-a5fe-acd9e3d3927b,1571,2024-07-01
 each...,各〜,かく〜,,各〜,PREFIX,,,,,,bb8c8ec0-1855-4b95-80c7-e052681bb6a6,1572,2024-07-01
 I will do that,そうします,そうします,,,EXPRESSION,,,,{GENKI3_WORKBOOK_L14},,99c8676e-7848-49d1-92f8-620c65a6e0ca,1573,2024-07-01
 until now; so far,今まで,いままで,,今まで,ADVERB,,,,{GENKI3_WORKBOOK_L14},,c532a944-8238-4727-9fbb-ca8ec9d2d304,1574,2024-07-01
@@ -1788,7 +1788,7 @@ Reiwa (2019–),令和,れいわ,,令和,NOUN,,,,,{time},589ea7b3-2b0d-49f0-ade2
 transitive (other) verb,他動詞,たどうし,,他動詞,NOUN,,,,,{language},da9b1afb-a924-49ae-9646-665cbe5a8824,1787,2024-12-26
 intransitive (self) verb,自動詞,じどうし,,自動詞,NOUN,,,,,{language},05060bf7-436a-4503-ad0f-ca849c25b117,1788,2024-12-26
 to finish (completely); to close/shutdown; to do accidentally / without meaning to,しまう,しまう,,,VERB,GODAN_VERB,,3,{GENKI3_L18},,e36d6b8f-9445-4588-a6bd-88df2561cd38,1789,2024-12-26
-for the sake of; on behalf of,ために,ために,,為に,CONJUNCTION,,,,{GENKI3_L16},,713b1027-41e9-4d6f-9603-81bf797ec078,1790,2025-02-19
+for the sake of; on behalf of,ために,ために,,為に,CONJUNCTION,,,,"{GENKI3_L16,GENKI3_L23}",,713b1027-41e9-4d6f-9603-81bf797ec078,1790,2025-02-19
 "while, during",ながら,ながら,,乍ら,PARTICLE,,,,{GENKI3_L18},,314d0d58-5cc2-435a-97dc-51e15557812b,1791,2025-02-19
 よろしくお願いします（謙譲語）,よろしくお願いいたします,よろしくおねがいいたします,,よろしくお願いいたします,EXPRESSION,,,,,,2ac7176d-d8c0-4917-91c5-71cf7b93def7,1792,2025-02-19
 ball,ボール,ぼおる,,,NOUN,,,3,{GENKI3_L22},,ad71bd8b-5b48-4e2a-9a0c-ea1bcb5cd6b6,1793,2025-02-19
@@ -1848,3 +1848,57 @@ lowered offerings,撤饌,てっせん,,撤饌,NOUN,,,,,{shinto},d2b1db08-9e3b-42
 easy to do (psychologically)...,〜やすい,〜やすい,,〜易い,SUFFIX,,,,{GENKI3_L20},,6dc0f26a-17c4-41e9-8740-615102150458,1847,2025-03-09
 difficult to do (psychologically)...,〜にくい,〜にくい,,〜難い,SUFFIX,,,,{GENKI3_L20},,dc2ec3d9-5502-40d3-91e0-766c0f0fbcbc,1848,2025-03-09
 "surly, certainly; I agree, that's true",確かに,たしかに,,確かに,ADVERB,,,,,,4878016f-0cd1-4cc1-99bf-0f1a9074933e,1849,2025-03-09
+"should be, expected to be",はず,はず,,筈,AUXILIARY,,,4,,,2a9a82dc-aa19-4f84-8475-910bb40553d5,1850,2025-05-23
+"quantity, amount, volume, capactiy, portion (of food)",〜量,〜りょう,,〜量,SUFFIX,,,3,,,5569b0ee-e909-4795-a666-c8de7dc9762e,1851,2025-05-23
+trumpet,トランペット,とらんぺっと,,,NOUN,,,,,,eb8102b6-1ef9-48a2-95d4-60554827f866,1852,2025-05-23
+Japanese rice wine,日本酒,にほんしゅ,,日本酒,NOUN,,,,,,dd112d32-7a54-4ec1-b692-b6e08f8c12c2,1853,2025-05-23
+bag (e.g. at store),袋,ふくろ,,袋,NOUN,,,3,{GENKI3_L23},,c1a7f945-fcf5-42c1-9453-1a390e11f2b1,1854,2025-05-23
+"checkout counter, cash register",レジ,れじ,,,NOUN,,,4,,,5f11e92f-be4b-4ba9-ae26-1e1fdac2c52b,1855,2025-05-23
+disposable shopping bag,レジ袋,れじぶくろ,,レジ袋,NOUN,,,,,,d1259919-233b-4cf6-8bfe-dce1652606c5,1856,2025-05-23
+socks,靴下,くつした,,靴下,NOUN,,,5,{GENKI3_L23},,3216db7a-e452-4305-ba04-99913e74a82e,1857,2025-05-23
+free of charge,ただ,ただ,,只,NOUN,,,3,{GENKI3_L23},,64eb6dac-f5b5-4e9d-8fcf-9f9ccf2a4fd1,1858,2025-05-23
+"place, location, spot",場所,ばしょ,,場所,NOUN,,,,{GENKI3_L23},,f855bbb3-dd78-446e-b5a0-b87a437096f2,1859,2025-05-23
+elementary school,小学校,しょうがっこう,,小学校,NOUN,,,4,{GENKI3_L23},,77936fce-ff06-40c6-98f4-2a90e17916f6,1860,2025-05-23
+middle school,中学校,ちゅうがっこう,,中学校,NOUN,,,4,,,ef51fa3a-e5ad-4935-ad79-34561e44a2cb,1861,2025-05-23
+interview,面接,めんせつ,,面接,NOUN,,,2,{GENKI3_L23},,e142fed6-6ced-4e12-bf12-269116f412e6,1862,2025-05-23
+health,健康,けんこう,,健康,NOUN,,,3,{GENKI3_L23},,e7fef5f5-7f17-4621-b773-d0a46f43e6d4,1863,2025-05-23
+ideals,理想,りそう,,理想,NOUN,,,3,{GENKI3_L23},,c4f1fd78-cda9-4c4e-898b-7567924d4f95,1864,2025-05-23
+house-sitting,留守番,るすばん,,留守番,NOUN,,,2,{GENKI3_L23},,0666e3da-4c2d-428e-bf5f-dc4e52541399,1865,2025-05-23
+"message, text",メッセージ,めっせえじ,,,NOUN,,,1,{GENKI3_L23},,11834694-d37f-4bde-b5c7-7b58599e1e74,1866,2025-05-23
+cancellation (of a class),休講,きゅうこう,,休講,NOUN,,,4,{GENKI3_L23},,f7b14b5f-8d41-4d55-b65e-ab6596f0ae95,1867,2025-05-23
+trip to a foreign country,海外旅行,かいがいりょこう,,海外旅行,NOUN,,,,{GENKI3_L23},,0063c61e-ed48-485c-857e-172b66bb51ac,1868,2025-05-23
+Bon dance,盆踊り,ぼんおどり,,盆踊り,NOUN,,,,{GENKI3_L23},,5a635f2c-56f5-4c83-be2b-814c1b970c24,1869,2025-05-23
+"memories, recollections",思い出,おもいで,,思い出,NOUN,,,3,{GENKI3_L23},,2f5003ff-5262-478d-aa9f-46655fa17519,1870,2025-05-23
+society,社会,しゃかい,,社会,NOUN,,,4,{GENKI3_L23},,b3c0f223-8f94-4ad5-b2fd-ec743d8854e0,1871,2025-05-23
+result,結果,けっか,,結果,NOUN,,,3,{GENKI3_L23},,716f4777-caea-402c-83b8-2cb67a2cef7c,1872,2025-05-23
+"suvey; investigation, examination, inqury",調査,ちょうさ,,調査,NOUN,,,3,{GENKI3_L23},,abfa2a93-10cf-4aac-bcfd-b92d784f84f6,1873,2025-05-23
+"bad tasting, terrible tasting",まずい,まずい,,不味い,ADJECTIVE,I_ADJECTIVE,,5,{GENKI3_L23},,e4de6dd9-49e8-4ba0-80f1-77dd298c9e88,1874,2025-05-23
+"pitiful, pathetic",かわいそう,かわいそう,,可哀想,ADJECTIVE,NA_ADJECTIVE,,3,{GENKI3_L23},,d2a39a9e-6679-4c24-b786-5dc4f32d900f,1875,2025-05-23
+the rain stops,雨が止む,あめがやむ,,雨が止む,VERB,GODAN_VERB,,,{GENKI3_L23},,0f1c10fb-afe5-4a2a-a0b5-3ee68fd33231,1876,2025-05-23
+to be lost; to disappear,なくなる,なくなる,,無くなる,VERB,GODAN_VERB,,4,{GENKI3_L23},,0eecc15a-84c7-4e61-8702-0bd10cf609b5,1877,2025-05-23
+(someone/animal) is gone; to disappear,いなくなる,いなくなる,,居なくなる,VERB,GODAN_VERB,,,{GENKI3_L23},,3506a7ac-7007-4198-a058-07559370114b,1878,2025-05-23
+to be in someone's care,お世話になる,おせわになる,,お世話になる,VERB,GODAN_VERB,,,{GENKI3_L23},,a01f8a52-f011-44e4-9dd1-3bc6da26f0eb,1879,2025-05-23
+to have an upset stomache (or diarrhea),お腹を壊す,おなかをこわす,,お腹を壊す,VERB,GODAN_VERB,,,{GENKI3_L23},,dc42c45d-babe-4f53-a157-850f049b5434,1880,2025-05-23
+"to find something agreeable, to be pleased with, to suite one's fancy",気に入る,きにいる,,気に入る,VERB,GODAN_VERB,,3,{GENKI3_L23},,e1419032-acbd-4187-8773-5b8ab5a19a04,1881,2025-05-23
+"to bad-mouth, to talk behind one's back",悪口を言う,わるぐちをいう,,悪口を言う,VERB,GODAN_VERB,,,{GENKI3_L23},,490f7df6-eb4a-46ba-8f20-67a882c952b0,1882,2025-05-23
+(something/someone) separates; parts from,離れる,はなれる,,離れる,VERB,ICHIDAN_VERB,,3,{GENKI3_L23},,de54715c-c935-49b0-8e87-545cf843b453,1883,2025-05-23
+to be disappointed,がっかりする,がっかりする,,,VERB,SURU_VERB,,3,{GENKI3_L23},,0a58ed5b-dd2e-4ecf-80e2-3efa501b3d1e,1884,2025-05-23
+to be tolerant/patient,我慢する,がまんする,,我慢する,VERB,SURU_VERB,,3,{GENKI3_L23},,0dfa451d-c9e1-4131-b58f-92dd613530c6,1885,2025-05-23
+to sympathize,同情する,どうじょうする,,同情する,VERB,SURU_VERB,,1,{GENKI3_L23},,52f41131-aedc-4f8a-8de6-6d444b30f31f,1886,2025-05-23
+to look... (facial expression),〜顔をする,〜かおをする,,〜顔をする,VERB,SURU_VERB,,,{GENKI3_L23},,efc000d4-35f8-4990-9b98-c8eceed37a2a,1887,2025-05-23
+to cheat in an exam,カンニングする,かんいんぐする,,,VERB,SURU_VERB,,1,{GENKI3_L23},,901f9b77-c335-4d65-907c-1194226ec81d,1888,2025-05-23
+to check,チェックする,ちぇっくする,,,VERB,SURU_VERB,,4,{GENKI3_L23},,e217725e-a45d-45f0-af73-4d31b81684c3,1889,2025-05-23
+to take care of...,世話をする,せわをする,,世話をする,VERB,SURU_VERB,,3,{GENKI3_L23},,3ff1e62f-5318-4c53-a96a-534f6ecdf0f8,1890,2025-05-23
+to win a championship,優勝する,ゆうしょうする,,優勝する,VERB,SURU_VERB,,3,{GENKI3_L23},,f02d6420-f507-44fd-818a-96acca3d6307,1891,2025-05-23
+(something/someone) comes back,戻ってくる,もどってくる,,戻ってくる,VERB,KURU_VERB,,,{GENKI3_L23},,19afe640-176e-48ab-912e-5a11c6c2c55f,1892,2025-05-23
+(very) extremely,ものすごく,ものすごく,,,ADVERB,,,,{GENKI3_L23},,0cd2149c-bfe6-450c-ad3a-3399bfd13973,1893,2025-05-23
+"it is about time to...; soon, momentarily",そろそろ,そろそろ,,,ADVERB,,,4,{GENKI3_L23},,c1632580-73f2-4b9f-8b41-7003f412576e,1894,2025-05-23
+finally,最後に,さいごに,,最後に,ADVERB,,,,{GENKI3_L23},,bd170c50-ec53-49c3-a6fd-d6f7fb36d202,1895,2025-05-23
+you're right (casual),そうそう,そうそう,,,EXPRESSION,,,,{GENKI3_L23},,c74f88e1-f8c6-496c-aba4-5a0b60354018,1896,2025-05-23
+thanks to you/everyone; response to 元気ですか,おかげさまで,おかげさまで,,お陰様で,EXPRESSION,,,2,,,9d6eb82f-790f-43f6-b124-b484415bae8f,1897,2025-05-23
+restaurant check; financial account,会計,かいけい,,会計,NOUN,,,3,,,cc2d06b5-c18b-496d-bdf1-a76e408cc702,1898,2025-05-23
+どうですか（敬語）,いかがですか,いかがですか,,,EXPRESSION,,,,{GENKI3_L19},,1b222f84-af45-41da-9557-f798a4c1a630,1899,2025-05-23
+誰（敬語）,どなた,どなた,,何方,PRONOUN,,,5,{GENKI3_L19},,978cb942-e260-4b36-8643-a60e1399b9e1,1900,2025-05-23
+"a pinch, a tough spot",ピンチ,ぷんち,,,NOUN,,,,,,6197c3c2-2f99-4c64-afbe-0c5e710cc066,1901,2025-05-23
+including tax,税込,ぜいこみ,,税込,NOUN,,,,,,f4205606-8ff6-41b8-9a9d-428dd4c0f13f,1902,2025-05-23
+check please,お会計お願いします,おかいけい おねがいします,,お会計お願いします,EXPRESSION,,,,,,feefafec-3e78-4d6b-9aec-46b33bb0f567,1903,2025-05-23
