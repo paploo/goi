@@ -145,7 +145,7 @@ jooq {
                     }
                     generate.apply {
                         isFluentSetters = true
-                        isKotlinNotNullRecordAttributes = true //Generate with proper nullability
+                        isKotlinNotNullRecordAttributes = true //Generate with proper nullability -- doesn't work on things with defaults!
                         isKotlinDefaultedNullableRecordAttributes = false //In constructor, don't default nullables as null
                     }
                     target.apply {
