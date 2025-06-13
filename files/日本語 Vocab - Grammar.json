@@ -6350,7 +6350,7 @@
   {"COMMENT": "GENKI LESSON 19"},
   {
     "id": "9b4e32d6-2700-4ee8-bf1e-3ce92c3b7959",
-    "title": "敬語の動詞",
+    "title": "尊敬語の動詞",
     "meaning": "honorific verbs (special)",
     "how_to_use": [
       "Use to mean somebody graciously does something",
@@ -6859,6 +6859,79 @@
   },
 
   {"COMMENT": "GENKI LESSON 20"},
+  {
+    "id": "9771fc33-1010-4725-8596-3efb507b3a99",
+    "title": "謙譲語の動詞",
+    "meaning": "Humble/Modest Language",
+    "how_to_use": [
+      "① Use to speak modestly of our own actions",
+      "② Use to talk about your own family",
+      "③ Use to talk about your company to customers",
+      "Typically use わたくし instead of わたし when speaking.",
+      "You will rarely hear ございます and でございます outside of formal business-related situations."
+    ],
+    "examples": [
+      {
+        "id": "d0acd380-41ad-4c6f-a0d6-e9d2d96e5f25",
+        "meaning": "I will be in Japan next year, too.",
+        "text": {
+          "spelling": "{私|わたくし}は{来年|らい・ねん}も{日本|に・ほん}におります。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "42f5ac97-18a2-4a8e-b639-94bde5dc5682",
+        "meaning": "I have been studying Japanese for a year.",
+        "text": {
+          "spelling": "{私|わたくし}は{一年間|いち・ねん・かん}{日本語|に・ほん・ご}を{勉強|べん・きょう}しております。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "d2586ee5-a751-4ef2-ae1e-b5129a52d92c",
+        "meaning": "I graduated from college this June.",
+        "text": {
+          "spelling": "{私|わたくし}は{今年|ことし}の{六月|ろく・がつ}に{大学|だい・がく}を{卒業|そつ・ぎょう}いたしました。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "4a3481d6-e5b3-46b2-af12-ad5c9ca6c8d5",
+        "meaning": "My name is Tanaka. Please be kind to me.",
+        "text": {
+          "spelling": "{田中|た・なか}と{申|もう}します。よろしくお{願|ねが}い{致|いた}します。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "e914c17e-19f9-4a6b-90a5-fa09124a6a67",
+        "meaning": "A train is pulling in. (said over announcement)",
+        "text": {
+          "spelling": "{電車|でん・しゃ}が{参|まい}ります。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "fcec50fc-739a-4047-a6a7-7b5b9937051c",
+        "meaning": "The bathroom is on the second floor. (said by help desk attendant)",
+        "text": {
+          "spelling": "お{手洗|て・あら}いは{二階|に・かい}でございます。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2026-06-12",
+    "lesson_codes": ["GENKI3_L20"],
+    "tags": []
+  },
+
   {"COMMENT": "GENKI LESSON 21"},
   {"COMMENT": "GENKI LESSON 22"},
   {"COMMENT": "GENKI LESSON 23"}
