@@ -6372,7 +6372,7 @@
         "id": "5fcd99cb-b071-49f3-879b-2d939109d4a0",
         "meaning": "What will you eat/drink?",
         "text": {
-          "spelling": "{何|なに}を{召|め}し{上|あ}がりますか。"
+          "spelling": "{何|なに}を{召|め}し{上|あ}がありますか。"
         },
         "lesson_codes": ["GENKI3_L19"],
         "tags": []
@@ -6485,7 +6485,7 @@
         "id": "cb3f4ead-8e1e-452c-a780-ab595a06675f",
         "meaning": "Have you ever read this magazine?",
         "text": {
-          "spelling": "この{雑誌|ざっ・し}をお{読|よ}みになったことがりますか。"
+          "spelling": "この{雑誌|ざっ・し}をお{読|よ}みになったことがありますか。"
         },
         "lesson_codes": ["GENKI3_L19"],
         "tags": []
@@ -6928,6 +6928,192 @@
     ],
     "jlpt_level": null,
     "date_added": "2026-06-12",
+    "lesson_codes": ["GENKI3_L20"],
+    "tags": []
+  },
+  {
+    "id": "640f9351-b836-41e8-83f8-522a05aa0625",
+    "title": "おＶする",
+    "meaning": "① I (humbly) do (out of respect for somebody)...",
+    "how_to_use": [
+      "お + verb (stem) + する",
+      "Not all verbs can be used this way!"
+    ],
+    "examples": [
+      {
+        "id": "2a08fa1d-6cf3-4c7f-8d51-245fde72b4b6",
+        "meaning": "Yesterday, I (humbly) met the husband of the company president.",
+        "text": {
+          "spelling": "{私|わたし}は{昨日|きのう}{社長|しゃ・ちょう}のご{主人|しゅ・じん}に{会|あ}いしました。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "deb08986-bcf7-4240-ba19-57aa9e15c26b",
+        "meaning": "I intend to (humbly) lend my professor a book.",
+        "text": {
+          "spelling": "{私|わたし}は{先生|せん・せい}に{本|ほん}を{貸|か}しするつもりです。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "c9690d99-8eac-47ce-8a88-5ebcb9268647",
+        "meaning": "I borrowed a dictionary from my professor (and feel very obliged).",
+        "text": {
+          "spelling": "{私|わたし}は{先生|せん・せい}に{辞書|じ・しょ}をお{借|か}りしました。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "aef27c79-45d0-4d55-9290-fd531a236736",
+        "meaning": "Shall I (humbly) give you a ride as far as the station?",
+        "text": {
+          "spelling": "{駅|えき}まで{送|おく}りしましょうか。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "f9295bc4-c980-4ce3-8a69-e6c06602824b",
+        "meaning": "For my boss' birthday, I think I will give (him) flowers.",
+        "text": {
+          "spelling": "{部長|ぶ・ちょう}の{誕生日|たん・じょう・び}に{花|はな}をあげようと{思|おも}います。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-06-12",
+    "lesson_codes": ["GENKI3_L20"],
+    "tags": []
+  },
+  {
+    "id": "7b28b702-e577-4daf-bc8d-6bdf2a8b01ad",
+    "title": "ごＮする",
+    "meaning": "② I (humbly) do (out of respect for somebody)...",
+    "how_to_use": [
+      "ご + noun (suru) + する"
+    ],
+    "examples": [
+      {
+        "id": "c3262d5b-07c7-4637-ae66-c5ef34ed417d",
+        "meaning": "Let us (humbly) tell you about a shop that is popular among foreigners.",
+        "text": {
+          "spelling": "{外国人|がい・こく・じん}に{人気|にん・き}がある{店|みせ}をご{紹介|しょう・かい}しましょう。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "8cd0b869-2fea-4779-a0eb-f88ef0668f38",
+        "meaning": "This is tanaka; I (humbly) called yesterday.",
+        "text": {
+          "spelling": "{昨日|きのう}お{電話|でん・わ}した{山田|やま・だ}です。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "c39e96ef-d417-4768-a72f-862352225d15",
+        "meaning": "If you come to my country, I will (humbly) show you around.",
+        "text": {
+          "spelling": "{私|わたし}の{国|くに}にいらっしゃったら、ご{案内|あん・ない}します。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-07-04",
+    "lesson_codes": ["GENKI3_L20"],
+    "tags": []
+  },
+  {
+    "id": "6f321cdf-a245-4b15-8a09-2f4facfb715c",
+    "title": "〜いただく<br/>〜差し上げる",
+    "meaning": "I (humbly) give/receive (out of respect for somebody)...",
+    "how_to_use": [
+      "clause + もらう ⟶ clause + いただく",
+      "clause + あげる ⟶ clause + 差し上げる",
+      "Note: Do not use 差し上げる with 〜て in the sense of doing something for somebody.",
+      "Use お + stem + する pattern instead"
+    ],
+    "examples": [
+      {
+        "id": "cc066060-ef8b-46e0-9617-04b086c1c6c6",
+        "meaning": "I (humbly) received this book from my professor.",
+        "text": {
+          "spelling": "{私|わたし}は{先生|せんせい}にこの{本|ほん}をいただきました。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "f1841b4b-53a8-4408-afcb-b0e565190ba1",
+        "meaning": "I (humbly) had my professor teach me kanji.",
+        "text": {
+          "spelling": "{私|わたし}は{先生|せんせい}に{漢字|かん・じ}を{教|おし}えていだたきました。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "7d986059-300a-4212-8434-3fe277d85eb8",
+        "meaning": "I will (humbly) give my professor flowers.",
+        "text": {
+          "spelling": "{私|わたし}は{先生|せんせい}に{花|はな}を{差|さ}し{上|あ}げます。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "95c4f107-9ccc-48e9-9475-b29c601e8aa6",
+        "meaning": "Because tomorrow is the department manager's birthday, I have decided to give her something.",
+        "text": {
+          "spelling": "{明日|あした}は{部長|ぶ・ちょう}の{誕生日|たん・じょう・び}なので、{何|なに}か{差|さし}し{上|あ}げようと{思|おも}っています。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-07-04",
+    "lesson_codes": ["GENKI3_L20"],
+    "tags": []
+  },
+  {
+    "id": "2440aeee-bc58-43ad-8c05-1d9e71fb7498",
+    "title": "〜伺う",
+    "meaning": "to (humbly) ask/visit...",
+    "how_to_use": [
+      "clause + 伺います"
+    ],
+    "examples": [
+      {
+        "id": "b87416bb-efb0-4f63-98ea-e497693e0c5a",
+        "meaning": "I (humbly) visited my department manager's house.",
+        "text": {
+          "spelling": "{私|わたし}は{部長|ぶ・ちょう}のお{宅|たく}に{伺|うかが}いました。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "2d4c4592-313f-4f35-830c-75dede505ddc",
+        "meaning": "I (humbly) asked my professor about the exam.",
+        "text": {
+          "spelling": "{私|わたし}は{先生|せん・せい}にテストについて{伺|うかが}いました。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-07-04",
     "lesson_codes": ["GENKI3_L20"],
     "tags": []
   },
