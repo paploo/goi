@@ -7282,6 +7282,56 @@
     "lesson_codes": ["GENKI3_L20"],
     "tags": []
   },
+  {
+    "id": "a84c976b-36c3-4fef-b2fe-f35c425c290d",
+    "title": "〜という",
+    "meaning": "called...",
+    "how_to_use": [
+      "name + という + item ⟶ item called name"
+    ],
+    "examples": [
+      {
+        "id": "9f3d205f-ae5a-4d09-9a24-aa3bddf4a499",
+        "meaning": "A dog called Pochi, I used to have.",
+        "text": {
+          "spelling": "ポチという{犬|いぬ}を{飼|か}っていました。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "ffdbdc1f-a8e0-41b8-992e-7e77b99f9fbc",
+        "meaning": "A song called \"Hana\", do you know?",
+        "text": {
+          "spelling": "「{花|はな}」という{歌|うた}を{知|し}っていますか。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "0cb5db7f-8662-45a8-b296-710523949584",
+        "meaning": "In my Japanese class, someone named Himuro I became friends with.",
+        "text": {
+          "spelling": "{日本語|に・ほん・ご}のクラスで、{氷室|ひ・むろ}という{人|ひと}と{友達|とも・だち}になりました。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "f67ff002-3870-45a0-9f37-3f63508c7f70",
+        "meaning": "The other day, a food called nattō, I tried for the first time.",
+        "text": {
+          "spelling": "この{間|あい}、{初|はじ}めて{納豆|なっ・とう}という{食|た}べ{物|もの}を{食|た}べました。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-07-04",
+    "lesson_codes": ["GENKI3_L20"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 21"},
   {"COMMENT": "GENKI LESSON 22"},
