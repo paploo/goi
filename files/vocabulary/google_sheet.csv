@@ -1871,7 +1871,7 @@ Bon dance,盆踊り,ぼんおどり,,盆踊り,NOUN,,,{GENKI3_L23},,5a635f2c-56f
 "memories, recollections",思い出,おもいで,,思い出,NOUN,,3,{GENKI3_L23},,2f5003ff-5262-478d-aa9f-46655fa17519,1870,2025-05-23,,,,,,,,,,,,,,,,,
 society,社会,しゃかい,,社会,NOUN,,4,{GENKI3_L23},,b3c0f223-8f94-4ad5-b2fd-ec743d8854e0,1871,2025-05-23,,,,,,,,,,,,,,,,,
 result,結果,けっか,,結果,NOUN,,3,{GENKI3_L23},,716f4777-caea-402c-83b8-2cb67a2cef7c,1872,2025-05-23,,,,,,,,,,,,,,,,,
-"suvey; investigation, examination, inqury",調査,ちょうさ,,調査,NOUN,,3,{GENKI3_L23},,abfa2a93-10cf-4aac-bcfd-b92d784f84f6,1873,2025-05-23,,,,,,,,,,,,,,,,,
+"survey; investigation, examination, inqury",調査,ちょうさ,,調査,NOUN,,3,{GENKI3_L23},,abfa2a93-10cf-4aac-bcfd-b92d784f84f6,1873,2025-05-23,,,,,,,,,,,,,,,,,
 "bad tasting, terrible tasting",まずい,まずい,,不味い,ADJECTIVE,I_ADJECTIVE,5,{GENKI3_L23},,e4de6dd9-49e8-4ba0-80f1-77dd298c9e88,1874,2025-05-23,,まずい,まずかった,まずくて,まずくない,まずくなかった,まずくなくて,,,,,,,,,,
 "pitiful, pathetic",かわいそう,かわいそう,,可哀想,ADJECTIVE,NA_ADJECTIVE,3,{GENKI3_L23},,d2a39a9e-6679-4c24-b786-5dc4f32d900f,1875,2025-05-23,,かわいそうだ,かわいそうだった,かわいそうで,かわいそうじゃない,かわいそうじゃなかった,かわいそうではなくて,,,,,,,,,,
 the rain stops,雨が止む,あめがやむ,,雨が止む,VERB,GODAN_VERB,,{GENKI3_L23},,0f1c10fb-afe5-4a2a-a0b5-3ee68fd33231,1876,2025-05-23,,雨が止む,雨が止んだ,雨が止んで,雨が止まない,雨が止まなかった,雨が止まなくて,雨が止みます,雨が止みました,,雨が止みません,雨が止みませんでした,,雨が止める,雨が止めない,雨が止めます,雨が止めません
@@ -1907,3 +1907,9 @@ same as above; ditto,同上,どうじょう,,同上,NOUN,,,,,2b46ae21-4e74-4009-
 "the ""as above"" mark",仝,どう,とう,仝,PUNCTUATION,,,,{punctuation},1630619c-6e70-41f3-82e6-c7b573c21ab4,1906,2025-05-26,,,,,,,,,,,,,,,,,
 "idiot, simpleton",アホ,あほ,,,NOUN,,,,,4e96809a-d2df-458c-a0f3-3b6ecfa70b22,1907,2025-05-26,,,,,,,,,,,,,,,,,
 hair tuft sticking up in anime (lit. idiot hair),アホげ,あほげ,,アホ毛,NOUN,,,,,7ea61a17-f6d2-4cf0-8673-d8686e44a097,1908,2025-05-26,,,,,,,,,,,,,,,,,
+"to ask, to hear, to be told; to visit",伺う,うかがう,,伺う,VERB,GODAN_VERB,3,{GENKI3_L20},,dcd47ad4-a8df-4302-8f98-11fb509bdf6a,1909,2025-07-04,,伺う,伺った,伺って,伺わない,伺わなかった,伺わなくて,伺います,伺いました,,伺いません,伺いませんでした,,伺える,伺えない,伺えます,伺えません
+whether or not,かどうか,かどうか,,,EXPRESSION,,,{GENKI3_L20},,5c50c2d7-c7a8-44c5-8cfd-321108a93dd2,1910,2025-07-04,,,,,,,,,,,,,,,,,
+bone,骨,ほね,,骨,NOUN,,3,,,d67f072f-abaa-4b2a-a8e8-3907160f0bb4,1911,2025-07-04,,,,,,,,,,,,,,,,,
+wind chime,風鈴,ふうりん,,風鈴,NOUN,,,,,8c6c8de6-4e1d-415c-a6e1-eb3202c1a598,1912,2025-07-04,,,,,,,,,,,,,,,,,
+(period of) year,年間,ねんかん,,年間,NOUN,,3,,,d6d344d8-d7ae-40fe-aca0-84754f6f9d18,1913,2025-07-04,,,,,,,,,,,,,,,,,
+not too bad (in a good way),いいんじゃない,いいんじゃない,,,EXPRESSION,,,,,2bc7035b-7a92-4783-9d29-cd2f21057d94,1914,2025-07-04,,,,,,,,,,,,,,,,,
