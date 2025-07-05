@@ -7167,6 +7167,121 @@
     "lesson_codes": ["GENKI3_L20"],
     "tags": []
   },
+  {
+    "id": "abafa12a-61f0-45ab-92c8-127c6197d318",
+    "title": "ＱかＶ<br/>ＱかどうかＶ",
+    "meaning": "Embedded question<br/>Embedded yes/no question",
+    "how_to_use": [
+      "question + か + verb",
+      "question (yes/no) + かどうか + verb",
+      "question uses が instead of は for subject"
+    ],
+    "examples": [
+      {
+        "id": "17307578-79a2-475f-91ed-4ebec371a9e5",
+        "meaning": "This weekend, let's decide whether wor not we will go on a trip.",
+        "text": {
+          "spelling": "{週末|しゅう・まつ}、{旅行|りょ・こう}に{行|い}くがどうか{決|き}めましょう。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "7b14c97a-d7a3-4031-a5bc-29777295eaf4",
+        "meaning": "I know who Takeshi is in love with.<br/>(lit. who is takeshi in love with?; I know.)",
+        "text": {
+          "spelling": "{私|わたし}はたけしさんが{誰|だれ}が{好|す}きか{知|し}っています。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "3f36443f-5300-4758-98c8-8b98924aa6cb",
+        "meaning": "How long will it take to get to the airport?; teach me please.",
+        "text": {
+          "spelling": "{空港|くう・こう}までどのくらいかかるか{教|おし}えてください。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "cf6787eb-a055-41c0-a4f7-c8348cc84bd9",
+        "meaning": "I don't know what kind of person lives on the second floor.<br/>(lit. What kind of person lives on the second floor?; I don't know.)",
+        "text": {
+          "spelling": "{２階|に・かい}の{部屋|へ・や}にどんな{人|ひと}が{住|す}んでいるか{分|わ}かりません。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "f4e819eb-4d9e-40c2-bf58-15330f0f3e76",
+        "meaning": "I don't remember who who gave me a ride home.<br/>(lit. Who escorted me home?; I don't remember.)",
+        "text": {
+          "spelling": "{誰|だれ}が{家|いえ}まで{送|おく}ってくれたか{覚|おぼ}えていません。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "c9cfa7ae-3dd5-4b60-9e8f-545bcbf969a4",
+        "meaning": "Do you know where Mary lives?<br/>(lit. Where does Fuyutsuki live?; Do you know?",
+        "text": {
+          "spelling": "{冬月|ふゆ・つき}さんがどこに{住|す}んでいるか{知|し}っていますか。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-07-04",
+    "lesson_codes": ["GENKI3_L20"],
+    "tags": []
+  },
+  {
+    "id": "55d529af-216c-4e77-b49f-098ed992e2cf",
+    "title": "Ｑ<del>だ</del>かＶ<br/>Ｑ<del>だ</del>かどうかＶ",
+    "meaning": "Embedded question (with dropped だ)",
+    "how_to_use": [
+      "question ending in noun/な-adj drops the だ:",
+      "question noun + <del>だ</del> + か + verb",
+      "question noun (yes/no) + <del>だ</del> + かどうか + verb",
+      "question な-adj + <del>だ</del> + か + verb",
+      "question な-adj (yes/no) + <del>だ</del> + かどうか + verb"
+    ],
+    "examples": [
+      {
+        "id": "2b4d9d7e-a81f-4d9e-947b-70167fd6f612",
+        "meaning": "I don't know who is the best.<br/>(lit. Who is the best?; I don't know.)",
+        "text": {
+          "spelling": "{誰|だれ}が{一番|いち・ばん}{上手|じょう・ず}か{分|わ}かりません。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "a97cd997-acc7-4c8a-bb58-417613423a48",
+        "meaning": "I don't know if that person is a student.<br/>(lit. Is that person whether or not a student?; I don't know.)",
+        "text": {
+          "spelling": "あの{人|ひと}が{学生|せん・せい}かどうか{分|わ}かりません。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "2b64bd85-6f62-477c-aa6d-a26abcc20631",
+        "meaning": "I don't know whether or not they will exchange this sweater.<br/>(lit. This sweater whether or not they will they exchange for me?; I don't know.)",
+        "text": {
+          "spelling": "このセーターを{交換|こうかん}してくれるかどうか{分|わ}かりません。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-07-04",
+    "lesson_codes": ["GENKI3_L20"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 21"},
   {"COMMENT": "GENKI LESSON 22"},
