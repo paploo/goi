@@ -40,6 +40,18 @@
 	color: rgb(128, 192, 128);
 }
 
+.conjugation-directive.passive {
+	color: rgb(160, 0, 192);
+}
+
+.conjugation-directive.causative {
+	color: rgb(0, 192, 160);
+}
+
+.conjugation-directive.eba-conditional {
+	color: rgb(192, 160, 0);
+}
+
 .answer {
 	border-bottom: 1px solid grey;
 	padding-bottom: 16px;
@@ -68,6 +80,18 @@
 
 .purple-badge {
 	border: 1pt solid white;
-	background: rgba(128, 0, 255);
+	background: rgba(160, 0, 192);
+	color: white;
+}
+
+.cyan-badge {
+	border: 1pt solid white;
+	background: rgb(0, 192, 160);
+	color: white;
+}
+
+.yellow-badde {
+	border: 1pt solid white;
+	background: rgb(192, 160, 0);
 	color: white;
 }
