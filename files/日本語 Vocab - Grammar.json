@@ -7117,6 +7117,56 @@
     "lesson_codes": ["GENKI3_L20"],
     "tags": []
   },
+  {
+    "id": "10fbf757-2e13-4e3d-bb96-44eb31aa3767",
+    "title": "ＡないでＢ",
+    "meaning": "Without doing A, B<br/>B without doing A",
+    "how_to_use": [
+      "verb (short, negative) + で"
+    ],
+    "examples": [
+      {
+        "id": "add02b05-8666-421b-a9ce-d7b1a729ced6",
+        "meaning": "Last night, without getting any sleep, I studied.",
+        "text": {
+          "spelling": "{昨日|きのう}の{夜|よる}は、{寝|ね}ないで、{勉強|べん・きょう}しました。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "c8f70958-bf4f-4dc3-90eb-51c396039f03",
+        "meaning": "Without using dictionaries, I read newspapers.",
+        "text": {
+          "spelling": "{辞書|じ・しょ}を{使|つか}わないで、{新聞|しん・ぶん}を{読|よ}みます。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "e761d478-bcae-4618-aa93-2f74f8588ab8",
+        "meaning": "Without washing hands, I will eat.",
+        "text": {
+          "spelling": "{手|て}を{洗|あら}わないでご{飯|はん}を{食|た}べます。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "bd94d638-bd94-4982-8913-01d189647f25",
+        "meaning": "I am living life without driving a car.<br/>(lit. Without getting in a car, I am living my life.)",
+        "text": {
+          "spelling": "{車|くるま}に{乗|の}らないで、{生活|せい・かつ}しています。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-07-04",
+    "lesson_codes": ["GENKI3_L20"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 21"},
   {"COMMENT": "GENKI LESSON 22"},
