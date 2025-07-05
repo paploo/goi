@@ -7332,6 +7332,78 @@
     "lesson_codes": ["GENKI3_L20"],
     "tags": []
   },
+  {
+    "id": "9874baf0-e46d-4488-b63b-48507cfbb02d",
+    "title": "〜やすい<br/>〜にくい",
+    "meaning": "easy to do...<br/>hard to do...",
+    "how_to_use": [
+      "verb (stem) + やすい",
+      "verb (stem) + にくい",
+      "psychologically easy/hard when using verbs that describe actions.",
+      "sometimes the subject is a <i>place</i> where it is easy/difficult to do something.",
+      "sometimes the subject is a <i>tool</i> that is easy or difficult to use for something."
+    ],
+    "examples": [
+      {
+        "id": "2aaf57a5-de04-40df-bc7d-204c73f1667a",
+        "meaning": "This microwave is easy to use.",
+        "text": {
+          "spelling": "この{電子|でん・し}レンジは{使|つか}いやすいです。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "09aae754-8037-4b03-a1f0-ac599d861601",
+        "meaning": "Because they have many bones, fish are hard to eat.",
+        "text": {
+          "spelling": "{骨|ほね}が{多|おお}いので、{魚|さかな}は{食|た}べにくいです。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "40b1c0e8-3fa6-412d-a4d3-5af32f23c99f",
+        "meaning": "This town is easy to live in.",
+        "text": {
+          "spelling": "この{町|まち}はとても{住|す}みやすいです。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "265d2487-74e5-43bc-96e6-9a48973c5dc9",
+        "meaning": "Kanji are hard to memorize (because I have kanji anxieties).<br/>(c.f. 漢字を覚えるのは難しい for too complicated, too many)",
+        "text": {
+          "spelling": "{漢字|かん・じ}は{覚|おぼ}えにくい。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "dc04a090-64f8-474d-9cd1-2775869491c8",
+        "meaning": "Because this cell phone is small and light, it is easy to hold.",
+        "text": {
+          "spelling": "この{携帯|けい・たい}は{小|ちい}さくて{軽|かる}いので、{持|も}ちやすいです。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "11e3a633-721e-4285-96e6-84e7b9904034",
+        "meaning": "Because Hasegawa Sensei is kind and listens to what I say, they are easy to consult with.",
+        "text": {
+          "spelling": "{長谷川|は・せ・がわ}{先生|せん・せい}は{優|やさ}しいし、{話|はなし}を{聞|き}いてくださるから、{相談|そう・だん}しやすいです。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-07-04",
+    "lesson_codes": ["GENKI3_L20"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 21"},
   {"COMMENT": "GENKI LESSON 22"},
