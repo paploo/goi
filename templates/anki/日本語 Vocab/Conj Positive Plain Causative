@@ -1,0 +1,34 @@
+<script type="text/javascript">
+  function swapElem(idToHide, idToShow, display_type = 'block') {
+    document.getElementById(idToShow).style.display = display_type;
+    document.getElementById(idToHide).style.display = 'none';
+  }
+</script>
+
+{{#positive_plain_causative}}
+<p class='instruction'>🇯🇵→🎉<span class="cyan-badge">⌘</span></p>
+<p class='word-type'>{{conjugation_kind}}</p>
+<div id="kanji" onclick="swapElem('kanji', 'furigana');">
+    <p class='large'>{{preferred_spelling}}</p>
+</div>
+<div id="furigana" style='display:none' onclick="swapElem('furigana', 'kanji');">
+    <p class='large'><ruby>{{preferred_spelling}}<rt>{{phonetic_spelling}}</rt></ruby></p>
+</div>
+<p class='conjugation-directive causative'>🎉<span class="cyan-badge">⌘</span><br/>Positive Plain Causative</p>
+{{/positive_plain_causative}}
+```
+{{FrontSide}}
+
+<hr id=answer>
+
+<p class='answer'>{{positive_plain_causative}}</p>
+
+<div class='answer small'>
+  {{negative_plain_causative}}<br/>
+  {{positive_polite_causative}}<br/>
+  {{negative_polite_causative}}
+</div>
+
+<p class='detail-info'>📕 {{definition}}</p>
+
+<p>{{tts ja_JP:positive_plain_causative}}</p>
