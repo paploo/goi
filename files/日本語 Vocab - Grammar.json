@@ -6971,7 +6971,7 @@
         "id": "aef27c79-45d0-4d55-9290-fd531a236736",
         "meaning": "Shall I (humbly) give you a ride as far as the station?",
         "text": {
-          "spelling": "{駅|えき}まで{送|おく}りしましょうか。"
+          "spelling": "{駅|えき}までお{送|おく}りしましょうか。"
         },
         "lesson_codes": ["GENKI3_L20"],
         "tags": []
@@ -7179,9 +7179,9 @@
     "examples": [
       {
         "id": "17307578-79a2-475f-91ed-4ebec371a9e5",
-        "meaning": "This weekend, let's decide whether wor not we will go on a trip.",
+        "meaning": "This weekend, let's decide whether or not we will go on a trip.",
         "text": {
-          "spelling": "{週末|しゅう・まつ}、{旅行|りょ・こう}に{行|い}くがどうか{決|き}めましょう。"
+          "spelling": "{週末|しゅう・まつ}、{旅行|りょ・こう}に{行|い}くかどうか{決|き}めましょう。"
         },
         "lesson_codes": ["GENKI3_L20"],
         "tags": []
@@ -7224,7 +7224,7 @@
       },
       {
         "id": "c9cfa7ae-3dd5-4b60-9e8f-545bcbf969a4",
-        "meaning": "Do you know where Mary lives?<br/>(lit. Where does Fuyutsuki live?; Do you know?",
+        "meaning": "Do you know where Fuyutsuki lives?<br/>(lit. Where does Fuyutsuki live?; Do you know?",
         "text": {
           "spelling": "{冬月|ふゆ・つき}さんがどこに{住|す}んでいるか{知|し}っていますか。"
         },
