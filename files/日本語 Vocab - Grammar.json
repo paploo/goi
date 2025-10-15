@@ -7406,6 +7406,120 @@
   },
 
   {"COMMENT": "GENKI LESSON 21"},
+  {
+    "id": "077c9eb0-611c-48a8-b743-3fbe062ea691",
+    "title": "ＣはＤにＶれる (passive)",
+    "meaning": "C is caused by D to be sad/andy/hurt/embarrassed by act V",
+    "how_to_use": [
+      "victim + は + villain + に + verb (passive)",
+      "cannot be used with adjectives",
+      "cannot express suffering from somebody failing to do something",
+      "this type of sentence is called <i>affective passive</i>"
+    ],
+    "examples": [
+      {
+        "id": "5277e2d0-cebc-4df5-8a75-996cb2520d30",
+        "meaning": "I had my car used by a friend (and I'm mad/sad/upset about it)",
+        "text": {
+          "spelling": "{私|わたし}は{友達|とも・だち}に{車|くるま}を{使|つか}われました。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      },
+      {
+        "id": "ddc8b0d3-888f-42ae-b2de-867e06acd977",
+        "meaning": "I was annoyed with the person sitting next to me for smoking.",
+        "text": {
+          "spelling": "{私|わたし}は{隣|となり}の{人|ひと}にタバコを{吸|す}われました。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      },
+      {
+        "id": "a82faf39-d3db-484f-a6a4-60d352cb3812",
+        "meaning": "Takeshi is often laughed at by Mary.",
+        "text": {
+          "spelling": "たけしさんはメアリーさんによく{笑|わら}われます。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      },
+      {
+        "id": "bafc99b4-5c93-4c28-a04f-97f30c736bbc",
+        "meaning": "Professor Yamashita had his password stolen by someone, I hear.",
+        "text": {
+          "spelling": "{山下|やま・した}{先生|せん・せい}は{誰|だれ}かにパスワードを{盗|ぬす}まれたそうです。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      },
+      {
+        "id": "dd8f26af-11b8-4ac5-8c4c-ed0a191d9ded",
+        "meaning": "When I was a kid, often my mom would compare me to my brother, which made me sad.",
+        "text": {
+          "spelling": "{子供|こ・ども}の{時|とき}、よく{母|はは}に{兄|あに}と{比|くら}べられたので、{悲|かな}しかったです。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      },
+      {
+        "id": "86af8a59-3630-4a41-8f62-2170f479a948",
+        "meaning": "When I was a kid my sister would read my diary (and it upset me).",
+        "text": {
+          "spelling": "{子供|こ・ども}の{時|とき}{姉|あね}に{日記|にっき}を{読|よ}まれました。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-10-14",
+    "lesson_codes": ["GENKI3_L21"],
+    "tags": []
+  },
+  {
+    "id": "6ff1418d-9c69-4adc-a6da-38da6f65c9fd",
+    "title": "ＣはＤにＶれる (passive)<br/>(neutral meaning)",
+    "meaning": "C is caused by D to have act V done to them",
+    "how_to_use": [
+      "victim + は + villain + に + verb (passive)",
+      "relatively few verbs come out neutral in their meaning when in passive form"
+    ],
+    "examples": [
+      {
+        "id": "59507d8a-5350-46e7-90c2-4e1fc6bb17f3",
+        "meaning": "I was asked out on a date by that person.",
+        "text": {
+          "spelling": "{私|わたし}はその{人|ひと}にデートに{誘|さそ}われました。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      },
+      {
+        "id": "b310164c-a50d-4a72-a97b-5b77bd27a42e",
+        "meaning": "I was introduced by my big brother to his friend.",
+        "text": {
+          "spelling": "{私|わたし}は{兄|あに}に{友達|とも・だち}に{紹介|しょう・かい}されました。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      },
+      {
+        "id": "5ab12bf8-0a5e-4a40-9b85-9fcec765016b",
+        "meaning": "That person is looked up to by most everyone.",
+        "text": {
+          "spelling": "その{人|ひと}はみんなに{尊敬|そん・けい}されています。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-10-14",
+    "lesson_codes": ["GENKI3_L21"],
+    "tags": []
+  },
+
   {"COMMENT": "GENKI LESSON 22"},
   {"COMMENT": "GENKI LESSON 23"}
 ]
