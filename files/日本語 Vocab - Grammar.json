@@ -7519,6 +7519,195 @@
     "lesson_codes": ["GENKI3_L21"],
     "tags": []
   },
+  {
+    "id": "dde4ecb9-ee9b-4cc8-9053-5b92e47b1b8c",
+    "title": "〜てある",
+    "meaning": "...has been done on purpose",
+    "how_to_use": [
+      "が + verb (transitive, te-form) + ある",
+      "Transitive + ある when because a person did it",
+      "Intransitive + ている for when no <i>clear</i> human intervention"
+    ],
+    "examples": [
+      {
+        "id": "a80982f7-063d-4953-98f4-af6b00d8aa7f",
+        "meaning": "Flowers are on the table (and have remained there ever since).",
+        "text": {
+          "spelling": "テーブルの{上|うえ}に{花|はな}が{置|お}いてあります。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      },
+      {
+        "id": "a731ac8b-8a73-464f-96c8-50ac431b06e1",
+        "meaning": "It is cold. Is the heater on?",
+        "text": {
+          "spelling": "{寒|さむ}いですね。ヒーターがつけてありますか。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      },
+      {
+        "id": "8220f858-3bd0-4e09-8c7d-9d4807f2b11f",
+        "meaning": "The dinner has been made. I hope it is delicious.",
+        "text": {
+          "spelling": "{晩|ばん}ご{飯|はん}が{作|つく}ってあります。{美味|おい}しいといいんですが。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      },
+      {
+        "id": "1f402f93-9c09-4168-9ee2-3605a3da6daa",
+        "meaning": "Two tickets for Kabuki have been bought. Would you like to come with me?",
+        "text": {
+          "spelling": "{歌舞伎|か・ぶ・き}のチケットが{２枚|に・まい}{買|か}ってあります。{一緒|いっ・しょ}に{行|い}きませんか。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      },
+      {
+        "id": "c956639f-dc34-4d40-82aa-00ad5b630cd0",
+        "meaning": "Transitive: The window has been kept closed (on purpose).<br/>Intransitive: The window is closed (maybe due to a person but maybe not).",
+        "text": {
+          "spelling": "{他動詞|た・どう・し}：{窓|まど}が{閉|し}めてあります。<br/>{自動詞|じ・どう・し}：{窓|まど}が{閉|し}まっています。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-10-19",
+    "lesson_codes": ["GENKI3_L21"],
+    "tags": []
+  },
+  {
+    "id": "dad637f8-1a90-4de5-a474-427258d96d46",
+    "title": "〜てある<br/>〜ておきました",
+    "meaning": "...has been done on purpose<br/>...has been done by way of preparation",
+    "how_to_use": [
+      "が + verb (te-form) + あります",
+      "を + verb (te-form) + おきました "
+    ],
+    "examples": [
+      {
+        "id": "04fae279-ef48-4c18-8c44-ab1543146bd2",
+        "meaning": "A restaurant reservation has been made.<br/>(I) made a reservation in adavance.",
+        "text": {
+          "spelling": "レストランの{予約|よ・やく}がしてあります。<br/>{予約|よ・やく}をしておきました。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      },
+      {
+        "id": "ad1935d0-67ba-4792-b6d0-6e903e347916",
+        "meaning": "Bread has been bough (and is ready).<br/>(I) bought bread (for future use).",
+        "text": {
+          "spelling": "パンが{買|か}ってあります。<br/>パンを{買|か}っておきました。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-10-19",
+    "lesson_codes": ["GENKI3_L21"],
+    "tags": []
+  },
+  {
+    "id": "0c39bb09-3433-4faf-b921-9b3ef42f5797",
+    "title": "Ａ間にＢ",
+    "meaning": "While A, B takes place",
+    "how_to_use": [
+      "clause + verb (て form) + いる + 間 + に + clause",
+      "noun + の + 間 + に + clause",
+      "Most often the A is described using 〜ている for an action in progress.",
+      "Do not use 〜ている for a state of being.",
+      "The verb for A i in the present tense, even if the situation is in the past."
+    ],
+    "examples": [
+      {
+        "id": "ebb7c028-ff58-49a4-88f9-affa32779888",
+        "meaning": "While I was taking a bath, there was a phone call.",
+        "text": {
+          "spelling": "お{風呂|ふ・ろ}に{入|はい}っている{間|あいだ}に{電話|でん・わ}がありました。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      },
+      {
+        "id": "2a2bb8e8-2ed5-4a79-af26-33fc3f9cfb2f",
+        "meaning": "While I was asleep last night, there was an earthquake.",
+        "text": {
+          "spelling": "{昨日|きのう}の{夜|よる}、{寝|ね}ている{間|あいだ}に{地震|じ・しん}がありました。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      },
+      {
+        "id": "9960a33d-7973-45dc-8cb7-c3812c0b0513",
+        "meaning": "While my parents are in Japan, I want to take them to Kyoto.",
+        "text": {
+          "spelling": "{両親|りょう・しん}が{日本|に・ほん}にいる{間|あいだ}に{京都|きょう・と}に{連|つ}れて{行|い}きたいです。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      },
+      {
+        "id": "fbaade2d-9cb7-4f63-bd7f-d39aeb93a397",
+        "meaning": "While I was out, a friend came.",
+        "text": {
+          "spelling": "{留守|る・す}の{間|あいだ}に{友達|とも・だち}が{来|き}ました"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      },
+      {
+        "id": "ee8c15ac-7f19-49bf-a2f2-38be8e86c045",
+        "meaning": "While I was changing my clothes, my roommate made coffee for me.",
+        "text": {
+          "spelling": "{私|わたし}が{着替|き・が}えている{間|あいだ}に、ルームメイトがコーヒーをいれてくれました。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      },
+      {
+        "id": "1fcb9317-41ab-49f3-8d70-74b775f5f8ca",
+        "meaning": "While my parents are in Japan, I plan to take them to Hiroshima.",
+        "text": {
+          "spelling": "{両親|りょう・しん}が{日本|に・ほん}にいる{間|あいだ}に、{広島|ひろ・しま}に{連|つ}れて{行|い}ってあげるつもりです。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-10-26",
+    "lesson_codes": ["GENKI3_L21"],
+    "tags": []
+  },
+  {
+    "id": "aab25aa4-9f4e-4cba-a6f5-1fede0f61092",
+    "title": "Ａ間Ｂ",
+    "meaning": "While A, B starts",
+    "how_to_use": [
+      "clause + verb (て form) + いる + 間 + clause"
+    ],
+    "examples": [
+      {
+        "id": "98fc2640-6c2e-4729-90aa-4b2e039f33df",
+        "meaning": "While my roommate was shopping, I read a book and waited.",
+        "text": {
+          "spelling": "ルームメイトが{買|か}い{物|もの}をしている{間|あいだ}、{私|わたし}は{本|ほん}を{読|よ}んで{待|ま}ちました。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-10-26",
+    "lesson_codes": ["GENKI3_L21"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 22"},
   {"COMMENT": "GENKI LESSON 23"}
