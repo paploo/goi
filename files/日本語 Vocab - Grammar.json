@@ -7708,6 +7708,75 @@
     "lesson_codes": ["GENKI3_L21"],
     "tags": []
   },
+  {
+    "id": "fbc506a6-12e8-4f72-8cd6-20810a73e823",
+    "title": "Ａする",
+    "meaning": "to make something A",
+    "how_to_use": [
+      "い-adj + く + する",
+      "な-adj + に + する"
+    ],
+    "examples": [
+      {
+        "id": "51242e2b-9064-40e0-80b3-d457e6e96c4a",
+        "meaning": "Because the other day exam was too difficult, please make the exam easier.",
+        "text": {
+          "spelling": "この{間|あいだ}の{試験|し・けん}は{難|むずか}しすぎたので、{次|つぎ}の{試験|し・けん}は{優|やさ}しくしてください"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      },
+      {
+        "id": "24bbc124-ec91-4a70-a19a-34c9a5c61bb0",
+        "meaning": "Because my parents will come, I have to make the room clean.",
+        "text": {
+          "spelling": "{両親|りょう・しん}が{来|く}るので、{部屋|へ・や}をきれいにしなければいけません。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      },
+      {
+        "id": "372ddb4f-d389-4814-9d82-8598a6bd128d",
+        "meaning": "There are a lot of vocabulary we have to memorize. Please make it less.",
+        "text": {
+          "spelling": "{覚|おぼ}えなければいけない{単語|かん・たん}がたくさんあります。{少|すく}なくして{下|くだ}さい"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      },
+      {
+        "id": "702a814f-fe10-408c-81bb-df0144a2b017",
+        "meaning": "If I were the mayor, I would maek the town safer.",
+        "text": {
+          "spelling": "{私|わたし}が{市長|し・ちょう}だったら、{町|まち}をもっと{安全|あん・ぜん}にします。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      },
+      {
+        "id": "de827902-c8ef-4d82-9047-1ce0d6da808d",
+        "meaning": "While I was not at home my dog made my room messy.",
+        "text": {
+          "spelling": "{留守|る・す}の{間|あいだ}に{犬|いぬ}が{私|わたし}の{部屋|へ・や}をめちゃくちゃにしました。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      },
+      {
+        "id": "ea819fc4-a70b-4ef8-9d9f-6166c74bf8cd",
+        "meaning": "If I could use magic, I would make my house bigger.",
+        "text": {
+          "spelling": "{魔法|ま・ほう}が{使|つか}えたら、{私|わたし}の{家|いえ}を{大|おお}きくします。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-11-02",
+    "lesson_codes": ["GENKI3_L21"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 22"},
   {"COMMENT": "GENKI LESSON 23"}
