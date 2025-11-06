@@ -1,5 +1,6 @@
 package net.paploo.goi.persistence.jsonfile.grammarrule
 
+import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.decodeFromStream
 import org.slf4j.Logger
@@ -15,6 +16,7 @@ internal class JsonFileGrammarRuleReader : suspend (Path) -> Result<List<Grammar
         ignoreUnknownKeys = true
     }
 
+    @OptIn(ExperimentalSerializationApi::class)
     override suspend fun invoke(path: Path): Result<List<GrammarRuleDto>> =
         Result.runCatching {
             path.inputStream()

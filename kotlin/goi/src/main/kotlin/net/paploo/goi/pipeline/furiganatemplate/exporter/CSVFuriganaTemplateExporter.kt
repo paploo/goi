@@ -91,6 +91,6 @@ class CSVFuriganaTemplateExporter (
         .setRecordSeparator("\n") //Use UNIX LF instead of RFC4180 specified CRLF
         .setDelimiter(config.format.delimiter) //The field delimeter (comma for CSV)
         .setNullString("") //Make sure nulls render as empty fields.
-        .build()
+        .get()
 
 }
