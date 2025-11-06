@@ -1,4 +1,4 @@
-// Generated from FuriganaCurlyBraceTemplateParser.g4 by ANTLR 4.13.1
+// Generated from FuriganaCurlyBraceTemplateParser.g4 by ANTLR 4.13.2
 
     package net.paploo.goi.gen.antlr;
 

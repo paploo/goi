@@ -13,15 +13,15 @@ object CsvFormats {
         .setTrim(true) //Trim leading/trailing whitespace. This is normally what we want.
         .setRecordSeparator('\n') //This sets the line endings to UNIX ones, breaking RFC4180 but matching the Ruby reference impl.
         .setSkipHeaderRecord(true) // On output don't write a header record; instead we usually manage this ourselves since we have simple collections at that point.
-        .build()
+        .get()
 
     val googleSheet: CSVFormat = CSVFormat.Builder
         .create(default)
         .setAllowMissingColumnNames(true) //We have seprator columns; usually I'd prefer to yell.
-        .build()
+        .get()
 
     val anki: CSVFormat = CSVFormat.Builder
         .create(default)
-        .build()
+        .get()
 
 }

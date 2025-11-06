@@ -260,6 +260,7 @@ object KanaTable {
         val isObsolete: Boolean
     }
 
+    @ConsistentCopyVisibility
     data class KanaChar internal constructor(
         val hiraganaChar: Char,
         val katakanaChar: Char,
@@ -272,6 +273,7 @@ object KanaTable {
         override val katakana: String = katakanaChar.toString()
     }
 
+    @ConsistentCopyVisibility
     data class KanaString internal constructor(
         override val hiragana: String,
         override val katakana: String,
