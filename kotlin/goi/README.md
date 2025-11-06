@@ -1,5 +1,20 @@
 # Goi Kotlin
 
+## Test framework notes
+
+I have two gradlew plugins installed:
+- Traditional JUnit with a plugin to give pretty output.
+- Kotest specific plugin.
+
+The Kotest one is invoked with:
+```shell
+./gradlew jvmKotest
+```
+While the Junit one is invoked wih the traditional:
+```shell
+./gradlew test
+```
+
 ## Antlr Notes
 
 Antlr is a little weird to work with:
