@@ -12,11 +12,11 @@ val postgres_version: String by project
 val jooq_version: String by project
 
 plugins {
-    kotlin("jvm") version "2.1.0"
-    kotlin("plugin.serialization") version "2.1.0"
+    kotlin("jvm") version "2.2.21"
+    kotlin("plugin.serialization") version "2.2.21"
     application
     antlr
-    id("nu.studer.jooq") version "9.0"
+    id("nu.studer.jooq") version "10.1.1"
     id("com.adarshr.test-logger") version "4.0.0"
     id("application")
 }
