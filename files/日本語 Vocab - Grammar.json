@@ -7879,6 +7879,40 @@
     "lesson_codes": ["GENKI3_L21"],
     "tags": []
   },
+  {
+    "id": "dc23e518-f49f-44c3-ab25-0d400a0afd85",
+    "title": "〜ないです",
+    "meaning": "Alternate negative form",
+    "how_to_use": [
+      "standard: verb (long-form negative)",
+      "alternate: verb (short, negative) + です",
+      "Alternate form of 〜ありません (i.e. negative form of ある)"
+    ],
+    "examples": [
+      {
+        "id": "2d3369fd-8c4a-4a1d-9327-e4145d2795fd",
+        "meaning": "To not be visible.",
+        "text": {
+          "spelling": "{見|み}えないです<br/>(c.f. {見|み}えません)"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      },
+      {
+        "id": "73bee58d-e18f-46ef-a956-17e3d9f13bcd",
+        "meaning": "To not have been visible.",
+        "text": {
+          "spelling": "{見|み}えなかったです<br/>(c.f. {見|み}えませんでした)"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-11-09",
+    "lesson_codes": ["GENKI3_L21"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 22"},
   {"COMMENT": "GENKI LESSON 23"}
