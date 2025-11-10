@@ -7777,6 +7777,108 @@
     "lesson_codes": ["GENKI3_L21"],
     "tags": []
   },
+  {
+    "id": "84aa755b-ccab-4e16-95c5-2c110f79148b",
+    "title": "ＰにＶてほしい",
+    "meaning": "I want (person) to do...",
+    "how_to_use": [
+      "(私 + は) + person + に + verb (て-form) + ほしい"
+    ],
+    "examples": [
+      {
+        "id": "8e24101c-b1a7-4268-bd76-6158f4496912",
+        "meaning": "I want my sick friend to get well.",
+        "text": {
+          "spelling": "{私|わたし}は{病気|びょう・き}の{友達|とも・だち}に{元気|げん・き}になってほしです。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      },
+      {
+        "id": "f28cab27-67c7-4231-8ea6-09d93afcf14e",
+        "meaning": "I wanted my roommate to help me with my homework.",
+        "text": {
+          "spelling": "{私|わたし}はルームメイトに{宿題|しゅく・だい}を{手伝|て・つだ}ってほしかったです。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      },
+      {
+        "id": "2d1a8694-b875-4dd1-a6a2-87d1b8270605",
+        "meaning": "I cut my hair shortly but, my roommate didn't say anything.<br/>I want my roommate to notice.",
+        "text": {
+          "spelling": "{私|わたし}は{髪|かみ}を{短|みじか}くしたけど、ルームメイトは{何|なに}も{言|い}いません。<br/>{私|わたし}はルームメイトに{気|き}がついてほしいです。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      },
+      {
+        "id": "f666c0ef-29d8-48e2-9290-3298c8af1451",
+        "meaning": "My friend thinks I lied but, I didn't lie.<br/>I want my friend to trust me.",
+        "text": {
+          "spelling": "{友達|とも・だち}は{私|わたし}が{嘘|うそ}をついたと{思|おも}っていますが、{私|わたし}は{嘘|うそ}をついていません。<br/>{私|わたし}は{友達|とも・だち}に{信|しん}じてほしいです。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      },
+      {
+        "id": "52e2ee34-bbb4-479c-bab3-65e4edd906b1",
+        "meaning": "My colleague is showing signs of quitting his job.<br/>I want my colleague to continue (working here).",
+        "text": {
+          "spelling": "{同僚|どう・りょう}は{仕事|し・ごと}を{辞|や}めたがっています。<br/>{私|わたし}は{同僚|どう・りょう}に{仕事|し・ごと}を{続|つづ}けてほしいです。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-11-09",
+    "lesson_codes": ["GENKI3_L21"],
+    "tags": []
+  },
+  {
+    "id": "8be71953-c93c-41fd-9752-24eba6867f5f",
+    "title": "ＰにＶてほしくない<br/>ＰにＶないでほしい",
+    "meaning": "I don't want (person) to do...",
+    "how_to_use": [
+      "(私 + は) + person + に + verb (て-form) + ほしくない",
+      "(私 + は) + person + に + verb (short negative) + で + ほしい",
+      "Either the verb <i>or</i> 欲しい can be negated."
+    ],
+    "examples": [
+      {
+        "id": "6bfea9e7-b4c4-4a80-b0d6-d5a113fbc14f",
+        "meaning": "I don't want my father to talk about the good old times.",
+        "text": {
+          "spelling": "{私|わたし}はお{父|とう}さんに{昔|むかし}の{話|はなし}をしてほしくないです。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      },
+      {
+        "id": "44496ee3-ac20-40e6-8620-1c84e48665d1",
+        "meaning": "I don't want my Japanese friends to speak in English.",
+        "text": {
+          "spelling": "{私|わたし}は{日本人|に・ほん・じん}の{友達|とも・だち}に{英語|えい・ご}で{話|はな}さないでほしいです。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      },
+      {
+        "id": "6b6c6eca-98a8-4aad-91b6-410fd4517f71",
+        "meaning": "My teacher calls me Anna, but I am Ann.<br/>I want my teacher to not get my name wrong.",
+        "text": {
+          "spelling": "{先生|せん・せい}は{私|わたし}をアンナと{呼|よ}びます。でも、{私|わたし}はアンです。<br/>{私|わたし}は{先生|せん・せい}に{名前|な・まえ}を{間違|ま・ちが}えないでほしいです。"
+        },
+        "lesson_codes": ["GENKI3_L21"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-11-09",
+    "lesson_codes": ["GENKI3_L21"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 22"},
   {"COMMENT": "GENKI LESSON 23"}
