@@ -56,7 +56,7 @@
         "id": "995d3387-0be7-417c-b548-5fb44ae4b744",
         "meaning": "I will come tomorrow.",
         "text": {
-          "spelling": "{明日|あ・した}{来|き}ます。",
+          "spelling": "{明日|あした}{来|き}ます。",
           "phonetic_spelling": null
         },
         "lesson_codes": ["GENKI3_L03"],
@@ -799,7 +799,7 @@
         "id": "8059e232-04da-4512-8734-762c9c42d67d",
         "meaning": "I will study this evening. (Because) we will have an exam tomorrow.",
         "text": {
-          "spelling": "{私|わたし}は{今晩|こん・ばん}{勉強|べん・きょう}します。{明日|あ・した}テストがありますから。",
+          "spelling": "{私|わたし}は{今晩|こん・ばん}{勉強|べん・きょう}します。{明日|あした}テストがありますから。",
           "phonetic_spelling": null
         },
         "lesson_codes": ["GENKI3_L06"],
@@ -1231,7 +1231,7 @@
         "id": "858b3e24-90e1-4f2e-9790-c10a96f4f7ec",
         "meaning": "Yasmin said that there would be an exam tomorrow.",
         "text": {
-          "spelling": "ヤスミンさんは、{明日|あ・した}{試験|し・けん}があると{言|い}っていました。"
+          "spelling": "ヤスミンさんは、{明日|あした}{試験|し・けん}があると{言|い}っていました。"
         },
         "lesson_codes": ["GENKI3_L08"],
         "tags": []
@@ -1281,7 +1281,7 @@
         "id": "2aace507-37d5-42fc-afd4-b8460acad62e",
         "meaning": "Please don't take pictures here.",
         "text": {
-          "spelling": "ここで{写真|しゃ・しん}を{取|と}らないでください。"
+          "spelling": "ここで{写真|しゃ・しん}を{撮|と}らないでください。"
         },
         "lesson_codes": ["GENKI3_L08"],
         "tags": []
@@ -1714,7 +1714,7 @@
         "id": "2438c90e-820e-4683-accb-d6b0ef3cda4d",
         "meaning": "I will study this evening, because we will have an exam tomorrow.<br/>We will have an exam tomorrow; therefore, I will study this evening.",
         "text": {
-          "spelling": "{明日|あ・した}{試験|し・けん}があるから、{今晩|こん・ばん}{勉強|べん・きょう}します。"
+          "spelling": "{明日|あした}{試験|し・けん}があるから、{今晩|こん・ばん}{勉強|べん・きょう}します。"
         },
         "lesson_codes": ["GENKI3_L09"],
         "tags": []
@@ -1863,7 +1863,7 @@
         "id": "0547262e-2c60-4b75-b413-fcc45c4675d2",
         "meaning": "Q: Among Canada, France, and Japan, which country has the coldest climate?<br/>A: Canada is coldest, I think.",
         "text": {
-          "spelling": "Ｑ：カナダとフランスと{日本|にほん}の{中|なか}で、どこが{一番|いち・ばん}{寒|さむ}いですか。<br/>Ａ：カナダが{一番|いち・ばん}{寒|さむ}いと{思|おも}います。"
+          "spelling": "Ｑ：カナダとフランスと{日本|に・ほん}の{中|なか}で、どこが{一番|いち・ばん}{寒|さむ}いですか。<br/>Ａ：カナダが{一番|いち・ばん}{寒|さむ}いと{思|おも}います。"
         },
         "lesson_codes": ["GENKI3_L10"],
         "tags": []
@@ -2003,7 +2003,7 @@
         "id": "f5aa06ea-1d79-4a1a-a8f6-eea972010878",
         "meaning": "Professor Yamashita does not intend to come to school tomorrow.",
         "text": {
-          "spelling": "{山下|やま・した}{先生|せん・せい}は{明日|あ・した}{大学|だい・がく}に{来|こ}ないつもりです。"
+          "spelling": "{山下|やま・した}{先生|せん・せい}は{明日|あした}{大学|だい・がく}に{来|こ}ないつもりです。"
         },
         "lesson_codes": ["GENKI3_L10"],
         "tags": []
@@ -2953,7 +2953,7 @@
         "id": "552affcd-de62-4778-adda-825996ab197e",
         "meaning": "Tomorrow, I have class from 9 o'clock; therefore I have to get up early.",
         "text": {
-          "spelling": "{明日|あ・した}は{九|く}{時|じ}から{授業|じゅ・ぎょう}があるので、{早|はや}く{起|お}きなければいけません。"
+          "spelling": "{明日|あした}は{九|く}{時|じ}から{授業|じゅ・ぎょう}があるので、{早|はや}く{起|お}きなければいけません。"
         },
         "lesson_codes": ["GENKI3_L12"],
         "tags": []
@@ -4421,7 +4421,7 @@
         "id": "7c30bb92-dd8f-409a-b336-300a82428fe6",
         "meaning": "I always eat too many sweets, so this year I've decided to eat more vegetables. And then, about 3 times a week, I've decided to exercise.",
         "text": {
-          "spelling": "いつもお{菓子|か・し}を{食|た}べすぎるので、{今年|こ・とし}はもっと{野菜|や・さい}を{食|た}べようと{思|おも}っています。それから、{１週間|いっ・しゅう・かん}に{３回|さん・かい}ぐらい{運動|うん・どう}しようと{思|おも}っています。"
+          "spelling": "いつもお{菓子|か・し}を{食|た}べすぎるので、{今年|ことし}はもっと{野菜|や・さい}を{食|た}べようと{思|おも}っています。それから、{１週間|いっ・しゅう・かん}に{３回|さん・かい}ぐらい{運動|うん・どう}しようと{思|おも}っています。"
         },
         "lesson_codes": ["GENKI3_L15"],
         "tags": []
@@ -4616,7 +4616,7 @@
         "id": "7b9a61a3-06e4-4902-a07a-7bafc67744cb",
         "meaning": "I am scheduled to go to Korea this coming weekend.",
         "text": {
-          "spelling": "{私|わたし}は{今度|こん・ど}の{週末|しゅう.まつ}に{韓国|かん.こく}に{行|い}く{予定|よ.てい}です。"
+          "spelling": "{私|わたし}は{今度|こん・ど}の{週末|しゅう・まつ}に{韓国|かん・こく}に{行|い}く{予定|よ・てい}です。"
         },
         "lesson_codes": ["GENKI3_L15"],
         "tags": []
@@ -4625,7 +4625,7 @@
         "id": "4e4b510d-e261-4231-9038-23e3f73ec073",
         "meaning": "My big brother is scheduled to get married this September.",
         "text": {
-          "spelling": "{兄|あに}は{九月|く・がつ}に{結婚|けっ・こん}する{予定|よ.てい}です。"
+          "spelling": "{兄|あに}は{九月|く・がつ}に{結婚|けっ・こん}する{予定|よ・てい}です。"
         },
         "lesson_codes": ["GENKI3_L15"],
         "tags": []
@@ -4634,7 +4634,7 @@
         "id": "23770413-3b86-4f13-aa9b-481b381c5be7",
         "meaning": "I am not planning to come to school tomorrow.",
         "text": {
-          "spelling": "{明日|あした}は{学校|がっ・こう}に{来|こ}ない{予定|よ.てい}です。"
+          "spelling": "{明日|あした}は{学校|がっ・こう}に{来|こ}ない{予定|よ・てい}です。"
         },
         "lesson_codes": ["GENKI3_L15"],
         "tags": []
