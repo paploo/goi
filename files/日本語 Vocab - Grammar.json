@@ -2055,7 +2055,7 @@
         "id": "4f493e43-03e3-4326-9fed-5db136c123eb",
         "meaning": "I have become fond of studying Japanese.",
         "text": {
-          "spelling": "{日本語|に・ほん・ご}の{勉強|べん・きょう}が{好|い}きになりました。"
+          "spelling": "{日本語|に・ほん・ご}の{勉強|べん・きょう}が{好|す}きになりました。"
         },
         "lesson_codes": ["GENKI3_L10"],
         "tags": []
@@ -2741,7 +2741,7 @@
         "id": "be4c9c52-586d-46dc-ae32-3934d916f862",
         "meaning": "I got up too early.<br/>My Mom talks too much.<br/>You must not eat too much.",
         "text": {
-          "spelling": "{早|はや}く{起|お}きすぎました。<br/>{母|はは}は{話|は}しすぎます。<br/>{食|た}べすぎてはいけません。"
+          "spelling": "{早|はや}く{起|お}きすぎました。<br/>{母|はは}は{話|はな}しすぎます。<br/>{食|た}べすぎてはいけません。"
         },
         "lesson_codes": ["GENKI3_L12"],
         "tags": []
@@ -2853,7 +2853,7 @@
         "id": "3c47e905-de8b-4fdd-bfc0-79e80bc0b43b",
         "meaning": "My Japanese has improved because I always speak Japanese<br/>(I always speak Japanese, therefore my Japanese has improved.)",
         "text": {
-          "spelling": "いつも{日本語|に・ほん・ご}で{話|はな}すので、{日本語|に・ほん・ご}が{上手|じょうず}になりました。"
+          "spelling": "いつも{日本語|に・ほん・ご}で{話|はな}すので、{日本語|に・ほん・ご}が{上手|じょう・ず}になりました。"
         },
         "lesson_codes": ["GENKI3_L12"],
         "tags": []
@@ -3096,7 +3096,7 @@
         "id": "a2b03de5-83fd-4d4a-9490-acb0c7f65cd7",
         "meaning": "(I assume) she is cute.",
         "text": {
-          "spelling": "{彼女|かの・じょ}は{可愛|か・わい}いでしょう。"
+          "spelling": "{彼女|かの・じょ}は{可愛|かわい}いでしょう。"
         },
         "lesson_codes": ["TOFUGU_DESHOU"],
         "tags": []
@@ -3393,7 +3393,7 @@
         "id": "204940de-5a14-4cd5-8335-e14b9b4d2419",
         "meaning": "It does not look like Sora is good at tennis.",
         "text": {
-          "spelling": "ソラさんはテニスが{上手|じょうず}じゃなさそうです。"
+          "spelling": "ソラさんはテニスが{上手|じょう・ず}じゃなさそうです。"
         },
         "lesson_codes": ["GENKI3_L13"],
         "tags": []
@@ -3420,7 +3420,7 @@
         "id": "04a8a350-0322-4692-b0f4-f624586dc8a4",
         "meaning": "It does not look like Sora is good at tennis.",
         "text": {
-          "spelling": "ソラさんはテニスが{上手|じょうず}そうじゃないです。"
+          "spelling": "ソラさんはテニスが{上手|じょう・ず}そうじゃないです。"
         },
         "lesson_codes": ["GENKI3_L13"],
         "tags": []
@@ -3512,7 +3512,7 @@
         "id": "b34e0315-3a15-4998-94f3-a30a04c1a7cf",
         "meaning": "A: That karate teacher is really good at teaching.<br/>B: Well then, I will try going to their karate class.",
         "text": {
-          "spelling": "Ａ：あの{空手|から・て}の{先生|せん・せい}は{教|おし}えるのがとても{上手|じょうず}ですよ。<br/>B：じゃあ、{空手|から・て}のクラスに{行|い}ってみます。"
+          "spelling": "Ａ：あの{空手|から・て}の{先生|せん・せい}は{教|おし}えるのがとても{上手|じょう・ず}ですよ。<br/>B：じゃあ、{空手|から・て}のクラスに{行|い}ってみます。"
         },
         "lesson_codes": ["GENKI3_L13"],
         "tags": []
@@ -3668,7 +3668,7 @@
         "id": "281080bb-727e-4243-9437-84c07b54e0b2",
         "meaning": "I take a bath twice per six weeks.",
         "text": {
-          "spelling": "{私|わたし}は{６週間|ろく・しゅう・かん}に{２回|に・かい}お{風呂|ふろ}に{入|はい}る。"
+          "spelling": "{私|わたし}は{６週間|ろく・しゅう・かん}に{２回|に・かい}お{風呂|ふ・ろ}に{入|はい}る。"
         },
         "lesson_codes": [],
         "tags": []
@@ -3695,7 +3695,7 @@
         "id": "7080910a-7ccb-4cb5-99e5-8cf40e6e20da",
         "meaning": "I want a good grade.",
         "text": {
-          "spelling": "いい{成績|せいせき}が{欲|ほ}しいです。"
+          "spelling": "いい{成績|せい・せき}が{欲|ほ}しいです。"
         },
         "lesson_codes": ["GENKI3_L14"],
         "tags": []
@@ -4168,7 +4168,7 @@
         "id": "0ac6d6f7-51f6-4117-913c-6e374a800908",
         "meaning": "Bocchi has only one friend.",
         "text": {
-          "spelling": "ぼっちちゃんは{友達|ともだち}が{一人|ひとり}しかいません。"
+          "spelling": "ぼっちちゃんは{友達|とも・だち}が{一人|ひとり}しかいません。"
         },
         "lesson_codes": ["GENKI3_L14"],
         "tags": []
@@ -4317,7 +4317,7 @@
         "id": "700b4e7d-a3cc-4099-a0b5-1e2b7fc33192",
         "meaning": "A: Shall I lend you a hand?<br/>B: No, I'm doing okay.",
         "text": {
-          "spelling": "Ａ：{手伝|て・っだ}おうか。<br/>Ｂ：ううん。{大丈夫|だい・じょう・ぶ}。"
+          "spelling": "Ａ：{手伝|て・つだ}おうか。<br/>Ｂ：ううん。{大丈夫|だい・じょう・ぶ}。"
         },
         "lesson_codes": ["GENKI3_L15"],
         "tags": []
@@ -4353,7 +4353,7 @@
         "id": "719e66b8-b4a9-47cd-9dbf-886f6eac178c",
         "meaning": "A: How shall we go [there]?<br/>B: Let's go [there] by train.",
         "text": {
-          "spelling": "Ａ：どうやって{行|い}こうか。<br/>Ｂ：{電車|でんしゃ}で{行|い}こう。"
+          "spelling": "Ａ：どうやって{行|い}こうか。<br/>Ｂ：{電車|でん・しゃ}で{行|い}こう。"
         },
         "lesson_codes": ["GENKI3_L15"],
         "tags": []
@@ -4574,7 +4574,7 @@
         "id": "be0c8ca6-c804-4dd5-afc6-6e3dbcd97ac5",
         "meaning": "A: What kind of friend do you want?<br>B: A friend who doesn't lie.",
         "text": {
-          "spelling": "Ａ：どんな{友達|とも・だち}が{欲|ほしい}しいてすか。<br/>Ｂ：<u>{嘘|うそ}をつかない</u>{友達|とも・だち}が{欲|ほしい}しいです。"
+          "spelling": "Ａ：どんな{友達|とも・だち}が{欲|ほ}しいてすか。<br/>Ｂ：<u>{嘘|うそ}をつかない</u>{友達|とも・だち}が{欲|ほ}しいです。"
         },
         "lesson_codes": ["GENKI3_L15"],
         "tags": []
@@ -4772,7 +4772,7 @@
         "id": "31b92d75-de37-4391-816e-59b08a096af0",
         "meaning": "I got my friend to help me with my homework.",
         "text": {
-          "spelling": "{私|わたし}は{友達|とも・だち}に{宿題|しゅく・だい}を{手伝|て・っだ}ってもらいました。"
+          "spelling": "{私|わたし}は{友達|とも・だち}に{宿題|しゅく・だい}を{手伝|て・つだ}ってもらいました。"
         },
         "lesson_codes": ["GENKI3_L16"],
         "tags": []
@@ -5164,7 +5164,7 @@
         "id": "81da606c-bb88-4ba3-ae25-e5efe80f3340",
         "meaning": "When I am lonely, I call up friends.",
         "text": {
-          "spelling": "{寂|さび}しい{時|とき}、{友達|とも・だち}に{電話|でん・しゃ}します。"
+          "spelling": "{寂|さび}しい{時|とき}、{友達|とも・だち}に{電話|でん・わ}します。"
         },
         "lesson_codes": ["GENKI3_L16"],
         "tags": []
@@ -5214,7 +5214,7 @@
         "id": "dc32eb3c-ab00-45a6-a6b4-b5b5ad8dd6c1",
         "meaning": "When I go to china, I will buy oolong tea.<br/><i>(Will go to China <u>before</u> buying oolong tea)</i>",
         "text": {
-          "spelling": "{中国|ちゅ・うごく}に{行|い}った{時|とき}、ウーロン{茶|ちゃ}を{買|か}います。"
+          "spelling": "{中国|ちゅう・ごく}に{行|い}った{時|とき}、ウーロン{茶|ちゃ}を{買|か}います。"
         },
         "lesson_codes": ["GENKI3_L16"],
         "tags": []
@@ -5223,7 +5223,7 @@
         "id": "d45fa36d-a04d-4297-997b-fe057eda58bc",
         "meaning": "When I went to China, I bought oolong tea.<br/><i>(Went to China <u>before</u> bought oolong tea)</i>",
         "text": {
-          "spelling": "{中国|ちゅ・うごく}に{行|い}った{時|とき}、ウーロン{茶|ちゃ}を{買|か}いました。"
+          "spelling": "{中国|ちゅう・ごく}に{行|い}った{時|とき}、ウーロン{茶|ちゃ}を{買|か}いました。"
         },
         "lesson_codes": ["GENKI3_L16"],
         "tags": []
@@ -5345,7 +5345,7 @@
         "id": "03d26b46-0f63-4c35-b835-2dfec0bf8748",
         "meaning": "I measured the weight (lit., heaviness) of my luggage before going to the airport.",
         "text": {
-          "spelling": "{空港|くうこう}へ{行|い}く{前|まえ}に、カバンの<u>{重|おも}さ</u>を{測|はか}りました。"
+          "spelling": "{空港|くう・こう}へ{行|い}く{前|まえ}に、カバンの<u>{重|おも}さ</u>を{測|はか}りました。"
         },
         "lesson_codes": ["TOFUGU_ADJECTIVE_SUFFIX_SA"],
         "tags": []
@@ -5354,7 +5354,7 @@
         "id": "726221d7-97a0-48f7-a062-1959ed9e3a5d",
         "meaning": "Check the depth (lit., deepness) of the swimming pool before you get in.",
         "text": {
-          "spelling": "プールの<u>{深|ふか}さ</u>を{確認|かくにん}してから{入|は}ろう。"
+          "spelling": "プールの<u>{深|ふか}さ</u>を{確認|かくにん}してから{入|はい}ろう。"
         },
         "lesson_codes": ["TOFUGU_ADJECTIVE_SUFFIX_SA"],
         "tags": []
@@ -5430,7 +5430,7 @@
         "id": "ade6c757-cad0-4582-a267-0c44ddd38def",
         "meaning": "A: Concerning your classmates, what do you know?<br/>I hear that Kumiko Ōmae broke-up with their boyfriend.",
         "text": {
-          "spelling": "Ａ：{同|おな}じクラスの{学生|せん・せい}について{何|なに}か{知|し}っていますか。<br/>Ｂ：はい。{黄前|おう・まえ}{久美子|く・み・こ}さんは{彼|かれ}と{別|わか}れたそうです。"
+          "spelling": "Ａ：{同|おな}じクラスの{学生|がく・せい}について{何|なに}か{知|し}っていますか。<br/>Ｂ：はい。{黄前|おう・まえ}{久美子|く・み・こ}さんは{彼|かれ}と{別|わか}れたそうです。"
         },
         "lesson_codes": ["GENKI3_L17"],
         "tags": []
@@ -5508,7 +5508,7 @@
         "id": "bebf136d-3f2d-49be-a2fb-f58bb989791f",
         "meaning": "Hoshino says he's busy today. He says he has an exam tomorrow.",
         "text": {
-          "spelling": "{星野|ほし・の}さん、{今日|きょう}は{忙|いそが}しい<u>って</u>。{明日|あした}、{試験|しけん}あるんだ<u>って</u>。"
+          "spelling": "{星野|ほし・の}さん、{今日|きょう}は{忙|いそが}しい<u>って</u>。{明日|あした}、{試験|し・けん}あるんだ<u>って</u>。"
         },
         "lesson_codes": ["GENKI3_L17"],
         "tags": []
@@ -5788,7 +5788,7 @@
         "id": "7fb4fc7e-61d4-443f-8b27-3ef6aa3e3506",
         "meaning": "Before I came to Japan, I studied Japanese for one semester.",
         "text": {
-          "spelling": "{日本|に・ほん}に{来|く}る{前|まえ}に、{一|いち}{学期|がっき}{日本語|に・ほん・ご}を{勉強|べんきょう}しました。"
+          "spelling": "{日本|に・ほん}に{来|く}る{前|まえ}に、{一|いち}{学期|がっき}{日本語|に・ほん・ご}を{勉強|べん・きょう}しました。"
         },
         "lesson_codes": ["GENKI3_L17"],
         "tags": []
@@ -5894,7 +5894,7 @@
         "id": "198400bd-aba6-4dd7-903c-8f3966e5fd35",
         "meaning": "Intransitive: Professor Yamanaka is married.",
         "text": {
-          "spelling": "{自動詞|じ・どう・し}：{山中|やま・なか}{先生|せん・せい}は{結婚|けっこん}しています。"
+          "spelling": "{自動詞|じ・どう・し}：{山中|やま・なか}{先生|せん・せい}は{結婚|けっ・こん}しています。"
         },
         "lesson_codes": ["GENKI3_L18"],
         "tags": []
@@ -6066,7 +6066,7 @@
         "id": "a4f162b3-bc81-4a32-ba12-5334d3c29a50",
         "meaning": "When I was young, whenever winter arrived, I caught a cold.",
         "text": {
-          "spelling": "{私|わたし}は{子供|こ・ども}の{時|とき}、{冬|ふゆ}になると{風邪|か・ぜ}を{引|ひ}きました"
+          "spelling": "{私|わたし}は{子供|こ・ども}の{時|とき}、{冬|ふゆ}になると{風邪|かぜ}を{引|ひ}きました"
         },
         "lesson_codes": ["GENKI3_L18"],
         "tags": []
@@ -6127,7 +6127,7 @@
         "id": "225dae80-f417-4572-aecc-d5133675781a",
         "meaning": "Whenever a response doesn't come from a friend, I get uneasy.",
         "text": {
-          "spelling": "{友達|ともだち}から{返事|へんじ}が{来|こ}ないと、{不安|ふ・あん}になります。"
+          "spelling": "{友達|とも・だち}から{返事|へんじ}が{来|こ}ないと、{不安|ふ・あん}になります。"
         },
         "lesson_codes": ["GENKI3_L18"],
         "tags": []
@@ -6256,7 +6256,7 @@
         "id": "f6c7851c-2c00-4d79-b993-41a6c3a2eab0",
         "meaning": "I regrettably lost my father's precious watch. I should have been more careful.",
         "text": {
-          "spelling": "{父|ちち}の{大切|たいせつ}な{時計|とけい}をなくしてしまったんです。もっと{気|き}をつければよかったです。"
+          "spelling": "{父|ちち}の{大切|たいせつ}な{時計|と・けい}をなくしてしまったんです。もっと{気|き}をつければよかったです。"
         },
         "lesson_codes": ["GENKI3_L18"],
         "tags": []
@@ -6265,7 +6265,7 @@
         "id": "a7684f46-5397-4c89-8c80-ac4ba9db3138",
         "meaning": "I bought a refrigerator, however right away it completely broke. I should not have bought a cheap one.",
         "text": {
-          "spelling": "{冷蔵庫|れい・ぞう・こ}を{買|か}いましたが、すぐ{壊|こわ}れてしまいました。{安|や}いのを{買|か}わなければよかったです。"
+          "spelling": "{冷蔵庫|れい・ぞう・こ}を{買|か}いましたが、すぐ{壊|こわ}れてしまいました。{安|やす}いのを{買|か}わなければよかったです。"
         },
         "lesson_codes": ["GENKI3_L18"],
         "tags": []
@@ -6317,7 +6317,7 @@
         "id": "fbae78e1-0192-4be9-8215-70420c08b57c",
         "meaning": "Teacher: Congratulations on your graduation.<br/>Student: Professor, I owe it to you.",
         "text": {
-          "spelling": "{先生|せん・せい}：{卒業|そつぎょう}おめでとう。<br/>{学生|がくせい}：{先生|せん・せい}のおかげです。"
+          "spelling": "{先生|せん・せい}：{卒業|そつ・ぎょう}おめでとう。<br/>{学生|がく・せい}：{先生|せん・せい}のおかげです。"
         },
         "lesson_codes": ["GENKI3_L18"],
         "tags": []
@@ -6381,7 +6381,7 @@
         "id": "d8fd98ea-b6a3-48a7-80b9-75259aa760c6",
         "meaning": "Ms. Tanaka's mother gave me this book.",
         "text": {
-          "spelling": "{田中|た・なか}さんのお{母|か}さんがこの{本|ほん}をくださいました。"
+          "spelling": "{田中|た・なか}さんのお{母|かあ}さんがこの{本|ほん}をくださいました。"
         },
         "lesson_codes": ["GENKI3_L19"],
         "tags": []
@@ -6588,7 +6588,7 @@
         "id": "ee3603f6-1afe-4ada-99b2-5e66e06a197b",
         "meaning": "Thank you for helping me out.",
         "text": {
-          "spelling": "{手伝|てつ・だ}ってくれてありがとう。"
+          "spelling": "{手伝|て・つだ}ってくれてありがとう。"
         },
         "lesson_codes": ["GENKI3_L19"],
         "tags": []
@@ -7047,7 +7047,7 @@
         "id": "cc066060-ef8b-46e0-9617-04b086c1c6c6",
         "meaning": "I (humbly) received this book from my professor.",
         "text": {
-          "spelling": "{私|わたし}は{先生|せんせい}にこの{本|ほん}をいただきました。"
+          "spelling": "{私|わたし}は{先生|せん・せい}にこの{本|ほん}をいただきました。"
         },
         "lesson_codes": ["GENKI3_L20"],
         "tags": []
@@ -7056,7 +7056,7 @@
         "id": "f1841b4b-53a8-4408-afcb-b0e565190ba1",
         "meaning": "I (humbly) had my professor teach me kanji.",
         "text": {
-          "spelling": "{私|わたし}は{先生|せんせい}に{漢字|かん・じ}を{教|おし}えていだたきました。"
+          "spelling": "{私|わたし}は{先生|せん・せい}に{漢字|かん・じ}を{教|おし}えていだたきました。"
         },
         "lesson_codes": ["GENKI3_L20"],
         "tags": []
@@ -7065,7 +7065,7 @@
         "id": "7d986059-300a-4212-8434-3fe277d85eb8",
         "meaning": "I will (humbly) give my professor flowers.",
         "text": {
-          "spelling": "{私|わたし}は{先生|せんせい}に{花|はな}を{差|さ}し{上|あ}げます。"
+          "spelling": "{私|わたし}は{先生|せん・せい}に{花|はな}を{差|さ}し{上|あ}げます。"
         },
         "lesson_codes": ["GENKI3_L20"],
         "tags": []
@@ -7074,7 +7074,7 @@
         "id": "95c4f107-9ccc-48e9-9475-b29c601e8aa6",
         "meaning": "Because tomorrow is the department manager's birthday, I have decided to give her something.",
         "text": {
-          "spelling": "{明日|あした}は{部長|ぶ・ちょう}の{誕生日|たん・じょう・び}なので、{何|なに}か{差|さし}し{上|あ}げようと{思|おも}っています。"
+          "spelling": "{明日|あした}は{部長|ぶ・ちょう}の{誕生日|たん・じょう・び}なので、{何|なに}か{差|さ}し{上|あ}げようと{思|おも}っています。"
         },
         "lesson_codes": ["GENKI3_L20"],
         "tags": []
@@ -7262,7 +7262,7 @@
         "id": "a97cd997-acc7-4c8a-bb58-417613423a48",
         "meaning": "I don't know if that person is a student.<br/>(lit. Is that person whether or not a student?; I don't know.)",
         "text": {
-          "spelling": "あの{人|ひと}が{学生|せん・せい}かどうか{分|わ}かりません。"
+          "spelling": "あの{人|ひと}が{学生|がく・せい}かどうか{分|わ}かりません。"
         },
         "lesson_codes": ["GENKI3_L20"],
         "tags": []
@@ -7321,7 +7321,7 @@
         "id": "f67ff002-3870-45a0-9f37-3f63508c7f70",
         "meaning": "The other day, a food called nattō, I tried for the first time.",
         "text": {
-          "spelling": "この{間|あい}、{初|はじ}めて{納豆|なっ・とう}という{食|た}べ{物|もの}を{食|た}べました。"
+          "spelling": "この{間|あいだ}、{初|はじ}めて{納豆|なっ・とう}という{食|た}べ{物|もの}を{食|た}べました。"
         },
         "lesson_codes": ["GENKI3_L20"],
         "tags": []
@@ -7739,7 +7739,7 @@
         "id": "372ddb4f-d389-4814-9d82-8598a6bd128d",
         "meaning": "There are a lot of vocabulary we have to memorize. Please make it less.",
         "text": {
-          "spelling": "{覚|おぼ}えなければいけない{単語|かん・たん}がたくさんあります。{少|すく}なくして{下|くだ}さい"
+          "spelling": "{覚|おぼ}えなければいけない{単語|たん・ご}がたくさんあります。{少|すく}なくして{下|くだ}さい"
         },
         "lesson_codes": ["GENKI3_L21"],
         "tags": []
