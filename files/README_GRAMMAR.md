@@ -48,8 +48,11 @@ This document defines the ruby/furigana template style used in `日本語 Vocab 
 #### Known project‑specific decisions and exceptions
 - Whole‑word readings (no `・`):
   - `{明日|あした}`、`{今日|きょう}`、`{昨日|きのう}`、`{今年|ことし}`
+  - `{一人|ひとり}`、`{二人|ふたり}`
 - Per‑kanji readings (use `・`) even though lexicalized for learners in many contexts:
   - `{日本|に・ほん}`、`{子供|こ・ども}`、`{寿司|す・し}`
+  - People counter from three and up: `{三人|さん・にん}`、`{四人|よ・にん}`、`{五人|ご・にん}` …
+    - Rarely, the Sino‑Japanese reading may be intended even for one person in specialized contexts: `{一人|いち・にん}`. Default to `{一人|ひとり}` unless the context explicitly requires `いちにん`.
 - Particle pronunciation annotations (Latin letters), used deliberately for pedagogy:
   - `{は|wa}` within 〜てはいけません / 〜てはいけない
   - `{は|ha}` within はず (…はずです / …はずがない / …はずがありません)
@@ -75,6 +78,8 @@ prefer whole‑word unless there is a project decision to split per‑kanji. Whe
 レポートの{締|し}め{切|き}りは{明日|あした}じゃない{は|ha}ずです。
 {寿司|す・し}が{一番|いち・ばん}{美味|おい}しいと{思|おも}います。
 {食|た}べすぎたので、{今年|ことし}は{野菜|や・さい}を{多|おお}く{食|た}べます。
+{部長|ぶ・ちょう}は{一人|ひとり}で{全部|ぜん・ぶ}できませんでした。
+{三人|さん・にん}で{行|い}きます。
 ```
 
 #### Sources and rationale (short)
@@ -82,4 +87,4 @@ prefer whole‑word unless there is a project decision to split per‑kanji. Whe
 - Standard dictionaries (Daijisen/Kotobank, Weblio) list whole‑word readings for lexicalized items like 明日/今日/昨日/今年.
 - This project also includes pedagogical exceptions (particles and a few lexicalized words) for learner clarity and internal consistency.
 
-Last updated: 2025-11-12 21:59 (local)
+Last updated: 2025-11-16 17:18 (local)

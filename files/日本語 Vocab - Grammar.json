@@ -7409,7 +7409,7 @@
   {
     "id": "077c9eb0-611c-48a8-b743-3fbe062ea691",
     "title": "ＣはＤにＶれる (passive)",
-    "meaning": "C is caused by D to be sad/andy/hurt/embarrassed by act V",
+    "meaning": "C is caused by D to be sad/angry/hurt/embarrassed by act V",
     "how_to_use": [
       "victim + は + villain + に + verb (passive)",
       "cannot be used with adjectives",
@@ -7915,5 +7915,79 @@
   },
 
   {"COMMENT": "GENKI LESSON 22"},
+  {
+    "id": "a37ad4cc-6d3b-4dcc-ac3a-59029d042fb9",
+    "title": "ＤはＣにＶせる (causative)",
+    "meaning": "D made/let C do the action",
+    "how_to_use": [
+      "director + は + cast に + verb (causative)",
+      "Director decides what is allowed and what must be done",
+      "Director marked with は or sometimes が",
+      "Cast usually marked with に, but in some cases を:",
+      "When action is a reflex (e.g. crying, laughing)",
+      "When the verb usually doesn't take を (e.g. 行く, 座る)"
+    ],
+    "examples": [
+      {
+        "id": "97f28308-18bd-41b4-9981-96ecab7c40cb",
+        "meaning": "The father made/let his child eat vegetables.",
+        "text": {
+          "spelling": "お{父|とう}さんは{子供|こ・ども}に{野菜|や・さい}を{食|た}べさせました。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "a5b1e252-893a-445b-bb62-cd90b6cfadec",
+        "meaning": "The mother made/let her child read the book.",
+        "text": {
+          "spelling": "お{母|かあ}さんは{子供|こ・ども}に{本|ほん}を{読|よ}ませました。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "8c867c8b-1db0-41db-a386-669ca5fc616e",
+        "meaning": "The professor made/let me go to the bathroom.",
+        "text": {
+          "spelling": "{先生|せん・せい}は{私|わたし}をトイレに{行|い}かせました。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "b7c71b03-dda0-414e-ae51-e5bd39f9ff1b",
+        "meaning": "The manager was carrying a large suitcase and arrived at the airport.<br/>The manager made the subordinate come to pick them up.",
+        "text": {
+          "spelling": "{部長|ぶ・ちょう}は{大|おお}きい{荷物|に・もつ}を{持|も}って、{空港|くう・こう}につきました。<br/>{部長|ぶ・ちょう}は{部下|ぶ・か}に{迎|むか}えに{来|こ}させました。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "63106191-abf3-47ae-982b-ce9c5e67e801",
+        "meaning": "The work was too much, the manager alone could not do all of it.<br/>The manager made the subordinate help.",
+        "text": {
+          "spelling": "{仕事|し・ごと}が{多|おお}すぎて、{部長|ぶ・ちょう}は{一人|ひとり}で{全部|ぜん・ぶ}できませんでした。<br/>{部長|ぶ・ちょう}は{部下|ぶ・か}に{手伝|て・つだ}わせました。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "85816dd4-3fa5-45dd-b19f-7e76c962e862",
+        "meaning": "Because [he] was [いる past form] in a hurry, the manager regrettably dropped his document.<br/>The manager made the subordinate pick it up.",
+        "text": {
+          "spelling": "{急|いそ}いでいたので、{部長|ぶ・ちょう}は{書類|しょ・るい}を{落|お}としてしまいました。<br/>{部長|ぶ・ちょう}は{部下|ぶ・か}に{書類|しょ・るい}を{拾|ひろ}わせました。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-11-16",
+    "lesson_codes": ["GENKI3_L22"],
+    "tags": []
+  },
+
   {"COMMENT": "GENKI LESSON 23"}
 ]
