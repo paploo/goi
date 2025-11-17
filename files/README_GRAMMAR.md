@@ -45,6 +45,22 @@ This document defines the ruby/furigana template style used in `日本語 Vocab 
    - Always use the middle dot `・` between per‑kanji reading segments.
    - Do not use periods `.`, slashes `/`, or any other characters as separators.
 
+#### Kanji with multiple readings — choose by sentence context
+- Many kanji and compounds have multiple possible readings (onyomi/kunyomi, lexicalized readings, or homographs).
+- Always determine the reading from the sentence as a whole — not from the kanji in isolation.
+  - Consider the word intended, surrounding grammar/particles, okurigana, and common collocations.
+  - Examples:
+    - `生`: context may require `{生|なま}`, `{生|せい}`, `{生|しょう}`, `{生|い}` etc.
+    - `上手`: usually the whole word reading `{上手|じょうず}`; per‑kanji `{うえ・て}` would be wrong in typical grammar examples.
+    - Time words like `今日/昨日/明日` are treated as whole‑word readings in this project: `{今日|きょう}`、`{昨日|きのう}`、`{明日|あした}`.
+- When a word is lexicalized as a unit or mapping readings per kanji is ambiguous, prefer a whole‑word reading (no `・`). See Known decisions below.
+- Do not force per‑kanji readings when the intended word is a set phrase or has an idiomatic reading.
+- For AI/template generation:
+  - Analyze the entire sentence first (morphology and dictionary lookup) to identify the tokenization and intended lemmas.
+  - Assign readings to tokens, not bare characters. Only split per‑kanji if the token’s reading unambiguously distributes across its kanji.
+  - If multiple readings remain plausible, choose the most common reading for the intended lemma in the given grammar pattern; avoid rare/specialized readings unless clearly signaled by context.
+  - As a fallback, prefer whole‑word readings over potentially incorrect per‑kanji splits.
+
 #### Known project‑specific decisions and exceptions
 - Whole‑word readings (no `・`):
   - `{明日|あした}`、`{今日|きょう}`、`{昨日|きのう}`、`{今年|ことし}`
@@ -67,6 +83,7 @@ prefer whole‑word unless there is a project decision to split per‑kanji. Whe
   - Uses `・` (not `.`) as the segment separator.
   - Does not wrap punctuation or HTML tags.
   - Uses hiragana for readings, except the curated particle cases which use ASCII `wa` or `ha`.
+- The chosen reading matches the intended word and grammar of the sentence (accounting for multiple possible readings of the kanji).
 - Whole‑word items listed above are not split; there is no `・` inside their readings.
 - Particle annotations appear only in the curated contexts listed above.
 
@@ -87,4 +104,4 @@ prefer whole‑word unless there is a project decision to split per‑kanji. Whe
 - Standard dictionaries (Daijisen/Kotobank, Weblio) list whole‑word readings for lexicalized items like 明日/今日/昨日/今年.
 - This project also includes pedagogical exceptions (particles and a few lexicalized words) for learner clarity and internal consistency.
 
-Last updated: 2025-11-16 17:18 (local)
+Last updated: 2025-11-16 20:51 (local)
