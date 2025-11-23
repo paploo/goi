@@ -7988,6 +7988,143 @@
     "lesson_codes": ["GENKI3_L22"],
     "tags": []
   },
+  {
+    "id": "6dfd2105-caf5-4084-b804-4d8bf1fcfec2",
+    "title": "ＤはＣにＶせてあげるる<br/>ＤはＣにＶせてくれる<br/>ＤはＣにＶせてもらう",
+    "meaning": "D <i>let</i> C do the action",
+    "how_to_use": [
+      "director + は + cast に + verb (causative て-form) + あげる",
+      "director + は + cast に + verb (causative て-form) + くれる",
+      "director + は + cast に + verb (causative て-form) + もらう"
+    ],
+    "examples": [
+      {
+        "id": "51ed1273-8793-412d-afcc-10b1fb36dd25",
+        "meaning": "The professor did not allow me to speak in English.",
+        "text": {
+          "spelling": "{先生|せん・せい}は{私|わたし}に{英語|えい・ご}を{話|はな}させてくれませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "0c3c90b9-568c-444c-bfe1-9e9ecaab73c2",
+        "meaning": "I intend to let my children do what they love.",
+        "text": {
+          "spelling": "{私|わたし}は{自分|じ・ぶん}の{子供|こ・ども}に{好|す}きなことをさせてあげるつもりです。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "744c2872-a800-4951-9392-ebd468ef3a57",
+        "meaning": "My father does not let me live alone.",
+        "text": {
+          "spelling": "{父|ちち}は{一人|ひとり}{暮|ぐら}しをさせてくれません。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "12771cec-7fb0-43d3-88be-6f0201f2a2d8",
+        "meaning": "When we play tennis, I sometimes let my little sister win.",
+        "text": {
+          "spelling": "テニスをする{時|とき}、{私|わたし}は{時々|とき・どき}{妹|いもうと}に{勝|か}たせてあげます。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-11-23",
+    "lesson_codes": ["GENKI3_L22"],
+    "tags": []
+  },
+  {
+    "id": "a24d008d-3afa-48a9-b1de-c1b9c2f248be",
+    "title": "Ｖせてください",
+    "meaning": "please let me do...",
+    "how_to_use": [
+      "verb (causative て-form) + ください"
+    ],
+    "examples": [
+      {
+        "id": "49dc5791-3d73-4326-9bb8-a1c312a2d9f0",
+        "meaning": "Please let me do this job.",
+        "text": {
+          "spelling": "{私|わたし}にこの{仕事|し・ごと}をやらせてください。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-11-23",
+    "lesson_codes": ["GENKI3_L22"],
+    "tags": []
+  },
+  {
+    "id": "c5d5c292-62a5-42c5-b3cc-4cbb405ba983",
+    "title": "〜なさい",
+    "meaning": "command to do (to inferior or occasionally showing care like a parent)",
+    "how_to_use": [
+      "verb (stem) + なさい",
+      "Used when talking down to someone (e.g. you know better)",
+      "Used with children",
+      "Occasionally leads to alt form of <i>showing care</i>, e.g.「おやすみなさい」"
+    ],
+    "examples": [
+      {
+        "id": "fa3465e0-dfd4-41dc-94fe-e1bb74473c03",
+        "meaning": "Come home by 10 o'clock",
+        "text": {
+          "spelling": "{１０|じゅう}{時|じ}までに{帰|かえ}りなさい。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "75d37076-05d7-4a5e-abec-efbd567e63c5",
+        "meaning": "Inside the brackets put a word.",
+        "text": {
+          "spelling": "かっこの{中|なか}に{単語|たん・ご}を{入|い}れなさい。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "b10f21c0-7b24-4bad-b305-15beeaaf96a5",
+        "meaning": "Stop complaining.",
+        "text": {
+          "spelling": "{文句|もん・く}を{言|い}うのをやめなさい。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "4d5af3f3-f9f5-4109-865e-23b62a09cbdf",
+        "meaning": "Parent: Go to bed early.<br/>Child: It's only 11 o'clock! I'm not sleepy yet.",
+        "text": {
+          "spelling": "{親|おや}：{早|はや}く{寝|ね}なさい<br/>{子供|こ・ども}：まだ{１１|じゅう・いち}{時|じ}だよ。まだ{眠|ねむ}くない。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "c9c26c06-f5bb-4023-a7eb-a95b206eb8cd",
+        "meaning": "Child: What? This outfit, you want me to wear? It's ugly.<br/>Parent: This outfit, wear it.",
+        "text": {
+          "spelling": "{子供|こ・ども}：えっ、この{服|ふく}、{着|き}るの？かっこ{悪|わる}い。<br/>この{服|ふく}を{着|き}なさい。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-11-23",
+    "lesson_codes": ["GENKI3_L22"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 23"}
 ]
