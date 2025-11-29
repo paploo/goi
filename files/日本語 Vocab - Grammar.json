@@ -8125,6 +8125,110 @@
     "lesson_codes": ["GENKI3_L22"],
     "tags": []
   },
+  {
+    "id": "ce7793e4-7636-4238-a1eb-7174e1abdd8b",
+    "title": "①ＡばＢ",
+    "meaning": "If A, then (good result) B",
+    "how_to_use": [
+      "A + verb (ば-conditional) + B",
+      "A guarantees a good result in B",
+      "Used for logical cause-and-effect statements"
+    ],
+    "examples": [
+      {
+        "id": "a4db0aa0-1bce-4f73-bcd2-1206d2665afc",
+        "meaning": "If you have a car, you can go to various places.",
+        "text": {
+          "spelling": "{車|くるま}があれば、{色々|いろいろ}なところに{行|い}けます。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "c24d639c-8bad-4247-99ae-560dd323480d",
+        "meaning": "If you lock-up in preparation, a thief will not enter.",
+        "text": {
+          "spelling": "{鍵|かぎ}をかけておけば、{泥棒|どろ・ぼう}に{入|はい}られません。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "6f5832b1-d62c-416e-bf72-e166fd98a142",
+        "meaning": "If the department manager does not object, we can start this project.",
+        "text": {
+          "spelling": "{部長|ぶ・ちょう}が{反対|はん・たい}しなければ、このプロジェクトを{始|はじ}められます。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "9e4ce648-1594-42a9-bb27-1eb6c8516618",
+        "meaning": "If you try (doing it), you may be able to do it.",
+        "text": {
+          "spelling": "やってみれば、できるかもしれません。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "e5d6776e-18c5-4ad7-b2d5-c1bf71b188ef",
+        "meaning": "If you do lesson preparation, you will understand that teacher's class well.",
+        "text": {
+          "spelling": "{予習|よ・しゅう}すれば、あの{先生|せん・せい}の{授業|じゅ・ぎょう}がよくわかります。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-11-28",
+    "lesson_codes": ["GENKI3_L22"],
+    "tags": []
+  },
+  {
+    "id": "d0e3f6f9-44d4-4c31-9e28-71b7a74ce1fb",
+    "title": "②ＡばＢ",
+    "meaning": "If you do my advice A, then good result B",
+    "how_to_use": [
+      "A + verb (ば-conditional) + B",
+      "Advising someone to do A to get good result B",
+      "B is often a vacuous generic expression"
+    ],
+    "examples": [
+      {
+        "id": "799935e4-05ac-4569-916d-a8645a6d0847",
+        "meaning": "If you take this medicine, you will be okay.",
+        "text": {
+          "spelling": "この{薬|くすり}を{飲|の}めば{大丈夫|だい・じょう・ぶ}です。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "aab1b9db-61e1-40ed-bb35-56f15b3c45fd",
+        "meaning": "If you ask the teacher, everything will be fine.",
+        "text": {
+          "spelling": "{先生|せん・せい}に{聞|き}けばいいんです。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "8ff83824-7dbf-4c67-bdd0-ed9f52869891",
+        "meaning": "If we make a reservation in preparation, we wil be fine.",
+        "text": {
+          "spelling": "{予約|よ・やく}しておけば、{大丈夫|だい・じょう・ぶ}です。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-11-28",
+    "lesson_codes": ["GENKI3_L22"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 23"}
 ]
