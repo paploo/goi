@@ -4653,8 +4653,9 @@
     "meaning": "Somebody does something for somebody else (e.g. as a favor)<br/>I do something for you (e.g. as a favor)",
     "how_to_use": [
       "verb (て form) + あげる",
+      "implies the speaker is doing a kind, helpful, or considerate action",
       "does no change basic meaning; implies 'on demand' or as a 'favor action'",
-      "nouns referring to beneficiary use whatever particle the main verb calls for."
+      "nouns referring to beneficiary use whatever particle the main verb calls for"
     ],
     "examples": [
       {
@@ -4711,9 +4712,11 @@
   {
     "id": "19c5e6c0-f03e-4415-bca0-ce2cedb40396",
     "title": "〜てくれる",
-    "meaning": "somebody does something for me",
+    "meaning": "somebody does something for me / to help me",
     "how_to_use": [
       "verb (て form) + くれる",
+      "implies the recipient feels grateful or happy about the other person’s action; it’s a “kindness toward me",
+      "focus is on the helper",
       "does no change basic meaning; implies on demand or as a favor action",
       "nouns referring to beneficiary (when present) use whatever particle the main verb calls for."
     ],
@@ -4765,7 +4768,9 @@
     "title": "〜てもらう",
     "meaning": "get, persuade, or arrange for somebody to do something for me",
     "how_to_use": [
-      "(私 + は）+ benefactor + に + sentence (て form) + もらう"
+      "(私 + は）+ benefactor + に + sentence (て form) + もらう",
+      "Implies the speaker (reciever) requested, arranged, or caused the action",
+      "Focus is on the recipient’s perspective rather than the doer’s"
     ],
     "examples": [
       {
