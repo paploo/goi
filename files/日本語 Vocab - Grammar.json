@@ -8234,6 +8234,77 @@
     "lesson_codes": ["GENKI3_L22"],
     "tags": []
   },
+  {
+    "id": "3aabedca-9356-4b73-a376-5695daff5a7d",
+    "title": "ＡのにＢ",
+    "meaning": "A, but contrary to expectations, B<br/>Despite the fact A, it is B",
+    "how_to_use": [
+      "verb (short) + のに + clause",
+      "noun + な + のに + clause",
+      "な-adj + な + のに + clause",
+      "connects two facts, thus cannot have non-factual sentences like requests or suggestions"
+    ],
+    "examples": [
+      {
+        "id": "2da48ec9-341c-4fae-b246-134b8a9b4838",
+        "meaning": "This company is rich, but contrary to expectations, its workers' salaries are low.",
+        "text": {
+          "spelling": "この{会社|かい・しゃ}はお{金|かね}があるのに、{給料|きゅう・りょう}は{安|やす}いです。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "c06090a8-9dba-4711-be3c-783da4c0a1af",
+        "meaning": "Because he doesn't have a license but (contrary to expectations) drove a car, the police arrested him.",
+        "text": {
+          "spelling": "{彼|かれ}は{免許|めん・きょ}を{持|も}っていないのに{車|くるま}を{運転|うん・てん}したので、{警察|けい・さつ}に{捕|つか}まりました。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "9dda1e8d-9b5b-4f4c-ab46-698f6395c5f0",
+        "meaning": "I did anything for them (as a favor), but contrary to expectations, I was (regretfully) dumped by them (and it hurt).",
+        "text": {
+          "spelling": "{何|なん}でもしてあげたのに、{振|ふ}られてしまいました。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "2627e2f6-cd6c-4223-83ff-609b00f144f5",
+        "meaning": "Ms. Tanaka is nice, but contrary to expectations, Ms. yamada does not like her.",
+        "text": {
+          "spelling": "{田中|た・なか}さんは{親切|しん・せつ}なのに、{山田|や・まだ}さんは{田中|た・なか}さんが{嫌|きら}いです。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "1737f350-a895-4ecd-8d06-cc5ea75ba523",
+        "meaning": "It is a big complaint, but contrary to expectations, that person does not consult with anybody.",
+        "text": {
+          "spelling": "{大|おお}きい{問題|もん・だい}なのに、あの{人|ひと}は{誰|だれ}にも{相談|そう・だん}しません。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "f2311e49-74b8-4614-80f6-b732609c1090",
+        "meaning": "The job was difficult, but contrary to expectations, he did does not complain.",
+        "text": {
+          "spelling": "{仕事|し・ごと}が{大変|たい・へん}なのに、{彼|かれ}は{文句|もん・く}を{言|い}いません。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-12-07",
+    "lesson_codes": ["GENKI3_L22"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 23"}
 ]
