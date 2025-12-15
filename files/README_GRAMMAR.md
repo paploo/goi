@@ -97,6 +97,7 @@ prefer whole‑word unless there is a project decision to split per‑kanji. Whe
 {食|た}べすぎたので、{今年|ことし}は{野菜|や・さい}を{多|おお}く{食|た}べます。
 {部長|ぶ・ちょう}は{一人|ひとり}で{全部|ぜん・ぶ}できませんでした。
 {三人|さん・にん}で{行|い}きます。
+{彼女|かの・じょ}と{別|わか}れなければよかったです。
 ```
 
 #### Sources and rationale (short)

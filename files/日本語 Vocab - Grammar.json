@@ -8305,6 +8305,106 @@
     "lesson_codes": ["GENKI3_L22"],
     "tags": []
   },
+  {
+    "id": "0cc143fc-5655-47cf-8001-7794f8609e6e",
+    "title": "〜のように",
+    "meaning": "done in the same way as..., comparable to...",
+    "how_to_use": [
+      "noun + のように + verb/adjective"
+    ],
+    "examples": [
+      {
+        "id": "ea1810a8-3848-4270-bdba-481c25ea2bca",
+        "meaning": "Mary, like a fish, can swim very well.",
+        "text": {
+          "spelling": "メアリーさんは{魚|さかな}のように{上手|じょうず}に{泳|およ}げます。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "858f2c9f-f824-481d-91a4-7356e6735503",
+        "meaning": "Mao Mao is as cute as a cat.",
+        "text": {
+          "spelling": "{猫猫|まお・まお}ちゃんは{猫|ねこ}のように{可愛|かわい}いです。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "6e8491b9-d2f0-454d-a820-c4e239e14583",
+        "meaning": "When she got lost, she cried like a child.",
+        "text": {
+          "spelling": "{彼女|かの・じょ}は{道|みち}に{迷|まよ}った{時|とき}、{子供|こ・ども}のように{泣|な}きました。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "da5b0178-d2a5-4d3e-9e7b-1cac149b70b6",
+        "meaning": "Today is hot like summer.",
+        "text": {
+          "spelling": "{今日|きょう}は{夏|なつ}のように{暑|あつ}いです。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-12-14",
+    "lesson_codes": ["GENKI3_L22"],
+    "tags": []
+  },
+  {
+    "id": "5414990f-f147-4d69-be1e-cb1889559c53",
+    "title": "〜のような",
+    "meaning": "like/similar to...",
+    "how_to_use": [
+      "noun + のような + noun"
+    ],
+    "examples": [
+      {
+        "id": "72e48d1a-bb58-46ab-993f-4eed552dae1b",
+        "meaning": "I like towns like Minobu.",
+        "text": {
+          "spelling": "{私|わたし}は{身延|み・のぶ}{町|ちょう}のような{町|まち}が{好|す}きです。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "a4048799-d7b3-4bc1-8e45-2cc562277893",
+        "meaning": "I don't want to live in a place like New York.",
+        "text": {
+          "spelling": "{私|わたし}はニューヨークのようなところに{住|す}みたくないです。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "42bc1032-72c2-42fb-ba7f-26f1f255d933",
+        "meaning": "I want to be a person like my grandfather.",
+        "text": {
+          "spelling": "お{祖父|じい}さんのような{人|ひと}になりたいです。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "0c4226e6-3bec-49df-aa4e-35f2539a196b",
+        "meaning": "I have never met a lazy person like you.",
+        "text": {
+          "spelling": "あなたのような{怠|なま}け{者|もの}にあったことがありません。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-12-14",
+    "lesson_codes": ["GENKI3_L22"],
+    "tags": []
+  },
 
   {"COMMENT": "GENKI LESSON 23"}
 ]
