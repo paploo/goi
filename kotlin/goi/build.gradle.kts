@@ -3,13 +3,13 @@ import org.jooq.meta.jaxb.SchemaMappingType
 
 val antlr_version: String by project
 val commons_csv_version: String by project
+val hikari_version: String by project
+val jooq_version: String by project
 val kotest_version: String by project
 val kotlin_coroutines_version: String by project
 val kotlin_serialization_version: String by project
 val logback_version: String by project
-val hikari_version: String by project
 val postgres_version: String by project
-val jooq_version: String by project
 
 plugins {
     kotlin("jvm") version "2.2.21"

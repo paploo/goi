@@ -8151,7 +8151,7 @@
       },
       {
         "id": "c24d639c-8bad-4247-99ae-560dd323480d",
-        "meaning": "If you lock-up in preparation, a thief will not enter.",
+        "meaning": "If you lock-up in preparation, a thief will not be able to enter.",
         "text": {
           "spelling": "{鍵|かぎ}をかけておけば、{泥棒|どろ・ぼう}に{入|はい}られません。"
         },
