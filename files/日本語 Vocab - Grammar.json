@@ -7414,7 +7414,7 @@
   {
     "id": "077c9eb0-611c-48a8-b743-3fbe062ea691",
     "title": "ＣはＤにＶれる (passive)",
-    "meaning": "C is caused by D to be sad/angry/hurt/embarrassed by act V",
+    "meaning": "C is affected by D doing act V (making C feel sad/angry/hurt/embarrassed)",
     "how_to_use": [
       "victim + は + villain + に + verb (passive)",
       "cannot be used with adjectives",
@@ -7925,7 +7925,7 @@
     "title": "ＤはＣにＶせる (causative)",
     "meaning": "D made/let C do the action",
     "how_to_use": [
-      "director + は + cast に + verb (causative)",
+      "director + は + cast + に + verb (causative)",
       "Director decides what is allowed and what must be done",
       "Director marked with は or sometimes が",
       "Cast usually marked with に, but in some cases を:",
@@ -8406,5 +8406,73 @@
     "tags": []
   },
 
-  {"COMMENT": "GENKI LESSON 23"}
+  {"COMMENT": "GENKI LESSON 23"},
+  {
+    "id": "0116fb81-b8cd-48cd-8df3-d4a76b344882",
+    "title": "ＣはＤにＶわされます (causative-passive)",
+    "meaning": "C was forced/harrassed/talkedinto by D into doing V.",
+    "how_to_use": [
+      "puppet + は + puppet-master + に + verb (causative-passive)"
+    ],
+    "examples": [
+      {
+        "id": "1591e541-8535-42ff-b089-9513338eda4a",
+        "meaning": "I didn't want to sing because I'm not a good singer, but I was forced to sing.",
+        "text": {
+          "spelling": "{下手|へ・た}だから{歌|うた}いたくなかったのに、{歌|うた}を{歌|うた}わされました。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "0926c2c2-1074-4347-9b5b-bb2a1b51b545",
+        "meaning": "I don't want to eat them because I don't like them, but I am (always) made to eat vegetables.",
+        "text": {
+          "spelling": "{嫌|きら}いだから{食|た}べたくないんですが、{野菜|や・さい}を{食|た}べさせられます。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "c9686676-7111-43e8-a3a4-ee7f1c163ada",
+        "meaning": "I was tricked by my girlfriend into washing her car.",
+        "text": {
+          "spelling": "{私|わたし}は{彼女|かの・じょ}に{車|くるま}を{洗|あら}わされました。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "5d520ddf-684a-48ce-b02b-3a5c895ff7cb",
+        "meaning": "Hiroko was made by their senpai to pick-up the ball.",
+        "text": {
+          "spelling": "ひろこさんは{先輩|せん・ぱい}にボールを{拾|ひろ}わされます。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "3594b62e-b495-4a79-994e-6309b8aef34a",
+        "meaning": "Q: Recently, what did someone make you do?<br/>A: My club's senpai made me go buy lunch.",
+        "text": {
+          "spelling": "Ｑ：{最近|さい・きん}、{誰|だれ}に{何|なに}をさせられましたか。<br/>Ａ：クラブの{先輩|せん・ぱい}にお{弁当|べん・とう}を{買|か}いに{行|い}かされました。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "546d1a33-b62c-4757-90a2-0af98fe74640",
+        "meaning": "Q: Recently, a thing you do not want to do were you made to do? What were you made to do?<br/>A:Yes. I was made by my teacher to write a long essay.",
+        "text": {
+          "spelling": "Ｑ：{最近|さい・きん}、したくないことをさせられましたか。{何|なに}をさせられましたか。<br/>Ａ：はい。{先生|せん・せい}に{長|なが}い{作文|さく・ぶん}を{書|か}かされました。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-12-24",
+    "lesson_codes": ["GENKI3_L23"],
+    "tags": []
+  }
 ]
