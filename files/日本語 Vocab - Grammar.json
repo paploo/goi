@@ -8474,5 +8474,135 @@
     "date_added": "2025-12-24",
     "lesson_codes": ["GENKI3_L23"],
     "tags": []
+  },
+  {
+    "id": "8d17fbc2-22e3-40cb-bae5-c58ab1e39742",
+    "title": "ＡてもＢ",
+    "meaning": "Even if A, B is true",
+    "how_to_use": [
+      "verb (て-form) + も + clause",
+      "い-adj (て-form) + も + clause",
+      "な-adj + でも + clause",
+      "noun + でも + clause"
+    ],
+    "examples": [
+      {
+        "id": "459d99d4-f931-4820-a0cc-e316375c7b95",
+        "meaning": "Even if it rains, we will have a barbecue.",
+        "text": {
+          "spelling": "{雨|あめ}が{降|ふ}っても、バーベキューをします。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "eed5b49b-f3fc-4247-b655-836187454b13",
+        "meaning": "Even if it is not, I will not turn on the air conditioner.",
+        "text": {
+          "spelling": "{暑|あつ}くても、エアコンをつけません。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "7c6777cb-3fe0-4064-bd34-4ea63496e941",
+        "meaning": "Even if you are a child, you will be able to understand it.",
+        "text": {
+          "spelling": "{子供|こ・ども}でも、{分|わ}かります。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "55c6175d-91a7-473e-873e-40d8d1b24e96",
+        "meaning": "Even if it is free, I don't want it.",
+        "text": {
+          "spelling": "ただでも、{欲|ほ}しくないです。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "bac4fe1f-e5df-45c2-83e1-6f24bd3bbaa9",
+        "meaning": "Even when I had a cold, I went to class every day.",
+        "text": {
+          "spelling": "{私|わたし}は、{風邪|かぜ}を{引|ひ}いていても、{毎日|まい・にち}、{授業|じゅ・ぎょう}に{行|い}きました。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-12-27",
+    "lesson_codes": ["GENKI3_L23"],
+    "tags": []
+  },
+  {
+    "id": "f2256483-9e54-41fd-8a96-41d32c8d80b9",
+    "title": "ＡなくてもＢ",
+    "meaning": "Even when not A, B is true.",
+    "how_to_use": [
+      "verb (negative て-form) + も + clause",
+      "い-adj (negative て-form) + も + clause",
+      "な-adj + じゃなくて + clause",
+      "noun + じゃなくて + clause"
+    ],
+    "examples": [
+      {
+        "id": "4cabfd86-71e8-46a8-99ae-7729defdaefe",
+        "meaning": "Even if the result is not good, please do not be disappointed.",
+        "text": {
+          "spelling": "{結果|けっ・か}がよくなくても、がっかりしないでください。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "dea7e4ed-c023-4d37-8b66-1c7cd33b651b",
+        "meaning": "Even if I don't take (get) a good grade, I will continue to take Japanese.",
+        "text": {
+          "spelling": "いい{成績|せい・せき}が{取|と}れなくても、{日本語|に・ほん・ご}の{勉強|べん・きょう}を{続|つづ}けます。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-12-27",
+    "lesson_codes": ["GENKI3_L23"],
+    "tags": []
+  },
+  {
+    "id": "fcff3721-94ce-45be-81d5-056c3445d3cb",
+    "title": "Ｑても、Ｂ。",
+    "meaning": "No matter Q, B is true.",
+    "how_to_use": [
+      "question word + clause + ても + B",
+      "e.g. 誰, いつ"
+    ],
+    "examples": [
+      {
+        "id": "7d4420df-ed31-496a-a791-ed901bf1a6d2",
+        "meaning": "No matter who I asked, they didn't tell me.",
+        "text": {
+          "spelling": "{誰|だれ}に{聞|き}いても、{教|おし}えてくれませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "1ea0d7f0-a001-49d7-922a-91b95e3fefc0",
+        "meaning": "No matter when you visit, Tokyo is lively.",
+        "text": {
+          "spelling": "いつ{行|い}っても、{東京|とう・きょう}は{賑|にぎ}やかです。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-12-27",
+    "lesson_codes": ["GENKI3_L23"],
+    "tags": []
   }
 ]
