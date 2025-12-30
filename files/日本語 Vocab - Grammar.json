@@ -500,7 +500,7 @@
         "id": "a5e2bbf1-e72f-4523-8c64-117ca89c6637",
         "meaning": "Mary will go to Korea with Sora",
         "text": {
-          "spelling": "メアリーさんはそらさんと{韓国|かん・こく}に{行|い}きます。",
+          "spelling": "メアリーさんはソラさんと{韓国|かん・こく}に{行|い}きます。",
           "phonetic_spelling": null
         },
         "lesson_codes": ["GENKI3_L04"],
@@ -3956,7 +3956,7 @@
         "id": "6dd7683c-c209-4cb9-a8c6-9e368c85df6d",
         "meaning": "Sora received flowers from Ken.",
         "text": {
-          "spelling": "そらさんはけんさんに{花|はな}をもらいました。"
+          "spelling": "ソラさんはけんさんに{花|はな}をもらいました。"
         },
         "lesson_codes": ["GENKI3_L14"],
         "tags": []
@@ -8410,7 +8410,7 @@
   {
     "id": "0116fb81-b8cd-48cd-8df3-d4a76b344882",
     "title": "ＣはＤにＶわされます (causative-passive)",
-    "meaning": "C was forced/harrassed/talkedinto by D into doing V.",
+    "meaning": "C was forced/harrassed/talked-into by D into doing V.",
     "how_to_use": [
       "puppet + は + puppet-master + に + verb (causative-passive)"
     ],
@@ -8602,6 +8602,237 @@
     ],
     "jlpt_level": null,
     "date_added": "2025-12-27",
+    "lesson_codes": ["GENKI3_L23"],
+    "tags": []
+  },
+  {
+    "id": "c2dc0133-da66-45ab-8d40-1eadb86cbf01",
+    "title": "〜ことにする<br/>〜ないことにする",
+    "meaning": "decide to do...<br/>decide not to do",
+    "how_to_use": [
+      "verb (short, present) + ことにする",
+      "verb (short, neg) + ことにする"
+    ],
+    "examples": [
+      {
+        "id": "dd397105-0127-475b-b068-eaad51b382fd",
+        "meaning": "We have decided to buy a car.",
+        "text": {
+          "spelling": "{車|くるま}を{買|か}うことにしました。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "36ae1bec-e206-4214-a4f0-8cd39d60235e",
+        "meaning": "Ken has decided not to get a job this year.",
+        "text": {
+          "spelling": "けんさんは{今年|ことし}{就職|しゅう・しょく}しないことにしました。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "74ec70ae-7bf4-4bf8-9b23-2cde90eec4f8",
+        "meaning": "Since the deadline for the paper is tomorrow, John has decided to stay up all night.",
+        "text": {
+          "spelling": "レポートの{締|し}め{切|き}りは{明日|あした}なので、ションさんは{徹夜|てつ・や}することにしました。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "788102d9-c0ef-4670-9913-3b31d5a604de",
+        "meaning": "Because the rain has stopped, we decided to play baseball in the park with our friends.",
+        "text": {
+          "spelling": "{雨|あめ}が{止|や}んだので、{公園|こう・えん}で{友達|とも・だち}と{野球|や・きゅう}をすることにしました。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "f093f14b-0834-46b1-8fd0-46092ad7fb79",
+        "meaning": "Because I want to become good at Japanese, I have decided to study abroad in Japan.",
+        "text": {
+          "spelling": "{日本語|に・ほん・ご}が{上手|じょうず}になりたいので、{日本|に・ほん}に{留学|りゅう・がく}することにしました。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "9f5e8871-d078-4935-aa23-af6a86f7b7da",
+        "meaning": "Because I feel sorry for them, I will　not make too many complaints.",
+        "text": {
+          "spelling": "あの{人|ひと}がかわいそうだから、あまり{文句|もん・く}を{言|い}わないことにします。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-12-29",
+    "lesson_codes": ["GENKI3_L23"],
+    "tags": []
+  },
+  {
+    "id": "dc590103-ebb0-43af-a164-495cf0715c7d",
+    "title": "〜ことにしよう",
+    "meaning": "suggest doing after consideration...",
+    "how_to_use": [
+      "verb (short, present) + ことにしよう"
+    ],
+    "examples": [
+      {
+        "id": "6f65663a-3a80-407d-b379-92e4bdf5d83b",
+        "meaning": "After consideration I suggest let's go to Vietnam this summer.",
+        "text": {
+          "spelling": "{今年|ことし}の{夏|なつ}はベトナムに{行|い}くことにしよう。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-12-29",
+    "lesson_codes": ["GENKI3_L23"],
+    "tags": []
+  },
+  {
+    "id": "784f8958-4e1c-4ce2-b13e-c7ae6077f6eb",
+    "title": "〜ことにしている<br/>〜ないことにしている",
+    "meaning": "made-up my mind to do ... as a regular practice (and stuck to it)<br/>made up my mind to not do ... as a regular practice",
+    "how_to_use": [
+      "verb (short, present) + ことにしている",
+      "verb (short, neg) + ことにしている"
+    ],
+    "examples": [
+      {
+        "id": "6efd704c-b41b-4be9-9206-e0c90b364f50",
+        "meaning": "As a regular practice, every night I go to bed by 11 o'clock.",
+        "text": {
+          "spelling": "{毎日|まい・にち}{１１|じゅう・いち}{時|じ}までに{寝|ね}ることにしています。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "59ae58c6-5b94-4d7a-b927-d7a1ba7c3634",
+        "meaning": "I made up my mind to definitely not drink (and have stuck to it).",
+        "text": {
+          "spelling": "{絶対|ぜっ・たい}にお{酒|さけ}を{飲|の}まないことにしています。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "63943022-ebe8-43cb-a446-d92a0e2c46c1",
+        "meaning": "As a regular practice Sora runs every day for the sake of her health.",
+        "text": {
+          "spelling": "ソラさんは{健康|けん・こう}のために{毎日|まい・にち}{走|はし}ることにしています。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "be0708e0-597a-43e3-9d66-336749956429",
+        "meaning": "Sora, without using the elevator, uses the stairs as a regular practice.",
+        "text": {
+          "spelling": "ソラさんはエレベーターを{使|つか}わないで、{階段|かい・だん}を{使|つか}うことにしています。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "63978e39-c338-440a-9d88-bebcdf3daf2e",
+        "meaning": "As a regular practice, Sora calls her parents once a week.",
+        "text": {
+          "spelling": "ソラさんは{一週間|いっ・しゅう・かん}に{一回|いっ・かい}{両親|りょう・しん}に{電話|でん・わ}することにしています。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "e9de4837-6a79-480e-9f91-0123023755e3",
+        "meaning": "Even if her younger brother tells her a lie, Sora makes sure to not get angry.",
+        "text": {
+          "spelling": "ソラさんは{弟|おとうと}に{嘘|うそ}をつかれても、{怒|おこ}らないことにしています。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-12-29",
+    "lesson_codes": ["GENKI3_L23"],
+    "tags": []
+  },
+  {
+    "id": "99f31878-fe4d-469c-865f-2b25f5067fd8",
+    "title": "ＡまでＢ",
+    "meaning": "Until A, B<br/>(Until A ends it, B)",
+    "how_to_use": [
+      "verb (short, present, affirmative) + まで",
+      "noun + が + verb (short, present, affirmative) + まで",
+      "Use が instead of は in A when the subject of A is different from the subject of B."
+    ],
+    "examples": [
+      {
+        "id": "c1e7bfcd-9d63-404a-a073-426593e439c3",
+        "meaning": "Until the weather clears, I will in the cafe drink coffee while waiting.",
+        "text": {
+          "spelling": "{晴|は}れるまで、カフェでコーヒーを{飲|の}みながら、{待|ま}ちます。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "8b134350-bd86-4f76-acac-c99a7f26322c",
+        "meaning": "Until I become good at Japanese, I will not go back to my country.",
+        "text": {
+          "spelling": "{日本語|に・ほん・ご}が{上手|じょうず}になるまで、{国|くに}に{帰|かえ}りません。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "7a525b17-dbfc-4640-aa23-2c965a8b3ea9",
+        "meaning": "Until the baby falls asleep, I will sing a lullaby for them.",
+        "text": {
+          "spelling": "{赤|あか}ちゃんが{寝|ね}るまで、（{私|わたし}は）{歌|うた}を{歌|うた}ってあげます。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "a5b12d9b-8802-4190-9600-5aca5157f361",
+        "meaning": "Until I got used to living in Japan, it was tough.",
+        "text": {
+          "spelling": "{日本|に・ほん}の{生活|せい・かつ}に{慣|な}れるまで、{大変|たい・へん}でした。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "7941a6af-dd73-4b2e-bcb7-8efdc9878615",
+        "meaning": "Until you find an apartment, you may stay (exist) at my house.",
+        "text": {
+          "spelling": "アパートを{見|み}つけるまで、{私|わたし}の{家|いえ}にいてもいいですよ。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "47f3bcb2-8f62-4fe0-b6eb-ce82df224489",
+        "meaning": "Until your pets die, you must take care of them.",
+        "text": {
+          "spelling": "ペットが{死|し}ぬまで、{世話|せ・わ}をしなければいけません。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-12-29",
     "lesson_codes": ["GENKI3_L23"],
     "tags": []
   }
