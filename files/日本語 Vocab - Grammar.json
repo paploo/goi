@@ -8835,5 +8835,77 @@
     "date_added": "2025-12-29",
     "lesson_codes": ["GENKI3_L23"],
     "tags": []
+  },
+  {
+    "id": "da349936-e595-4ee2-9979-faed5dcdcefa",
+    "title": "〜方",
+    "meaning": "how to...",
+    "how_to_use": [
+      "verb (stem) + 方",
+      "noun + の + verb (stem) + 方",
+      "する ⟶ のし方",
+      "ＮにＶ ⟶ ＮのＶ方 or ＮへのＶ方",
+      "方 is a noun, and is followed by noun particles (は, を, が)"
+    ],
+    "examples": [
+      {
+        "id": "3083ec15-fb68-4885-8291-3380f2fbc68c",
+        "meaning": "The way to eat this vegetable, there are many.",
+        "text": {
+          "spelling": "この{野菜|や・さい}の{食|た}べ{方|かた}は{色々|いろいろ}あります。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "809c1dae-e155-421c-8119-929426664040",
+        "meaning": "How to order, please explain.",
+        "text": {
+          "spelling": "{注文|ちゅう・もん}のし{方|かた}を{説明|せつ・めい}して{下|くだ}さい。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "6ebeed70-7059-4ac0-a4e1-1ecfcab6c55d",
+        "meaning": "How to make delicious green tea, I want to know.",
+        "text": {
+          "spelling": "おいしいお{茶|ちゃ}のいれ{方|かた}が{知|し}りたいです。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "c92049d4-0b12-427b-ad6f-c0c8e8992d4a",
+        "meaning": "How to raise vegetables, can you teach me?",
+        "text": {
+          "spelling": "{野菜|や・さい}の{育|そだ}て{方|かた}を{教|おし}えてくれませんか。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "b8833f9b-264d-478d-9652-7abd1f63d065",
+        "meaning": "The way to the airport, this is it. (informal, said while pointing at a map)",
+        "text": {
+          "spelling": "{空港|くう・こう}への{行|い}き{方|かた}はこれです。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "dc24e4fb-e44f-4f7f-8cd5-c6ba576da43e",
+        "meaning": "In what way do you study before a Japanese exam? How to study, write please.",
+        "text": {
+          "spelling": "{日本語|に・ほん・ご}の{試験|し・けん}の{前|まえ}にどうやって{勉強|べん・きょう}しますか。{勉強|べん・きょう}のし{方|かた}を{書|か}いて{下|くだ}さい。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-12-31",
+    "lesson_codes": ["GENKI3_L23"],
+    "tags": []
   }
 ]
