@@ -7,6 +7,9 @@ import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 import java.nio.file.Path
 import kotlin.io.path.inputStream
+import kotlin.io.path.isDirectory
+import kotlin.io.path.isRegularFile
+import kotlin.io.path.listDirectoryEntries
 
 internal class JsonFileGrammarRuleReader : suspend (Path) -> Result<List<GrammarRuleDto>> {
 
@@ -16,18 +19,31 @@ internal class JsonFileGrammarRuleReader : suspend (Path) -> Result<List<Grammar
         ignoreUnknownKeys = true
     }
 
-    @OptIn(ExperimentalSerializationApi::class)
     override suspend fun invoke(path: Path): Result<List<GrammarRuleDto>> =
-        Result.runCatching {
-            path.inputStream()
-        }.mapCatching {
-            it.use { usedStream ->
-                jsonReader.decodeFromStream<List<GrammarRuleJsonElement>>(usedStream)
-            }
-        }.map {
-            it.filterIsInstance<GrammarRuleDto>().mapIndexed { index, dto ->
-                dto.copy(rowNum = index + 1)
-            }
+        Result.runCatching { parse(path) }.mapCatching {
+            processRows(it)
         }
 
+    @OptIn(ExperimentalSerializationApi::class)
+    private fun parse(path: Path): List<GrammarRuleJsonElement> =
+        if (path.isDirectory()) {
+            logger.info("Parsing directory: {}", path)
+            path
+                .listDirectoryEntries()
+                .sortedBy { it.fileName.toString() }
+                .flatMap { parse(it) }
+        } else if (path.isRegularFile() && path.toString().endsWith(".json", ignoreCase = true)) {
+            logger.info("Parsing file: {}", path)
+            path.inputStream().use { inputStream ->
+                jsonReader.decodeFromStream<List<GrammarRuleJsonElement>>(inputStream)
+            }
+        } else {
+            logger.warn("Skipping non-json file: {}", path)
+            emptyList()
+        }
+
+    private fun processRows(allRows: List<GrammarRuleJsonElement>): List<GrammarRuleDto> =
+            allRows.filterIsInstance<GrammarRuleDto>().mapIndexed { index, dto ->
+                dto.copy(rowNum = index + 1)
+            }
 }
