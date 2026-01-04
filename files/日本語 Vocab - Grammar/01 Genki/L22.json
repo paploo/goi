@@ -199,7 +199,7 @@
         "id": "c9c26c06-f5bb-4023-a7eb-a95b206eb8cd",
         "meaning": "Child: What? This outfit, you want me to wear? It's ugly.<br/>Parent: This outfit, wear it.",
         "text": {
-          "spelling": "{子供|こ・ども}：えっ、この{服|ふく}、{着|き}るの？かっこ{悪|わる}い。<br/>この{服|ふく}を{着|き}なさい。"
+          "spelling": "{子供|こ・ども}：えっ、この{服|ふく}、{着|き}るの？かっこ{悪|わる}い。<br/>{親|おや}：この{服|ふく}を{着|き}なさい。"
         },
         "lesson_codes": ["GENKI3_L22"],
         "tags": []
