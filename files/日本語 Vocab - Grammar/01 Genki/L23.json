@@ -1,0 +1,504 @@
+[
+  {"COMMENT": "GENKI LESSON 23"},
+  {
+    "id": "0116fb81-b8cd-48cd-8df3-d4a76b344882",
+    "title": "ＣはＤにＶわされます (causative-passive)",
+    "meaning": "C was forced/harrassed/talked-into by D into doing V.",
+    "how_to_use": [
+      "puppet + は + puppet-master + に + verb (causative-passive)"
+    ],
+    "examples": [
+      {
+        "id": "1591e541-8535-42ff-b089-9513338eda4a",
+        "meaning": "I didn't want to sing because I'm not a good singer, but I was forced to sing.",
+        "text": {
+          "spelling": "{下手|へ・た}だから{歌|うた}いたくなかったのに、{歌|うた}を{歌|うた}わされました。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "0926c2c2-1074-4347-9b5b-bb2a1b51b545",
+        "meaning": "I don't want to eat them because I don't like them, but I am (always) made to eat vegetables.",
+        "text": {
+          "spelling": "{嫌|きら}いだから{食|た}べたくないんですが、{野菜|や・さい}を{食|た}べさせられます。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "c9686676-7111-43e8-a3a4-ee7f1c163ada",
+        "meaning": "I was tricked by my girlfriend into washing her car.",
+        "text": {
+          "spelling": "{私|わたし}は{彼女|かの・じょ}に{車|くるま}を{洗|あら}わされました。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "5d520ddf-684a-48ce-b02b-3a5c895ff7cb",
+        "meaning": "Hiroko was made by their senpai to pick-up the ball.",
+        "text": {
+          "spelling": "ひろこさんは{先輩|せん・ぱい}にボールを{拾|ひろ}わされます。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "3594b62e-b495-4a79-994e-6309b8aef34a",
+        "meaning": "Q: Recently, what did someone make you do?<br/>A: My club's senpai made me go buy lunch.",
+        "text": {
+          "spelling": "Ｑ：{最近|さい・きん}、{誰|だれ}に{何|なに}をさせられましたか。<br/>Ａ：クラブの{先輩|せん・ぱい}にお{弁当|べん・とう}を{買|か}いに{行|い}かされました。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "546d1a33-b62c-4757-90a2-0af98fe74640",
+        "meaning": "Q: Recently, a thing you do not want to do were you made to do? What were you made to do?<br/>A:Yes. I was made by my teacher to write a long essay.",
+        "text": {
+          "spelling": "Ｑ：{最近|さい・きん}、したくないことをさせられましたか。{何|なに}をさせられましたか。<br/>Ａ：はい。{先生|せん・せい}に{長|なが}い{作文|さく・ぶん}を{書|か}かされました。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-12-24",
+    "lesson_codes": ["GENKI3_L23"],
+    "tags": []
+  },
+  {
+    "id": "8d17fbc2-22e3-40cb-bae5-c58ab1e39742",
+    "title": "ＡてもＢ",
+    "meaning": "Even if A, B is true",
+    "how_to_use": [
+      "verb (て-form) + も + clause",
+      "い-adj (て-form) + も + clause",
+      "な-adj + でも + clause",
+      "noun + でも + clause"
+    ],
+    "examples": [
+      {
+        "id": "459d99d4-f931-4820-a0cc-e316375c7b95",
+        "meaning": "Even if it rains, we will have a barbecue.",
+        "text": {
+          "spelling": "{雨|あめ}が{降|ふ}っても、バーベキューをします。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "eed5b49b-f3fc-4247-b655-836187454b13",
+        "meaning": "Even if it is not, I will not turn on the air conditioner.",
+        "text": {
+          "spelling": "{暑|あつ}くても、エアコンをつけません。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "7c6777cb-3fe0-4064-bd34-4ea63496e941",
+        "meaning": "Even if you are a child, you will be able to understand it.",
+        "text": {
+          "spelling": "{子供|こ・ども}でも、{分|わ}かります。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "55c6175d-91a7-473e-873e-40d8d1b24e96",
+        "meaning": "Even if it is free, I don't want it.",
+        "text": {
+          "spelling": "ただでも、{欲|ほ}しくないです。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "bac4fe1f-e5df-45c2-83e1-6f24bd3bbaa9",
+        "meaning": "Even when I had a cold, I went to class every day.",
+        "text": {
+          "spelling": "{私|わたし}は、{風邪|かぜ}を{引|ひ}いていても、{毎日|まい・にち}、{授業|じゅ・ぎょう}に{行|い}きました。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-12-27",
+    "lesson_codes": ["GENKI3_L23"],
+    "tags": []
+  },
+  {
+    "id": "f2256483-9e54-41fd-8a96-41d32c8d80b9",
+    "title": "ＡなくてもＢ",
+    "meaning": "Even when not A, B is true.",
+    "how_to_use": [
+      "verb (negative て-form) + も + clause",
+      "い-adj (negative て-form) + も + clause",
+      "な-adj + じゃなくて + clause",
+      "noun + じゃなくて + clause"
+    ],
+    "examples": [
+      {
+        "id": "4cabfd86-71e8-46a8-99ae-7729defdaefe",
+        "meaning": "Even if the result is not good, please do not be disappointed.",
+        "text": {
+          "spelling": "{結果|けっ・か}がよくなくても、がっかりしないでください。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "dea7e4ed-c023-4d37-8b66-1c7cd33b651b",
+        "meaning": "Even if I don't take (get) a good grade, I will continue to take Japanese.",
+        "text": {
+          "spelling": "いい{成績|せい・せき}が{取|と}れなくても、{日本語|に・ほん・ご}の{勉強|べん・きょう}を{続|つづ}けます。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-12-27",
+    "lesson_codes": ["GENKI3_L23"],
+    "tags": []
+  },
+  {
+    "id": "fcff3721-94ce-45be-81d5-056c3445d3cb",
+    "title": "Ｑても、Ｂ。",
+    "meaning": "No matter Q, B is true.",
+    "how_to_use": [
+      "question word + clause + ても + B",
+      "e.g. 誰, いつ"
+    ],
+    "examples": [
+      {
+        "id": "7d4420df-ed31-496a-a791-ed901bf1a6d2",
+        "meaning": "No matter who I asked, they didn't tell me.",
+        "text": {
+          "spelling": "{誰|だれ}に{聞|き}いても、{教|おし}えてくれませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "1ea0d7f0-a001-49d7-922a-91b95e3fefc0",
+        "meaning": "No matter when you visit, Tokyo is lively.",
+        "text": {
+          "spelling": "いつ{行|い}っても、{東京|とう・きょう}は{賑|にぎ}やかです。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-12-27",
+    "lesson_codes": ["GENKI3_L23"],
+    "tags": []
+  },
+  {
+    "id": "c2dc0133-da66-45ab-8d40-1eadb86cbf01",
+    "title": "〜ことにする<br/>〜ないことにする",
+    "meaning": "decide to do...<br/>decide not to do",
+    "how_to_use": [
+      "verb (short, present) + ことにする",
+      "verb (short, neg) + ことにする"
+    ],
+    "examples": [
+      {
+        "id": "dd397105-0127-475b-b068-eaad51b382fd",
+        "meaning": "We have decided to buy a car.",
+        "text": {
+          "spelling": "{車|くるま}を{買|か}うことにしました。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "36ae1bec-e206-4214-a4f0-8cd39d60235e",
+        "meaning": "Ken has decided not to get a job this year.",
+        "text": {
+          "spelling": "けんさんは{今年|ことし}{就職|しゅう・しょく}しないことにしました。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "74ec70ae-7bf4-4bf8-9b23-2cde90eec4f8",
+        "meaning": "Since the deadline for the paper is tomorrow, John has decided to stay up all night.",
+        "text": {
+          "spelling": "レポートの{締|し}め{切|き}りは{明日|あした}なので、ションさんは{徹夜|てつ・や}することにしました。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "788102d9-c0ef-4670-9913-3b31d5a604de",
+        "meaning": "Because the rain has stopped, we decided to play baseball in the park with our friends.",
+        "text": {
+          "spelling": "{雨|あめ}が{止|や}んだので、{公園|こう・えん}で{友達|とも・だち}と{野球|や・きゅう}をすることにしました。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "f093f14b-0834-46b1-8fd0-46092ad7fb79",
+        "meaning": "Because I want to become good at Japanese, I have decided to study abroad in Japan.",
+        "text": {
+          "spelling": "{日本語|に・ほん・ご}が{上手|じょうず}になりたいので、{日本|に・ほん}に{留学|りゅう・がく}することにしました。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "9f5e8871-d078-4935-aa23-af6a86f7b7da",
+        "meaning": "Because I feel sorry for them, I will　not make too many complaints.",
+        "text": {
+          "spelling": "あの{人|ひと}がかわいそうだから、あまり{文句|もん・く}を{言|い}わないことにします。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-12-29",
+    "lesson_codes": ["GENKI3_L23"],
+    "tags": []
+  },
+  {
+    "id": "dc590103-ebb0-43af-a164-495cf0715c7d",
+    "title": "〜ことにしよう",
+    "meaning": "suggest doing after consideration...",
+    "how_to_use": [
+      "verb (short, present) + ことにしよう"
+    ],
+    "examples": [
+      {
+        "id": "6f65663a-3a80-407d-b379-92e4bdf5d83b",
+        "meaning": "After consideration I suggest let's go to Vietnam this summer.",
+        "text": {
+          "spelling": "{今年|ことし}の{夏|なつ}はベトナムに{行|い}くことにしよう。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-12-29",
+    "lesson_codes": ["GENKI3_L23"],
+    "tags": []
+  },
+  {
+    "id": "784f8958-4e1c-4ce2-b13e-c7ae6077f6eb",
+    "title": "〜ことにしている<br/>〜ないことにしている",
+    "meaning": "made-up my mind to do ... as a regular practice (and stuck to it)<br/>made up my mind to not do ... as a regular practice",
+    "how_to_use": [
+      "verb (short, present) + ことにしている",
+      "verb (short, neg) + ことにしている"
+    ],
+    "examples": [
+      {
+        "id": "6efd704c-b41b-4be9-9206-e0c90b364f50",
+        "meaning": "As a regular practice, every night I go to bed by 11 o'clock.",
+        "text": {
+          "spelling": "{毎日|まい・にち}{１１|じゅう・いち}{時|じ}までに{寝|ね}ることにしています。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "59ae58c6-5b94-4d7a-b927-d7a1ba7c3634",
+        "meaning": "I made up my mind to definitely not drink (and have stuck to it).",
+        "text": {
+          "spelling": "{絶対|ぜっ・たい}にお{酒|さけ}を{飲|の}まないことにしています。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "63943022-ebe8-43cb-a446-d92a0e2c46c1",
+        "meaning": "As a regular practice Sora runs every day for the sake of her health.",
+        "text": {
+          "spelling": "ソラさんは{健康|けん・こう}のために{毎日|まい・にち}{走|はし}ることにしています。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "be0708e0-597a-43e3-9d66-336749956429",
+        "meaning": "Sora, without using the elevator, uses the stairs as a regular practice.",
+        "text": {
+          "spelling": "ソラさんはエレベーターを{使|つか}わないで、{階段|かい・だん}を{使|つか}うことにしています。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "63978e39-c338-440a-9d88-bebcdf3daf2e",
+        "meaning": "As a regular practice, Sora calls her parents once a week.",
+        "text": {
+          "spelling": "ソラさんは{一週間|いっ・しゅう・かん}に{一回|いっ・かい}{両親|りょう・しん}に{電話|でん・わ}することにしています。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "e9de4837-6a79-480e-9f91-0123023755e3",
+        "meaning": "Even if her younger brother tells her a lie, Sora makes sure to not get angry.",
+        "text": {
+          "spelling": "ソラさんは{弟|おとうと}に{嘘|うそ}をつかれても、{怒|おこ}らないことにしています。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-12-29",
+    "lesson_codes": ["GENKI3_L23"],
+    "tags": []
+  },
+  {
+    "id": "99f31878-fe4d-469c-865f-2b25f5067fd8",
+    "title": "ＡまでＢ",
+    "meaning": "Until A, B<br/>(Until A ends it, B)",
+    "how_to_use": [
+      "verb (short, present, affirmative) + まで",
+      "noun + が + verb (short, present, affirmative) + まで",
+      "Use が instead of は in A when the subject of A is different from the subject of B."
+    ],
+    "examples": [
+      {
+        "id": "c1e7bfcd-9d63-404a-a073-426593e439c3",
+        "meaning": "Until the weather clears, I will in the cafe drink coffee while waiting.",
+        "text": {
+          "spelling": "{晴|は}れるまで、カフェでコーヒーを{飲|の}みながら、{待|ま}ちます。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "8b134350-bd86-4f76-acac-c99a7f26322c",
+        "meaning": "Until I become good at Japanese, I will not go back to my country.",
+        "text": {
+          "spelling": "{日本語|に・ほん・ご}が{上手|じょうず}になるまで、{国|くに}に{帰|かえ}りません。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "7a525b17-dbfc-4640-aa23-2c965a8b3ea9",
+        "meaning": "Until the baby falls asleep, I will sing a lullaby for them.",
+        "text": {
+          "spelling": "{赤|あか}ちゃんが{寝|ね}るまで、（{私|わたし}は）{歌|うた}を{歌|うた}ってあげます。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "a5b12d9b-8802-4190-9600-5aca5157f361",
+        "meaning": "Until I got used to living in Japan, it was tough.",
+        "text": {
+          "spelling": "{日本|に・ほん}の{生活|せい・かつ}に{慣|な}れるまで、{大変|たい・へん}でした。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "7941a6af-dd73-4b2e-bcb7-8efdc9878615",
+        "meaning": "Until you find an apartment, you may stay (exist) at my house.",
+        "text": {
+          "spelling": "アパートを{見|み}つけるまで、{私|わたし}の{家|いえ}にいてもいいですよ。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "47f3bcb2-8f62-4fe0-b6eb-ce82df224489",
+        "meaning": "Until your pets die, you must take care of them.",
+        "text": {
+          "spelling": "ペットが{死|し}ぬまで、{世話|せ・わ}をしなければいけません。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-12-29",
+    "lesson_codes": ["GENKI3_L23"],
+    "tags": []
+  },
+  {
+    "id": "da349936-e595-4ee2-9979-faed5dcdcefa",
+    "title": "〜方",
+    "meaning": "how to...",
+    "how_to_use": [
+      "verb (stem) + 方",
+      "noun + の + verb (stem) + 方",
+      "する ⟶ のし方",
+      "ＮにＶ ⟶ ＮのＶ方 or ＮへのＶ方",
+      "方 is a noun, and is followed by noun particles (は, を, が)"
+    ],
+    "examples": [
+      {
+        "id": "3083ec15-fb68-4885-8291-3380f2fbc68c",
+        "meaning": "The way to eat this vegetable, there are many.",
+        "text": {
+          "spelling": "この{野菜|や・さい}の{食|た}べ{方|かた}は{色々|いろいろ}あります。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "809c1dae-e155-421c-8119-929426664040",
+        "meaning": "How to order, please explain.",
+        "text": {
+          "spelling": "{注文|ちゅう・もん}のし{方|かた}を{説明|せつ・めい}して{下|くだ}さい。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "6ebeed70-7059-4ac0-a4e1-1ecfcab6c55d",
+        "meaning": "How to make delicious green tea, I want to know.",
+        "text": {
+          "spelling": "おいしいお{茶|ちゃ}のいれ{方|かた}が{知|し}りたいです。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "c92049d4-0b12-427b-ad6f-c0c8e8992d4a",
+        "meaning": "How to raise vegetables, can you teach me?",
+        "text": {
+          "spelling": "{野菜|や・さい}の{育|そだ}て{方|かた}を{教|おし}えてくれませんか。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "b8833f9b-264d-478d-9652-7abd1f63d065",
+        "meaning": "The way to the airport, this is it. (informal, said while pointing at a map)",
+        "text": {
+          "spelling": "{空港|くう・こう}への{行|い}き{方|かた}はこれです。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      },
+      {
+        "id": "dc24e4fb-e44f-4f7f-8cd5-c6ba576da43e",
+        "meaning": "In what way do you study before a Japanese exam? How to study, write please.",
+        "text": {
+          "spelling": "{日本語|に・ほん・ご}の{試験|し・けん}の{前|まえ}にどうやって{勉強|べん・きょう}しますか。{勉強|べん・きょう}のし{方|かた}を{書|か}いて{下|くだ}さい。"
+        },
+        "lesson_codes": ["GENKI3_L23"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-12-31",
+    "lesson_codes": ["GENKI3_L23"],
+    "tags": []
+  }
+]

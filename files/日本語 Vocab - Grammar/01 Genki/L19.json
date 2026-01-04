@@ -1,0 +1,512 @@
+[
+  {"COMMENT": "GENKI LESSON 19"},
+  {
+    "id": "9b4e32d6-2700-4ee8-bf1e-3ce92c3b7959",
+    "title": "尊敬語の動詞",
+    "meaning": "honorific verbs (special)",
+    "how_to_use": [
+      "Use to mean somebody graciously does something",
+      "Never use to describe our own actions.",
+      "① Used for somebody higher up",
+      "② Used for somebody we don't know well, esp. when addressing directly."
+    ],
+    "examples": [
+      {
+        "id": "c1c38b65-8c15-4ab8-a6cc-13eb04e164a5",
+        "meaning": "The professor will not go to / come to / be at the school.<br/>(3-way ambiguous)",
+        "text": {
+          "spelling": "{先生|せん・せい}は{今日|きょう}{学校|がっ・こう}にいらしゃいません。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "5fcd99cb-b071-49f3-879b-2d939109d4a0",
+        "meaning": "What will you eat/drink?",
+        "text": {
+          "spelling": "{何|なに}を{召|め}し{上|あ}がありますか。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "d8fd98ea-b6a3-48a7-80b9-75259aa760c6",
+        "meaning": "Ms. Tanaka's mother gave me this book.",
+        "text": {
+          "spelling": "{田中|た・なか}さんのお{母|かあ}さんがこの{本|ほん}をくださいました。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "3e205c17-74f7-4c83-b177-a8a010e85dba",
+        "meaning": "Please don't worry.",
+        "text": {
+          "spelling": "{心配|しん・ぱい}なさらないでください"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "c3c61422-2541-45dc-b6a8-b711399bc416",
+        "meaning": "I hear the professor goes to bed around 10.",
+        "text": {
+          "spelling": "{先生|せん・せい}は{十|じゅう}{時|じ}ごろお{休|やす}みになるそうです。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "be2aa4fe-2b7d-47a4-a612-ba51fdf91f70",
+        "meaning": "Have you seen this movie yet?",
+        "text": {
+          "spelling": "もうこの{映画|えい・が}をご{覧|らん}になりましたか。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "cf84a15e-0f3b-43ea-b43a-4afbb21afbb5",
+        "meaning": "The president has brought her child to the office.",
+        "text": {
+          "spelling": "{社長|しゃ・ちょう}はお{子|こ}さんを{会社|かい・しゃ}に{連|つ}れていらしゃいました。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-04-10",
+    "lesson_codes": ["GENKI3_L19"],
+    "tags": []
+  },
+  {
+    "id": "c6f62bd3-f92c-4c0b-a60e-705eb243bd9f",
+    "title": "〜ていらしゃいます",
+    "meaning": "honorific verbs (using 〜ている)",
+    "how_to_use": [
+      "〜ている ⟶ 〜ていらしゃいます",
+      "〜ています ⟶ 〜ていらしゃいます",
+      "Makes any 〜ている conjugation 敬語"
+    ],
+    "examples": [
+      {
+        "id": "d4fef3da-da30-4e6d-bc29-f87f90c3140f",
+        "meaning": "The professor is talking on the phone.",
+        "text": {
+          "spelling": "{先生|せん・せい}は{電話|でん・わ}で{話|はな}していらっしゃいます。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "99f91b92-ce86-4aec-948d-dd9a34be3d97",
+        "meaning": "It appears that the department manager is tired.",
+        "text": {
+          "spelling": "{部長|ぶ・ちょう}は{疲|つか}れていらしゃるみたいです。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-04-10",
+    "lesson_codes": ["GENKI3_L19"],
+    "tags": []
+  },
+  {
+    "id": "592abdf3-6b59-4cdb-9a2c-de63a16a1d2e",
+    "title": "おＶになる",
+    "meaning": "honorific verbs (when no special honorific verb)",
+    "how_to_use": [
+      "お + verb (stem) + になる",
+      "Works for most combinations of verb + post-predicate expression",
+      "Do not use with potential form; it is in poor taste"
+    ],
+    "examples": [
+      {
+        "id": "28425f89-497b-483b-b550-5586c35a4b40",
+        "meaning": "The professor has already gone home.",
+        "text": {
+          "spelling": "{先生|せん・せい}はもうお{帰|かえ}りになりました。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "cb3f4ead-8e1e-452c-a780-ab595a06675f",
+        "meaning": "Have you ever read this magazine?",
+        "text": {
+          "spelling": "この{雑誌|ざっ・し}をお{読|よ}みになったことがありますか。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "05bb8ca3-3eea-4f19-9c64-99ca7d1c090d",
+        "meaning": "Please use it.",
+        "text": {
+          "spelling": "どうぞお{使|つか}いになってください。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-04-10",
+    "lesson_codes": ["GENKI3_L19"],
+    "tags": []
+  },
+  {
+    "id": "3cff374c-5954-471f-aaa0-58201688e0c5",
+    "title": "おＶください",
+    "meaning": "courteously phrased commands<br/>giving respectful advice",
+    "how_to_use": [
+      "お + verb (stem) + ください",
+      "ご + suru verb (noun part) + ください"
+    ],
+    "examples": [
+      {
+        "id": "212e0dfd-aed0-4b9f-a612-21dd4ec34d8b",
+        "meaning": "Please take a ticket.",
+        "text": {
+          "spelling": "{切符|きっ・ぷ}をお{取|と}りください。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "4af78f9a-c6d0-44e4-8efa-738abeb522e1",
+        "meaning": "Please read the instruction.",
+        "text": {
+          "spelling": "{説明|せつ・めい}をお{読|よ}みください。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "cb2467e6-d913-490b-90e6-73a7b1f30cfa",
+        "meaning": "Please watch out.",
+        "text": {
+          "spelling": "ご{注意|ちゅう・い}ください。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "cadb57b7-a886-49f0-83aa-4fe7289afe38",
+        "meaning": "Look to your right please. Mt. Fuji is visible.",
+        "text": {
+          "spelling": "{右|みぎ}をご{覧|らん}ください。{富士山|ふ・じ・さん}が{見|み}えます。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "9319fbec-5f62-465a-b1dd-36a079422b6a",
+        "meaning": "Because the plate is hot, be careful when eating please.",
+        "text": {
+          "spelling": "お{皿|さら}が{熱|あつ}いですから、{気|き}おつけてお{召|め}し{上|あ}がりください。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "ae02132e-a473-4bda-b54d-d8e7f5554e69",
+        "meaning": "Please have a good rest.",
+        "text": {
+          "spelling": "お{休|やす}みください"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-04-10",
+    "lesson_codes": ["GENKI3_L19"],
+    "tags": []
+  },
+  {
+    "id": "b89a9699-18a1-4334-8d37-f17249f4b2f0",
+    "title": "〜てくれてありがとう",
+    "meaning": "Thank you for doing...",
+    "how_to_use": [
+      "verb (て form) + くれてありがとう ⟶ casual",
+      "verb (て form) + くださってありがとうございました ⟶ honorific",
+      "verb (て form) + くださってありがとうございます ⟶ honorific/ongoing"
+    ],
+    "examples": [
+      {
+        "id": "ee3603f6-1afe-4ada-99b2-5e66e06a197b",
+        "meaning": "Thank you for helping me out.",
+        "text": {
+          "spelling": "{手伝|て・つだ}ってくれてありがとう。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "90921954-da1d-4bdd-a674-c62711d536ff",
+        "meaning": "Thank you for writing a letter of recommendation for me.",
+        "text": {
+          "spelling": "{推薦状|すい・せん・じょう}を{書|き}いてくださってありがとうございました。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "d7f6ae51-2792-4a3b-a10c-175478f20001",
+        "meaning": "Thank you for always kindly teaching me.",
+        "text": {
+          "spelling": "いつも{親切|しん・せつ}に{教|おし}えてくださってありがとうございます。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "cc23932b-978b-42ff-8719-1e42e097697e",
+        "meaning": "(To a friend): Thank you for driving me home.",
+        "text": {
+          "spelling": "{家|いえ}まで{送|おく}ってくれてありがとう。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "b2b8793f-82cc-419d-85c8-83317f6d4e9c",
+        "meaning": "(To your boss): Thank you for treating me to dinner.",
+        "text": {
+          "spelling": "{晩|ばん}ご{飯|はん}をご{馳走|ち・そう}してくださってありがとうございました。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "a9cc517b-1106-4389-ba44-bd5e77e33ea9",
+        "meaning": "Thank you for being a good fiend.",
+        "text": {
+          "spelling": "いい{友達|とも・だち}でいてくれてありがとう。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-04-12",
+    "lesson_codes": ["GENKI3_L19"],
+    "tags": []
+  },
+  {
+    "id": "ab92becb-40ca-4a7f-8445-cfb0e9714643",
+    "title": "〜てよかったです<br/>〜なくてよかったです",
+    "meaning": "I am glad that I did.../...was the case<br/>I am glad that I didn't.../...was not the case",
+    "how_to_use": [
+      "verb (て form) + よかったです",
+      "verb (neg て form) + よかったです"
+    ],
+    "examples": [
+      {
+        "id": "aacca6d2-ac1c-4663-8087-940614650397",
+        "meaning": "I'm glad that I have studied Japanese.",
+        "text": {
+          "spelling": "{日本語|に・ほん・ご}を{勉強|べん・きょう}してよかったです。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "a86e5fdb-7459-42f3-9e84-25b41e150f84",
+        "meaning": "I'm glad that Marry became well.",
+        "text": {
+          "spelling": "メアリーさんが{元気|げん・き}になってよかったです。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "7821009e-9193-4a07-8047-f33f0742aca0",
+        "meaning": "I'm glad that I had not become late for the appointment.",
+        "text": {
+          "spelling": "{約束|やく・そく}の{時間|じ・かん}に{遅|おく}れなくてよかったです。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "626aba4d-d6e1-41c5-a1a3-d65e673e3c72",
+        "meaning": "I am glad it became sunny today.",
+        "text": {
+          "spelling": "{今日|きょう}{晴|は}れてよかったです。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "12f67a82-b03a-4dac-82cb-bed2a63a3c9c",
+        "meaning": "I am glad that I did not quit (my) Japanese studies.",
+        "text": {
+          "spelling": "{日本語|に・ほん・ご}の{勉強|べん・きょう}をやめなくてよかったです。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-04-12",
+    "lesson_codes": ["GENKI3_L19"],
+    "tags": []
+  },
+  {
+    "id": "61d4a5e2-77ec-4b28-af8b-f79e9899d880",
+    "title": "〜はずです",
+    "meaning": "I believe it is true or likely the case that...",
+    "how_to_use": [
+      "verb (short) + はず + です",
+      "い-adj + はず + です",
+      "な-adj + な + はず + です",
+      "noun + の + はず + です"
+    ],
+    "examples": [
+      {
+        "id": "63a0e12d-7a33-451b-bfdb-136c2b37453b",
+        "meaning": "Because today is Sunday, the bank must be closed, I believe.",
+        "text": {
+          "spelling": "{今日|きょう}は{日曜日|にち・よう・び}だから、{銀行|ぎん・こう}は{閉|し}まっているはずです。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "1daef17d-6acc-4a60-818e-da7773d07e34",
+        "meaning": "The report is not due tomorrow, I believe.",
+        "text": {
+          "spelling": "レポートの{締|し}め{切|き}りは{明日|あした}じゃない{は|ha}ずです。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "6682efd9-c326-4625-a294-93a245fd1c33",
+        "meaning": "Last week I was supposed to receive a phone cal last week, but I did not.",
+        "text": {
+          "spelling": "{先週|せん・しゅう}{電話|でん・わ}をもらう{は|ha}ずでしたが、{電話|でん・わ}がありませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "ecd386ff-1ad0-43aa-aec0-30fc5b6c534c",
+        "meaning": "Canada is larger than the United States, I believe.",
+        "text": {
+          "spelling": "カナダはアメリカより{大|おお}{は|ha}ずです。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "bc3b437b-9612-41cb-885d-c3e425ab291c",
+        "meaning": "Because about 30 minutes ago I saw Ms Chiaki Oogaki, she is coming I, believe.",
+        "text": {
+          "spelling": "{三十分|さん・じゅう・ぶん}ぐらい{前|まえ}に{大垣|おお・がき}{千明|ち・あき}さんを{見|み}たので、{来|く}るはずです。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-04-12",
+    "lesson_codes": ["GENKI3_L19"],
+    "tags": []
+  },
+  {
+    "id": "fe3051f8-53f6-4223-a128-39bdd8d1cbf8",
+    "title": "〜はずがありません",
+    "meaning": "It cannot be / is impossible that...",
+    "how_to_use": [
+      "verb (short) + はず + が + ない",
+      "い-adj + はず + が + ない",
+      "な-adj + な + はず + が + ない",
+      "noun + の + はず + が + ない",
+      "verb (short) + はず + が + ありません",
+      "い-adj + はず + が + ありません",
+      "な-adj + な + はず + が + ありません",
+      "noun + の + はず + が + ありません"
+    ],
+    "examples": [
+      {
+        "id": "0522ddf1-3c5b-4583-8fc8-bb1a72e87b4a",
+        "meaning": "I cannot imagine that he would tell a lie.",
+        "text": {
+          "spelling": "{彼|かれ}が{嘘|うそ}をつく{は|ha}ずがありません。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "74d46f4c-02bf-490c-9f4b-b6cb7c4ccde8",
+        "meaning": "He would never say such a thing.",
+        "text": {
+          "spelling": "{彼|かれ}はそんなことを{言|い}う{は|ha}ずがない。"
+        },
+        "lesson_codes": ["JLPT_SENSEI_GRAMMAR_N4"],
+        "tags": []
+      },
+      {
+        "id": "7a840a91-8bab-47fc-9428-24bca3ad4518",
+        "meaning": "That kind of large portion is impossible to eat all of.",
+        "text": {
+          "spelling": "そんな{大|おお}きな{量|りょう}を{全部|ぜん・ぶ}{食|た}べられる{は|ha}ずがない。"
+        },
+        "lesson_codes": ["JLPT_SENSEI_GRAMMAR_N4"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-04-12",
+    "lesson_codes": ["GENKI3_L19"],
+    "tags": []
+  },
+  {
+    "id": "1d323322-e6fc-433e-ac51-114eeea34b88",
+    "title": "それで・そして・それから",
+    "meaning": "and therefore (to introduce the consequence of what comes before it)<br/>and in addition (to say something notable)<br/>and then (to add an item that comes later in time or in the order of importance",
+    "how_to_use": [
+      "それで ⟶ and therefore (to introduce the consequence of what comes before it)",
+      "そして ⟶ and in addition (to say something notable)",
+      "それから ⟶ and then (to add an item that comes later in time or in the order of importance"
+    ],
+    "examples": [
+      {
+        "id": "56481938-edcf-4945-aa03-636af0c53618",
+        "meaning": "Trains didn't come. Therefore, I was late for class.",
+        "text": {
+          "spelling": "{電車|でん・しゃ}が{来|き}ませんでした。それで、{遅刻|ち・こく}しました。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "21aa0908-9472-437b-95d9-3146ffb5802b",
+        "meaning": "Sora speaks Korean and English. And believe it or note, Japanese too.",
+        "text": {
+          "spelling": "ソラさんは{韓国語|かん・こく・ご}と{英語|えい・ご}が{話|はな}せます。そして、{日本語|に・ほん・ご}も{話|はな}せます。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      },
+      {
+        "id": "e344edaa-7b8c-4a8c-ba77-f1e26caef9e1",
+        "meaning": "I went to Kyoto and Nara. And then I also went to Osaka.",
+        "text": {
+          "spelling": "{京都|きょう・と}と{奈良|な・ら}に{行|い}きました。それから、{大阪|おお・さか}にも{行|い}きました。"
+        },
+        "lesson_codes": ["GENKI3_L19"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-04-12",
+    "lesson_codes": ["GENKI3_L19"],
+    "tags": []
+  }
+]

@@ -1,0 +1,319 @@
+[
+  {"COMMENT": "GENKI LESSON 07"},
+  {
+    "id": "23587f59-8d3d-446d-b3b2-5c644e7d9614",
+    "title": "①　〜ている",
+    "meaning": "action in progress; action is occupation or habit",
+    "how_to_use": [
+      "activity verb (て form) + いる",
+      "activity verb (て form) + います"
+    ],
+    "examples": [
+      {
+        "id": "2e522f9b-9ef2-4fab-a7f4-c0f2363a7d2f",
+        "meaning": "Sora is studying right now.",
+        "text": {
+          "spelling": "ソラさんは{今|いま}{勉強|べん・きょう}しています。"
+        },
+        "lesson_codes": ["GENKI3_L07"],
+        "tags": []
+      },
+      {
+        "id": "e9478f33-3a25-4e74-96e1-6a9aaa038003",
+        "meaning": "At two o'clock yesterday, Takeshi was playing tennis with a friend.",
+        "text": {
+          "spelling": "{昨日|きのう}{二|に}{時|じ}にたけしさんは{友達|とも・だち}とテニスをしていました。"
+        },
+        "lesson_codes": ["GENKI3_WORKBOOK_L07"],
+        "tags": []
+      },
+      {
+        "id": "48e0fe08-ca11-435e-8c1d-fea88ca5ccf9",
+        "meaning": "Mary studies Japanese every day.",
+        "text": {
+          "spelling": "メアリーさんは{毎日|まい・にち}{日本|に・ほん}{語|ご}を{勉強|べん・きょう}しています。"
+        },
+        "lesson_codes": ["GENKI3_L07"],
+        "tags": []
+      },
+      {
+        "id": "9e75d936-d068-4320-93b3-38c27311205f",
+        "meaning": "What are you doing right now?",
+        "text": {
+          "spelling": "{今|いま}、{何|なに}をしていますか。"
+        },
+        "lesson_codes": ["GENKI3_L07"],
+        "tags": []
+      },
+      {
+        "id": "ec46701c-881a-4c9d-830d-961295183dee",
+        "meaning": "Takeshi is reading a book in English.",
+        "text": {
+          "spelling": "たけしさんは{英語|えい・ご}の{本|ほん}を{読|よ}んでいます。"
+        },
+        "lesson_codes": ["GENKI3_L07"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": 5,
+    "date_added": "2023-05-30",
+    "lesson_codes": ["GENKI3_L07"],
+    "tags": []
+  },
+  {
+    "id": "840bbf13-201d-4e79-9c8d-7c0144a0372c",
+    "title": "②　〜ている",
+    "meaning": "result of a change",
+    "how_to_use": [
+      "change verb (て form) + いる",
+      "change verb (て form) + います"
+    ],
+    "examples": [
+      {
+        "id": "c7185f4a-52ee-4252-ab05-3edffd9f38e3",
+        "meaning": "Professor Yamashita is married.",
+        "text": {
+          "spelling": "{山下|やま・した}{先生|せん・せい}は{結婚|けっ・こん}しています。"
+        },
+        "lesson_codes": ["GENKI3_L07"],
+        "tags": []
+      },
+      {
+        "id": "46d0187f-85f6-44d4-b796-ec056262177e",
+        "meaning": "Yui is seated near the window.",
+        "text": {
+          "spelling": "ゆいさんは{窓|まど}の{近|ちか}くに{座|すわ}っています。"
+        },
+        "lesson_codes": ["GENKI3_L07"],
+        "tags": []
+      },
+      {
+        "id": "af66790f-b14e-4902-ab5b-b432ac3c3c06",
+        "meaning": "Dad is up and awake",
+        "text": {
+          "spelling": "お{父|とう}さんは{起|お}きています。"
+        },
+        "lesson_codes": ["GENKI3_L07"],
+        "tags": []
+      },
+      {
+        "id": "51147cbb-86a6-42ce-854f-1e7d47624f94",
+        "meaning": "Professor Yamashita knows my mother",
+        "text": {
+          "spelling": "{山下|やま・した}{先生|せん・せい}は{母|はは}を{知|し}っています。"
+        },
+        "lesson_codes": ["GENKI3_L07"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": 5,
+    "date_added": "2023-05-30",
+    "lesson_codes": ["GENKI3_L07"],
+    "tags": []
+  },
+  {
+    "id": "838d78b7-d3ba-4567-ad9c-441dd15e35c6",
+    "title": "③　〜ている",
+    "meaning": "result of change in movement (= prior movement)",
+    "how_to_use": [
+      "行っています",
+      "来ています"
+    ],
+    "examples": [
+      {
+        "id": "ac06bd53-ca12-4288-af7a-d317755d2646",
+        "meaning": "Somebody has gone to or is in China.",
+        "text": {
+          "spelling": "{中国|ちゅう・ごく}に{行|い}っています"
+        },
+        "lesson_codes": ["GENKI3_L07"],
+        "tags": []
+      },
+      {
+        "id": "048ae920-5b7b-4cc7-8728-a6b2d5782bcb",
+        "meaning": "Somebody has come over to visit.",
+        "text": {
+          "spelling": "うちに{来|き}ています。"
+        },
+        "lesson_codes": ["GENKI3_L07"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-05-30",
+    "lesson_codes": ["GENKI3_L07"],
+    "tags": []
+  },
+  {
+    "id": "31dc76a7-6fca-475f-9d94-fd4a49fab79d",
+    "title": "ＡはＢが、ＣはＤ。",
+    "meaning": "AB but/however CD.",
+    "how_to_use": [
+      "sentence + が + 、 + sentence"
+    ],
+    "examples": [
+      {
+        "id": "fdcfc498-ec26-40a9-b6f3-7dac0d102bba",
+        "meaning": "Norio is thin, but Yasuo is overweight.",
+        "text": {
+          "spelling": "のりおさんは{痩|や}せていますが、やすおさんは{太|ふと}っています。"
+        },
+        "lesson_codes": ["GENKI3_WORKBOOK_L07"],
+        "tags": []
+      },
+      {
+        "id": "26200f00-d93c-4400-a833-f7c4d92db979",
+        "meaning": "I can write hiragana, but I cannot write kanji.",
+        "text": {
+          "spelling": "ひらがなは{書|か}けますが、{漢字|かん・じ}は{書|か}きません。"
+        },
+        "lesson_codes": ["JLPT_SENSEI_GRAMMAR_N4"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": 4,
+    "date_added": "2023-05-30",
+    "lesson_codes": ["JLPT_SENSEI_GRAMMAR_N4", "GENKI3_L07"],
+    "tags": []
+  },
+  {
+    "id": "4d0f3a6d-f332-4c39-9fea-3cf9822c296a",
+    "title": "ＰさんはＢがＣです",
+    "meaning": "P has a body part B that is C",
+    "how_to_use": [
+      "person + は + body part + が + adjective + です"
+    ],
+    "examples": [
+      {
+        "id": "45758a26-6d53-41e4-8fe7-608878c238dc",
+        "meaning": "Tom's hair is long.",
+        "text": {
+          "spelling": "トムさんは{髪|かみ}が{長|なが}いです。"
+        },
+        "lesson_codes": ["GENKI3_L07"],
+        "tags": []
+      },
+      {
+        "id": "c30d9e1d-16b4-4a6e-ba0c-45d080673dfc",
+        "meaning": "This person is tall.",
+        "text": {
+          "spelling": "この{人|ひと}は{背|せ}が{高|たか}いです。"
+        },
+        "lesson_codes": ["GENKI3_L07"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-05-30",
+    "lesson_codes": ["GENKI3_L07"],
+    "tags": []
+  },
+  {
+    "id": "defcf9ca-1159-4811-a152-4489640b710f",
+    "title": "② Ａて、Ｂ。",
+    "meaning": "sentence A and sentence B (with overall tense of B)",
+    "how_to_use": [
+      "sentence + て + sentence",
+      "sentence + て + 、+ sentence"
+    ],
+    "examples": [
+      {
+        "id": "abf71784-af8a-4e63-a1a7-0703749097ce",
+        "meaning": "The food at that restaurant is inexpensive and delicious.",
+        "text": {
+          "spelling": "あの{店|みせ}の{食|た}べ{物|もの}は{安|やす}くて、おいしいです。"
+        },
+        "lesson_codes": ["GENKI3_L07"],
+        "tags": []
+      },
+      {
+        "id": "66587521-7ebd-4c07-8cec-23315ae34fdd",
+        "meaning": "The hotel was clean and we were happy.",
+        "text": {
+          "spelling": "ホテルはきれいで、よかったです。"
+        },
+        "lesson_codes": ["GENKI3_L07"],
+        "tags": []
+      },
+      {
+        "id": "a5351a6c-dc6a-47de-8740-0cf5dbcfed0d",
+        "meaning": "Professor Yamashita is Japanese and he is about fifty years old.",
+        "text": {
+          "spelling": "{山下|やま・した}{先生|せん・せい}は{日本|に・ほん}{人|じん}で、{五|ご}{十|じゅう}{歳|さい}ぐらいです。"
+        },
+        "lesson_codes": ["GENKI3_L07"],
+        "tags": []
+      },
+      {
+        "id": "d8959192-1b66-4f35-b92d-660ac98c927e",
+        "meaning": "A: What kind of place was it?<br/>B: There were a lot of people and it was lively.",
+        "text": {
+          "spelling": "Ａ：どんな{所|ところ}でしたか。<br/>Ｂ：{人|ひと}がたくさんいて、{賑|にぎ}やかでした。"
+        },
+        "lesson_codes": ["GENKI3_L11"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-05-30",
+    "lesson_codes": ["GENKI3_L07"],
+    "tags": []
+  },
+  {
+    "id": "c3ca0776-93d9-4298-9289-1fbc675b359f",
+    "title": "〜に行く",
+    "meaning": "purpose of movement",
+    "how_to_use": [
+      "destination + に/へ + purpose-of-movement (verb stem) + に + 行く",
+      "destination + に/へ + purpose-of-movement (verb stem) + に + 来る",
+      "destination + に/へ + purpose-of-movement (verb stem) + に + 帰る"
+    ],
+    "examples": [
+      {
+        "id": "1678adef-7305-4f9e-8644-c2c13f4ef00f",
+        "meaning": "I went to a department store to buy a bag.",
+        "text": {
+          "spelling": "デパートにかばんを{買|か}いに{行|い}きました。"
+        },
+        "lesson_codes": ["GENKI3_L07"],
+        "tags": []
+      },
+      {
+        "id": "2ffb5f54-5c61-4f03-a166-3e150acb1048",
+        "meaning": "Mary has come to Japan to study Japanese.",
+        "text": {
+          "spelling": "メアリーさんは{日本|に・ほん}に{日本|に・ほん}{語|ご}を{勉強|べん・きょう}しに{来|き}ました"
+        },
+        "lesson_codes": ["GENKI3_L07"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-05-30",
+    "lesson_codes": ["GENKI3_L07"],
+    "tags": []
+  },
+  {
+    "id": "97cd7cfb-3948-4b12-ad53-fad6639fe496",
+    "title": "ＰがＮ人います",
+    "meaning": "There are N people",
+    "how_to_use": [
+      "person + が + numeric + 人 + います"
+    ],
+    "examples": [
+      {
+        "id": "5db69135-b52b-47d7-a64c-3955da05ade1",
+        "meaning": "There is one Indonesian student in our class.",
+        "text": {
+          "spelling": "{私|わたし}のクラスにはインドネシア{人|じん}の{学生|がく・せい}が{一人|ひとり}います。"
+        },
+        "lesson_codes": ["GENKI3_L07"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-05-30",
+    "lesson_codes": ["GENKI3_L07"],
+    "tags": []
+  }
+]

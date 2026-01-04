@@ -1,0 +1,495 @@
+[
+  {"COMMENT": "GENKI LESSON 10"},
+  {
+    "id": "a1ddb025-9616-4444-a349-8e65c522e55c",
+    "title": "Ａの方がＢより〇〇。",
+    "meaning": "A is more ____ than B.",
+    "how_to_use": [
+      "noun (greater) + の方が + noun (lesser) + より + property。",
+      "noun (lesser) + より + noun (greater) + の方が + property。"
+    ],
+    "examples": [
+      {
+        "id": "6c552bbe-183c-4df4-81a9-a9f0c6a90168",
+        "meaning": "China is larger than Japan.",
+        "text": {
+          "spelling": "{中国|ちゅう・ごく}の{方|ほう}が{日本|に・ほん}より{大|おお}きいです。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "7413e5d5-8e3f-498d-ac02-19ec854b8390",
+        "meaning": "Sundays are more fun than Mondays.",
+        "text": {
+          "spelling": "{日曜日|にち・よう・び}の{方|ほう}が{月曜日|げつ・よう・び}より{楽|たの}しいです。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "dcde22ae-a485-426f-b67d-e13f075352ee",
+        "meaning": "Takeshi is older than Mary.",
+        "text": {
+          "spelling": "メアリーさんよりたけしさんの{方|ほう}が{年上|とし・うえ}です。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-10-07",
+    "lesson_codes": ["GENKI3_L10"],
+    "tags": []
+  },
+  {
+    "id": "e2524a54-3d54-4645-8a43-303d5bff59cb",
+    "title": "ＡとＢとどちらの方が〇〇か。",
+    "meaning": "Between A and B, which his more ____?",
+    "how_to_use": [
+      "noun + と + noun + と + どちら + の方 + が + property + か",
+      "noun + と + noun + と + どっち + の方 + が + property + ？",
+      "noun + と + noun + (と) + どちら + が + property + か",
+      "noun + と + noun + (と) + どっち + が + property + ？"
+    ],
+    "examples": [
+      {
+        "id": "3d1210d6-fa47-424c-8e37-56d0fb7f08c9",
+        "meaning": "A: Which is colder, Japan or Canada?<br/>B: Canada is colder.",
+        "text": {
+          "spelling": "Ａ：{日本|に・ほん}とカナダとどちらの{方|ほう}が{寒|さむ}いですか。<br/>Ｂ：カナダの{方|ほう}が{寒|さむ}いです。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "cb16d3fd-6281-4646-ad11-0886b9ff40eb",
+        "meaning": "A: Between you and your Japanese teacher, who is taller?<br/>I am taller (than my Japanese teacher).",
+        "text": {
+          "spelling": "Ａ：あなたと{日本語|に・ほん・ご}の{先生|せん・せい}とどっちの{方|ほう}が{背|せ}が{高|たか}いですか。<br/>Ｂ：{私|わたし}の{方|ほう}が（{日本語|に・ほん・ご}の{先生|せん・せい}より）{背|せ}が{高|たか}いです。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "935e1ca9-98ef-4eda-a587-3f5bd921628e",
+        "meaning": "Q: Which do you like more, summer or winter?<br/>A: I like winter more.",
+        "text": {
+          "spelling": "Ｑ：{夏|なつ}と{冬|ふゆ}、どっちが{好|す}きだ？<br/>Ａ：{冬|ふゆ}の{方|ほう}が{好|す}きだ。"
+        },
+        "lesson_codes": [],
+        "tags": ["not-from-book"]
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-10-07",
+    "lesson_codes": ["GENKI3_L10"],
+    "tags": []
+  },
+  {
+    "id": "872eef00-764f-4dcd-89b1-1819fae14850",
+    "title": "ＡとＢとＣの中でＡが一番〇〇。<br/>Ｘの中でＡが一番〇〇。",
+    "meaning": "A is the most ____ (among the group of items).",
+    "how_to_use": [
+      "noun + と + noun + と + … + の中で + noun + が + 一番 + property。",
+      "category + の中で + noun + が + 一番 + property。",
+      "Note: For questions, どれ is usually used with item lists, while 何 is used with categories."
+    ],
+    "examples": [
+      {
+        "id": "0547262e-2c60-4b75-b413-fcc45c4675d2",
+        "meaning": "Q: Among Canada, France, and Japan, which country has the coldest climate?<br/>A: Canada is coldest, I think.",
+        "text": {
+          "spelling": "Ｑ：カナダとフランスと{日本|に・ほん}の{中|なか}で、どこが{一番|いち・ばん}{寒|さむ}いですか。<br/>Ａ：カナダが{一番|いち・ばん}{寒|さむ}いと{思|おも}います。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "8efa8208-0bb3-47f5-8a50-d7864af0cb06",
+        "meaning": "Q: What season do you like the best?<br/>A: I like fall the most.",
+        "text": {
+          "spelling": "Ｑ：{季節|き・せつ}の{中|なか}でいつが{一番|いち・ばん}{好|す}きてすか。<br/>Ａ：{秋|あき}が{一番|いち・ばん}{好|す}きです。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "c9628c4c-51e3-4376-932b-9d33e671e3fb",
+        "meaning": "Q: What Japanese food is most delicious?<br/>A: Sushi is most delicious, I think.",
+        "text": {
+          "spelling": "Ｑ：{日本|に・ほん}{料理|りょう・り}の{中|なか}で、{何|なに}が{一番|いち・ばん}{美味|おい}しいですか。<br/>Ａ：{寿司|す・し}が{一番|いち・ばん}{美味|おい}しいと{思|おも}います。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "05479085-deb5-4997-b3f6-93db65411a67",
+        "meaning": "Which do you like best: apples, tangerines, or cherries?",
+        "text": {
+          "spelling": "りんごとみかんとさくらんぼの{中|なか}で、どれが{一番|いち・ばん}{好|す}きですか。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "20f70fe9-5ac2-447c-9396-c15ce404283d",
+        "meaning": "What fruit do you like best?",
+        "text": {
+          "spelling": "{果物|くだ・もの}の{中|なか}で、{何|なに}が{一番|いち・ばん}{好|す}きてすか。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-10-09",
+    "lesson_codes": ["GENKI3_L10"],
+    "tags": []
+  },
+  {
+    "id": "b5df7fe2-6198-44ad-9e45-aead8d6ab5e2",
+    "title": "ＡＮ ⟶ Ａの<br/>ＡのＢ ⟶ Ａの",
+    "meaning": "Indefinite Noun",
+    "how_to_use": [
+      "adj + noun (thing) ⟶ adj + の",
+      "noun (possessor) + の + noun (possessed) ⟶ noun (possessor) + の",
+      "Note: Use 人 (ひと) for indefinite people"
+    ],
+    "examples": [
+      {
+        "id": "2b787771-848d-4526-a018-8f84714e9690",
+        "meaning": "I have a black sweater. I have a red one, too.",
+        "text": {
+          "spelling": "{私|わたし}は{黒|くろ}いセーターを{持|も}っています。{赤|あか}いのも{持|も}っています。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "819768bf-5bed-4b90-83d8-0866d8fa6cec",
+        "meaning": "We have a lot of cakes. Take the ones you like.",
+        "text": {
+          "spelling": "ケーキがたくさんあります。{好|す}きなのを{持|も}っていって{下|くだ}さい。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "58852d0a-b0e4-4222-860e-dd69c69f0299",
+        "meaning": "A: Is this Sora's bag?<br/>B: No, that is Mary's",
+        "text": {
+          "spelling": "Ａ：これはソラさんの{鞄|かばん}ですか。<br/>Ｂ：いいえ、それはメアリーさんのです。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "1e1b52eb-654e-480f-a9e6-405af267d711",
+        "meaning": "This clock is expensive. Give me a cheap one.",
+        "text": {
+          "spelling": "この{時計|と・けい}は{高|たか}いです。{安|やす}いのを{下|くだ}さい。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "0b374020-95ac-4577-b409-b7be39be8ff1",
+        "meaning": "My computer is slower than yours.",
+        "text": {
+          "spelling": "{私|わたし}のパソコンの{方|ほう}があなたのより{遅|おそ}いです。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "9e39d1ad-70f2-4898-be34-339646f1cfe8",
+        "meaning": "This is Rin's apple.",
+        "text": {
+          "spelling": "このりんごはリンさんのです。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-10-28",
+    "lesson_codes": ["GENKI3_L10"],
+    "tags": []
+  },
+  {
+    "id": "33b3532b-9ce8-4fbb-96fb-39f6aa1cd073",
+    "title": "〜つもりだ",
+    "meaning": "I intend to do...",
+    "how_to_use": [
+      "verb (short, present) + つもりだ ⟶ I intend to do...",
+      "verb (short, negative, present) + つもりだ ⟶ I do not intend to do...",
+      "verb (short, past) + つもりだ ⟶ I intended to do, but didn't do..."
+    ],
+    "examples": [
+      {
+        "id": "dbca02ac-d348-4c0f-8f7a-e4942ae1f34b",
+        "meaning": "I intend to play tennis with Takeshi this weekend.",
+        "text": {
+          "spelling": "{週末|しゅう・まつ}にたけしさんとテニスをするつもりです。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "f5aa06ea-1d79-4a1a-a8f6-eea972010878",
+        "meaning": "Professor Yamashita does not intend to come to school tomorrow.",
+        "text": {
+          "spelling": "{山下|やま・した}{先生|せん・せい}は{明日|あした}{大学|だい・がく}に{来|こ}ないつもりです。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "3a9fe084-8fa2-4db0-9057-5a70555c4bf6",
+        "meaning": "We were planning to visit a temple, but we didn't, because the weather was not good.",
+        "text": {
+          "spelling": "お{寺|てら}を{見|み}に{行|い}くつもりでしたが、{天気|てん・き}が{良|よ}くなかったから、{行|い}きませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "ae991891-962d-4ed0-8b87-f3687d0d0d7b",
+        "meaning": "(I will) stay at my friend's house because hotels are expensive.",
+        "text": {
+          "spelling": "ホテルは{高|たか}いから、{友達|とも・だち}のうちに{泊|と}まるつもりです。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-10-28",
+    "lesson_codes": ["GENKI3_L10"],
+    "tags": []
+  },
+  {
+    "id": "c124fbd0-2ecb-4ce4-b4e6-f1b3534bc3c2",
+    "title": "Ａなる",
+    "meaning": "to become A",
+    "how_to_use": [
+      "い-adj (stem) + く + なる",
+      "な-adj (stem) + に + なる",
+      "noun + に + なる"
+    ],
+    "examples": [
+      {
+        "id": "357df4b7-6870-4505-b7ba-8e3cd60b1193",
+        "meaning": "Studying Japanese has become fun<br/>(though it was like torture before).",
+        "text": {
+          "spelling": "{日本語|に・ほん・ご}の{勉強|べん・きょう}が{楽|たの}しくなりました。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "4f493e43-03e3-4326-9fed-5db136c123eb",
+        "meaning": "I have become fond of studying Japanese.",
+        "text": {
+          "spelling": "{日本語|に・ほん・ご}の{勉強|べん・きょう}が{好|す}きになりました。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "b6d63151-4c1b-452d-9b43-a50cfa2c8af1",
+        "meaning": "Mary has become better in Japanese than before.",
+        "text": {
+          "spelling": "メアリーさんは{前|まえ}より{日本語|に・ほん・ご}が{上手|じょう・ず}になりました。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "26767e4f-0df1-49ee-a93a-53bc7110db88",
+        "meaning": "My room became clean, because I cleand it this morning.",
+        "text": {
+          "spelling": "{今朝|けさ}{掃除|そう・じ}したから、{私|わたし}の{部屋|へ・や}がきれいになりました。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "8991aec7-e02f-49a5-81ba-17f59aa274e9",
+        "meaning": "I have become very good at speaking Japanese, because I practiced a lot.",
+        "text": {
+          "spelling": "たくさん{練習|れん・しゅう}したから、{日本語|に・ほん・ご}を{話|はな}すのがすごく{上手|じょう・ず}になりました。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "94a0472b-31ab-484a-bce4-981033212a0d",
+        "meaning": "I will become a teacher, because I like children.",
+        "text": {
+          "spelling": "{子供|こ・ども}が{好|す}きだから、{先生|せん・せい}になります。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-10-28",
+    "lesson_codes": ["GENKI3_L10"],
+    "tags": []
+  },
+  {
+    "COMMENT": "Below is just some initial basic usage. Tofugu has an in depth guide: https://www.tofugu.com/japanese-grammar/question-words/"
+  },
+  {
+    "id": "8b04fdb4-c837-4787-9a77-ccea20b77a04",
+    "title": "〇〇か＿／〇〇＿も",
+    "meaning": "some__/not any__",
+    "how_to_use": [
+      "何か＿ + positive　⟶　something",
+      "何＿も + negative　⟶　not anything",
+      "誰か＿ + positive　⟶　someone",
+      "誰＿も + negative　⟶　not anyone",
+      "どこか＿ + positive　⟶　somewhere",
+      "どこ＿も + negative　⟶　not anywhere",
+      "に, へ, で ⟶ go in underlined position",
+      "は, が, を ⟶ can be omitted"
+    ],
+    "examples": [
+      {
+        "id": "52148959-e4c9-48cd-81d3-720fc0e29685",
+        "meaning": "A: Did you go anywhere?<br/>B: No, I didn't go anywhere.",
+        "text": {
+          "spelling": "Ａ：どこかへ{行|い}きましたか。<br/>Ｂ：いいえ、どこへも{行|い}きませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "c6bb90ce-191f-4320-a3d3-b5ea362ab005",
+        "meaning": "A: Did you see anybody?<br/>B: No, I didn't see anybody.",
+        "text": {
+          "spelling": "Ａ：{誰|だれ}かに{会|あ}いましたか。<br/>Ｂ：いいえ、{誰|だれ}にも{会|あ}いませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "838ea81b-3111-4b8c-875b-322c37193375",
+        "meaning": "A: Did you do anything?<br/>B: No, I didn't do anything.",
+        "text": {
+          "spelling": "Ａ：{何|なに}かしましたか。<br/>Ｂ：いいえ、{何|なに}もしませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "d05250b3-2f76-4acf-b4ed-fbb20f832bd5",
+        "meaning": "A: Did you meet anyone at the party?<br/>B: No, I did not meet anyone.",
+        "text": {
+          "spelling": "Ａ：パーティーで{誰|だれ}かに{会|あ}いましたか。<br/>Ｂ：いいえ、{誰|だれ}にも{会|あ}いませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-11-24",
+    "lesson_codes": ["GENKI3_L10"],
+    "tags": []
+  },
+  {
+    "id": "b650b16c-4d67-4b69-aab0-1ac3deac3416",
+    "title": "〜で",
+    "meaning": "Particle for means of transportation and instruments that you use",
+    "how_to_use": [
+      "noun + で"
+    ],
+    "examples": [
+      {
+        "id": "f7c280d7-2700-40d8-babe-364d1b4a1b76",
+        "meaning": "We eat our meals with chopsticks.",
+        "text": {
+          "spelling": "{箸|はし}でご{飯|はん}を{食|た}べます。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "c2c8ee26-0ab5-4b13-8b5f-a10e8e125112",
+        "meaning": "Let's talk in Japanese.",
+        "text": {
+          "spelling": "{日本語|に・ほん・ご}で{話|はな}しましょう。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "0ffd0db7-7e95-45c5-8b88-412fd2f96c9f",
+        "meaning": "I went to the station by bus.",
+        "text": {
+          "spelling": "バスで{駅|えき}まで{行|い}きました。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "c1e9d5a9-c732-4530-97ad-80a305414a99",
+        "meaning": "I saw a movie on TV.",
+        "text": {
+          "spelling": "テレビで{映画|えい・が}を{見|み}ました。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-11-24",
+    "lesson_codes": ["GENKI3_L10"],
+    "tags": []
+  },
+  {"COMMENT": "Below is not a formal lesson, but in WB p. 101; last example I constructed after looking up どのぐらい vs どれぐらい, of which in colloquial usage they are usually interchangeable."},
+  {
+    "id": "669a0167-49c4-4c07-aac1-64d4877a9533",
+    "title": "〜から／〜まで",
+    "meaning": "from... / to...",
+    "how_to_use": [
+      "noun + から ⟶ from noun",
+      "noun + まで ⟶ to/until noun"
+    ],
+    "examples": [
+      {
+        "id": "d7b7f0a6-71c1-47b0-a0eb-1ca3ee9c48e0",
+        "meaning": "A: Mary,how do you get from home to North Station?<br/>B: I walk.<br/>A: I see.",
+        "text": {
+          "spelling": "Ａ：メアリーさんは、{家|いえ}から{北駅|きた・えき}までどうやって{行|い}きますか。<br/>Ｂ：{歩|ある}いて{行|い}きます。Ａ：そうですか。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "a6867125-4248-48bb-81a7-5941a5cab996",
+        "meaning": "A: How do you get from North Station to the University?<br/>B: I go by bus.",
+        "text": {
+          "spelling": "Ａ：{北駅|きた・えき}から{大学|だい・がく}までどうやって{行|い}きますか。<br/>Ｂ：バスで{行|い}きます。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      },
+      {
+        "id": "7762073b-f4de-4f4f-b09a-d61d9e5c9b71",
+        "meaning": "A: How long does it take to get to the University?<br/>It takes fifteen minutes.",
+        "text": {
+          "spelling": "Ａ：{大学|だい・がく}まで、どのぐらいかかりますか。<br/>B：{十五分|じゅう・ご・ぶん}かかります。"
+        },
+        "lesson_codes": ["GENKI3_L10"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-11-24",
+    "lesson_codes": ["GENKI3_L10"],
+    "tags": []
+  }
+]

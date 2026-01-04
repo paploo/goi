@@ -1,0 +1,726 @@
+[
+  {"COMMENT": "GENKI LESSON 16"},
+  {
+    "id": "6cd3346b-bae2-4d8b-8316-878f0aea7509",
+    "title": "〜てあげる",
+    "meaning": "Somebody does something for somebody else (e.g. as a favor)<br/>I do something for you (e.g. as a favor)",
+    "how_to_use": [
+      "verb (て form) + あげる",
+      "implies the speaker is doing a kind, helpful, or considerate action",
+      "does no change basic meaning; implies 'on demand' or as a 'favor action'",
+      "nouns referring to beneficiary use whatever particle the main verb calls for"
+    ],
+    "examples": [
+      {
+        "id": "d397765f-a898-48ed-bdb1-dd5da2dda7c8",
+        "meaning": "I (generously) lent my sister money (to help her out).",
+        "text": {
+          "spelling": "{私|わたし}は{妹|いもうと}にお{金|かね}を{貸|か}してあげました。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "67d7a341-dd77-4302-af9f-f41dda1c58ac",
+        "meaning": "Natsumi (kindly) took Hotaru Ichijou to the station (because she'd be lost if left all by herself).",
+        "text": {
+          "spelling": "{夏海|なつ・み}さんは{一条|いち・じょう}{蛍|ほたる}さんを{駅|えき}に{連|つ}れて{行|い}ってあげました。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "6434e9a8-a7cc-454d-b687-5b6fd3e842d7",
+        "meaning": "I (kindly) took a grandma to the station",
+        "text": {
+          "spelling": "おばあさんを{駅|えき}に{連|つ}れて{行|い}ってあげました。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "9807b2f2-c314-4127-af71-c609f19523b4",
+        "meaning": "A: When your friend is feeling depressed, what do you do for them?<br/>B: I (help them by) treating them to a meal.",
+        "text": {
+          "spelling": "Ａ：{友達|とも・だち}が{落|お}ち{込|こ}んでいる{時|とき}、{友達|とも・だち}に{何|なに}をしてあげますか。<br/>Ｂ：ご{飯|はん}を{奢|おご}ってあげます。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "3cc868ee-c855-4a49-bb46-3e81dd16b62c",
+        "meaning": "Since my family will come to Japan, I will show them around Kyoto.",
+        "text": {
+          "spelling": "{家族|か・ぞく}が{日本|に・ほん}に{来|く}るので、（{私|わたし}は）{京都|きょう・と}を{案内|あん・ない}してあげます。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-09-03",
+    "lesson_codes": ["GENKI3_L16"],
+    "tags": []
+  },
+  {
+    "id": "19c5e6c0-f03e-4415-bca0-ce2cedb40396",
+    "title": "〜てくれる",
+    "meaning": "somebody does something for me / to help me",
+    "how_to_use": [
+      "verb (て form) + くれる",
+      "implies the recipient feels grateful or happy about the other person’s action; it’s a “kindness toward me",
+      "focus is on the helper",
+      "does no change basic meaning; implies on demand or as a favor action",
+      "nouns referring to beneficiary (when present) use whatever particle the main verb calls for."
+    ],
+    "examples": [
+      {
+        "id": "422987d3-c86e-487a-bb68-6717991ba0b1",
+        "meaning": "A friend helps me with my homework (for which I am grateful).",
+        "text": {
+          "spelling": "{友達|とも・だち}が{宿題|しゅく・だい}を{手伝|て・つだ}ってくれます。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "cb257f99-53c4-4547-a3e1-fe0f6e69d2df",
+        "meaning": "A relative sent me apples (I should ber so lucky.)",
+        "text": {
+          "spelling": "{親戚|しん・せき}がりんごを{送|おく}ってくれました。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "4c14a6de-ff00-4174-aa18-bda63bb7c05d",
+        "meaning": "My teacher (helped me out having) wrote me a letter of recommendation.",
+        "text": {
+          "spelling": "{先生|せん・せい}が{推薦状|すい・せん・じょう}を{書|か}いてくれました。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "c1065d09-50f3-477e-96d2-116e25c76c43",
+        "meaning": "(As a favor) my older sister sometimes lends me her car.",
+        "text": {
+          "spelling": "{姉|あね}は{時々|とき・どき}（{私|わたし}に）{車|くるま}を{貸|か}してくれます。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-09-04",
+    "lesson_codes": ["GENKI3_L16"],
+    "tags": []
+  },
+  {
+    "id": "1bd236d1-f260-4af4-b39d-3d684ec248b0",
+    "title": "〜てもらう",
+    "meaning": "get, persuade, or arrange for somebody to do something for me",
+    "how_to_use": [
+      "(私 + は）+ benefactor + に + sentence (て form) + もらう",
+      "Implies the speaker (reciever) requested, arranged, or caused the action",
+      "Focus is on the recipient’s perspective rather than the doer’s"
+    ],
+    "examples": [
+      {
+        "id": "31b92d75-de37-4391-816e-59b08a096af0",
+        "meaning": "I got my friend to help me with my homework.",
+        "text": {
+          "spelling": "{私|わたし}は{友達|とも・だち}に{宿題|しゅく・だい}を{手伝|て・つだ}ってもらいました。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "ef2dea3e-ef6f-48f5-bd0c-8ba2b930aa13",
+        "meaning": "I got my older sister to sometimes lend me her car.",
+        "text": {
+          "spelling": "（{私|わたし}は）{時々|とき・どき}{姉|あね}に{車|くるま}を{貸|か}してもらいます。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "520ce4fc-8c8d-4608-8bd3-c358cbc5cb65",
+        "meaning": "I got my friend to translate to English.",
+        "text": {
+          "spelling": "{友達|とも・だち}に{英語|えい・ご}に{訳|やく}してもらいました。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "955e1dc7-db35-4eba-85bb-614e3c49c03f",
+        "meaning": "I got my friend to treat me to dinner.",
+        "text": {
+          "spelling": "（{私|わたし}は）{友達|とも・だち}に{晩|ばん}ご{飯|はん}を{奢|おご}ってもらいました。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "a3b5f60f-47e9-47ab-bee8-7cb058fa29bc",
+        "meaning": "A: When you are lonely, who do you want to do what for you?<br/>B: I want my friends to call me.",
+        "text": {
+          "spelling": "Ａ：{寂|さび}しい{時|とき}、{誰|だれ}に{何|なに}をしてもらいたいですか。<br/>{友達|とも・だち}に{電話|でん・わ}してもらいたい。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-09-04",
+    "lesson_codes": ["GENKI3_L16"],
+    "tags": []
+  },
+  {
+    "id": "0097dd84-d584-44ba-8075-de406ece08af",
+    "title": "〜のために",
+    "meaning": "Doing somebody a favor (when verb has no place for beneficiary)<br/>(for the benefit of...)",
+    "how_to_use": [
+      "beneficiary + の + ため + に + verb"
+    ],
+    "examples": [
+      {
+        "id": "8912ae37-d11f-4490-a6f8-6114dcde6460",
+        "meaning": "I went shopping for Mio.",
+        "text": {
+          "spelling": "{私|わたし}は{澪|みお}さんのために{買|か}い{物|もの}に{行|い}きました<br/>(cf. {私|わたし}は{買|か}い{物|もの}に{行|い}きました。)"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "e0e74a19-d040-4e1f-9bac-8845a3115983",
+        "meaning": "Ken cleand the room for me.",
+        "text": {
+          "spelling": "けんさんが{私|わたし}のために{部屋|へ・や}を{掃除|そう・じ}してくれました。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-09-03",
+    "lesson_codes": ["GENKI3_L16"],
+    "tags": []
+  },
+  {
+    "id": "939f1825-94e0-45dc-9e58-7f18b2e8e61a",
+    "title": "〜ていただけませんか<br/>〜てくれませんか",
+    "meaning": "Making a request (for a favor)",
+    "how_to_use": [
+      "verb (て form) + いただけませんか (polite)",
+      "verb (て form) + くれませんか",
+      "verb (て form) + くれない？ (casual)",
+      "Fuller lest of variants, from polite to casual:",
+      "〜ていただけませんか (いただける, potential verb for いただく)",
+      "〜てくださいませんか (下さる)",
+      "〜てもらえませんか (もらえる, potential verb for もらう)",
+      "〜てくれませんか (くれる)",
+      "〜てもらえない？ (もらえる, short form)",
+      "〜てくれいない？ (くれる, short form)"
+    ],
+    "examples": [
+      {
+        "id": "9429cb27-365e-4205-8cc9-c27e1bc72b81",
+        "meaning": "Would you lend me a hand?",
+        "text": {
+          "spelling": "{手伝|て・つだ}っていただけませんか。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "b08e973a-f736-4c9c-ac57-af8e9a5e350e",
+        "meaning": "Will you wait for a second?",
+        "text": {
+          "spelling": "ちょっと{待|ま}ってくれませんか。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "b6364f79-1348-405a-83b4-61500409958c",
+        "meaning": "Pick that thing up (and pass it to me), will you?",
+        "text": {
+          "spelling": "それ{取|と}ってくれない？"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "39e597a6-e7e1-42b9-9369-87875ab7744e",
+        "meaning": "(<i>to your host family</i>) Would you wake me up at 7 o'clock tomorrow?",
+        "text": {
+          "spelling": "{明日|あした}{七時|しち・じ}に{起|お}こしてくれませんか。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "be04593a-9973-4d4f-ae7f-d86322131dce",
+        "meaning": "(<i>to your professor</i>) Can you translate this into English?",
+        "text": {
+          "spelling": "これを{英語|えい・ご}に{訳|やく}していただけませんか。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "b193ebae-9336-40a7-b930-834b68dd0918",
+        "meaning": "You: Would you give me my money back?<br/>Friend: Sorry. Wait until next week. (Because) I don't have any money right now.",
+        "text": {
+          "spelling": "あなた：お{金|かね}を{返|かえ}してくれない？<br/>{友達|とも・だち}：ごめん。{来週|らい・しゅう}まで{待|ま}って。{今|いま}、お{金|かね}がないんだ。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-09-09",
+    "lesson_codes": ["GENKI3_L16"],
+    "tags": []
+  },
+  {
+    "id": "9c7bf747-f9ef-4046-9f58-eee10d77c8b8",
+    "title": "〜といいですね",
+    "meaning": "I hope... (for you/them)",
+    "how_to_use": [
+      "verb (short present) + と + いいですね (polite)",
+      "verb (short present) + と + いいね (casual)"
+    ],
+    "examples": [
+      {
+        "id": "4e8f062a-439e-4263-869f-7c11627c9869",
+        "meaning": "I hope you find a good part-time job.",
+        "text": {
+          "spelling": "いいアルバイトが{見|み}つかるといいですね。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "7f8bce50-b668-49d6-9131-d58288ff61bb",
+        "meaning": "I hope it doesn't rain.",
+        "text": {
+          "spelling": "{雨|あめ}が{降|ふ}らないといいね。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "5ce24f61-e479-4cb9-bce0-4874b2184a26",
+        "meaning": "Friend: Next year I plan to study abroad.<br/>You: I hope you get to have various experiences.",
+        "text": {
+          "spelling": "{友達|とも・だち}：{来年|らい・ねん}{留学|りゅう・がく}する{予定|よ・てい}です。<br/>あなた：{色々|いろ・いろ}な{経験|けい・けん}ができるといいですね。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "68330ffd-9a0d-4477-be1d-d3f46947e884",
+        "meaning": "Friend： My cat is sick.<br/>You: I hope (the cat) becomes better soon.",
+        "text": {
+          "spelling": "{友達|とも・だち}：{私|わたし}の{猫|ねこ}が{病気|びょう・き}なんです。<br/>あなた：{早|はや}くよくなるといいですね。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "f3666a45-9f66-4a7a-b0be-36f4fd675162",
+        "meaning": "Friend: Tomorrow is my birthday.<br/>You: I hope you get lots of presents.",
+        "text": {
+          "spelling": "{友達|とも・だち}：{明日|あした}は{私|わたし}の{誕生日|たん・じょう・び}なんです。<br/>あなた：プレゼントがたくさんもらえるといいですね。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-09-11",
+    "lesson_codes": ["GENKI3_L16"],
+    "tags": []
+  },
+  {
+    "id": "67eb606b-72a8-4854-b93c-e0d7c87296bd",
+    "title": "〜といいんですが",
+    "meaning": "I hope... (for myself)",
+    "how_to_use": [
+      "verb (short present) + と + いいんですが (polite)",
+      "verb (short present) + と + いいんだけど (casual)"
+    ],
+    "examples": [
+      {
+        "id": "a00259c9-78d3-4fc5-8469-78f95029cb2b",
+        "meaning": "I am hoping that the exam is easy.",
+        "text": {
+          "spelling": "{試験|し・けん}が{優|やさ}しいといいんですが。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "81040f79-acdd-41a4-9f18-398a5740c6ce",
+        "meaning": "There is an exam tomorrow morning. I hope I do not oversleep.",
+        "text": {
+          "spelling": "{明日|あした}の{朝|あさ}、{試験|し・けん}があります。{朝寝坊|あさ・ね・ぼう}しないといいんですが。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "fe8920e7-3bac-4047-989e-74c867f092f5",
+        "meaning": "I have to give a presentation tomorrow. I hope I will not be too nervous.",
+        "text": {
+          "spelling": "{明日|あした}、{発表|はっ・ぴょう}しなければいけません。{緊張|きん・ちょう}しすぎないといいんだけど。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "dbe04b0f-30ec-419a-ae40-bd62607d030f",
+        "meaning": "We are planning on having a barbecue. I hope it does not rain.",
+        "text": {
+          "spelling": "バーベキューをするつもりです。{雨|あめ}が{降|ふ}らないといいんですが。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-09-12",
+    "lesson_codes": ["GENKI3_L16"],
+    "tags": []
+  },
+  {
+    "id": "43fa5160-a6e2-4aef-b7c1-46014d9bd99a",
+    "title": "Ｖ（potential）+ といいんですが",
+    "meaning": "I hope <i>to do</i>...",
+    "how_to_use": [
+      "verb (potential) + と + いいんですが",
+      "verb (potential) + と + いいんだけど"
+    ],
+    "examples": [
+      {
+        "id": "5bb895ab-8f6e-40a3-a3bc-74962d7e96de",
+        "meaning": "I am hoping to go to college.",
+        "text": {
+          "spelling": "{大学|だい・がく}に{行|い}けるといいんですが。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "c255b71f-a032-4604-b936-24ac6ae35952",
+        "meaning": "I hope I can catch the eight o'clock train.",
+        "text": {
+          "spelling": "{８時|はち・じ}の{電車|でん・しゃ}に{乗|の}れるといいんだけど。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "ce53ccc9-21db-4d80-b930-ec76a7e40440",
+        "meaning": "I want to go to graduate school. I hope I can receive a scholarship.",
+        "text": {
+          "spelling": "{大覚院|だい・がく・いん}に{行|い}きたいです。{奨学金|しょう・がく・きん}がもらえるといいんですが。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-09-12",
+    "lesson_codes": ["GENKI3_L16"],
+    "tags": []
+  },
+  {
+    "id": "7b8c06dd-5083-4794-a847-574ab226e28c",
+    "title": "Ａ時、Ｂ。<br/>(Ａ is present tense)",
+    "meaning": "When A, B <br/>(where t<sub>a</sub> ⋝ t<sub>b</sub>)",
+    "how_to_use": [
+      "verb (present) + 時、+ sentence",
+      "can also be used where t<sub>a</sub> during B"
+    ],
+    "examples": [
+      {
+        "id": "505a8afa-4337-4df3-845c-837370b16908",
+        "meaning": "When I go to Tibet, I will get a visa.<br/><i>(Will go to Tibet <u>after</u> will get a visa)</i>",
+        "text": {
+          "spelling": "チベットに{行|い}く{時|とき}、ビザを{取|と}ります。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "c0e18375-2ffc-4657-a03f-db768af229cf",
+        "meaning": "When I was going to Tibet, I got a visa.<br/><i>(Went to Tibet <u>after</u> did get a visa)</i>",
+        "text": {
+          "spelling": "チベットに{行|い}く{時|とき}、ビザを{取|と}りました。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "4709d9bd-6843-47c0-9f49-c931fa850a0a",
+        "meaning": "When I go to sleep, I turn off the light<br/><i>(Will go to sleep <u>after</u> will turn off light)</i>",
+        "text": {
+          "spelling": "{寝|ね}る{時|とき}、{電気|でん・き}を{消|け}します。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "90d914a2-2cdc-4032-97d4-77ed1e996c09",
+        "meaning": "When I went out, I locked the door.<br/><i>(Did go out <u>after</u> did lock the door)</i>",
+        "text": {
+          "spelling": "{出|で}かける{時|とき}、ドアに{鍵|かぎ}をかけました。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "1c38ec51-3479-4ec9-9130-77176ccca135",
+        "meaning": "When I went to bed yesterday, I didn't brush my teeth.<br/><i>(Went to bed <u>after</u> didn't brush my teeth)</i>",
+        "text": {
+          "spelling": "{昨日|きのう}{寝|ね}る{時|とき}、{歯|は}を{磨|みが}きませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "ded3e861-2226-4a50-828f-18aba38ca17f",
+        "meaning": "When I bought this car, I borrowed money from the bank.<br/><i>(Bought this car <u>after</u> borrowed money)</i>",
+        "text": {
+          "spelling": "この{車|くるま}を{買|か}う{時|とき}、{銀行|ぎん・こう}からお{金|かね}を{借|か}りました。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-09-16",
+    "lesson_codes": ["GENKI3_L16"],
+    "tags": []
+  },
+  {
+    "id": "95dbcceb-5015-4853-baf3-765e94d8df24",
+    "title": "Ａ時、Ｂ。<br/>(with adjectives and nouns)",
+    "meaning": "When A, B (with adjectives and nouns)",
+    "how_to_use": [
+      "い-adj + 時、+ sentence",
+      "な-adj + な + 時、+ sentence",
+      "noun + の + 時、+ sentence"
+    ],
+    "examples": [
+      {
+        "id": "81da606c-bb88-4ba3-ae25-e5efe80f3340",
+        "meaning": "When I am lonely, I call up friends.",
+        "text": {
+          "spelling": "{寂|さび}しい{時|とき}、{友達|とも・だち}に{電話|でん・わ}します。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "bc4cba29-cc01-406d-8ccc-15d94fabc34d",
+        "meaning": "When it is cold, I get a headache.<br/>(lit. During times of cold, my head becomes painful.)",
+        "text": {
+          "spelling": "{寒|さむ}い{時|とき}、{頭|あたま}が{痛|いた}くなります。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "212b1217-29ad-4229-8870-5e20809d3b03",
+        "meaning": "When I feel fit, I jog in the park.",
+        "text": {
+          "spelling": "{元気|げん・き}な{時|とき}、{公園|こう・えん}を{走|はし}ります。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "79ba4295-4a61-4557-8318-270076e4ebed",
+        "meaning": "When the dog was sick, I took it to the vet.",
+        "text": {
+          "spelling": "{犬|いぬ}が{病気|びょう・き}の{時|とき}、{病院|びょう・いん}に{連|つ}れていました。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-09-16",
+    "lesson_codes": ["GENKI3_L16"],
+    "tags": []
+  },
+  {
+    "id": "c8f4cf35-b982-43e7-87aa-bb3cf394ad3e",
+    "title": "Ａ時、Ｂ。<br/>(Ａ is past tense)",
+    "meaning": "When A, B<br/>(where t<sub>a</sub> ⋜ t<sub>b</sub>)",
+    "how_to_use": [
+      "verb (past) + 時、+ sentence"
+    ],
+    "examples": [
+      {
+        "id": "dc32eb3c-ab00-45a6-a6b4-b5b5ad8dd6c1",
+        "meaning": "When I go to china, I will buy oolong tea.<br/><i>(Will go to China <u>before</u> buying oolong tea)</i>",
+        "text": {
+          "spelling": "{中国|ちゅう・ごく}に{行|い}った{時|とき}、ウーロン{茶|ちゃ}を{買|か}います。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "d45fa36d-a04d-4297-997b-fe057eda58bc",
+        "meaning": "When I went to China, I bought oolong tea.<br/><i>(Went to China <u>before</u> bought oolong tea)</i>",
+        "text": {
+          "spelling": "{中国|ちゅう・ごく}に{行|い}った{時|とき}、ウーロン{茶|ちゃ}を{買|か}いました。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "1090d9ce-51e1-4d92-a147-9ae3ee7b9ff0",
+        "meaning": "When I have gotten tired, I take a long bath.<br/><i>(Gotten tired <u>before</u> will take a long bath)</i>",
+        "text": {
+          "spelling": "{疲|つか}れた{時|とき}、ゆっくりお{風呂|ふ・ろ}に{入|はい}ります。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "13d3230d-a6e1-44f6-91da-cf3bcfc9c724",
+        "meaning": "When I had forgotten to bring my wallet, I borrowed money from a friend.<br/><i>(Had forgotten wallet <u>before</u> borrowed money)</i>",
+        "text": {
+          "spelling": "{財布|さい・ふ}を{忘|わす}れた{時|とき}、{友達|とも・だち}にお{金|かね}を{借|か}りました。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "f464bbb8-7412-47ae-be40-7c9368cb4438",
+        "meaning": "When I attended a volunteer activity, I met various people.<br/><i>(Attended volunteer activity <u>before</u> meeting various people)</i>",
+        "text": {
+          "spelling": "ボランティア{活動|かつ・どう}に{参加|さん・か}した{時|とき}、{色々|いろ・いろ}な{人|ひと}に{会|あ}いました。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-09-16",
+    "lesson_codes": ["GENKI3_L16"],
+    "tags": []
+  },
+  {
+    "id": "db44593c-429d-4527-ad27-5614dd59282c",
+    "title": "〜てすみませんでした<br/>〜てごめん",
+    "meaning": "Sorry for doing...",
+    "how_to_use": [
+      "verb (て form) + すみませんでした (polite)",
+      "verb (て form) + ごめん (casual)",
+      "To apologize for something you didn't do, use the negative て form."
+    ],
+    "examples": [
+      {
+        "id": "f334d968-b6ea-424f-bca1-662a14777cf5",
+        "meaning": "I'm sorry for using dirty language.",
+        "text": {
+          "spelling": "{汚|きたな}い{言葉|こと・ば}を{使|つか}ってすみませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "be401010-7cc5-4579-9547-3610f1a3428d",
+        "meaning": "Sorry that I stood you up.",
+        "text": {
+          "spelling": "デートの{約束|やく・そく}を{忘|わす}れてごめん。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "c482e12f-4629-4246-9345-f0ddcf57baca",
+        "meaning": "I'm sorry for not bringing the homework.",
+        "text": {
+          "spelling": "{宿題|しゅく・だい}を{持|も}ってくなくてすみませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "be5a3a37-d870-4ca4-a8d2-c79471d34d9e",
+        "meaning": "Sorry that I did not tell you earlier.",
+        "text": {
+          "spelling": "もっと{早|はや}く{言|い}わなくてごめん。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "ed00b51c-286e-4b9f-b0d4-e0c81eb0c8a7",
+        "meaning": "Teacher, sorry for losing the book I borrowed.",
+        "text": {
+          "spelling": "{先生|せん・せい}に{借|か}りた{本|ほん}をなくしてすみませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      },
+      {
+        "id": "70fe768f-e15b-4477-9592-ed96f9d76df9",
+        "meaning": "Sorry for not handing in yesterday's report.",
+        "text": {
+          "spelling": "{昨日|きのう}レポートを{出|だ}さなくてすみませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L16"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-09-18",
+    "lesson_codes": ["GENKI3_L16"],
+    "tags": []
+  },
+  {"COMMENT": "From L16 expression notes and https://www.tofugu.com/japanese-grammar/adjective-suffix-sa/"},
+  {
+    "id": "d6710b8c-f989-4b71-8c2e-9e9db8f6307f",
+    "title": "〜さ",
+    "meaning": "adjective normalizer, to objective and measurable noun<br/>...ness",
+    "how_to_use": [
+      "い-adj (stem) + さ",
+      "な-adj + さ"
+    ],
+    "examples": [
+      {
+        "id": "03d26b46-0f63-4c35-b835-2dfec0bf8748",
+        "meaning": "I measured the weight (lit., heaviness) of my luggage before going to the airport.",
+        "text": {
+          "spelling": "{空港|くう・こう}へ{行|い}く{前|まえ}に、カバンの<u>{重|おも}さ</u>を{測|はか}りました。"
+        },
+        "lesson_codes": ["TOFUGU_ADJECTIVE_SUFFIX_SA"],
+        "tags": []
+      },
+      {
+        "id": "726221d7-97a0-48f7-a062-1959ed9e3a5d",
+        "meaning": "Check the depth (lit., deepness) of the swimming pool before you get in.",
+        "text": {
+          "spelling": "プールの<u>{深|ふか}さ</u>を{確認|かくにん}してから{入|はい}ろう。"
+        },
+        "lesson_codes": ["TOFUGU_ADJECTIVE_SUFFIX_SA"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-09-18",
+    "lesson_codes": ["GENKI3_L16"],
+    "tags": []
+  }
+]

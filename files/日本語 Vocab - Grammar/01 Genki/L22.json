@@ -1,0 +1,488 @@
+[
+  {"COMMENT": "GENKI LESSON 22"},
+  {
+    "id": "a37ad4cc-6d3b-4dcc-ac3a-59029d042fb9",
+    "title": "ＤはＣにＶせる (causative)",
+    "meaning": "D made/let C do the action",
+    "how_to_use": [
+      "director + は + cast + に + verb (causative)",
+      "Director decides what is allowed and what must be done",
+      "Director marked with は or sometimes が",
+      "Cast usually marked with に, but in some cases を:",
+      "When action is a reflex (e.g. crying, laughing)",
+      "When the verb usually doesn't take を (e.g. 行く, 座る)"
+    ],
+    "examples": [
+      {
+        "id": "97f28308-18bd-41b4-9981-96ecab7c40cb",
+        "meaning": "The father made/let his child eat vegetables.",
+        "text": {
+          "spelling": "お{父|とう}さんは{子供|こ・ども}に{野菜|や・さい}を{食|た}べさせました。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "a5b1e252-893a-445b-bb62-cd90b6cfadec",
+        "meaning": "The mother made/let her child read the book.",
+        "text": {
+          "spelling": "お{母|かあ}さんは{子供|こ・ども}に{本|ほん}を{読|よ}ませました。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "8c867c8b-1db0-41db-a386-669ca5fc616e",
+        "meaning": "The professor made/let me go to the bathroom.",
+        "text": {
+          "spelling": "{先生|せん・せい}は{私|わたし}をトイレに{行|い}かせました。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "b7c71b03-dda0-414e-ae51-e5bd39f9ff1b",
+        "meaning": "The manager was carrying a large suitcase and arrived at the airport.<br/>The manager made the subordinate come to pick them up.",
+        "text": {
+          "spelling": "{部長|ぶ・ちょう}は{大|おお}きい{荷物|に・もつ}を{持|も}って、{空港|くう・こう}につきました。<br/>{部長|ぶ・ちょう}は{部下|ぶ・か}に{迎|むか}えに{来|こ}させました。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "63106191-abf3-47ae-982b-ce9c5e67e801",
+        "meaning": "The work was too much, the manager alone could not do all of it.<br/>The manager made the subordinate help.",
+        "text": {
+          "spelling": "{仕事|し・ごと}が{多|おお}すぎて、{部長|ぶ・ちょう}は{一人|ひとり}で{全部|ぜん・ぶ}できませんでした。<br/>{部長|ぶ・ちょう}は{部下|ぶ・か}に{手伝|て・つだ}わせました。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "85816dd4-3fa5-45dd-b19f-7e76c962e862",
+        "meaning": "Because [he] was [いる past form] in a hurry, the manager regrettably dropped his document.<br/>The manager made the subordinate pick it up.",
+        "text": {
+          "spelling": "{急|いそ}いでいたので、{部長|ぶ・ちょう}は{書類|しょ・るい}を{落|お}としてしまいました。<br/>{部長|ぶ・ちょう}は{部下|ぶ・か}に{書類|しょ・るい}を{拾|ひろ}わせました。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-11-16",
+    "lesson_codes": ["GENKI3_L22"],
+    "tags": []
+  },
+  {
+    "id": "6dfd2105-caf5-4084-b804-4d8bf1fcfec2",
+    "title": "ＤはＣにＶせてあげる<br/>ＤはＣにＶせてくれる<br/>ＤはＣにＶせてもらう",
+    "meaning": "D <i>let</i> C do the action",
+    "how_to_use": [
+      "director + は + cast に + verb (causative て-form) + あげる",
+      "director + は + cast に + verb (causative て-form) + くれる",
+      "director + は + cast に + verb (causative て-form) + もらう"
+    ],
+    "examples": [
+      {
+        "id": "51ed1273-8793-412d-afcc-10b1fb36dd25",
+        "meaning": "The professor did not allow me to speak in English.",
+        "text": {
+          "spelling": "{先生|せん・せい}は{私|わたし}に{英語|えい・ご}を{話|はな}させてくれませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "0c3c90b9-568c-444c-bfe1-9e9ecaab73c2",
+        "meaning": "I intend to let my children do what they love.",
+        "text": {
+          "spelling": "{私|わたし}は{自分|じ・ぶん}の{子供|こ・ども}に{好|す}きなことをさせてあげるつもりです。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "744c2872-a800-4951-9392-ebd468ef3a57",
+        "meaning": "My father does not let me live alone.",
+        "text": {
+          "spelling": "{父|ちち}は{一人|ひとり}{暮|ぐら}しをさせてくれません。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "12771cec-7fb0-43d3-88be-6f0201f2a2d8",
+        "meaning": "When we play tennis, I sometimes let my little sister win.",
+        "text": {
+          "spelling": "テニスをする{時|とき}、{私|わたし}は{時々|とき・どき}{妹|いもうと}に{勝|か}たせてあげます。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-11-23",
+    "lesson_codes": ["GENKI3_L22"],
+    "tags": []
+  },
+  {
+    "id": "a24d008d-3afa-48a9-b1de-c1b9c2f248be",
+    "title": "Ｖせてください",
+    "meaning": "please let me do...",
+    "how_to_use": [
+      "verb (causative て-form) + ください"
+    ],
+    "examples": [
+      {
+        "id": "49dc5791-3d73-4326-9bb8-a1c312a2d9f0",
+        "meaning": "Please let me do this job.",
+        "text": {
+          "spelling": "{私|わたし}にこの{仕事|し・ごと}をやらせてください。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-11-23",
+    "lesson_codes": ["GENKI3_L22"],
+    "tags": []
+  },
+  {
+    "id": "c5d5c292-62a5-42c5-b3cc-4cbb405ba983",
+    "title": "〜なさい",
+    "meaning": "command to do (to inferior or occasionally showing care like a parent)",
+    "how_to_use": [
+      "verb (stem) + なさい",
+      "Used when talking down to someone (e.g. you know better)",
+      "Used with children",
+      "Occasionally leads to alt form of <i>showing care</i>, e.g.「おやすみなさい」"
+    ],
+    "examples": [
+      {
+        "id": "fa3465e0-dfd4-41dc-94fe-e1bb74473c03",
+        "meaning": "Come home by 10 o'clock",
+        "text": {
+          "spelling": "{１０|じゅう}{時|じ}までに{帰|かえ}りなさい。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "75d37076-05d7-4a5e-abec-efbd567e63c5",
+        "meaning": "Inside the brackets put a word.",
+        "text": {
+          "spelling": "かっこの{中|なか}に{単語|たん・ご}を{入|い}れなさい。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "b10f21c0-7b24-4bad-b305-15beeaaf96a5",
+        "meaning": "Stop complaining.",
+        "text": {
+          "spelling": "{文句|もん・く}を{言|い}うのをやめなさい。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "4d5af3f3-f9f5-4109-865e-23b62a09cbdf",
+        "meaning": "Parent: Go to bed early.<br/>Child: It's only 11 o'clock! I'm not sleepy yet.",
+        "text": {
+          "spelling": "{親|おや}：{早|はや}く{寝|ね}なさい<br/>{子供|こ・ども}：まだ{１１|じゅう・いち}{時|じ}だよ。まだ{眠|ねむ}くない。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "c9c26c06-f5bb-4023-a7eb-a95b206eb8cd",
+        "meaning": "Child: What? This outfit, you want me to wear? It's ugly.<br/>Parent: This outfit, wear it.",
+        "text": {
+          "spelling": "{子供|こ・ども}：えっ、この{服|ふく}、{着|き}るの？かっこ{悪|わる}い。<br/>この{服|ふく}を{着|き}なさい。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-11-23",
+    "lesson_codes": ["GENKI3_L22"],
+    "tags": []
+  },
+  {
+    "id": "ce7793e4-7636-4238-a1eb-7174e1abdd8b",
+    "title": "①ＡばＢ",
+    "meaning": "If A, then (good result) B",
+    "how_to_use": [
+      "A + verb (ば-conditional) + B",
+      "A guarantees a good result in B",
+      "Used for logical cause-and-effect statements"
+    ],
+    "examples": [
+      {
+        "id": "a4db0aa0-1bce-4f73-bcd2-1206d2665afc",
+        "meaning": "If you have a car, you can go to various places.",
+        "text": {
+          "spelling": "{車|くるま}があれば、{色々|いろいろ}なところに{行|い}けます。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "c24d639c-8bad-4247-99ae-560dd323480d",
+        "meaning": "If you lock-up in preparation, a thief will not be able to enter.",
+        "text": {
+          "spelling": "{鍵|かぎ}をかけておけば、{泥棒|どろ・ぼう}に{入|はい}られません。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "6f5832b1-d62c-416e-bf72-e166fd98a142",
+        "meaning": "If the department manager does not object, we can start this project.",
+        "text": {
+          "spelling": "{部長|ぶ・ちょう}が{反対|はん・たい}しなければ、このプロジェクトを{始|はじ}められます。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "9e4ce648-1594-42a9-bb27-1eb6c8516618",
+        "meaning": "If you try (doing it), you may be able to do it.",
+        "text": {
+          "spelling": "やってみれば、できるかもしれません。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "e5d6776e-18c5-4ad7-b2d5-c1bf71b188ef",
+        "meaning": "If you do lesson preparation, you will understand that teacher's class well.",
+        "text": {
+          "spelling": "{予習|よ・しゅう}すれば、あの{先生|せん・せい}の{授業|じゅ・ぎょう}がよくわかります。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-11-28",
+    "lesson_codes": ["GENKI3_L22"],
+    "tags": []
+  },
+  {
+    "id": "d0e3f6f9-44d4-4c31-9e28-71b7a74ce1fb",
+    "title": "②ＡばＢ",
+    "meaning": "If you do my advice A, then good result B",
+    "how_to_use": [
+      "A + verb (ば-conditional) + B",
+      "Advising someone to do A to get good result B",
+      "B is often a vacuous generic expression"
+    ],
+    "examples": [
+      {
+        "id": "799935e4-05ac-4569-916d-a8645a6d0847",
+        "meaning": "If you take this medicine, you will be okay.",
+        "text": {
+          "spelling": "この{薬|くすり}を{飲|の}めば{大丈夫|だい・じょう・ぶ}です。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "aab1b9db-61e1-40ed-bb35-56f15b3c45fd",
+        "meaning": "If you ask the teacher, everything will be fine.",
+        "text": {
+          "spelling": "{先生|せん・せい}に{聞|き}けばいいんです。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "8ff83824-7dbf-4c67-bdd0-ed9f52869891",
+        "meaning": "If we make a reservation in preparation, we wil be fine.",
+        "text": {
+          "spelling": "{予約|よ・やく}しておけば、{大丈夫|だい・じょう・ぶ}です。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-11-28",
+    "lesson_codes": ["GENKI3_L22"],
+    "tags": []
+  },
+  {
+    "id": "3aabedca-9356-4b73-a376-5695daff5a7d",
+    "title": "ＡのにＢ",
+    "meaning": "A, but contrary to expectations, B<br/>Despite the fact A, it is B",
+    "how_to_use": [
+      "verb (short) + のに + clause",
+      "noun + な + のに + clause",
+      "な-adj + な + のに + clause",
+      "connects two facts, thus cannot have non-factual sentences like requests or suggestions"
+    ],
+    "examples": [
+      {
+        "id": "2da48ec9-341c-4fae-b246-134b8a9b4838",
+        "meaning": "This company is rich, but contrary to expectations, its workers' salaries are low.",
+        "text": {
+          "spelling": "この{会社|かい・しゃ}はお{金|かね}があるのに、{給料|きゅう・りょう}は{安|やす}いです。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "c06090a8-9dba-4711-be3c-783da4c0a1af",
+        "meaning": "Because he doesn't have a license but (contrary to expectations) drove a car, the police arrested him.",
+        "text": {
+          "spelling": "{彼|かれ}は{免許|めん・きょ}を{持|も}っていないのに{車|くるま}を{運転|うん・てん}したので、{警察|けい・さつ}に{捕|つか}まりました。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "9dda1e8d-9b5b-4f4c-ab46-698f6395c5f0",
+        "meaning": "I did anything for them (as a favor), but contrary to expectations, I was (regretfully) dumped by them (and it hurt).",
+        "text": {
+          "spelling": "{何|なん}でもしてあげたのに、{振|ふ}られてしまいました。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "2627e2f6-cd6c-4223-83ff-609b00f144f5",
+        "meaning": "Ms. Tanaka is nice, but contrary to expectations, Ms. yamada does not like her.",
+        "text": {
+          "spelling": "{田中|た・なか}さんは{親切|しん・せつ}なのに、{山田|や・まだ}さんは{田中|た・なか}さんが{嫌|きら}いです。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "1737f350-a895-4ecd-8d06-cc5ea75ba523",
+        "meaning": "It is a big complaint, but contrary to expectations, that person does not consult with anybody.",
+        "text": {
+          "spelling": "{大|おお}きい{問題|もん・だい}なのに、あの{人|ひと}は{誰|だれ}にも{相談|そう・だん}しません。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "f2311e49-74b8-4614-80f6-b732609c1090",
+        "meaning": "The job was difficult, but contrary to expectations, he did does not complain.",
+        "text": {
+          "spelling": "{仕事|し・ごと}が{大変|たい・へん}なのに、{彼|かれ}は{文句|もん・く}を{言|い}いません。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-12-07",
+    "lesson_codes": ["GENKI3_L22"],
+    "tags": []
+  },
+  {
+    "id": "0cc143fc-5655-47cf-8001-7794f8609e6e",
+    "title": "〜のように",
+    "meaning": "done in the same way as..., comparable to...",
+    "how_to_use": [
+      "noun + のように + verb/adjective"
+    ],
+    "examples": [
+      {
+        "id": "ea1810a8-3848-4270-bdba-481c25ea2bca",
+        "meaning": "Mary, like a fish, can swim very well.",
+        "text": {
+          "spelling": "メアリーさんは{魚|さかな}のように{上手|じょうず}に{泳|およ}げます。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "858f2c9f-f824-481d-91a4-7356e6735503",
+        "meaning": "Mao Mao is as cute as a cat.",
+        "text": {
+          "spelling": "{猫猫|まお・まお}ちゃんは{猫|ねこ}のように{可愛|かわい}いです。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "6e8491b9-d2f0-454d-a820-c4e239e14583",
+        "meaning": "When she got lost, she cried like a child.",
+        "text": {
+          "spelling": "{彼女|かの・じょ}は{道|みち}に{迷|まよ}った{時|とき}、{子供|こ・ども}のように{泣|な}きました。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "da5b0178-d2a5-4d3e-9e7b-1cac149b70b6",
+        "meaning": "Today is hot like summer.",
+        "text": {
+          "spelling": "{今日|きょう}は{夏|なつ}のように{暑|あつ}いです。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-12-14",
+    "lesson_codes": ["GENKI3_L22"],
+    "tags": []
+  },
+  {
+    "id": "5414990f-f147-4d69-be1e-cb1889559c53",
+    "title": "〜のような",
+    "meaning": "like/similar to...",
+    "how_to_use": [
+      "noun + のような + noun"
+    ],
+    "examples": [
+      {
+        "id": "72e48d1a-bb58-46ab-993f-4eed552dae1b",
+        "meaning": "I like towns like Minobu.",
+        "text": {
+          "spelling": "{私|わたし}は{身延|み・のぶ}{町|ちょう}のような{町|まち}が{好|す}きです。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "a4048799-d7b3-4bc1-8e45-2cc562277893",
+        "meaning": "I don't want to live in a place like New York.",
+        "text": {
+          "spelling": "{私|わたし}はニューヨークのようなところに{住|す}みたくないです。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "42bc1032-72c2-42fb-ba7f-26f1f255d933",
+        "meaning": "I want to be a person like my grandfather.",
+        "text": {
+          "spelling": "お{祖父|じい}さんのような{人|ひと}になりたいです。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      },
+      {
+        "id": "0c4226e6-3bec-49df-aa4e-35f2539a196b",
+        "meaning": "I have never met a lazy person like you.",
+        "text": {
+          "spelling": "あなたのような{怠|なま}け{者|もの}にあったことがありません。"
+        },
+        "lesson_codes": ["GENKI3_L22"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-12-14",
+    "lesson_codes": ["GENKI3_L22"],
+    "tags": []
+  }
+]

@@ -1,0 +1,504 @@
+[
+  {"COMMENT": "GENKI LESSON 17"},
+  {
+    "id": "2d74b2f3-9351-4969-975c-3f5f4168e132",
+    "title": "②　〜そうです",
+    "meaning": "I hear that... (hearsay report)",
+    "how_to_use": [
+      "verb + そうです",
+      "い-adj + そうです",
+      "な-adj + そうです",
+      "noun + だ + そうです",
+      "Use original tense and polarity of original utterance, except です ⟶ だ",
+      "そうです itself is invariant, being only そうです and そうだ.",
+      "c.f. adjectives with stem are \"it looks like\" (see ①)"
+    ],
+    "examples": [
+      {
+        "id": "4f926bcd-8283-4264-b8ee-aacec403e1d8",
+        "meaning": "I've heard that their Japanese class is fun.",
+        "text": {
+          "spelling": "{日本語|に・ほん・ご}の{授業|じゅ・ぎょう}は{楽|たの}しいそうです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "ad5c249c-d4db-407a-9cf0-15eabcffdb17",
+        "meaning": "I've heard that their professor is very kind.",
+        "text": {
+          "spelling": "{先生|せん・せい}はとても{親切|しん・せつ}だそうです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "b443fcee-5d58-4788-8817-0040f4d49f04",
+        "meaning": "I've heard that they didn't have a class that day.",
+        "text": {
+          "spelling": "その{日|ひ}は{授業|じゅ・ぎょう}がなかったそうです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "e5a3b620-7aac-45b4-bbdc-ea753f863d3c",
+        "meaning": "I hear my friend's dormitory is not dirty.",
+        "text": {
+          "spelling": "{私|わたし}の{友達|とも・だち}の{寮|りょう}は{汚|きたな}くないそうです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "5d6089b8-1ef7-4bfd-b329-6b39a2a05d21",
+        "meaning": "I hear the movie theater was not crowded.",
+        "text": {
+          "spelling": "{映画館|えい・が・かん}は{混|こ}んでいなかったそうです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "ade6c757-cad0-4582-a267-0c44ddd38def",
+        "meaning": "A: Concerning your classmates, what do you know?<br/>I hear that Kumiko Ōmae broke-up with their boyfriend.",
+        "text": {
+          "spelling": "Ａ：{同|おな}じクラスの{学生|がく・せい}について{何|なに}か{知|し}っていますか。<br/>Ｂ：はい。{黄前|おう・まえ}{久美子|く・み・こ}さんは{彼|かれ}と{別|わか}れたそうです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-11-12",
+    "lesson_codes": ["GENKI3_L17"],
+    "tags": []
+  },
+  {
+    "id": "a48a4454-8c09-4cc3-886a-f61dab67ded2",
+    "title": "〜によると、〜そうです。",
+    "meaning": "According to (named source)",
+    "how_to_use": [
+      "source + によると + quoted-statement + そうです"
+    ],
+    "examples": [
+      {
+        "id": "d0b5bcf4-6fb5-43aa-ad4a-4a6ed0b9caef",
+        "meaning": "According to the weather forecast, a typhoon is approaching.",
+        "text": {
+          "spelling": "{天気予報|てん・き・よ・ほう}によると、{台風|たい・ふう}が{来|く}るそうです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "5c9772e5-00ae-4631-833c-34dc34eede0b",
+        "meaning": "According to the newspaper, there was an earthquake in Nagano",
+        "text": {
+          "spelling": "{新聞|しん・ぶん}によると、{長野|なが・の}で{地震|じ・しん}があったそうです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "524bac82-3e67-49fd-b498-06501ed6512f",
+        "meaning": "According to Kōsaka Reina, tomorrow there is no class.",
+        "text": {
+          "spelling": "{高坂|こう・さか}{麗奈|れいな}さんによると、{明日|あした}は{授業|じゅ・ぎょう}がないそうです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "a2b2ea23-a606-4bf5-ae26-803ae2c01399",
+        "meaning": "A: Recently, what kind of news has there been?<br/>According to the TV news, recently, there have been earthquakes in various places.",
+        "text": {
+          "spelling": "Ａ：{最近|さい・きん}どんなニュースがありましたか。<br/>テレビのニュースによると、{最近|さい・きん}、{色々|いろ・いろ}なところで{地震|じ・しん}があったそうです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-11-12",
+    "lesson_codes": ["GENKI3_L17"],
+    "tags": []
+  },
+  {
+    "id": "34f93e5e-381c-41e7-a04f-83f017e84a9a",
+    "title": "〜って",
+    "meaning": "Quote what you have heard (informal 〜そうです)",
+    "how_to_use": [
+      "verb (shortened) + って",
+      "verb (shortened) + って + 言っている",
+      "exact quote + って",
+      "exact quote + って + 言っている",
+      "Note: って ⟶ て after ん",
+      "Note: って is the informal variant of the particle と"
+    ],
+    "examples": [
+      {
+        "id": "bebf136d-3f2d-49be-a2fb-f58bb989791f",
+        "meaning": "Hoshino says he's busy today. He says he has an exam tomorrow.",
+        "text": {
+          "spelling": "{星野|ほし・の}さん、{今日|きょう}は{忙|いそが}しい<u>って</u>。{明日|あした}、{試験|し・けん}あるんだ<u>って</u>。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "3580fee4-a30f-4288-ab1c-60520bd67e8e",
+        "meaning": "A: What did Tsumugi Kotobuki say?<br/>B: She said she ate too much chocolate.",
+        "text": {
+          "spelling": "Ａ：{琴吹|こと・ぶき}{紬|つむぎ}さんは{何|なん}<u>て</u>{言|い}ってか？<br/>Ｂ：チョコを{食|た}べすぎた<u>って</u>{言|い}ってた。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "16b8aabd-2e4c-44b0-b6b6-dc0bcc2c58da",
+        "meaning": "Did you see the news? It said the Yen has become high again.",
+        "text": {
+          "spelling": "ニュース{見|み}た？また{円|えん}が{高|たか}くなったって。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "a20f1f0f-fc14-48e2-b743-faa1d7b9dc1f",
+        "meaning": "Did you hear? I hear the teacher is sick.",
+        "text": {
+          "spelling": "{聞|き}いた？{先生|せん・せい}は{病気|びょう・き}だって。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-11-13",
+    "lesson_codes": ["GENKI3_L17"],
+    "tags": []
+  },
+  {
+    "id": "9a1a1644-2912-47ae-8148-8c3e94f1b327",
+    "title": "〜たら",
+    "meaning": "If/when A, then B",
+    "how_to_use": [
+      "condition + たら + result",
+      "Can be used in three ways:",
+      "1. If A, then B (where t<sub>a</sub> ⋜ t<sub>b</sub>)",
+      "2. A <i>probable</i> condition (e.g. when A then B)",
+      "3. A <i>hypothetical</i> condition's result"
+    ],
+    "examples": [
+      {
+        "id": "ca0f7a06-bb4b-4818-94b3-d6c786677961",
+        "meaning": "If and when I go to Japan, I will buy a kimono.",
+        "text": {
+          "spelling": "{日本|に・ほん}に{行|い}ったら、{着物|き・もの}を{買|か}います。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "7613cece-2424-4f32-9d7e-ba020e5b8ce3",
+        "meaning": "If somebody is a Japanese person, then they will probably know this word.",
+        "text": {
+          "spelling": "{日本人|に・ほん・じん}だったら、この{言葉|こと・ば}を{知|し}っているでしょう。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "914ec8d7-8a5e-4c57-a708-ce144e250dfa",
+        "meaning": "When we are done with the homework, let's go out and have some fun.<br/>(lit. when and if the homework is finished, let's go out and have fun.",
+        "text": {
+          "spelling": "{宿題|しゅく・だい}が{終|お}わったら、{遊|あそ}びに{行|い}きましょう。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "88eb1fdb-89e1-4cc7-849d-8e6d403de9b0",
+        "meaning": "If I had a million yen, I would buy a car.",
+        "text": {
+          "spelling": "{１００|ひゃく}{万|まん}{円|えん}あったら、{車|くるま}を{買|か}うんですけど。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "4954e5d8-1b8b-4ee8-b5c2-f02e85333ace",
+        "meaning": "If you are interested in this part-time job, please call me.",
+        "text": {
+          "spelling": "このアルバイトに{興味|きょう・み}があったら、{電話|でん・わ}して{下|くだ}さい。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "c9061a48-30d8-4022-8c83-db912af2a90b",
+        "meaning": "If the weather is not good, we will not go camping.",
+        "text": {
+          "spelling": "{天気|てん・き}が{良|よ}くなかったら、キャンプに{行|い}きません。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "016815b7-a3f3-4fff-b24d-802789ca9660",
+        "meaning": "If I were a cat, I would be asleep all day long.",
+        "text": {
+          "spelling": "{私|わたし}が{猫|ねこ}だったら、{一日中|いち・にち・じゅう}{寝|ね}ているでしょう。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-11-14",
+    "lesson_codes": ["GENKI3_L17"],
+    "tags": []
+  },
+  {
+    "id": "e5aa9148-0a36-45d3-ac5c-0dd29944f903",
+    "title": "〜なくてもいいです<br/>〜なくていい",
+    "meaning": "does not need too...",
+    "how_to_use": [
+      "verb/adj (neg-て) + もいいです (formal)",
+      "verb/adj (neg-て) + もいい (casual)",
+      "verb/adj (neg-て) + いい (more casual)"
+    ],
+    "examples": [
+      {
+        "id": "71e30908-ca8d-43fb-876f-a60ef8e3ef0d",
+        "meaning": "You do not need to take off your shoes.",
+        "text": {
+          "spelling": "{靴|くつ}を{脱|ぬ}がなくてもいいです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "18407a73-58f2-4947-813d-f5db49648f7a",
+        "meaning": "The present does not need to be anything expensive.",
+        "text": {
+          "spelling": "プレゼントは{高|たか}くなくてもいいです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "38f875cd-5246-4b26-a049-18c5d06d4647",
+        "meaning": "I will treat you today. You do not have to pay.",
+        "text": {
+          "spelling": "{今日|きょう}は{奢|おご}ってあげます。{払|はら}わなくてもいいです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "c12375de-3953-478e-b907-880815a8fd2f",
+        "meaning": "Since that hotel is not crowded, we do not need to make a reservation.",
+        "text": {
+          "spelling": "そのホテルは{混|こ}んでいないので、{予約|よ・やく}をしなくてもいいです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "fe2b04f0-b162-4758-9030-529bfbff54c0",
+        "meaning": "At my house, I do not have to do the dishes. My host family's mother does them for me (and I am grateful).",
+        "text": {
+          "spelling": "{私|わたし}は{家|いえ}でお{皿|さら}を{洗|あら}わなくてもいいです。ホストファミリーのお{母|かあ}さんがしてくれます。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "c8bcc6c0-4366-4699-acfa-4de6d45140fc",
+        "meaning": "A: Thank you for lending me your notebook. Shall I return it tomorrow?<br/>No, you do not need to return it until next week.",
+        "text": {
+          "spelling": "Ａ：ノート{貸|か}してくれてありがとう。{明日|あした}{返|かえ}そうか？<br/>Ｂ：ううん、{来週|らい・しゅう}まで{返|かえ}さなくてもいいよ。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-12-23",
+    "lesson_codes": ["GENKI3_L17"],
+    "tags": []
+  },
+  {
+    "id": "7f0b7b10-09ab-4ddd-b071-76c958960f47",
+    "title": "〜みたいです",
+    "meaning": "It looks like... (noun/verb)",
+    "how_to_use": [
+      "noun + みたいです",
+      "verb (short) + みたいです",
+      "Can use for adjectives, but usually use 〜そうです"
+    ],
+    "examples": [
+      {
+        "id": "41d0ab23-7974-466e-b956-70bba24f81af",
+        "meaning": "My data looks/acts like Colonel Sanders.",
+        "text": {
+          "spelling": "{私|わたし}の{父|ちち}はカーネルおじさんみたいです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "3ee3a639-7283-490a-8a90-02dc865b8b55",
+        "meaning": "It looks like I have left my wallet at home.",
+        "text": {
+          "spelling": "{財布|さい・ふ}を{忘|わす}れたみたいです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "71ac8ac9-11cd-45c9-ab57-3719c309ad2c",
+        "meaning": "My younger sister cries a lot. She is like a child.",
+        "text": {
+          "spelling": "{妹|いもうと}はよく{泣|な}きます。{子供|こ・ども}みたいです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "d0158cef-aee8-41fd-abe9-277f3980bd2d",
+        "meaning": "It looks like it has rained, doesn't it?",
+        "text": {
+          "spelling": "{雨|あめ}が{降|ふ}ったみたいですね。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "8b4b9e08-d8f1-4901-aad9-61e4aeb64358",
+        "meaning": "It looks like that person did not sleep last night.",
+        "text": {
+          "spelling": "あの{人|ひと}は{昨日|きのう}の{夜|よる}{寝|ね}なかったみたいです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "7a43a459-7a67-4066-a7f7-4f475190ef37",
+        "meaning": "It seems that my friend is not used to life in Japan yet.",
+        "text": {
+          "spelling": "{友達|とも・だち}はまだ{日本|に・ほん}の{生活|せい・かつ}に{慣|な}れていないみたいです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-12-24",
+    "lesson_codes": ["GENKI3_L17"],
+    "tags": []
+  },
+  {
+    "id": "0d4c9a64-2c8d-4ac2-ac82-f11fc67e13eb",
+    "title": "Ａ前にＢ",
+    "meaning": "Before A, B.",
+    "how_to_use": [
+      "verb (short, present) + 前に + verb"
+    ],
+    "examples": [
+      {
+        "id": "2d495b70-c954-4c1d-ba8d-627f61ce9b01",
+        "meaning": "Before I buy jeans, I try them on.",
+        "text": {
+          "spelling": "ジーンズを{買|か}う{前|まえ}に、{履|は}いてみます。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "7fb4fc7e-61d4-443f-8b27-3ef6aa3e3506",
+        "meaning": "Before I came to Japan, I studied Japanese for one semester.",
+        "text": {
+          "spelling": "{日本|に・ほん}に{来|く}る{前|まえ}に、{一|いち}{学期|がっき}{日本語|に・ほん・ご}を{勉強|べん・きょう}しました。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "28d8f7ee-f9db-4caf-b99a-1646adb1125d",
+        "meaning": "Before cooking, I wash my hands.",
+        "text": {
+          "spelling": "{料理|りょう・り}する{前|まえ}に、{手|て}を{洗|あら}います。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "416c2ebb-dd4f-4fbb-8845-433a809a88e4",
+        "meaning": "Before going out, I always watch the weather forecast",
+        "text": {
+          "spelling": "{出|で}かける{前|まえ}に、いつも{天気予報|てん・き・よ・ほう}をみます。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-12-24",
+    "lesson_codes": ["GENKI3_L17"],
+    "tags": []
+  },
+  {
+    "id": "3134c528-d027-47d5-b35c-6ad8793b2680",
+    "title": "ＡてからＢ",
+    "meaning": "After A, B.",
+    "how_to_use": [
+      "verb (te-form) + から"
+    ],
+    "examples": [
+      {
+        "id": "d9cd95ec-b8ae-4d48-8ec1-46e580ff604a",
+        "meaning": "After I studied, I went out.",
+        "text": {
+          "spelling": "{勉強|べん・きょう}してから、{遊|あそ}びに{行|い}きました。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "9bd7d30a-90fb-49e4-8444-bbae28e1189a",
+        "meaning": "After Ms. Inoue has arrived, why don't we start eating?",
+        "text": {
+          "spelling": "{井|い}ノ{上|うえ}さんが{来|き}てから、{食|た}べましょう。"
+
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "2d25b52f-f829-4088-a46f-158b9eaac513",
+        "meaning": "After washing the dishes, I brush my teeth.",
+        "text": {
+          "spelling": "お{皿|さら}を{洗|あら}ってから、{歯|は}を{磨|みが}きます。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      },
+      {
+        "id": "1c1ac6dc-2f01-47a2-a757-20f991d83323",
+        "meaning": "After I graduate, I intend to look for a job.",
+        "text": {
+          "spelling": "{卒業|そつ・ぎょう}してから、{仕事|し・ごと}を{探|さが}すつもりです。"
+        },
+        "lesson_codes": ["GENKI3_L17"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-12-24",
+    "lesson_codes": ["GENKI3_L17"],
+    "tags": []
+  }
+]
