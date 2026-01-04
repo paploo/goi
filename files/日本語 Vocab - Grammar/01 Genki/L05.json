@@ -1,0 +1,126 @@
+[
+  {"COMMENT": "GENKI LESSON 05"},
+  {
+    "id": "ab1cd527-1492-4657-8d6e-0905ca0154ca",
+    "title": "ＡＮ<br/>ＡなＮ",
+    "meaning": "Adjective Noun Modification",
+    "how_to_use": [
+      "い-adj + noun",
+      "な-adj + な + noun"
+    ],
+    "examples": [
+      {
+        "id": "3180b40e-58b7-4227-87ca-d52d5885fa7d",
+        "meaning": "I saw an interesting movie yesterday.",
+        "text": {
+          "spelling": "{昨日|きのう}、{面白|おも・しろ}い{映画|えい・が}を{見|み}ました。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L05"],
+        "tags": []
+      },
+      {
+        "id": "aeda3553-aeaf-4932-8236-94071acbc396",
+        "meaning": "I took a beautiful picture in Kyoto.",
+        "text": {
+          "spelling": "{京都|きょう・と}できれいな{写真|しゃ・しん}を{撮|と}りました。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L05"],
+        "tags": []
+      },
+      {
+        "id": "ad7ac198-73d3-4a09-9105-81eee35dd9da",
+        "meaning": "This is a very vibrant city.",
+        "text": {
+          "spelling": "ここはとても{賑|にぎ}やかな{町|まち}です。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L05"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-03-23",
+    "lesson_codes": ["GENKI3_L05"],
+    "tags": []
+  },
+  {
+    "id": "d9bdda30-d7bd-470e-a2c5-ac0d08c56fb6",
+    "title": "〜ましょう",
+    "meaning": "Let's...",
+    "how_to_use": [
+      "verb-stem + ましょう"
+    ],
+    "examples": [
+      {
+        "id": "bb888773-2128-4246-93ca-df94112ff45f",
+        "meaning": "Let's study in the library together.",
+        "text": {
+          "spelling": "{一緒|いっ・しょ}に{図書館|と・しょ・かん}で{勉強|べん・きょう}しましょう",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L05"],
+        "tags": []
+      },
+      {
+        "id": "7bec1b6a-784d-443c-a379-aeb412ec83c1",
+        "meaning": "Let's go eat together.",
+        "text": {
+          "spelling": "{一緒|いっ・しょ}に{食|た}べに{行|い}きましょう",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": [],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-03-23",
+    "lesson_codes": ["GENKI3_L05"],
+    "tags": []
+  },
+  {
+    "id": "30a31f32-839f-4610-baf8-788a7f390fd2",
+    "title": "〜ましょうか",
+    "meaning": "shall I... / let me do ...",
+    "how_to_use": [
+      "verb-stem + ましょうか"
+    ],
+    "examples": [
+      {
+        "id": "b6465b41-5ce4-4d46-8b15-16780877262e",
+        "meaning": "Shall we drink coffee over there?",
+        "text": {
+          "spelling": "あそこでコーヒーを{飲|の}みましょうか。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L05"],
+        "tags": []
+      },
+      {
+        "id": "90bdc4bd-0f06-454d-9168-304d589cd8f2",
+        "meaning": "Shall I take a picture for you?",
+        "text": {
+          "spelling": "{写真|しゃ・しん}を{撮|と}りましょうか。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["JLPT_SENSEI_GRAMMAR_N5"],
+        "tags": []
+      },
+      {
+        "id": "df095a25-8c61-420f-b923-19f2b756daac",
+        "meaning": "Shall I carry your bag?",
+        "text": {
+          "spelling": "{荷物|に・もつ}を{持|も}ちましょうか。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L06"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-03-23",
+    "lesson_codes": ["GENKI3_L05", "GENKI3_L06"],
+    "tags": []
+  }
+]

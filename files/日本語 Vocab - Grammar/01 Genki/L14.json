@@ -1,0 +1,615 @@
+[
+  {"COMMENT": "GENKI LESSON 14"},
+  {
+    "id": "f132b1f1-1660-4206-8eec-164438e9f3d1",
+    "title": "Ｎが欲しい",
+    "meaning": "(I) want (to possess) N",
+    "how_to_use": [
+      "noun + が + 欲しい",
+      "noun + が + 欲しくない",
+      "noun + は + 欲しくない"
+    ],
+    "examples": [
+      {
+        "id": "7080910a-7ccb-4cb5-99e5-8cf40e6e20da",
+        "meaning": "I want a good grade.",
+        "text": {
+          "spelling": "いい{成績|せい・せき}が{欲|ほ}しいです。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "a69c7cdb-f1a1-48d4-b92b-6f33bc90e258",
+        "meaning": "When I was young, I wanted a Pokémon game.",
+        "text": {
+          "spelling": "{子供|こ・ども}の{時|とき}、ポケモンのゲームが{欲|ほ}しかったです。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "b8f6faad-2f49-4c4d-b235-d6286edac9d3",
+        "meaning": "A: Do you want a present?<br/>B: No, I don't (want).",
+        "text": {
+          "spelling": "Ａ：プレゼントが{欲|ほ}しい？<br/>Ｂ：ううん、{欲|ほ}しくない。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "abaa1011-a1b9-4996-a596-8d070aa8299d",
+        "meaning": "When I was young, I did not want an instrument.",
+        "text": {
+          "spelling": "{子供|こ・ども}の{時|とき}、{楽器|がっ・き}が{欲|ほ}しくなかったです。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "b622d86d-a1c1-457e-8879-84fba8caf0ea",
+        "meaning": "A: This upcoming birthday, what do you want? Why?<br/>I want a new camera because the current one is old and big.",
+        "text": {
+          "spelling": "Ａ：{今度|こん・ど}の{誕生日|たん・じょう・び}に{何|なに}が{欲|ほ}しいですか。とうしてですか。<br/>{新|あたら}しいカメラが{欲|ほ}しいです。{今|いま}のは{古|ふる}くて{大|おお}きいですから。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "fa01f8c1-a8db-4888-9f5f-86347b05c7ef",
+        "meaning": "A: Time or money, which do you want more? Why?<br/>I want time more. You can't buy happiness.",
+        "text": {
+          "spelling": "Ａ：{時間|じ・かん}とお{金|かね}とどちらが{欲|ほ}しいですか。どうしてですか。<br/>Ｂ：{時間|じ・かん}の{方|ほう}が{欲|ほ}しいです。{幸|しあわ}せを{買|か}えませんから。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-05-16",
+    "lesson_codes": ["GENKI3_L14"],
+    "tags": []
+  },
+  {
+    "id": "a3226ad4-0eab-4bb2-9378-c5269be97d5c",
+    "title": "ＰはＮが欲しいと言っています<br/>ＰはＮが欲しいでしょう",
+    "meaning": "(Person) wants (to possess) N",
+    "how_to_use": [
+      "person + は + noun + 欲しい + と言っています",
+      "person + は + noun + 欲しい + でしょう"
+    ],
+    "examples": [
+      {
+        "id": "0d526186-3d37-49d1-9d7e-d8a2a21423d3",
+        "meaning": "Yasmin says she wants a new phone.",
+        "text": {
+          "spelling": "ヤスミンさんは{新|あたら}しいスマホが{欲|ほ}しいと{言|い}っています。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "ac123ab2-6279-48ce-9d05-38abfe82934b",
+        "meaning": "Azusa probably doesn't want a stuffed animal.",
+        "text": {
+          "spelling": "{梓|あずさ}さんはぬいぐるみが{欲|ほ}しくないでしょう。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-05-16",
+    "lesson_codes": ["GENKI3_L14"],
+    "tags": []
+  },
+  {
+    "id": "be1c7e15-84c8-4b9e-bb7f-dd61a0404163",
+    "title": "〜かもしれません<br/>〜かもしれない<br/>〜かも",
+    "meaning": "Maybe...",
+    "how_to_use": [
+      "verb (short) + かもしれません",
+      "noun + かもしれません",
+      "な-adj + かもしれません",
+      "い-adj + かもしれません",
+      "〜かもしれない ⟶ casual",
+      "〜かも ⟶ casual",
+      "(Do not put だ after noun, but other conjugations are used)"
+    ],
+    "examples": [
+      {
+        "id": "71ee25fc-e40d-4cfb-9cf1-b0c2745aafbe",
+        "meaning": "It may rain tomorrow.",
+        "text": {
+          "spelling": "{明日|あした}は{雨|あめ}が{降|ふ}るかもしれません。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "9ea19e50-ed8c-4f1c-9f1d-fa3b754f9fee",
+        "meaning": "Suzuki is perhaps taller than Tanaka",
+        "text": {
+          "spelling": "{田中|た・なか}さんより、{鈴木|すず・き}さんの{方|ほう}が{背|せ}が{高|たか}いかもしれない。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "46096a66-5b4d-40bc-8789-1bf602955b04",
+        "meaning": "The weather may not be good tomorrow.",
+        "text": {
+          "spelling": "{明日|あした}は{天気|てん・き}がよくないかも。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "6cc832a0-5c1c-47b3-9c1d-1cf1994214be",
+        "meaning": "Robert may have been a bully when he was a kid.",
+        "text": {
+          "spelling": "ロバートさんは、{子供|こ・ども}の{時|とき}、{意地悪|い・じ・わる}だったかもしれません。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "a161a3ae-1375-48a9-a24c-6533c48811c0",
+        "meaning": "It might be a cat.<br/>It might've been a cat.",
+        "text": {
+          "spelling": "{猫|ねこ}かもしれない。<br/>{猫|ねこ}だったかもしれない。"
+        },
+        "lesson_codes": ["TOFUGU_KAMOSHIRENAI"],
+        "tags": []
+      },
+      {
+        "id": "93a4f2d5-d48a-4e39-abc4-a3a976bd4a18",
+        "meaning": "Professor Yamashita may not like dogs.",
+        "text": {
+          "spelling": "{山下|やま・した}{先生|せん・せい}は{犬|いぬ}が{嫌|きら}いかもしれません。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-05-21",
+    "lesson_codes": ["GENKI3_L14"],
+    "tags": []
+  },
+  {
+    "id": "706ea9f3-62e6-4604-97bd-34997150f05a",
+    "title": "ＡはＢにあげる<br/>ＡはＢにくれる",
+    "meaning": "A gives to B",
+    "how_to_use": [
+      "giver + は/が + recipient + に + あげる ⟶ moving away, between others",
+      "giver + は/が + recipient + に + くれる ⟶ moving closer"
+    ],
+    "examples": [
+      {
+        "id": "99ec02e7-399e-494f-a615-550a862cc464",
+        "meaning": "I gave the woman flowers.",
+        "text": {
+          "spelling": "{私|わたし}はその{女|おんあ}の{人|ひと}に{花|はな}をあげます。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "826e698e-a39d-4182-897d-cdf00c3b49ee",
+        "meaning": "My parents may give m a new car.",
+        "text": {
+          "spelling": "{両親|りょう・しん}が（{私|わたし}に）{新|あたら}しい{車|くるま}をくれるかもしれません。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "dad2138a-e2db-45fc-8ba6-ccc5d2dca6ac",
+        "meaning": "Who gave you that present?",
+        "text": {
+          "spelling": "そのプレゼント、{誰|だれ}がくれたんですか。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "302a1fb5-d543-492c-9bfc-35045211ddc5",
+        "meaning": "Ms. Shima gave me a cap.",
+        "text": {
+          "spelling": "{志摩|し・ま}さんは{私|わたし}に{帽子|ぼう・し}をくれました。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "457b52eb-ee4c-4b71-aa90-e70409d86a26",
+        "meaning": "A: What do you intend to to give your friend for their birthday? Why?<br/>I intend to give (my friend) a necktie; because my friend only has one necktie.",
+        "text": {
+          "spelling": "Ａ：{友達|とも・だち}の{誕生日|たん・じょう・び}に{何|なに}をあげるつもりですか。どうしてですか。<br/>Ｂ：ネクタイをあげるつもりです。{友達|とも・だち}は、ネクタイを{一本|いっ・ぽん}しか{持|も}っていませんから。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "db7b9224-fd84-4ba4-8f6f-7a503f408821",
+        "meaning": "Of the presents until now, what present was most expensive looking? Who gave it to you?<br/>B: A computer. Dad gave it to me.",
+        "text": {
+          "spelling": "Ａ：{今|いま}までのプレゼントの{中|なか}で、{一番|いち・ばん}{高|たか}そうなプレゼントは{何|なん}ですか。{誰|だれ}がくれましたか。<br/>Ｂ：パソコンです。{父|ちち}がくれました。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-05-28",
+    "lesson_codes": ["GENKI3_L14"],
+    "tags": []
+  },
+  {
+    "id": "265152c2-864a-4f7c-90a1-06f5f2c64072",
+    "title": "ＡはＢにもらう",
+    "meaning": "A receives from B",
+    "how_to_use": [
+      "recipient + は/が + giver + に/から + もらう"
+    ],
+    "examples": [
+      {
+        "id": "a0a67dca-8859-4a1c-a9b7-2fc9a28de123",
+        "meaning": "I received a winter scarf from my big sister.",
+        "text": {
+          "spelling": "{私|わたし}は{姉|あね}からマフラーをもらいました。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "9dde2a28-62f6-4277-aaab-357b7e1b8f1b",
+        "meaning": "I received a souvenir from my big brother.",
+        "text": {
+          "spelling": "{私|わたし}は{兄|あに}にお{土産|みやげ}をもらいました。"
+        },
+        "lesson_codes": [],
+        "tags": []
+      },
+      {
+        "id": "6dd7683c-c209-4cb9-a8c6-9e368c85df6d",
+        "meaning": "Sora received flowers from Ken.",
+        "text": {
+          "spelling": "ソラさんはけんさんに{花|はな}をもらいました。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "41749f93-2bd2-4542-9749-5a73a4b4f155",
+        "meaning": "I received a cap from Ms. Kagamihara.",
+        "text": {
+          "spelling": "{私|わたし}は{各務原|かが・み・はら}さんに{帽子|ぼう・し}をもらいました。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-05-28",
+    "lesson_codes": ["GENKI3_L14"],
+    "tags": []
+  },
+  {
+    "id": "7650ae69-cbd6-4434-afbd-364400b95301",
+    "title": "〜たらどうですか",
+    "meaning": "why don't you...<br/>(to convey advice or recommendation)",
+    "how_to_use": [
+      "verb (short, past) + らどうですか",
+      "verb (short, past) + らどう",
+      "May sound disapproving/criticising in tone if unsolicited"
+    ],
+    "examples": [
+      {
+        "id": "07abd509-ab77-41c6-aab5-6fcfe677d073",
+        "meaning": "How about taking some medicine?",
+        "text": {
+          "spelling": "{薬|くすり}を{飲|の}んだらどうですか。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "43716a07-94a8-4854-baa7-55aaf9c028b5",
+        "meaning": "Why don't you study harder?",
+        "text": {
+          "spelling": "もっと{勉強|べん・きょう}したらどう？"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "57f61c6c-5d1c-4b3c-9657-07458d70aa58",
+        "meaning": "A: Because you have a fever, you maybe have a cold.<br/>Why don't you stay (exist) at home?",
+        "text": {
+          "spelling": "Ａ：{熱|ねつ}があるので、{風邪|かぜ}かもしれません。<br/>Ｂ：うちにいたらどうですか。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "61b2bbd4-efcf-45dd-9d99-29cb0ffe034b",
+        "meaning": "A: I want to work at a Japanese company.<br/>B: Why don't you send a resume to the company?",
+        "text": {
+          "spelling": "Ａ：{日本|に・ほん}の{会社|かい・しゃ}で{働|はたら}きたいんです。<br/>Ｂ：{会社|かい・しゃ}に{履歴書|り・れき・しょ}を{送|おく}ったらどうですか。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "9f3b9b47-984b-4426-a12a-5c287caee059",
+        "meaning": "A: I lost my wallet (what should I do)<br/>B: Why don't you go to the police?",
+        "text": {
+          "spelling": "Ａ：{財布|さい・ふ}をなくしたんです。<br/>Ｂ：{警察|けい・さつ}に{行|い}ったらどうですか。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "cb002d30-0bb9-4129-bcac-7ca47d0988eb",
+        "meaning": "A: What's wrong?<br/>B: Japanese class is too difficulty.<br/>A: Why don't you try consulting with the teacher?<br/>B: I will do that. Thank you.",
+        "text": {
+          "spelling": "Ａ：どうしたんですか。<br/>Ｂ：{日本語|に・ほん・ご}の{授業|じゅ・ぎょう}が{難|むずか}しすぎるんです。<br/>Ａ：{先生|せん・せい}に{相談|そう・だん}したらどうですか。<br/>Ｂ：そうします。ありがとうございます。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-06-22",
+    "lesson_codes": ["GENKI3_L14"],
+    "tags": []
+  },
+  {
+    "id": "8a2afd45-2de3-4060-96f3-c7d55028a136",
+    "title": "ＮがＣ<br/>ＮをＣ",
+    "meaning": "A count C, of noun N",
+    "how_to_use": [
+      "noun + が + number",
+      "noun + を + number"
+    ],
+    "examples": [
+      {
+        "id": "86decf1d-33f9-4095-b2ba-f0a08962021f",
+        "meaning": "THere are three cats in our house.",
+        "text": {
+          "spelling": "{私|わたし}のうちには{猫|ねこ}が{三匹|さん・びき}います。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "42b00b6e-0d06-40fe-8f8c-bdcfaf59c763",
+        "meaning": "We bought two umbrellas.",
+        "text": {
+          "spelling": "{傘|かさ}を{二本|に・ほん}{買|か}いました。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-07-05",
+    "lesson_codes": ["GENKI3_L14"],
+    "tags": []
+  },
+  {
+    "id": "324fc6fd-bac5-4bb7-9cf7-8719c2bd1baf",
+    "title": "Ｎも",
+    "meaning": "as many as N",
+    "how_to_use": [
+      "number + も"
+    ],
+    "examples": [
+      {
+        "id": "eddf8c11-3ba0-4f6e-b30d-0032c42f9452",
+        "meaning": "My mother owns as many as three cats.",
+        "text": {
+          "spelling": "{私|わたし}の{母|はは}は{猫|ねこ}を{三匹|さん・びき}も{飼|か}っています。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "e6dafe29-694a-47d8-93ab-e0e8debdb12e",
+        "meaning": "As many as twenty students showed up at the party yesterday.",
+        "text": {
+          "spelling": "{昨日|きのう}のパーティーには{学生|がく・せい}が{２０人|に・じゅう・にん}も{来|き}ました。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "aeda22b9-b913-4efa-add8-9ba54151728d",
+        "meaning": "Mary has three part-time jobs.",
+        "text": {
+          "spelling": "メアリーさんはアルバイトが{三|みっ}つもあります。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "b980a23b-a934-42fc-9f13-2f49b187bae0",
+        "meaning": "A: Yesterday, how many hours did you spend studying Japanese?<br/>B: (I spent) 5 hours doing it.",
+        "text": {
+          "spelling": "Ａ：{昨日|きのう}{何|なん}{時間|じ・かん}{日本語|に・ほん・ご}を{勉強|べん・きょう}しましたか。<br/>Ｂ：{５|ご}{時間|じ・かん}もしました。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-07-05",
+    "lesson_codes": ["GENKI3_L14"],
+    "tags": []
+  },
+  {
+    "id": "6d0ab9b7-815c-431e-b6f0-20b247fc3d09",
+    "title": "ＮしかＶない",
+    "meaning": "as few as N",
+    "how_to_use": [
+      "number + しか + verb (negative)"
+    ],
+    "examples": [
+      {
+        "id": "759d83a2-a548-488d-9bc6-5fb9acc57ca2",
+        "meaning": "I have only one Japanese book.",
+        "text": {
+          "spelling": "{私|わたし}は{日本語|に・ほん・ご}の{本|ほん}を{一冊|いっ・さつ}しか{持|も}っていません。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "40188a7e-fa5b-4c42-84cf-91e024d0f827",
+        "meaning": "There are only two computers in this company.",
+        "text": {
+          "spelling": "この{会社|かい・しゃ}にはパソコンが{二台|に・だい}しかありません。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "a9287de9-e417-4569-be9e-050ca6888bc7",
+        "meaning": "John slept as few as four hours yesterday.",
+        "text": {
+          "spelling": "ジョンさんは{昨日|きのう}{４時間|よん・じ・かん}しか{寝|ね}ませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "0ac6d6f7-51f6-4117-913c-6e374a800908",
+        "meaning": "Bocchi has only one friend.",
+        "text": {
+          "spelling": "ぼっちちゃんは{友達|とも・だち}が{一人|ひとり}しかいません。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "5d8a7e17-8f72-4e4e-b1f4-d583d5687141",
+        "meaning": "A: This semester, how many times have you been late?<br/>B: As few as once, I've been late.",
+        "text": {
+          "spelling": "Ａ：{今学期|こん・がっ・き}、{何回|なん・かい}{遅刻|ち・こく}しましたか。<br/>Ｂ：{１回|いっ・かい}しか{遅刻|ち・こく}しませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-07-05",
+    "lesson_codes": ["GENKI3_L14"],
+    "tags": []
+  },
+  {
+    "id": "0e91e596-e242-4d77-a106-02f14ec60ca7",
+    "title": "①　〜できる",
+    "meaning": "can do / be good at / do well",
+    "how_to_use": [
+      "clause + できる"
+    ],
+    "examples": [
+      {
+        "id": "05719729-2110-42d7-99c6-e1d0d1ca2af7",
+        "meaning": "I am capable in Japanese.",
+        "text": {
+          "spelling": "{日本語|に・ほん・ご}ができます。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "5c0a1175-d16f-43df-98d0-e84ebbdf75cb",
+        "meaning": "He can't ski.",
+        "text": {
+          "spelling": "{彼|かれ}はスキーができません。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "b936ddaf-65ff-4b53-90c7-4ed6ae986b0c",
+        "meaning": "I didn't do well on the exam.",
+        "text": {
+          "spelling": "テストであまりできませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-07-17",
+    "lesson_codes": ["GENKI3_L14"],
+    "tags": []
+  },
+  {
+    "id": "9390bbf7-0b6c-4662-8aaf-f1a61557ee96",
+    "title": "②　〜できる",
+    "meaning": "be completed / be finished",
+    "how_to_use": [
+      "clause + できる"
+    ],
+    "examples": [
+      {
+        "id": "4c23dc8c-92c4-4640-8247-537ee1f210a2",
+        "meaning": "Dinner is ready.",
+        "text": {
+          "spelling": "{晩|ばん}ご{飯|はん}ができましたよ。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "45e0ab3b-ee48-4501-9c1e-23d4dd06c60d",
+        "meaning": "Is your homework done yet?",
+        "text": {
+          "spelling": "{宿題|しゅく・だい}はできましたか。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-07-17",
+    "lesson_codes": ["GENKI3_L14"],
+    "tags": []
+  },
+  {
+    "id": "62c89496-dbe6-425d-9b4d-c8d411085577",
+    "title": "③　〜できる",
+    "meaning": "appear / come into existence / be made",
+    "how_to_use": [
+      "clause + できる"
+    ],
+    "examples": [
+      {
+        "id": "b3c580c6-8b6f-43ce-acb6-66dc51f8a396",
+        "meaning": "A new store has opened.",
+        "text": {
+          "spelling": "{新|あたら}しい{店|みせ}ができました。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      },
+      {
+        "id": "2ef8af2d-90a0-4a9c-8a50-440b397b2d3d",
+        "meaning": "I have made many friends.",
+        "text": {
+          "spelling": "{友達|とも・だち}がたくさんできました。"
+        },
+        "lesson_codes": ["GENKI3_L14"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-07-17",
+    "lesson_codes": ["GENKI3_L14"],
+    "tags": []
+  }
+]

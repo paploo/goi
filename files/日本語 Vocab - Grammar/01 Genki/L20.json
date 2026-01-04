@@ -1,0 +1,548 @@
+[
+  {"COMMENT": "GENKI LESSON 20"},
+  {
+    "id": "9771fc33-1010-4725-8596-3efb507b3a99",
+    "title": "謙譲語の動詞",
+    "meaning": "Humble/Modest Language",
+    "how_to_use": [
+      "① Use to speak modestly of our own actions",
+      "② Use to talk about your own family",
+      "③ Use to talk about your company to customers",
+      "Typically use わたくし instead of わたし when speaking.",
+      "You will rarely hear ございます and でございます outside of formal business-related situations."
+    ],
+    "examples": [
+      {
+        "id": "d0acd380-41ad-4c6f-a0d6-e9d2d96e5f25",
+        "meaning": "I will be in Japan next year, too.",
+        "text": {
+          "spelling": "{私|わたくし}は{来年|らい・ねん}も{日本|に・ほん}におります。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "42f5ac97-18a2-4a8e-b639-94bde5dc5682",
+        "meaning": "I have been studying Japanese for a year.",
+        "text": {
+          "spelling": "{私|わたくし}は{一年間|いち・ねん・かん}{日本語|に・ほん・ご}を{勉強|べん・きょう}しております。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "d2586ee5-a751-4ef2-ae1e-b5129a52d92c",
+        "meaning": "I graduated from college this June.",
+        "text": {
+          "spelling": "{私|わたくし}は{今年|ことし}の{六月|ろく・がつ}に{大学|だい・がく}を{卒業|そつ・ぎょう}いたしました。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "4a3481d6-e5b3-46b2-af12-ad5c9ca6c8d5",
+        "meaning": "My name is Tanaka. Please be kind to me.",
+        "text": {
+          "spelling": "{田中|た・なか}と{申|もう}します。よろしくお{願|ねが}い{致|いた}します。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "e914c17e-19f9-4a6b-90a5-fa09124a6a67",
+        "meaning": "A train is pulling in. (said over announcement)",
+        "text": {
+          "spelling": "{電車|でん・しゃ}が{参|まい}ります。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "fcec50fc-739a-4047-a6a7-7b5b9937051c",
+        "meaning": "The bathroom is on the second floor. (said by help desk attendant)",
+        "text": {
+          "spelling": "お{手洗|て・あら}いは{二階|に・かい}でございます。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2026-06-12",
+    "lesson_codes": ["GENKI3_L20"],
+    "tags": []
+  },
+  {
+    "id": "640f9351-b836-41e8-83f8-522a05aa0625",
+    "title": "おＶする",
+    "meaning": "① I (humbly) do (out of respect for somebody)...",
+    "how_to_use": [
+      "お + verb (stem) + する",
+      "Not all verbs can be used this way!"
+    ],
+    "examples": [
+      {
+        "id": "2a08fa1d-6cf3-4c7f-8d51-245fde72b4b6",
+        "meaning": "Yesterday, I (humbly) met the husband of the company president.",
+        "text": {
+          "spelling": "{私|わたし}は{昨日|きのう}{社長|しゃ・ちょう}のご{主人|しゅ・じん}に{会|あ}いしました。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "deb08986-bcf7-4240-ba19-57aa9e15c26b",
+        "meaning": "I intend to (humbly) lend my professor a book.",
+        "text": {
+          "spelling": "{私|わたし}は{先生|せん・せい}に{本|ほん}を{貸|か}しするつもりです。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "c9690d99-8eac-47ce-8a88-5ebcb9268647",
+        "meaning": "I borrowed a dictionary from my professor (and feel very obliged).",
+        "text": {
+          "spelling": "{私|わたし}は{先生|せん・せい}に{辞書|じ・しょ}をお{借|か}りしました。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "aef27c79-45d0-4d55-9290-fd531a236736",
+        "meaning": "Shall I (humbly) give you a ride as far as the station?",
+        "text": {
+          "spelling": "{駅|えき}までお{送|おく}りしましょうか。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "f9295bc4-c980-4ce3-8a69-e6c06602824b",
+        "meaning": "For my boss' birthday, I think I will give (him) flowers.",
+        "text": {
+          "spelling": "{部長|ぶ・ちょう}の{誕生日|たん・じょう・び}に{花|はな}をあげようと{思|おも}います。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-06-12",
+    "lesson_codes": ["GENKI3_L20"],
+    "tags": []
+  },
+  {
+    "id": "7b28b702-e577-4daf-bc8d-6bdf2a8b01ad",
+    "title": "ごＮする",
+    "meaning": "② I (humbly) do (out of respect for somebody)...",
+    "how_to_use": [
+      "ご + noun (suru) + する"
+    ],
+    "examples": [
+      {
+        "id": "c3262d5b-07c7-4637-ae66-c5ef34ed417d",
+        "meaning": "Let us (humbly) tell you about a shop that is popular among foreigners.",
+        "text": {
+          "spelling": "{外国人|がい・こく・じん}に{人気|にん・き}がある{店|みせ}をご{紹介|しょう・かい}しましょう。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "8cd0b869-2fea-4779-a0eb-f88ef0668f38",
+        "meaning": "This is tanaka; I (humbly) called yesterday.",
+        "text": {
+          "spelling": "{昨日|きのう}お{電話|でん・わ}した{山田|やま・だ}です。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "c39e96ef-d417-4768-a72f-862352225d15",
+        "meaning": "If you come to my country, I will (humbly) show you around.",
+        "text": {
+          "spelling": "{私|わたし}の{国|くに}にいらっしゃったら、ご{案内|あん・ない}します。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-07-04",
+    "lesson_codes": ["GENKI3_L20"],
+    "tags": []
+  },
+  {
+    "id": "6f321cdf-a245-4b15-8a09-2f4facfb715c",
+    "title": "〜いただく<br/>〜差し上げる",
+    "meaning": "I (humbly) give/receive (out of respect for somebody)...",
+    "how_to_use": [
+      "clause + もらう ⟶ clause + いただく",
+      "clause + あげる ⟶ clause + 差し上げる",
+      "Note: Do not use 差し上げる with 〜て in the sense of doing something for somebody.",
+      "Use お + stem + する pattern instead"
+    ],
+    "examples": [
+      {
+        "id": "cc066060-ef8b-46e0-9617-04b086c1c6c6",
+        "meaning": "I (humbly) received this book from my professor.",
+        "text": {
+          "spelling": "{私|わたし}は{先生|せん・せい}にこの{本|ほん}をいただきました。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "f1841b4b-53a8-4408-afcb-b0e565190ba1",
+        "meaning": "I (humbly) had my professor teach me kanji.",
+        "text": {
+          "spelling": "{私|わたし}は{先生|せん・せい}に{漢字|かん・じ}を{教|おし}えていだたきました。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "7d986059-300a-4212-8434-3fe277d85eb8",
+        "meaning": "I will (humbly) give my professor flowers.",
+        "text": {
+          "spelling": "{私|わたし}は{先生|せん・せい}に{花|はな}を{差|さ}し{上|あ}げます。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "95c4f107-9ccc-48e9-9475-b29c601e8aa6",
+        "meaning": "Because tomorrow is the department manager's birthday, I have decided to give her something.",
+        "text": {
+          "spelling": "{明日|あした}は{部長|ぶ・ちょう}の{誕生日|たん・じょう・び}なので、{何|なに}か{差|さ}し{上|あ}げようと{思|おも}っています。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-07-04",
+    "lesson_codes": ["GENKI3_L20"],
+    "tags": []
+  },
+  {
+    "id": "2440aeee-bc58-43ad-8c05-1d9e71fb7498",
+    "title": "〜伺う",
+    "meaning": "to (humbly) ask/visit...",
+    "how_to_use": [
+      "clause + 伺います"
+    ],
+    "examples": [
+      {
+        "id": "b87416bb-efb0-4f63-98ea-e497693e0c5a",
+        "meaning": "I (humbly) visited my department manager's house.",
+        "text": {
+          "spelling": "{私|わたし}は{部長|ぶ・ちょう}のお{宅|たく}に{伺|うかが}いました。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "2d4c4592-313f-4f35-830c-75dede505ddc",
+        "meaning": "I (humbly) asked my professor about the exam.",
+        "text": {
+          "spelling": "{私|わたし}は{先生|せん・せい}にテストについて{伺|うかが}いました。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-07-04",
+    "lesson_codes": ["GENKI3_L20"],
+    "tags": []
+  },
+  {
+    "id": "10fbf757-2e13-4e3d-bb96-44eb31aa3767",
+    "title": "ＡないでＢ",
+    "meaning": "Without doing A, B<br/>B without doing A",
+    "how_to_use": [
+      "verb (short, negative) + で"
+    ],
+    "examples": [
+      {
+        "id": "add02b05-8666-421b-a9ce-d7b1a729ced6",
+        "meaning": "Last night, without getting any sleep, I studied.",
+        "text": {
+          "spelling": "{昨日|きのう}の{夜|よる}は、{寝|ね}ないで、{勉強|べん・きょう}しました。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "c8f70958-bf4f-4dc3-90eb-51c396039f03",
+        "meaning": "Without using dictionaries, I read newspapers.",
+        "text": {
+          "spelling": "{辞書|じ・しょ}を{使|つか}わないで、{新聞|しん・ぶん}を{読|よ}みます。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "e761d478-bcae-4618-aa93-2f74f8588ab8",
+        "meaning": "Without washing hands, I will eat.",
+        "text": {
+          "spelling": "{手|て}を{洗|あら}わないでご{飯|はん}を{食|た}べます。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "bd94d638-bd94-4982-8913-01d189647f25",
+        "meaning": "I am living life without driving a car.<br/>(lit. Without getting in a car, I am living my life.)",
+        "text": {
+          "spelling": "{車|くるま}に{乗|の}らないで、{生活|せい・かつ}しています。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-07-04",
+    "lesson_codes": ["GENKI3_L20"],
+    "tags": []
+  },
+  {
+    "id": "abafa12a-61f0-45ab-92c8-127c6197d318",
+    "title": "ＱかＶ<br/>ＱかどうかＶ",
+    "meaning": "Embedded question<br/>Embedded yes/no question",
+    "how_to_use": [
+      "question + か + verb",
+      "question (yes/no) + かどうか + verb",
+      "question uses が instead of は for subject"
+    ],
+    "examples": [
+      {
+        "id": "17307578-79a2-475f-91ed-4ebec371a9e5",
+        "meaning": "This weekend, let's decide whether or not we will go on a trip.",
+        "text": {
+          "spelling": "{週末|しゅう・まつ}、{旅行|りょ・こう}に{行|い}くかどうか{決|き}めましょう。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "7b14c97a-d7a3-4031-a5bc-29777295eaf4",
+        "meaning": "I know who Takeshi is in love with.<br/>(lit. who is takeshi in love with?; I know.)",
+        "text": {
+          "spelling": "{私|わたし}はたけしさんが{誰|だれ}が{好|す}きか{知|し}っています。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "3f36443f-5300-4758-98c8-8b98924aa6cb",
+        "meaning": "How long will it take to get to the airport?; teach me please.",
+        "text": {
+          "spelling": "{空港|くう・こう}までどのくらいかかるか{教|おし}えてください。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "cf6787eb-a055-41c0-a4f7-c8348cc84bd9",
+        "meaning": "I don't know what kind of person lives on the second floor.<br/>(lit. What kind of person lives on the second floor?; I don't know.)",
+        "text": {
+          "spelling": "{２階|に・かい}の{部屋|へ・や}にどんな{人|ひと}が{住|す}んでいるか{分|わ}かりません。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "f4e819eb-4d9e-40c2-bf58-15330f0f3e76",
+        "meaning": "I don't remember who who gave me a ride home.<br/>(lit. Who escorted me home?; I don't remember.)",
+        "text": {
+          "spelling": "{誰|だれ}が{家|いえ}まで{送|おく}ってくれたか{覚|おぼ}えていません。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "c9cfa7ae-3dd5-4b60-9e8f-545bcbf969a4",
+        "meaning": "Do you know where Fuyutsuki lives?<br/>(lit. Where does Fuyutsuki live?; Do you know?",
+        "text": {
+          "spelling": "{冬月|ふゆ・つき}さんがどこに{住|す}んでいるか{知|し}っていますか。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-07-04",
+    "lesson_codes": ["GENKI3_L20"],
+    "tags": []
+  },
+  {
+    "id": "55d529af-216c-4e77-b49f-098ed992e2cf",
+    "title": "Ｑ<del>だ</del>かＶ<br/>Ｑ<del>だ</del>かどうかＶ",
+    "meaning": "Embedded question (with dropped だ)",
+    "how_to_use": [
+      "question ending in noun/な-adj drops the だ:",
+      "question noun + <del>だ</del> + か + verb",
+      "question noun (yes/no) + <del>だ</del> + かどうか + verb",
+      "question な-adj + <del>だ</del> + か + verb",
+      "question な-adj (yes/no) + <del>だ</del> + かどうか + verb"
+    ],
+    "examples": [
+      {
+        "id": "2b4d9d7e-a81f-4d9e-947b-70167fd6f612",
+        "meaning": "I don't know who is the best.<br/>(lit. Who is the best?; I don't know.)",
+        "text": {
+          "spelling": "{誰|だれ}が{一番|いち・ばん}{上手|じょう・ず}か{分|わ}かりません。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "a97cd997-acc7-4c8a-bb58-417613423a48",
+        "meaning": "I don't know if that person is a student.<br/>(lit. Is that person whether or not a student?; I don't know.)",
+        "text": {
+          "spelling": "あの{人|ひと}が{学生|がく・せい}かどうか{分|わ}かりません。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "2b64bd85-6f62-477c-aa6d-a26abcc20631",
+        "meaning": "I don't know whether or not they will exchange this sweater.<br/>(lit. This sweater whether or not they will they exchange for me?; I don't know.)",
+        "text": {
+          "spelling": "このセーターを{交換|こうかん}してくれるかどうか{分|わ}かりません。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-07-04",
+    "lesson_codes": ["GENKI3_L20"],
+    "tags": []
+  },
+  {
+    "id": "a84c976b-36c3-4fef-b2fe-f35c425c290d",
+    "title": "〜という",
+    "meaning": "called...",
+    "how_to_use": [
+      "name + という + item ⟶ item called name"
+    ],
+    "examples": [
+      {
+        "id": "9f3d205f-ae5a-4d09-9a24-aa3bddf4a499",
+        "meaning": "A dog called Pochi, I used to have.",
+        "text": {
+          "spelling": "ポチという{犬|いぬ}を{飼|か}っていました。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "ffdbdc1f-a8e0-41b8-992e-7e77b99f9fbc",
+        "meaning": "A song called \"Hana\", do you know?",
+        "text": {
+          "spelling": "「{花|はな}」という{歌|うた}を{知|し}っていますか。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "0cb5db7f-8662-45a8-b296-710523949584",
+        "meaning": "In my Japanese class, someone named Himuro I became friends with.",
+        "text": {
+          "spelling": "{日本語|に・ほん・ご}のクラスで、{氷室|ひ・むろ}という{人|ひと}と{友達|とも・だち}になりました。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "f67ff002-3870-45a0-9f37-3f63508c7f70",
+        "meaning": "The other day, a food called nattō, I tried for the first time.",
+        "text": {
+          "spelling": "この{間|あいだ}、{初|はじ}めて{納豆|なっ・とう}という{食|た}べ{物|もの}を{食|た}べました。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-07-04",
+    "lesson_codes": ["GENKI3_L20"],
+    "tags": []
+  },
+  {
+    "id": "9874baf0-e46d-4488-b63b-48507cfbb02d",
+    "title": "〜やすい<br/>〜にくい",
+    "meaning": "easy to do...<br/>hard to do...",
+    "how_to_use": [
+      "verb (stem) + やすい",
+      "verb (stem) + にくい",
+      "psychologically easy/hard when using verbs that describe actions.",
+      "sometimes the subject is a <i>place</i> where it is easy/difficult to do something.",
+      "sometimes the subject is a <i>tool</i> that is easy or difficult to use for something."
+    ],
+    "examples": [
+      {
+        "id": "2aaf57a5-de04-40df-bc7d-204c73f1667a",
+        "meaning": "This microwave is easy to use.",
+        "text": {
+          "spelling": "この{電子|でん・し}レンジは{使|つか}いやすいです。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "09aae754-8037-4b03-a1f0-ac599d861601",
+        "meaning": "Because they have many bones, fish are hard to eat.",
+        "text": {
+          "spelling": "{骨|ほね}が{多|おお}いので、{魚|さかな}は{食|た}べにくいです。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "40b1c0e8-3fa6-412d-a4d3-5af32f23c99f",
+        "meaning": "This town is easy to live in.",
+        "text": {
+          "spelling": "この{町|まち}はとても{住|す}みやすいです。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "265d2487-74e5-43bc-96e6-9a48973c5dc9",
+        "meaning": "Kanji are hard to memorize (because I have kanji anxieties).<br/>(c.f. 漢字を覚えるのは難しい for too complicated, too many)",
+        "text": {
+          "spelling": "{漢字|かん・じ}は{覚|おぼ}えにくい。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "dc04a090-64f8-474d-9cd1-2775869491c8",
+        "meaning": "Because this cell phone is small and light, it is easy to hold.",
+        "text": {
+          "spelling": "この{携帯|けい・たい}は{小|ちい}さくて{軽|かる}いので、{持|も}ちやすいです。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      },
+      {
+        "id": "11e3a633-721e-4285-96e6-84e7b9904034",
+        "meaning": "Because Hasegawa Sensei is kind and listens to what I say, they are easy to consult with.",
+        "text": {
+          "spelling": "{長谷川|は・せ・がわ}{先生|せん・せい}は{優|やさ}しいし、{話|はなし}を{聞|き}いてくださるから、{相談|そう・だん}しやすいです。"
+        },
+        "lesson_codes": ["GENKI3_L20"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2025-07-04",
+    "lesson_codes": ["GENKI3_L20"],
+    "tags": []
+  }
+]

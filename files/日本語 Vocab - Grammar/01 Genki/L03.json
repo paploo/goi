@@ -1,0 +1,192 @@
+[
+  {"COMMENT": "GENKI LESSON 03"},
+  {
+    "id": "6f62a4af-3e50-4b44-8981-4e2602332319",
+    "title": "ＴにＡ",
+    "meaning": "A on/at (absolute) time",
+    "how_to_use": [
+      "absolute time + に + A"
+    ],
+    "examples": [
+      {
+        "id": "8a0fe5ae-9e79-47d8-917e-e714f9142ece",
+        "meaning": "I will go on Sunday.",
+        "text": {
+          "spelling": "{日曜日|にち・よう・び}に{行|い}きます。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L03"],
+        "tags": []
+      },
+      {
+        "id": "22a8bab1-522d-416c-89fd-fff3338f0c84",
+        "meaning": "I get up at 10:45.",
+        "text": {
+          "spelling": "{十時|じゅう・じ}{四十五分|よん・じゅう・ご・ふん}に{起|お}きます。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L03"],
+        "tags": []
+      },
+      {
+        "id": "4761eb66-8edb-421b-93a7-45b88dd045b0",
+        "meaning": "I will go back in September.",
+        "text": {
+          "spelling": "{九月|く・がつ}に{帰|かえ}ります。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L03"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-05-01",
+    "lesson_codes": ["GENKI3_L03"],
+    "tags": []
+  },
+  {
+    "id": "8f2595db-b6ab-4ccf-b09e-93dce63e6213",
+    "title": "ＴＡ",
+    "meaning": "relative time for A",
+    "how_to_use": [
+      "relative time + A"
+    ],
+    "examples": [
+      {
+        "id": "995d3387-0be7-417c-b548-5fb44ae4b744",
+        "meaning": "I will come tomorrow.",
+        "text": {
+          "spelling": "{明日|あした}{来|き}ます。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L03"],
+        "tags": []
+      },
+      {
+        "id": "400e6ba9-e8ab-4ea2-8550-3d00ca203726",
+        "meaning": "I watch TV every evening.",
+        "text": {
+          "spelling": "{毎晩|まい・ばん}テレビを{見|み}ます。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L03"],
+        "tags": []
+      },
+      {
+        "id": "9a2f425d-83b5-4d09-8ef2-00f47b258525",
+        "meaning": "When will you go?",
+        "text": {
+          "spelling": "いつ{行|い}きますか。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L03"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-05-01",
+    "lesson_codes": ["GENKI3_L03"],
+    "tags": []
+  },
+  {
+    "id": "0000d0db-623b-457d-b797-5c7bfd8d0000",
+    "title": "〜ませんか",
+    "meaning": "to extend an invitation",
+    "how_to_use": [
+      "verb + ませんか",
+      "verb + ない？"
+    ],
+    "examples": [
+      {
+        "id": "aaaa2051-aab0-494e-b0ff-4be24feaaaaa",
+        "meaning": "What do you say to having lunch with me?",
+        "text": {
+          "spelling": "{昼|ひる}ご{飯|はん}を{食|た}べませんか。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L03"],
+        "tags": []
+      },
+      {
+        "id": "bbbb2051-aab0-494e-b0ff-4be24feabbbb",
+        "meaning": "Will you play tennis with me?",
+        "text": {
+          "spelling": "テニスをませんか。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L03"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-03-09",
+    "lesson_codes": ["GENKI3_L03"],
+    "tags": []
+  },
+  {
+    "id": "dd34d089-fe5a-4958-83d1-0baaa30f609f",
+    "title": "よく／たいてい/時々……ます<br/>あまり／全然……ません",
+    "meaning": "Frequency Adverbs",
+    "how_to_use": [
+      "いつも + verb (present) ⟶ always",
+      "よく + verb (present) ⟶ often",
+      "たいてい + verb (present) ⟶ usually",
+      "時々 + verb (present) ⟶ sometimes",
+      "あまり + verb (negative) ⟶ not much",
+      "ほとんど + verb (negative) ⟶ seldom/hardly",
+      "全然 + verb (negative) ⟶ never",
+      "毎日 + verb + (present) ⟶ every day"
+    ],
+    "examples": [
+      {
+        "id": "06133f8b-d28d-46a9-911a-4ab5ad4d5458",
+        "meaning": "Yumi often comes to my house.",
+        "text": {
+          "spelling": "ゆみさんはよく{私|わたし}のうちに{来|き}ます。"
+        },
+        "lesson_codes": ["GENKI3_L03"],
+        "tags": []
+      },
+      {
+        "id": "ecfc043d-aa9b-4d23-8e2d-53ec8792781c",
+        "meaning": "Professor Yamashita usually goes to sleep at 11.",
+        "text": {
+          "spelling": "{山下|やま・した}{先生|せん・せい}はたいてい{十一|じゅう・いち}{時|じ}に{寝|ね}ます"
+        },
+        "lesson_codes": ["GENKI3_L03"],
+        "tags": []
+      },
+      {
+        "id": "5850facf-58ed-459e-91fb-8a828fdbe089",
+        "meaning": "Takeshi sometimes drinks coffee at that cafe.",
+        "text": {
+          "spelling": "たけしさんは{時々|とき・どき}あのカフェでコーヒーを{飲|の}みます。"
+        },
+        "lesson_codes": ["GENKI3_L03"],
+        "tags": []
+      },
+      {
+        "id": "4efba880-4c26-46ec-b741-ae15f9f9217b",
+        "meaning": "Takeshi does not study much.",
+        "text": {
+          "spelling": "たけしさんはあまり{勉強|べん・きょう}しません。"
+        },
+        "lesson_codes": ["GENKI3_L03"],
+        "tags": []
+      },
+      {
+        "id": "97c37d64-f03a-49c3-a4c4-2d85d564dbdd",
+        "meaning": "I don't watch TV at all.",
+        "text": {
+          "spelling": "{私|わたし}は{全然|ぜん・ぜん}テレビを{見|み}ません。"
+        },
+        "lesson_codes": ["GENKI3_L03"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-08-06",
+    "lesson_codes": ["GENKI3_L03"],
+    "tags": []
+  }
+]

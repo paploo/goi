@@ -1,6 +1,6 @@
 ### Furigana template rules for grammar examples
 
-This document defines the ruby/furigana template style used in `日本語 Vocab - Grammar.json` so that humans and AI tools can validate existing entries and add new ones consistently.
+This document defines the ruby/furigana template style used in json files in the `日本語 Vocab - Grammar` directory so that humans and AI tools can validate existing entries and add new ones consistently.
 
 #### Template syntax
 - Wrap each annotated token in curly braces: `{...}`

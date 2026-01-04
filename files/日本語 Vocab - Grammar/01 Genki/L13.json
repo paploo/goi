@@ -1,0 +1,564 @@
+[
+  {"COMMENT": "GENKI LESSON 13"},
+  {
+    "id": "235440b0-4755-4201-84fb-1172bcfbe16c",
+    "title": "〜れる",
+    "meaning": "potential: can, has the ability to do, or is possible",
+    "how_to_use": [
+      "ichidan verb (stem) + られる",
+      "godan verb: -u ⟶ -eru",
+      "conjugates as ichidan verb"
+    ],
+    "examples": [
+      {
+        "id": "e707c310-cf41-4f9f-a718-818c7f361848",
+        "meaning": "I can speak Japanese.",
+        "text": {
+          "spelling": "{私|わたし}は{日本語|に・ほん・ご}が{話|はな}せます。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "b4113f65-8b6e-4945-913d-2a61bd919e39",
+        "meaning": "(The truth is) I cannot swim.",
+        "text": {
+          "spelling": "{私|わたし}は{泳|およ}げないんです。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "f4bf7c5b-bafd-487c-967a-d2be40364364",
+        "meaning": "Because it rained, we could not got to the beach.",
+        "text": {
+          "spelling": "{雨|あめ}が{降|ふ}ったので、{海|うみ}に{行|い}けませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "5d31612e-8251-498c-9a11-c9bc0dd5454d",
+        "meaning": "Because I am afraid of the water, I cannot swim.",
+        "text": {
+          "spelling": "{水|みず}が{怖|こわ}いので、{泳|およ}げません。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "00171cd5-bdb9-4c61-a933-ba2495d481ea",
+        "meaning": "Because I have a cold, I cannot go to school.",
+        "text": {
+          "spelling": "{風邪|かぜ}を{引|ひ}いているので、{明日|あした}{学校|がっ・こう}に{行|い}けません。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "7221a18e-a8a2-43be-b9d4-0a8cd5b5b844",
+        "meaning": "Because I'm hungry, I can eat a lot.",
+        "text": {
+          "spelling": "お{腹|なか}が{空|す}いているので、たくさん{食|た}べられます。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-04-17",
+    "lesson_codes": ["GENKI3_L13"],
+    "tags": []
+  },
+  {
+    "id": "135d54ce-443f-4865-bd85-d92f5fb03df1",
+    "title": "〜ことができる",
+    "meaning": "can do...; be able to do...",
+    "how_to_use": [
+      "verb (short) + ことができる",
+      "Usually same meaning as ordinary potential form (but preferred in written)"
+    ],
+    "examples": [
+      {
+        "id": "ec23639f-dd65-4382-8703-3af909ebf658",
+        "meaning": "Mary can play the guitar",
+        "text": {
+          "spelling": "マリーさんはギターを{弾|ひ}くことができます。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "1055309d-3caf-42f7-9424-dbbb2f8243b7",
+        "meaning": "You cannot keep dogs in this apartment.",
+        "text": {
+          "spelling": "このアパートでは{犬|いぬ}を{飼|か}うことができません。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "d95ccf3d-cd1b-494e-8779-d0bc1fec04b5",
+        "meaning": "Can you eat natto?",
+        "text": {
+          "spelling": "{納豆|なっ・とう}を{食|た}べることができますか。"
+        },
+        "lesson_codes": ["JLPT_SENSEI_GRAMMAR_N4"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": 4,
+    "date_added": "2024-04-17",
+    "lesson_codes": ["GENKI3_L13"],
+    "tags": []
+  },
+  {
+    "id": "683c8a48-61f0-435a-8e18-f48afee220e3",
+    "title": "〜し",
+    "meaning": "multiple reasons for situation",
+    "how_to_use": [
+      "(reason 1)し、(reason 2)し、(situation)。",
+      "(situation)。(reason 1)し、(reason 2)し。",
+      "(one reason of many)し、(situation)。"
+    ],
+    "examples": [
+      {
+        "id": "cbf99a77-5c99-4bbc-8889-98db0110de75",
+        "meaning": "Because Japanese is interesting, and our teacher is good, I really like my Japanese class.",
+        "text": {
+          "spelling": "{日本語|に・ほん・ご}は{面白|おも・しろ}いし、{先生|せん・せい}はいいし、{私|わたし}は{日本語|に・ほん・ご}の{授業|じゅ・ぎょう}が{大|だい}{好|す}きです。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "7fcf8c9f-0b39-4496-a499-50d6df791a5f",
+        "meaning": "Life in this city is easygoing. Things are inexpensive, for one thing",
+        "text": {
+          "spelling": "{物価|ぶっ・か}が{安|やす}いし、この{町|まち}の{生活|せい・かつ}は{楽|らく}です"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "114b145a-7a0a-4c03-9fd4-3d90fad86844",
+        "meaning": "Professor Yamashita is a great teacher. He is good at teaching, and he is kind.",
+        "text": {
+          "spelling": "{山下|やま・した}{先生|せん・せい}はいい{先生|せん・せい}です。{教|おし}えるのが{上手|じょう・ず}だし、{親切|しん・せつ}だし。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "8bfffa8f-0ed9-468d-874d-a765617571af",
+        "meaning": "Because I was able to enter the university, and I have many friends, I am happy now.",
+        "text": {
+          "spelling": "{大学|だい・がく}に{入|はい}れたし、{友達|とも・だち}がたくさんいるし、{今|いま}{幸|しあわ}せです。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "0c54ba42-1ebd-4be8-901c-400a197e926c",
+        "meaning": "A: Between summer and winter, which is your favorite?<br/>B: Winter is my favorite. I like snow and I can ski.",
+        "text": {
+          "spelling": "A：{夏|なつ}と{冬|ふゆ}どちらが{好|す}きですか。<br/>Ｂ：{冬|ふゆ}の{方|ほう}が{好|す}きです。{雪|ゆき}が{好|す}きだし、スキーができるし。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "e047c006-9568-4da8-a8bd-7be0a0a5195a",
+        "meaning": "A: Are you busy right now?<br/>B: Yes. I have a lot of homework and I have to write a report.",
+        "text": {
+          "spelling": "Ａ：{今|いま}、{忙|いそが}しいですか。<br/>Ｂ：はい。{宿題|しゅく・だい}がたくさんあるし、レポートを{書|か}かなきゃいけないし。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-04-18",
+    "lesson_codes": ["GENKI3_L13"],
+    "tags": []
+  },
+  {
+    "id": "40f32528-f85c-4d34-ada9-f59c7a7f1c81",
+    "title": "①　〜そうです",
+    "meaning": "it looks like... (adjective/verb)",
+    "how_to_use": [
+      "い-adj (stem) + そうです",
+      "な-adj + そうです",
+      "verb (stem) + そうです",
+      "いい ⟶ 良さそうです"
+    ],
+    "examples": [
+      {
+        "id": "4c89a5e3-6eaa-4f7f-91df-9b4e80860167",
+        "meaning": "This apple looks delicious.",
+        "text": {
+          "spelling": "このリンゴは{美味|おい}しそうです。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "5c3984a7-c24d-4600-b2c4-550618d5fee0",
+        "meaning": "Mary looks like she is doing well.",
+        "text": {
+          "spelling": "メアリーさんは{元気|げん・き}そうでした。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "1478b9dd-9687-4b89-af11-5898d6f45d9f",
+        "meaning": "It looks like the weather will be fine tomorrow",
+        "text": {
+          "spelling": "{明日|あした}は{天気|てん・き}が{良|よ}さそうです。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "a12c0e10-c136-4b20-918b-8a8256192dc0",
+        "meaning": "This dog looks like it is smart.",
+        "text": {
+          "spelling": "この{犬|いぬ}は{頭|あたま}が{良|よ}さそうです。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "fdc9ad4e-9aa7-4cec-b98d-447415adaa9d",
+        "meaning": "It looks like this sweater is washable at home.",
+        "text": {
+          "spelling": "このセーターは{家|いえ}で{洗|あら}えそうです。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "01705611-9c98-4c94-8607-337bb80990db",
+        "meaning": "It looks like it will rain.",
+        "text": {
+          "spelling": "{雨|あめ}が{降|ふ}りそうです"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-04-24",
+    "lesson_codes": ["GENKI3_L13"],
+    "tags": []
+  },
+  {
+    "id": "1ed875a5-8206-4e16-b632-1321df17ad56",
+    "title": "〜なさそうです",
+    "meaning": "it does not look like...",
+    "how_to_use": [
+      "〜ない ⟶ 〜なさそうです",
+      "negate 〜そうです to 〜そうじゃないです"
+    ],
+    "examples": [
+      {
+        "id": "072b0a5b-e062-4c58-9aae-344e59f58563",
+        "meaning": "This book does not look difficult.",
+        "text": {
+          "spelling": "この{本|ほん}は{難|むずか}しくなさそうです。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "204940de-5a14-4cd5-8335-e14b9b4d2419",
+        "meaning": "It does not look like Sora is good at tennis.",
+        "text": {
+          "spelling": "ソラさんはテニスが{上手|じょう・ず}じゃなさそうです。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "e4b974c8-24a2-40c5-b910-27b82e8301ec",
+        "meaning": "It does not look like it will rain.",
+        "text": {
+          "spelling": "{雨|あめ}が{降|ふ}らなさそうです。"
+        },
+        "lesson_codes": [],
+        "tags": []
+      },
+      {
+        "id": "e4d9daa0-35c7-40e5-b6a7-88b0d7ea6287",
+        "meaning": "his book does not look difficult",
+        "text": {
+          "spelling": "この{本|ほん}は{難|むずか}しそうじゃないです。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "04a8a350-0322-4692-b0f4-f624586dc8a4",
+        "meaning": "It does not look like Sora is good at tennis.",
+        "text": {
+          "spelling": "ソラさんはテニスが{上手|じょう・ず}そうじゃないです。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "8f3f33c4-dafd-4b16-933b-6b2df045d85c",
+        "meaning": "It does not look like it will rain.",
+        "text": {
+          "spelling": "{雨|あめ}が{降|ふ}りそうじゃないです。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-04-24",
+    "lesson_codes": ["GENKI3_L13"],
+    "tags": []
+  },
+  {
+    "id": "7483ce22-3fa6-4dcd-8bda-868c8104c37a",
+    "title": "ＡそうなＮ",
+    "meaning": "A-looking N",
+    "how_to_use": [
+      "adjective + そう ⟶ な-adj",
+      "Note: いい ⟶ 良さそう"
+    ],
+    "examples": [
+      {
+        "id": "5bc126f4-ce57-4344-ab1f-f9f74a12bf47",
+        "meaning": "She is wearing a warm-looking sweater.",
+        "text": {
+          "spelling": "{暖|あたた}かそうなセーターを{着|き}ています。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "fe57e4d6-9a0d-4e1e-99ee-fa33fbc177f9",
+        "meaning": "That is a smart-looking dog, eh?",
+        "text": {
+          "spelling": "{頭|あたま}が{良|よ}さそうな{犬|いぬ}ですね。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "938b811d-9c80-4149-bd0d-0b63b33a39d3",
+        "meaning": "That is an lively-looking kid, eh?",
+        "text": {
+          "spelling": "{元気|げん・き}そうな{子供|こ・ども}ですね。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-04-24",
+    "lesson_codes": ["GENKI3_L13"],
+    "tags": []
+  },
+  {
+    "id": "dedb9dde-3d23-4004-adce-6d90a3c7915e",
+    "title": "〜てみる",
+    "meaning": "doing something tentatively / trying something",
+    "how_to_use": [
+      "verb (て form) + みる"
+    ],
+    "examples": [
+      {
+        "id": "c8258ae1-3898-44a6-b036-605568b47131",
+        "meaning": "I did not know the kanji, so I tried asking a Japanese friend of mine.",
+        "text": {
+          "spelling": "{漢字|かん・じ}が{分|わ}からなかったので、{日本|に・ほん}{人|じん}の{友達|とも・だち}に{聞|き}いてみました。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "0c3359fc-1a3a-421a-aafb-b730612c5b7f",
+        "meaning": "A: This book was interesting.<br/>B: Okay, I will take a look at it.",
+        "text": {
+          "spelling": "Ａ：この{本|ほん}、{面白|おも・しろ}かったですよ。<br/>Ｂ：じゃあ、{読|よ}んでみます。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "b34e0315-3a15-4998-94f3-a30a04c1a7cf",
+        "meaning": "A: That karate teacher is really good at teaching.<br/>B: Well then, I will try going to their karate class.",
+        "text": {
+          "spelling": "Ａ：あの{空手|から・て}の{先生|せん・せい}は{教|おし}えるのがとても{上手|じょう・ず}ですよ。<br/>B：じゃあ、{空手|から・て}のクラスに{行|い}ってみます。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "3cd356f1-8523-4378-b515-31c3d1257cf1",
+        "meaning": "A: In Japan, what do you want to try doing?<br/>B: I want to try going to Akihabara.",
+        "text": {
+          "spelling": "{日本|に・ほん}で{何|なに}をしてみたいですか。<br/>{秋葉原|あき・は・ばら}に{行|い}ってみたいです。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "64fc707b-6796-46a6-9452-e428f6620090",
+        "meaning": "When you were a child, what did you want try doing?",
+        "text": {
+          "spelling": "{子供|こ・ども}の{時|とき}、{何|なに}がしてみたかったですか。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "19571f53-e235-49fa-845b-5311189002f3",
+        "meaning": "A: Korean food is spicy and very delicious!<br/>B: Okay, I will try eating it.",
+        "text": {
+          "spelling": "Ａ：{韓国|かん・こく}の{料理|りょう・り}は{辛|から}くて、とても{美味|おい}しですよ。<br/>Ｂ：じゃあ、{食|た}べてみます。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-05-01",
+    "lesson_codes": ["GENKI3_L13"],
+    "tags": []
+  },
+  {
+    "id": "442ed314-aa52-47ae-a180-e46770aaba16",
+    "title": "ＮならＰ",
+    "meaning": "predicate P only applies to noun N",
+    "how_to_use": [
+      "noun + なら + predicate",
+      "noun + なら + predicate (positive) + が、 + noun (contrast) + は + predicate (negative)"
+    ],
+    "examples": [
+      {
+        "id": "d3435fbc-9173-40d0-9fa8-850aacdce32c",
+        "meaning": "A: Have you ever been to Brazil?<br/>B: I've been to Chile, but never to Brazil.",
+        "text": {
+          "spelling": "Ａ：ブラジルに{行|い}ったことがありますか。<br/>Ｂ：チリなら{行|い}ったことがありますが、ブラジルは{行|い}ったことがありません"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "d4d7fc87-6c5b-4c48-a87e-7b034c0c7881",
+        "meaning": "A: Can you read Japanese?<br/>B: If it is (written) in hiragana, yes",
+        "text": {
+          "spelling": "Ａ：{日本語|に・ほん・ご}が{読|よ}めますか。<br/>B：ひらがななら{読|よ}めます。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "0ce7ec89-28cc-45da-b433-754244aa804a",
+        "meaning": "A: Do you want to buy a motorcycle?<br/>B: I want to buy a car, but I do not want to buy a bike.",
+        "text": {
+          "spelling": "Ａ：バイクが{買|か}いたいてすか。<br/>Ｂ：{車|くるま}なら{買|か}いたいですが、バイクは{買|か}いたいくないです。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "49c91a91-7c3b-4754-8b81-539231de2652",
+        "meaning": "A: Can you play sports?<br/>B: I can play tennis (but not other sports).",
+        "text": {
+          "spelling": "Ａ：スポーツができますか。<br/>Ｂ：テニスならできます。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "b7ef8604-ef57-47f4-86cc-5b673ab973d6",
+        "meaning": "A: Can you lend me money?<br/>I can lend you ¥5000 (but no more).",
+        "text": {
+          "spelling": "Ａ：お{金|かね}が{貸|か}せますか。<br/>Ｂ：{五千円|ご・せん・えん}なら{貸|か}せます。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "71a6dd0d-4136-480f-ad74-aa3d10ff1f89",
+        "meaning": "A: Are you free on Saturday?<br/>B: I am free on Sunday, but not on Saturday.",
+        "text": {
+          "spelling": "Ａ：{土曜日|ど・よう・び}は{暇|ひま}ですか。<br/>Ｂ：{日曜日|にち・よう・び}なら{暇|ひま}ですが、{土曜日|ど・よう・び}は{暇|ひま}じゃないです。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-05-13",
+    "lesson_codes": ["GENKI3_L13"],
+    "tags": []
+  },
+  {
+    "id": "20a6a948-7846-4d1e-ab36-931859fbd8dc",
+    "title": "ＰにＦ",
+    "meaning": "F per P",
+    "how_to_use": [
+      "period + に + frequency",
+      "Period can be greater than one"
+    ],
+    "examples": [
+      {
+        "id": "9ef887bf-cfb4-409f-85b7-e7ca319763de",
+        "meaning": "I shampoo three times a week.",
+        "text": {
+          "spelling": "{私|わたし}は{一週間|いっ・しゅう・かん}に{３回髪|さん・かい・かみ}を{洗|あら}います。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "66308422-0f0d-4667-8a18-4f28573bca39",
+        "meaning": "I play games for about three hours a day.",
+        "text": {
+          "spelling": "{一日|いちにち}に{３時間|さんじかん}ぐらいゲームをします。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "e1b78190-fd99-41ce-a5bf-d79aa9523bce",
+        "meaning": "I work part-time three or four days a month.",
+        "text": {
+          "spelling": "{一ヶ月|いっ・か・げつ}に{三日|みっ・か}か{四日|よっ・か}、アルバイトをします。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "aaa37086-fefc-45a3-b3f1-70f9e49ac18a",
+        "meaning": "My older sister plays golf twice a month.",
+        "text": {
+          "spelling": "{姉|あね}は{１ヶ月|いっ・か・げつ}に{２回|に・かい}ゴルフをします。"
+        },
+        "lesson_codes": ["GENKI3_L13"],
+        "tags": []
+      },
+      {
+        "id": "281080bb-727e-4243-9437-84c07b54e0b2",
+        "meaning": "I take a bath twice per six weeks.",
+        "text": {
+          "spelling": "{私|わたし}は{６週間|ろく・しゅう・かん}に{２回|に・かい}お{風呂|ふ・ろ}に{入|はい}る。"
+        },
+        "lesson_codes": [],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-05-13",
+    "lesson_codes": ["GENKI3_L13"],
+    "tags": []
+  }
+]

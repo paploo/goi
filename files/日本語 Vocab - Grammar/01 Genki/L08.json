@@ -1,0 +1,306 @@
+[
+  {"COMMENT": "GENKI LESSON 08"},
+  {
+    "id": "1de0df00-b25f-45c8-b326-b91ddafb8a79",
+    "title": "〜と思います／〜ないと思います",
+    "meaning": "To describe what you (do/don't) think",
+    "how_to_use": [
+      "verb (short form) + と思います",
+      "verb (short negative form) + と思います"
+    ],
+    "examples": [
+      {
+        "id": "e81519f4-8f3c-4ea2-bb39-5ef9353432e5",
+        "meaning": "I think Takeshi likes Mary.",
+        "text": {
+          "spelling": "たけしさんはメアリーさんが{好|す}きだと{思|おも}います。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "bc50d311-aa82-495b-83ad-24ab0820d15e",
+        "meaning": "I think Mary doesn't like Takeshi.",
+        "text": {
+          "spelling": "メアリーさんはたけしさんが{好|す}きじゃないと{思|おも}います。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "bd439fed-0627-416e-8644-b46b0f5ee894",
+        "meaning": "I think Mary is busy.",
+        "text": {
+          "spelling": "メアリーさんは{忙|いそが}しいと{思|おも}います。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "8f98f300-c0f4-4414-95ce-1bf3e4fdb9e7",
+        "meaning": "I think Mary doesn't go home late at night.",
+        "text": {
+          "spelling": "メアリーさんは{夜|よる}{遅|おそ}く{家|いえ}に{帰|かえ}らないと{思|おも}ういます。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "662b8d8c-6793-4b69-a9f4-8bcaa3f9d273",
+        "meaning": "I think Mary doesn't drink coffee much.",
+        "text": {
+          "spelling": "メアリーさんはあまりコーヒーを{飲|の}まないと{思|おも}います。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "8129fd4b-915d-466e-9582-7679954a4179",
+        "meaning": "I think Mary often goes to see movies.",
+        "text": {
+          "spelling": "メアリーさんはよく{映画|えい・が}を{見|み}に{行|い}くと{思|おも}います。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "437babfb-9e7b-48ce-afd3-9723b247f80d",
+        "meaning": "I think Mary is good at Japanese.",
+        "text": {
+          "spelling": "メアリーさんは{日本|に・ほん}{語|ご}が{上手|じょう・ず}だと{思|おも}います。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-06-27",
+    "lesson_codes": ["GENKI3_L08"],
+    "tags": []
+  },
+  {
+    "id": "1c127fc4-8ef6-452f-9a1f-0caf81872680",
+    "title": "〜と言っていました",
+    "meaning": "They said...",
+    "how_to_use": [
+      "verb (short form) + と言っていました"
+    ],
+    "examples": [
+      {
+        "id": "858b3e24-90e1-4f2e-9790-c10a96f4f7ec",
+        "meaning": "Yasmin said that there would be an exam tomorrow.",
+        "text": {
+          "spelling": "ヤスミンさんは、{明日|あした}{試験|し・けん}があると{言|い}っていました。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "e572789c-1f91-42aa-97ff-c49b3f2419b1",
+        "meaning": "Professor Yamashita said that he is not married",
+        "text": {
+          "spelling": "{山下|やま・した}{先生|せん・せい}は{結婚|けっ・こん}していないと{言|い}っていました。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "464b14cb-8027-46bc-b47f-4ec32044ed70",
+        "meaning": "Dad is kind, they said.",
+        "text": {
+          "spelling": "お{父|とう}さんは{親切|しん・せつ}だと{言|い}っていました。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "dccc6d6a-159c-4acf-bc63-080a661b00a6",
+        "meaning": "Their family doesn't speak English, they said.",
+        "text": {
+          "spelling": "{家族|か・ぞく}は{英語|えい・ご}を{話|はな}さないと{言|い}っていました。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-06-28",
+    "lesson_codes": ["GENKI3_L08"],
+    "tags": []
+  },
+  {
+    "id": "278fa04d-8cf7-4991-9fdf-662ecfdb9820",
+    "title": "〜ないでください",
+    "meaning": "Please don't...",
+    "how_to_use": [
+      "verb (short, negative) +　でください"
+    ],
+    "examples": [
+      {
+        "id": "2aace507-37d5-42fc-afd4-b8460acad62e",
+        "meaning": "Please don't take pictures here.",
+        "text": {
+          "spelling": "ここで{写真|しゃ・しん}を{撮|と}らないでください。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "d2c47776-71a2-49cd-8f53-fcbc0c1f9876",
+        "meaning": "A: May I enter this room?<br/>B: Please don't.",
+        "text": {
+          "spelling": "Ａ：この{部屋|へ・や}に{入|はい}ってもいいですか。<br/>Ｂ：{入|はい}らないでください。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-06-28",
+    "lesson_codes": ["GENKI3_L08"],
+    "tags": []
+  },
+  {"TODO": "(L8-6) Make explicit card for short verb + の being a noun; to do this do we need こと?"},
+  {
+    "id": "c1cb4718-94af-4017-9671-4561b9738aae",
+    "title": "〇〇のが好きです<br/>〇〇のが上手です",
+    "meaning": "Turn a verb into a noun describing an action (i.e. normalizer) to describe things one likes/dislikes or are good/bad at",
+    "how_to_use": [
+      "activity verb (short form) + の + が + 好きです",
+      "activity verb (short form) + の + が + 嫌いです",
+      "activity verb (short form) + の + が + 上手です",
+      "activity verb (short form) + の + が + 下手です"
+    ],
+    "examples": [
+      {
+        "id": "5104ac1d-b806-4aaf-aab6-c9f1370398fb",
+        "meaning": "I like studying the Japanese language.",
+        "text": {
+          "spelling": "{日本語|に・ほん・ご}を{勉強|べん・きょう}するのが{好|す}きです。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "728ba088-711f-4479-9fb5-7ee966dd4894",
+        "meaning": "I don't like cleaning my room.",
+        "text": {
+          "spelling": "{部屋|へ・や}を{掃除|そう・じ}するのが{嫌|きら}いです"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "4543a970-3341-4614-bac4-c72da11242b4",
+        "meaning": "Robert is good at cooking meals.",
+        "text": {
+          "spelling": "ロバートさんは{料理|りょう・り}を{作|つく}るのが{上手|じょう・ず}です。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "a424a513-0f2b-4a27-bf54-9e88c01f321a",
+        "meaning": "Takeshi is not a good speaker of English.",
+        "text": {
+          "spelling": "たけしさんは{英語|えい・ご}を{話|はな}すのが{下手|へた}です。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "fa1506ed-4868-4b75-bda6-1341df85c822",
+        "meaning": "Q: What does the Japanese teacher like to do?<br/>I think they like driving a car.",
+        "text": {
+          "spelling": "Ｑ：{日本語|に・ほん・ご}の{先生|せん・せい}は{何|なに}をするのが{好|す}きですか。<br/>Ａ：{車|くるま}を{運転|うん・てん}するのが{好|す}きだと{思|おも}います。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "fc9b4d11-9820-43e6-ae85-8f1f3c3079d4",
+        "meaning": "Q: Do you like cleaning your room?<br/>A: No, Don't like it very much",
+        "text": {
+          "spelling": "Ｑ：{掃除|そう・じ}するのが{好|す}きですか。<br/>Ａ：いいえ、あまり{好|す}きじゃないです。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-07-23",
+    "lesson_codes": ["GENKI3_L08"],
+    "tags": []
+  },
+  {
+    "id": "f7851ce8-e9b1-47c4-82bc-47626526312a",
+    "title": "何か and 何も",
+    "meaning": "something, anything?, and not...anything",
+    "how_to_use": [
+      "positive statement: 何か ⟶ something",
+      "questions: 何か ⟶ anything?",
+      "negative statements: 何も + negative ⟶ not...anything",
+      "(Usually the particles は, が, and を are dropped when used in places these are expected)"
+    ],
+    "examples": [
+      {
+        "id": "80d6261c-89df-4f07-9b36-5ab262066b30",
+        "meaning": "The cat has brought something.",
+        "text": {
+          "spelling": "{猫|ねこ}が{何|なに}か{持|も}ってきました。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "a46eeb59-60d1-4d27-8602-4910f2c2d38b",
+        "meaning": "Q: Did the cat eat anything?<br/>A: No, the cat did not eat anything.",
+        "text": {
+          "spelling": "Ｑ：{猫|ねこ}は{何|なに}か{食|た}べましたか。<br/>Ａ：いいえ、{猫|ねこ}は{何|なに}も{食|た}べませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "275ca238-e5ed-48c5-9848-2f2ee003dd4f",
+        "meaning": "I met Yumi, but we didn't talk about anything.",
+        "text": {
+          "spelling": "ゆみさんに{会|あ}いましたが、{何|なに}も{話|はな}しませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "68ad5a53-d637-46ca-a1c6-e7d95e091c93",
+        "meaning": "Would you like to drink something?",
+        "text": {
+          "spelling": "{何|なに}か{飲|の}みませんか。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "002822fc-a376-443e-8ca6-3ebb219fc971",
+        "meaning": "Kento asked something, but I did not understand.",
+        "text": {
+          "spelling": "けんとさんは{何|なに}か{聞|き}きましたが、{分|わ}かりませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      },
+      {
+        "id": "6d7f9dd1-6b26-4449-baa6-03e747a7d3ea",
+        "meaning": "There was a TV, but I didn't watch anything.",
+        "text": {
+          "spelling": "テレビがありましたが、{何|なに}も{見|み}ませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L08"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-07-23",
+    "lesson_codes": ["GENKI3_L08"],
+    "tags": []
+  }
+]

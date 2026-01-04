@@ -1,0 +1,324 @@
+[
+  {"COMMENT": "GENKI LESSON 04"},
+  {
+    "id": "3a5e1272-f03e-4ac4-89be-ad06b7a3331d",
+    "title": "Ａがあります",
+    "meaning": "I have/own A (inanimate)",
+    "how_to_use": [
+      "thing + が + あります"
+    ],
+    "examples": [
+      {
+        "id": "06c8e3e4-ccfb-4646-bb6c-b83bf6128369",
+        "meaning": "I don't have a TV.",
+        "text": {
+          "spelling": "テレビがありません。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L04"],
+        "tags": []
+      },
+      {
+        "id": "8cf7fb0c-0f5b-488a-8c55-17265162cc04",
+        "meaning": "Do you have time?",
+        "text": {
+          "spelling": "{時|じ}{間|かん}がありますか。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L04"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-03-09",
+    "lesson_codes": ["GENKI3_L04"],
+    "tags": []
+  },
+  {
+    "id": "b69d0d83-ae0e-4834-abaf-9c570c976d00",
+    "title": "Ａがいます",
+    "meaning": "I have/own A (animate)",
+    "how_to_use": [
+      "thing + が + います"
+    ],
+    "examples": [
+      {
+        "id": "29a6b9a0-2b3b-42fb-9d49-835fdd2ca505",
+        "meaning": "I have a Japanese friend.",
+        "text": {
+          "spelling": "{日本|に・ほん}{人|じん}の{友達|とも・だち}がいます。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L04"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-03-09",
+    "lesson_codes": ["GENKI3_L04"],
+    "tags": []
+  },
+  {
+    "id": "5120aeab-2b79-4837-9461-1bc174684feb",
+    "title": "ＡにＢがあります",
+    "meaning": "There is/are B at A (inanimate)",
+    "how_to_use": [
+      "place + に + thing + が + あります"
+    ],
+    "examples": [
+      {
+        "id": "49ec76a6-272e-4749-acb8-e46d0617bedd",
+        "meaning": "There's a McDonald's Over There.",
+        "text": {
+          "spelling": "あそこにマクドナルドがあります。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L04"],
+        "tags": []
+      },
+      {
+        "id": "e499c4cc-8bba-458b-a3b0-1dfe742951f3",
+        "meaning": "There will be no Japanese class tomorrow",
+        "text": {
+          "spelling": "{明|あ}{日|した}は{日|に}{本|ほん}{語|ご}のクラスがありません。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L04"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-03-09",
+    "lesson_codes": ["GENKI3_L04"],
+    "tags": []
+  },
+  {
+    "id": "17184226-f266-4972-b24a-3f34ee7ebb6b",
+    "title": "ＡにＢがいます",
+    "meaning": "There is/are B at A (animate)",
+    "how_to_use": [
+      "place + に + thing + が + います"
+    ],
+    "examples": [
+      {
+        "id": "48a00293-3121-4ccc-9b3e-d4998a74f6c2",
+        "meaning": "There's an international student over there.",
+        "text": {
+          "spelling": "あそこに{留学生|りゅう・がく・せい}がいます。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L04"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-03-09",
+    "lesson_codes": ["GENKI3_L04"],
+    "tags": []
+  },
+  {
+    "id": "0f175278-c567-4806-bad4-4cd040c40ad9",
+    "title": "ＡはＢのＬです",
+    "meaning": "A is {location word} of/to B",
+    "how_to_use": [
+      "noun + は + noun + の + 右 + です",
+      "noun + は + noun + の + 左 + です",
+      "noun + は + noun + の + 前 + です",
+      "noun + は + noun + の + 後ろ + です",
+      "noun + は + noun + の + 中 + です",
+      "noun + は + noun + の + 上 + です",
+      "noun + は + noun + の + 下 + です",
+      "noun + は + noun + の + 近く + です",
+      "noun + は + noun + の + 隣 + です"
+    ],
+    "examples": [
+      {
+        "id": "b63bb0cc-5bb9-4453-9c07-f097b49743c7",
+        "meaning": "The bank is next to the library.",
+        "text": {
+          "spelling": "{銀行|ぎん・こう}は{図書館|と・しょ・かん}の{隣|となり}です。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L03"],
+        "tags": []
+      },
+      {
+        "id": "b318cbf3-3ead-4b44-b399-9a72dae9636b",
+        "meaning": "I waited for Mary in front of the Mos Burger place.",
+        "text": {
+          "spelling": "{私|わたし}はモスバーガーの{前|まえ}でメアリーさんを{待|ま}ちました。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L03"],
+        "tags": []
+      },
+      {
+        "id": "7f604d44-ff48-4546-a17b-eead1f511b26",
+        "meaning": "The umbrella is under the table.",
+        "text": {
+          "spelling": "{傘|かさ}はテーブルの{下|した}です。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L03"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-03-09",
+    "lesson_codes": ["GENKI3_L03"],
+    "tags": []
+  },
+  {
+    "id": "11f50022-8091-40d0-831a-de86193f2f8d",
+    "title": "ＡはＢとＣの間です",
+    "meaning": "A is between B and C",
+    "how_to_use": [
+      "noun + は + noun + と + noun + の + 間です"
+    ],
+    "examples": [
+      {
+        "id": "0e15c2a9-4690-4969-8c69-2b1df5b395ad",
+        "meaning": "The restaurant is between the supermarket and the hospital.",
+        "text": {
+          "spelling": "レストランはスーパーと{病院|びょう・いん}の{間|あいだ}です",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L03"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-03-09",
+    "lesson_codes": ["GENKI3_L03"],
+    "tags": []
+  },
+  {
+    "id": "055948b9-aefa-4444-92b3-b06191f075c8",
+    "title": "も",
+    "meaning": "to do too",
+    "how_to_use": [
+      "A + は + B ⟶ A + も + B",
+      "A + が + B ⟶ A + も + B",
+      "A + を + B ⟶ A + も + B",
+      "A + に + B ⟶ A + にも + B",
+      "A + で + B ⟶ A + でも + B"
+    ],
+    "examples": [
+      {
+        "id": "861b2ef4-fe14-40cb-abba-42e9cf1fb4c7",
+        "meaning": "I went to Kyoto yesterday. Professor Yamashita went to Kyoto yesterday, too.",
+        "text": {
+          "spelling": "{私|わたし}は{昨日|きのう}{京都|きょう・と}に{行|い}きました。{山下|やま・した}{先生|せん・せい}も{昨日|きのう}{京都|きょう・と}に{行|い}きました。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L03"],
+        "tags": []
+      },
+      {
+        "id": "8bee6f94-96df-4a13-9769-0da26eed141b",
+        "meaning": "Mary bought shoes. Mary bought a bag, too.",
+        "text": {
+          "spelling": "メアリーさんは{靴|くつ}を{買|か}いました。メアリーさんはかばんも{買|か}いました。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L03"],
+        "tags": []
+      },
+      {
+        "id": "dd0e8611-563e-4030-ad9f-8a7ce27b08d6",
+        "meaning": "I went to Kyoto last week. I went to Osaka too.",
+        "text": {
+          "spelling": "{私|わたし}は{先週|せん・しゅう}{京都|きょう・と}に{行|い}きました。{大阪|おお・さか}にも{行|い}きました。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L03"],
+        "tags": []
+      },
+      {
+        "id": "3a12ad59-47f8-452a-9f5a-345d52909b97",
+        "meaning": "Ken read a book at home. He read a book at a cafe, too.",
+        "text": {
+          "spelling": "けんさんはうちで{本|ほん}を{読|よ}みました。カフェでも{本|ほん}を{読|よ}みました。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L03"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-05-01",
+    "lesson_codes": ["GENKI3_L03"],
+    "tags": []
+  },
+  {
+    "id": "5fe8f0bb-9572-4a81-88a6-7a83d554b85d",
+    "title": "〜時間",
+    "meaning": "duration of time: hours",
+    "how_to_use": [
+      "number + 時間",
+      "number + 時間 + ぐらい",
+      "number + 時間 + 半"
+    ],
+    "examples": [
+      {
+        "id": "3431e3f2-8cd4-49a7-bdd6-afc907ea8063",
+        "meaning": "Mary waited for Takeshi there for an hour and a half.",
+        "text": {
+          "spelling": "メアリーさんはそこでたけしさんを{一|いち}{時間|じ・かん}{半|はん}{待|ま}ちました。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L04"],
+        "tags": []
+      },
+      {
+        "id": "b4dd90bd-4073-47c6-93c8-81099a896be6",
+        "meaning": "I studied Japanese for about three hours yesterday.",
+        "text": {
+          "spelling": "{私|わたし}は{昨日|きのう}{日本語|に・ほん・ご}を{三|さん}{時間|じ・かん}ぐらい{勉強|べん・きょう}しました。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L04"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-03-10",
+    "lesson_codes": ["GENKI3_L04"],
+    "tags": []
+  },
+  {
+    "id": "a4766a9c-8bc7-446b-b0df-c3e2865612df",
+    "title": "ＡとＢ<br/>ＡはＢと",
+    "meaning": "A and B<br/>person A together with person B",
+    "how_to_use": [
+      "noun + と + noun",
+      "person + は + person + と"
+    ],
+    "examples": [
+      {
+        "id": "9bc46693-0629-4ba0-9cc3-8eba36fe53a0",
+        "meaning": "I went to Kyoto and Osaka.",
+        "text": {
+          "spelling": "{京都|きょう・と}と{大阪|おお・さか}に{行|い}きました。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L04"],
+        "tags": []
+      },
+      {
+        "id": "a5e2bbf1-e72f-4523-8c64-117ca89c6637",
+        "meaning": "Mary will go to Korea with Sora",
+        "text": {
+          "spelling": "メアリーさんはソラさんと{韓国|かん・こく}に{行|い}きます。",
+          "phonetic_spelling": null
+        },
+        "lesson_codes": ["GENKI3_L04"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-03-09",
+    "lesson_codes": ["GENKI3_L04"],
+    "tags": []
+  }
+]

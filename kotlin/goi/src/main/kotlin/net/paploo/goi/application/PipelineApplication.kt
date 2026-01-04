@@ -156,7 +156,7 @@ class PipelineApplication(
         GrammarRulePipeline.Configuration(
             importer = JsonFileGrammarRuleImporter(
                 JsonFileGrammarRuleImporter.Config(
-                    filePath = filesDirectory append Path("日本語 Vocab - Grammar.json")
+                    filePath = filesDirectory append Path("日本語 Vocab - Grammar")
                 )
             ),
             transformers = listOf(

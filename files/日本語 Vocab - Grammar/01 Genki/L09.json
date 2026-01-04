@@ -1,0 +1,318 @@
+[
+  {"COMMENT": "GENKI LESSON 09"},
+  {
+    "id": "ef61ea7d-f297-402a-8d20-ec499c26e9a2",
+    "title": "〜と思います／〜なかったと思います (past tense)",
+    "meaning": "To describe what you do/don't think (past tense)",
+    "how_to_use": [
+      "verb (casual past tense) + と思います",
+      "verb (casual negative past tense) + と思います"
+    ],
+    "examples": [
+      {
+        "id": "a5041ba3-065a-4d66-811e-36f31c9c6b13",
+        "meaning": "A: Hey, my pork cutlet is gone!<br/>B: I think Tom ate it.",
+        "text": {
+          "spelling": "Ａ：あ、{私|わたし}のとんかつがない！<br/>Ｂ：トムさんが{食|た}べたと{思|おも}います。"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      },
+      {
+        "id": "bf314136-c7ba-46b5-bb9f-5965d4e87342",
+        "meaning": "I don't think last winter was very cold.<br/>(lit., I think last winter was not very cold.)",
+        "text": {
+          "spelling": "{去年|きょ・ねん}の{冬|ふゆ}はあまり{寒|さむ}くなかったと{思|おも}います。"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      },
+      {
+        "id": "41df0653-bf1b-4ed3-9e0a-88af433150b8",
+        "meaning": "I think Tadashi's father was good-looking when he was young.",
+        "text": {
+          "spelling": "ただしさんのお{父|とう}さんは{若|わか}い{時|とき}、かっこよかったと{思|おも}います。"
+        },
+        "lesson_codes": [
+          "GENKI3_L09"
+        ],
+        "tags": []
+      },
+      {
+        "id": "903c5e17-7b19-4a4d-95e1-d85f6c5711ad",
+        "meaning": "I don't think last week's exam was difficult.<br/>(lit., I think last week's exam was not difficult.)",
+        "text": {
+          "spelling": "{先週|せん・しゅう}の{試験|し・けん}は{難|むずか}しくなかったと{思|おも}います。"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-07-26",
+    "lesson_codes": ["GENKI3_L09"],
+    "tags": []
+  },
+  {
+    "id": "a8af87a3-4897-49b5-941b-e608727e4751",
+    "title": "〜たと言っていました",
+    "meaning": "Quoting a past-tense form",
+    "how_to_use": [
+      "verb (past short form) + と言っていました"
+    ],
+    "examples": [
+      {
+        "id": "27c0049d-2162-480b-ab6a-fda7bc444d0e",
+        "meaning": "Yasmin said that she didn't have lunch.",
+        "text": {
+          "spelling": "ヤスミンさんは{昼|ひる}ご{飯|はん}を{食|た}べなかったと{言|い}っていました。"
+        },
+        "lesson_codes": [
+          "GENKI3_L09"
+        ],
+        "tags": []
+      },
+      {
+        "id": "8b3f0267-83f9-4829-a825-ff7666d75fbd",
+        "meaning": "My father said he is not very good at dancing.",
+        "text": {
+          "spelling": "お{父|とう}さんは{踊|おど}るのがあまり{上手|じょう・ず}じゃなかったと{言|い}っていました。"
+        },
+        "lesson_codes": [
+          "GENKI3_L09"
+        ],
+        "tags": []
+      },
+      {
+        "id": "235f3dcf-ce1d-4b55-b3ee-5c4c3120ccdf",
+        "meaning": "Yasmin said she was sick.",
+        "text": {
+          "spelling": "ヤスミンさんは{病気|びょう・き}だったと{言|い}っていました。"
+        },
+        "lesson_codes": [
+          "GENKI3_L09"
+        ],
+        "tags": []
+      },
+      {
+        "id": "41a06609-1d7d-410d-917c-64e8ab560392",
+        "meaning": "Takeshi said that kabuki started at twelve o'clock, and finished at four o'clock.",
+        "text": {
+          "spelling": "たけしさんは、{歌舞伎|か・ぶ・き}は{十二|じゅう・に}{時|じ}に{始|はじ}まって、{四|よ}{時|じ}に{終|お}わったと{言|い}っていました。"
+        },
+        "lesson_codes": [
+          "GENKI3_L09"
+        ],
+        "tags": []
+      },
+      {
+        "id": "1e734e14-4e35-409b-95f4-c03e30ff5080",
+        "meaning": "Takeshi said he went to see Kabuki last month.",
+        "text": {
+          "spelling": "たけしさんは、{先月|せん・げつ}、{歌舞伎|か・ぶ・き}を{見|み}に{行|い}ったと{言|い}っていました。"
+        },
+        "lesson_codes": [
+          "GENKI3_L09"
+        ],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-08-06",
+    "lesson_codes": [
+      "GENKI3_L09"
+    ],
+    "tags": []
+  },
+  {
+    "id": "b74986e7-b6cc-469c-a99f-d5d96e5b20af",
+    "title": "〜ているＮ<br/>ＡＮ<br/>ＡなＮ",
+    "meaning": "Qualifying Nouns with Verbs and Adjectives",
+    "how_to_use": [
+      "い-adj + noun",
+      "な-adj + な + noun",
+      "verb (te-form) + いる + noun"
+    ],
+    "examples": [
+      {
+        "id": "51da4689-f81e-49dc-a3b2-e5a3e2ca68f8",
+        "meaning": "a person who has long hair",
+        "text": {
+          "spelling": "{髪|かみ}が{長|なが}い{人|ひと}"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      },
+      {
+        "id": "410d9b6a-8aac-4174-9583-122e21de930b",
+        "meaning": "a person who likes cats",
+        "text": {
+          "spelling": "{猫|ねこ}が{好|す}きな{人|ひと}"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      },
+      {
+        "id": "26a7f9d5-d429-4408-837f-2af106599d66",
+        "meaning": "a person who wears glasses",
+        "text": {
+          "spelling": "メガネをかけている{人|ひと}"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      },
+      {
+        "id": "b373eaa4-848d-4aee-9696-f4fdab063f8b",
+        "meaning": "A: Which one is Yui?<br/>B: Yui is the one who is reading a book over there.",
+        "text": {
+          "spelling": "Ａ：ゆいさんはどの{人|ひと}ですか。<br/>Ｂ：あそこで{本|ほん}を{読|よ}んでいる{人|ひと}です。"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      },
+      {
+        "id": "8b624060-8a7c-4295-bc58-d4eecb9a1290",
+        "meaning": "The student taking pictures over there is Robert.",
+        "text": {
+          "spelling": "あそこで{写真|しゃ・しん}を{撮|と}っている{学生|がく・せい}はロバートさんです。"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      },
+      {
+        "id": "4ecbae11-372c-45a8-8dc6-339423e52f61",
+        "meaning": "A: Which one is Erika?<br/>B: (She) is the person who is talking with Momo.",
+        "text": {
+          "spelling": "Ａ：エリカさんはどの{人|ひと}ですか。<br/>Ｂ：ももさんと{話|はな}している{人|ひと}です。"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-08-23",
+    "lesson_codes": ["GENKI3_L09"],
+    "tags": []
+  },
+  {
+    "id": "0653c4b2-5685-4913-ac34-24977b7c60dd",
+    "title": "もう〜ました<br/>まだ〜ていません",
+    "meaning": "have ... already<br/>have not ... yet",
+    "how_to_use": [
+      "もう + 〇〇 + verb (past tense) ⟶ already have",
+      "まだ + 〇〇 + verb (te form) + いません ⟶ have not yet"
+    ],
+    "examples": [
+      {
+        "id": "7ed6ed63-8c75-446c-ab22-41946ead4d74",
+        "meaning": "I have already done the homework",
+        "text": {
+          "spelling": "もう{宿題|しゅく・だい}をしました。"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      },
+      {
+        "id": "570e9173-ed24-4d8a-af37-9a9b8224ed60",
+        "meaning": "I have not done the homework yet.",
+        "text": {
+          "spelling": "まだ{宿題|しゅく・だい}をしていません。"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      },
+      {
+        "id": "12427994-7440-40b6-996e-26c982b5f8d7",
+        "meaning": "Q: Did you already memorize the new kanji?<br/>A: Yes, I already memorized them.",
+        "text": {
+          "spelling": "Ｑ：もう{新|あたら}しい{漢字|かん・じ}を{覚|おぼ}えましたか。<br/>Ａ：はい、もう{覚|おぼ}えました。"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      },
+      {
+        "id": "e6717229-68cd-48bf-94ba-31ebfeeba666",
+        "meaning": "Q: Did you already talk with the new teacher?<br/>A: No, I have not yet talked to them.",
+        "text": {
+          "spelling": "Ｑ：もう{新|あたら}しい{先生|せん・せい}と{話|はな}しましたか。<br/>Ａ：いいえ、まだ{話|はな}していません。"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      },
+      {
+        "id": "6f28b5bb-a759-484e-bfc2-337819e68267",
+        "meaning": "Q: Did you already memorize your lesson 10 vocabulary?<br/>A: No, I haven't memorized them yet.",
+        "text": {
+          "spelling": "Ｑ：もう{十|じゅう}{課|か}の{単語|たん・ご}を{覚|おぼ}えた？<br/>Ａ：ううん、まだ{覚|おぼ}えていない。"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": 5,
+    "date_added": "2023-09-06",
+    "lesson_codes": ["GENKI3_L09"],
+    "tags": []
+  },
+  {
+    "id": "032d9866-ff59-4863-9b00-b8c4b5adc110",
+    "title": "Ｅから、Ｓ。",
+    "meaning": "S, because E.<br/>E; therefore S.",
+    "how_to_use": [
+      "(explanation)から、(situation)。",
+      "(explanation formal verb)から、(situation)。 ⟶ usually in suggestions",
+      "(explanation formal verb)から、(situation)か。 ⟶ usually in requests"
+    ],
+    "examples": [
+      {
+        "id": "2438c90e-820e-4683-accb-d6b0ef3cda4d",
+        "meaning": "I will study this evening, because we will have an exam tomorrow.<br/>We will have an exam tomorrow; therefore, I will study this evening.",
+        "text": {
+          "spelling": "{明日|あした}{試験|し・けん}があるから、{今晩|こん・ばん}{勉強|べん・きょう}します。"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      },
+      {
+        "id": "753049ed-6851-4499-8f97-10b29c1ee2a8",
+        "meaning": "We didn't go out, because it was cold.<br/>It was cold; therefore we didn't go out.",
+        "text": {
+          "spelling": "{寒|さむ}かったから、{出|で}かけませんでした。"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      },
+      {
+        "id": "eba0db7d-5b0d-4824-b049-0631047d2253",
+        "meaning": "I have kabuki tickets; (therefore) let's go see it together.",
+        "text": {
+          "spelling": "{歌舞伎|か・ぶ・き}のチケットがありますから、{一緒|いっ・しょ}に{見|み}に{行|い}きましょう。"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      },
+      {
+        "id": "408caa1e-7bce-4887-a902-059cba7004be",
+        "meaning": "I got two concert tickets, (therefore) would you like to go?",
+        "text": {
+          "spelling": "コンサートのチケットを{二枚|に・まい}もらったから、{行|い}きませんか。"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      },
+      {
+        "id": "baea1be8-e2ec-43ca-a845-9096471fb9be",
+        "meaning": "I was very lonely because I did not have any friends.",
+        "text": {
+          "spelling": "{友達|とも・だち}がいなかったから、とても{寂|さび}しかったです。"
+        },
+        "lesson_codes": ["GENKI3_L09"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2023-10-02",
+    "lesson_codes": ["GENKI3_L09"],
+    "tags": []
+  }
+]

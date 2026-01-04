@@ -1,0 +1,479 @@
+[
+  {"COMMENT": "GENKI LESSON 18"},
+  {
+    "id": "08474944-2cb3-494b-944c-88c3e71020cc",
+    "title": "(in)transitive verb + ている",
+    "meaning": "activities (transitive) and changes (intransitive)",
+    "how_to_use": [
+      "verb (transitive/他動詞) + ている ⟶ activity, action in progress",
+      "verb (intransitive/自動詞) + ている ⟶ change, result state",
+      "transitive ⟺ 他動詞 (lit. other-verb)",
+      "intransitive ⟺ 自動詞 (lit. self-verb)"
+    ],
+    "examples": [
+      {
+        "id": "700d6ee8-107f-4be6-bf6f-85592a76a546",
+        "meaning": "Transitive: Sora is talking with a friend right now.",
+        "text": {
+          "spelling": "{他動詞|た・どう・し}：ソラさんは{今|いま}、{友達|とも・だち}と{話|はな}しています。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "198400bd-aba6-4dd7-903c-8f3966e5fd35",
+        "meaning": "Intransitive: Professor Yamanaka is married.",
+        "text": {
+          "spelling": "{自動詞|じ・どう・し}：{山中|やま・なか}{先生|せん・せい}は{結婚|けっ・こん}しています。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "f9ac08ed-b611-496f-801c-b80d28ff0ca1",
+        "meaning": "T: Kuroe Mayu is opening the windows.<br/>I: The windows are open.",
+        "text": {
+          "spelling": "{他動詞|た・どう・し}：{黒江|くろ・え}{真由|ま・ゆ}さんは{窓|まど}を{開|あ}けています。<br/>{自動詞|じ・どう・し}：{窓|まど}が{開|あ}いています。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "bfbf7cc9-4a85-4d76-be11-4ab4b3957fe5",
+        "meaning": "T: Ms. Aharen is turning the light off.<br/>I: The light is off.",
+        "text": {
+          "spelling": "{他動詞|た・どう・し}：{阿波連|あ・は・れん}さんは{電気|でん・き}を{消|け}しています。<br/>{自動詞|じ・どう・し}：{電気|でん・き}は{消|き}えています。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "53bb3c04-f577-4e49-9bb1-eb0b8e778c19",
+        "meaning": "T: Godzilla is destroying the city.<br/>I: This computer is broken.",
+        "text": {
+          "spelling": "{他動詞|た・どう・し}：ゴジラが{町|まち}を{壊|こわ}しています。<br/>{自動詞|じ・どう・し}：このパソコンは{壊|こわ}れています。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-12-26",
+    "lesson_codes": ["GENKI3_L18"],
+    "tags": []
+  },
+  {
+    "id": "fb2f3737-38e2-4d89-9d8e-49f4d83bb445",
+    "title": "〜てしまう",
+    "meaning": "to finish completely<br/>to regrettably do",
+    "how_to_use": [
+      "verb (te-form) + しまう",
+      "Note: The meanings two meanings are ambiguous, and determined by context."
+    ],
+    "examples": [
+      {
+        "id": "0cfea0f1-f3c6-411d-9855-b00f29fec7f5",
+        "meaning": "I (completely) finished reading the book.",
+        "text": {
+          "spelling": "{本|ほん}を{読|よ}んでしまいました。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "c11b0708-1de6-4a51-8177-97d01ebb7549",
+        "meaning": "I inadvertently left my bag on the train.",
+        "text": {
+          "spelling": "{電車|でん・しゃ}の{中|なか}に{鞄|かばん}を{忘|わす}れてしまいました。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "05bde5e7-bee9-4f86-a4b2-1cb46cac6d43",
+        "meaning": "I already finished writing a paper.",
+        "text": {
+          "spelling": "もうレポートを{書|か}いてしまいました。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "70ff1d76-9e88-4052-9588-1fa8a2b7443c",
+        "meaning": "Since my friend didn't keep her promise, I (regrettably) had a fight.",
+        "text": {
+          "spelling": "{友達|とも・だち}が{約束|やく・そく}を{守|まも}らなかったので、{喧嘩|けん・か}してしまいました。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "8c21615b-8d2d-42ab-9556-15c0a1aecc4c",
+        "meaning": "I broke my father's car, but I (regrettably) broke it.",
+        "text": {
+          "spelling": "{父|ちち}の{車|くるま}を{借|か}りましたが、{壊|こわ}してしまいました。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-12-26",
+    "lesson_codes": ["GENKI3_L18"],
+    "tags": []
+  },
+  {
+    "id": "ebf4802e-1eae-4403-bd51-46103b79f1ee",
+    "title": "〜ちゃう/〜じゃう",
+    "meaning": "to finish completely; to regrettably do<br/>(spoken, informal)",
+    "how_to_use": [
+      "〜てしまう ⟶ 〜ちゃう",
+      "〜でしまう ⟶ 〜じゃう"
+    ],
+    "examples": [
+      {
+        "id": "5d3608e5-f82c-4dc7-84f3-55d2e2568217",
+        "meaning": "I (regrettably) lost my homework!",
+        "text": {
+          "spelling": "{宿題|しゅく・だい}をなくしちゃった。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "b11cdf03-fa5c-4ff8-8f76-847da30ce038",
+        "meaning": "A: There's no milk in the fridge...<br/>B: Sorry. I drank it, completely finishing it off. <i>OR</i> Sorry. I regrettably drank it.",
+        "text": {
+          "spelling": "Ａ：{冷蔵庫|れい・ぞう・こ}の{牛乳|ぎゅう・にゅう}がないんけど……。<br/>Ｂ：ごめん。{飲|の}んじゃった。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "daa7a7f5-cd81-4d43-8c2b-6a974338f6a6",
+        "meaning": "A: The magazine on the desk is also gone.<br/>B: To tell you the truth, I (regrettably) threw them away.",
+        "text": {
+          "spelling": "Ａ：{机|つくえ}の{上|うえ}の{雑誌|ざっ・し}もない。<br/>Ｂ：ごめん。{実|じつ}は{捨|す}てちゃった。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-12-26",
+    "lesson_codes": ["GENKI3_L18"],
+    "tags": []
+  },
+  {
+    "id": "b597e03b-4402-40e9-b2a6-62aa21253df7",
+    "title": "ＰとＲ",
+    "meaning": "Whenever P happens, R happens too",
+    "how_to_use": [
+      "predicate clause (short, present) + と + result clause",
+      "Sometimes used to describe a cause-effect relationship between events",
+      "The result <u>must follow</u> the event described in the predicate."
+    ],
+    "examples": [
+      {
+        "id": "4af1259c-9296-48bb-a97a-df9ee186e5cc",
+        "meaning": "Whenever I talk with that person, I feel uplifted.",
+        "text": {
+          "spelling": "{私|わたし}はその{人|ひと}と{話|はな}すと{元気|げん・き}になる。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "e19f8f88-c648-48ec-936d-251cbc5e7408",
+        "meaning": "Whenever the streets are crowded, it takes longer to get there.",
+        "text": {
+          "spelling": "{道|みち}が{混|こ}んでいると{時間|じ・かん}がかかる。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "a4f162b3-bc81-4a32-ba12-5334d3c29a50",
+        "meaning": "When I was young, whenever winter arrived, I caught a cold.",
+        "text": {
+          "spelling": "{私|わたし}は{子供|こ・ども}の{時|とき}、{冬|ふゆ}になると{風邪|かぜ}を{引|ひ}きました"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "2851d11d-bdc2-4823-9f04-eba3ae13f5e1",
+        "meaning": "Whenever I get nervous, I get thirsty.",
+        "text": {
+          "spelling": "{緊張|きん・ちょう}すると、{喉|のど}が{渇|かわ}きます。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-12-27",
+    "lesson_codes": ["GENKI3_L18"],
+    "tags": []
+  },
+  {
+    "id": "a58249a4-06c3-45ce-b026-33a73eecbbf5",
+    "title": "ＰとＡになる",
+    "meaning": "Whenever P happens, something becomes A",
+    "how_to_use": [
+      "predicate clause (short, present) + と + result clause + adjective + に/く + なる",
+      "Sometimes used to describe a cause-effect relationship between events",
+      "The result <u>must follow</u> the event described in the predicate."
+    ],
+    "examples": [
+      {
+        "id": "9060b52a-32be-4857-b5eb-98cf12676f15",
+        "meaning": "If Mary goes back home, we will become sad/lonely.",
+        "text": {
+          "spelling": "メアリーさんが{国|くに}に{帰|かえ}ると{寂|さび}しくなります。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "cf977382-568b-42df-bafa-f31326d79893",
+        "meaning": "Whenever fall arrives, trees turn red.",
+        "text": {
+          "spelling": "{秋|あき}になると{木|き}が{赤|あか}くなります。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "f207ae3a-4dbe-480c-b275-9b4bdefd21f1",
+        "meaning": "Whenever night comes, the town becomes quiet.",
+        "text": {
+          "spelling": "{夜|よる}になると{町|まち}が{静|しず}かになります。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "225dae80-f417-4572-aecc-d5133675781a",
+        "meaning": "Whenever a response doesn't come from a friend, I get uneasy.",
+        "text": {
+          "spelling": "{友達|とも・だち}から{返事|へんじ}が{来|こ}ないと、{不安|ふ・あん}になります。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "7b53d4f2-b614-4e07-8742-db01a73f8b01",
+        "meaning": "When spring comes, cherry blossoms bloom.",
+        "text": {
+          "spelling": "{春|はる}が{来|くる}ると、{桜|さくら}が{咲|さ}きます。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "0423ed89-6d89-48b8-876c-8724e251070a",
+        "meaning": "Whenever you fall in a crowded place, it's embarrassing.",
+        "text": {
+          "spelling": "{人|ひと}がたくさんいる{所|ところ}で{転|ころ}ぶと、{恥|は}ずかしくなります。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-12-27",
+    "lesson_codes": ["GENKI3_L18"],
+    "tags": []
+  },
+  {
+    "id": "fdeb200b-f829-4b5c-b696-c9bcbc565c62",
+    "title": "Ａながら、Ｂ",
+    "meaning": "A while B<br/>A at the same time as B",
+    "how_to_use": [
+      "verb (stem) + ながら + verb",
+      "Both actions must be performed by the same person"
+    ],
+    "examples": [
+      {
+        "id": "be4851ff-9d34-474a-91b4-3fd2e11009a6",
+        "meaning": "I always listen to music while studying Japanese.",
+        "text": {
+          "spelling": "{私|わたし}はいつも{音楽|おん・がく}を{聞|き}きながら{日本語|に・ほん・ご}を{勉強|べん・きょう}します。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "2fe14594-3cc0-4993-a11a-d65a696e0c5c",
+        "meaning": "Fumino Furuhashi is singing a song while doing laundry.",
+        "text": {
+          "spelling": "{古橋|ふる・はし}{文乃|ふみ・の}さんは{歌|うた}を{歌|うた}いながら{洗濯|せんたく}しています。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "24ecf426-da64-4144-af59-8cd857934e13",
+        "meaning": "Part-time working while going to school is not easy.",
+        "text": {
+          "spelling": "アルバイトをしながら{学校|がっ・こう}に{行|い}くのは{大変|たい・へん}です。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "6028101b-228a-481d-92a4-c0458cf3cfdb",
+        "meaning": "Ms. Takemoto, while laughing, showed me the picture.",
+        "text": {
+          "spelling": "{武元|たけ・もと}さんは{笑|わら}いながら{写真|しゃ・しん}を{見|み}せてくれました。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "51f690d6-93a1-43b0-87a2-6575de1ddeb9",
+        "meaning": "You better not walk and eat at the same time.<br/>(lit. walking while eating, it would be better not to do.)",
+        "text": {
+          "spelling": "{歩|ある}きながら{食|た}べない{方|ほう}がいいですよ。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "29415f63-fc34-45bd-9a79-bb8ffb4967af",
+        "meaning": "I often listen to music while driving",
+        "text": {
+          "spelling": "{音楽|おん・がく}を{聞|き}きながら、よく{運転|うん・てん}します。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-12-27",
+    "lesson_codes": ["GENKI3_L18"],
+    "tags": []
+  },
+  {
+    "id": "f8a7d609-b489-4554-9ce4-03efb9320cc6",
+    "title": "〜ばよかったです<br/>〜なければよかったです",
+    "meaning": "I should have done...<br/>I should have not done...",
+    "how_to_use": [
+      "verb (eba) + よかった ⟶ I should have done...",
+      "verb (short negative, drop い) + かればよかった ⟶ I should not have done..."
+    ],
+    "examples": [
+      {
+        "id": "ccdf847d-a91b-448d-99ed-0581925ff407",
+        "meaning": "I wish I had told her that I loved her.",
+        "text": {
+          "spelling": "あの{時|とき}、「{愛|あい}している」と{言|い}えばよかったです。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "6f33deb1-abf9-43bc-9bfb-ba63d2843973",
+        "meaning": "I wish that I had not broken up with her.",
+        "text": {
+          "spelling": "{彼女|かの・じょ}と{別|わか}れなければよかったです。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "f6c7851c-2c00-4d79-b993-41a6c3a2eab0",
+        "meaning": "I regrettably lost my father's precious watch. I should have been more careful.",
+        "text": {
+          "spelling": "{父|ちち}の{大切|たいせつ}な{時計|と・けい}をなくしてしまったんです。もっと{気|き}をつければよかったです。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "a7684f46-5397-4c89-8c80-ac4ba9db3138",
+        "meaning": "I bought a refrigerator, however right away it completely broke. I should not have bought a cheap one.",
+        "text": {
+          "spelling": "{冷蔵庫|れい・ぞう・こ}を{買|か}いましたが、すぐ{壊|こわ}れてしまいました。{安|やす}いのを{買|か}わなければよかったです。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "fe5dc7e5-d689-4586-a957-d4cbc8672248",
+        "meaning": "A: During your childhood, what do you think you wished you did?<br/>B: I think I wished I practiced piano more.",
+        "text": {
+          "spelling": "Ａ：{子供|こ・ども}の{時|とき}、{何|なに}をすればよかったと{思|おも}いますか。<br/>Ｂ：もっとピアノを{練習|れん・しゅう}すればよかったと{思|おも}います。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "d7552493-aa1e-4a27-b908-0debef0c643c",
+        "meaning": "I wish I had not read in the car.",
+        "text": {
+          "spelling": "{車|くるま}の{中|なか}でを{読|よ}まなければよかったです"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-12-27",
+    "lesson_codes": ["GENKI3_L18"],
+    "tags": []
+  },
+  {
+    "id": "82b2673d-814c-4b50-b85a-f3efdb02ca67",
+    "title": "おかげで",
+    "meaning": "expression of gratitude (thanks to)",
+    "how_to_use": [
+      "noun + の + おかげ + で",
+      "noun + の + おかげ + です",
+      "おかげさまで"
+    ],
+    "examples": [
+      {
+        "id": "0d8aa0ad-d178-4369-a242-7721f6f40980",
+        "meaning": "Thanks to the map my friend drew, I didn't get lost.",
+        "text": {
+          "spelling": "{友達|とも・だち}が{書|き}いてくれた{地図|ちず}のおかげで{道|みち}に{迷|まよ}わなかった。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "fbae78e1-0192-4be9-8215-70420c08b57c",
+        "meaning": "Teacher: Congratulations on your graduation.<br/>Student: Professor, I owe it to you.",
+        "text": {
+          "spelling": "{先生|せん・せい}：{卒業|そつ・ぎょう}おめでとう。<br/>{学生|がく・せい}：{先生|せん・せい}のおかげです。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "30c57caf-e32d-43c4-9498-8398a2e7ee72",
+        "meaning": "A: How are you?<br/>B: I'm fine (thanks to you).",
+        "text": {
+          "spelling": "Ａ：{元気|げん・き}ですか。<br/>Ｂ：ええ、おかげさまで。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      },
+      {
+        "id": "7f3f105b-92f3-4a5f-85f2-763f9d2e2a18",
+        "meaning": "A: Have you gotten used to the job?<br/>B: Yes, thanks to you, I've mostly gotten used to it.",
+        "text": {
+          "spelling": "Ａ：{仕事|し・ごと}に{慣|な}れましたか。<br/>ええ、おかげさまで、だいぶ{慣|な}れました。"
+        },
+        "lesson_codes": ["GENKI3_L18"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2024-12-27",
+    "lesson_codes": ["GENKI3_L18"],
+    "tags": []
+  }
+]
