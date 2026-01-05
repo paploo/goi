@@ -89,7 +89,24 @@ insert into source.lesson (code, lesson_code, source_code, label, section_number
 insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L22', 'L22', 'GENKI3_READER', 'The Moneky''s Paw / The Legend of Kibi no Makibi (Reader)', 22, null);
 insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('GENKI3_READER_L23', 'L23', 'GENKI3_READER', 'The Granny Dumping Mountain / Yanase Takashi and Anpanman (Reader)', 23, null);
 
+--
+-- Quartet
+--
 
+insert into source.source(code, label) values ('QUARTET', 'Quartet');
+
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('QUARTET_L01', 'L01', 'QUARTET', 'Lesson 1', 1, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('QUARTET_L02', 'L02', 'QUARTET', 'Lesson 2', 2, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('QUARTET_L03', 'L03', 'QUARTET', 'Lesson 3', 3, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('QUARTET_L04', 'L04', 'QUARTET', 'Lesson 4', 4, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('QUARTET_L05', 'L05', 'QUARTET', 'Lesson 5', 5, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('QUARTET_L06', 'L06', 'QUARTET', 'Lesson 6', 6, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('QUARTET_L07', 'L07', 'QUARTET', 'Lesson 7', 7, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('QUARTET_L08', 'L08', 'QUARTET', 'Lesson 8', 8, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('QUARTET_L09', 'L09', 'QUARTET', 'Lesson 9', 9, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('QUARTET_L10', 'L10', 'QUARTET', 'Lesson 10', 10, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('QUARTET_L11', 'L11', 'QUARTET', 'Lesson 11', 11, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('QUARTET_L12', 'L12', 'QUARTET', 'Lesson 12', 12, null);
 
 --
 -- Duolingo
