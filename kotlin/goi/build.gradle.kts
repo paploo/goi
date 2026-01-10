@@ -12,12 +12,12 @@ val logback_version: String by project
 val postgres_version: String by project
 
 plugins {
-    kotlin("jvm") version "2.2.21"
-    kotlin("plugin.serialization") version "2.2.21"
+    kotlin("jvm") version "2.3.0"
+    kotlin("plugin.serialization") version "2.3.0"
     application
     antlr
-    id("nu.studer.jooq") version "10.1.1"
-    id("io.kotest") version "6.0.4"
+    id("nu.studer.jooq") version "10.2"
+    id("io.kotest") version "6.0.7"
     id("com.adarshr.test-logger") version "4.0.0"
     id("application")
 }
@@ -60,7 +60,7 @@ tasks.test {
 }
 
 kotlin {
-    jvmToolchain(21)
+    jvmToolchain(25)
 }
 
 application {
