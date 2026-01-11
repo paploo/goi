@@ -192,12 +192,12 @@ coffee,コーヒー,こおひい,,,NOUN,,,5,{GENKI3_L03},{food},c675acf7-4ab1-5a
 water; cold water,水,みず,,水,NOUN,,,5,{GENKI3_L03},"{food,water}",ff69f94e-49fa-5015-a8e8-6bdab429f087,191,2022-07-24
 breakfast,朝ご飯,あさごはん,,朝ご飯,NOUN,,,5,{GENKI3_L03},{food},455c3d21-e4c5-5cae-a4b1-2f4a0b988e50,192,2022-07-24
 lunch,昼ご飯,ひるごはん,,昼ご飯,NOUN,,,5,{GENKI3_L03},{food},43903683-a322-530c-88e1-a1c406296be6,193,2022-07-24
-dinner,晩御飯,ばんごはん,,晩御飯,NOUN,,,5,{GENKI3_L03},{food},4e1fc6f4-772d-5a1f-8391-5453bcbf4817,194,2022-07-24
+dinner,晩ご飯,ばんごはん,,晩御飯,NOUN,,,5,"{GENKI3_L03,QUARTET_L01}",{food},4e1fc6f4-772d-5a1f-8391-5453bcbf4817,194,2022-07-24
 home; house,家,いえ,,家,NOUN,,,5,"{DUO_02_04,DUO_U07,GENKI3_L03}",{place},e6aa13b6-6f6a-57db-8433-701ba55fa918,195,2022-07-24
 my place,うち,うち,,,NOUN,,,,{GENKI3_L03},{place},522046f3-2cfa-565e-a8d5-15f048b49776,196,2022-07-24
 cafe,カフェ,かふぇ,,,NOUN,,,,{GENKI3_L03},{place},c5ebd7d9-06b2-596e-96f5-7366810ea78c,197,2022-07-24
 "datyime; noon, middday",昼,ひる,,昼,NOUN,,,5,"{DUO_01_03,DUO_U02}",{time},31496757-bfb5-571a-af27-27f055912c92,198,2022-08-12
-evening,晩,ばん,,晩,NOUN,,,5,,{time},fa96658e-3cc1-5c40-8c89-f68088f73e5d,199,2022-08-28
+evening,晩,ばん,,晩,NOUN,,,5,{QUARTET_L01},{time},fa96658e-3cc1-5c40-8c89-f68088f73e5d,199,2022-08-28
 night,夜,よる,,夜,NOUN,,,5,"{DUO_01_02,DUO_U01,GENKI3_L06}",{time},c0e2e0ee-6d57-53c2-a654-7d23db9d1709,200,2022-08-12
 tomorrow,明日,あした,,明日,NOUN,,,5,{GENKI3_L03},{time},3972d239-6e9a-5163-bf43-c4a2b81783db,201,2022-07-24
 today,今日,きょう,,今日,NOUN,,,5,{GENKI3_L03},{time},a4dbf3ac-a372-58a7-b9ac-a7f018ba587c,202,2022-07-24
@@ -240,7 +240,7 @@ everyone; everybody,みんな,みんな,,皆,NOUN,,,5,{GENKI3_L08},,50ec881b-73e
 i'm okay; no problem,大丈夫,だいじょうぶ,,大丈夫,EXPRESSION,,,5,{GENKI3_L05},,f5f775ad-523f-5888-b269-fcb13c1c1051,239,2022-07-24
 I'm okay; no thank you; it's all right,大丈夫です,だいじょうぶです,,大丈夫です,EXPRESSION,,,,,,6ae314ed-22ae-5a5f-8e43-c5165e6eb3a1,240,2022-07-24
 little quantity; few,少し,すこし,,少し,ADVERB,,,5,{GENKI3_L21},,8640d0ab-1efc-5b18-a49c-564f8e53d65c,241,2022-07-24
-"again, once more; also, too, as well",また,また,,又,ADVERB,,,5,,,ecb81156-ea05-44c8-bea0-9e5c199c1c4b,242,2022-08-08
+"again, once more; also, too, as well",また,また,,又,ADVERB,,,5,{QUARTET_L01},,ecb81156-ea05-44c8-bea0-9e5c199c1c4b,242,2022-08-08
 bye; see you again later,またね,またね,,,INTERJECTION,,,,,,820e130a-a772-413e-a754-d1a0021bbcf5,243,2022-08-08
 bye; see you,じゃね,じゃあね,じゃね,,INTERJECTION,,,,,,82223749-3af6-4348-b0f0-a0addad0ddf2,244,2022-08-08
 "congratulations, well done, best wishes",おめでとう,おめでとう,,,INTERJECTION,,,3,{GENKI3_L17},,f64a8d64-a48c-5f1e-b7f0-e9e805646472,245,2022-08-08
@@ -462,7 +462,7 @@ large,大きい,おおきい,,大きい,ADJECTIVE,I_ADJECTIVE,,5,{GENKI3_L05},,9
 small,小さい,ちいさい,,小さい,ADJECTIVE,I_ADJECTIVE,,5,{GENKI3_L05},,bbdc1a0a-1d15-5484-89ac-e3594f2d0e70,461,2022-09-07
 interesting; funny,面白い,おもしろい,,面白い,ADJECTIVE,I_ADJECTIVE,,5,{GENKI3_L05},,14eb54bb-8d5f-50c2-b2e7-9b89a32a18f6,462,2022-09-07
 boring,つまらない,つまらない,,詰まらない,ADJECTIVE,I_ADJECTIVE,,5,{GENKI3_L05},,2e46c8d1-bb5e-5c96-9e63-b1d4fc035da1,463,2022-09-07
-easy (problem),やさしい,やさしい,,易しい,ADJECTIVE,I_ADJECTIVE,,5,{GENKI3_L05},,ce5f2a5f-821f-5a5f-b5e5-6b59658ee781,464,2022-09-07
+easy (problem),やさしい,やさしい,,易しい,ADJECTIVE,I_ADJECTIVE,,5,"{GENKI3_L05,QUARTET_L01}",,ce5f2a5f-821f-5a5f-b5e5-6b59658ee781,464,2022-09-07
 kind (person),優しい,やさしい,,優しい,ADJECTIVE,I_ADJECTIVE,,4,,,f0506ed6-e8ae-5d80-90bc-d527638693f8,465,2022-09-07
 difficult,難しい,むずかしい,,難しい,ADJECTIVE,I_ADJECTIVE,,5,{GENKI3_L05},,835597f8-7be1-561d-8ef8-9c73316e9b49,466,2022-09-07
 good-looking; cool,かっこいい,かっこいい,,格好いい,ADJECTIVE,YOI_ADJECTIVE,,,{GENKI3_L05},,46305ec7-a809-547e-bb67-8533f9059b26,467,2022-09-07
@@ -530,7 +530,7 @@ romantic love,恋,こい,,恋,NOUN,,,3,,,c45eae5d-011d-4200-9dd7-be3ec1c2bf51,52
 boyfriend/girlfriend; lover,恋人,こいびと,,恋人,NOUN,,,3,,,640bcc29-e162-4c4d-ad37-fb7e38525f00,529,2022-10-30
 first love; puppy love,初恋,はつこい,,初恋,NOUN,,,,,,37b16f64-6ecc-4167-a55d-eab2255d1235,530,2022-11-02
 love,愛,あい,,愛,NOUN,,,3,,,5fa42b1b-fb16-434f-8764-b1106aacfe13,531,2022-10-30
-to love,愛する,あいする,,愛する,VERB,AI_SURU_VERB,,3,,,72a0ccac-caea-43df-9099-076bae09c6e4,532,2022-10-30
+to love,愛する,あいする,,愛する,VERB,AI_SURU_VERB,,3,{QUARTET_L01},,72a0ccac-caea-43df-9099-076bae09c6e4,532,2022-10-30
 thorn,刺,とげ,,刺,NOUN,,,1,,,9654de24-9624-4834-aec3-4d26a88c3c79,533,2022-10-30
 thorny shrub; wild rose,茨,いばら,,茨,NOUN,,,,,,c108107d-4842-4ff4-ac72-a221ce7c2f91,534,2022-10-30
 princess,姫,ひめ,,姫,NOUN,,,,,,b08173f1-4500-4da6-81ee-cd7421bb3686,535,2022-10-30
@@ -641,7 +641,7 @@ man,男の人,おとこのひと,,男の人,NOUN,,,3,{GENKI3_L07},,5b1f6b01-3ae2
 woman,女の人,おんあのひと,,女の人,NOUN,,,2,{GENKI3_L07},,876dd9d0-72db-4bba-8c34-80f62cb358fa,640,2022-12-26
 cafeteria; dining commons,食堂,しょくどう,,食堂,NOUN,,,5,{GENKI3_L07},,08fc35f2-25ad-4f21-8c9a-5e8b0ac46bcb,641,2022-12-26
 department store,デパート,でぱあと,,,NOUN,,,5,{GENKI3_L07},,ede7bbcc-5506-4d37-bbf2-802b22422332,642,2022-12-26
-hair (on the head),髪,かみ,,髪,NOUN,,,5,{GENKI3_L07},{body},fe9c2565-7cc3-4bbe-8c25-6a2302f83953,643,2022-12-26
+hair (on the head),髪,かみ,,髪,NOUN,,,5,"{GENKI3_L07,QUARTET_L01}",{body},fe9c2565-7cc3-4bbe-8c25-6a2302f83953,643,2022-12-26
 glasses,メガネ,めがね,,眼鏡,NOUN,,,5,{GENKI3_L07},,9a7a411c-754d-4e0a-a0ba-0641b5dbec0e,644,2022-12-26
 song,歌,うた,,歌,NOUN,,,5,{GENKI3_L07},{music},ea726385-922e-4bd4-a05e-85b7ca9d66b7,645,2022-12-26
 club; group with common interests,サークル,さあくる,,,NOUN,,,2,{GENKI3_L07},,74bc8dc3-881d-4428-b957-086adf3e18a2,646,2022-12-26
@@ -779,7 +779,7 @@ color,色,いろ,,色,NOUN,,,5,{GENKI3_L09},,695a0889-73f3-4d54-add8-0ba56f6d2c6
 this time; near future,今度,こんど,,今度,NOUN,,,4,{GENKI3_L09},{time},dda5e150-700a-49ef-8ebe-b4439c6b208c,778,2023-03-10
 last month,先月,せんげつ,,先月,NOUN,,,5,{GENKI3_L09},{time},7fb4e6ea-5c2a-4875-bc61-d0708f85c9bf,779,2023-03-10
 last year,去年,きょねん,,去年,NOUN,,,5,{GENKI3_L09},{time},4aa134fc-7603-42bb-a904-4fd8ac6f60fa,780,2023-03-10
-"young, youthful",若い,わかい,,若い,ADJECTIVE,I_ADJECTIVE,,5,{GENKI3_L09},,162ad3b5-b9be-4752-b565-dd5b73851f0f,781,2023-03-10
+"young, youthful",若い,わかい,,若い,ADJECTIVE,I_ADJECTIVE,,5,"{GENKI3_L09,QUARTET_L01}",,162ad3b5-b9be-4752-b565-dd5b73851f0f,781,2023-03-10
 mean-spirited,意地悪,いじわる,,意地悪,ADJECTIVE,NA_ADJECTIVE,,,{GENKI3_L09},,edb84ec2-d17b-4c61-a892-5f7223107d03,782,2023-03-10
 to dance,踊る,おどる,,踊る,VERB,GODAN_VERB,,4,{GENKI3_L09},,0d338604-217c-4efd-9d3c-a54386ca17eb,783,2023-03-15
 to end; to finish (intransitive; something ends),終わる,おわる,,終わる,VERB,GODAN_VERB,,5,{GENKI3_L09},,49e892a8-b07f-45a0-945c-5e65efaff89b,784,2023-03-15
@@ -819,7 +819,7 @@ to broadcast; to stream,配信する,はいしんする,,配信する,VERB,SURU_
 "damn-it, shit; poop",クソ,くそ,,糞,NOUN,,,,,,54b9a327-ed0f-4041-a7d7-6ecb15ee1f19,818,2023-03-15
 to save; to rescue,助ける,たすける,,助ける,VERB,ICHIDAN_VERB,,3,"{GENKI3_L18,GENKI3_L22}",,d1ccb87e-aa3d-47c3-b60f-577a3edaf86d,819,2023-03-15
 to permit; to forgive,許す,ゆるす,,許す,VERB,GODAN_VERB,,3,,,f8a0f61a-c65e-46d6-bb20-321c33dc09dd,820,2023-03-15
-"to take, to grab; to pass",取る,とる,,取る,VERB,GODAN_VERB,,5,,,e2844136-7055-4e0b-a2f0-7579807c0ecc,821,2023-03-24
+"to take, to grab; to pass; to win (a prize)",取る,とる,,取る,VERB,GODAN_VERB,,5,{QUARTET_L01},,e2844136-7055-4e0b-a2f0-7579807c0ecc,821,2023-03-24
 "to touch, to feel",触る,さわる,,触る,VERB,GODAN_VERB,,4,{GENKI3_L21},,5e6c7b7f-ea17-49ce-b5d7-200698c08384,822,2023-03-26
 the world,世界,せかい,,世界,NOUN,,,4,{GENKI3_L10},,cbe6d96a-991c-4eeb-a5d3-fbb041d9a450,823,2023-03-26
 universe; cosmos; space,宇宙,うちゅう,,宇宙,NOUN,,,3,,,2bc76c1a-20a2-4469-92fd-fb95ac75b996,824,2023-03-26
@@ -987,7 +987,7 @@ to run,走る,はしる,,走る,VERB,GODAN_VERB,,5,{GENKI3_L11},,36bf2e79-7c01-4
 to get tired; to get exhausted,疲れる,つかれる,,疲れる,VERB,ICHIDAN_VERB,,5,{GENKI3_L11},,6ae6874e-8dd8-447a-a051-98db1526ede1,986,2023-07-03
 to resign; to quit,辞める,やめる,,辞める,VERB,ICHIDAN_VERB,,3,{GENKI3_L11},,4f866f7b-949f-4390-ac80-d304fe48c34e,987,2023-07-03
 to have a fight; to quarrel,喧嘩する,けんかする,,喧嘩する,VERB,SURU_VERB,,4,{GENKI3_L11},,2306b4fc-1a2c-404c-94d7-5b7701ae74c9,988,2023-07-03
-to introduce,紹介する,しょうかいする,,紹介する,VERB,SURU_VERB,,4,{GENKI3_L11},,41533714-52bb-4670-9540-41d97a8ec152,989,2023-07-03
+to introduce,紹介する,しょうかいする,,紹介する,VERB,SURU_VERB,,4,"{GENKI3_L11,QUARTET_L01}",,41533714-52bb-4670-9540-41d97a8ec152,989,2023-07-03
 to go on a diet,ダイエットする,だいえっとする,,,VERB,SURU_VERB,,,{GENKI3_L11},,7ee96a82-0cbb-4095-a1f5-4c159a8f167d,990,2023-07-03
 to be late (for an appointment),遅刻する,ちこくする,,遅刻する,VERB,SURU_VERB,,,{GENKI3_L11},,f4626c10-09a5-4b6c-aee8-12e9cfd5a193,991,2023-07-03
 to study abroad,留学する,りゅうがくする,,留学する,VERB,SURU_VERB,,,{GENKI3_L11},,bc200bab-e165-4d52-ac80-21df0cdc81aa,992,2023-07-03
@@ -999,7 +999,7 @@ and in addition (to say something notable),そして,そして,,而して,CONJUN
 occupation; profession,職業,しょくぎょう,,職業,NOUN,,,3,{GENKI3_L11},,f1b9a6ca-5697-4282-a448-8e5c55f2744b,998,2023-07-03
 to (seem) eager to; to want to; to be anxious to,たがる,たがる,,,VERB,GODAN_VERB,,,{GENKI3_L11},,e7bf6b63-5094-492d-89b8-b2961baa4de7,999,2023-12-27
 dormitory; hostel,寮,りょう,,寮,NOUN,,,2,"{GENKI3_L11,GENKI3_L17}",,5cb53511-43d8-486a-84e3-59634041e85a,1000,2023-12-27
-writer,作家,さっか,,作家,NOUN,,,,{GENKI3_L11},{occupation},8294c160-3a00-45fc-98eb-231285167793,1001,2023-07-03
+writer,作家,さっか,,作家,NOUN,,,,"{GENKI3_L11,QUARTET_L01}",{occupation},8294c160-3a00-45fc-98eb-231285167793,1001,2023-07-03
 journalist,ジャーナリスト,じゃあなりすと,,ジャーナリスト,NOUN,,,,{GENKI3_L11},{occupation},e8c02599-6c71-4dff-a977-0e2e3b8902f2,1002,2023-07-03
 police officer,警察官,けいさつかん,,警察官,NOUN,,,,{GENKI3_L11},{occupation},1a45f321-4093-4b6a-8c2c-23b8a76b74b3,1003,2023-07-03
 firefighter,消防士,しょうぼうし,,消防士,NOUN,,,,{GENKI3_L11},{occupation},08177cd6-c070-45ab-acb3-c81a954d8b05,1004,2023-07-03
@@ -1076,7 +1076,7 @@ clothes (esp. Western clothes),服,ふく,,服,NOUN,,,5,{GENKI3_L12},,f88fe556-3
 thing (concrete object),物,もの,,物,NOUN,,,5,{GENKI3_L12},,466f5766-af1d-4ff6-aaf6-bdab641cb921,1075,2023-08-06
 present; gift,プレゼント,ぷれぜんと,,プレゼント,NOUN,,,4,{GENKI3_L12},,b0030f58-6fb0-4693-a003-8a3f8982c229,1076,2023-08-06
 "charge, fee; generation, school year, reign",〜代,〜だい,,〜代,SUFFIX,,,,{GENKI3_L12},,d3951418-0bce-4527-a675-1fb479d57a8e,1077,2023-08-06
-interest (in something); curiosity (about something),興味,きょうみ,,,NOUN,,,4,,,0dd69b0e-4851-4886-94ee-4fd547959097,1078,2023-08-14
+interest (in something); curiosity (about something),興味,きょうみ,,,NOUN,,,4,{QUARTET_L01},,0dd69b0e-4851-4886-94ee-4fd547959097,1078,2023-08-14
 business to take care of; tasks; errand,用事,ようじ,,用事,NOUN,,,4,{GENKI3_L12},,6555991b-5151-4bb7-9fd5-e56168155e70,1079,2023-08-06
 restroom; lavatory,お手洗い,おてあらい,,お手洗い,NOUN,,,5,{GENKI3_L12},,c2ae2edc-d8a5-45cb-bb22-3000878734de,1080,2023-08-06
 match; game,試合,しあい,,試合,NOUN,,,4,{GENKI3_L12},,ddc1dfa4-8993-4324-9353-20a35cffd8bd,1081,2023-08-06
@@ -1119,7 +1119,7 @@ road; highway,道路,どうろ,,道路,NOUN,,,3,,{roads},85ac9d74-a276-443f-9a2a
 freeway; expressway,高速道路,こうそくどうろ,,高速道路,NOUN,,,,,{roads},8884b984-cfcb-4537-b6ef-9ea08955506d,1118,2023-08-19
 traffic light; signal,信号,しんごう,,信号,NOUN,,,3,{GENKI3_L20},{roads},c959e600-2c26-4884-bfee-700dc412720d,1119,2023-08-19
 traffic circle; roundabout,ロータリー,ろおたりい,,,NOUN,,,,,{roads},103cb65d-49a0-455a-ba6a-e134d430d946,1120,2023-08-19
-straight ahead; direct (route),まっすぐ,まっすぐ,,真っ直ぐ,NOUN,,,5,,{roads},8c1d005f-3d35-4e4c-852c-3c45e5119617,1121,2023-08-19
+straight ahead; direct (route),まっすぐ,まっすぐ,,真っ直ぐ,ADVERB,,,5,,{roads},8c1d005f-3d35-4e4c-852c-3c45e5119617,1121,2023-08-19
 corner; edge,角,かど,,角,NOUN,,,5,{GENKI3_L20},,a5b14922-855c-441e-a335-5fdb9209e56f,1122,2023-08-19
 "side (of something, or taking someone's side)",側,がわ,,側,NOUN,,,5,,,7686f747-f955-4079-bf34-f23dd9c6fa8e,1123,2023-08-19
 ordinal number suffix,〜目,〜め,,〜目,SUFFIX,,,5,{GENKI3_L15},,37a13ec3-c024-4a38-b4de-ad63e1d75b8b,1124,2023-08-19
@@ -1150,7 +1150,7 @@ television/anime episode one (lit. story number one),第１話,だいいちわ,,
 "first occurence, first time; tv/anime episode one (lit. occurence number one)",第１回,だいいっかい,,第一回,NOUN,,,,,,cdf0b243-612d-47aa-85ae-3f785a27065e,1149,2023-08-19
 chapter/section one,第１章,だいいっしょう,,第一章,NOUN,,,,,,ef17c3e4-003d-40ad-b6fb-4c0e617c96bc,1150,2023-08-19
 lesson one; company department one,第１課,だいいっか,,第一課,NOUN,,,,,,989aff98-06ed-450f-ba46-18dec22384ba,1151,2023-09-06
-adult,大人,おとな,,大人,NOUN,,,5,{GENKI3_L13},,1beb4f97-f09f-46ad-86c3-cd7bdfd09150,1152,2023-10-01
+adult,大人,おとな,,大人,NOUN,,,5,"{GENKI3_L13,QUARTET_L01}",,1beb4f97-f09f-46ad-86c3-cd7bdfd09150,1152,2023-10-01
 I (formal),私,わたくし,,私,PRONOUN,,,,{GENKI3_L13},,fad56bc8-840d-4b06-8551-4fdaaa0eb86d,1153,2023-10-01
 curry,カレー,かれえ,,咖哩,NOUN,,,5,{GENKI3_L13},{food},28a11f83-90ae-4e19-a205-b41be20ad72f,1154,2023-10-01
 black tea,紅茶,こうちゃ,,紅茶,NOUN,,,5,{GENKI3_L13},{food},e13c86b7-5cde-4fb8-994b-abec2783d466,1155,2023-10-01
@@ -1173,7 +1173,7 @@ advertisements,広告,こうこく,,広告,NOUN,,,3,{GENKI3_L13},,fe68e271-6db4-
 promise; appointment,約束,やくそく,,約束,NOUN,,,4,{GENKI3_L13},,5dc48856-8f42-49f9-809d-e9f35f9fe8ba,1172,2023-10-01
 "happy, glad, pleased",嬉しい,うれしい,,嬉しい,ADJECTIVE,I_ADJECTIVE,,3,{GENKI3_L13},,1c316eca-4942-496b-a982-cb85c6767fcc,1173,2023-10-01
 sad,悲しい,かなしい,,悲しい,ADJECTIVE,I_ADJECTIVE,,4,{GENKI3_L13},,9f12c0fc-9080-4b4c-9d51-acaf87ebd1c5,1174,2023-10-01
-strict,厳しい,きびしい,,厳しい,ADJECTIVE,I_ADJECTIVE,,4,{GENKI3_L13},,48024766-080a-43b6-bbe1-cc58991f91a6,1175,2023-10-01
+strict,厳しい,きびしい,,厳しい,ADJECTIVE,I_ADJECTIVE,,4,"{GENKI3_L13,QUARTET_L01}",,48024766-080a-43b6-bbe1-cc58991f91a6,1175,2023-10-01
 feeling; mood,気分,きぶん,,気分,NOUN,,,4,,,10103df2-4cbe-482b-a25d-1d55b4c24a73,1176,2023-10-01
 feel sick,気分が悪い,きぶんがわるい,,気分が悪い,ADJECTIVE,I_ADJECTIVE,,,{GENKI3_L13},,8f07aef3-58c8-4694-815c-c7152c0519ef,1177,2023-10-01
 spicy; salty,辛い,からい,,辛い,ADJECTIVE,I_ADJECTIVE,,5,{GENKI3_L13},{food},5f937099-cf1d-41c4-9e2d-7cd36e22111a,1178,2023-10-01
@@ -1190,7 +1190,7 @@ to keep a promise,約束を守る,やくそくをまもる,,約束を守る,VERB
 to be moved/touched by,感動する,かんどうする,,感動する,VERB,SURU_VERB,,3,{GENKI3_L13},,b41f80d3-b894-45c0-a37e-7242e7a6e7c0,1189,2023-10-02
 ...kilograms; ...kilometers,〜キロ,〜きろ,,,SUFFIX,,,5,{GENKI3_L13},,4391ef17-6775-4ad5-92f7-1bd8c97c6994,1190,2023-10-02
 my name is ...,〜と申します,〜ともうします,,〜と申します,EXPRESSION,,,,{GENKI3_L13},,e25af6b3-39fc-4cda-a4e2-c6cf0223a167,1191,2023-10-02
-"particularly, especially",特に,とくに,,特に,ADVERB,,,1,{GENKI3_L13},,de095c51-ceca-40bd-8bc2-1fa4ba6d8eb4,1192,2023-10-02
+"particularly, especially",特に,とくに,,特に,ADVERB,,,1,"{GENKI3_L13,QUARTET_L01}",,de095c51-ceca-40bd-8bc2-1fa4ba6d8eb4,1192,2023-10-02
 one day,一日,いちにち,,一日,NOUN,,,,{GENKI3_L13},"{time,counter}",40b73558-cffa-4240-9074-c55417eee57f,1193,2023-10-02
 two days,二日,ふつか,,二日,NOUN,,,,{GENKI3_L13},"{time,counter}",e5efafeb-bcce-4f3d-b968-0d26a0dc3790,1194,2023-10-02
 three days,三日,みっか,,三日,NOUN,,,,{GENKI3_L13},"{time,counter}",d4e6437a-5da1-4fa2-bb82-a1a39be9ace1,1195,2023-10-02
@@ -1306,7 +1306,7 @@ meatball (Western style),ミートボール,みいとぼおる,,,NOUN,,,,,{food}
 clam,アサリ,あさり,,浅蜊,NOUN,,,,,{food},4c278d19-17a3-490e-8ca4-363b6b3bec68,1305,2024-01-05
 oyster,カキ,かき,,牡蠣,NOUN,,,,,{food},ff9d824a-5d3b-4e42-8ab0-d21fd6a62d09,1306,2024-01-05
 soba,そば,そば,,蕎麦,NOUN,,,2,{GENKI3_L15},{food},8579f6ba-d19a-45b6-aac9-94fd045f1202,1307,2024-01-28
-painting; picture; drawing,絵,え,,絵,NOUN,,,5,{GENKI3_L15},,68bf18fb-6819-4eca-a4e4-5da03a16afcd,1308,2024-01-28
+painting; picture; drawing,絵,え,,絵,NOUN,,,5,"{GENKI3_L15,QUARTET_L01}",,68bf18fb-6819-4eca-a4e4-5da03a16afcd,1308,2024-01-28
 furniture,家具,かぐ,,家具,NOUN,,,3,{GENKI3_L15},,480faf2f-59da-4a22-bac1-cafda5fd5f4c,1309,2024-01-28
 battery,電池,でんち,,電池,NOUN,,,2,{GENKI3_L15},,0961e5c0-d0e9-46a5-9b1e-8424b6056c03,1310,2024-01-28
 jacket,ジャケット,じゃけっと,,,NOUN,,,,{GENKI3_L15},,81692edc-47d3-4bf2-90ed-4a87dbb942ae,1311,2024-01-28
@@ -1328,9 +1328,9 @@ deadline,締め切り,しめきり,,締切,NOUN,,,2,{GENKI3_L15},,66cd13a0-3479-
 schedule; plan,予定,よてい,,予定,NOUN,,,4,{GENKI3_L15},,ca7855c9-d31b-4d3f-b33b-b36582d26dcd,1327,2024-01-28
 graduation ceremony,卒業式,そつぎょうしき,,卒業式,NOUN,,,,{GENKI3_L15},,25cbeee4-c65b-458e-8f6e-b982cf613bbe,1328,2024-01-28
 wedding,結婚式,けっこんしき,,結婚式,NOUN,,,,{GENKI3_L15},,c5895d9c-8017-452c-ba6e-a96455716af8,1329,2024-01-28
-announcement; statement,発表,はっぴょう,,発表,NOUN,,,3,{GENKI3_L15},,0906131a-71da-4af5-b4a5-7955e41f2dde,1330,2024-01-28
+announcement; statement,発表,はっぴょう,,発表,NOUN,,,3,"{GENKI3_L15,QUARTET_L01}",,0906131a-71da-4af5-b4a5-7955e41f2dde,1330,2024-01-28
 to lower; to drop-off; to withdraw (money),下ろす,おろす,,下ろす,VERB,GODAN_VERB,,3,{GENKI3_L15},,27b8b77c-f08f-49d0-b521-76578408b0fb,1331,2024-01-28
-to draw; to paint,描く,かく,えがく,描く,VERB,GODAN_VERB,,3,{GENKI3_L15},,f120cb24-ab34-4f64-956c-31707fcff251,1332,2024-01-28
+to draw; to paint,描く,かく,えがく,描く,VERB,GODAN_VERB,,3,"{GENKI3_L15,QUARTET_L01}",,f120cb24-ab34-4f64-956c-31707fcff251,1332,2024-01-28
 to look for,探す,さがす,,,VERB,GODAN_VERB,,4,{GENKI3_L15},,653bba04-49ca-4d42-81e2-a1d987444e6b,1333,2024-01-28
 to invite,誘う,さそう,,,VERB,GODAN_VERB,,3,{GENKI3_L15},,983ca461-eec2-4cfd-ac1b-be0adfeef676,1334,2024-01-28
 to chat,しゃべる,しゃべる,,喋る,VERB,GODAN_VERB,,3,{GENKI3_L15},,551011fb-215c-4669-b46d-58a75ee4bb71,1335,2024-01-28
@@ -1345,7 +1345,7 @@ to do sightseeing,観光する,かんこうする,,観光する,VERB,SURU_VERB,,
 to reserve,予約する,よやくする,,予約する,VERB,SURU_VERB,,4,{GENKI3_L15},,f3def64f-18c8-4b0c-961b-0196e2b972ff,1344,2024-01-28
 to participate,参加する,さんかする,,参加する,VERB,SURU_VERB,,3,{GENKI3_L15},,124418f3-604e-47bf-af79-51991846de6c,1345,2024-01-28
 to graduate (from),卒業する,そつぎょうする,,卒業する,VERB,SURU_VERB,,4,{GENKI3_L15},,cc822609-2d4e-4cd3-b7c5-171da16fd205,1346,2024-01-28
-to make a presentation,発表する,はっぴょうする,,発表する,VERB,SURU_VERB,,3,{GENKI3_L15},,d4a0a46f-35ba-4b01-aa48-053f2803cf56,1347,2024-01-28
+to make a presentation; to release,発表する,はっぴょうする,,発表する,VERB,SURU_VERB,,3,"{GENKI3_L15,QUARTET_L01}",,d4a0a46f-35ba-4b01-aa48-053f2803cf56,1347,2024-01-28
 ...but; ...so,〜けど,〜けど,,,CONJUNCTION,,,4,{GENKI3_L15},,7cd29581-620c-497e-b48a-ce73210af296,1348,2024-01-28
 "first day (e.g. at work, school); day one",１日目,いちにちめ,,一日目,NOUN,,,,{GENKI3_L15},,baa1fbf9-5a29-45bb-b87a-0000e8043c02,1349,2024-01-28
 all day long,一日中,いちにちじゅう,,一日中,ADVERB,,,,{GENKI3_L15},,53ec0b69-8181-4361-9a14-85901f434e21,1350,2024-01-28
@@ -1390,7 +1390,7 @@ to laugh; to smile,笑う,わらう,,笑う,VERB,GODAN_VERB,,4,{GENKI3_L16},,c0a
 to get depressed,落ち込む,おちこむ,,落ち込む,VERB,GODAN_VERB,,1,{GENKI3_L16},,013e3093-38e1-4109-b630-75385ab96a8e,1389,2024-02-25
 to have difficulty,困る,こまる,,困る,VERB,GODAN_VERB,,5,{GENKI3_L16},,a5fcd3e6-184d-4ec0-944e-7ac354dd9151,1390,2024-02-25
 to take (something) out; to hand in (something),出す,だす,,出す,VERB,GODAN_VERB,,5,{GENKI3_L16},,80041821-df2c-465b-b26e-011eb346f675,1391,2024-02-25
-to correct; to fix,直す,なおす,,直す,VERB,GODAN_VERB,,4,{GENKI3_L16},,49a61e63-c454-496c-b127-bcdade63b41a,1392,2024-02-25
+to correct; to fix,直す,なおす,,直す,VERB,GODAN_VERB,,4,"{GENKI3_L16,QUARTET_L01}",,49a61e63-c454-496c-b127-bcdade63b41a,1392,2024-02-25
 to be found; to be discovered,見つかる,みつかる,,見つかる,VERB,GODAN_VERB,,4,{GENKI3_L16},,8dded714-8151-4f6a-92cd-f6f2c2ad4b53,1393,2024-02-25
 to translate,訳す,やくす,,訳す,VERB,GODAN_VERB,,2,{GENKI3_L16},,9d811869-02e9-4bf0-bc14-04d4ee59ea38,1394,2024-02-25
 "to lend, to loan; to rent out, to hire",貸す,かす,,貸す,VERB,GODAN_VERB,,5,{GENKI3_L16},,b1dbcf93-c225-4e31-935c-eeab9f59e881,1395,2024-02-25
@@ -1457,7 +1457,7 @@ overtime work,残業,ざんぎょう,,残業,NOUN,,,,{GENKI3_L17},,f08b30ba-0663
 panda,パンダ,ぱんだ,,,NOUN,,,,{GENKI3_L17},,273a3f80-ebe7-4818-9ab1-0e90e1ab3191,1456,2024-04-17
 contact lenses (long),コンタクトレンズ,こんたくとれんず,,,NOUN,,,,{GENKI3_L17},,6e780542-efd4-467f-9ec4-467cd72fd4e4,1457,2024-04-17
 contact lenses (short),コンタクト,こんたくと,,,NOUN,,,1,{GENKI3_L17},,1d79ef11-95fa-4267-b8a4-27c22a10faed,1458,2024-04-17
-"beard, mustache; whiskers (person, cat); feelers (insect)",ひげ,ひげ,,,NOUN,,,4,{GENKI3_L17},,de736952-8035-4dc0-aa5d-0b03ddfe2469,1459,2024-04-17
+"beard, mustache; whiskers (person, cat); feelers (insect)",ひげ,ひげ,,,NOUN,,,4,"{GENKI3_L17,QUARTET_L01}",,de736952-8035-4dc0-aa5d-0b03ddfe2469,1459,2024-04-17
 boots,ブーツ,ぶうつ,,,NOUN,,,1,{GENKI3_L17},,c6e8b35c-0f4a-460c-bad7-e5df8efdb828,1460,2024-04-17
 lock; key,鍵,かぎ,,鍵,NOUN,,,5,{GENKI3_L17},,74993f65-9c98-47f9-bb1f-41ccfc9519a6,1461,2024-04-17
 lottery,宝くじ,たからくじ,,宝くじ,NOUN,,,,{GENKI3_L17},,d04297bd-2468-4fd8-a66c-4837f0fa323b,1462,2024-04-17
@@ -1492,11 +1492,11 @@ to get used to,慣れる,なれる,,慣れる,VERB,ICHIDAN_VERB,,4,{GENKI3_L17},
 to compare; to make a comparison,比べる,くらべる,,比べる,VERB,ICHIDAN_VERB,,4,{GENKI3_L21},,ed3c1014-8c37-4210-ba3d-6df42b537448,1491,2024-05-15
 to pray,お祈りする,おいのりする,,お祈りする,VERB,SURU_VERB,,,{GENKI3_L17},,6a29b241-a8b3-4c8f-9fe7-1d52f7f6a52c,1492,2024-05-15
 to put makeup on,化粧する,けしょうする,,化粧する,VERB,SURU_VERB,,3,{GENKI3_L17},,2bf67bf6-d74f-45c5-b9f1-8ac610c02a1a,1493,2024-05-15
-to get a full-time job,就職する,しゅうしょくする,,就職する,VERB,SURU_VERB,,3,{GENKI3_L17},,c948f7e7-7029-4131-a184-039834134e34,1494,2024-05-15
+to get a full-time job,就職する,しゅうしょくする,,就職する,VERB,SURU_VERB,,3,"{GENKI3_L17,QUARTET_L01}",,c948f7e7-7029-4131-a184-039834134e34,1494,2024-05-15
 to get a divorce,離婚する,りこんする,,離婚する,VERB,SURU_VERB,,3,{GENKI3_L17},,e5fcd6e9-fddb-4aff-b11e-8030d1806a5f,1495,2024-05-15
 "to wear small itmes (necktie, watch, etc)",する,する,,,VERB,SURU_VERB,,5,{GENKI3_L17},,f572fbae-19db-47a1-9cd0-218ac72c8fc4,1496,2024-05-15
 "very, considerably, extremely",ずいぶん,ずいぶん,,随分,ADVERB,,,3,{GENKI3_L17},,5e0850d1-0577-4301-8793-a4f7bfc60074,1497,2024-05-15
-for example,例えば,たとえば,,例えば,ADVERB,,,4,{GENKI3_L17},,f515bc0a-09c7-41f5-a8ae-3d6be513932c,1498,2024-05-15
+for example,例えば,たとえば,,例えば,ADVERB,,,4,"{GENKI3_L17,QUARTET_L01}",,f515bc0a-09c7-41f5-a8ae-3d6be513932c,1498,2024-05-15
 compared with...,〜に比べて,〜にくらべて,,〜に比べて,EXPRESSION,,,,{GENKI3_L17},,3420494f-0533-45f4-b3d7-d72a632d3a5e,1499,2024-05-15
 according to (someone)...,〜によると,〜によると,,〜に依ると,EXPRESSION,,,,{GENKI3_L17},,362e4d55-6ac9-435d-880d-4aac91b3eafc,1500,2024-05-15
 I wonder... (casual),〜かな,〜かな,,〜かな,EXPRESSION,,,,{GENKI3_L17},,a7c03b1d-47d6-40c8-8cbe-fd788dcc9e49,1501,2024-05-15
@@ -1504,7 +1504,7 @@ I wonder... (casual),〜かな,〜かな,,〜かな,EXPRESSION,,,,{GENKI3_L17},,
 I see (casual); is that so?,そうか,そうか,,そうか,EXPRESSION,,,,{GENKI3_L17},,66abaa93-653e-4173-829c-0924f65626e0,1503,2024-05-15
 tear (from eye),涙,なみだ,,涙,NOUN,,,3,{GENKI3_READER_L12},,1b8e4840-eedb-496e-9023-dae70e758434,1504,2024-05-15
 the old days,昔,むかし,,昔,NOUN,,,4,"{GENKI3_READER_L13,GENKI3_L21}",,0d2c779a-527d-44a2-8efe-7868105d3e92,1505,2024-05-15
-embarrassing; (to feel) embarrassed,恥ずかしい,はずかしい,,恥ずかしい,ADJECTIVE,I_ADJECTIVE,,4,"{GENKI3_READER_L13,GENKI3_L18}",,c24166c6-8bf8-48de-9ec7-697882ab56f4,1506,2024-05-15
+embarrassing; (to feel) embarrassed,恥ずかしい,はずかしい,,恥ずかしい,ADJECTIVE,I_ADJECTIVE,,4,"{GENKI3_READER_L13,GENKI3_L18,QUARTET_L01}",,c24166c6-8bf8-48de-9ec7-697882ab56f4,1506,2024-05-15
 to think about; to consider,考える,かんがえる,,考える,VERB,ICHIDAN_VERB,,4,"{GENKI3_READER_L13,GENKI3_L18}",,8aa2d467-3d50-4ec9-ab1c-33317b1bc2dc,1507,2024-05-15
 insect,虫,むし,,虫,NOUN,,,4,{GENKI3_L18},,452ff08f-a65e-49e2-a7e7-b174ddd7e8c1,1508,2024-05-15
 spider,くも,くも,,蜘蛛,NOUN,,,,,,f4e38e7c-dcd3-4789-9a18-321115fa2681,1509,2024-05-15
@@ -1612,7 +1612,7 @@ to call (one's name); to summon (a doctor); to invite,呼ぶ,よぶ,,呼ぶ,VERB
 to move (to another place to live),引っ越す,ひっこす,,引っ越す,VERB,GODAN_VERB,,4,{GENKI3_L19},,2539e840-e8a3-4b8a-988e-25bcda2ff8c4,1611,2024-08-05
 to stop by,寄る,よる,,寄る,VERB,GODAN_VERB,,4,{GENKI3_L19},,f7bbf7b2-d3ff-45bf-94c0-5eef8d169f8e,1612,2024-08-05
 to be late; to fall behind schedule,遅れる,おくれる,,遅れる,VERB,ICHIDAN_VERB,,4,{GENKI3_L19},,33071973-fb05-48ae-92d6-45d9d6467687,1613,2024-08-12
-to sit; to support,かける,かける,,掛ける,VERB,ICHIDAN_VERB,,5,{GENKI3_L19},,63dcf322-8ee8-456c-b612-92f963a51f9c,1614,2024-08-12
+"to sit, to support; to spend (time)",かける,かける,,掛ける,VERB,ICHIDAN_VERB,,5,"{GENKI3_L19,QUARTET_L01}",,63dcf322-8ee8-456c-b612-92f963a51f9c,1614,2024-08-12
 to be popular (in terms of romantic interest),モテる,もてる,,,VERB,ICHIDAN_VERB,,,{GENKI3_L19},,acc75b53-f2b3-46bb-8741-1009dd612790,1615,2024-08-12
 to become sunny,晴れる,はれる,,晴れる,VERB,ICHIDAN_VERB,,5,{GENKI3_L19},,29a88a08-5807-4532-b137-78a09bb98378,1616,2024-08-12
 to treat/invite (someone) to a meal,ご馳走する,ごちそうする,,御馳走する,VERB,SURU_VERB,,4,{GENKI3_L19},,837d9ccb-1952-4224-b3f4-fef9f25f2a00,1617,2024-08-12
@@ -1651,7 +1651,7 @@ to measure,測る,はかる,,計る,VERB,GODAN_VERB,,3,,,a2066c8c-af30-43bc-9389
 humble language,謙譲語,けんじょうご,,謙譲語,NOUN,,,,,,6e66df5d-ae21-40ed-8516-b194501afaa6,1650,2024-09-28
 animation,アニメ,あにめ,,,NOUN,,,,{GENKI3_L20},,c340ae80-8802-40fe-8282-b2dbafd97326,1651,2024-09-28
 novel,小説,しょうせつ,,小説,NOUN,,,4,{GENKI3_L20},,64bc1f0c-257f-4dbe-80c4-116b42588af6,1652,2024-09-28
-hobby; pastime,趣味,しゅみ,,趣味,NOUN,,,4,{GENKI3_L20},,d865d8e0-608e-4066-8a8e-969671482418,1653,2024-09-28
+hobby; pastime,趣味,しゅみ,,趣味,NOUN,,,4,"{GENKI3_L20,QUARTET_L01}",,d865d8e0-608e-4066-8a8e-969671482418,1653,2024-09-28
 space alien,宇宙人,うちゅうじん,,宇宙人,NOUN,,,,{GENKI3_L20},,762fde90-44c2-4212-b9e7-c0af37f1352b,1654,2024-09-28
 "(hand, folding) fan",扇子,せんす,,扇子,NOUN,,,2,{GENKI3_L20},,bbf6efc4-36fb-4841-b6e8-713de2cb95c7,1655,2024-09-28
 sneakers,スニーカー,すにいかあ,,,NOUN,,,,{GENKI3_L20},,31c814c5-7862-4477-a4fa-92b948155a85,1656,2024-09-28
@@ -1724,7 +1724,7 @@ police; police station,警察,けいさつ,,警察,NOUN,,,4,{GENKI3_L21},,a7dfed
 government,政府,せいふ,,政府,NOUN,,,3,{GENKI3_L21},,bc34de51-e514-437a-831f-129e0a0edb82,1723,2024-11-20
 tuition ,授業料,じゅぎょうりょう,,授業料,NOUN,,,,{GENKI3_L21},,daf3139a-0f09-41e4-855d-abaf9c7f49c3,1724,2024-11-20
 factory,工場,こうじょう,,工場,NOUN,,,4,{GENKI3_L21},,ba5f770d-d36a-4096-9285-e9acec1ec326,1725,2024-11-20
-environment,環境,かんきょう,,環境,NOUN,,,3,{GENKI3_L21},,0cb6d94f-1a25-4c64-b96b-8755e8c9db0d,1726,2024-11-20
+environment,環境,かんきょう,,環境,NOUN,,,3,"{GENKI3_L21,QUARTET_L01}",,0cb6d94f-1a25-4c64-b96b-8755e8c9db0d,1726,2024-11-20
 thing; matter,事,こと,,事,NOUN,,,3,{GENKI3_L21},,fde76ba2-ec6a-4dce-8df9-79a83065bca6,1727,2024-11-20
 "awful, cruel, heartless",ひどい,ひどい,,酷い,ADJECTIVE,I_ADJECTIVE,,4,{GENKI3_L21},,cfeaa6ea-010f-491e-8ff5-1ca3efbd84ac,1728,2024-11-21
 safe,安全,あんぜん,,安全,ADJECTIVE,NA_ADJECTIVE,,4,{GENKI3_L21},,26cbcfa1-9f7c-42ad-b3aa-9088a2e6bdef,1729,2024-11-21
@@ -1928,7 +1928,7 @@ mayor,市長,しちょう,,,NOUN,,,,{GENKI3_L21},,33cea424-ef1b-4dbd-995c-566af2
 Kyushu dialect,九州弁,きゅうしゅうべん,,九州弁,NOUN,,,,,,af916699-7f86-4e77-b9d4-611d288b5144,1927,2025-12-27
 せーの！(九州弁),さんのーが、はい！,さんのーが、はい！,,,EXPRESSION,,,,,,75e3b03c-397b-4042-99c9-99dcd40c3c82,1928,2025-12-27
 (distant) future,未来,みらい,,未来,NOUN,,,,,,064ceb5b-cd91-4431-9f86-2d3cfbc28cf7,1929,2025-12-27
-going straight ahead,直進,ちょくしん,,直進,NOUN,,,,,,dcd6cebe-a6a7-4024-be1c-d37639ffaffa,1930,2025-12-27
+going straight ahead (formal),直進,ちょくしん,,直進,NOUN,,,,,,dcd6cebe-a6a7-4024-be1c-d37639ffaffa,1930,2025-12-27
 "direction, bearing, course",方向,ほうこう,,方向,NOUN,,,3,,,69ea1967-5aeb-41eb-aec2-8c689728f5cb,1931,2025-12-27
 traffic lane,車線,しゃせん,,車線,NOUN,,,,,,3ef241d1-1737-457c-b9b1-14b89b525f5d,1932,2025-12-27
 destination,目的地,もくてきち,,目的地,NOUN,,,,,,49dd6d11-e07d-41f3-a7eb-d9e78318c964,1933,2025-12-27
@@ -1939,3 +1939,40 @@ beyond that point; after that,その先,そのさき,,その先,EXPRESSION,,,,,,
 to arrive,到着する,とうちゃくする,,到着する,VERB,SURU_VERB,,3,,,5484eae3-1130-481a-ae53-edbfece2b461,1938,2025-12-27
 to set a computer setting,設定する,せっていする,,設定する,VERB,SURU_VERB,,1,,,9cceae0e-ac7c-4138-bf50-edf40bd3a7e0,1939,2025-12-27
 "soon, shortly, before long",まもなく,まもなく,,間もなく,ADVERB,,,,,,0cec07ab-cb09-4e60-9e9b-2b44a22fc8de,1940,2025-12-27
+science,科学,かがく,,科学,NOUN,,,4,,,efe9976e-daab-44b3-89ba-6e1bf67a835c,1941,2025-12-29
+to think scientifically,科学する,かがくする,,科学する,VERB,SURU_VERB,,4,,,f853bf6d-fd48-4e77-ab26-bc7312e70e14,1942,2025-12-29
+"supervision, direction; supervisor, director",監督,かんとく,,監督,NOUN,,,3,{QUARTET_L01},,d00995a2-9f2d-4f6c-8123-8a820709bed2,1943,2026-01-10
+Hayao Miyazaki,宮﨑駿,みやざきはやお,,宮﨑駿,PROPER_NOUN,,,,{QUARTET_L01},,83b8ae1e-d75c-469c-bd4c-6a0bbd698098,1944,2026-01-10
+undoubtedly; after all (formal),やはり,やはり,,,ADVERB,,,3,{QUARTET_L01},,ab07c0c5-d528-42f4-b122-26d405aa3609,1945,2026-01-10
+Spirited Away (movie title),千と千尋の神隠し,せんとちひろのかみかくし,,千と千尋の神隠し,PROPER_NOUN,,,,{QUARTET_L01},,9d7b1848-fa03-4d0f-b741-65b168506acf,1946,2026-01-10
+"a work (e.g. film, composition, painting)",作品,さくひん,,作品,NOUN,,,3,{QUARTET_L01},,f5527434-0dd3-4879-ab5a-a52d7e84b3e2,1947,2026-01-10
+Academy Award,アカデミー賞,あかでみーしょう,,アカデミー賞,PROPER_NOUN,,,,{QUARTET_L01},,3836d6b3-7603-44b8-b652-a353ac050724,1948,2026-01-10
+Princess Mononoke (movie title),もののけ姫,もののけひめ,,もののけ姫,PROPER_NOUN,,,,{QUARTET_L01},,e3c7f8dd-c17b-4c9d-b593-fac1a500ee07,1949,2026-01-10
+My Neighbor Totoro (movie title),となりのトトロ,となりのととろ,,,PROPER_NOUN,,,,{QUARTET_L01},,c8141d83-72e7-4b8a-8934-89694ba1fb64,1950,2026-01-10
+story,ストーリー,すとーりー,,,NOUN,,,,{QUARTET_L01},,20194557-4381-4a64-8fee-eed73e4fa0ab,1951,2026-01-10
+"rim, brim; galsses frame",ふち,ふち,,縁,NOUN,,,3,{QUARTET_L01},,ec6fbb41-3077-4446-8358-e64cecc65e22,1952,2026-01-10
+smile,笑顔,えがお,,笑顔,NOUN,,,3,{QUARTET_L01},,7a08d8c7-b3d3-420f-9165-dc4a3f5e0569,1953,2026-01-10
+rubber,ゴム,ごむ,,,NOUN,,,2,{QUARTET_L01},,ba87804b-baf1-4807-8d5a-9215e3007761,1954,2026-01-10
+hard; firm,硬い,かたい,,硬い,ADJECTIVE,I_ADJECTIVE,,4,{QUARTET_L01},,dab26cb0-d3f1-455d-af4f-91f7b49aff24,1955,2026-01-10
+soft,柔らかい,やわらかい,,柔らかい,ADJECTIVE,I_ADJECTIVE,,4,{QUARTET_L01},,3fe73da8-6ba7-4e4d-abeb-5df8e2ebb810,1956,2026-01-10
+only; merely,たった,たった,,,NOUN,,,3,{QUARTET_L01},,f394f698-204f-4c70-b48f-91f62e87faeb,1957,2026-01-10
+second (unit of time),秒,びょう,,秒,NOUN,,,3,{QUARTET_L01},,4ca21e5e-cdac-4ac4-b4c5-85ad30f1778c,1958,2026-01-10
+scene,シーン,しーん,,,NOUN,,,,{QUARTET_L01},,fd3dbf61-4acb-4640-924d-1652eb4f0c57,1959,2026-01-10
+"almost, nearly, mostly",ほとんど,ほとんど,,殆ど,ADVERB,,,,,,9bb92103-8ca5-464d-9e9f-43b5ae6f22f8,1960,2026-01-10
+rarely; hardly,ほとんど～ない,ほとんど～ない,,殆ど〜ない,ADVERB,,,,{QUARTET_L01},,7ba448df-ecf6-4a73-bd03-985a09933750,1961,2026-01-10
+beautiful,美しい,うつくしい,,美しい,ADJECTIVE,I_ADJECTIVE,,4,{QUARTET_L01},,09f8d9c4-5316-4a5b-b483-9dab33cad37a,1962,2026-01-10
+artistic,芸術的,げいじゅつてき,,芸術的,ADJECTIVE,NA_ADJECTIVE,,,{QUARTET_L01},,855c2e0e-2167-491e-81ee-bc3529f5e45a,1963,2026-01-10
+great; wonderful,素晴らしい,すばらしい,,素晴らしい,ADJECTIVE,I_ADJECTIVE,,3,{QUARTET_L01},,f51739b1-40dc-4e61-890d-27b60c6ea23a,1964,2026-01-10
+forever,いつまでも,いつまでも,,,ADVERB,,,,{QUARTET_L01},,4a579390-3ce9-4dd3-80b9-541c7075828a,1965,2026-01-10
+around the world,世界中で,せかいじゅうで,,世界中で,NOUN,,,,{QUARTET_L01},,e308860f-c409-4b05-9acd-47b8618a95a4,1966,2026-01-10
+birthplace,生まれ,うまれ,,生まれ,NOUN,,,3,,,5f227280-5850-4649-b6c4-dceb0e306f93,1967,2026-01-10
+born in...,～生まれ,～うまれ,,～生まれ,SUFFIX,,,,{QUARTET_L01},,e0981e09-719b-4e15-9940-fb87b491d08a,1968,2026-01-10
+one's strong point,得意,とくい,,得意,NOUN,,,3,,,5e2282dc-94ba-455b-aa4b-0afc46d4e39b,1969,2026-01-10
+good at,得意,とくい,,得意,ADJECTIVE,NA_ADJECTIVE,,3,{QUARTET_L01},,83e91ba5-c945-4811-b51f-7f1ae02a8bf1,1970,2026-01-10
+start; impetus,きっかけ,きっかけ,,切っ掛け,NOUN,,,2,{QUARTET_L01},,b0030951-6074-4f1d-a091-b6a77c8254a9,1971,2026-01-10
+Berlin,ベルリン,べるりん,,,PROPER_NOUN,,,,{QUARTET_L01},,6c49ec9a-fd58-45d8-b897-a3677c2ecfaf,1972,2026-01-10
+international,国際,こくさい,,国際,NOUN,,,4,{QUARTET_L01},,6bd6782c-735e-4c6b-9bc1-c52ea2a747b8,1973,2026-01-10
+film festival,映画祭,えいがさい,,映画祭,NOUN,,,,{QUARTET_L01},,c95efd0d-e824-463a-a7c6-d11124fdc059,1974,2026-01-10
+"to put on display, to exibit, to submit (one’s work)",出品する,しゅっぴんする,,出品する,VERB,SURU_VERB,,1,{QUARTET_L01},,619c0ee5-5cd8-4973-b4bb-b650418288f7,1975,2026-01-10
+Academy Honorary Award,アカデミー名誉賞,あかでみーめいよしょう,,,PROPER_NOUN,,,,{QUARTET_L01},,9bb0002e-e3f5-496a-8129-c33c3a78c594,1976,2026-01-10
+to receive an award,受賞する,じゅしょうする,,受賞する,VERB,SURU_VERB,,,{QUARTET_L01},,d27667c5-6cbd-4906-a563-654401984870,1977,2026-01-10
