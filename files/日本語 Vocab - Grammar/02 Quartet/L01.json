@@ -1,0 +1,100 @@
+[
+  {"COMMENT": "QUARTET GRAMMAR REVIEW"},
+  {
+    "id": "e0f55891-190f-42b2-b654-3615c71722f0",
+    "title": "〜らしい",
+    "meaning": "I hear that...; apparently...; it seems that...",
+    "how_to_use": [
+      "adjective + らしい",
+      "noun + らしい",
+      "Used for conjecture based on hearsay.",
+      "This form can only be used at the end of a sentence."
+    ],
+    "examples": [
+      {
+        "id": "be324d8f-7df6-4273-9722-4d7b49cc3a7e",
+        "meaning": "A: This homework, it took as much as 3 hours! Even though it was only one page.<br/>Really, that much?<br/>C: That homework is difficult, apparently.",
+        "text": {
+          "spelling": "A：この{宿題|しゅく・だい}、３{時間|じ・かん}もかかったよ。<br/>１ページだけだったのに……。<br/>B：ええっ、そんなに！<br/>C：あの{宿題|しゅく・だい}はとても{難|むずか}しいらしい。"
+        },
+        "lesson_codes": ["QUARTET_B02"],
+        "tags": []
+      },
+      {
+        "id": "84432563-1a46-4c4a-958d-db3a635670d9",
+        "meaning": "A: As for next semester, I'm thinking I'll live in the dorm.<br/>From Yui-senpai I heard, that place, every week has parties and is lively, apparently!",
+        "text": {
+          "spelling": "A：{来学期|らい・がっ・き}は{寮|りょう}に{住|す}もうと{思|おも}っているんだ。<br/>Ｂ：{唯|ゆい}{先輩|せん・ぱい}から{聞|き}いたんだけど、あそこは{毎週|まい・しゅう}パーティーがあって、{賑|にぎ}やからしいよ。"
+        },
+        "lesson_codes": ["QUARTET_B02"],
+        "tags": []
+      },
+      {
+        "id": "29d90c9a-b2b8-4b75-a306-038787f126c9",
+        "meaning": "According to rumor, those two will get married it seems.",
+        "text": {
+          "spelling": "{噂|うわさ}では、あの{二人|ふたり}は{結婚|けっ・こん}するらしい。"
+        },
+        "lesson_codes": ["QUARTET_B02"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2026-01-11",
+    "lesson_codes": ["QUARTET_B02"],
+    "tags": []
+  },
+  {
+    "id": "69bb36b4-4c92-4991-b391-878448d2edf0",
+    "title": "ＡはＢらしい",
+    "meaning": "A is a perfect example of B.",
+    "how_to_use": [
+      "noun + は + noun + らしい",
+      "Nらしい conjugates as an い-adj."
+    ],
+    "examples": [
+      {
+        "id": "1bf0a694-e387-49d4-a851-b5ce1416f172",
+        "meaning": "A: Today the weather is good.<br/>Truly. It's warm and stereotypically spring like.",
+        "text": {
+          "spelling": "Ａ：{今日|きょう}はいい{天気|てん・き}ですね。<br/>Ｂ：{本当|ほん・とう}に。{暖|あたた}かくて{春|はる}らしいですね。"
+        },
+        "lesson_codes": ["QUARTET_B02"],
+        "tags": []
+      },
+      {
+        "id": "5860ed86-76f0-4d7c-9caa-12375a64d400",
+        "meaning": "Today, it's warm and not typical winter like.",
+        "text": {
+          "spelling": "{今日|きょう}は{暖|あたた}かくて{冬|ふゆ}らしくない{天気|てん・き}だ。"
+        },
+        "lesson_codes": ["QUARTET_B02"],
+        "tags": []
+      },
+      {
+        "id": "90f26d60-24d7-49da-b546-0439085fd6df",
+        "meaning": "My dog doesn't like walks, and is not dog-like.",
+        "text": {
+          "spelling": "うちの{犬|いぬ}は{散歩|さん・ぽ}が{嫌|きら}いで、{犬|いぬ}らしくない。"
+        },
+        "lesson_codes": ["QUARTET_B02"],
+        "tags": []
+      },
+      {
+        "id": "682081e1-5072-4e33-98fb-64c761365f0d",
+        "meaning": "Child: I'm leaving.<br/>Mom: Again your job? If you are a student, in a student-like way (adverb) study (command).",
+        "text": {
+          "spelling": "{子|こ}：いってきます。<br/>{母|はは}：またバイト？{学生|がく・せい}なら{学生|がく・せい}らしく{勉強|べん・きょう}しなさい。"
+        },
+        "lesson_codes": ["QUARTET_B02"],
+        "tags": []
+      }
+    ],
+    "jlpt_level": null,
+    "date_added": "2026-01-11",
+    "lesson_codes": ["QUARTET_B02"],
+    "tags": []
+  },
+
+  {"COMMENT": "QUARTET LESSON 1"}
+]

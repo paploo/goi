@@ -108,6 +108,14 @@ insert into source.lesson (code, lesson_code, source_code, label, section_number
 insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('QUARTET_L11', 'L11', 'QUARTET', 'Lesson 11', 11, null);
 insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('QUARTET_L12', 'L12', 'QUARTET', 'Lesson 12', 12, null);
 
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('QUARTET_B01', 'B01', 'QUARTET', 'Grammar Brush-up 1', 1, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('QUARTET_B02', 'B02', 'QUARTET', 'Grammar Brush-up 2', 2, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('QUARTET_B03', 'B03', 'QUARTET', 'Grammar Brush-up 3', 3, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('QUARTET_B04', 'B04', 'QUARTET', 'Grammar Brush-up 4', 4, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('QUARTET_B05', 'B05', 'QUARTET', 'Grammar Brush-up 5', 5, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('QUARTET_B06', 'B06', 'QUARTET', 'Grammar Brush-up 6', 6, null);
+insert into source.lesson (code, lesson_code, source_code, label, section_number, subsection_number) values ('QUARTET_B07', 'B07', 'QUARTET', 'Grammar Brush-up 7', 7, null);
+
 --
 -- Duolingo
 --
