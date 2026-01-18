@@ -71,7 +71,7 @@
   {
     "id": "8d17fbc2-22e3-40cb-bae5-c58ab1e39742",
     "title": "ＡてもＢ",
-    "meaning": "Even if A, B is true",
+    "meaning": "No matter if A, B is true",
     "how_to_use": [
       "verb (て-form) + も + clause",
       "い-adj (て-form) + も + clause",
@@ -81,7 +81,7 @@
     "examples": [
       {
         "id": "459d99d4-f931-4820-a0cc-e316375c7b95",
-        "meaning": "Even if it rains, we will have a barbecue.",
+        "meaning": "No matter if it rains, we will have a barbecue.",
         "text": {
           "spelling": "{雨|あめ}が{降|ふ}っても、バーベキューをします。"
         },
@@ -90,7 +90,7 @@
       },
       {
         "id": "eed5b49b-f3fc-4247-b655-836187454b13",
-        "meaning": "Even if it is not, I will not turn on the air conditioner.",
+        "meaning": "No matter if it is hot, I will not turn on the air conditioner.",
         "text": {
           "spelling": "{暑|あつ}くても、エアコンをつけません。"
         },
@@ -108,7 +108,7 @@
       },
       {
         "id": "55c6175d-91a7-473e-873e-40d8d1b24e96",
-        "meaning": "Even if it is free, I don't want it.",
+        "meaning": "No matter if it is free, I don't want it.",
         "text": {
           "spelling": "ただでも、{欲|ほ}しくないです。"
         },
@@ -133,7 +133,7 @@
   {
     "id": "f2256483-9e54-41fd-8a96-41d32c8d80b9",
     "title": "ＡなくてもＢ",
-    "meaning": "Even when not A, B is true.",
+    "meaning": "No matter when not A, B is true.",
     "how_to_use": [
       "verb (negative て-form) + も + clause",
       "い-adj (negative て-form) + も + clause",
@@ -143,7 +143,7 @@
     "examples": [
       {
         "id": "4cabfd86-71e8-46a8-99ae-7729defdaefe",
-        "meaning": "Even if the result is not good, please do not be disappointed.",
+        "meaning": "No matter if the result is not good, please do not be disappointed.",
         "text": {
           "spelling": "{結果|けっ・か}がよくなくても、がっかりしないでください。"
         },
