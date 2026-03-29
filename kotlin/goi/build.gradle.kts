@@ -19,7 +19,6 @@ plugins {
     id("nu.studer.jooq") version "10.2"
     id("io.kotest") version "6.0.7"
     id("com.adarshr.test-logger") version "4.0.0"
-    id("application")
 }
 
 group = "net.paploo"
